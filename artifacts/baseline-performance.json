@@ -1,0 +1,13 @@
+{
+  "browser": "155.0.8059.40",
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": [
+    1440,
+    900
+  ],
+  "dpr": 1,
+  "meanMs": 12.639748953974895,
+  "p95Ms": 20.900000000000546,
+  "samples": 239,
+  "errors": []
+}

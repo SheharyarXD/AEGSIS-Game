@@ -1,0 +1,14 @@
+<!doctype html><html><head><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width"><title>AEGIS character verification</title><style>body{margin:0;background:#10131c}canvas{display:block}</style></head><body><script type="module">
+import * as T from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { AegisSuit } from '../src/player/AegisSuit.ts';
+await AegisSuit.loadAssets();
+const renderer=new T.WebGLRenderer({antialias:true});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(1);renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;document.body.append(renderer.domElement);
+const scene=new T.Scene();scene.background=new T.Color('#171e29');const env=new T.PMREMGenerator(renderer);scene.environment=env.fromScene(new RoomEnvironment(),.04).texture;
+const camera=new T.PerspectiveCamera(35,innerWidth/innerHeight,.1,50);camera.position.set(3.9,2.4,6.6);camera.lookAt(0,1.05,0);
+scene.add(new T.HemisphereLight('#bed8ee','#302722',1));const key=new T.DirectionalLight('#fff1da',4);key.position.set(3,5,4);key.castShadow=true;key.shadow.mapSize.set(2048,2048);scene.add(key);const fill=new T.DirectionalLight('#76bfee',2);fill.position.set(-3,3,-2);scene.add(fill);
+const floor=new T.Mesh(new T.PlaneGeometry(30,30),new T.MeshStandardMaterial({color:'#27323b',metalness:.25,roughness:.5}));floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;scene.add(floor);
+const suit=new AegisSuit();scene.add(suit.group);window.suit=suit;window.renderer=renderer;window.scene=scene;window.camera=camera;window.T=T;
+const bones=[];suit.group.updateMatrixWorld(true);suit.model.traverse(o=>{if(o.isBone&&/^(hips|spine[12]|chest|head001|upper_arm[LR]|forearm[LR]|hand[LR]|thigh[LR]|knee[LR]|shin[LR]|foot[LR])$/.test(o.name))bones.push({name:o.name,parent:o.parent.name,position:o.getWorldPosition(new T.Vector3()).toArray(),quaternion:o.getWorldQuaternion(new T.Quaternion()).toArray()})});window.report={bones,scale:suit.model.scale.toArray(),offset:suit.model.position.toArray(),clipNames:suit.clipNames,loadMs:AegisSuit.assetLoadMilliseconds};
+window.renderStill=()=>{scene.updateMatrixWorld(true);renderer.render(scene,camera)};window.renderStill();window.ready=true;
+</script></body></html>

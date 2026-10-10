@@ -1,0 +1,15 @@
+{
+  "browser": "155.0.8059.40",
+  "validation": {
+    "minimumFootHeight": -2.5587171270657905e-16,
+    "root": [
+      0,
+      -1.2437940835952759,
+      0
+    ],
+    "clips": 24,
+    "finiteBoneFailures": [],
+    "ragdollFreeze": true
+  },
+  "errors": []
+}

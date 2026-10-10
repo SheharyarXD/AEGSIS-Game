@@ -1,0 +1,38 @@
+{
+  "data": {
+    "mode": "play",
+    "quality": "HIGH",
+    "frameMs": 14,
+    "meanMs": 11.21328903654485,
+    "p95Ms": 14,
+    "simulationMs": 0.19999998807907104,
+    "drawCalls": 312,
+    "triangles": 411781,
+    "bodies": 1,
+    "activeBodies": 1,
+    "particles": 0,
+    "debris": 0,
+    "broken": 0,
+    "geometries": 47,
+    "textures": 33,
+    "loadingMs": 202.40000000596046,
+    "assetLoadMs": 159.5,
+    "position": [
+      0.0101167568936944,
+      0.2197651386260986,
+      58.0001106262207
+    ],
+    "state": "GROUND",
+    "health": 100,
+    "courseIndex": 0,
+    "stage": "course",
+    "crashes": 0,
+    "throws": 0,
+    "enemyHealth": [],
+    "missiles": 0
+  },
+  "errors": [],
+  "warnings": [
+    "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision"
+  ]
+}

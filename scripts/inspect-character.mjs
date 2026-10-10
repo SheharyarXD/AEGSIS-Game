@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import { AnimationMixer, Box3, Vector3 } from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const data = await fs.readFile('assets-source/godot-tps/player.glb');
+const gltf = await new GLTFLoader().parseAsync(data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength), '');
+const mixer = new AnimationMixer(gltf.scene);
+const action = mixer.clipAction(gltf.animations.find(a => a.name === 'Idle-cycle'));
+action.play(); mixer.update(0.01); gltf.scene.updateMatrixWorld(true);
+const selected = /^(hips|spine[12]|chest|neck|head001|upper_arm[LR]|forearm[LR]|hand[LR]|thigh[LR]|knee[LR]|shin[LR]|foot[LR])$/;
+const bones = [];
+gltf.scene.traverse(o => { if (o.isBone && selected.test(o.name)) bones.push({ name: o.name, position: o.getWorldPosition(new Vector3()).toArray().map(n => +n.toFixed(3)) }); });
+const bounds = new Box3().setFromObject(gltf.scene, true);
+console.log(JSON.stringify({ size: bounds.getSize(new Vector3()).toArray(), min: bounds.min.toArray(), max: bounds.max.toArray(), bones, clips: gltf.animations.filter(a=>!/noexp/i.test(a.name)).map(a=>({name:a.name,duration:a.duration,tracks:a.tracks.length})), mesh: gltf.scene.children.map(o=>({name:o.name,scale:o.scale.toArray()}))},null,2));
