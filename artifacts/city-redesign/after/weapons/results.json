@@ -1,0 +1,191 @@
+[
+  {
+    "name": "glass",
+    "id": 235,
+    "pose": {
+      "building": {
+        "id": 235,
+        "x": 172,
+        "z": -256,
+        "w": 38.1039,
+        "d": 57.1168,
+        "h": 188.16,
+        "assetHeight": 168,
+        "family": "aer_glass",
+        "style": "financial",
+        "district": "financial",
+        "angle": 0,
+        "roof": "roofkit",
+        "damageClass": "full",
+        "category": "landmark",
+        "block": "9:4",
+        "landmark": "Crown Helix",
+        "tile": "9,6"
+      },
+      "point": [
+        180.21410607571187,
+        20.159999999999997,
+        -236.39998352847516
+      ],
+      "eye": [
+        187.21410607571187,
+        23.159999999999997,
+        -198.39998352847516
+      ],
+      "actor": [
+        180.21410607571187,
+        18.159999999999997,
+        -208.39998352847516
+      ]
+    },
+    "before": {
+      "effects": {
+        "scars": 0,
+        "fires": 0,
+        "particles": 0,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 0,
+      "brokenComponents": 0,
+      "activeDebris": 0,
+      "staticDebris": 0,
+      "debrisCap": 16,
+      "maxActivationMs": 0,
+      "states": []
+    },
+    "after": {
+      "architecture": {
+        "effects": {
+          "scars": 10,
+          "fires": 3,
+          "particles": 61,
+          "particleCap": 64
+        },
+        "coldStates": 0,
+        "collapseShowcases": 4,
+        "supportedBuildings": 971,
+        "damagedBuildings": 1,
+        "brokenComponents": 21,
+        "activeDebris": 10,
+        "staticDebris": 9,
+        "debrisCap": 16,
+        "maxActivationMs": 8.899999998509884,
+        "states": [
+          {
+            "id": 235,
+            "family": "aer_glass",
+            "broken": 21,
+            "stage": "local",
+            "colliders": 197
+          }
+        ]
+      },
+      "launches": 2,
+      "beamSeconds": 1.5166666666666662,
+      "mode": "play"
+    },
+    "errors": [],
+    "method": "Actual keyboard L beam (at least 1.5 simulated firing seconds) and F shoulder missiles; no direct damage-stage calls."
+  },
+  {
+    "name": "gothic",
+    "id": 211,
+    "pose": {
+      "building": {
+        "id": 211,
+        "x": -540,
+        "z": -416,
+        "w": 19.1603,
+        "d": 19.1603,
+        "h": 179.36,
+        "assetHeight": 152,
+        "family": "aer_gothic",
+        "style": "gothic",
+        "district": "gothic",
+        "angle": 0,
+        "roof": "roofkit",
+        "damageClass": "full",
+        "category": "landmark",
+        "block": "3:3",
+        "landmark": "Saint Vesper",
+        "tile": "3,4"
+      },
+      "point": [
+        -544.0136548222024,
+        16.4139084148407,
+        -408.60734117435356
+      ],
+      "eye": [
+        -537.0136548222024,
+        19.4139084148407,
+        -370.60734117435356
+      ],
+      "actor": [
+        -544.0136548222024,
+        14.413908414840702,
+        -380.60734117435356
+      ]
+    },
+    "before": {
+      "effects": {
+        "scars": 0,
+        "fires": 0,
+        "particles": 0,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 0,
+      "brokenComponents": 0,
+      "activeDebris": 0,
+      "staticDebris": 0,
+      "debrisCap": 16,
+      "maxActivationMs": 0,
+      "states": []
+    },
+    "after": {
+      "architecture": {
+        "effects": {
+          "scars": 5,
+          "fires": 4,
+          "particles": 64,
+          "particleCap": 64
+        },
+        "coldStates": 0,
+        "collapseShowcases": 4,
+        "supportedBuildings": 971,
+        "damagedBuildings": 2,
+        "brokenComponents": 11,
+        "activeDebris": 8,
+        "staticDebris": 6,
+        "debrisCap": 16,
+        "maxActivationMs": 4.900000000372529,
+        "states": [
+          {
+            "id": 211,
+            "family": "aer_gothic",
+            "broken": 8,
+            "stage": "local",
+            "colliders": 88
+          },
+          {
+            "id": 10149,
+            "family": "city_classicoffice_1",
+            "broken": 3,
+            "stage": "local",
+            "colliders": 87
+          }
+        ]
+      },
+      "launches": 2,
+      "beamSeconds": 1.5333333333333328,
+      "mode": "play"
+    },
+    "errors": [],
+    "method": "Actual keyboard L beam (at least 1.5 simulated firing seconds) and F shoulder missiles; no direct damage-stage calls."
+  }
+]

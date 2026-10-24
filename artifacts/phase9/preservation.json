@@ -1,0 +1,294 @@
+{
+  "checkedAt": "2026-10-18T23:41:38.809Z",
+  "baselineFiles": 223,
+  "unchanged": 201,
+  "changed": [
+    {
+      "file": "src/combat/Encounter.ts",
+      "before": "ffa8192e28b0d10dd90b38d6275349fa712ff9b256a9c58dab1ceb84b16b1cf7",
+      "after": "a72725d9a6483b6199ee3dfe2bfdc9eb4a7c5e8b5bff19757f2c34ff3780f3dc"
+    },
+    {
+      "file": "src/combat/Missiles.ts",
+      "before": "10638748c800bd509759eec3d64f93592d66391aa6e0dd280f2b292879740c47",
+      "after": "b6e7cffc7b33c32b46c70c2021f70deb293af3fb0e17cf9347a3e32f8d90db04"
+    },
+    {
+      "file": "src/config.ts",
+      "before": "f61a24b08e66f8791bf8aeab8fab985dffd4cd2af112d2ac7a1484f69190a66a",
+      "after": "b3e877a799e81c9f5ee360356dd8d492c3d9e097618312035ab9b4929701cd10"
+    },
+    {
+      "file": "src/main.ts",
+      "before": "8007b6616c7e5048ca13b2860f6893a341bb2250da90779fd89de0e9466e1230",
+      "after": "4206585a77bc5643f0785d27598989f45d3d460845158afe48b0acdbfc5d9099"
+    },
+    {
+      "file": "src/world/ArchitectureDestruction.ts",
+      "before": "bb4483ab96735e385d73d67025123927f1539d3a79a9516033e9f0181e50d945",
+      "after": "f717f64d8126e2e6786e77a3763a2bb348f9a69967054bf628bc62f0cef40e18"
+    },
+    {
+      "file": "src/world/City.ts",
+      "before": "0b81c204aa5827b78bd4eca7e2406a411efcfc74082cc9fd4d81927b3f3cecc2",
+      "after": "7d22869858e2769bd260fa330a5b2063adb8a93796146f5009eaa93f08838f10"
+    },
+    {
+      "file": "src/world/environment/ArchitectureImpactEffects.ts",
+      "before": "2014bcbf794829be2dcc2923bda04e6548463b31e6326c45731848acf0a64ef6",
+      "after": "d2db7cbd297add0357b27a6f7f0cdf06a6c9fb7cff56fb85790f1984c043a985"
+    },
+    {
+      "file": "src/world/environment/AssetLibrary.ts",
+      "before": "1ac70848a1ce636abce69a4aae12918875eb8469dcbd312a310aa464df0ff1bd",
+      "after": "8b8ba79899869e3307d0e5b2c6399cef6d56bfcd51ef70ac341e0d917e3ee2af"
+    },
+    {
+      "file": "src/world/environment/EnvironmentMaterials.ts",
+      "before": "d9cacab9e1aa10d31f328aecad87ac45ac3919e18012b87c6926540b784eb617",
+      "after": "ecd318e5c2517c7c23e4e187bebc17b082f41e5e801e81d656438bfaa50f2513"
+    },
+    {
+      "file": "src/world/environment/UrbanSurfaces.ts",
+      "before": "6d00b0de483f39ebf1d01b6fac74e6a483389753e0c01ca7d88f4763fcb7afd0",
+      "after": "d489784a86e33ba761e4419ee4665564bc68ed1d2fde540a3a62de960162ac12"
+    },
+    {
+      "file": "src/world/EnvironmentalDestruction.ts",
+      "before": "56c70c2db2605dcc543c2e8be67a49b8ad06c6f6b79f6141e7cb48c3062c386b",
+      "after": "a64baf65277a1114f6b5a34e1efc7ac236ea60e5ab73fc1c1cf70100a90d94ad"
+    },
+    {
+      "file": "src/world/titan/BreachInteriors.ts",
+      "before": "d1d1045c91a39790bbacd6da65ae4327955769ba3b6420b3978c8fb9059be5ba",
+      "after": "48d116826de3367abf4115309beb8298dedc0715d673d52308f90a13aed40b43"
+    },
+    {
+      "file": "src/world/titan/BreachPlan.ts",
+      "before": "975a2d326a994f1e68b062209f77916e733ece1880429b99eed8dbdfb9e70829",
+      "after": "999cb5d11cac149922b513ff8543b97317ef3fe4ffae2c8473f07cfa14aad91c"
+    },
+    {
+      "file": "src/world/titan/TitanBreakthrough.ts",
+      "before": "956fe2adf365406f5b905182a0854319033547e36b7eda9b02c40207a7e1d5d4",
+      "after": "ba8619323590d974e48dde6c5277ca8d5ad158ca4b9717dce57992d3716eb2d5"
+    },
+    {
+      "file": "src/world/titan/TitanConfig.ts",
+      "before": "5abe42c1e5aae088b8cc557bcf1f690d8f375636aa2e9f7078c449e7a0e0c226",
+      "after": "1093bf9f159b2709797e3b8d249c959151f78be0283baa47d94083f973168f32"
+    },
+    {
+      "file": "src/world/WorldStreaming.ts",
+      "before": "76faf34cb286825fd5c49461444cfe0bd2aabe16954babd645ce719903b8afef",
+      "after": "fcdcb884e659348fce0a53fc4679c7e8ad917db10f43f83f93dc943e4b594147"
+    },
+    {
+      "file": "tests/city-redesign.browser.spec.mjs",
+      "before": "a320fa7f152712900261ed28367c72d78b17bfd3e09970bdd6935c89df4e4d13",
+      "after": "7ded672f537a283fdea3bcdfae721a76e357cd52a2660888aff0903a92f1d4b4"
+    },
+    {
+      "file": "tests/phase8.browser.spec.mjs",
+      "before": "d406fa71ea049d0a4850e38b5530ca1e2f6f829dec4947355576a6055923139c",
+      "after": "97ace2a68d339d9aadc716354d8e3a053480498e7e20da16b847533a6db3708b"
+    },
+    {
+      "file": "tests/phase8.test.ts",
+      "before": "e116c39ffb6b18b0e89be08deb4265320f62dac82e19e2ddfb007f90a8b24be0",
+      "after": "00d1a3251b1f1a93f605f0f0ecbfaa4c8b02e7ca607d7cea87607a7b17a438d0"
+    },
+    {
+      "file": "docs/PHASE8-CODEX-TO-CLAUDE-HANDOFF.md",
+      "before": "65d29a4ba916dda3316a5f3e546f452e90d1cbadd65d4781b928c749a5b487ab",
+      "after": "aa6daf8561f45c929443ed61b0127e0e8dd15bc424e0b3537cbdcbeb631d250b"
+    },
+    {
+      "file": "package.json",
+      "before": "c5c6b3550f821308f6ca18003fe2c0f8ef0ab8760fb263286322ef0213fba0a2",
+      "after": "a0381f9a4e3f55e41d0749adda0d994cd920be201a5d8c782ec056ab336ef053"
+    },
+    {
+      "file": "README.md",
+      "before": "cd0e38262099be2d3c785c9052c6c19b69645cc1a38a925b00a43b5b7af1e2b0",
+      "after": "fbe587b0ec3ffb5c5dc041bb23c811dcdebff4efaa67e98bcf36f9a04e231010"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "file": "src/audio/AudioSystem.ts",
+      "sha256": "42184a1bb6e231bdb1f2edb9cebb3c88ae94cd8dd45f0fc969800344946e3301",
+      "unchanged": true
+    },
+    {
+      "file": "src/camera/CameraRig.ts",
+      "sha256": "ff044d80abf2cd427b78eb074c8069cb02bb41cd99ebe497cddd70dc7790d2d1",
+      "unchanged": true
+    },
+    {
+      "file": "src/input/InputController.ts",
+      "sha256": "261050eb8fbb7aab000dbf1634f039a3e4af698ac534452af6eaf035a34815ec",
+      "unchanged": true
+    },
+    {
+      "file": "src/physics/PhysicsWorld.ts",
+      "sha256": "c9c05c5a9b7f5143049eb25d010bbedcbce53e8be9c2fe2bcb6bee38e0adf3a2",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisIdentity.ts",
+      "sha256": "abae0c66f506c13201e3e2a002153ca7a362dd2a633dc14bf59a3e974cc5c36c",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisMarkII.ts",
+      "sha256": "a2c79ddb055e113a7830b6ef34a9c34afe5757c38f00757d45b94e9bbcac67ef",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisSuit.ts",
+      "sha256": "bf7cf8c42dc7104e84a8114c1bad0611107c87241462e316e540a8b6aac85533",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/assemblyManifest.ts",
+      "sha256": "c19e30e1d0cca6bd487ec72a0af04f3ffea8bbba806547bb51e550b08396276d",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/FlightState.ts",
+      "sha256": "8f20d982b3c8272167794d9ef8af315ad26867693efb0c229bb2a034cfa2e6a4",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/PlayerController.ts",
+      "sha256": "6a31cd58e6b06e03e33555597103c0dc7850bd8bc77787c0f0e97cb3b0134b68",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/SuitAssembly.ts",
+      "sha256": "4b219e42bce7bd1fad92f9b4c5f13c540909176379c935300d9566afc342678e",
+      "unchanged": true
+    },
+    {
+      "file": "src/ui/Hud.ts",
+      "sha256": "7c01cd27e0593aa32aa38b36b7f8dc875a9dde4c994740d3e22bb442f0416f0c",
+      "unchanged": true
+    }
+  ],
+  "originalAssets": [
+    {
+      "file": "art/external/art_deco_citadel.glb",
+      "bytes": 36318512,
+      "sha256": "b852e65595f4d9816a8627ceab50e7de21eabb61f979b85b546f6ffe8c2c7577",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/Downtown City MegaKit[Standard].zip",
+      "bytes": 234753092,
+      "sha256": "5b1a945576d54cdbb4ccc9c3d52711e6d530da74c74c586407ecc28b165335da",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/downtown_buildings_set_-_low_poly_model.glb",
+      "bytes": 31354920,
+      "sha256": "073df274ae856ecf64bafc2173d54666f62d1dfe4c32a6f3a59b04f9586ffa02",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/free_london_skyscraper.glb",
+      "bytes": 46107920,
+      "sha256": "f873b1447db97dd3029a3b4588318f60157f3c22152a2c0561399ca326bff4a2",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/gothic_architectural_structures.glb",
+      "bytes": 17184512,
+      "sha256": "417dc69a55a53ee25560118c2ed380035c10d4064a5949f53b570c24721b9eeb",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/gothic_building_for_aria_pack_1.0.glb",
+      "bytes": 56280628,
+      "sha256": "682bc3d9a8235c1f764b138cea7b660ae017634e922584996e2dea303475351a",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/industrial_asset_pack_free.glb",
+      "bytes": 34493144,
+      "sha256": "271cfa2cc8290181f6f30f45096e00209ecc1a26fd163ba21e45d6f8f712dde7",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/industrial_buildings_set_-_low_poly_models.glb",
+      "bytes": 22173880,
+      "sha256": "944e00eba19feb2f12c181cd78df6e54549d66d0b9a41d112df355fbfae3005c",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/mega_moduler_apartment_building.glb",
+      "bytes": 60365888,
+      "sha256": "08b71609a1102eb29f1e4c880d15b27e1c4eab586a89a5bf1569395df4b9c358",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/modern_city_block.glb",
+      "bytes": 25320800,
+      "sha256": "28694dd37f81873745ad6c1a23a9e00cd777033b85ed862c2cde89e2728bbcf5",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/pbr_street_props_pack_game_ready.glb",
+      "bytes": 54770212,
+      "sha256": "856bc3f5d6f00762600280e712de67328be4618f100563f69f3e7583da91c941",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/rooftop_ventilation_modular_kit.glb",
+      "bytes": 30886732,
+      "sha256": "48b6e6ba7fa707bd01219e526a640344d1b06ee3f5ee6640ce93c51804925056",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/scifi_gothic_building_pack-_bridge.glb",
+      "bytes": 64062808,
+      "sha256": "6889cb7c4faea430ef6e8c32be4e9c38bd8f4e6a439c92012a4e230f2e9c1352",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/singapore_office_skyscraper_free.glb",
+      "bytes": 9638372,
+      "sha256": "b4a3b40029908f8289223df5c435f510262feda4b65f068b484784bdd9682bbc",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/urban_modular_environment.glb",
+      "bytes": 70676880,
+      "sha256": "7bccd2ba4e1a5d7c5c0dc73b90f4c8436dd6eb8c526ab281106eb623d2ec6225",
+      "unchanged": true
+    }
+  ],
+  "sourceFamilies": 25,
+  "newFiles": [
+    "src/world/titan/TitanBreachBarrage.ts",
+    "src/world/titan/CollapsePresentation.ts",
+    "src/world/titan/LivingBlock.ts",
+    "tests/phase9.test.ts",
+    "tests/phase9.browser.spec.mjs",
+    "playwright.phase9.config.mjs",
+    "scripts/phase9-live-acceptance.mjs",
+    "scripts/phase9-destruction-performance.mjs",
+    "scripts/phase9-offline-audit.mjs",
+    "docs/PHASE9-PLAN.md",
+    "art/environment/phase9/build_phase9.py",
+    "art/environment/phase9/demolition-and-living-block.blend",
+    "public/assets/environment/metropolis/phase9-demolition-kit.glb",
+    "public/assets/environment/metropolis/phase9-demolition-kit-optimized.glb",
+    "public/assets/environment/metropolis/PHASE9-LICENSES.txt",
+    "scripts/phase9-report.mjs",
+    "scripts/phase9-performance-matrix.ps1",
+    "scripts/phase9-before-streets.mjs",
+    "scripts/phase9-optimize-kit.mjs",
+    "docs/PHASE9-CODEX-TO-CLAUDE-HANDOFF.md"
+  ]
+}

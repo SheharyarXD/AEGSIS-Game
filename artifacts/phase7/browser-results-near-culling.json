@@ -1,0 +1,277 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.phase7.config.mjs",
+      "-g",
+      "all districts, precipitation|repeated cross-city|source damage opens|rooftop landing and swept"
+    ],
+    "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\playwright.phase7.config.mjs",
+    "rootDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/artifacts/phase7/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs",
+          "architecture.browser.spec.mjs"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase7\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\tests",
+        "snapshotDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs",
+          "architecture.browser.spec.mjs"
+        ],
+        "timeout": 120000,
+        "use": {
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "baseURL": "http://127.0.0.1:5193",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/phase7/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm.cmd run dev -- --host 127.0.0.1 --port 5193 --strictPort",
+      "url": "http://127.0.0.1:5193",
+      "reuseExistingServer": false,
+      "timeout": 45000
+    }
+  },
+  "suites": [
+    {
+      "title": "architecture.browser.spec.mjs",
+      "file": "architecture.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "source damage opens collision, survives tile eviction and resets without debris or collider leaks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16270,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T20:37:57.390Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dc940c82bf71751f79d9-d4ec2b4afcbe9ee5be62",
+          "file": "architecture.browser.spec.mjs",
+          "line": 13,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "environment.browser.spec.mjs",
+      "file": "environment.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all districts, precipitation, sky and material shaders render without errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9682,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T20:38:13.925Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-cbe903c5b88779e60d0a",
+          "file": "environment.browser.spec.mjs",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "repeated cross-city traversal and restarts keep GPU and physics resources bounded",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9074,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T20:38:23.621Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-7246d1ede3dc81f69a19",
+          "file": "environment.browser.spec.mjs",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "rooftop landing and swept fast flight work with authored buildings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6884,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T20:38:32.705Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-c52dde3fa74a76928770",
+          "file": "environment.browser.spec.mjs",
+          "line": 36,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-11T20:37:56.001Z",
+    "duration": 44005.717,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

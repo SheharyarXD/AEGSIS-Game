@@ -1,0 +1,696 @@
+{
+  "aer_glass": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "8": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-8",
+        "width": 512,
+        "height": 512,
+        "compressedBytes": 349552
+      },
+      "9": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-9",
+        "width": 512,
+        "height": 512,
+        "compressedBytes": 349552
+      },
+      "10": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-10",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "11": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-11",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "12": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-12",
+        "width": 256,
+        "height": 256,
+        "compressedBytes": 87408
+      },
+      "13": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-13",
+        "width": 256,
+        "height": 256,
+        "compressedBytes": 87408
+      },
+      "14": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-14",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "15": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-15",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "16": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-16",
+        "width": 256,
+        "height": 256,
+        "compressedBytes": 87408
+      },
+      "17": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-17",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "18": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "19": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-19",
+        "width": 512,
+        "height": 512,
+        "compressedBytes": 349552
+      },
+      "20": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-20",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "21": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-21",
+        "width": 256,
+        "height": 256,
+        "compressedBytes": 87408
+      },
+      "22": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-22",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "23": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-23",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "24": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-24",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "25": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-25",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "26": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-26",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "27": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-27",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "28": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-28",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "29": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-29",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "30": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-30",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "31": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-31",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "32": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-32",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "33": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-33",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "34": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-34",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "35": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-35",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "36": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-36",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "37": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-37",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "38": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-38",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "39": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-39",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "40": {
+        "url": "/assets/environment/premium/provided/textures/aer_glass-40",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_london_Building_Elements_Trim": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Building_Facade": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Building_Maintenance_Unit": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-8",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-8",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Concrete_Pillar": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-10",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-11",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-11",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-9",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        }
+      },
+      "src_london_Flare_Red": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-13",
+          "width": 256,
+          "height": 256,
+          "compressedBytes": 87408
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-12",
+          "width": 256,
+          "height": 256,
+          "compressedBytes": 87408
+        }
+      },
+      "src_london_Furniture": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-15",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-14",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Glass_Generic": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-17",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Glass_Generic_More_Opaque": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-17",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Glass_Lobby": {
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-18",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Glass_Railing": {},
+      "src_london_Interior_Blinds": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-20",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-21",
+          "width": 256,
+          "height": 256,
+          "compressedBytes": 87408
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-21",
+          "width": 256,
+          "height": 256,
+          "compressedBytes": 87408
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-19",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        }
+      },
+      "src_london_Interior_Top": {
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-22",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Lobby_Curtains": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-25",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-24",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-23",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Lobby_Floor": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-28",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-29",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-29",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-27",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-26",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Lobby_Furniture": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-32",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-33",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-33",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-31",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-30",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Lobby_Interior_1": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-36",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-37",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-37",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-35",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-34",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_london_Top_Piece": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-39",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-40",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-40",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_glass-38",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "aer_gothic": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  }
+}

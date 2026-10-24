@@ -3,7 +3,9 @@
     "argv": [
       "C:\\Program Files\\nodejs\\node.exe",
       "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\node_modules\\@playwright\\test\\cli.js",
-      "test"
+      "test",
+      "-g",
+      "hardware frame measurement"
     ],
     "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\playwright.config.mjs",
     "rootDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
@@ -107,176 +109,6 @@
       "line": 0,
       "specs": [
         {
-          "title": "menu, real input traversal, takeoff, braking, pause and resume",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 9072,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-10-10T05:26:00.330Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "aed1748819d3efb96fac-6f3b9e8df2e5fef522b5",
-          "file": "browser.spec.mjs",
-          "line": 8,
-          "column": 1
-        },
-        {
-          "title": "heavy punch transfers to jointed ragdoll, wall collision, then recovers",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 8276,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-10-10T05:26:09.575Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "aed1748819d3efb96fac-f0b21350c3d832f20685",
-          "file": "browser.spec.mjs",
-          "line": 22,
-          "column": 1
-        },
-        {
-          "title": "grab, throw, persistent fracture and restart body cleanup",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3878,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-10-10T05:26:17.863Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "aed1748819d3efb96fac-f5103f58b9d338ad2d98",
-          "file": "browser.spec.mjs",
-          "line": 33,
-          "column": 1
-        },
-        {
-          "title": "flight collision crashes into physical ragdoll and returns control",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 8194,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-10-10T05:26:21.751Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "aed1748819d3efb96fac-7d24ded7c2553c25c89c",
-          "file": "browser.spec.mjs",
-          "line": 43,
-          "column": 1
-        },
-        {
-          "title": "mission transitions, missiles, boss phases, finisher and clean restart",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 16348,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-10-10T05:26:29.955Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "aed1748819d3efb96fac-049c74b906dbca287762",
-          "file": "browser.spec.mjs",
-          "line": 50,
-          "column": 1
-        },
-        {
           "title": "hardware frame measurement and bounded repeated restart",
           "ok": true,
           "tags": [],
@@ -292,12 +124,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11136,
+                  "duration": 13977,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-10T05:26:46.316Z",
+                  "startTime": "2026-10-11T04:29:46.564Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -315,9 +147,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-10T05:25:59.922Z",
-    "duration": 57677.85,
-    "expected": 6,
+    "startTime": "2026-10-11T04:29:45.262Z",
+    "duration": 15660.769,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

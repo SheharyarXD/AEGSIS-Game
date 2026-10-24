@@ -1,0 +1,7510 @@
+[
+  {
+    "file": "art_deco_citadel.glb",
+    "bytes": 36318512,
+    "sha256": "b852e65595f4d9816a8627ceab50e7de21eabb61f979b85b546f6ffe8c2c7577",
+    "asset": {
+      "extras": {
+        "author": "Samuel Francis Johnson (Oneironauticus) (https://sketchfab.com/oneironauticus)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/art-deco-citadel-80898b00703f4fbd9a0622c90193032a",
+        "title": "Art Deco Citadel"
+      },
+      "generator": "Sketchfab-15.68.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "extras": null,
+    "nodes": 5,
+    "meshes": 1,
+    "materials": [
+      {
+        "name": "Material.001",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "root",
+      "GLTF_SceneRootNode",
+      "ArtDecoBuilding_0"
+    ],
+    "triangles": 33694
+  },
+  {
+    "file": "Downtown City MegaKit[Standard].zip",
+    "bytes": 234753092,
+    "sha256": "5b1a945576d54cdbb4ccc9c3d52711e6d530da74c74c586407ecc28b165335da",
+    "contents": [
+      {
+        "name": "License_Standard.txt",
+        "size": 847
+      },
+      {
+        "name": "Preview_1.jpg",
+        "size": 510040
+      },
+      {
+        "name": "Preview_2.jpg",
+        "size": 586856
+      },
+      {
+        "name": "Preview_3.jpg",
+        "size": 505075
+      },
+      {
+        "name": "Exports/",
+        "size": 0
+      },
+      {
+        "name": "Exports/FBX (Unity)/",
+        "size": 0
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_90Angle_L.fbx",
+        "size": 23740
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_90Angle_R.fbx",
+        "size": 23772
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_BottomTrim.fbx",
+        "size": 28748
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Column_RedBricks.fbx",
+        "size": 29164
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Column_Small.fbx",
+        "size": 21196
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Column_TrimBricks.fbx",
+        "size": 30572
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_CornerColumn_Bottom.fbx",
+        "size": 26652
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_CornerColumn_Cap.fbx",
+        "size": 27036
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_CornerColumn_CapShort.fbx",
+        "size": 21948
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_CornerColumn_Center.fbx",
+        "size": 21900
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_CornerColumn_Center_Half.fbx",
+        "size": 22460
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_CornerColumn_Top.fbx",
+        "size": 26636
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Corner_Plain.fbx",
+        "size": 23788
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_HalfColumn_Bottom.fbx",
+        "size": 26236
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_HalfColumn_Center.fbx",
+        "size": 21548
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_HalfColumn_Top.fbx",
+        "size": 26540
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_HalfTrim.fbx",
+        "size": 27340
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Inset.fbx",
+        "size": 28700
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Inset_Window.fbx",
+        "size": 42220
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Inset_Window_Curved.fbx",
+        "size": 47356
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Inset_Window_Curved_Small.fbx",
+        "size": 43724
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_InteriorWall_1.fbx",
+        "size": 20652
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_InteriorWall_3.fbx",
+        "size": 20780
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_InteriorWall_4.fbx",
+        "size": 20780
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Ornament_Horizontal.fbx",
+        "size": 27452
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Plain_1.fbx",
+        "size": 23276
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Plain_3.fbx",
+        "size": 23276
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Plain_3_noWear.fbx",
+        "size": 23276
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Plain_4.fbx",
+        "size": 23356
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_RedWhite_DoubleWindow.fbx",
+        "size": 54380
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_TopTrim.fbx",
+        "size": 27420
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_TopTrim_90Angle_L.fbx",
+        "size": 27868
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_TopTrim_90Angle_R.fbx",
+        "size": 27836
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_TopTrim_Corner.fbx",
+        "size": 27500
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Window_CurvedDouble.fbx",
+        "size": 62428
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Window_Square_Single.fbx",
+        "size": 35324
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Window_Trim.fbx",
+        "size": 47324
+      },
+      {
+        "name": "Exports/FBX (Unity)/Brick_Window_Trim_Single.fbx",
+        "size": 41516
+      },
+      {
+        "name": "Exports/FBX (Unity)/Building_Large_2.fbx",
+        "size": 841452
+      },
+      {
+        "name": "Exports/FBX (Unity)/Building_Medium_2_001.fbx",
+        "size": 627532
+      },
+      {
+        "name": "Exports/FBX (Unity)/Building_Small_1.fbx",
+        "size": 440924
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Brick_90Angle_L.fbx",
+        "size": 21420
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Brick_90Angle_R.fbx",
+        "size": 21388
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Brick_Center.fbx",
+        "size": 20940
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Brick_L.fbx",
+        "size": 20876
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Brick_R.fbx",
+        "size": 20876
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Metal_90Angle_L.fbx",
+        "size": 23516
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Metal_90Angle_R.fbx",
+        "size": 23548
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Metal_Center.fbx",
+        "size": 21772
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Metal_L.fbx",
+        "size": 23580
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Metal_R.fbx",
+        "size": 23580
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Trim_90Angle_L.fbx",
+        "size": 27212
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Trim_90Angle_R.fbx",
+        "size": 27148
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Trim_Center.fbx",
+        "size": 23916
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Trim_L.fbx",
+        "size": 24748
+      },
+      {
+        "name": "Exports/FBX (Unity)/Cornice_Trim_R.fbx",
+        "size": 24684
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_ArrowForwardLeft.fbx",
+        "size": 19532
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_ArrowForwardRight.fbx",
+        "size": 19532
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_ArrowStraight.fbx",
+        "size": 19148
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_ArrowTurnLeft.fbx",
+        "size": 19244
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_ArrowTurnRight.fbx",
+        "size": 19692
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Bikelane.fbx",
+        "size": 19324
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_BrokenLine_Straight.fbx",
+        "size": 19660
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Crosswalk.fbx",
+        "size": 19148
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Crosswalk_Wide.fbx",
+        "size": 19324
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Curve_2Lane_Stripe.fbx",
+        "size": 20508
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Curve_4LaneShort.fbx",
+        "size": 20908
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Curve_4LaneShort_DoubleYellow.fbx",
+        "size": 20908
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Curve_4LaneShort_Stripe.fbx",
+        "size": 20940
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_DoubleYellow_Straight.fbx",
+        "size": 19164
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Only.fbx",
+        "size": 19132
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Slow.fbx",
+        "size": 19132
+      },
+      {
+        "name": "Exports/FBX (Unity)/Decal_Stop.fbx",
+        "size": 19132
+      },
+      {
+        "name": "Exports/FBX (Unity)/DoorFrame_Metal_Single.fbx",
+        "size": 27292
+      },
+      {
+        "name": "Exports/FBX (Unity)/DoorFrame_Trim.fbx",
+        "size": 55564
+      },
+      {
+        "name": "Exports/FBX (Unity)/DoorFrame_Wooden.fbx",
+        "size": 33644
+      },
+      {
+        "name": "Exports/FBX (Unity)/Door_1.fbx",
+        "size": 38572
+      },
+      {
+        "name": "Exports/FBX (Unity)/Door_2.fbx",
+        "size": 27596
+      },
+      {
+        "name": "Exports/FBX (Unity)/Door_3.fbx",
+        "size": 29804
+      },
+      {
+        "name": "Exports/FBX (Unity)/Entrance_Concrete_2x1.fbx",
+        "size": 20828
+      },
+      {
+        "name": "Exports/FBX (Unity)/Entrance_Concrete_2x2.fbx",
+        "size": 20796
+      },
+      {
+        "name": "Exports/FBX (Unity)/Floor_2x2.fbx",
+        "size": 23452
+      },
+      {
+        "name": "Exports/FBX (Unity)/Floor_4x4.fbx",
+        "size": 24348
+      },
+      {
+        "name": "Exports/FBX (Unity)/Floor_Inset.fbx",
+        "size": 24028
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Column_Bottom.fbx",
+        "size": 23500
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Column_Center.fbx",
+        "size": 21100
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Column_Small_Bottom.fbx",
+        "size": 23676
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Column_Small_Center.fbx",
+        "size": 21100
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Column_Small_Top.fbx",
+        "size": 24332
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Column_Top.fbx",
+        "size": 24316
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_FirstFloor_Wall.fbx",
+        "size": 29244
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_FirstFloor_Wall_1.fbx",
+        "size": 24652
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_FirstFloor_Window.fbx",
+        "size": 35708
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_FullWindow.fbx",
+        "size": 28732
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Plain_1.fbx",
+        "size": 24540
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Plain_3.fbx",
+        "size": 25020
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Window.fbx",
+        "size": 42620
+      },
+      {
+        "name": "Exports/FBX (Unity)/Metal_Window_Half.fbx",
+        "size": 33692
+      },
+      {
+        "name": "Exports/FBX (Unity)/Prop_ACUnit.fbx",
+        "size": 25036
+      },
+      {
+        "name": "Exports/FBX (Unity)/Prop_Bollard.fbx",
+        "size": 26988
+      },
+      {
+        "name": "Exports/FBX (Unity)/Prop_Drain.fbx",
+        "size": 20060
+      },
+      {
+        "name": "Exports/FBX (Unity)/Prop_ManholeCover.fbx",
+        "size": 22380
+      },
+      {
+        "name": "Exports/FBX (Unity)/Prop_Planter_Single.fbx",
+        "size": 27276
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_2x2.fbx",
+        "size": 19740
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_2x2_90Angle_Center.fbx",
+        "size": 19756
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_2x2_90Angle_L.fbx",
+        "size": 19916
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_2x2_90Angle_R.fbx",
+        "size": 19916
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_4x4.fbx",
+        "size": 19852
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_SlateCornice_Center.fbx",
+        "size": 28300
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_SlateCornice_Corner.fbx",
+        "size": 27532
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_SlateCornice_InnerCorner.fbx",
+        "size": 29020
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_SlateCornice_Window_1.fbx",
+        "size": 41852
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_Slate_Center.fbx",
+        "size": 24060
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_Slate_Corner.fbx",
+        "size": 22668
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_Slate_InnerCorner.fbx",
+        "size": 24316
+      },
+      {
+        "name": "Exports/FBX (Unity)/Roof_Slate_Window_1.fbx",
+        "size": 41196
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Corner_Flat_3m.fbx",
+        "size": 24012
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Corner_Flat_3m_Stripe.fbx",
+        "size": 20316
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Corner_Round_3m.fbx",
+        "size": 26188
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Corner_Round_3m_Stripe.fbx",
+        "size": 19724
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_NoCurb_3m.fbx",
+        "size": 21452
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Planter.fbx",
+        "size": 36716
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Straight_3m.fbx",
+        "size": 22588
+      },
+      {
+        "name": "Exports/FBX (Unity)/Sidewalk_Straight_3m_Stripe.fbx",
+        "size": 19164
+      },
+      {
+        "name": "Exports/FBX (Unity)/Stairs_Entrance_Concrete.fbx",
+        "size": 27532
+      },
+      {
+        "name": "Exports/FBX (Unity)/Stairs_Rails_Metal.fbx",
+        "size": 32924
+      },
+      {
+        "name": "Exports/FBX (Unity)/Stairs_Rails_Metal_Straight_1.fbx",
+        "size": 23964
+      },
+      {
+        "name": "Exports/FBX (Unity)/Stairs_Rails_Metal_Straight_2.fbx",
+        "size": 26364
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_2Lane.fbx",
+        "size": 33644
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_2Lane_noSidewalk.fbx",
+        "size": 24524
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_4Lane.fbx",
+        "size": 33516
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_4Lane_noSidewalk.fbx",
+        "size": 24412
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_4WayIntersection.fbx",
+        "size": 47708
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Asphalt_6x6.fbx",
+        "size": 19756
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Asphalt_9x9.fbx",
+        "size": 19756
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Asphalt_Curve_2Lane.fbx",
+        "size": 22412
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Asphalt_Curve_4Lane_Short.fbx",
+        "size": 22284
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Curve_2Lane.fbx",
+        "size": 43500
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Curve_2Lane_Curb.fbx",
+        "size": 27996
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Curve_4LaneShort.fbx",
+        "size": 48284
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_Curve_4Lane_Short_Curb.fbx",
+        "size": 30988
+      },
+      {
+        "name": "Exports/FBX (Unity)/Street_TIntersection.fbx",
+        "size": 48012
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_90Angle_TopCover.fbx",
+        "size": 24668
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Column_Bottom.fbx",
+        "size": 26828
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Column_Center.fbx",
+        "size": 21916
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Column_Top.fbx",
+        "size": 27516
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Corner.fbx",
+        "size": 26796
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_FirstFloor_Wall.fbx",
+        "size": 25788
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_FirstFloor_Window_001.fbx",
+        "size": 31756
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_FirstFloor_Window_Columns.fbx",
+        "size": 21516
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Plain_3.fbx",
+        "size": 25292
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Wall_Guard.fbx",
+        "size": 21356
+      },
+      {
+        "name": "Exports/FBX (Unity)/Trim_Window.fbx",
+        "size": 43020
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/",
+        "size": 0
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_90Angle_L.fbx",
+        "size": 24316
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_90Angle_R.fbx",
+        "size": 24332
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_BottomTrim.fbx",
+        "size": 29308
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Column_RedBricks.fbx",
+        "size": 29532
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Column_Small.fbx",
+        "size": 21756
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Column_TrimBricks.fbx",
+        "size": 30988
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_CornerColumn_Bottom.fbx",
+        "size": 27180
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_CornerColumn_Cap.fbx",
+        "size": 27596
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_CornerColumn_CapShort.fbx",
+        "size": 22572
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_CornerColumn_Center.fbx",
+        "size": 22476
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_CornerColumn_Center_Half.fbx",
+        "size": 22972
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_CornerColumn_Top.fbx",
+        "size": 27164
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Corner_Plain.fbx",
+        "size": 24316
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_HalfColumn_Bottom.fbx",
+        "size": 26732
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_HalfColumn_Center.fbx",
+        "size": 22108
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_HalfColumn_Top.fbx",
+        "size": 27020
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_HalfTrim.fbx",
+        "size": 27900
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Inset.fbx",
+        "size": 29212
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Inset_Window.fbx",
+        "size": 42652
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Inset_Window_Curved.fbx",
+        "size": 47932
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Inset_Window_Curved_Small.fbx",
+        "size": 44236
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_InteriorWall_1.fbx",
+        "size": 21164
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_InteriorWall_3.fbx",
+        "size": 21308
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_InteriorWall_4.fbx",
+        "size": 21292
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Ornament_Horizontal.fbx",
+        "size": 27868
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Plain_1.fbx",
+        "size": 23788
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Plain_3.fbx",
+        "size": 23804
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Plain_3_noWear.fbx",
+        "size": 23788
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Plain_4.fbx",
+        "size": 23868
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_RedWhite_DoubleWindow.fbx",
+        "size": 54780
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_TopTrim.fbx",
+        "size": 27964
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_TopTrim_90Angle_L.fbx",
+        "size": 28476
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_TopTrim_90Angle_R.fbx",
+        "size": 28428
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_TopTrim_Corner.fbx",
+        "size": 28044
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Window_CurvedDouble.fbx",
+        "size": 62892
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Window_Square_Single.fbx",
+        "size": 35852
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Window_Trim.fbx",
+        "size": 47820
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Brick_Window_Trim_Single.fbx",
+        "size": 41948
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Building_Large_2.fbx",
+        "size": 849788
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Building_Medium_2_001.fbx",
+        "size": 629852
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Building_Small_1.fbx",
+        "size": 444332
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Brick_90Angle_L.fbx",
+        "size": 21980
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Brick_90Angle_R.fbx",
+        "size": 21948
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Brick_Center.fbx",
+        "size": 21452
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Brick_L.fbx",
+        "size": 21388
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Brick_R.fbx",
+        "size": 21388
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Metal_90Angle_L.fbx",
+        "size": 24012
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Metal_90Angle_R.fbx",
+        "size": 24060
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Metal_Center.fbx",
+        "size": 22348
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Metal_L.fbx",
+        "size": 24092
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Metal_R.fbx",
+        "size": 24060
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Trim_90Angle_L.fbx",
+        "size": 27628
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Trim_90Angle_R.fbx",
+        "size": 27596
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Trim_Center.fbx",
+        "size": 24396
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Trim_L.fbx",
+        "size": 25196
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Cornice_Trim_R.fbx",
+        "size": 25148
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_ArrowForwardLeft.fbx",
+        "size": 20044
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_ArrowForwardRight.fbx",
+        "size": 20044
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_ArrowStraight.fbx",
+        "size": 19660
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_ArrowTurnLeft.fbx",
+        "size": 19756
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_ArrowTurnRight.fbx",
+        "size": 20204
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Bikelane.fbx",
+        "size": 19852
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_BrokenLine_Straight.fbx",
+        "size": 20188
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Crosswalk.fbx",
+        "size": 19660
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Crosswalk_Wide.fbx",
+        "size": 19772
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Curve_2Lane_Stripe.fbx",
+        "size": 21084
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Curve_4LaneShort.fbx",
+        "size": 21516
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Curve_4LaneShort_DoubleYellow.fbx",
+        "size": 21532
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Curve_4LaneShort_Stripe.fbx",
+        "size": 21548
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_DoubleYellow_Straight.fbx",
+        "size": 19676
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Only.fbx",
+        "size": 19660
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Slow.fbx",
+        "size": 19660
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Decal_Stop.fbx",
+        "size": 19660
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/DoorFrame_Metal_Single.fbx",
+        "size": 27836
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/DoorFrame_Trim.fbx",
+        "size": 56156
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/DoorFrame_Wooden.fbx",
+        "size": 34140
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Door_1.fbx",
+        "size": 39148
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Door_2.fbx",
+        "size": 28076
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Door_3.fbx",
+        "size": 30268
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Entrance_Concrete_2x1.fbx",
+        "size": 21372
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Entrance_Concrete_2x2.fbx",
+        "size": 21340
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Floor_2x2.fbx",
+        "size": 23964
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Floor_4x4.fbx",
+        "size": 24892
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Floor_Inset.fbx",
+        "size": 24540
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Column_Bottom.fbx",
+        "size": 24012
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Column_Center.fbx",
+        "size": 21644
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Column_Small_Bottom.fbx",
+        "size": 24188
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Column_Small_Center.fbx",
+        "size": 21644
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Column_Small_Top.fbx",
+        "size": 24844
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Column_Top.fbx",
+        "size": 24796
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_FirstFloor_Wall.fbx",
+        "size": 29820
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_FirstFloor_Wall_1.fbx",
+        "size": 25180
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_FirstFloor_Window.fbx",
+        "size": 36204
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_FullWindow.fbx",
+        "size": 29212
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Plain_1.fbx",
+        "size": 25036
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Plain_3.fbx",
+        "size": 25564
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Window.fbx",
+        "size": 43116
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Metal_Window_Half.fbx",
+        "size": 34172
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Prop_ACUnit.fbx",
+        "size": 25484
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Prop_Bollard.fbx",
+        "size": 27532
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Prop_Drain.fbx",
+        "size": 20588
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Prop_ManholeCover.fbx",
+        "size": 22876
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Prop_Planter_Single.fbx",
+        "size": 27788
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_2x2.fbx",
+        "size": 20252
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_2x2_90Angle_Center.fbx",
+        "size": 20268
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_2x2_90Angle_L.fbx",
+        "size": 20428
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_2x2_90Angle_R.fbx",
+        "size": 20428
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_4x4.fbx",
+        "size": 20380
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_SlateCornice_Center.fbx",
+        "size": 28860
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_SlateCornice_Corner.fbx",
+        "size": 28012
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_SlateCornice_InnerCorner.fbx",
+        "size": 29596
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_SlateCornice_Window_1.fbx",
+        "size": 42364
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_Slate_Center.fbx",
+        "size": 24572
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_Slate_Corner.fbx",
+        "size": 23228
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_Slate_InnerCorner.fbx",
+        "size": 24844
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Roof_Slate_Window_1.fbx",
+        "size": 41708
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Corner_Flat_3m.fbx",
+        "size": 24492
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Corner_Flat_3m_Stripe.fbx",
+        "size": 20828
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Corner_Round_3m.fbx",
+        "size": 26476
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Corner_Round_3m_Stripe.fbx",
+        "size": 20252
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_NoCurb_3m.fbx",
+        "size": 21932
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Planter.fbx",
+        "size": 37308
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Straight_3m.fbx",
+        "size": 23116
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Sidewalk_Straight_3m_Stripe.fbx",
+        "size": 19676
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Stairs_Entrance_Concrete.fbx",
+        "size": 28092
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Stairs_Rails_Metal.fbx",
+        "size": 33612
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Stairs_Rails_Metal_Straight_1.fbx",
+        "size": 24492
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Stairs_Rails_Metal_Straight_2.fbx",
+        "size": 26956
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_2Lane.fbx",
+        "size": 34108
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_2Lane_noSidewalk.fbx",
+        "size": 25052
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_4Lane.fbx",
+        "size": 34092
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_4Lane_noSidewalk.fbx",
+        "size": 24940
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_4WayIntersection.fbx",
+        "size": 47772
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Asphalt_6x6.fbx",
+        "size": 20268
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Asphalt_9x9.fbx",
+        "size": 20268
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Asphalt_Curve_2Lane.fbx",
+        "size": 23052
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Asphalt_Curve_4Lane_Short.fbx",
+        "size": 22828
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Curve_2Lane.fbx",
+        "size": 44236
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Curve_2Lane_Curb.fbx",
+        "size": 28636
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Curve_4LaneShort.fbx",
+        "size": 49100
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_Curve_4Lane_Short_Curb.fbx",
+        "size": 31660
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Street_TIntersection.fbx",
+        "size": 48348
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_90Angle_TopCover.fbx",
+        "size": 25196
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Column_Bottom.fbx",
+        "size": 27340
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Column_Center.fbx",
+        "size": 22540
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Column_Top.fbx",
+        "size": 28028
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Corner.fbx",
+        "size": 27276
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_FirstFloor_Wall.fbx",
+        "size": 26300
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_FirstFloor_Window_001.fbx",
+        "size": 32236
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_FirstFloor_Window_Columns.fbx",
+        "size": 22076
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Plain_3.fbx",
+        "size": 25852
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Wall_Guard.fbx",
+        "size": 21932
+      },
+      {
+        "name": "Exports/FBX (Unreal Engine)/Trim_Window.fbx",
+        "size": 43500
+      },
+      {
+        "name": "Exports/glTF (Godot)/",
+        "size": 0
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_90Angle_L.bin",
+        "size": 1876
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_90Angle_L.gltf",
+        "size": 4650
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_90Angle_R.bin",
+        "size": 1876
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_90Angle_R.gltf",
+        "size": 4695
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_BottomTrim.bin",
+        "size": 5512
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_BottomTrim.gltf",
+        "size": 6828
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Column_RedBricks.bin",
+        "size": 32680
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Column_RedBricks.gltf",
+        "size": 2399
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Column_Small.bin",
+        "size": 2752
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Column_Small.gltf",
+        "size": 2333
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Column_TrimBricks.bin",
+        "size": 25628
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Column_TrimBricks.gltf",
+        "size": 4197
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Bottom.bin",
+        "size": 6512
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Bottom.gltf",
+        "size": 5016
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Cap.bin",
+        "size": 8032
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Cap.gltf",
+        "size": 5016
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_CapShort.bin",
+        "size": 4208
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_CapShort.gltf",
+        "size": 2781
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Center.bin",
+        "size": 3520
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Center.gltf",
+        "size": 2776
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Center_Half.bin",
+        "size": 3776
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Center_Half.gltf",
+        "size": 2888
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Top.bin",
+        "size": 6512
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_CornerColumn_Top.gltf",
+        "size": 5008
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Corner_Plain.bin",
+        "size": 1320
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Corner_Plain.gltf",
+        "size": 4623
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfColumn_Bottom.bin",
+        "size": 6184
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfColumn_Bottom.gltf",
+        "size": 4181
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfColumn_Center.bin",
+        "size": 2928
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfColumn_Center.gltf",
+        "size": 2387
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfColumn_Top.bin",
+        "size": 6184
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfColumn_Top.gltf",
+        "size": 4189
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfTrim.bin",
+        "size": 2536
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_HalfTrim.gltf",
+        "size": 6841
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset.bin",
+        "size": 6152
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset.gltf",
+        "size": 6854
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset_Window.bin",
+        "size": 39936
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset_Window.gltf",
+        "size": 9646
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset_Window_Curved.bin",
+        "size": 48768
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset_Window_Curved.gltf",
+        "size": 9650
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset_Window_Curved_Small.bin",
+        "size": 43916
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Inset_Window_Curved_Small.gltf",
+        "size": 10724
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_InteriorWall_1.bin",
+        "size": 220
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_InteriorWall_1.gltf",
+        "size": 2727
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_InteriorWall_3.bin",
+        "size": 440
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_InteriorWall_3.gltf",
+        "size": 2728
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_InteriorWall_4.bin",
+        "size": 440
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_InteriorWall_4.gltf",
+        "size": 2728
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Ornament_Horizontal.bin",
+        "size": 24912
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Ornament_Horizontal.gltf",
+        "size": 2370
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_1.bin",
+        "size": 440
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_1.gltf",
+        "size": 4576
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_3.bin",
+        "size": 612
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_3.gltf",
+        "size": 4157
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_3_noWear.bin",
+        "size": 612
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_3_noWear.gltf",
+        "size": 4171
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_4.bin",
+        "size": 880
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Plain_4.gltf",
+        "size": 4599
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_RedWhite_DoubleWindow.bin",
+        "size": 78292
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_RedWhite_DoubleWindow.gltf",
+        "size": 13012
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim.bin",
+        "size": 1448
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim.gltf",
+        "size": 6806
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim_90Angle_L.bin",
+        "size": 3036
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim_90Angle_L.gltf",
+        "size": 6883
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim_90Angle_R.bin",
+        "size": 3036
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim_90Angle_R.gltf",
+        "size": 6877
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim_Corner.bin",
+        "size": 2224
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_TopTrim_Corner.gltf",
+        "size": 6848
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_CurvedDouble.bin",
+        "size": 84536
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_CurvedDouble.gltf",
+        "size": 9758
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_Square_Single.bin",
+        "size": 17260
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_Square_Single.gltf",
+        "size": 10672
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_Trim.bin",
+        "size": 65232
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_Trim.gltf",
+        "size": 11678
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_Trim_Single.bin",
+        "size": 34952
+      },
+      {
+        "name": "Exports/glTF (Godot)/Brick_Window_Trim_Single.gltf",
+        "size": 10746
+      },
+      {
+        "name": "Exports/glTF (Godot)/Building_Large_2.bin",
+        "size": 3345228
+      },
+      {
+        "name": "Exports/glTF (Godot)/Building_Large_2.gltf",
+        "size": 22880
+      },
+      {
+        "name": "Exports/glTF (Godot)/Building_Medium_2_001.bin",
+        "size": 2443288
+      },
+      {
+        "name": "Exports/glTF (Godot)/Building_Medium_2_001.gltf",
+        "size": 25244
+      },
+      {
+        "name": "Exports/glTF (Godot)/Building_Small_1.bin",
+        "size": 1556100
+      },
+      {
+        "name": "Exports/glTF (Godot)/Building_Small_1.gltf",
+        "size": 27435
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_90Angle_L.bin",
+        "size": 2932
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_90Angle_L.gltf",
+        "size": 2735
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_90Angle_R.bin",
+        "size": 2932
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_90Angle_R.gltf",
+        "size": 2735
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_Center.bin",
+        "size": 660
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_Center.gltf",
+        "size": 2719
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_L.bin",
+        "size": 660
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_L.gltf",
+        "size": 2709
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_R.bin",
+        "size": 660
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Brick_R.gltf",
+        "size": 2709
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_90Angle_L.bin",
+        "size": 8412
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_90Angle_L.gltf",
+        "size": 2612
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_90Angle_R.bin",
+        "size": 8412
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_90Angle_R.gltf",
+        "size": 2612
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_Center.bin",
+        "size": 3060
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_Center.gltf",
+        "size": 2595
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_L.bin",
+        "size": 6192
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_L.gltf",
+        "size": 2611
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_R.bin",
+        "size": 6192
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Metal_R.gltf",
+        "size": 2611
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_90Angle_L.bin",
+        "size": 11680
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_90Angle_L.gltf",
+        "size": 2327
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_90Angle_R.bin",
+        "size": 11680
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_90Angle_R.gltf",
+        "size": 2343
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_Center.bin",
+        "size": 7312
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_Center.gltf",
+        "size": 2303
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_L.bin",
+        "size": 8616
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_L.gltf",
+        "size": 2310
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_R.bin",
+        "size": 8616
+      },
+      {
+        "name": "Exports/glTF (Godot)/Cornice_Trim_R.gltf",
+        "size": 2310
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowForwardLeft.bin",
+        "size": 444
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowForwardLeft.gltf",
+        "size": 1881
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowForwardRight.bin",
+        "size": 444
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowForwardRight.gltf",
+        "size": 1883
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowStraight.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowStraight.gltf",
+        "size": 1871
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowTurnLeft.bin",
+        "size": 216
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowTurnLeft.gltf",
+        "size": 1872
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowTurnRight.bin",
+        "size": 264
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_ArrowTurnRight.gltf",
+        "size": 2082
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Bikelane.bin",
+        "size": 368
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Bikelane.gltf",
+        "size": 1868
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_BrokenLine_Straight.bin",
+        "size": 172
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_BrokenLine_Straight.gltf",
+        "size": 2039
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Crosswalk.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Crosswalk.gltf",
+        "size": 1863
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Crosswalk_Wide.bin",
+        "size": 280
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Crosswalk_Wide.gltf",
+        "size": 1929
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_2Lane_Stripe.bin",
+        "size": 1552
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_2Lane_Stripe.gltf",
+        "size": 2085
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_4LaneShort.bin",
+        "size": 2288
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_4LaneShort.gltf",
+        "size": 2063
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_4LaneShort_DoubleYellow.bin",
+        "size": 2288
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_4LaneShort_DoubleYellow.gltf",
+        "size": 2094
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_4LaneShort_Stripe.bin",
+        "size": 2288
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Curve_4LaneShort_Stripe.gltf",
+        "size": 2099
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_DoubleYellow_Straight.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_DoubleYellow_Straight.gltf",
+        "size": 1856
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Only.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Only.gltf",
+        "size": 1852
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Slow.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Slow.gltf",
+        "size": 1852
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Stop.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Decal_Stop.gltf",
+        "size": 1850
+      },
+      {
+        "name": "Exports/glTF (Godot)/DoorFrame_Metal_Single.bin",
+        "size": 20832
+      },
+      {
+        "name": "Exports/glTF (Godot)/DoorFrame_Metal_Single.gltf",
+        "size": 4713
+      },
+      {
+        "name": "Exports/glTF (Godot)/DoorFrame_Trim.bin",
+        "size": 54600
+      },
+      {
+        "name": "Exports/glTF (Godot)/DoorFrame_Trim.gltf",
+        "size": 7990
+      },
+      {
+        "name": "Exports/glTF (Godot)/DoorFrame_Wooden.bin",
+        "size": 33748
+      },
+      {
+        "name": "Exports/glTF (Godot)/DoorFrame_Wooden.gltf",
+        "size": 3810
+      },
+      {
+        "name": "Exports/glTF (Godot)/Door_1.bin",
+        "size": 43256
+      },
+      {
+        "name": "Exports/glTF (Godot)/Door_1.gltf",
+        "size": 2372
+      },
+      {
+        "name": "Exports/glTF (Godot)/Door_2.bin",
+        "size": 15260
+      },
+      {
+        "name": "Exports/glTF (Godot)/Door_2.gltf",
+        "size": 4722
+      },
+      {
+        "name": "Exports/glTF (Godot)/Door_3.bin",
+        "size": 22884
+      },
+      {
+        "name": "Exports/glTF (Godot)/Door_3.gltf",
+        "size": 4722
+      },
+      {
+        "name": "Exports/glTF (Godot)/Entrance_Concrete_2x1.bin",
+        "size": 1032
+      },
+      {
+        "name": "Exports/glTF (Godot)/Entrance_Concrete_2x1.gltf",
+        "size": 2395
+      },
+      {
+        "name": "Exports/glTF (Godot)/Entrance_Concrete_2x2.bin",
+        "size": 1032
+      },
+      {
+        "name": "Exports/glTF (Godot)/Entrance_Concrete_2x2.gltf",
+        "size": 2391
+      },
+      {
+        "name": "Exports/glTF (Godot)/Floor_2x2.bin",
+        "size": 280
+      },
+      {
+        "name": "Exports/glTF (Godot)/Floor_2x2.gltf",
+        "size": 3641
+      },
+      {
+        "name": "Exports/glTF (Godot)/Floor_4x4.bin",
+        "size": 1376
+      },
+      {
+        "name": "Exports/glTF (Godot)/Floor_4x4.gltf",
+        "size": 4043
+      },
+      {
+        "name": "Exports/glTF (Godot)/Floor_Inset.bin",
+        "size": 528
+      },
+      {
+        "name": "Exports/glTF (Godot)/Floor_Inset.gltf",
+        "size": 4098
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Bottom.bin",
+        "size": 8672
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Bottom.gltf",
+        "size": 2403
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Center.bin",
+        "size": 1376
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Center.gltf",
+        "size": 2394
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Small_Bottom.bin",
+        "size": 8032
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Small_Bottom.gltf",
+        "size": 2417
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Small_Center.bin",
+        "size": 1376
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Small_Center.gltf",
+        "size": 2407
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Small_Top.bin",
+        "size": 10040
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Small_Top.gltf",
+        "size": 2412
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Top.bin",
+        "size": 10040
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Column_Top.gltf",
+        "size": 2400
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FirstFloor_Wall.bin",
+        "size": 3192
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FirstFloor_Wall.gltf",
+        "size": 6566
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FirstFloor_Wall_1.bin",
+        "size": 816
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FirstFloor_Wall_1.gltf",
+        "size": 4482
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FirstFloor_Window.bin",
+        "size": 12840
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FirstFloor_Window.gltf",
+        "size": 9945
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FullWindow.bin",
+        "size": 16028
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_FullWindow.gltf",
+        "size": 6571
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Plain_1.bin",
+        "size": 660
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Plain_1.gltf",
+        "size": 4978
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Plain_3.bin",
+        "size": 1876
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Plain_3.gltf",
+        "size": 5040
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Window.bin",
+        "size": 42884
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Window.gltf",
+        "size": 10718
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Window_Half.bin",
+        "size": 28640
+      },
+      {
+        "name": "Exports/glTF (Godot)/Metal_Window_Half.gltf",
+        "size": 6633
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_ACUnit.bin",
+        "size": 6256
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_ACUnit.gltf",
+        "size": 2376
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_Bollard.bin",
+        "size": 10140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_Bollard.gltf",
+        "size": 2394
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_Drain.bin",
+        "size": 700
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_Drain.gltf",
+        "size": 2149
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_ManholeCover.bin",
+        "size": 4548
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_ManholeCover.gltf",
+        "size": 2198
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_Planter_Single.bin",
+        "size": 9428
+      },
+      {
+        "name": "Exports/glTF (Godot)/Prop_Planter_Single.gltf",
+        "size": 4132
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2.gltf",
+        "size": 2096
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2_90Angle_Center.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2_90Angle_Center.gltf",
+        "size": 2143
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2_90Angle_L.bin",
+        "size": 292
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2_90Angle_L.gltf",
+        "size": 2118
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2_90Angle_R.bin",
+        "size": 292
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_2x2_90Angle_R.gltf",
+        "size": 2118
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_4x4.bin",
+        "size": 560
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_4x4.gltf",
+        "size": 2105
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_Center.bin",
+        "size": 2076
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_Center.gltf",
+        "size": 5827
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_Corner.bin",
+        "size": 5456
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_Corner.gltf",
+        "size": 4132
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_InnerCorner.bin",
+        "size": 3212
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_InnerCorner.gltf",
+        "size": 5984
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_Window_1.bin",
+        "size": 25180
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_SlateCornice_Window_1.gltf",
+        "size": 8826
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_Center.bin",
+        "size": 516
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_Center.gltf",
+        "size": 4037
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_Corner.bin",
+        "size": 3104
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_Corner.gltf",
+        "size": 2345
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_InnerCorner.bin",
+        "size": 860
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_InnerCorner.gltf",
+        "size": 4146
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_Window_1.bin",
+        "size": 23620
+      },
+      {
+        "name": "Exports/glTF (Godot)/Roof_Slate_Window_1.gltf",
+        "size": 8847
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Flat_3m.bin",
+        "size": 6296
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Flat_3m.gltf",
+        "size": 2630
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Flat_3m_Stripe.bin",
+        "size": 724
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Flat_3m_Stripe.gltf",
+        "size": 2063
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Round_3m.bin",
+        "size": 8984
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Round_3m.gltf",
+        "size": 2636
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Round_3m_Stripe.bin",
+        "size": 976
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Corner_Round_3m_Stripe.gltf",
+        "size": 1905
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_NoCurb_3m.bin",
+        "size": 2572
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_NoCurb_3m.gltf",
+        "size": 2356
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Planter.bin",
+        "size": 50708
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Planter.gltf",
+        "size": 4215
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Straight_3m.bin",
+        "size": 4296
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Straight_3m.gltf",
+        "size": 2586
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Straight_3m_Stripe.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Sidewalk_Straight_3m_Stripe.gltf",
+        "size": 1856
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Entrance_Concrete.bin",
+        "size": 7088
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Entrance_Concrete.gltf",
+        "size": 4227
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Rails_Metal.bin",
+        "size": 38904
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Rails_Metal.gltf",
+        "size": 2412
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Rails_Metal_Straight_1.bin",
+        "size": 14448
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Rails_Metal_Straight_1.gltf",
+        "size": 2410
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Rails_Metal_Straight_2.bin",
+        "size": 26880
+      },
+      {
+        "name": "Exports/glTF (Godot)/Stairs_Rails_Metal_Straight_2.gltf",
+        "size": 2412
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_2Lane.bin",
+        "size": 15912
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_2Lane.gltf",
+        "size": 6364
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_2Lane_noSidewalk.bin",
+        "size": 1440
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_2Lane_noSidewalk.gltf",
+        "size": 4301
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_4Lane.bin",
+        "size": 18024
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_4Lane.gltf",
+        "size": 6307
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_4Lane_noSidewalk.bin",
+        "size": 1224
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_4Lane_noSidewalk.gltf",
+        "size": 4275
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_4WayIntersection.bin",
+        "size": 54360
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_4WayIntersection.gltf",
+        "size": 6432
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_6x6.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_6x6.gltf",
+        "size": 2132
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_9x9.bin",
+        "size": 140
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_9x9.gltf",
+        "size": 2136
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_Curve_2Lane.bin",
+        "size": 2064
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_Curve_2Lane.gltf",
+        "size": 2570
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_Curve_4Lane_Short.bin",
+        "size": 2120
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Asphalt_Curve_4Lane_Short.gltf",
+        "size": 2581
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_2Lane.bin",
+        "size": 26216
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_2Lane.gltf",
+        "size": 6437
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_2Lane_Curb.bin",
+        "size": 11952
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_2Lane_Curb.gltf",
+        "size": 2654
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_4LaneShort.bin",
+        "size": 39376
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_4LaneShort.gltf",
+        "size": 6433
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_4Lane_Short_Curb.bin",
+        "size": 17568
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_Curve_4Lane_Short_Curb.gltf",
+        "size": 2653
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_TIntersection.bin",
+        "size": 58668
+      },
+      {
+        "name": "Exports/glTF (Godot)/Street_TIntersection.gltf",
+        "size": 6406
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_90Angle_TopCover.bin",
+        "size": 1100
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_90Angle_TopCover.gltf",
+        "size": 4918
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Column_Bottom.bin",
+        "size": 14456
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Column_Bottom.gltf",
+        "size": 2346
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Column_Center.bin",
+        "size": 4944
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Column_Center.gltf",
+        "size": 2315
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Column_Top.bin",
+        "size": 14456
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Column_Top.gltf",
+        "size": 2354
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Corner.bin",
+        "size": 6024
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Corner.gltf",
+        "size": 4905
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_FirstFloor_Wall.bin",
+        "size": 4356
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_FirstFloor_Wall.gltf",
+        "size": 4920
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_FirstFloor_Window_001.bin",
+        "size": 11712
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_FirstFloor_Window_001.gltf",
+        "size": 7915
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_FirstFloor_Window_Columns.bin",
+        "size": 2496
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_FirstFloor_Window_Columns.gltf",
+        "size": 2586
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Plain_3.bin",
+        "size": 2908
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Plain_3.gltf",
+        "size": 4904
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Wall_Guard.bin",
+        "size": 2784
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Wall_Guard.gltf",
+        "size": 2504
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Window.bin",
+        "size": 48372
+      },
+      {
+        "name": "Exports/glTF (Godot)/Trim_Window.gltf",
+        "size": 10727
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Concrete_Asphalt_BaseColor.png",
+        "size": 988093
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Concrete_BaseColor.png",
+        "size": 1341594
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Concrete_Normal.png",
+        "size": 4416770
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Concrete_ORM.png",
+        "size": 896797
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_dark_interior.png",
+        "size": 325090
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Dirt_BaseColor.png",
+        "size": 2003269
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Dirt_Normal.png",
+        "size": 9650819
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Dirt_ORM.png",
+        "size": 1373373
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_lit_interior_1.png",
+        "size": 395226
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_lit_interior_2.png",
+        "size": 316427
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_MarbleFloor_BaseColor.png",
+        "size": 1095714
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_MarbleFloor_Normal.png",
+        "size": 1382828
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_MarbleFloor_ORM.png",
+        "size": 567860
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_MetalConcrete_BaseColor.png",
+        "size": 1488628
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_MetalConcrete_Normal.png",
+        "size": 4815924
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_MetalConcrete_ORM.png",
+        "size": 1857257
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Ornaments_BaseColor.png",
+        "size": 4776648
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Ornaments_Normal.png",
+        "size": 7172215
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Ornaments_ORM.png",
+        "size": 4548795
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_RedBrick_BaseColor.png",
+        "size": 1732063
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_RedBrick_Normal.png",
+        "size": 7273659
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_RedBrick_ORM.png",
+        "size": 2346959
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_RoofSlate_BaseColor.png",
+        "size": 1483692
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_RoofSlate_Normal.png",
+        "size": 3679324
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_RoofSlate_ORM.png",
+        "size": 3160276
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Street_Decals.png",
+        "size": 2233893
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Trim_BaseColor.png",
+        "size": 4421593
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Trim_Normal.png",
+        "size": 4104873
+      },
+      {
+        "name": "Exports/glTF (Godot)/T_Trim_ORM.png",
+        "size": 2538116
+      },
+      {
+        "name": "Textures/",
+        "size": 0
+      },
+      {
+        "name": "Textures/CM_Dark_Interior_1.HDR",
+        "size": 5391650
+      },
+      {
+        "name": "Textures/CM_Lit_Interior_1.HDR",
+        "size": 6075827
+      },
+      {
+        "name": "Textures/CM_Lit_Interior_2.HDR",
+        "size": 6034705
+      },
+      {
+        "name": "Textures/T_Blinds.png",
+        "size": 810052
+      },
+      {
+        "name": "Textures/T_Concrete_Asphalt_BaseColor.png",
+        "size": 988093
+      },
+      {
+        "name": "Textures/T_Concrete_BaseColor.png",
+        "size": 1341594
+      },
+      {
+        "name": "Textures/T_Concrete_Normal.png",
+        "size": 4416770
+      },
+      {
+        "name": "Textures/T_Concrete_ORM.png",
+        "size": 896797
+      },
+      {
+        "name": "Textures/T_CornerDamage_Normal.png",
+        "size": 2864648
+      },
+      {
+        "name": "Textures/T_Curtains.png",
+        "size": 903068
+      },
+      {
+        "name": "Textures/T_dark_interior.png",
+        "size": 325090
+      },
+      {
+        "name": "Textures/T_Dirt_BaseColor.png",
+        "size": 2003269
+      },
+      {
+        "name": "Textures/T_Dirt_Normal.png",
+        "size": 9650819
+      },
+      {
+        "name": "Textures/T_Dirt_ORM.png",
+        "size": 1373373
+      },
+      {
+        "name": "Textures/T_lit_interior_1.png",
+        "size": 395226
+      },
+      {
+        "name": "Textures/T_lit_interior_2.png",
+        "size": 316427
+      },
+      {
+        "name": "Textures/T_MarbleFloor_BaseColor.png",
+        "size": 1095714
+      },
+      {
+        "name": "Textures/T_MarbleFloor_Normal.png",
+        "size": 1382828
+      },
+      {
+        "name": "Textures/T_MarbleFloor_ORM.png",
+        "size": 567860
+      },
+      {
+        "name": "Textures/T_MetalConcrete_BaseColor.png",
+        "size": 1488628
+      },
+      {
+        "name": "Textures/T_MetalConcrete_Normal.png",
+        "size": 4815924
+      },
+      {
+        "name": "Textures/T_MetalConcrete_ORM.png",
+        "size": 1857257
+      },
+      {
+        "name": "Textures/T_Noise_Drips.png",
+        "size": 586491
+      },
+      {
+        "name": "Textures/T_Ornaments_BaseColor.png",
+        "size": 4776648
+      },
+      {
+        "name": "Textures/T_Ornaments_Normal.png",
+        "size": 7172215
+      },
+      {
+        "name": "Textures/T_Ornaments_ORM.png",
+        "size": 4548795
+      },
+      {
+        "name": "Textures/T_RedBrick_BaseColor.png",
+        "size": 1732063
+      },
+      {
+        "name": "Textures/T_RedBrick_Normal.png",
+        "size": 7273659
+      },
+      {
+        "name": "Textures/T_RedBrick_ORM.png",
+        "size": 2346959
+      },
+      {
+        "name": "Textures/T_RoofSlate_BaseColor.png",
+        "size": 1483692
+      },
+      {
+        "name": "Textures/T_RoofSlate_Normal.png",
+        "size": 3679324
+      },
+      {
+        "name": "Textures/T_RoofSlate_ORM.png",
+        "size": 3160276
+      },
+      {
+        "name": "Textures/T_Street_Decals.png",
+        "size": 2233893
+      },
+      {
+        "name": "Textures/T_Trim_BaseColor.png",
+        "size": 4421593
+      },
+      {
+        "name": "Textures/T_Trim_Normal.png",
+        "size": 4104873
+      },
+      {
+        "name": "Textures/T_Trim_ORM.png",
+        "size": 2538116
+      },
+      {
+        "name": "Textures/Unreal-Normals/",
+        "size": 0
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_Concrete_Normal.png",
+        "size": 3907564
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_CornerDamage_Normal.png",
+        "size": 2510320
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_Dirt_Normal.jpg",
+        "size": 2325358
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_MarbleFloor_Normal.png",
+        "size": 6245811
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_MetalConcrete_Normal.png",
+        "size": 4225872
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_Ornaments_Normal.png",
+        "size": 6366344
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_RedBrick_Normal.png",
+        "size": 6332588
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_RoofSlate_Normal.png",
+        "size": 3224588
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_Sign_Normal.png",
+        "size": 4754003
+      },
+      {
+        "name": "Textures/Unreal-Normals/T_Trim_Normal.png",
+        "size": 3643652
+      }
+    ],
+    "licenseTexts": {
+      "License_Standard.txt": "This is the standard FREE version of the Downtown City MegaKit, which only contains \r\na portion of the models . You can buy the SOURCE version which has all the models and also includes Unity(URP), Unreal Engine and Godot projects\r\nwith collisions and custom shaders for fake interior windows, wear and more already set up.\r\n\r\nYou can get the other versions from the website https://quaternius.com\r\n\r\n-------------------------------------------------------\r\nLicense:\r\nCC0 1.0 Universal (CC0 1.0) \r\nPublic Domain Dedication\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n------------------------------------------------------\r\nModels by @Quaternius\r\nConsider supporting me on Patreon!\r\n\r\nhttps://www.patreon.com/quaternius\r\n\r\n-------------------------------------------------------\r\nJoin the Discord Server:\r\nhttps://discord.gg/vJqnRUYRfT\r\n"
+    }
+  },
+  {
+    "file": "downtown_buildings_set_-_low_poly_model.glb",
+    "bytes": 31354920,
+    "sha256": "073df274ae856ecf64bafc2173d54666f62d1dfe4c32a6f3a59b04f9586ffa02",
+    "asset": {
+      "extras": {
+        "author": "Daniel Zhabotinsky (https://sketchfab.com/DanielZhabotinsky)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/downtown-buildings-set-low-poly-model-7378e7fb9c914c39880d9913a6f4e1d6",
+        "title": "Downtown Buildings Set - Low Poly model"
+      },
+      "generator": "Sketchfab-16.62.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "extras": null,
+    "nodes": 78,
+    "meshes": 43,
+    "materials": [
+      {
+        "name": "Downtown_Facade_FLR_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Brownstone_Firstfloor_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Brownstone_Facade_Flr_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Maskedstuff_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Firstfloor_FLR_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 15
+          },
+          "metallicRoughnessTexture": {
+            "index": 16
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_3",
+        "textures": {
+          "baseColorTexture": {
+            "index": 18
+          },
+          "metallicRoughnessTexture": {
+            "index": 19
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Concrete_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 21
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_8",
+        "textures": {
+          "baseColorTexture": {
+            "index": 23
+          },
+          "metallicRoughnessTexture": {
+            "index": 24
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_6",
+        "textures": {
+          "baseColorTexture": {
+            "index": 26
+          },
+          "metallicRoughnessTexture": {
+            "index": 27
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_7",
+        "textures": {
+          "baseColorTexture": {
+            "index": 29
+          },
+          "metallicRoughnessTexture": {
+            "index": 30
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Modern_Firstfloor_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 32
+          },
+          "metallicRoughnessTexture": {
+            "index": 33
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_International_Side_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 35
+          },
+          "metallicRoughnessTexture": {
+            "index": 36
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_4",
+        "textures": {
+          "baseColorTexture": {
+            "index": 38
+          },
+          "metallicRoughnessTexture": {
+            "index": 39
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Firstfloortrim_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 41
+          },
+          "metallicRoughnessTexture": {
+            "index": 42
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Downtown_Facade_FLR_7_0",
+        "textures": {
+          "baseColorTexture": {
+            "index": 29
+          },
+          "metallicRoughnessTexture": {
+            "index": 30
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "29fcd9d6d1dd46e1addec54fb6650b12.fbx",
+      "RootNode",
+      "Downtown_BrownstoneOffice_1",
+      "Object_4",
+      "Downtown_BrownstoneOffice_2",
+      "Downtown_ClassicOffice_1",
+      "Object_13",
+      "Downtown_Flatiron_1",
+      "Object_18",
+      "Downtown_Mall_1",
+      "Object_22",
+      "Downtown_ModernOffice_2",
+      "Downtown_ModernOffice_3",
+      "Object_29",
+      "Downtown_ModernOffice_4",
+      "Object_33",
+      "Downtown_ModernOffice_5",
+      "Object_38",
+      "Downtown_ModernOffice_5_B",
+      "Object_42",
+      "Downtown_PublicBuilding_1",
+      "Object_46",
+      "Downtown_Residential_2",
+      "Object_50",
+      "Downtown_Residential_3",
+      "Downtown_Residential_4",
+      "Downtown_Brutal_1",
+      "Object_60",
+      "Downtown_ModernOffice_1"
+    ],
+    "triangles": 45560
+  },
+  {
+    "file": "free_london_skyscraper.glb",
+    "bytes": 46107920,
+    "sha256": "f873b1447db97dd3029a3b4588318f60157f3c22152a2c0561399ca326bff4a2",
+    "asset": {
+      "extras": {
+        "author": "99.Miles (https://sketchfab.com/99.Miles)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/free-london-skyscraper-52b73f6ea18a440cb42734840d5edc72",
+        "title": "[FREE] London Skyscraper"
+      },
+      "generator": "Sketchfab-0.13.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_emissive_strength",
+      "KHR_materials_specular",
+      "KHR_materials_clearcoat"
+    ],
+    "extras": null,
+    "nodes": 123,
+    "meshes": 60,
+    "materials": [
+      {
+        "name": "Building_Elements_Trim",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Building_Facade",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Building_Maintenance_Unit",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Color_Pallete",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Concrete_Pillar",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Flare_Red",
+        "textures": {
+          "baseColorTexture": {
+            "index": 15
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Furniture",
+        "textures": {
+          "baseColorTexture": {
+            "index": 17
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Glass_Generic",
+        "textures": {
+          "baseColorTexture": {
+            "index": 19
+          },
+          "metallicRoughnessTexture": {
+            "index": 20
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Glass_Generic_More_Opaque",
+        "textures": {
+          "baseColorTexture": {
+            "index": 19
+          },
+          "metallicRoughnessTexture": {
+            "index": 20
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Glass_Lobby",
+        "textures": {
+          "metallicRoughnessTexture": {
+            "index": 20
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Glass_Railing",
+        "textures": {},
+        "extras": null
+      },
+      {
+        "name": "Interior_Blinds",
+        "textures": {
+          "baseColorTexture": {
+            "index": 22
+          },
+          "metallicRoughnessTexture": {
+            "index": 23
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Interior_Top",
+        "textures": {},
+        "extras": null
+      },
+      {
+        "name": "Lobby_Curtains",
+        "textures": {
+          "baseColorTexture": {
+            "index": 26
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Lobby_Floor",
+        "textures": {
+          "baseColorTexture": {
+            "index": 29
+          },
+          "metallicRoughnessTexture": {
+            "index": 30
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Lobby_Furniture",
+        "textures": {
+          "baseColorTexture": {
+            "index": 33
+          },
+          "metallicRoughnessTexture": {
+            "index": 34
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Lobby_Interior_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 37
+          },
+          "metallicRoughnessTexture": {
+            "index": 38
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Sidewalk_01",
+        "textures": {
+          "baseColorTexture": {
+            "index": 41
+          },
+          "metallicRoughnessTexture": {
+            "index": 42
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Sidewalk_02",
+        "textures": {
+          "baseColorTexture": {
+            "index": 44
+          },
+          "metallicRoughnessTexture": {
+            "index": 45
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Top_Piece",
+        "textures": {
+          "baseColorTexture": {
+            "index": 47
+          },
+          "metallicRoughnessTexture": {
+            "index": 48
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "One_Blackfairs_Skyscraper.fbx",
+      "RootNode",
+      "Building_Elements_Trim",
+      "Building_Facade",
+      "Building_Facade.001",
+      "Building_Facade.002",
+      "Building_Facade.003",
+      "Building_Facade.004",
+      "Building_Facade.005",
+      "Building_Facade.006",
+      "Building_Facade.007",
+      "Building_Facade.008",
+      "Building_Facade.009",
+      "Building_Facade.010",
+      "Building_Facade.011",
+      "Building_Facade.012",
+      "Building_Facade.013",
+      "Building_Facade.014",
+      "Building_Facade.015",
+      "Building_Facade.016",
+      "Building_Facade.017",
+      "Building_Facade.018",
+      "Building_Facade.019",
+      "Building_Facade.020",
+      "Building_Facade.021",
+      "Building_Facade.022",
+      "Building_Maintenance_Unit",
+      "Color_Pallete",
+      "Concrete_Pillar"
+    ],
+    "triangles": 142742
+  },
+  {
+    "file": "gothic_architectural_structures.glb",
+    "bytes": 17184512,
+    "sha256": "417dc69a55a53ee25560118c2ed380035c10d4064a5949f53b570c24721b9eeb",
+    "asset": {
+      "extras": {
+        "author": "Samuel Francis Johnson (Oneironauticus) (https://sketchfab.com/oneironauticus)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gothic-architectural-structures-affc5b590531447788aafc23a011154c",
+        "title": "Gothic Architectural Structures"
+      },
+      "generator": "Sketchfab-15.70.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "extras": null,
+    "nodes": 12,
+    "meshes": 6,
+    "materials": [
+      {
+        "name": "GothCol_BAKED",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bogen_BAKED",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "root",
+      "GLTF_SceneRootNode",
+      "GothCol_0",
+      "GothCol2_1",
+      "GothCol3_2"
+    ],
+    "triangles": 7890
+  },
+  {
+    "file": "gothic_building_for_aria_pack_1.0.glb",
+    "bytes": 56280628,
+    "sha256": "682bc3d9a8235c1f764b138cea7b660ae017634e922584996e2dea303475351a",
+    "asset": {
+      "extras": {
+        "author": "ChamberSu1996 (https://sketchfab.com/chambersu1996)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/gothic-building-for-aria-pack-10-4c00c5e9a9a14388bd58ab9f87f0637b",
+        "title": "Gothic Building For Aria Pack 1.0"
+      },
+      "generator": "Sketchfab-16.82.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_transmission"
+    ],
+    "extras": null,
+    "nodes": 3262,
+    "meshes": 2090,
+    "materials": [
+      {
+        "name": "Dark",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Light",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Glass",
+        "textures": {},
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "bf176b20dbb444a3859da17ffc2f9f3c.fbx",
+      "RootNode",
+      "Barrier",
+      "Barrier.001",
+      "Barrier.002",
+      "Barrier.003",
+      "Barrier.004",
+      "Barrier.005",
+      "Barrier.006",
+      "Barrier.007",
+      "Barrier.008",
+      "Barrier.009",
+      "Barrier.010",
+      "Barrier.011",
+      "Barrier.012",
+      "Barrier.013",
+      "Barrier.014",
+      "Barrier.015",
+      "Barrier.016",
+      "Barrier.017",
+      "Barrier.018",
+      "Barrier.019",
+      "Barrier.020",
+      "Barrier.021",
+      "Barrier.022",
+      "Barrier.023",
+      "Barrier.024",
+      "Barrier.025",
+      "Barrier.026"
+    ],
+    "triangles": 477408
+  },
+  {
+    "file": "industrial_asset_pack_free.glb",
+    "bytes": 34493144,
+    "sha256": "271cfa2cc8290181f6f30f45096e00209ecc1a26fd163ba21e45d6f8f712dde7",
+    "asset": {
+      "extras": {
+        "author": "ForevereQ (https://sketchfab.com/ForevereQ)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/industrial-asset-pack-free-94c5011772a84e8791779b342467f245",
+        "title": "Industrial asset pack (Free)"
+      },
+      "generator": "Sketchfab-16.32.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "extras": null,
+    "nodes": 100,
+    "meshes": 54,
+    "materials": [
+      {
+        "name": "pipe",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "metal",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "wall",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material.003",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material.002",
+        "textures": {
+          "baseColorTexture": {
+            "index": 11
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material.001",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material.004",
+        "textures": {
+          "baseColorTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material.005",
+        "textures": {
+          "baseColorTexture": {
+            "index": 15
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "blok",
+        "textures": {
+          "baseColorTexture": {
+            "index": 17
+          },
+          "metallicRoughnessTexture": {
+            "index": 18
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "beton",
+        "textures": {
+          "baseColorTexture": {
+            "index": 20
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "wirmani",
+        "textures": {
+          "baseColorTexture": {
+            "index": 22
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "wire",
+        "textures": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "pipenow",
+        "textures": {
+          "baseColorTexture": {
+            "index": 26
+          },
+          "metallicRoughnessTexture": {
+            "index": 27
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Sand",
+        "textures": {
+          "baseColorTexture": {
+            "index": 30
+          },
+          "metallicRoughnessTexture": {
+            "index": 31
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "waltxt",
+        "textures": {
+          "baseColorTexture": {
+            "index": 33
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "e4abb8943ff8463cbba33ada61d3d877.fbx",
+      "RootNode",
+      "Cylinder.003",
+      "Cylinder.002",
+      "Cylinder.001",
+      "Cube.051",
+      "Cube.050",
+      "Cube.049",
+      "Cube.042",
+      "Cube.034",
+      "lp.002",
+      "lp.005",
+      "Cylinder.028",
+      "Cylinder.025",
+      "Cylinder.023",
+      "lp.007",
+      "opon.006",
+      "opon.005",
+      "opon.003",
+      "opon",
+      "Cylinder.059",
+      "Cylinder.060",
+      "Cylinder.061",
+      "Cylinder",
+      "Cylinder.062",
+      "Cylinder.063",
+      "Cylinder.064",
+      "Cylinder.065",
+      "Cylinder.066"
+    ],
+    "triangles": 64179
+  },
+  {
+    "file": "industrial_buildings_set_-_low_poly_models.glb",
+    "bytes": 22173880,
+    "sha256": "944e00eba19feb2f12c181cd78df6e54549d66d0b9a41d112df355fbfae3005c",
+    "asset": {
+      "extras": {
+        "author": "Daniel Zhabotinsky (https://sketchfab.com/DanielZhabotinsky)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/industrial-buildings-set-low-poly-models-e0b0d0342be24e6c923319991a2a4d3d",
+        "title": "Industrial Buildings Set - Low poly models"
+      },
+      "generator": "Sketchfab-16.62.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "extras": null,
+    "nodes": 106,
+    "meshes": 49,
+    "materials": [
+      {
+        "name": "Industrial_Facade_Flr_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Roof_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Walls_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Walls_FLR_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Walls_FLR_2_Dif",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Trim_FLR_1_Dif",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Windows_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 15
+          },
+          "metallicRoughnessTexture": {
+            "index": 16
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Trim_FLR_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Maskedstuff_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 18
+          },
+          "metallicRoughnessTexture": {
+            "index": 19
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Bridgemetal_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 21
+          },
+          "metallicRoughnessTexture": {
+            "index": 22
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Industrial_Walls_FLR_4",
+        "textures": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Material_140",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "ec40bb1b79a745edaeb425af3d59dc15.fbx",
+      "RootNode",
+      "Industrial_Building_1",
+      "Object_4",
+      "Industrial_Building_10",
+      "Object_8",
+      "Industrial_Duplex_1",
+      "Object_11",
+      "Industrial_FactoryPlant_1",
+      "Object_15",
+      "Industrial_FactoryPlant_2",
+      "Object_19",
+      "Industrial_GenericBuilding_2",
+      "Object_23",
+      "Industrial_GenericBuilding_3",
+      "Industrial_GenericBuilding_4",
+      "Object_29",
+      "Industrial_Hangar_2",
+      "Object_33",
+      "Industrial_LogisticTerminal_1",
+      "Object_37",
+      "Industrial_OfficeTrailer_1",
+      "Object_41",
+      "Industrial_PortalCrane_2",
+      "Object_45",
+      "Industrial_Radiotower_1",
+      "Industrial_Railroad_Loadbay_Shed_1",
+      "Object_51",
+      "Industrial_Smth_1"
+    ],
+    "triangles": 30626
+  },
+  {
+    "file": "mega_moduler_apartment_building.glb",
+    "bytes": 60365888,
+    "sha256": "08b71609a1102eb29f1e4c880d15b27e1c4eab586a89a5bf1569395df4b9c358",
+    "asset": {
+      "extras": {
+        "author": "Everex (https://sketchfab.com/Everex.agency)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/mega-moduler-apartment-building-b92538b703ac449cbdbfead987f30ce7",
+        "title": "Mega Moduler Apartment Building"
+      },
+      "generator": "Sketchfab-16.67.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "extras": null,
+    "nodes": 655,
+    "meshes": 326,
+    "materials": [
+      {
+        "name": "MI_Modular_Building_Ground_Floor_Kit_vdipcdadw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_Trim_Kit_vdjhfg2dw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_2nd_Floor_Kit_vdkgaandw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 10
+          },
+          "metallicRoughnessTexture": {
+            "index": 11
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_3rd_Floor_Kit_vdiwfgydw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_Flat_Roof_Kit_vdjkbg1dw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 17
+          },
+          "metallicRoughnessTexture": {
+            "index": 18
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_Roof_Kit_vdjxacjdw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 20
+          },
+          "metallicRoughnessTexture": {
+            "index": 21
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Modular_Building_Gable_Kit_vdjlfgodw_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Rough_Asphalt_vh2nfff_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 27
+          },
+          "metallicRoughnessTexture": {
+            "index": 28
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "MI_Seychelles_Beige_Marble_wfrqcjkv_2K",
+        "textures": {
+          "baseColorTexture": {
+            "index": 30
+          },
+          "metallicRoughnessTexture": {
+            "index": 31
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "root",
+      "GLTF_SceneRootNode",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var3_0",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var2_1",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var3_2",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var1_3",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var2_4",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var4_5",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var5_6",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var6_7",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var7_8",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var8_9",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var9_10",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var5_11",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var6_12",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var10_13",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var7_14",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var8_15",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var11_16",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var12_17",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var13_18",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var14_19",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var15_20",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var16_21",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var17_22",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var18_23",
+      "S_Modular_Building_Ground_Floor_Kit_vdipcdadw_lod3_Var19_24",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var9_25",
+      "S_Modular_Building_Ground_Floor_Corner_Kit_vdirfa3dw_lod3_Var10_26"
+    ],
+    "triangles": 441048
+  },
+  {
+    "file": "modern_city_block.glb",
+    "bytes": 25320800,
+    "sha256": "28694dd37f81873745ad6c1a23a9e00cd777033b85ed862c2cde89e2728bbcf5",
+    "asset": {
+      "extras": {
+        "author": "akselmot (https://sketchfab.com/akselmot)",
+        "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+        "source": "https://sketchfab.com/3d-models/modern-city-block-c80dba249d9547cbb48d00828d23cfa7",
+        "title": "Modern City Block"
+      },
+      "generator": "Sketchfab-16.99.0",
+      "version": "2.0"
+    },
+    "extensions": null,
+    "extras": null,
+    "nodes": 73,
+    "meshes": 52,
+    "materials": [
+      {
+        "name": "material",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "material_1",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "material_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "material_3",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "material_4",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "material_5",
+        "textures": {
+          "baseColorTexture": {
+            "index": 15
+          },
+          "metallicRoughnessTexture": {
+            "index": 16
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "material_6",
+        "textures": {
+          "baseColorTexture": {
+            "index": 18
+          },
+          "metallicRoughnessTexture": {
+            "index": 19
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "cbcf30da6c134e06adb61bb08fd62214.fbx",
+      "RootNode",
+      "Plane.057",
+      "Plane.056",
+      "Cube.009",
+      "Cube",
+      "Plane.001",
+      "Plane.036",
+      "Cube.192",
+      "Plane.048",
+      "Cube.002",
+      "dec.001",
+      "markup",
+      "borders",
+      "fences",
+      "bridge",
+      "pillars",
+      "roads",
+      "terrain",
+      "Plane.061"
+    ],
+    "triangles": 61243
+  },
+  {
+    "file": "pbr_street_props_pack_game_ready.glb",
+    "bytes": 54770212,
+    "sha256": "856bc3f5d6f00762600280e712de67328be4618f100563f69f3e7583da91c941",
+    "asset": {
+      "extras": {
+        "author": "MadeByYeshe (https://sketchfab.com/MadeByYeshe)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/pbr-street-props-pack-game-ready-8013d8e6af4645d1a7c3d5b24054bfc8",
+        "title": "PBR Street Props Pack (Game Ready)"
+      },
+      "generator": "Sketchfab-16.74.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_emissive_strength",
+      "KHR_texture_transform"
+    ],
+    "extras": null,
+    "nodes": 115,
+    "meshes": 56,
+    "materials": [
+      {
+        "name": "Bin_Body_Orange",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Orange_Lid",
+        "textures": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicRoughnessTexture": {
+            "index": 3
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bin_Wheel",
+        "textures": {
+          "baseColorTexture": {
+            "index": 5
+          },
+          "metallicRoughnessTexture": {
+            "index": 6
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bin_Body_Red",
+        "textures": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Red_Lid",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bin_Body_Blue",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Blue_Lid",
+        "textures": {
+          "baseColorTexture": {
+            "index": 14
+          },
+          "metallicRoughnessTexture": {
+            "index": 15
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bin_Body_Yellow",
+        "textures": {
+          "baseColorTexture": {
+            "index": 17
+          },
+          "metallicRoughnessTexture": {
+            "index": 18
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Yellow_Bin_Lid",
+        "textures": {
+          "baseColorTexture": {
+            "index": 19
+          },
+          "metallicRoughnessTexture": {
+            "index": 20
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bin_Body_Green",
+        "textures": {
+          "baseColorTexture": {
+            "index": 22
+          },
+          "metallicRoughnessTexture": {
+            "index": 23
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Green_lid",
+        "textures": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Metal_Bolard",
+        "textures": {
+          "baseColorTexture": {
+            "index": 27
+          },
+          "metallicRoughnessTexture": {
+            "index": 28
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Yellow_Bolard",
+        "textures": {
+          "baseColorTexture": {
+            "index": 30
+          },
+          "metallicRoughnessTexture": {
+            "index": 31
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Cement_Bolard",
+        "textures": {
+          "baseColorTexture": {
+            "index": 32
+          },
+          "metallicRoughnessTexture": {
+            "index": 33
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Small_Cardboard_Box",
+        "textures": {
+          "baseColorTexture": {
+            "index": 35
+          },
+          "metallicRoughnessTexture": {
+            "index": 36,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Medium_Cardboard_Box",
+        "textures": {
+          "baseColorTexture": {
+            "index": 37
+          },
+          "metallicRoughnessTexture": {
+            "index": 38,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Large_CardBoard_Box",
+        "textures": {
+          "baseColorTexture": {
+            "index": 39
+          },
+          "metallicRoughnessTexture": {
+            "index": 40,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Carboard_Box_With_Handles",
+        "textures": {
+          "baseColorTexture": {
+            "index": 41
+          },
+          "metallicRoughnessTexture": {
+            "index": 42
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Trash_Bag_2nd",
+        "textures": {
+          "baseColorTexture": {
+            "index": 43
+          },
+          "metallicRoughnessTexture": {
+            "index": 44,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Trash_Bag_2nd_0",
+        "textures": {
+          "baseColorTexture": {
+            "index": 43
+          },
+          "metallicRoughnessTexture": {
+            "index": 44
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Wood",
+        "textures": {
+          "baseColorTexture": {
+            "index": 46
+          },
+          "metallicRoughnessTexture": {
+            "index": 47
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Bench_Supports",
+        "textures": {
+          "baseColorTexture": {
+            "index": 49
+          },
+          "metallicRoughnessTexture": {
+            "index": 50
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Big_Bin",
+        "textures": {
+          "baseColorTexture": {
+            "index": 52
+          },
+          "metallicRoughnessTexture": {
+            "index": 53,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Big_Bin_Lid",
+        "textures": {
+          "baseColorTexture": {
+            "index": 55
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Orange_Trash_Can",
+        "textures": {
+          "baseColorTexture": {
+            "index": 56
+          },
+          "metallicRoughnessTexture": {
+            "index": 57
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Yellow_Trash_Can",
+        "textures": {
+          "baseColorTexture": {
+            "index": 59
+          },
+          "metallicRoughnessTexture": {
+            "index": 57
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Blue_Trash_Can",
+        "textures": {
+          "baseColorTexture": {
+            "index": 60
+          },
+          "metallicRoughnessTexture": {
+            "index": 57
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Green_Trash_Can",
+        "textures": {
+          "baseColorTexture": {
+            "index": 61
+          },
+          "metallicRoughnessTexture": {
+            "index": 57
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Red_Trash_Can",
+        "textures": {
+          "baseColorTexture": {
+            "index": 62
+          },
+          "metallicRoughnessTexture": {
+            "index": 57
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Orange_Cone",
+        "textures": {
+          "baseColorTexture": {
+            "index": 63
+          },
+          "metallicRoughnessTexture": {
+            "index": 64
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Orange_Cone_2",
+        "textures": {
+          "baseColorTexture": {
+            "index": 65
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Orange_Cone_4",
+        "textures": {
+          "baseColorTexture": {
+            "index": 66
+          },
+          "metallicRoughnessTexture": {
+            "index": 67
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Orange_Cone_3",
+        "textures": {
+          "baseColorTexture": {
+            "index": 69
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Delineator_Post",
+        "textures": {
+          "baseColorTexture": {
+            "index": 70
+          },
+          "metallicRoughnessTexture": {
+            "index": 71
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Fire_Hydrant",
+        "textures": {
+          "baseColorTexture": {
+            "index": 74
+          },
+          "metallicRoughnessTexture": {
+            "index": 75
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Concrete_Block",
+        "textures": {
+          "baseColorTexture": {
+            "index": 77
+          },
+          "metallicRoughnessTexture": {
+            "index": 78
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Street_Light",
+        "textures": {
+          "baseColorTexture": {
+            "index": 80
+          },
+          "metallicRoughnessTexture": {
+            "index": 81
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Red_Post_Box",
+        "textures": {
+          "baseColorTexture": {
+            "extensions": {
+              "KHR_texture_transform": {
+                "rotation": 3.141592653589793,
+                "scale": [
+                  -0.9999999999999996,
+                  1
+                ]
+              }
+            },
+            "index": 84
+          },
+          "metallicRoughnessTexture": {
+            "index": 85
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "root",
+      "GLTF_SceneRootNode",
+      "Grey Handle.001_0",
+      "Lid.004_1",
+      "Body.001_2",
+      "Wheels.001_3",
+      "Body.003_4",
+      "Wheels.003_5",
+      "Lid.005_6",
+      "Grey Handle.002_7",
+      "Body_8",
+      "Wheels_9",
+      "Lid.006_10",
+      "Grey Handle.003_11",
+      "Body _12",
+      "Wheels _13",
+      "Lid.007_14",
+      "Grey Handle.004_15",
+      "Body.002_16",
+      "Wheels.002_17",
+      "Lid.008_18",
+      "Grey Handle.005_19",
+      "Metal Bolard_20",
+      "Yellow Bolard_21",
+      "Cement Bolard_22",
+      "Box 1_23",
+      "Box 3_24",
+      "Box 4_25",
+      "Box2_26"
+    ],
+    "triangles": 20635
+  },
+  {
+    "file": "rooftop_ventilation_modular_kit.glb",
+    "bytes": 30886732,
+    "sha256": "48b6e6ba7fa707bd01219e526a640344d1b06ee3f5ee6640ce93c51804925056",
+    "asset": {
+      "extras": {
+        "author": "D3D (https://sketchfab.com/Darko3DArt)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/rooftop-ventilation-modular-kit-53535fc3005741758c35a4b7227aaff5",
+        "title": "Rooftop Ventilation Modular Kit"
+      },
+      "generator": "Sketchfab-14.78.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "extras": null,
+    "nodes": 107,
+    "meshes": 61,
+    "materials": [
+      {
+        "name": "HVAC_PanelsB",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_PanelsA",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_PanelsE",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_PanelsC",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_PanelsD",
+        "textures": {
+          "baseColorTexture": {
+            "index": 13
+          },
+          "metallicRoughnessTexture": {
+            "index": 14
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_AtlasTexture_opacity",
+        "textures": {
+          "baseColorTexture": {
+            "index": 16
+          },
+          "metallicRoughnessTexture": {
+            "index": 17
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_AtlasTexture",
+        "textures": {
+          "baseColorTexture": {
+            "index": 19
+          },
+          "metallicRoughnessTexture": {
+            "index": 20
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_Chimney",
+        "textures": {
+          "baseColorTexture": {
+            "index": 21
+          },
+          "metallicRoughnessTexture": {
+            "index": 22
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_AirductA",
+        "textures": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "HVAC_AirductB",
+        "textures": {
+          "baseColorTexture": {
+            "index": 27
+          },
+          "metallicRoughnessTexture": {
+            "index": 28
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "9ba1fddd387649eeb648bc08d191c1a4.fbx",
+      "RootNode",
+      "HVAC_UnitA",
+      "HVAC_UnitB",
+      "HVAC_UnitC",
+      "HVAC_PanelsE .001",
+      "HVAC_AirDuctA.001",
+      "MetalRidgeSheet ",
+      "FanGrillA ",
+      "HVAC_Background ",
+      "FanGrillB ",
+      "MetalSheet ",
+      "HVAC_PanelsE .002",
+      "HVAC_PanelsE .003",
+      "HVAC_PanelsE .004",
+      "HVAC_PanelsE ",
+      "HVAC_AirDuctA.002",
+      "HVAC_AirDuctA",
+      "HVAC_AirDuctB.001",
+      "HVAC_AirDuctB",
+      "HVAC_Chimney",
+      "HVAC_PanelsA.001",
+      "HVAC_PanelsA.002",
+      "HVAC_PanelsA.003",
+      "HVAC_PanelsA",
+      "HVAC_PanelsB LP",
+      "HVAC_PanelsB LP.005",
+      "HVAC_PanelsB LP.006",
+      "HVAC_PanelsB LP.007"
+    ],
+    "triangles": 19950
+  },
+  {
+    "file": "scifi_gothic_building_pack-_bridge.glb",
+    "bytes": 64062808,
+    "sha256": "6889cb7c4faea430ef6e8c32be4e9c38bd8f4e6a439c92012a4e230f2e9c1352",
+    "asset": {
+      "extras": {
+        "author": "ChamberSu1996 (https://sketchfab.com/chambersu1996)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/scifi-gothic-building-pack-bridge-f1ea6f9f55344cf99ebf38cdf7f628ba",
+        "title": "Scifi Gothic Building Pack- Bridge"
+      },
+      "generator": "Sketchfab-12.67.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_transmission"
+    ],
+    "extras": null,
+    "nodes": 722,
+    "meshes": 459,
+    "materials": [
+      {
+        "name": "MetalBrick",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "LightStoneBrickEmiUV",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "DarkStoneWall",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "LightStoneBrick",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Glass",
+        "textures": {},
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "b44d24c4d55c4f7eaa472220548a8405.fbx",
+      "RootNode",
+      "Empty.012",
+      "Empty.003",
+      "5BlockAndRoof.003",
+      "Pillar.4223",
+      "Roof.078",
+      "WallWithWindow.301",
+      "WallDecoration.205",
+      "Roof.079",
+      "Roof.080",
+      "Roof.081",
+      "WallWithWindow.302",
+      "WallWithWindow.303",
+      "WallWithWindow.304",
+      "Roof.082",
+      "Roof.083",
+      "WallDecoration.206",
+      "WallDecoration.207",
+      "WallDecoration.208",
+      "Logo.538",
+      "Logo.539",
+      "Logo.540",
+      "Logo.541",
+      "Logo.542",
+      "Logo.543",
+      "Pillar.4224",
+      "Pillar.4225",
+      "Pillar.4226"
+    ],
+    "triangles": 578824
+  },
+  {
+    "file": "singapore_office_skyscraper_free.glb",
+    "bytes": 9638372,
+    "sha256": "b4a3b40029908f8289223df5c435f510262feda4b65f068b484784bdd9682bbc",
+    "asset": {
+      "extras": {
+        "author": "99.Miles (https://sketchfab.com/99.Miles)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/singapore-office-skyscraper-free-2305f0fe03ba44229a1f768dcb48bd8f",
+        "title": "Singapore Office Skyscraper [FREE]"
+      },
+      "generator": "Sketchfab-16.29.0",
+      "version": "2.0"
+    },
+    "extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_clearcoat"
+    ],
+    "extras": null,
+    "nodes": 19,
+    "meshes": 8,
+    "materials": [
+      {
+        "name": "material_0",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Red_Beam",
+        "textures": {
+          "baseColorTexture": {
+            "index": 2
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Trimsheet",
+        "textures": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicRoughnessTexture": {
+            "index": 5
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "temp",
+        "textures": {},
+        "extras": null
+      },
+      {
+        "name": "GLASS_BUILDING",
+        "textures": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicRoughnessTexture": {
+            "index": 8,
+            "texCoord": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Interior",
+        "textures": {
+          "baseColorTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Emmsive",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "root",
+      "GLTF_SceneRootNode",
+      "Cube.033_0",
+      "Cube.001_1",
+      "Cube.004_2",
+      "Cube.009_3",
+      "Cube.003_4",
+      "Cube.027_5",
+      "Cube.036_6",
+      "Cube.002_7"
+    ],
+    "triangles": 26391
+  },
+  {
+    "file": "urban_modular_environment.glb",
+    "bytes": 70676880,
+    "sha256": "7bccd2ba4e1a5d7c5c0dc73b90f4c8436dd6eb8c526ab281106eb623d2ec6225",
+    "asset": {
+      "extras": {
+        "author": "bpcrews (https://sketchfab.com/bpcrews)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/urban-modular-environment-3212d6ca9c5d40b0976a8b4da9f5196c",
+        "title": "Urban Modular Environment"
+      },
+      "generator": "Sketchfab-12.66.0",
+      "version": "2.0"
+    },
+    "extensions": null,
+    "extras": null,
+    "nodes": 3565,
+    "meshes": 1781,
+    "materials": [
+      {
+        "name": "WallFlat_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "WallwithTrim_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 3
+          },
+          "metallicRoughnessTexture": {
+            "index": 4
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Street_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 6
+          },
+          "metallicRoughnessTexture": {
+            "index": 7
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "StreetCorner_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 9
+          },
+          "metallicRoughnessTexture": {
+            "index": 10
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Wall_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 12
+          },
+          "metallicRoughnessTexture": {
+            "index": 13
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Windows_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 15
+          },
+          "metallicRoughnessTexture": {
+            "index": 16
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "RisersandRoof_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 18
+          },
+          "metallicRoughnessTexture": {
+            "index": 19
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Column_corner_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 21
+          },
+          "metallicRoughnessTexture": {
+            "index": 22
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "StreetLamp_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 24
+          },
+          "metallicRoughnessTexture": {
+            "index": 25
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "FirstFloorTrim_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 28
+          },
+          "metallicRoughnessTexture": {
+            "index": 29
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Sidwalk_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 31
+          },
+          "metallicRoughnessTexture": {
+            "index": 32
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Signs_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 34
+          },
+          "metallicRoughnessTexture": {
+            "index": 35
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "WallandWallTrim_corner_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 37
+          },
+          "metallicRoughnessTexture": {
+            "index": 38
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Door_small_windowwall_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 40
+          },
+          "metallicRoughnessTexture": {
+            "index": 41
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Wall_window_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 43
+          },
+          "metallicRoughnessTexture": {
+            "index": 44
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "Column_mid_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 46
+          },
+          "metallicRoughnessTexture": {
+            "index": 47
+          }
+        },
+        "extras": null
+      },
+      {
+        "name": "StreetPlain_mat",
+        "textures": {
+          "baseColorTexture": {
+            "index": 49
+          },
+          "metallicRoughnessTexture": {
+            "index": 50
+          }
+        },
+        "extras": null
+      }
+    ],
+    "images": [
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/jpeg",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      },
+      {
+        "name": null,
+        "mimeType": "image/png",
+        "uri": null
+      }
+    ],
+    "sceneNames": [
+      "Sketchfab_Scene"
+    ],
+    "rootNames": [
+      "Sketchfab_model",
+      "9169883195ba40be895bd817dbb350b3.fbx",
+      "RootNode",
+      "ModularVariationSections:shard71",
+      "WallHalfThickBorder12",
+      "Street37",
+      "Wall1",
+      "Street14",
+      "Wall",
+      "ModularVariationSections:wallpiecesShatter:shard22",
+      "ModularVariationSections:wallpiecesShatter:shard23",
+      "ModularVariationSections:shard245",
+      "ModularVariationSections:shard244",
+      "ModularVariationSections:shard243",
+      "WindowLarge172",
+      "WallRiser156",
+      "ModularVariationSections:shard195",
+      "ModularVariationSections:shard194",
+      "ModularVariationSections:shard193",
+      "ModularVariationSections:wallpiecesShatter:shard67",
+      "ModularVariationSections:wallpiecesShatter:shard63",
+      "ModularVariationSections:wallpiecesShatter:shard64",
+      "ModularVariationSections:wallpiecesShatter:shard136",
+      "ModularVariationSections:wallpiecesShatter:shard71",
+      "ModularVariationSections:wallpiecesShatter:shard85",
+      "ColumnWallLedgeCinderCorner20",
+      "WallRiser103",
+      "WallRiserCorner33",
+      "WallHalfThick25",
+      "WallHalfThick24"
+    ],
+    "triangles": 236308
+  }
+]

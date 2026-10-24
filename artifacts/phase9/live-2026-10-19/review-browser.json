@@ -1,0 +1,365 @@
+{
+  "passed": true,
+  "method": "Actual report browser: every image decoded, overlap recording metadata loaded and a concurrent-impact frame sought. No game mutation.",
+  "summary": {
+    "title": "AEGIS Phase 9 live verification",
+    "heading": "Live verification and hardware measurements",
+    "images": 55,
+    "videos": 7
+  },
+  "media": {
+    "duration": 49.16,
+    "width": 1280,
+    "height": 720,
+    "src": "http://127.0.0.1:5192/artifacts/phase9/live-2026-10-19/overlap-video/videos/page@24b6d5e696029742c5be917e2c998756.webm"
+  },
+  "sample": {
+    "t": 32913.5,
+    "d": {
+      "colliders": 5250,
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 44,
+        "unloads": 12,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 1.5,
+        "collisionResident": true,
+        "worldColliders": 3943,
+        "quality": "MEDIUM",
+        "assetBytes": 31763120,
+        "pendingAssetLoads": 0,
+        "assetQueue": {
+          "active": 0,
+          "queued": 0,
+          "concurrency": 2,
+          "preparing": 0,
+          "decodedKeys": 156,
+          "timings": {
+            "files": 34,
+            "fetchMaxMs": 186.40000000596046,
+            "decodeMaxMs": 102.20000000298023,
+            "prepareMaxMs": 72.8999999910593
+          }
+        },
+        "textureBytesEstimate": 167513813.33333334,
+        "street": {
+          "plannedPropSlots": 68352,
+          "activeProps": 696
+        },
+        "destruction": {
+          "collapsePresentation": {
+            "ruins": 1,
+            "fallingMasses": 4,
+            "active": 1,
+            "ruinColliders": 3
+          },
+          "barrageRejection": null,
+          "adaptiveDestruction": false,
+          "destructionQuality": "MEDIUM",
+          "scheduler": {
+            "pending": 0,
+            "maxMs": 19.899999991059303
+          },
+          "breaches": 0,
+          "effects": {
+            "scars": 1,
+            "fires": 1,
+            "particles": 112,
+            "particleCap": 112,
+            "explosions": {
+              "emitters": 1,
+              "lobes": 6,
+              "cap": 30
+            },
+            "batches": 5,
+            "wind": 9
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 1,
+          "brokenComponents": 4718,
+          "activeDebris": 24,
+          "staticDebris": 0,
+          "debrisCap": 24,
+          "maxActivationMs": 5.300000011920929,
+          "states": [
+            {
+              "id": 235,
+              "family": "aer_glass",
+              "broken": 4718,
+              "stage": "collapsed",
+              "collapsePending": true,
+              "integrity": 0,
+              "colliders": 0
+            }
+          ]
+        },
+        "props": {
+          "registered": 287,
+          "broken": 0
+        },
+        "weather": "heavy-rain",
+        "hour": 23,
+        "night": 1,
+        "wetness": 1,
+        "snowCover": 0,
+        "particles": 1200,
+        "lightningCount": 0,
+        "fogDensity": 0.0007650915787844643,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 11.431525333333333,
+          "p95Ms": 12.657376
+        }
+      },
+      "titan": {
+        "state": "entrance",
+        "entries": 0,
+        "exits": 0,
+        "completed": 0,
+        "cooldown": 12.883333333333178,
+        "preparing": false,
+        "building": 10236,
+        "wave": 0,
+        "impacts": 1,
+        "playerDisplacement": 0,
+        "events": [
+          {
+            "time": 16.416666666667016,
+            "kind": "acquire",
+            "position": [
+              232,
+              17.999999237060546,
+              -200
+            ]
+          },
+          {
+            "time": 17.433333333333625,
+            "kind": "wave",
+            "wave": 0
+          },
+          {
+            "time": 19.333333333333517,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              187.83982532801437,
+              20.198092467738135,
+              -283.6111452025995
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "samples": 900,
+        "p50Ms": 13.899999618530273,
+        "p95Ms": 20.899999618530273,
+        "p99Ms": 41.599998474121094,
+        "worstMs": 69.4000015258789,
+        "over50": 2,
+        "stages": {
+          "physics": {
+            "meanMs": 0.8301910829582032,
+            "maxMs": 20.099999994039536,
+            "lastMs": 1.4000000059604645,
+            "calls": 1570
+          },
+          "city": {
+            "meanMs": 1.539235668871433,
+            "maxMs": 35,
+            "lastMs": 1.0999999940395355,
+            "calls": 1570
+          },
+          "render": {
+            "meanMs": 2.356050955157751,
+            "maxMs": 81,
+            "lastMs": 2.5999999940395355,
+            "calls": 1570
+          }
+        },
+        "spikes": [
+          {
+            "stage": "render",
+            "ms": 81,
+            "at": 13515
+          },
+          {
+            "stage": "render",
+            "ms": 42.5,
+            "at": 21168.79999999702
+          },
+          {
+            "stage": "render",
+            "ms": 28,
+            "at": 23727.69999998808
+          },
+          {
+            "stage": "city",
+            "ms": 33.29999999701977,
+            "at": 24761.59999999404
+          },
+          {
+            "stage": "render",
+            "ms": 28.599999994039536,
+            "at": 24790.19999998808
+          },
+          {
+            "stage": "city",
+            "ms": 28,
+            "at": 24861.29999999702
+          },
+          {
+            "stage": "city",
+            "ms": 33.79999999701977,
+            "at": 24907.39999999106
+          },
+          {
+            "stage": "city",
+            "ms": 27.799999997019768,
+            "at": 24949.89999999106
+          },
+          {
+            "stage": "city",
+            "ms": 27.700000002980232,
+            "at": 24993.5
+          },
+          {
+            "stage": "city",
+            "ms": 27.399999991059303,
+            "at": 25030.19999998808
+          },
+          {
+            "stage": "city",
+            "ms": 27.200000002980232,
+            "at": 25070.59999999404
+          },
+          {
+            "stage": "city",
+            "ms": 33.79999999701977,
+            "at": 25115.19999998808
+          },
+          {
+            "stage": "physics",
+            "ms": 20.099999994039536,
+            "at": 25138.19999998808
+          },
+          {
+            "stage": "city",
+            "ms": 35,
+            "at": 25173.39999999106
+          },
+          {
+            "stage": "city",
+            "ms": 22,
+            "at": 25213.69999998808
+          },
+          {
+            "stage": "city",
+            "ms": 33.20000000298023,
+            "at": 25264.09999999404
+          },
+          {
+            "stage": "city",
+            "ms": 20.599999994039536,
+            "at": 25292.69999998808
+          },
+          {
+            "stage": "city",
+            "ms": 30.599999994039536,
+            "at": 25357.69999998808
+          },
+          {
+            "stage": "city",
+            "ms": 23.200000002980232,
+            "at": 25417.59999999404
+          },
+          {
+            "stage": "city",
+            "ms": 25.399999991059303,
+            "at": 29556.19999998808
+          }
+        ]
+      },
+      "shaderPrograms": 136,
+      "mode": "play",
+      "quality": "MEDIUM",
+      "frameMs": 6.900000000001455,
+      "meanMs": 12.998333333333333,
+      "p95Ms": 20.899999999997817,
+      "simulationMs": 1.4000000059604645,
+      "drawCalls": 208,
+      "triangles": 1149833,
+      "bodies": 25,
+      "activeBodies": 22,
+      "particles": 35,
+      "debris": 0,
+      "broken": 0,
+      "geometries": 255,
+      "textures": 193,
+      "loadingMs": 12833.29999999702,
+      "assetLoadMs": 372.79999999701977,
+      "position": [
+        232,
+        17.999999237060546,
+        -200
+      ],
+      "state": "HOVER",
+      "health": 100,
+      "courseIndex": 0,
+      "stage": "course",
+      "crashes": 0,
+      "throws": 0,
+      "enemyHealth": [],
+      "missiles": 0
+    },
+    "titan": {
+      "state": "entrance",
+      "entries": 0,
+      "exits": 0,
+      "completed": 0,
+      "cooldown": 12.883333333333178,
+      "preparing": false,
+      "building": 10236,
+      "wave": 0,
+      "impacts": 1,
+      "playerDisplacement": 0,
+      "events": [
+        {
+          "time": 16.416666666667016,
+          "kind": "acquire",
+          "position": [
+            232,
+            17.999999237060546,
+            -200
+          ]
+        },
+        {
+          "time": 17.433333333333625,
+          "kind": "wave",
+          "wave": 0
+        },
+        {
+          "time": 19.333333333333517,
+          "kind": "impact",
+          "wave": 0,
+          "position": [
+            187.83982532801437,
+            20.198092467738135,
+            -283.6111452025995
+          ]
+        }
+      ]
+    }
+  },
+  "errors": []
+}

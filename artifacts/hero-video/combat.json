@@ -1,0 +1,79 @@
+[
+ [
+  "jab, cross, hook",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 3,
+   "swings": 3,
+   "health": 31,
+   "state": "GROUND"
+  }
+ ],
+ [
+  "heavy",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 1,
+   "swings": 1,
+   "health": 53,
+   "state": "GROUND"
+  }
+ ],
+ [
+  "guard, then counter",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 1,
+   "swings": 1,
+   "health": 61,
+   "state": "GROUND"
+  }
+ ],
+ [
+  "dodge, then strike",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 1,
+   "swings": 1,
+   "health": 81,
+   "state": "GROUND"
+  }
+ ],
+ [
+  "thruster dash strike",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 1,
+   "swings": 1,
+   "health": 41,
+   "state": "GROUND"
+  }
+ ],
+ [
+  "aerial strike",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 1,
+   "swings": 1,
+   "health": 65,
+   "state": "GROUND"
+  }
+ ],
+ [
+  "landing, then strikes",
+  {
+   "move": null,
+   "combo": 0,
+   "hits": 2,
+   "swings": 2,
+   "health": 61,
+   "state": "GROUND"
+  }
+ ]
+]

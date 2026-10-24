@@ -1,0 +1,194 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.integration.debug.config.mjs",
+      "--grep",
+      "flight passes under|real climb"
+    ],
+    "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\playwright.integration.debug.config.mjs",
+    "rootDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/artifacts/phase6-integration/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests",
+        "snapshotDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs"
+        ],
+        "timeout": 60000,
+        "use": {
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "baseURL": "http://127.0.0.1:5187",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/phase6-integration/rehearsal-targeted-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "integration.browser.spec.mjs",
+      "file": "integration.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "real climb passes the old ceiling, powered recovery works, and the world edge returns safely",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22693,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:28:05.824Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-e4efad3f261ddfb94577",
+          "file": "integration.browser.spec.mjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "flight passes under the authored bridge and a fast fall lands on an industrial crane platform",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5422,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:28:28.826Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-eefcc67592621589c3a0",
+          "file": "integration.browser.spec.mjs",
+          "line": 69,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-11T08:28:05.239Z",
+    "duration": 29186.698,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "aer_glass",
+    "name": "Crown / London glass tower",
+    "source": "free_london_skyscraper.glb"
+  },
+  {
+    "id": "aer_gothic",
+    "name": "Saint Vesper / Aria Gothic tower",
+    "source": "gothic_building_for_aria_pack_1.0.glb"
+  },
+  {
+    "id": "city_artdeco_1",
+    "name": "Downtown ArtDeco 1",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_brownstoneoffice_1",
+    "name": "Downtown BrownstoneOffice 1",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_brownstoneoffice_2",
+    "name": "Downtown BrownstoneOffice 2",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_brutal_1",
+    "name": "Downtown Brutal 1",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_citadel",
+    "name": "Crown Art Deco Citadel",
+    "source": "art_deco_citadel.glb"
+  },
+  {
+    "id": "city_classicoffice_1",
+    "name": "Downtown ClassicOffice 1",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_flatiron_1",
+    "name": "Downtown Flatiron 1",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_iron_duplex_1",
+    "name": "Industrial Duplex 1",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_iron_genericbuilding_4",
+    "name": "Industrial GenericBuilding 4",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_iron_hangar_2",
+    "name": "Industrial Hangar 2",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_iron_warehouse_1",
+    "name": "Industrial Warehouse 1",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_iron_warehouse_3",
+    "name": "Industrial Warehouse 3",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_iron_warehouse_4",
+    "name": "Industrial Warehouse 4",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_iron_warehouse_5",
+    "name": "Industrial Warehouse 5",
+    "source": "industrial_buildings_set_-_low_poly_models.glb"
+  },
+  {
+    "id": "city_meridian_arcade",
+    "name": "AEGIS original Meridian Arcade / Quaternius CC0 modular composition",
+    "source": "../environment/city-redesign/meridian-arcade-source.glb"
+  },
+  {
+    "id": "city_modernoffice_1_b",
+    "name": "Downtown ModernOffice 1 B",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_modernoffice_2",
+    "name": "Downtown ModernOffice 2",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_modernoffice_4",
+    "name": "Downtown ModernOffice 4",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_modernoffice_5_b",
+    "name": "Downtown ModernOffice 5 B",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_publicbuilding_1",
+    "name": "Downtown PublicBuilding 1",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_residential_2",
+    "name": "Downtown Residential 2",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_residential_4",
+    "name": "Downtown Residential 4",
+    "source": "downtown_buildings_set_-_low_poly_model.glb"
+  },
+  {
+    "id": "city_singapore",
+    "name": "Crown Singapore Exchange",
+    "source": "singapore_office_skyscraper_free.glb"
+  }
+]

@@ -8,6 +8,7 @@ export class CameraRig {
   yaw=Math.PI;
   pitch=-.07;
   private shake=0;
+  private fovKick=0;
   private time=0;
   private readonly forward=new Vector3();
   private readonly right=new Vector3();
@@ -33,21 +34,27 @@ export class CameraRig {
       this.aim.lerp(focus.clone().add(new Vector3(0,1,0)),.22);
     }
     const distance=(flying?6.8:5.4)+amount*3.5;
-    this.desired.copy(this.aim).addScaledVector(reference.forward,-distance).addScaledVector(reference.right,.75).add(new Vector3(0,.8,0));
+    // a small shoulder offset: he sits just beside and below the reticle, never far from the middle of the frame
+    this.desired.copy(this.aim).addScaledVector(reference.forward,-distance).addScaledVector(reference.right,flying?.3:.5).add(new Vector3(0,flying?.75:.55,0));
     const boom=this.desired.clone().sub(this.aim),fraction=this.physics?.cameraDistance(this.aim,boom)??1;
     this.desired.copy(this.aim).addScaledVector(boom,fraction);
     // Collision correction is immediate inward; easing outward avoids a wall-pop oscillation.
     this.camera.position.lerp(this.desired,fraction<.98?1:1-Math.exp(-dt*7));
     this.shake=Math.max(0,this.shake-dt*2.8);
     this.camera.position.x+=Math.sin(this.time*83)*this.shake*.035;this.camera.position.y+=Math.sin(this.time*107)*this.shake*.025;
-    this.camera.lookAt(this.aim.clone().addScaledVector(reference.forward,2.5));
-    this.camera.fov=MathUtils.damp(this.camera.fov,56+amount*(flying?13:3),5,dt);this.camera.updateProjectionMatrix();
+    // The camera looks along the aim direction itself, not at a point beside the hero: what is
+    // under the reticle is then exactly where the view points, at any distance.
+    this.camera.lookAt(this.camera.position.clone().add(reference.forward));
+    this.fovKick=MathUtils.damp(this.fovKick,0,6,dt);
+    this.camera.fov=MathUtils.damp(this.camera.fov,56+amount*(flying?13:3)+this.fovKick,5,dt);this.camera.updateProjectionMatrix();
   }
   cinematic(position:Vector3,target:Vector3,dt:number,fov=48):void {
     this.camera.position.lerp(position,1-Math.exp(-dt*3));this.camera.lookAt(target);
     this.camera.fov=MathUtils.damp(this.camera.fov,fov,3,dt);this.camera.updateProjectionMatrix();
   }
   addShake(amount:number):void {this.shake=Math.min(1,this.shake+amount);}
-  reset(target:Vector3):void {this.yaw=Math.PI;this.pitch=-.07;this.camera.position.copy(target).add(new Vector3(.75,3,6));this.shake=0;}
+  /** A brief widening (+) or tightening (-) of the view for a decisive moment, in degrees. */
+  kick(degrees:number):void {this.fovKick=MathUtils.clamp(this.fovKick+degrees,-6,7);}
+  reset(target:Vector3):void {this.yaw=Math.PI;this.pitch=-.07;this.camera.position.copy(target).add(new Vector3(.75,3,6));this.shake=0;this.fovKick=0;}
   resize(width:number,height:number):void {this.camera.aspect=width/height;this.camera.updateProjectionMatrix();}
 }

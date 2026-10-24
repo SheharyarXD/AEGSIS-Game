@@ -1,0 +1,38 @@
+{
+  "name": "aegis-rise-of-the-titan",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --import tsx --test tests/physics.test.ts",
+    "test:browser": "playwright test",
+    "verify": "npm run test && npm run test:environment && npm run build && npm run test:integration:browser",
+    "test:environment": "node --import tsx --test tests/environment.test.ts tests/world-recovery.test.ts",
+    "test:environment:browser": "playwright test --config playwright.environment.config.mjs",
+    "test:integration:browser": "playwright test --config playwright.integration.config.mjs",
+    "capture:integration": "node scripts/integration-capture.mjs",
+    "perf:integration": "node scripts/integration-performance.mjs",
+    "capture:environment": "node scripts/environment-capture.mjs",
+    "test:phase9": "node --import tsx --test tests/physics.test.ts tests/environment.test.ts tests/world-recovery.test.ts tests/world-realism.test.ts tests/visibility-destruction.test.ts tests/phase8.test.ts tests/phase9.test.ts",
+    "test:phase9:browser": "playwright test --config playwright.phase9.config.mjs",
+    "audit:phase9": "node scripts/phase9-offline-audit.mjs",
+    "review:phase9": "node scripts/phase9-report.mjs"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@playwright/test": "^1.64.0",
+    "@types/three": "^0.186.0",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2"
+  }
+}

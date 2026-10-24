@@ -1,0 +1,26 @@
+ .gitignore                     |   4 +
+ README.md                      | 139 +++++--
+ artifacts/browser-results.json | 184 +--------
+ artifacts/performance.json     |  33 +-
+ artifacts/qa-boss.png          | Bin 1409329 -> 1351497 bytes
+ artifacts/qa-destruction.png   | Bin 1186400 -> 1093829 bytes
+ artifacts/qa-flight.png        | Bin 1309014 -> 1254487 bytes
+ artifacts/qa-ragdoll-wall.png  | Bin 921556 -> 896333 bytes
+ package.json                   |   8 +-
+ scripts/character-preview.html | 267 ++++++++++++-
+ src/audio/AudioSystem.ts       | 191 ++++++++--
+ src/camera/CameraRig.ts        |  15 +-
+ src/combat/Encounter.ts        | 155 +++++---
+ src/combat/Enemy.ts            |   2 +-
+ src/input/InputController.ts   |   5 +
+ src/main.ts                    |  85 +++--
+ src/physics/PhysicsWorld.ts    |   7 +
+ src/player/AegisSuit.ts        | 834 ++++++++++++++++++++++++++++++++++-------
+ src/player/FlightState.ts      |   3 +
+ src/player/PlayerController.ts | 291 +++++++++++---
+ src/ui/Hud.ts                  |   4 +-
+ src/vfx/FlightVfx.ts           | 400 ++++++++++++++++++--
+ src/vfx/ImpactVfx.ts           |  28 +-
+ src/world/City.ts              | 291 +++++---------
+ tests/browser.spec.mjs         | 202 +++++++++-
+ 25 files changed, 2396 insertions(+), 752 deletions(-)

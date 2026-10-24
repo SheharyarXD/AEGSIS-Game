@@ -1,0 +1,7 @@
+{
+  "input": "public/assets/environment/premium/city/city_meridian_arcade-mid.glb",
+  "output": "public/assets/environment/premium/city/city_meridian_arcade-mid-optimized.glb",
+  "sourceBytes": 3598304,
+  "runtimeBytes": 1881464,
+  "meshes": 19
+}

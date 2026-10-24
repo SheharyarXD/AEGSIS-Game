@@ -1,0 +1,15 @@
+import {chromium} from '@playwright/test';import {mkdir,writeFile} from 'node:fs/promises';
+const dir='artifacts/phase7/destruction',base=process.env.AEGIS_BASE_URL??'http://127.0.0.1:5192';await mkdir(dir,{recursive:true});const results=[];
+const browser=await chromium.launch({channel:'chrome',headless:true});
+for(const quality of ['LOW','HIGH'])for(const [family,id,x,z,h] of [['glass',235,170,-390,136],['gothic',211,-534,-390,96],['commercial',287,170,-218,32]]){
+ const page=await browser.newPage({viewport:{width:1280,height:720}}),errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});await page.addInitScript(q=>localStorage.setItem('aegis-quality',q),quality);await page.goto(base+'/?qa=1');await page.waitForFunction(()=>window.__AEGIS__,null,{timeout:120000});
+ await page.evaluate(({x,z,h})=>{const q=window.__AEGIS__;q.start();q.teleport(q.player.position.clone().set(x-8,22,z+65));q.player.state='HOVER';q.city.prepareAt(q.player.position);q.city.setWeather('heavy-rain',0);q.city.weather.setTime(23);q.city.weather.wetness=1;q.city.setCaptureView([x+35,h*.48,z+(h>60?155:90)],[x,h*.45,z]);},{x,z,h});
+ for(const stage of ['intact','windows','wall','structure','collapse']){
+  if(stage!=='intact')await page.evaluate(({id,stage})=>window.__AEGIS__.city.architecture.demonstrate(id,stage),{id,stage});await page.waitForTimeout(stage==='collapse'?6000:stage==='structure'?4000:2500);
+  const data=await page.evaluate(async()=>{const frames=[],cpu=[],draws=[],tris=[],active=[],q=window.__AEGIS__;let last=0;await new Promise(resolve=>{function sample(t){if(last){const d=window.aegisDiagnostics();frames.push(t-last);cpu.push(d.simulationMs);draws.push(d.drawCalls);tris.push(d.triangles);active.push(q.city.architecture.diagnostics().activeDebris);}last=t;if(frames.length<360)requestAnimationFrame(sample);else resolve();}requestAnimationFrame(sample);});
+   const s=[...frames].sort((a,b)=>a-b),mean=a=>a.reduce((a,b)=>a+b,0)/a.length,gl=document.querySelector('canvas').getContext('webgl2'),ext=gl.getExtension('WEBGL_debug_renderer_info');return {meanMs:mean(frames),medianMs:s[180],p95Ms:s[342],maxMs:s.at(-1),fps:1000/mean(frames),simulationMeanMs:mean(cpu),simulationMaxMs:Math.max(...cpu),drawCallsMean:mean(draws),drawCallsMax:Math.max(...draws),trianglesMean:mean(tris),activeDebrisMax:Math.max(...active),renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):'unknown',game:window.aegisDiagnostics(),architecture:q.city.architecture.diagnostics(),samples:frames};});
+  results.push({quality,family,stage,viewport:[1280,720],...data,errors:[...errors]});console.log(quality,family,stage,data.meanMs.toFixed(2),data.p95Ms.toFixed(2),Math.round(data.drawCallsMean));await writeFile(dir+'/performance.json',JSON.stringify({measuredAt:new Date().toISOString(),project:process.cwd(),results},null,2));
+ }
+ await page.close();
+}
+await browser.close();

@@ -1,0 +1,203 @@
+{
+  "decodedFromActualWebM": true,
+  "frames": [
+    {
+      "video": "artifacts/phase6-integration/videos/01-pilot-spawn-walking.webm",
+      "frame": "artifacts/phase6-integration/video-frames/01-pilot-spawn-walking-20.png",
+      "timeSeconds": 3.4960000000000004,
+      "durationSeconds": 17.48
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/01-pilot-spawn-walking.webm",
+      "frame": "artifacts/phase6-integration/video-frames/01-pilot-spawn-walking-55.png",
+      "timeSeconds": 9.614,
+      "durationSeconds": 17.48
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/01-pilot-spawn-walking.webm",
+      "frame": "artifacts/phase6-integration/video-frames/01-pilot-spawn-walking-85.png",
+      "timeSeconds": 14.858,
+      "durationSeconds": 17.48
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/02-city-suit-transformation.webm",
+      "frame": "artifacts/phase6-integration/video-frames/02-city-suit-transformation-20.png",
+      "timeSeconds": 2.056,
+      "durationSeconds": 10.28
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/02-city-suit-transformation.webm",
+      "frame": "artifacts/phase6-integration/video-frames/02-city-suit-transformation-55.png",
+      "timeSeconds": 5.654,
+      "durationSeconds": 10.28
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/02-city-suit-transformation.webm",
+      "frame": "artifacts/phase6-integration/video-frames/02-city-suit-transformation-85.png",
+      "timeSeconds": 8.738,
+      "durationSeconds": 10.28
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/03-takeoff-skyline-climb.webm",
+      "frame": "artifacts/phase6-integration/video-frames/03-takeoff-skyline-climb-20.png",
+      "timeSeconds": 7.328,
+      "durationSeconds": 36.64
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/03-takeoff-skyline-climb.webm",
+      "frame": "artifacts/phase6-integration/video-frames/03-takeoff-skyline-climb-55.png",
+      "timeSeconds": 20.152,
+      "durationSeconds": 36.64
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/03-takeoff-skyline-climb.webm",
+      "frame": "artifacts/phase6-integration/video-frames/03-takeoff-skyline-climb-97.png",
+      "timeSeconds": 35.5408,
+      "durationSeconds": 36.64
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/04-high-speed-district-traversal.webm",
+      "frame": "artifacts/phase6-integration/video-frames/04-high-speed-district-traversal-20.png",
+      "timeSeconds": 7.864000000000001,
+      "durationSeconds": 39.32
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/04-high-speed-district-traversal.webm",
+      "frame": "artifacts/phase6-integration/video-frames/04-high-speed-district-traversal-55.png",
+      "timeSeconds": 21.626,
+      "durationSeconds": 39.32
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/04-high-speed-district-traversal.webm",
+      "frame": "artifacts/phase6-integration/video-frames/04-high-speed-district-traversal-85.png",
+      "timeSeconds": 33.422,
+      "durationSeconds": 39.32
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/05-rooftop-impact-landing.webm",
+      "frame": "artifacts/phase6-integration/video-frames/05-rooftop-impact-landing-20.png",
+      "timeSeconds": 1.2720000000000002,
+      "durationSeconds": 6.36
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/05-rooftop-impact-landing.webm",
+      "frame": "artifacts/phase6-integration/video-frames/05-rooftop-impact-landing-55.png",
+      "timeSeconds": 3.4980000000000007,
+      "durationSeconds": 6.36
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/05-rooftop-impact-landing.webm",
+      "frame": "artifacts/phase6-integration/video-frames/05-rooftop-impact-landing-85.png",
+      "timeSeconds": 5.406,
+      "durationSeconds": 6.36
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/06-normal-movement-melee.webm",
+      "frame": "artifacts/phase6-integration/video-frames/06-normal-movement-melee-20.png",
+      "timeSeconds": 1.4080000000000001,
+      "durationSeconds": 7.04
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/06-normal-movement-melee.webm",
+      "frame": "artifacts/phase6-integration/video-frames/06-normal-movement-melee-55.png",
+      "timeSeconds": 3.8720000000000003,
+      "durationSeconds": 7.04
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/06-normal-movement-melee.webm",
+      "frame": "artifacts/phase6-integration/video-frames/06-normal-movement-melee-85.png",
+      "timeSeconds": 5.984,
+      "durationSeconds": 7.04
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/07-guided-missiles-and-city-los.webm",
+      "frame": "artifacts/phase6-integration/video-frames/07-guided-missiles-and-city-los-20.png",
+      "timeSeconds": 2.336,
+      "durationSeconds": 11.68
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/07-guided-missiles-and-city-los.webm",
+      "frame": "artifacts/phase6-integration/video-frames/07-guided-missiles-and-city-los-55.png",
+      "timeSeconds": 6.424,
+      "durationSeconds": 11.68
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/07-guided-missiles-and-city-los.webm",
+      "frame": "artifacts/phase6-integration/video-frames/07-guided-missiles-and-city-los-85.png",
+      "timeSeconds": 9.927999999999999,
+      "durationSeconds": 11.68
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/08-repulsor-and-laser-surfaces.webm",
+      "frame": "artifacts/phase6-integration/video-frames/08-repulsor-and-laser-surfaces-20.png",
+      "timeSeconds": 1.656,
+      "durationSeconds": 8.28
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/08-repulsor-and-laser-surfaces.webm",
+      "frame": "artifacts/phase6-integration/video-frames/08-repulsor-and-laser-surfaces-55.png",
+      "timeSeconds": 4.554,
+      "durationSeconds": 8.28
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/08-repulsor-and-laser-surfaces.webm",
+      "frame": "artifacts/phase6-integration/video-frames/08-repulsor-and-laser-surfaces-85.png",
+      "timeSeconds": 7.037999999999999,
+      "durationSeconds": 8.28
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/09-current-tactical-hud.webm",
+      "frame": "artifacts/phase6-integration/video-frames/09-current-tactical-hud-20.png",
+      "timeSeconds": 1.704,
+      "durationSeconds": 8.52
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/09-current-tactical-hud.webm",
+      "frame": "artifacts/phase6-integration/video-frames/09-current-tactical-hud-55.png",
+      "timeSeconds": 4.686,
+      "durationSeconds": 8.52
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/09-current-tactical-hud.webm",
+      "frame": "artifacts/phase6-integration/video-frames/09-current-tactical-hud-85.png",
+      "timeSeconds": 7.241999999999999,
+      "durationSeconds": 8.52
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/10-weather-day-night-sunset.webm",
+      "frame": "artifacts/phase6-integration/video-frames/10-weather-day-night-sunset-20.png",
+      "timeSeconds": 3.04,
+      "durationSeconds": 15.2
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/10-weather-day-night-sunset.webm",
+      "frame": "artifacts/phase6-integration/video-frames/10-weather-day-night-sunset-55.png",
+      "timeSeconds": 8.36,
+      "durationSeconds": 15.2
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/10-weather-day-night-sunset.webm",
+      "frame": "artifacts/phase6-integration/video-frames/10-weather-day-night-sunset-85.png",
+      "timeSeconds": 12.92,
+      "durationSeconds": 15.2
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/11-low-weather-active-enemies.webm",
+      "frame": "artifacts/phase6-integration/video-frames/11-low-weather-active-enemies-20.png",
+      "timeSeconds": 1.9920000000000002,
+      "durationSeconds": 9.96
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/11-low-weather-active-enemies.webm",
+      "frame": "artifacts/phase6-integration/video-frames/11-low-weather-active-enemies-55.png",
+      "timeSeconds": 5.478000000000001,
+      "durationSeconds": 9.96
+    },
+    {
+      "video": "artifacts/phase6-integration/videos/11-low-weather-active-enemies.webm",
+      "frame": "artifacts/phase6-integration/video-frames/11-low-weather-active-enemies-85.png",
+      "timeSeconds": 8.466000000000001,
+      "durationSeconds": 9.96
+    }
+  ]
+}

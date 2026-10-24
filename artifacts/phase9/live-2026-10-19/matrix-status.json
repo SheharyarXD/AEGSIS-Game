@@ -1,0 +1,52 @@
+{
+  "method": "Serialized hardware Chrome runs; GPU contention is recorded per scene rather than inferred.",
+  "results": [
+    {
+      "quality": "MEDIUM",
+      "scenes": [
+        "cold-flight",
+        "street-traversal",
+        "rooftop-traversal",
+        "aerial-traversal",
+        "rain-night",
+        "combat"
+      ],
+      "start": "2026-10-18T23:28:49.243Z",
+      "finish": "2026-10-18T23:31:28.311Z",
+      "exitCode": 0
+    },
+    {
+      "quality": "LOW",
+      "scenes": [
+        "cold-flight",
+        "street-traversal",
+        "rain-night"
+      ],
+      "start": "2026-10-18T23:31:28.312Z",
+      "finish": "2026-10-18T23:32:34.242Z",
+      "exitCode": 0
+    },
+    {
+      "quality": "HIGH",
+      "scenes": [
+        "cold-flight",
+        "street-traversal",
+        "rain-night"
+      ],
+      "start": "2026-10-18T23:32:34.243Z",
+      "finish": "2026-10-18T23:33:58.582Z",
+      "exitCode": 0
+    },
+    {
+      "quality": "ULTRA",
+      "scenes": [
+        "cold-flight",
+        "street-traversal",
+        "rain-night"
+      ],
+      "start": "2026-10-18T23:33:58.583Z",
+      "finish": "2026-10-18T23:35:27.381Z",
+      "exitCode": 0
+    }
+  ]
+}

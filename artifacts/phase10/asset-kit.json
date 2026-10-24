@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-10-19T00:51:21.896Z",
+  "source": "art/environment/phase10/cinematic-corridors.blend",
+  "raw": 604800,
+  "optimized": 229480,
+  "modules": [
+    "titan10_interior_office",
+    "titan10_interior_stone",
+    "titan10_interior_utility",
+    "titan10_lobby_canopy"
+  ],
+  "triangles": 8684
+}

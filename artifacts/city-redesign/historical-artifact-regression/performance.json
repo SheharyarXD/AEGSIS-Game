@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-10",
+  "browser": "155.0.8059.40",
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": [
+    1440,
+    900
+  ],
+  "headless": true,
+  "scenario": "Ground encounter, three pursuing enforcers; camera stationary",
+  "samples": 359,
+  "meanMs": 11.645403899721448,
+  "medianMs": 13.800000000000182,
+  "p95Ms": 14,
+  "diagnostics": {
+    "colliders": 5117,
+    "environment": {
+      "worldSize": [
+        2048,
+        2048
+      ],
+      "district": "commercial",
+      "buildings": 971,
+      "tiles": 9,
+      "pending": 0,
+      "maxTiles": 9,
+      "loads": 25,
+      "unloads": 7,
+      "generationMs": 0,
+      "maxGenerationMs": 1.5999999940395355,
+      "collisionResident": true,
+      "worldColliders": 3985,
+      "quality": "LOW",
+      "assetBytes": 5422684,
+      "pendingAssetLoads": 0,
+      "textureBytesEstimate": 75499349.33333333,
+      "street": {
+        "plannedPropSlots": 57612,
+        "activeProps": 14
+      },
+      "destruction": {
+        "effects": {
+          "scars": 0,
+          "fires": 0,
+          "particles": 0,
+          "particleCap": 64
+        },
+        "coldStates": 0,
+        "collapseShowcases": 4,
+        "supportedBuildings": 971,
+        "damagedBuildings": 0,
+        "brokenComponents": 0,
+        "activeDebris": 0,
+        "staticDebris": 0,
+        "debrisCap": 16,
+        "maxActivationMs": 0,
+        "states": []
+      },
+      "props": {
+        "registered": 115,
+        "broken": 0
+      },
+      "weather": "partly-cloudy",
+      "hour": 17.299999999999997,
+      "night": 0.2132934235235543,
+      "wetness": 0,
+      "snowCover": 0,
+      "particles": 0,
+      "lightningCount": 0,
+      "fogDensity": 0.00024801126771622654,
+      "gpu": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 10.941158266666658,
+        "p95Ms": 11.145088
+      }
+    },
+    "mode": "play",
+    "quality": "LOW",
+    "frameMs": 13.899999999999636,
+    "meanMs": 12.67362869198312,
+    "p95Ms": 14,
+    "simulationMs": 0.5999999940395355,
+    "drawCalls": 108,
+    "triangles": 588842,
+    "bodies": 4,
+    "activeBodies": 4,
+    "particles": 0,
+    "debris": 0,
+    "broken": 0,
+    "geometries": 83,
+    "textures": 88,
+    "loadingMs": 1453.199999988079,
+    "assetLoadMs": 407.5,
+    "position": [
+      0.006729671265929937,
+      0.020098638534545854,
+      -57.02107620239258
+    ],
+    "state": "GROUND",
+    "health": 40,
+    "courseIndex": 4,
+    "stage": "ground",
+    "crashes": 0,
+    "throws": 0,
+    "enemyHealth": [
+      95,
+      95,
+      95
+    ],
+    "missiles": 0
+  }
+}

@@ -1,0 +1,1 @@
+{"stage":"after","quality":"MEDIUM","scenario":"cold-flight","fps":115.0222244233412,"p95":13.900000000001455,"p99":14,"worst":104.19999999999891,"over50":3,"errors":0,"gpu":"ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)"}

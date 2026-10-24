@@ -1,0 +1,202 @@
+{
+  "name": "roof",
+  "method": "QA sets only starting location/camera/weather and preloads assets. Actual keyboard Y or O/F causes all damage. Normal W/Q controls subsequent transit. No scripted support damage.",
+  "errors": [],
+  "failure": "page.waitForFunction: Timeout 9000ms exceeded.\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\scripts\\phase9-live-acceptance.mjs:24:15",
+  "failureDiagnostics": {
+    "d": {
+      "colliders": 5234,
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "commercial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 38,
+        "unloads": 6,
+        "generationMs": 0.5,
+        "maxGenerationMs": 2.6000000089406967,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "MEDIUM",
+        "assetBytes": 23512716,
+        "pendingAssetLoads": 0,
+        "assetQueue": {
+          "active": 0,
+          "queued": 0,
+          "concurrency": 2,
+          "preparing": 0,
+          "decodedKeys": 150,
+          "timings": {
+            "files": 29,
+            "fetchMaxMs": 103.5,
+            "decodeMaxMs": 108.90000000596046,
+            "prepareMaxMs": 28.30000001192093
+          }
+        },
+        "textureBytesEstimate": 167513813.33333334,
+        "street": {
+          "plannedPropSlots": 68352,
+          "activeProps": 566
+        },
+        "destruction": {
+          "collapsePresentation": {
+            "ruins": 0,
+            "fallingMasses": 0,
+            "active": 0,
+            "ruinColliders": 0
+          },
+          "barrageRejection": null,
+          "adaptiveDestruction": false,
+          "destructionQuality": "MEDIUM",
+          "scheduler": {
+            "pending": 0,
+            "maxMs": 0.10000000894069672
+          },
+          "breaches": 0,
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 112,
+            "explosions": {
+              "emitters": 0,
+              "lobes": 0,
+              "cap": 30
+            },
+            "batches": 5,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 24,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 261,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 15,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 15.858146533333334,
+          "p95Ms": 19.793504
+        }
+      },
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "completed": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null,
+        "wave": -1,
+        "impacts": 0,
+        "playerDisplacement": 0,
+        "events": []
+      },
+      "timing": {
+        "samples": 601,
+        "p50Ms": 20.899999618530273,
+        "p95Ms": 27.799999237060547,
+        "p99Ms": 41.70000076293945,
+        "worstMs": 784.7000122070312,
+        "over50": 3,
+        "stages": {
+          "physics": {
+            "meanMs": 1.1628951748674998,
+            "maxMs": 13.200000002980232,
+            "lastMs": 1.2999999970197678,
+            "calls": 601
+          },
+          "city": {
+            "meanMs": 0.9505823626494447,
+            "maxMs": 14.100000008940697,
+            "lastMs": 1,
+            "calls": 601
+          },
+          "render": {
+            "meanMs": 2.8830282862442305,
+            "maxMs": 44.5,
+            "lastMs": 2.1000000089406967,
+            "calls": 601
+          }
+        },
+        "spikes": [
+          {
+            "stage": "render",
+            "ms": 44.5,
+            "at": 18856.80000001192
+          }
+        ]
+      },
+      "shaderPrograms": 101,
+      "mode": "play",
+      "quality": "MEDIUM",
+      "frameMs": 20.900000000001455,
+      "meanMs": 22.501000000000005,
+      "p95Ms": 27.80000000000291,
+      "simulationMs": 1.2999999970197678,
+      "drawCalls": 177,
+      "triangles": 1037458,
+      "bodies": 1,
+      "activeBodies": 1,
+      "particles": 0,
+      "debris": 0,
+      "broken": 0,
+      "geometries": 188,
+      "textures": 192,
+      "loadingMs": 15332.09999999404,
+      "assetLoadMs": 417.70000000298023,
+      "position": [
+        163.008544921875,
+        48.020083618164065,
+        -21.99700355529785
+      ],
+      "state": "GROUND",
+      "health": 100,
+      "courseIndex": 0,
+      "stage": "course",
+      "crashes": 0,
+      "throws": 0,
+      "enemyHealth": [],
+      "missiles": 0
+    },
+    "t": {
+      "state": "ready",
+      "entries": 0,
+      "exits": 0,
+      "completed": 0,
+      "cooldown": 0,
+      "preparing": false,
+      "building": null,
+      "wave": -1,
+      "impacts": 0,
+      "playerDisplacement": 0,
+      "events": []
+    },
+    "message": "BREACH · NO SAFE ENTRANCE-TO-EXIT ROUTE",
+    "failure": null,
+    "clearance": null
+  },
+  "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\acceptance-v2\\roof\\page@b6d145c938755576644df4f5bbfee85d.webm"
+}

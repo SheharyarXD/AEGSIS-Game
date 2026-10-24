@@ -1,0 +1,19 @@
+AEGIS Phase 8 additions - original workspace authoring, 2026-10-16
+
+Source: art/environment/phase8/build_titan_kit.py
+Editable Blender: art/environment/phase8/titan-urban-and-fracture.blend
+Exports: phase8-titan-kit.glb and phase8-titan-kit-optimized.glb
+
+These modules were modeled for this AEGIS workspace with Blender's Python API:
+breach frames with broken concrete/rebar/cable, lobby portal, shallow stoop,
+basement grate, bike rack, courtyard masonry, open arched courtyard gate,
+historic lamp, railing, and glass/steel/concrete/brick/stone/composite fragments.
+Materials, UVs and fracture shapes are original. No downloaded image, model,
+proprietary game asset or generated raster image was used in these additions.
+No new third-party license restriction is introduced by this original work.
+Distribution of original project work follows the project's chosen license.
+
+Meshopt compression changes vertex encoding, not ownership or attribution.
+The existing source buildings and textures retain their original licenses.
+See ../ATTRIBUTION.txt, LICENSES.txt, WORLD-REALISM-LICENSES.txt and the retained
+source metadata in art/external/. This notice does not relicense those models.

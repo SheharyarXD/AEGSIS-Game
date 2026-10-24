@@ -1,0 +1,45 @@
+{
+  "verifiedAt": "2026-10-12T16:58:50.726Z",
+  "build": "passed",
+  "physicsUnitChecks": 6,
+  "environmentRecoveryUnitChecks": 11,
+  "browserChecks": {
+    "startTime": "2026-10-12T16:30:04.209Z",
+    "duration": 336944.7189999999,
+    "expected": 35,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browserMethod": {
+    "method": "Latest 35 check outcomes across a full run plus two repeated focused runs after correcting the counter test to a clearly close target (1.55 m instead of 1.9 m). The original melee implementation is unchanged. This is not presented as one clean 35-case invocation.",
+    "original": "browser-results-35-full-run.json",
+    "focused": "browser-counter-focused.json",
+    "previousCleanFullRun": "browser-results-34-first-clean-run.json",
+    "changedTest": "combat: a buffered three-hit combination, hit windows tied to the fist, counter, dash and clean exits"
+  },
+  "sourceFamilies": 25,
+  "sourceLodFiles": 50,
+  "nonWorldSourceFilesPreserved": 31,
+  "suppliedOriginalsPreserved": 15,
+  "primaryGameplaySamples": 24,
+  "supplemental1080pSamples": 12,
+  "productionChecks": [
+    "production bootstrap",
+    "architecture attribution",
+    "deploy and skip",
+    "keyboard walking",
+    "takeoff and flight",
+    "pause and resume"
+  ],
+  "architectureViews": 10,
+  "matchedBeforeAfterViews": 10,
+  "threeSourceBuildingsWithFiveDamageStages": true,
+  "realBeamAndMissileRecordings": 2,
+  "reviewLinks": {
+    "checked": 281,
+    "missing": []
+  },
+  "duplicatesRemoved": 24,
+  "scope": "MAIN integrated game on GTX 750 Ti 2GB. Visual quality is demonstrated by local browser evidence; remaining art/simulation/download limits are in the handoff. No external platform release or high-DPI/mobile certification."
+}

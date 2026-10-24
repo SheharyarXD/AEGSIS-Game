@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'../../tests',testMatch:['browser.spec.mjs','integration.browser.spec.mjs'],workers:1,timeout:120000,outputDir:'baseline-test-results',use:{channel:'chrome',headless:true,viewport:{width:1440,height:900},baseURL:'http://127.0.0.1:5204',screenshot:'only-on-failure'},reporter:[['list'],['json',{outputFile:'artifacts/visibility-destruction-fix/baseline-movement-results.json'}]]});

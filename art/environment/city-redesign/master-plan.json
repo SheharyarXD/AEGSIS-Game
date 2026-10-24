@@ -1,0 +1,204 @@
+{
+  "name": "AEGIS Metropolis",
+  "version": 1,
+  "worldSize": 2048,
+  "protectedCompound": [
+    -112,
+    -160,
+    112,
+    100
+  ],
+  "roadX": [
+    -980,
+    -860,
+    -732,
+    -604,
+    -476,
+    -348,
+    -220,
+    -112,
+    0,
+    112,
+    232,
+    352,
+    472,
+    592,
+    712,
+    832,
+    940
+  ],
+  "roadZ": [
+    -980,
+    -816,
+    -656,
+    -496,
+    -336,
+    -176,
+    -48,
+    100,
+    244,
+    388,
+    532,
+    676,
+    820,
+    964
+  ],
+  "avenueX": [
+    -476,
+    0,
+    232,
+    712
+  ],
+  "avenueZ": [
+    -336,
+    388
+  ],
+  "avenueWidth": 26,
+  "secondaryWidth": 16,
+  "districts": [
+    {
+      "id": "financial",
+      "name": "Crown Exchange",
+      "center": [
+        260,
+        -520
+      ],
+      "heightRange": [
+        65,
+        240
+      ],
+      "sidewalkWidth": 6,
+      "families": [
+        "city_modernoffice_4",
+        "city_modernoffice_1_b",
+        "city_modernoffice_5_b",
+        "city_flatiron_1",
+        "city_artdeco_1",
+        "city_classicoffice_1"
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Prism Midtown",
+      "center": [
+        -40,
+        250
+      ],
+      "heightRange": [
+        35,
+        110
+      ],
+      "sidewalkWidth": 4.8,
+      "families": [
+        "city_brownstoneoffice_1",
+        "city_brownstoneoffice_2",
+        "city_classicoffice_1",
+        "city_modernoffice_1_b",
+        "city_artdeco_1",
+        "city_residential_2",
+        "city_meridian_arcade",
+        "city_brutal_1"
+      ]
+    },
+    {
+      "id": "residential",
+      "name": "Meridian Civic",
+      "center": [
+        -570,
+        430
+      ],
+      "heightRange": [
+        18,
+        65
+      ],
+      "sidewalkWidth": 5.2,
+      "families": [
+        "city_brownstoneoffice_1",
+        "city_brownstoneoffice_2",
+        "city_classicoffice_1",
+        "city_residential_2",
+        "city_meridian_arcade",
+        "city_residential_4",
+        "city_publicbuilding_1",
+        "city_artdeco_1"
+      ]
+    },
+    {
+      "id": "gothic",
+      "name": "Saint Vesper Old City",
+      "center": [
+        -610,
+        -550
+      ],
+      "heightRange": [
+        28,
+        90
+      ],
+      "sidewalkWidth": 4.6,
+      "gothicLandmarkLimit": 6,
+      "families": [
+        "city_brownstoneoffice_1",
+        "city_classicoffice_1",
+        "city_artdeco_1",
+        "city_meridian_arcade",
+        "city_publicbuilding_1"
+      ],
+      "landmarks": [
+        "aer_gothic"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "Ironwake Waterfront",
+      "center": [
+        650,
+        540
+      ],
+      "heightRange": [
+        8,
+        35
+      ],
+      "sidewalkWidth": 3.6,
+      "families": [
+        "city_iron_warehouse_1",
+        "city_iron_warehouse_3",
+        "city_iron_warehouse_4",
+        "city_iron_warehouse_5",
+        "city_iron_genericbuilding_4",
+        "city_iron_hangar_2",
+        "city_iron_duplex_1"
+      ]
+    }
+  ],
+  "destruction": {
+    "default": "section",
+    "majorShowcaseLimit": 12,
+    "fullCollapseLimit": 6,
+    "dynamicDebrisCaps": {
+      "LOW": 16,
+      "MEDIUM": 24,
+      "HIGH": 32,
+      "ULTRA": 40
+    }
+  },
+  "horizon": {
+    "harborSide": "east",
+    "outskirtsExtent": 6000,
+    "waterRingAllowed": false
+  },
+  "performanceTargets": {
+    "LOW": {
+      "draws": 100,
+      "streetSubmittedTriangles": 500000
+    },
+    "MEDIUM": {
+      "draws": 130
+    },
+    "HIGH": {
+      "draws": 170
+    },
+    "ULTRA": {
+      "measuredSeparately": true
+    }
+  }
+}

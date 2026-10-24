@@ -1,0 +1,182 @@
+[
+  {
+    "href": "../../art/environment/phase7/provided/aer_glass-destructible.blend",
+    "status": 200
+  },
+  {
+    "href": "../../art/environment/phase7/provided/aer_gothic-destructible.blend",
+    "status": 200
+  },
+  {
+    "href": "../../art/environment/world-realism/build_concrete.py",
+    "status": 200
+  },
+  {
+    "href": "../../art/environment/world-realism/build_street_details.py",
+    "status": 200
+  },
+  {
+    "href": "../../art/environment/world-realism/urban-details.blend",
+    "status": 200
+  },
+  {
+    "href": "../../docs/WORLD-REALISM-AUDIT.md",
+    "status": 200
+  },
+  {
+    "href": "../../docs/WORLD-REALISM-HANDOFF.md",
+    "status": 200
+  },
+  {
+    "href": "../../public/assets/environment/ATTRIBUTION.txt",
+    "status": 200
+  },
+  {
+    "href": "../../public/assets/environment/metropolis/LICENSES.txt",
+    "status": 200
+  },
+  {
+    "href": "../../public/assets/environment/metropolis/WORLD-REALISM-LICENSES.txt",
+    "status": 200
+  },
+  {
+    "href": "../../public/assets/environment/metropolis/street-details-optimized.glb",
+    "status": 200
+  },
+  {
+    "href": "after/01-day-hero-block.png",
+    "status": 200
+  },
+  {
+    "href": "after/02-night-hero-block.png",
+    "status": 200
+  },
+  {
+    "href": "after/03-rain-night.png",
+    "status": 200
+  },
+  {
+    "href": "after/04-sidewalk.png",
+    "status": 200
+  },
+  {
+    "href": "after/05-intersection.png",
+    "status": 200
+  },
+  {
+    "href": "after/06-frontage.png",
+    "status": 200
+  },
+  {
+    "href": "after/07-rooftops.png",
+    "status": 200
+  },
+  {
+    "href": "after/08-industrial.png",
+    "status": 200
+  },
+  {
+    "href": "after/09-facade-intact.png",
+    "status": 200
+  },
+  {
+    "href": "after/10-missile-impact.png",
+    "status": 200
+  },
+  {
+    "href": "after/11-attached-fire-smoke.png",
+    "status": 200
+  },
+  {
+    "href": "after/12-repeated-damage.png",
+    "status": 200
+  },
+  {
+    "href": "after/13-structural-dust.png",
+    "status": 200
+  },
+  {
+    "href": "after/14-low-walking.png",
+    "status": 200
+  },
+  {
+    "href": "after/15-low-flight.png",
+    "status": 200
+  },
+  {
+    "href": "after/16-low-wet-night.png",
+    "status": 200
+  },
+  {
+    "href": "after/low-gameplay.json",
+    "status": 200
+  },
+  {
+    "href": "before/01-day-hero-block.png",
+    "status": 200
+  },
+  {
+    "href": "before/02-night-hero-block.png",
+    "status": 200
+  },
+  {
+    "href": "before/03-rain-night.png",
+    "status": 200
+  },
+  {
+    "href": "before/04-sidewalk.png",
+    "status": 200
+  },
+  {
+    "href": "before/05-intersection.png",
+    "status": 200
+  },
+  {
+    "href": "before/06-frontage.png",
+    "status": 200
+  },
+  {
+    "href": "before/07-rooftops.png",
+    "status": 200
+  },
+  {
+    "href": "before/08-industrial.png",
+    "status": 200
+  },
+  {
+    "href": "before/09-facade-intact.png",
+    "status": 200
+  },
+  {
+    "href": "before/10-missile-impact.png",
+    "status": 200
+  },
+  {
+    "href": "before/11-attached-fire-smoke.png",
+    "status": 200
+  },
+  {
+    "href": "before/12-repeated-damage.png",
+    "status": 200
+  },
+  {
+    "href": "before/13-structural-dust.png",
+    "status": 200
+  },
+  {
+    "href": "browser-results.json",
+    "status": 200
+  },
+  {
+    "href": "new-assets.json",
+    "status": 200
+  },
+  {
+    "href": "performance-before/results.json",
+    "status": 200
+  },
+  {
+    "href": "source-preservation.json",
+    "status": 200
+  }
+]

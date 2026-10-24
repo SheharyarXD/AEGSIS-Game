@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ground",
+    "passed": true,
+    "displacement": 0.023428900069002702,
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\live-2026-10-19\\acceptance\\ground\\page@d981164455c99f9578a0aeb844d60c9b.webm",
+    "result": "ground/result.json",
+    "launches": 8
+  },
+  {
+    "name": "hover",
+    "passed": true,
+    "displacement": 0,
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\live-2026-10-19\\acceptance\\hover\\page@5e2e0f4af45e55328594cf027dc47457.webm",
+    "result": "hover/result.json",
+    "launches": 8
+  },
+  {
+    "name": "roof",
+    "passed": true,
+    "displacement": 0.01114570006103047,
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\live-2026-10-19\\acceptance\\roof\\page@6a447f87b4e358a794142820b7108a85.webm",
+    "result": "roof/result.json",
+    "launches": 8
+  },
+  {
+    "name": "glass",
+    "passed": true,
+    "displacement": 0,
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\live-2026-10-19\\acceptance\\glass\\page@c71ea8a6e462df40f65b88ae6105288e.webm",
+    "result": "glass/result.json",
+    "launches": 8
+  },
+  {
+    "name": "gothic",
+    "passed": true,
+    "displacement": 0,
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\live-2026-10-19\\acceptance\\gothic\\page@9e0191223a3abcaf6bcb9df966512039.webm",
+    "result": "gothic/result.json",
+    "launches": 8
+  },
+  {
+    "name": "collapse",
+    "passed": true,
+    "displacement": null,
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\live-2026-10-19\\acceptance\\collapse\\page@46a81364153068bb977fa459f7b9e316.webm",
+    "result": "collapse/result.json",
+    "launches": 6
+  }
+]

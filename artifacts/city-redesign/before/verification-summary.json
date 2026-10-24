@@ -1,0 +1,197 @@
+{
+  "verifiedOn": "2026-10-12",
+  "timezone": "Asia/Karachi",
+  "completedAt": "2026-10-11T23:40:46.599Z",
+  "status": "Verification completed",
+  "build": "passed",
+  "unitChecks": 17,
+  "browserTests": 30,
+  "browserFailures": 0,
+  "browserFlaky": 0,
+  "productionChecks": 6,
+  "decodedLods": 135,
+  "preparedFamilies": 45,
+  "placedFamilies": 38,
+  "placements": 571,
+  "matchedScreenshotPairs": 10,
+  "gameplayVideos": 6,
+  "wholeWorldScenarios": 15,
+  "buildingDamageScenarios": 20,
+  "weaponDemonstrations": 2,
+  "hardware": {
+    "gpu": "NVIDIA GeForce GTX 750 Ti",
+    "machineUsedMiBRange": [
+      1287,
+      1484
+    ],
+    "browserDedicatedMiBRange": [
+      395.75390625,
+      586.1171875
+    ],
+    "scope": "Point-in-time counters per scene, not peak allocations; includes the desktop and is separate from estimated scene resource bytes."
+  },
+  "performance": [
+    {
+      "quality": "LOW",
+      "scene": "downtown-clear",
+      "meanMs": 16.339444444444446,
+      "fps": 61.20159124137227,
+      "p95Ms": 20.899999999997817,
+      "drawCalls": 185,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "downtown-heavy-rain",
+      "meanMs": 16.60944444444445,
+      "fps": 60.206709703314694,
+      "p95Ms": 20.900000000001455,
+      "drawCalls": 187,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "low-night",
+      "meanMs": 16.030555555555555,
+      "fps": 62.38086986657425,
+      "p95Ms": 20.899999999997817,
+      "drawCalls": 185,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "storm-flight",
+      "meanMs": 6.964166666666673,
+      "fps": 143.59219815723333,
+      "p95Ms": 7.099999999998545,
+      "drawCalls": 119.24166666666666,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "high-altitude",
+      "meanMs": 6.964166666666673,
+      "fps": 143.59219815723333,
+      "p95Ms": 7.099999999998545,
+      "drawCalls": 31,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "normal-gameplay",
+      "meanMs": 21.97194444444445,
+      "fps": 45.5125854941276,
+      "p95Ms": 27.80000000000291,
+      "drawCalls": 251.10833333333332,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "HIGH",
+      "scene": "downtown-clear",
+      "meanMs": 25.946111111111108,
+      "fps": 38.54142132197076,
+      "p95Ms": 27.900000000001455,
+      "drawCalls": 366,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "HIGH",
+      "scene": "night-rain",
+      "meanMs": 28.82055555555556,
+      "fps": 34.69745744742371,
+      "p95Ms": 34.700000000004366,
+      "drawCalls": 374,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "HIGH",
+      "scene": "high-night",
+      "meanMs": 29.187222222222225,
+      "fps": 34.26156803776386,
+      "p95Ms": 34.79999999999927,
+      "drawCalls": 371,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "HIGH",
+      "scene": "high-heavy-rain",
+      "meanMs": 25.251944444444447,
+      "fps": 39.600910820948876,
+      "p95Ms": 27.900000000001455,
+      "drawCalls": 369,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "district-boundary-flight",
+      "meanMs": 6.964166666666663,
+      "fps": 143.59219815723353,
+      "p95Ms": 7.099999999998545,
+      "drawCalls": 94.81111111111112,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "combat-three-enemies",
+      "meanMs": 22.049722222222226,
+      "fps": 45.35204525126292,
+      "p95Ms": 27.799999999999272,
+      "drawCalls": 357.3305555555556,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "missiles-laser-weather",
+      "meanMs": 16.49333333333334,
+      "fps": 60.63055780113175,
+      "p95Ms": 20.900000000001455,
+      "drawCalls": 251.30277777777778,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "rooftop-landing",
+      "meanMs": 20.96916666666667,
+      "fps": 47.68906728132575,
+      "p95Ms": 20.900000000001455,
+      "drawCalls": 206.0361111111111,
+      "sourceTextureEstimateBytes": 185688208
+    },
+    {
+      "quality": "LOW",
+      "scene": "restart-gameplay",
+      "meanMs": 23.746944444444438,
+      "fps": 42.110680906315444,
+      "p95Ms": 27.80000000000291,
+      "drawCalls": 325,
+      "sourceTextureEstimateBytes": 185688208
+    }
+  ],
+  "preservation": {
+    "originalFiles": 1087,
+    "unexpectedChanges": 0,
+    "suppliedAssetsUnchanged": true
+  },
+  "corrections": [
+    "Capture culling now uses the actual captured camera.",
+    "Authored pillar and barrier geometry is preserved in source LODs.",
+    "Baseline Vite cache is separate from MAIN."
+  ],
+  "remainingLimits": [
+    "Street dressing, Gothic kit assembly and coastline need further art polish.",
+    "Some ordinary source packs use baked low-poly facade textures.",
+    "Collapse is a controlled floor/sector cascade with bounded debris.",
+    "Assembly bay and road fixtures remain protected."
+  ],
+  "review": "artifacts/phase7/review.html",
+  "handoff": "docs/PHASE7-CODEX-TO-CLAUDE-HANDOFF.md",
+  "browserRunProvenance": {
+    "kind": "Latest result per test",
+    "fullRun": "browser-results-full-30-before-grace-fix.json",
+    "fullRunOutcome": "29 passed; one lock-grace wall-clock assertion failed",
+    "rerun": "browser-results-targeting-grace-rerun.json",
+    "rerunOutcome": "The targeting check passed after waiting for real occlusion and simulation-time grace expiry",
+    "replacedTests": 1,
+    "note": "This is an aggregate of the full run and focused rerun, not a claim that one uninterrupted 30-test run passed."
+  }
+}

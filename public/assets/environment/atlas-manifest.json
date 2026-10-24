@@ -1,0 +1,21 @@
+{
+  "creator": "AEGIS original procedural material pipeline",
+  "license": "Original project assets",
+  "source": "scripts/prepare-environment-materials.mjs",
+  "size": [
+    512,
+    512
+  ],
+  "quadrants": [
+    "cut stone",
+    "brick",
+    "weathered steel",
+    "roofing tar"
+  ],
+  "maps": [
+    "base color",
+    "OpenGL normal",
+    "packed occlusion / roughness / metallic"
+  ],
+  "seed": 4197
+}

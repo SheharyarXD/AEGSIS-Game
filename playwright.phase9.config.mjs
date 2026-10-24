@@ -1,0 +1,4 @@
+import {defineConfig} from '@playwright/test';
+const label=process.env.PHASE9_TEST_LABEL??'final';
+process.env.AEGIS_GAMEPLAY_ARTIFACTS=`artifacts/phase9/gameplay-tests-${label}`;
+export default defineConfig({testDir:'tests',testMatch:['browser.spec.mjs','environment.browser.spec.mjs','integration.browser.spec.mjs','architecture.browser.spec.mjs','city-redesign.browser.spec.mjs','visibility-destruction.browser.spec.mjs','world-realism.browser.spec.mjs','phase8.browser.spec.mjs','phase9.browser.spec.mjs'],workers:1,timeout:180000,expect:{timeout:15000},outputDir:`artifacts/phase9/test-results-${label}`,use:{channel:'chrome',headless:true,viewport:{width:1280,height:720},baseURL:'http://127.0.0.1:5192',screenshot:'only-on-failure'},reporter:[['list'],['json',{outputFile:`artifacts/phase9/browser-${label}.json`}]]});

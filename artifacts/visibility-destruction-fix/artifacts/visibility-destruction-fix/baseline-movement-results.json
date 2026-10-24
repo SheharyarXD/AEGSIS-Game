@@ -1,0 +1,200 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "artifacts/visibility-destruction-fix/baseline.playwright.config.mjs",
+      "--grep",
+      "flight follows the view|latest pilot walks"
+    ],
+    "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\visibility-destruction-fix\\baseline.playwright.config.mjs",
+    "rootDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/artifacts/visibility-destruction-fix/baseline-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "integration.browser.spec.mjs"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\visibility-destruction-fix\\baseline-test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\tests",
+        "snapshotDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "integration.browser.spec.mjs"
+        ],
+        "timeout": 120000,
+        "use": {
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "baseURL": "http://127.0.0.1:5204",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/visibility-destruction-fix/baseline-movement-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "browser.spec.mjs",
+      "file": "browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "flight follows the view in three dimensions: climb, dive, banked turn, and a free view in the hover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:49:46.429Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-7af0d291f79b9dddb9c5",
+          "file": "browser.spec.mjs",
+          "line": 195,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "integration.browser.spec.mjs",
+      "file": "integration.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "latest pilot walks and runs into authored city collision and stands on an industrial roof",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12386,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T07:50:03.023Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-c9e5c917ebc12002c844",
+          "file": "integration.browser.spec.mjs",
+          "line": 9,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-13T07:49:46.024Z",
+    "duration": 29585.314,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

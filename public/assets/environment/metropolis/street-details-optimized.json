@@ -1,0 +1,7 @@
+{
+  "input": "public/assets/environment/metropolis/street-details.glb",
+  "output": "public/assets/environment/metropolis/street-details-optimized.glb",
+  "sourceBytes": 579392,
+  "runtimeBytes": 148320,
+  "meshes": 70
+}

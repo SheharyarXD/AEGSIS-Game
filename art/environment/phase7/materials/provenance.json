@@ -1,0 +1,242 @@
+[
+  {
+    "asset": "stone_wall_03",
+    "name": "Stone Wall 03",
+    "creator": {
+      "eye-candy.xyz": "All"
+    },
+    "source": "https://polyhaven.com/a/stone_wall_03",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "downloadedAt": "2026-10-11T12:21:08.651443+00:00",
+    "files": [
+      {
+        "kind": "color",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_wall_03/stone_wall_03_diff_2k.jpg",
+        "bytes": 4217106,
+        "md5Verified": "fae0ef9ba98456fabc1c78e4a781a173",
+        "sha256": "d773961b86206ae005c7c81aeb99df14f828ecf116510cd8016448d4e8d61ab8",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "normal",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_wall_03/stone_wall_03_nor_gl_2k.jpg",
+        "bytes": 4909429,
+        "md5Verified": "5890c707545ea31658e56c512d98bd16",
+        "sha256": "5498b1ccd985c9661b84d4aea0ff0deb70981c0eaffc13b5b07e84fbbe9843ab",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "rough",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_wall_03/stone_wall_03_rough_2k.jpg",
+        "bytes": 1569928,
+        "md5Verified": "8c13311f101ba68bbc0e91cf43f90684",
+        "sha256": "f3cd93a0b108003aec24f0404bdfe6f6f1dad4b0eb56c71bcd3ae29722d5807e",
+        "originalFormat": "2K JPEG"
+      }
+    ],
+    "runtimePreparation": "Shared colour/normal/ORM atlas, 512/1024 texel slots, native BC3 DDS with WebP fallback"
+  },
+  {
+    "asset": "brick_wall_006",
+    "name": "Brick Wall 006",
+    "creator": {
+      "Jan Burghardt": "All"
+    },
+    "source": "https://polyhaven.com/a/brick_wall_006",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "downloadedAt": "2026-10-11T12:21:17.941804+00:00",
+    "files": [
+      {
+        "kind": "color",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_006/brick_wall_006_diff_2k.jpg",
+        "bytes": 4337453,
+        "md5Verified": "ce58078bffb33ca142240f675060e972",
+        "sha256": "6b5e1102e30d38c8b7c9885013bbb063817575567487fbdcf2671ebba5256a4b",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "normal",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_006/brick_wall_006_nor_gl_2k.jpg",
+        "bytes": 3471088,
+        "md5Verified": "4c9fe7bc3abfb9da9fb541e9b25c3995",
+        "sha256": "229b2263753614807f5acd72370e00c47b411088c2bd100a65d62ed17ba67be9",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "rough",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brick_wall_006/brick_wall_006_rough_2k.jpg",
+        "bytes": 1849251,
+        "md5Verified": "d0339c12ff4ee6f8580f65445f690a60",
+        "sha256": "3675e6d7aa3c069fecc5be2b79456979966a99f5098888d4baf93b31d2d7febe",
+        "originalFormat": "2K JPEG"
+      }
+    ],
+    "runtimePreparation": "Shared colour/normal/ORM atlas, 512/1024 texel slots, native BC3 DDS with WebP fallback"
+  },
+  {
+    "asset": "concrete_pavement",
+    "name": "Concrete Pavement",
+    "creator": {
+      "Charlotte Baglioni": "All"
+    },
+    "source": "https://polyhaven.com/a/concrete_pavement",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "downloadedAt": "2026-10-11T12:21:29.044712+00:00",
+    "files": [
+      {
+        "kind": "color",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_diff_2k.jpg",
+        "bytes": 3817566,
+        "md5Verified": "f7cdc6f38538e2739d48fbb4f1507ddb",
+        "sha256": "e5a1cecfe7765cc0b24a6ab0abf492bd21c9e7af64e97fc46ef6021d0645fbd3",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "normal",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_nor_gl_2k.jpg",
+        "bytes": 5179971,
+        "md5Verified": "0b6ff8180e61242be0b89e8fe1d6fda7",
+        "sha256": "72def937e418ccc9d7736c9b1f51ae22a127fa2a53a54f4d1fe4d3cf828b781c",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "rough",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_pavement/concrete_pavement_rough_2k.jpg",
+        "bytes": 2125646,
+        "md5Verified": "670223ce80309b606ceea892f47aa766",
+        "sha256": "e97b7d190dcda5a842813502505bf3d1b2348b4cad57b1d51d1bcc694a92d137",
+        "originalFormat": "2K JPEG"
+      }
+    ],
+    "runtimePreparation": "Shared colour/normal/ORM atlas, 512/1024 texel slots, native BC3 DDS with WebP fallback"
+  },
+  {
+    "asset": "metal_plate",
+    "name": "Metal Plate",
+    "creator": {
+      "Rob Tuytel": "All"
+    },
+    "source": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "downloadedAt": "2026-10-11T12:21:34.806881+00:00",
+    "files": [
+      {
+        "kind": "color",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_diff_2k.jpg",
+        "bytes": 2670774,
+        "md5Verified": "91b841e7e619e55588f0183a703fb644",
+        "sha256": "864c9a653acd1f5034c9bbe7f955b18cc9687a81bbdfa805e7a2319939676910",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "normal",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_nor_gl_2k.jpg",
+        "bytes": 2516654,
+        "md5Verified": "797c3f3de91da0c03f44f493576e158e",
+        "sha256": "146f8c00874a584bcc4a184643e72f160da2a7568d469198e02b26c9ff93cf43",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "rough",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_rough_2k.jpg",
+        "bytes": 3045988,
+        "md5Verified": "b2c2bfc0a5e46c1a8bdfddd236daa200",
+        "sha256": "3cdc139df4ec5b304dd986278c1fb026c67c42e6623f0ee5caa7f373d51c7bef",
+        "originalFormat": "2K JPEG"
+      }
+    ],
+    "runtimePreparation": "Shared colour/normal/ORM atlas, 512/1024 texel slots, native BC3 DDS with WebP fallback"
+  },
+  {
+    "asset": "rusty_metal_02",
+    "name": "Rusty Metal 02",
+    "creator": {
+      "Rob Tuytel": "All"
+    },
+    "source": "https://polyhaven.com/a/rusty_metal_02",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "downloadedAt": "2026-10-11T12:21:39.416399+00:00",
+    "files": [
+      {
+        "kind": "color",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_02/rusty_metal_02_diff_2k.jpg",
+        "bytes": 1952454,
+        "md5Verified": "385195f8de0117418d99dc1d06b7ff38",
+        "sha256": "4c887dd400ed8a5964377c65e20654262307d6888443eae85feb80cc6e72287a",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "normal",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_02/rusty_metal_02_nor_gl_2k.jpg",
+        "bytes": 1307478,
+        "md5Verified": "9d55427ccd90c8f54293232c87e36933",
+        "sha256": "a7aa9c3e4b6859c723c8e9dc5b96d7ed6eed863271358a91641c727555da75ce",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "rough",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_02/rusty_metal_02_rough_2k.jpg",
+        "bytes": 411581,
+        "md5Verified": "b3cde2ae9c01ae694d19ea0fa5d38bca",
+        "sha256": "1d0748dfe7754d8b18c1dea5a2dff2da30848787d35abeb916c34b804decca3a",
+        "originalFormat": "2K JPEG"
+      }
+    ],
+    "runtimePreparation": "Shared colour/normal/ORM atlas, 512/1024 texel slots, native BC3 DDS with WebP fallback"
+  },
+  {
+    "asset": "old_stone_wall_02",
+    "name": "Old Stone Wall 02",
+    "creator": {
+      "Charlotte Baglioni": "All"
+    },
+    "source": "https://polyhaven.com/a/old_stone_wall_02",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "downloadedAt": "2026-10-11T12:21:49.270471+00:00",
+    "files": [
+      {
+        "kind": "color",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/old_stone_wall_02/old_stone_wall_02_diff_2k.jpg",
+        "bytes": 3485051,
+        "md5Verified": "103f481ad11f69fcd6e2c78de3c7aee8",
+        "sha256": "e0f2d3a63ab21a33a88dbc58cf53a165d5c908ab8c18caf3aef709f25a925c07",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "normal",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/old_stone_wall_02/old_stone_wall_02_nor_gl_2k.jpg",
+        "bytes": 4419099,
+        "md5Verified": "5ef2783f87549b41726ff97b77120acb",
+        "sha256": "1d48b89ad413e1f3b1fb3a5941d0b8fcbd896930aa289a6373013305d2814d66",
+        "originalFormat": "2K JPEG"
+      },
+      {
+        "kind": "rough",
+        "sourceURL": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/old_stone_wall_02/old_stone_wall_02_rough_2k.jpg",
+        "bytes": 859183,
+        "md5Verified": "e075fcfce3a1e48d84f72311df906566",
+        "sha256": "59cc58af7591ec1f9aa598277b6a7a9d23ef48d92be7c4260a90acbc5d86e871",
+        "originalFormat": "2K JPEG"
+      }
+    ],
+    "runtimePreparation": "Shared colour/normal/ORM atlas, 512/1024 texel slots, native BC3 DDS with WebP fallback"
+  }
+]

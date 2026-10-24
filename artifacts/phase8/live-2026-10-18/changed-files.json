@@ -1,0 +1,62 @@
+[
+  {
+    "file": "src/main.ts",
+    "before": "e296c46bfe62e7570acdca7c09f117e9632ea0b5e4b1193b1843b1ba411bdca7",
+    "after": "8007b6616c7e5048ca13b2860f6893a341bb2250da90779fd89de0e9466e1230"
+  },
+  {
+    "file": "src/world/ArchitectureDestruction.ts",
+    "before": "f6f9b6299f54cb2a3e625ec6b2ee26414ff4bc78cb64913749d4279aa21df19f",
+    "after": "bb4483ab96735e385d73d67025123927f1539d3a79a9516033e9f0181e50d945"
+  },
+  {
+    "file": "src/world/environment/AssetLibrary.ts",
+    "before": "e4509b8743c579fba9a540fac14bd9194cd09130745aa22d6070252e06b7399d",
+    "after": "1ac70848a1ce636abce69a4aae12918875eb8469dcbd312a310aa464df0ff1bd"
+  },
+  {
+    "file": "src/world/titan/BreachPlan.ts",
+    "before": "c7f2ed84fc1b3841fcc88f5375b4c39a7414be8bfa7a66d04c45fd2892877102",
+    "after": "975a2d326a994f1e68b062209f77916e733ece1880429b99eed8dbdfb9e70829"
+  },
+  {
+    "file": "src/world/titan/TitanBreakthrough.ts",
+    "before": "58cc4e2855106782db2aba8668074ad1055ce9c3f7927514b5b55080ac744288",
+    "after": "956fe2adf365406f5b905182a0854319033547e36b7eda9b02c40207a7e1d5d4"
+  },
+  {
+    "file": "tests/architecture.browser.spec.mjs",
+    "before": "7c3b48a62bfa9be3a3f8315253d5c9a2b6c136be46fcbca4c4602e014d9394a9",
+    "after": "cd964d3fe7a9304c93a160edd4affdd0b685f34201de242d1d911be0ae22c5f5"
+  },
+  {
+    "file": "tests/browser.spec.mjs",
+    "before": "d1cf27f13617f0c2eeb740848d1e33bd512295c37261e071d7ae365e8f863794",
+    "after": "8875ac5b99f628df5fae4ef850d8052115b8535ba002e04abe83f50b228e033f"
+  },
+  {
+    "file": "tests/city-redesign.browser.spec.mjs",
+    "before": "db1848519e18a49f1db672e86e81fba94a85203d0feb0a8e5fb82d7e30592347",
+    "after": "a320fa7f152712900261ed28367c72d78b17bfd3e09970bdd6935c89df4e4d13"
+  },
+  {
+    "file": "tests/environment.browser.spec.mjs",
+    "before": "bdea95a29d886d3e80ee6ed236061509f916e4ff30398f028eafea6e702a4367",
+    "after": "3a8bf57b1f571eaa44c1fc1a8d63f48b262df9b271d5f85c06acb64517ec9034"
+  },
+  {
+    "file": "tests/integration.browser.spec.mjs",
+    "before": "d728dccc49188467e065fdc7d806fe4ca6ec2728b148d9818460ff7369ebb66d",
+    "after": "deeb166aa0dd7be015c0501fc50913d00ccb02556ea6e257fbc7bb12036e1215"
+  },
+  {
+    "file": "tests/phase8.test.ts",
+    "before": "4d4b20551e46c4e5e47461e99516e6149c2cc9a224df9fbbe321d85927290875",
+    "after": "e116c39ffb6b18b0e89be08deb4265320f62dac82e19e2ddfb007f90a8b24be0"
+  },
+  {
+    "file": "scripts/phase8-verify-offline.mjs",
+    "before": "9916776c8dd8cf923391fca3c7602ac337677bf3598128bed27722c13a350a1d",
+    "after": "686c935ab5fc4197437e3b374bf346f5a00d37f66d2df05e0d63873b6ca4ed4d"
+  }
+]

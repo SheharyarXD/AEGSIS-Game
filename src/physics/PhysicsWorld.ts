@@ -45,6 +45,13 @@ export class PhysicsWorld {
     }
   }
   resetClock(): void { this.accumulator=0; }
+  /** Height of `point` above the nearest fixed surface below it, up to `limit` metres. */
+  groundDistance(point: {x:number;y:number;z:number}, limit: number): number {
+    const hit=this.world.castRay(new RAPIER.Ray({x:point.x,y:point.y+.3,z:point.z},{x:0,y:-1,z:0}),limit+.3,true,RAPIER.QueryFilterFlags.ONLY_FIXED);
+    return hit?Math.max(0,hit.timeOfImpact-.3):limit;
+  }
+  /** How far the display is past the last simulated step, 0..1: draw between the last two states. */
+  get alpha(): number { return this.accumulator / FIXED_DT; }
   removeCollider(collider:RAPIER.Collider): void {
     this.surfaces.delete(collider.handle);
     if(collider.isValid())this.world.removeCollider(collider,true);

@@ -1,0 +1,87 @@
+[
+ [
+  "repulsor, standing",
+  {
+   "state": "GROUND",
+   "shots": 5,
+   "beam": 0,
+   "aimR": 1,
+   "beamEndToTarget": 70.08,
+   "health": [
+    95,
+    15,
+    95
+   ],
+   "beamTone": false,
+   "beamStarts": 0
+  }
+ ],
+ [
+  "repulsor, hovering",
+  {
+   "state": "HOVER",
+   "shots": 5,
+   "beam": 0,
+   "aimR": 1,
+   "beamEndToTarget": 69.7,
+   "health": [
+    95,
+    15,
+    95
+   ],
+   "beamTone": false,
+   "beamStarts": 0
+  }
+ ],
+ [
+  "beam, hovering",
+  {
+   "state": "HOVER",
+   "shots": 0,
+   "beam": 1.03,
+   "aimR": 1,
+   "beamEndToTarget": 0,
+   "health": [
+    95,
+    31,
+    95
+   ],
+   "beamTone": true,
+   "beamStarts": 1
+  }
+ ],
+ [
+  "beam released",
+  {
+   "state": "HOVER",
+   "shots": 0,
+   "beam": 1.03,
+   "aimR": 1,
+   "beamEndToTarget": 0,
+   "health": [
+    95,
+    31,
+    95
+   ],
+   "beamTone": false,
+   "beamStarts": 1
+  }
+ ],
+ [
+  "beam while climbing",
+  {
+   "state": "HOVER",
+   "shots": 0,
+   "beam": 0.83,
+   "aimR": 1,
+   "beamEndToTarget": 26.9,
+   "health": [
+    95,
+    78,
+    95
+   ],
+   "beamTone": true,
+   "beamStarts": 2
+  }
+ ]
+]

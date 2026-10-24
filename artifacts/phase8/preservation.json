@@ -1,0 +1,297 @@
+{
+  "checkedAt": "2026-10-18T13:02:21.328Z",
+  "baselineFiles": 184,
+  "unchanged": 163,
+  "changed": [
+    {
+      "file": "src/main.ts",
+      "before": "232355eafa4418726d034b725eb956b0b5a68d1ef9ccc288a052bc34b3bd035d",
+      "after": "8007b6616c7e5048ca13b2860f6893a341bb2250da90779fd89de0e9466e1230"
+    },
+    {
+      "file": "src/combat/Encounter.ts",
+      "before": "fe9275fb8f6f7a0795a284b1fe120cd4b9f10857f68ebfcc5e32b14ec701bdb1",
+      "after": "ffa8192e28b0d10dd90b38d6275349fa712ff9b256a9c58dab1ceb84b16b1cf7"
+    },
+    {
+      "file": "src/combat/HandWeapons.ts",
+      "before": "17566b6f0459ea4dda4494750b195b51898602afde1831bf17d04c00edc00877",
+      "after": "f72678a9cd42ef5f27e8632d826cfb5713cc155a6c443c89db404d5b21748acb"
+    },
+    {
+      "file": "src/combat/Missiles.ts",
+      "before": "a7dd839b13784954cc64ac1a7225de72ec6dcdc740870fb44fdb3807085f0900",
+      "after": "10638748c800bd509759eec3d64f93592d66391aa6e0dd280f2b292879740c47"
+    },
+    {
+      "file": "src/input/Controls.ts",
+      "before": "79e7d42228e96862cda302fb084082153f3b003f34c61afcc7912eebab773c3a",
+      "after": "15f9b854f4bf7af156b4030252b49c489c92d86a1711ecdb23847d8a8fbda31c"
+    },
+    {
+      "file": "src/physics/Destruction.ts",
+      "before": "db86c556c7f34349a822e54af7cad499efdd98516bf2b0a4e9d75ac6c169fe55",
+      "after": "6d260a869826604333b6b70ebdf1efec403dea4b04f69d9459ce48ee37bd4ee0"
+    },
+    {
+      "file": "src/world/ArchitectureDestruction.ts",
+      "before": "1d7d6d47aa2667f7c94d5d4d354e114da8b0f016ab74be4a3414d308f707464f",
+      "after": "bb4483ab96735e385d73d67025123927f1539d3a79a9516033e9f0181e50d945"
+    },
+    {
+      "file": "src/world/City.ts",
+      "before": "950b41d3b0af8b8f7e13ba8942f7ca72a43a29a9fb86677820eaeb07284fcd10",
+      "after": "0b81c204aa5827b78bd4eca7e2406a411efcfc74082cc9fd4d81927b3f3cecc2"
+    },
+    {
+      "file": "src/world/EnvironmentalDestruction.ts",
+      "before": "c1b54764dbc511e5379bfcbc38943adac20874b5e95a083b86dc2bd38b3a52be",
+      "after": "56c70c2db2605dcc543c2e8be67a49b8ad06c6f6b79f6141e7cb48c3062c386b"
+    },
+    {
+      "file": "src/world/WorldStreaming.ts",
+      "before": "9b990203bb1e42b32dbd626c80305a4e95fc2e2faf28e0a007a2fb6bed3b78d8",
+      "after": "76faf34cb286825fd5c49461444cfe0bd2aabe16954babd645ce719903b8afef"
+    },
+    {
+      "file": "src/world/environment/ArchitectureImpactEffects.ts",
+      "before": "1a5166b2921f20e0dcbffa78343bc670d61c00097f611309ad4235413a201dbf",
+      "after": "2014bcbf794829be2dcc2923bda04e6548463b31e6326c45731848acf0a64ef6"
+    },
+    {
+      "file": "src/world/environment/AssetLibrary.ts",
+      "before": "96fc7852ccb0f9dd7a4e459afcf192dd06f54b38b1a97f43fc15ff128218bb52",
+      "after": "1ac70848a1ce636abce69a4aae12918875eb8469dcbd312a310aa464df0ff1bd"
+    },
+    {
+      "file": "src/world/environment/EnvironmentMaterials.ts",
+      "before": "56306fc33c5348dc0be90f3fd4455316edda45532126fbd27d3e6f959b98b2fc",
+      "after": "d9cacab9e1aa10d31f328aecad87ac45ac3919e18012b87c6926540b784eb617"
+    },
+    {
+      "file": "src/world/environment/UrbanAmbience.ts",
+      "before": "5011de7c8b51f06a3a3f16b2f3d53495a69a68c9c52fdf8cb5b2272a61e1cab0",
+      "after": "e05b36d85a2649e09f4847db9f9f9c901a41f957d4f0b3bbb3540f79700a661b"
+    },
+    {
+      "file": "src/world/environment/UrbanSurfaces.ts",
+      "before": "01da77c6ace97e1a7b911eee29a9cfbc2ead2f206a4b26cc5f7496c1988279f1",
+      "after": "6d00b0de483f39ebf1d01b6fac74e6a483389753e0c01ca7d88f4763fcb7afd0"
+    },
+    {
+      "file": "tests/architecture.browser.spec.mjs",
+      "before": "7c3b48a62bfa9be3a3f8315253d5c9a2b6c136be46fcbca4c4602e014d9394a9",
+      "after": "cd964d3fe7a9304c93a160edd4affdd0b685f34201de242d1d911be0ae22c5f5"
+    },
+    {
+      "file": "tests/browser.spec.mjs",
+      "before": "d1cf27f13617f0c2eeb740848d1e33bd512295c37261e071d7ae365e8f863794",
+      "after": "8875ac5b99f628df5fae4ef850d8052115b8535ba002e04abe83f50b228e033f"
+    },
+    {
+      "file": "tests/city-redesign.browser.spec.mjs",
+      "before": "db1848519e18a49f1db672e86e81fba94a85203d0feb0a8e5fb82d7e30592347",
+      "after": "a320fa7f152712900261ed28367c72d78b17bfd3e09970bdd6935c89df4e4d13"
+    },
+    {
+      "file": "tests/environment.browser.spec.mjs",
+      "before": "bdea95a29d886d3e80ee6ed236061509f916e4ff30398f028eafea6e702a4367",
+      "after": "3a8bf57b1f571eaa44c1fc1a8d63f48b262df9b271d5f85c06acb64517ec9034"
+    },
+    {
+      "file": "tests/integration.browser.spec.mjs",
+      "before": "d728dccc49188467e065fdc7d806fe4ca6ec2728b148d9818460ff7369ebb66d",
+      "after": "deeb166aa0dd7be015c0501fc50913d00ccb02556ea6e257fbc7bb12036e1215"
+    },
+    {
+      "file": "tests/visibility-destruction.test.ts",
+      "before": "eac74f0f4ac8d689c305dac268f00f8122101c60c116c379b1ba6ae459b5c870",
+      "after": "e96a63d26a694677ee10c8dd9638e606ed1a8986de944a3cc07d07e18b0126a5"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "file": "src/audio/AudioSystem.ts",
+      "sha256": "42184a1bb6e231bdb1f2edb9cebb3c88ae94cd8dd45f0fc969800344946e3301",
+      "unchanged": true
+    },
+    {
+      "file": "src/camera/CameraRig.ts",
+      "sha256": "ff044d80abf2cd427b78eb074c8069cb02bb41cd99ebe497cddd70dc7790d2d1",
+      "unchanged": true
+    },
+    {
+      "file": "src/input/InputController.ts",
+      "sha256": "261050eb8fbb7aab000dbf1634f039a3e4af698ac534452af6eaf035a34815ec",
+      "unchanged": true
+    },
+    {
+      "file": "src/physics/PhysicsWorld.ts",
+      "sha256": "c9c05c5a9b7f5143049eb25d010bbedcbce53e8be9c2fe2bcb6bee38e0adf3a2",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisIdentity.ts",
+      "sha256": "abae0c66f506c13201e3e2a002153ca7a362dd2a633dc14bf59a3e974cc5c36c",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisMarkII.ts",
+      "sha256": "a2c79ddb055e113a7830b6ef34a9c34afe5757c38f00757d45b94e9bbcac67ef",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisSuit.ts",
+      "sha256": "bf7cf8c42dc7104e84a8114c1bad0611107c87241462e316e540a8b6aac85533",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/assemblyManifest.ts",
+      "sha256": "c19e30e1d0cca6bd487ec72a0af04f3ffea8bbba806547bb51e550b08396276d",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/FlightState.ts",
+      "sha256": "8f20d982b3c8272167794d9ef8af315ad26867693efb0c229bb2a034cfa2e6a4",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/PlayerController.ts",
+      "sha256": "6a31cd58e6b06e03e33555597103c0dc7850bd8bc77787c0f0e97cb3b0134b68",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/SuitAssembly.ts",
+      "sha256": "4b219e42bce7bd1fad92f9b4c5f13c540909176379c935300d9566afc342678e",
+      "unchanged": true
+    },
+    {
+      "file": "src/ui/Hud.ts",
+      "sha256": "7c01cd27e0593aa32aa38b36b7f8dc875a9dde4c994740d3e22bb442f0416f0c",
+      "unchanged": true
+    }
+  ],
+  "originalAssets": [
+    {
+      "file": "art/external/art_deco_citadel.glb",
+      "bytes": 36318512,
+      "sha256": "b852e65595f4d9816a8627ceab50e7de21eabb61f979b85b546f6ffe8c2c7577",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/Downtown City MegaKit[Standard].zip",
+      "bytes": 234753092,
+      "sha256": "5b1a945576d54cdbb4ccc9c3d52711e6d530da74c74c586407ecc28b165335da",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/downtown_buildings_set_-_low_poly_model.glb",
+      "bytes": 31354920,
+      "sha256": "073df274ae856ecf64bafc2173d54666f62d1dfe4c32a6f3a59b04f9586ffa02",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/free_london_skyscraper.glb",
+      "bytes": 46107920,
+      "sha256": "f873b1447db97dd3029a3b4588318f60157f3c22152a2c0561399ca326bff4a2",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/gothic_architectural_structures.glb",
+      "bytes": 17184512,
+      "sha256": "417dc69a55a53ee25560118c2ed380035c10d4064a5949f53b570c24721b9eeb",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/gothic_building_for_aria_pack_1.0.glb",
+      "bytes": 56280628,
+      "sha256": "682bc3d9a8235c1f764b138cea7b660ae017634e922584996e2dea303475351a",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/industrial_asset_pack_free.glb",
+      "bytes": 34493144,
+      "sha256": "271cfa2cc8290181f6f30f45096e00209ecc1a26fd163ba21e45d6f8f712dde7",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/industrial_buildings_set_-_low_poly_models.glb",
+      "bytes": 22173880,
+      "sha256": "944e00eba19feb2f12c181cd78df6e54549d66d0b9a41d112df355fbfae3005c",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/mega_moduler_apartment_building.glb",
+      "bytes": 60365888,
+      "sha256": "08b71609a1102eb29f1e4c880d15b27e1c4eab586a89a5bf1569395df4b9c358",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/modern_city_block.glb",
+      "bytes": 25320800,
+      "sha256": "28694dd37f81873745ad6c1a23a9e00cd777033b85ed862c2cde89e2728bbcf5",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/pbr_street_props_pack_game_ready.glb",
+      "bytes": 54770212,
+      "sha256": "856bc3f5d6f00762600280e712de67328be4618f100563f69f3e7583da91c941",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/rooftop_ventilation_modular_kit.glb",
+      "bytes": 30886732,
+      "sha256": "48b6e6ba7fa707bd01219e526a640344d1b06ee3f5ee6640ce93c51804925056",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/scifi_gothic_building_pack-_bridge.glb",
+      "bytes": 64062808,
+      "sha256": "6889cb7c4faea430ef6e8c32be4e9c38bd8f4e6a439c92012a4e230f2e9c1352",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/singapore_office_skyscraper_free.glb",
+      "bytes": 9638372,
+      "sha256": "b4a3b40029908f8289223df5c435f510262feda4b65f068b484784bdd9682bbc",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/urban_modular_environment.glb",
+      "bytes": 70676880,
+      "sha256": "7bccd2ba4e1a5d7c5c0dc73b90f4c8436dd6eb8c526ab281106eb623d2ec6225",
+      "unchanged": true
+    }
+  ],
+  "sourceFamilies": 25,
+  "newFiles": [
+    "src/world/titan/BreachInteriors.ts",
+    "src/world/titan/BreachPlan.ts",
+    "src/world/titan/DestructionScheduler.ts",
+    "src/world/titan/ExplosionEffects.ts",
+    "src/world/titan/StreetStandards.ts",
+    "src/world/titan/SupportGraph.ts",
+    "src/world/titan/ThermalDamage.ts",
+    "src/world/titan/TitanBreakthrough.ts",
+    "src/world/titan/TitanConfig.ts",
+    "src/world/streaming/AssetQueue.ts",
+    "src/world/streaming/FrameProfiler.ts",
+    "src/world/streaming/geometry.worker.ts",
+    "src/world/streaming/GeometryPreparation.ts",
+    "src/world/streaming/GeometryWorker.ts",
+    "tests/helpers/architecture-fixture.ts",
+    "art/environment/phase8/build_titan_kit.py",
+    "art/environment/phase8/titan-urban-and-fracture.blend",
+    "tests/phase8.test.ts",
+    "scripts/phase8-offline-audit.mjs",
+    "scripts/phase8-code-report.ts",
+    "scripts/phase8-verify-offline.mjs",
+    "scripts/phase8-performance.mjs",
+    "scripts/phase8-shader-probe.mjs",
+    "docs/PHASE8-IMPLEMENTATION-PLAN.md",
+    "docs/PHASE8-CODEX-TO-CLAUDE-HANDOFF.md",
+    "public/assets/environment/metropolis/phase8-titan-kit.glb",
+    "public/assets/environment/metropolis/phase8-titan-kit-optimized.glb",
+    "public/assets/environment/metropolis/PHASE8-LICENSES.txt"
+  ]
+}

@@ -1,0 +1,106 @@
+[
+ [
+  "hover, view moved freely",
+  {
+   "state": "HOVER",
+   "y": 9.4,
+   "vy": 0,
+   "speed": 0,
+   "climb": 0,
+   "pitch": 0.06,
+   "roll": 0.12,
+   "ragdoll": false
+  }
+ ],
+ [
+  "level cruise",
+  {
+   "state": "CRUISE",
+   "y": 9.4,
+   "vy": 0,
+   "speed": 18.6,
+   "climb": 0,
+   "pitch": 0.82,
+   "roll": 0.06,
+   "ragdoll": false
+  }
+ ],
+ [
+  "climb",
+  {
+   "state": "CRUISE",
+   "y": 19.6,
+   "vy": 11.2,
+   "speed": 27.8,
+   "climb": 0.39,
+   "pitch": 0.82,
+   "roll": 0,
+   "ragdoll": false
+  }
+ ],
+ [
+  "dive",
+  {
+   "state": "CRUISE",
+   "y": 17.1,
+   "vy": -8.9,
+   "speed": 28,
+   "climb": -0.28,
+   "pitch": 1.43,
+   "roll": 0,
+   "ragdoll": false
+  }
+ ],
+ [
+  "turning left",
+  {
+   "state": "CRUISE",
+   "y": 15,
+   "vy": 1.9,
+   "speed": 28,
+   "climb": 0.02,
+   "pitch": 1.22,
+   "roll": -0.25,
+   "ragdoll": false
+  }
+ ],
+ [
+  "turning right",
+  {
+   "state": "CRUISE",
+   "y": 16.7,
+   "vy": 3.4,
+   "speed": 28.4,
+   "climb": 0.1,
+   "pitch": 1.11,
+   "roll": 0.23,
+   "ragdoll": false
+  }
+ ],
+ [
+  "braking",
+  {
+   "state": "BRAKE",
+   "y": 20.2,
+   "vy": 0,
+   "speed": 0.1,
+   "climb": 0,
+   "pitch": -0.3,
+   "roll": 0,
+   "ragdoll": false
+  }
+ ],
+ [
+  "recovered",
+  {
+   "state": "HOVER",
+   "y": 20.2,
+   "vy": 0,
+   "speed": 0.1,
+   "climb": 0,
+   "pitch": 0.06,
+   "roll": 0,
+   "ragdoll": false
+  }
+ ]
+]

@@ -1,0 +1,344 @@
+{
+  "sourceFiles": [
+    {
+      "file": "src/audio/AudioSystem.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/camera/CameraRig.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Boss.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Drone.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Encounter.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Enemy.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/HandWeapons.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Melee.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Missiles.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Projectiles.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/combat/Targeting.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/config.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/input/Controls.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/input/InputController.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/main.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/physics/Destruction.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/physics/PhysicsWorld.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/physics/Ragdoll.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/AegisIdentity.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/AegisMarkII.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/AegisSuit.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/assemblyManifest.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/FlightState.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/PlayerController.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/player/SuitAssembly.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/styles.css",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/ui/Hud.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/vfx/FlightVfx.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/vfx/ImpactVfx.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/vfx/PartThrusters.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "unchanged": true,
+      "world": false
+    },
+    {
+      "file": "src/world/ArchitectureDestruction.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/ArchitectureFamilies.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/City.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/CityLayout.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/DeploymentBay.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/DestructibleFamilies.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/ArchitecturalLights.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/AssetLibrary.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/Atmosphere.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/CityInfrastructure.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/EnvironmentAudio.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/EnvironmentDebug.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/EnvironmentMaterials.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/GpuProfiler.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/Precipitation.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/PremiumMaterials.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/UrbanAmbience.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/environment/WeatherState.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/EnvironmentalDestruction.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/FixedCityLayout.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/GeometryBatch.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/WorldCollision.ts",
+      "unchanged": false,
+      "world": true
+    },
+    {
+      "file": "src/world/WorldRecovery.ts",
+      "unchanged": true,
+      "world": true
+    },
+    {
+      "file": "src/world/WorldStreaming.ts",
+      "unchanged": false,
+      "world": true
+    }
+  ],
+  "unexpectedNonWorldChanges": [],
+  "suppliedAssets": [
+    {
+      "file": "art_deco_citadel.glb",
+      "unchanged": true
+    },
+    {
+      "file": "Downtown City MegaKit[Standard].zip",
+      "unchanged": true
+    },
+    {
+      "file": "downtown_buildings_set_-_low_poly_model.glb",
+      "unchanged": true
+    },
+    {
+      "file": "free_london_skyscraper.glb",
+      "unchanged": true
+    },
+    {
+      "file": "gothic_architectural_structures.glb",
+      "unchanged": true
+    },
+    {
+      "file": "gothic_building_for_aria_pack_1.0.glb",
+      "unchanged": true
+    },
+    {
+      "file": "industrial_asset_pack_free.glb",
+      "unchanged": true
+    },
+    {
+      "file": "industrial_buildings_set_-_low_poly_models.glb",
+      "unchanged": true
+    },
+    {
+      "file": "mega_moduler_apartment_building.glb",
+      "unchanged": true
+    },
+    {
+      "file": "modern_city_block.glb",
+      "unchanged": true
+    },
+    {
+      "file": "pbr_street_props_pack_game_ready.glb",
+      "unchanged": true
+    },
+    {
+      "file": "rooftop_ventilation_modular_kit.glb",
+      "unchanged": true
+    },
+    {
+      "file": "scifi_gothic_building_pack-_bridge.glb",
+      "unchanged": true
+    },
+    {
+      "file": "singapore_office_skyscraper_free.glb",
+      "unchanged": true
+    },
+    {
+      "file": "urban_modular_environment.glb",
+      "unchanged": true
+    }
+  ],
+  "suppliedAssetsUnchanged": true,
+  "restoredHistoricalArtifacts": []
+}

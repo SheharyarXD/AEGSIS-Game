@@ -1,0 +1,708 @@
+{
+  "measuredAt": "2026-10-13T07:49:09.046Z",
+  "base": "http://127.0.0.1:5204",
+  "results": [
+    {
+      "quality": "LOW",
+      "viewport": [
+        1440,
+        900
+      ],
+      "skyline": {
+        "samples": 120,
+        "meanMs": 19.907499999999995,
+        "p95Ms": 27.800000000000182,
+        "maxMs": 27.899999999999636,
+        "simulationMeanMs": 0.8058333334202568,
+        "simulationMaxMs": 2.100000001490116,
+        "drawCallsMean": 104,
+        "trianglesMean": 294901
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buildings": [
+        {
+          "id": 8014,
+          "family": "city_flatiron_1",
+          "height": 91,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10035,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10038,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10042,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10045,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10049,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10053,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 9011,
+          "family": "aer_gothic",
+          "height": 112.48,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10170,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 9003,
+          "family": "aer_glass",
+          "height": 225.12,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10173,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 9002,
+          "family": "city_singapore",
+          "height": 150.9956,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10176,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10180,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 211,
+          "family": "aer_gothic",
+          "height": 179.36,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10227,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10231,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10234,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10238,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10241,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10245,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "height": 188.16,
+          "fullSource": false,
+          "visible": true
+        }
+      ],
+      "impacts": [
+        {
+          "stage": "windows",
+          "callMs": 48.70000000298023,
+          "profile": {
+            "hydrate": {
+              "calls": 1,
+              "totalMs": 3.600000001490116
+            },
+            "rebuildCoarse": {
+              "calls": 4,
+              "totalMs": 5.800000011920929
+            },
+            "activate": {
+              "calls": 1,
+              "totalMs": 6.600000001490116
+            },
+            "ensureFloor": {
+              "calls": 12,
+              "totalMs": 30.30000001192093
+            },
+            "spawnSource": {
+              "calls": 12,
+              "totalMs": 5.5
+            },
+            "spawn": {
+              "calls": 12,
+              "totalMs": 5.099999986588955
+            },
+            "remove": {
+              "calls": 12,
+              "totalMs": 41.400000005960464
+            }
+          },
+          "architecture": {
+            "effects": {
+              "scars": 1,
+              "fires": 0,
+              "particles": 6,
+              "particleCap": 64
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 12,
+            "activeDebris": 16,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 6.5,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 12,
+                "stage": "local",
+                "colliders": 317
+              }
+            ]
+          }
+        },
+        {
+          "stage": "wall",
+          "callMs": 24.299999997019768,
+          "profile": {
+            "activate": {
+              "calls": 2,
+              "totalMs": 0
+            },
+            "ensureFloor": {
+              "calls": 23,
+              "totalMs": 0.10000000149011612
+            },
+            "spawnSource": {
+              "calls": 21,
+              "totalMs": 11.699999988079071
+            },
+            "spawn": {
+              "calls": 23,
+              "totalMs": 6.400000013411045
+            },
+            "remove": {
+              "calls": 23,
+              "totalMs": 18.600000001490116
+            }
+          },
+          "architecture": {
+            "effects": {
+              "scars": 1,
+              "fires": 1,
+              "particles": 22,
+              "particleCap": 64
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 35,
+            "activeDebris": 16,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 6.5,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 35,
+                "stage": "local",
+                "colliders": 294
+              }
+            ]
+          }
+        },
+        {
+          "stage": "structure",
+          "callMs": 14.899999998509884,
+          "profile": {
+            "activate": {
+              "calls": 1,
+              "totalMs": 0
+            },
+            "rebuildCoarse": {
+              "calls": 1,
+              "totalMs": 1.5999999940395355
+            },
+            "ensureFloor": {
+              "calls": 2,
+              "totalMs": 13.5
+            },
+            "spawn": {
+              "calls": 2,
+              "totalMs": 0.7000000029802322
+            },
+            "remove": {
+              "calls": 2,
+              "totalMs": 14.200000002980232
+            }
+          },
+          "architecture": {
+            "effects": {
+              "scars": 1,
+              "fires": 1,
+              "particles": 22,
+              "particleCap": 64
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 37,
+            "activeDebris": 16,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 6.5,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 37,
+                "stage": "partial",
+                "colliders": 404
+              }
+            ]
+          }
+        }
+      ],
+      "destruction": {
+        "samples": 120,
+        "meanMs": 18.98249999999998,
+        "p95Ms": 34.69999999999709,
+        "maxMs": 201.40000000000146,
+        "simulationMeanMs": 1.600833333407839,
+        "simulationMaxMs": 7.5,
+        "drawCallsMean": 102.21666666666667,
+        "trianglesMean": 859935.7166666667
+      },
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "viewport": [
+        1440,
+        900
+      ],
+      "skyline": {
+        "samples": 120,
+        "meanMs": 37.96500000000001,
+        "p95Ms": 41.70000000000073,
+        "maxMs": 48.599999999998545,
+        "simulationMeanMs": 1.5033333332588275,
+        "simulationMaxMs": 2.600000001490116,
+        "drawCallsMean": 219,
+        "trianglesMean": 776308
+      },
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "buildings": [
+        {
+          "id": 8014,
+          "family": "city_flatiron_1",
+          "height": 91,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10035,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10038,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10042,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10045,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10049,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10053,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 9011,
+          "family": "aer_gothic",
+          "height": 112.48,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10170,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 9003,
+          "family": "aer_glass",
+          "height": 225.12,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10173,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 9002,
+          "family": "city_singapore",
+          "height": 150.9956,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10176,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10180,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 211,
+          "family": "aer_gothic",
+          "height": 179.36,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10227,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10231,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10234,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10238,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10241,
+          "family": "city_modernoffice_4",
+          "height": 105,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 10245,
+          "family": "city_flatiron_1",
+          "height": 110,
+          "fullSource": false,
+          "visible": true
+        },
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "height": 188.16,
+          "fullSource": false,
+          "visible": true
+        }
+      ],
+      "impacts": [
+        {
+          "stage": "windows",
+          "callMs": 39.20000000298023,
+          "profile": {
+            "hydrate": {
+              "calls": 1,
+              "totalMs": 3.399999998509884
+            },
+            "rebuildCoarse": {
+              "calls": 4,
+              "totalMs": 5.199999988079071
+            },
+            "activate": {
+              "calls": 1,
+              "totalMs": 5.799999997019768
+            },
+            "ensureFloor": {
+              "calls": 12,
+              "totalMs": 26.100000001490116
+            },
+            "spawnSource": {
+              "calls": 12,
+              "totalMs": 3.5999999791383743
+            },
+            "spawn": {
+              "calls": 12,
+              "totalMs": 2.30000002682209
+            },
+            "remove": {
+              "calls": 12,
+              "totalMs": 32.5
+            }
+          },
+          "architecture": {
+            "effects": {
+              "scars": 1,
+              "fires": 0,
+              "particles": 6,
+              "particleCap": 176
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 12,
+            "activeDebris": 32,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 5.699999995529652,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 12,
+                "stage": "local",
+                "colliders": 317
+              }
+            ]
+          }
+        },
+        {
+          "stage": "wall",
+          "callMs": 15.5,
+          "profile": {
+            "activate": {
+              "calls": 2,
+              "totalMs": 0.10000000149011612
+            },
+            "ensureFloor": {
+              "calls": 23,
+              "totalMs": 0
+            },
+            "spawnSource": {
+              "calls": 21,
+              "totalMs": 6.099999986588955
+            },
+            "spawn": {
+              "calls": 23,
+              "totalMs": 5.3000000193715096
+            },
+            "remove": {
+              "calls": 23,
+              "totalMs": 11.700000002980232
+            }
+          },
+          "architecture": {
+            "effects": {
+              "scars": 1,
+              "fires": 1,
+              "particles": 22,
+              "particleCap": 176
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 35,
+            "activeDebris": 32,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 5.699999995529652,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 35,
+                "stage": "local",
+                "colliders": 294
+              }
+            ]
+          }
+        },
+        {
+          "stage": "structure",
+          "callMs": 9.600000001490116,
+          "profile": {
+            "activate": {
+              "calls": 1,
+              "totalMs": 0
+            },
+            "rebuildCoarse": {
+              "calls": 1,
+              "totalMs": 1.1000000014901161
+            },
+            "ensureFloor": {
+              "calls": 2,
+              "totalMs": 8.399999998509884
+            },
+            "spawn": {
+              "calls": 2,
+              "totalMs": 0.5000000074505806
+            },
+            "remove": {
+              "calls": 2,
+              "totalMs": 8.900000005960464
+            }
+          },
+          "architecture": {
+            "effects": {
+              "scars": 1,
+              "fires": 1,
+              "particles": 22,
+              "particleCap": 176
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 37,
+            "activeDebris": 32,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 5.699999995529652,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 37,
+                "stage": "partial",
+                "colliders": 404
+              }
+            ]
+          }
+        }
+      ],
+      "destruction": {
+        "samples": 120,
+        "meanMs": 44.67833333333335,
+        "p95Ms": 62.599999999998545,
+        "maxMs": 62.60000000000582,
+        "simulationMeanMs": 3.5149999996026358,
+        "simulationMaxMs": 7.700000002980232,
+        "drawCallsMean": 270.0416666666667,
+        "trianglesMean": 2091848.9
+      },
+      "errors": []
+    }
+  ]
+}

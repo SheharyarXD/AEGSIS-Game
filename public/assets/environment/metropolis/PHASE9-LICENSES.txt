@@ -1,0 +1,17 @@
+AEGIS Phase 9 original supplemental work, 18 October 2026
+
+Editable source: art/environment/phase9/demolition-and-living-block.blend
+Authoring: art/environment/phase9/build_phase9.py
+Runtime: phase9-demolition-kit-optimized.glb (Meshopt), raw GLB retained.
+
+New fracture linings, exposed services, a continuous chipped passage floor, three material-specific ruin families
+with near/mid/far LODs, storefront, fire escape, railing, courtyard span and sedan
+were authored for this workspace through Blender Python. They do not replace
+the supplied complete intact skyscraper models. No third-party model or raster
+image was downloaded for these additions. Existing shared PBR atlases retain
+their recorded terms. Original fictional signage is authored in code.
+
+The project owner chooses the license for original project work. This notice
+introduces no additional third-party restriction and does not relicense source
+architecture. Existing building/texture credits remain in /assets/environment/ATTRIBUTION.txt,
+/assets/environment/metropolis/LICENSES.txt and the source metadata under art/external/. Those terms still apply.

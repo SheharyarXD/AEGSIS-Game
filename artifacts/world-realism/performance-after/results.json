@@ -1,0 +1,4483 @@
+{
+  "stage": "after",
+  "baseURL": "http://127.0.0.1:5192",
+  "browser": "Chrome (fresh isolated process per scene)",
+  "viewport": [
+    1280,
+    720
+  ],
+  "warmupFrames": 180,
+  "sampleSeconds": 6,
+  "headless": true,
+  "note": "Actual MAIN game. Each timed traversal uses the same six seconds of input, rather than tying travel distance to rendered frame count. Mean FPS is 1000/mean frame interval; submitted triangles include beauty, shadow and AO passes. Quality render scales are unchanged. Hardware counters are sampled immediately after timed gameplay; source texture estimates exclude driver allocations and are not total VRAM.",
+  "results": [
+    {
+      "quality": "LOW",
+      "scene": "street-traversal",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5237,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 9,
+          "pending": 0,
+          "maxTiles": 9,
+          "loads": 28,
+          "unloads": 10,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "LOW",
+          "assetBytes": 20705056,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 711
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 64,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 238,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019872114514917662,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 6.269305200000008,
+            "p95Ms": 8.168544
+          }
+        },
+        "mode": "play",
+        "quality": "LOW",
+        "frameMs": 7,
+        "meanMs": 12.761000000000001,
+        "p95Ms": 13.800000000001091,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 103,
+        "triangles": 610034,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 127,
+        "textures": 111,
+        "loadingMs": 3871.8999999910593,
+        "assetLoadMs": 394.5,
+        "position": [
+          248.001953125,
+          0.16221446990966792,
+          -410.00140380859375
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 825,
+      "meanMs": 7.273090909090908,
+      "fps": 137.49312534373283,
+      "medianMs": 6.900000000001455,
+      "p95Ms": 7.100000000000364,
+      "maxMs": 14,
+      "meanDrawCalls": 101.50181818181818,
+      "maxDrawCalls": 103,
+      "meanSubmittedTriangles": 608638.5866666667,
+      "maxSubmittedTriangles": 610034,
+      "meanSimulationMs": 0.275393939614296,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 825,
+      "meanGenerationMs": 0.2986666663487752,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 5.848763600000002,
+        "p95Ms": 6.273696
+      },
+      "game": {
+        "colliders": 5236,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 9,
+          "pending": 0,
+          "maxTiles": 9,
+          "loads": 28,
+          "unloads": 10,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "LOW",
+          "assetBytes": 20705056,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 717
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 64,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 248,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.0001987219232351119,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 5.848763600000002,
+            "p95Ms": 6.273696
+          }
+        },
+        "mode": "play",
+        "quality": "LOW",
+        "frameMs": 7,
+        "meanMs": 7.268833333333332,
+        "p95Ms": 7.100000000000364,
+        "simulationMs": 0,
+        "drawCalls": 100,
+        "triangles": 604976,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 127,
+        "textures": 111,
+        "loadingMs": 3871.8999999910593,
+        "assetLoadMs": 394.5,
+        "position": [
+          248.00393676757812,
+          0.16577060222625728,
+          -421.7774353027344
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 9,
+        "pending": 0,
+        "maxTiles": 9,
+        "loads": 28,
+        "unloads": 10,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 1,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "LOW",
+        "assetBytes": 20705056,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 146541946.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 717
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 64,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 16,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 248,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.0001987219232351119,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 5.848763600000002,
+          "p95Ms": 6.273696
+        }
+      },
+      "startPosition": [
+        248.001953125,
+        0.16221446990966792,
+        -410.00140380859375
+      ],
+      "endPosition": [
+        248.00393676757812,
+        0.16577060222625728,
+        -421.7774353027344
+      ],
+      "jsHeap": 327071683,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1565,
+        "largeAllocations": [
+          {
+            "pid": 39500,
+            "name": "chrome.exe",
+            "dedicatedBytes": 322887680,
+            "sharedBytes": 134881280
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5726208
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 30957568
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 204894208,
+            "sharedBytes": 1384448
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:50:45.5305905Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 134881280,
+            "dedicatedBytes": 322887680
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:50:52.247Z"
+    },
+    {
+      "quality": "LOW",
+      "scene": "night-rain",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5237,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 9,
+          "pending": 0,
+          "maxTiles": 9,
+          "loads": 28,
+          "unloads": 10,
+          "generationMs": 0.19999998807907104,
+          "maxGenerationMs": 1,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "LOW",
+          "assetBytes": 20705056,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 711
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 64,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 238,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 672,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147553198138831,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 7.151965866666669,
+            "p95Ms": 9.099552
+          }
+        },
+        "mode": "play",
+        "quality": "LOW",
+        "frameMs": 7,
+        "meanMs": 14.188440860215053,
+        "p95Ms": 13.900000000000546,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 107,
+        "triangles": 611388,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 131,
+        "textures": 110,
+        "loadingMs": 3786.7000000029802,
+        "assetLoadMs": 365.5,
+        "position": [
+          248.001953125,
+          0.16291458606719966,
+          -410.00140380859375
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 726,
+      "meanMs": 8.274380165289255,
+      "fps": 120.85497403116263,
+      "medianMs": 7,
+      "p95Ms": 13.899999999999636,
+      "maxMs": 14,
+      "meanDrawCalls": 107,
+      "maxDrawCalls": 107,
+      "meanSubmittedTriangles": 611388,
+      "maxSubmittedTriangles": 611388,
+      "meanSimulationMs": 0.32217630858920493,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 726,
+      "meanGenerationMs": 0.29311294781849734,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 7.0677754666666655,
+        "p95Ms": 8.961888
+      },
+      "game": {
+        "colliders": 5237,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 9,
+          "pending": 0,
+          "maxTiles": 9,
+          "loads": 28,
+          "unloads": 10,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "LOW",
+          "assetBytes": 20705056,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 711
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 64,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 238,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 672,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147542852912142,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 7.0677754666666655,
+            "p95Ms": 8.961888
+          }
+        },
+        "mode": "play",
+        "quality": "LOW",
+        "frameMs": 13.899999999999636,
+        "meanMs": 8.275666666666666,
+        "p95Ms": 13.899999999999636,
+        "simulationMs": 0,
+        "drawCalls": 107,
+        "triangles": 611388,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 131,
+        "textures": 110,
+        "loadingMs": 3786.7000000029802,
+        "assetLoadMs": 365.5,
+        "position": [
+          248.00474548339844,
+          0.16333730220794673,
+          -410.00823974609375
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 9,
+        "pending": 0,
+        "maxTiles": 9,
+        "loads": 28,
+        "unloads": 10,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 1,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "LOW",
+        "assetBytes": 20705056,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 146541946.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 711
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 64,
+            "batches": 4,
+            "wind": 9
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 16,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 238,
+          "broken": 0
+        },
+        "weather": "heavy-rain",
+        "hour": 23,
+        "night": 1,
+        "wetness": 1,
+        "snowCover": 0,
+        "particles": 672,
+        "lightningCount": 0,
+        "fogDensity": 0.0008147542852912142,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 7.0677754666666655,
+          "p95Ms": 8.961888
+        }
+      },
+      "startPosition": [
+        248.001953125,
+        0.16301460266113277,
+        -410.00140380859375
+      ],
+      "endPosition": [
+        248.00474548339844,
+        0.16333730220794673,
+        -410.00823974609375
+      ],
+      "jsHeap": 321728676,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1549,
+        "largeAllocations": [
+          {
+            "pid": 44124,
+            "name": "chrome.exe",
+            "dedicatedBytes": 324812800,
+            "sharedBytes": 132079616
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5726208
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 30957568
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 204500992,
+            "sharedBytes": 2547712
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:51:08.3005346Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 132079616,
+            "dedicatedBytes": 324812800
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:51:08.539Z"
+    },
+    {
+      "quality": "LOW",
+      "scene": "destruction-stress",
+      "setup": {
+        "position": [
+          178,
+          23,
+          -200.4416
+        ],
+        "state": "HOVER",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5217,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 9,
+          "pending": 0,
+          "maxTiles": 9,
+          "loads": 27,
+          "unloads": 9,
+          "generationMs": 0.20000000298023224,
+          "maxGenerationMs": 2.2000000029802322,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "LOW",
+          "assetBytes": 28736596,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 161921354.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 647
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 64,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 283,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 9.554141200000002,
+            "p95Ms": 11.45136
+          }
+        },
+        "mode": "play",
+        "quality": "LOW",
+        "frameMs": 13.799999999999272,
+        "meanMs": 25.15027624309392,
+        "p95Ms": 14,
+        "simulationMs": 0,
+        "drawCalls": 115,
+        "triangles": 1147161,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 132,
+        "textures": 118,
+        "loadingMs": 3765.5999999940395,
+        "assetLoadMs": 391.29999999701977,
+        "position": [
+          178,
+          22.566870880126952,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 828,
+      "meanMs": 7.246739130434786,
+      "fps": 137.99310034498268,
+      "medianMs": 6.900000000001455,
+      "p95Ms": 7.100000000002183,
+      "maxMs": 14,
+      "meanDrawCalls": 122.92149758454106,
+      "maxDrawCalls": 130,
+      "meanSubmittedTriangles": 706362.4142512077,
+      "maxSubmittedTriangles": 1111151,
+      "meanSimulationMs": 0.38381642491921136,
+      "maxActiveArchitectureDebris": 16,
+      "activeGameplayFrames": 828,
+      "meanGenerationMs": 0.3072463769447688,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 5.857601066666665,
+        "p95Ms": 7.645056
+      },
+      "game": {
+        "colliders": 5191,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 9,
+          "pending": 0,
+          "maxTiles": 9,
+          "loads": 27,
+          "unloads": 9,
+          "generationMs": 0,
+          "maxGenerationMs": 2.2000000029802322,
+          "collisionResident": true,
+          "worldColliders": 3943,
+          "quality": "LOW",
+          "assetBytes": 28736596,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 161921354.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 648
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 64,
+              "particleCap": 64,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 5134,
+            "activeDebris": 16,
+            "staticDebris": 0,
+            "debrisCap": 16,
+            "maxActivationMs": 4.899999991059303,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 5134,
+                "stage": "collapsed",
+                "colliders": 0
+              }
+            ]
+          },
+          "props": {
+            "registered": 283,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 5.857601066666665,
+            "p95Ms": 7.645056
+          }
+        },
+        "mode": "play",
+        "quality": "LOW",
+        "frameMs": 7,
+        "meanMs": 6.968000000000004,
+        "p95Ms": 7.099999999998545,
+        "simulationMs": 0,
+        "drawCalls": 122,
+        "triangles": 598055,
+        "bodies": 17,
+        "activeBodies": 16,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 148,
+        "textures": 119,
+        "loadingMs": 3765.5999999940395,
+        "assetLoadMs": 391.29999999701977,
+        "position": [
+          178,
+          22.566870880126952,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 9,
+        "pending": 0,
+        "maxTiles": 9,
+        "loads": 27,
+        "unloads": 9,
+        "generationMs": 0,
+        "maxGenerationMs": 2.2000000029802322,
+        "collisionResident": true,
+        "worldColliders": 3943,
+        "quality": "LOW",
+        "assetBytes": 28736596,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 161921354.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 648
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 64,
+            "particleCap": 64,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 1,
+          "brokenComponents": 5134,
+          "activeDebris": 16,
+          "staticDebris": 0,
+          "debrisCap": 16,
+          "maxActivationMs": 4.899999991059303,
+          "states": [
+            {
+              "id": 235,
+              "family": "aer_glass",
+              "broken": 5134,
+              "stage": "collapsed",
+              "colliders": 0
+            }
+          ]
+        },
+        "props": {
+          "registered": 283,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 5.857601066666665,
+          "p95Ms": 7.645056
+        }
+      },
+      "startPosition": [
+        178,
+        22.566870880126952,
+        -200.4416046142578
+      ],
+      "endPosition": [
+        178,
+        22.566870880126952,
+        -200.4416046142578
+      ],
+      "jsHeap": 430728719,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1562,
+        "largeAllocations": [
+          {
+            "pid": 39416,
+            "name": "chrome.exe",
+            "dedicatedBytes": 343052288,
+            "sharedBytes": 167657472
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 93085696,
+            "sharedBytes": 5726208
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 30859264
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 204500992,
+            "sharedBytes": 2306048
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:51:31.9470741Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 167657472,
+            "dedicatedBytes": 343052288
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:51:32.186Z"
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "street-traversal",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5268,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 47,
+          "unloads": 15,
+          "generationMs": 0.20000000298023224,
+          "maxGenerationMs": 1.2000000029802322,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "MEDIUM",
+          "assetBytes": 22142768,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 112,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 24,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 269,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019871813250437278,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 9.718378133333335,
+            "p95Ms": 10.202432
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.900000000001455,
+        "meanMs": 50.03664596273292,
+        "p95Ms": 14,
+        "simulationMs": 0.6000000089406967,
+        "drawCalls": 128,
+        "triangles": 895635,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 146,
+        "textures": 121,
+        "loadingMs": 4363.100000008941,
+        "assetLoadMs": 364,
+        "position": [
+          248.001953125,
+          0.16691524982452388,
+          -410.00140380859375
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 520,
+      "meanMs": 11.552307692307693,
+      "fps": 86.56279131708617,
+      "medianMs": 13.799999999999272,
+      "p95Ms": 14,
+      "maxMs": 20.900000000001455,
+      "meanDrawCalls": 128,
+      "maxDrawCalls": 128,
+      "meanSubmittedTriangles": 894101.0461538462,
+      "maxSubmittedTriangles": 895635,
+      "meanSimulationMs": 0.43538461533876566,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 520,
+      "meanGenerationMs": 0.3046153846841592,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 9.4415528,
+        "p95Ms": 9.957376
+      },
+      "game": {
+        "colliders": 5264,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 49,
+          "unloads": 17,
+          "generationMs": 0.4000000059604645,
+          "maxGenerationMs": 1.2000000029802322,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "MEDIUM",
+          "assetBytes": 22142768,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 757
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 112,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 24,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019872209001334216,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 9.4415528,
+            "p95Ms": 9.957376
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 14,
+        "meanMs": 11.586166666666667,
+        "p95Ms": 14,
+        "simulationMs": 0.5,
+        "drawCalls": 128,
+        "triangles": 889333,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 146,
+        "textures": 121,
+        "loadingMs": 4363.100000008941,
+        "assetLoadMs": 364,
+        "position": [
+          248.01882934570312,
+          0.16660697460174556,
+          -421.5357666015625
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 49,
+        "unloads": 17,
+        "generationMs": 0.4000000059604645,
+        "maxGenerationMs": 1.2000000029802322,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "MEDIUM",
+        "assetBytes": 22142768,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 146541946.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 757
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 112,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 24,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 276,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019872209001334216,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 9.4415528,
+          "p95Ms": 9.957376
+        }
+      },
+      "startPosition": [
+        248.00186157226562,
+        0.16611821651458736,
+        -410.0115661621094
+      ],
+      "endPosition": [
+        248.01882934570312,
+        0.16660697460174556,
+        -421.5357666015625
+      ],
+      "jsHeap": 344707761,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1593,
+        "largeAllocations": [
+          {
+            "pid": 41852,
+            "name": "chrome.exe",
+            "dedicatedBytes": 377753600,
+            "sharedBytes": 138924032
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5824512
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 31662080
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 204500992,
+            "sharedBytes": 2306048
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:51:59.7058714Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 138924032,
+            "dedicatedBytes": 377753600
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:51:59.941Z"
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "night-rain",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5268,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 47,
+          "unloads": 15,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.4000000059604645,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "MEDIUM",
+          "assetBytes": 22142768,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 112,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 24,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 269,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1200,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147424765033095,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 12.163083600000004,
+            "p95Ms": 13.970432
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 14,
+        "meanMs": 55.192434210526315,
+        "p95Ms": 20.899999999997817,
+        "simulationMs": 0,
+        "drawCalls": 133,
+        "triangles": 898051,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 150,
+        "textures": 121,
+        "loadingMs": 4442.70000000298,
+        "assetLoadMs": 376.1000000089407,
+        "position": [
+          248.00234985351562,
+          0.15993554592132564,
+          -410.0011291503906
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 421,
+      "meanMs": 14.25225653206651,
+      "fps": 70.16432785573814,
+      "medianMs": 13.900000000001455,
+      "p95Ms": 20.80000000000291,
+      "maxMs": 20.900000000001455,
+      "meanDrawCalls": 133,
+      "maxDrawCalls": 133,
+      "meanSubmittedTriangles": 898051,
+      "maxSubmittedTriangles": 898051,
+      "meanSimulationMs": 0.5261282658916754,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 421,
+      "meanGenerationMs": 0.30688836073365744,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 12.10588546666667,
+        "p95Ms": 14.299872
+      },
+      "game": {
+        "colliders": 5268,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 47,
+          "unloads": 15,
+          "generationMs": 0.30000001192092896,
+          "maxGenerationMs": 1.4000000059604645,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "MEDIUM",
+          "assetBytes": 22142768,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 146541946.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 112,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 24,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 269,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1200,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147563963050164,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 12.10588546666667,
+            "p95Ms": 14.299872
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.80000000000291,
+        "meanMs": 14.271333333333338,
+        "p95Ms": 20.80000000000291,
+        "simulationMs": 0.5,
+        "drawCalls": 133,
+        "triangles": 898051,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 150,
+        "textures": 121,
+        "loadingMs": 4442.70000000298,
+        "assetLoadMs": 376.1000000089407,
+        "position": [
+          248.00364685058594,
+          0.1615542888641357,
+          -410.01239013671875
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 47,
+        "unloads": 15,
+        "generationMs": 0.30000001192092896,
+        "maxGenerationMs": 1.4000000059604645,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "MEDIUM",
+        "assetBytes": 22142768,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 146541946.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 755
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 112,
+            "batches": 4,
+            "wind": 9
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 24,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 269,
+          "broken": 0
+        },
+        "weather": "heavy-rain",
+        "hour": 23,
+        "night": 1,
+        "wetness": 1,
+        "snowCover": 0,
+        "particles": 1200,
+        "lightningCount": 0,
+        "fogDensity": 0.0008147563963050164,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 12.10588546666667,
+          "p95Ms": 14.299872
+        }
+      },
+      "startPosition": [
+        248.0024871826172,
+        0.16013557910919185,
+        -410.00146484375
+      ],
+      "endPosition": [
+        248.00364685058594,
+        0.1615542888641357,
+        -410.01239013671875
+      ],
+      "jsHeap": 336747763,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1590,
+        "largeAllocations": [
+          {
+            "pid": 43152,
+            "name": "chrome.exe",
+            "dedicatedBytes": 371552256,
+            "sharedBytes": 131698688
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5824512
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 32727040
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 203976704,
+            "sharedBytes": 2355200
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:52:28.1899122Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 131698688,
+            "dedicatedBytes": 371552256
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:52:28.413Z"
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "destruction-stress",
+      "setup": {
+        "position": [
+          178,
+          23,
+          -200.4416
+        ],
+        "state": "HOVER",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5241,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 45,
+          "unloads": 13,
+          "generationMs": 0.19999998807907104,
+          "maxGenerationMs": 1.6000000089406967,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "MEDIUM",
+          "assetBytes": 29458828,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 678
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 112,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 24,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 328,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 14.752364133333336,
+            "p95Ms": 17.041536
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.899999999997817,
+        "meanMs": 65.27094594594594,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0.5,
+        "drawCalls": 153,
+        "triangles": 1697849,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 146,
+        "textures": 127,
+        "loadingMs": 4395.399999991059,
+        "assetLoadMs": 374.5,
+        "position": [
+          178,
+          22.566870880126952,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 559,
+      "meanMs": 10.733810375670842,
+      "fps": 93.16356121462617,
+      "medianMs": 13.799999999999272,
+      "p95Ms": 14,
+      "maxMs": 20.900000000001455,
+      "meanDrawCalls": 162.95885509839,
+      "maxDrawCalls": 177,
+      "meanSubmittedTriangles": 1000957.5670840787,
+      "maxSubmittedTriangles": 1645558,
+      "meanSimulationMs": 0.5867620751874818,
+      "maxActiveArchitectureDebris": 24,
+      "activeGameplayFrames": 559,
+      "meanGenerationMs": 0.2549194984924388,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 8.260806933333335,
+        "p95Ms": 8.881792
+      },
+      "game": {
+        "colliders": 5223,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 45,
+          "unloads": 13,
+          "generationMs": 0,
+          "maxGenerationMs": 1.6000000089406967,
+          "collisionResident": true,
+          "worldColliders": 3943,
+          "quality": "MEDIUM",
+          "assetBytes": 29458828,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 679
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 104,
+              "particleCap": 112,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 5134,
+            "activeDebris": 24,
+            "staticDebris": 0,
+            "debrisCap": 24,
+            "maxActivationMs": 5.5,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 5134,
+                "stage": "collapsed",
+                "colliders": 0
+              }
+            ]
+          },
+          "props": {
+            "registered": 328,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 8.260806933333335,
+            "p95Ms": 8.881792
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.80000000000291,
+        "meanMs": 19.989,
+        "p95Ms": 20.799999999999272,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 161,
+        "triangles": 814798,
+        "bodies": 25,
+        "activeBodies": 24,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 164,
+        "textures": 128,
+        "loadingMs": 4395.399999991059,
+        "assetLoadMs": 374.5,
+        "position": [
+          178,
+          22.566870880126952,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 45,
+        "unloads": 13,
+        "generationMs": 0,
+        "maxGenerationMs": 1.6000000089406967,
+        "collisionResident": true,
+        "worldColliders": 3943,
+        "quality": "MEDIUM",
+        "assetBytes": 29458828,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 679
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 104,
+            "particleCap": 112,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 1,
+          "brokenComponents": 5134,
+          "activeDebris": 24,
+          "staticDebris": 0,
+          "debrisCap": 24,
+          "maxActivationMs": 5.5,
+          "states": [
+            {
+              "id": 235,
+              "family": "aer_glass",
+              "broken": 5134,
+              "stage": "collapsed",
+              "colliders": 0
+            }
+          ]
+        },
+        "props": {
+          "registered": 328,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 8.260806933333335,
+          "p95Ms": 8.881792
+        }
+      },
+      "startPosition": [
+        178,
+        22.566870880126952,
+        -200.4416046142578
+      ],
+      "endPosition": [
+        178,
+        22.566870880126952,
+        -200.4416046142578
+      ],
+      "jsHeap": 447930875,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1611,
+        "largeAllocations": [
+          {
+            "pid": 39480,
+            "name": "chrome.exe",
+            "dedicatedBytes": 395153408,
+            "sharedBytes": 171573248
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 114122752,
+            "sharedBytes": 6709248
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150388736,
+            "sharedBytes": 33136640
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 203976704,
+            "sharedBytes": 2355200
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:53:04.4121389Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 171573248,
+            "dedicatedBytes": 395153408
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:53:04.637Z"
+    },
+    {
+      "quality": "HIGH",
+      "scene": "street-traversal",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5275,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 22,
+          "pending": 0,
+          "maxTiles": 22,
+          "loads": 64,
+          "unloads": 20,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.6000000089406967,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "HIGH",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 176,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.0001987190684695034,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 13.377977733333331,
+            "p95Ms": 15.615200000000003
+          }
+        },
+        "mode": "play",
+        "quality": "HIGH",
+        "frameMs": 13.799999999999272,
+        "meanMs": 58.73737373737374,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0.5,
+        "drawCalls": 247,
+        "triangles": 1592901,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 150,
+        "textures": 131,
+        "loadingMs": 4789.9000000059605,
+        "assetLoadMs": 398.09999999403954,
+        "position": [
+          248.00253295898438,
+          0.16033561229705806,
+          -410.001708984375
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 408,
+      "meanMs": 14.706372549019601,
+      "fps": 67.9977334088864,
+      "medianMs": 13.900000000001455,
+      "p95Ms": 20.899999999997817,
+      "maxMs": 20.900000000001455,
+      "meanDrawCalls": 243.97058823529412,
+      "maxDrawCalls": 247,
+      "meanSubmittedTriangles": 1589621.5882352942,
+      "maxSubmittedTriangles": 1592901,
+      "meanSimulationMs": 0.518627450637081,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 408,
+      "meanGenerationMs": 0.3024509805528557,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 13.308929733333333,
+        "p95Ms": 15.334368000000001
+      },
+      "game": {
+        "colliders": 5271,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 22,
+          "pending": 0,
+          "maxTiles": 22,
+          "loads": 65,
+          "unloads": 21,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.6000000089406967,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "HIGH",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 757
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 176,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 285,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.0001987208503143784,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 13.308929733333333,
+            "p95Ms": 15.334368000000001
+          }
+        },
+        "mode": "play",
+        "quality": "HIGH",
+        "frameMs": 14,
+        "meanMs": 14.711333333333332,
+        "p95Ms": 20.899999999997817,
+        "simulationMs": 0.4000000059604645,
+        "drawCalls": 241,
+        "triangles": 1579721,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 150,
+        "textures": 131,
+        "loadingMs": 4789.9000000059605,
+        "assetLoadMs": 398.09999999403954,
+        "position": [
+          248.00875854492188,
+          0.16846413612365718,
+          -421.7723388671875
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 22,
+        "pending": 0,
+        "maxTiles": 22,
+        "loads": 65,
+        "unloads": 21,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 1.6000000089406967,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "HIGH",
+        "assetBytes": 25441996,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 757
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 176,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 32,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 285,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.0001987208503143784,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 13.308929733333333,
+          "p95Ms": 15.334368000000001
+        }
+      },
+      "startPosition": [
+        248.00257873535156,
+        0.16043491363525386,
+        -410.00531005859375
+      ],
+      "endPosition": [
+        248.00875854492188,
+        0.16846413612365718,
+        -421.7723388671875
+      ],
+      "jsHeap": 368052391,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1702,
+        "largeAllocations": [
+          {
+            "pid": 42304,
+            "name": "chrome.exe",
+            "dedicatedBytes": 469917696,
+            "sharedBytes": 124907520
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 114253824,
+            "sharedBytes": 6807552
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150388736,
+            "sharedBytes": 33415168
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 203452416,
+            "sharedBytes": 2404352
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:53:33.8963493Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 124907520,
+            "dedicatedBytes": 469917696
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:53:34.115Z"
+    },
+    {
+      "quality": "HIGH",
+      "scene": "night-rain",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5275,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 22,
+          "pending": 0,
+          "maxTiles": 22,
+          "loads": 64,
+          "unloads": 20,
+          "generationMs": 0.4000000059604645,
+          "maxGenerationMs": 2.199999988079071,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "HIGH",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 176,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1800,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147529546657018,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 15.88566986666666,
+            "p95Ms": 17.748576
+          }
+        },
+        "mode": "play",
+        "quality": "HIGH",
+        "frameMs": 13.799999999999272,
+        "meanMs": 63.08908450704225,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0,
+        "drawCalls": 256,
+        "triangles": 1600145,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 154,
+        "textures": 130,
+        "loadingMs": 4824.70000000298,
+        "assetLoadMs": 375.6000000089407,
+        "position": [
+          248.00279235839844,
+          0.16373617649078365,
+          -410.00250244140625
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 347,
+      "meanMs": 17.31152737752161,
+      "fps": 57.76497810923741,
+      "medianMs": 14,
+      "p95Ms": 20.900000000001455,
+      "maxMs": 21,
+      "meanDrawCalls": 256,
+      "maxDrawCalls": 256,
+      "meanSubmittedTriangles": 1600145,
+      "maxSubmittedTriangles": 1600145,
+      "meanSimulationMs": 0.6374639763096911,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 347,
+      "meanGenerationMs": 0.2945244955140507,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 15.987187200000003,
+        "p95Ms": 17.887424000000003
+      },
+      "game": {
+        "colliders": 5275,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 22,
+          "pending": 0,
+          "maxTiles": 22,
+          "loads": 64,
+          "unloads": 20,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 2.199999988079071,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "HIGH",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 176,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1800,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147484019398004,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 15.987187200000003,
+            "p95Ms": 17.887424000000003
+          }
+        },
+        "mode": "play",
+        "quality": "HIGH",
+        "frameMs": 20.69999999999709,
+        "meanMs": 17.32683333333333,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 256,
+        "triangles": 1600145,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 154,
+        "textures": 130,
+        "loadingMs": 4824.70000000298,
+        "assetLoadMs": 375.6000000089407,
+        "position": [
+          248.00364685058594,
+          0.1654549360275268,
+          -410.0124816894531
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 22,
+        "pending": 0,
+        "maxTiles": 22,
+        "loads": 64,
+        "unloads": 20,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 2.199999988079071,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "HIGH",
+        "assetBytes": 25441996,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 755
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 176,
+            "batches": 4,
+            "wind": 9
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 32,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 276,
+          "broken": 0
+        },
+        "weather": "heavy-rain",
+        "hour": 23,
+        "night": 1,
+        "wetness": 1,
+        "snowCover": 0,
+        "particles": 1800,
+        "lightningCount": 0,
+        "fogDensity": 0.0008147484019398004,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 15.987187200000003,
+          "p95Ms": 17.887424000000003
+        }
+      },
+      "startPosition": [
+        248.00279235839844,
+        0.16393620967864986,
+        -410.00250244140625
+      ],
+      "endPosition": [
+        248.00364685058594,
+        0.1654549360275268,
+        -410.0124816894531
+      ],
+      "jsHeap": 382009404,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1682,
+        "largeAllocations": [
+          {
+            "pid": 41684,
+            "name": "chrome.exe",
+            "dedicatedBytes": 465158144,
+            "sharedBytes": 144908288
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5824512
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150388736,
+            "sharedBytes": 33792000
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 203452416,
+            "sharedBytes": 2404352
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:54:03.9306716Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 144908288,
+            "dedicatedBytes": 465158144
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:54:04.145Z"
+    },
+    {
+      "quality": "HIGH",
+      "scene": "destruction-stress",
+      "setup": {
+        "position": [
+          178,
+          23,
+          -200.4416
+        ],
+        "state": "HOVER",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5242,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 21,
+          "pending": 0,
+          "maxTiles": 22,
+          "loads": 56,
+          "unloads": 13,
+          "generationMs": 0.19999998807907104,
+          "maxGenerationMs": 0.7000000029802322,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "HIGH",
+          "assetBytes": 32119888,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 678
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 176,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 328,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 18.2110784,
+            "p95Ms": 20.186656
+          }
+        },
+        "mode": "play",
+        "quality": "HIGH",
+        "frameMs": 20.80000000000291,
+        "meanMs": 76.36678700361011,
+        "p95Ms": 27.700000000000728,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 280,
+        "triangles": 2733746,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 157,
+        "textures": 146,
+        "loadingMs": 4880.899999991059,
+        "assetLoadMs": 371.29999999701977,
+        "position": [
+          178,
+          21.91687126159668,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 415,
+      "meanMs": 14.458554216867476,
+      "fps": 69.16320850624132,
+      "medianMs": 13.900000000001455,
+      "p95Ms": 20.80000000000291,
+      "maxMs": 27.799999999999272,
+      "meanDrawCalls": 298.8024096385542,
+      "maxDrawCalls": 322,
+      "meanSubmittedTriangles": 1799674.6506024096,
+      "maxSubmittedTriangles": 2666914,
+      "meanSimulationMs": 0.8339759036719081,
+      "maxActiveArchitectureDebris": 32,
+      "activeGameplayFrames": 415,
+      "meanGenerationMs": 0.2561445779470076,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 12.659834933333325,
+        "p95Ms": 14.849087999999998
+      },
+      "game": {
+        "colliders": 5232,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 21,
+          "pending": 0,
+          "maxTiles": 22,
+          "loads": 56,
+          "unloads": 13,
+          "generationMs": 0,
+          "maxGenerationMs": 0.7000000029802322,
+          "collisionResident": true,
+          "worldColliders": 3943,
+          "quality": "HIGH",
+          "assetBytes": 32119888,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 679
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 122,
+              "particleCap": 176,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 5134,
+            "activeDebris": 32,
+            "staticDebris": 0,
+            "debrisCap": 32,
+            "maxActivationMs": 4.9000000059604645,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 5134,
+                "stage": "collapsed",
+                "colliders": 0
+              }
+            ]
+          },
+          "props": {
+            "registered": 328,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 12.659834933333325,
+            "p95Ms": 14.849087999999998
+          }
+        },
+        "mode": "play",
+        "quality": "HIGH",
+        "frameMs": 13.900000000001455,
+        "meanMs": 25.139833333333335,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0,
+        "drawCalls": 295,
+        "triangles": 1539146,
+        "bodies": 33,
+        "activeBodies": 32,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 175,
+        "textures": 147,
+        "loadingMs": 4880.899999991059,
+        "assetLoadMs": 371.29999999701977,
+        "position": [
+          178,
+          21.91687126159668,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 21,
+        "pending": 0,
+        "maxTiles": 22,
+        "loads": 56,
+        "unloads": 13,
+        "generationMs": 0,
+        "maxGenerationMs": 0.7000000029802322,
+        "collisionResident": true,
+        "worldColliders": 3943,
+        "quality": "HIGH",
+        "assetBytes": 32119888,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 679
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 122,
+            "particleCap": 176,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 1,
+          "brokenComponents": 5134,
+          "activeDebris": 32,
+          "staticDebris": 0,
+          "debrisCap": 32,
+          "maxActivationMs": 4.9000000059604645,
+          "states": [
+            {
+              "id": 235,
+              "family": "aer_glass",
+              "broken": 5134,
+              "stage": "collapsed",
+              "colliders": 0
+            }
+          ]
+        },
+        "props": {
+          "registered": 328,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 12.659834933333325,
+          "p95Ms": 14.849087999999998
+        }
+      },
+      "startPosition": [
+        178,
+        21.91687126159668,
+        -200.4416046142578
+      ],
+      "endPosition": [
+        178,
+        21.91687126159668,
+        -200.4416046142578
+      ],
+      "jsHeap": 458400583,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1721,
+        "largeAllocations": [
+          {
+            "pid": 32352,
+            "name": "chrome.exe",
+            "dedicatedBytes": 506789888,
+            "sharedBytes": 175849472
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5545984
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 31088640
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 202928128,
+            "sharedBytes": 2306048
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:54:42.6258005Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 175849472,
+            "dedicatedBytes": 506789888
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:54:42.846Z"
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "street-traversal",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5275,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 28,
+          "pending": 0,
+          "maxTiles": 28,
+          "loads": 78,
+          "unloads": 22,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.4000000059604645,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "ULTRA",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 256,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 40,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019872047403569473,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 13.415078399999995,
+            "p95Ms": 15.518880000000001
+          }
+        },
+        "mode": "play",
+        "quality": "ULTRA",
+        "frameMs": 13.899999999997817,
+        "meanMs": 57.834113712374574,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0.5,
+        "drawCalls": 251,
+        "triangles": 1609573,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 153,
+        "textures": 131,
+        "loadingMs": 4846.199999988079,
+        "assetLoadMs": 388.6000000089407,
+        "position": [
+          248.00270080566406,
+          0.1609357118606567,
+          -410.0021667480469
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 409,
+      "meanMs": 14.670415647921763,
+      "fps": 68.16439452018265,
+      "medianMs": 13.900000000001455,
+      "p95Ms": 20.80000000000291,
+      "maxMs": 20.900000000001455,
+      "meanDrawCalls": 247.96332518337408,
+      "maxDrawCalls": 251,
+      "meanSubmittedTriangles": 1606199.6601466993,
+      "maxSubmittedTriangles": 1609573,
+      "meanSimulationMs": 0.5276283618144709,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 409,
+      "meanGenerationMs": 0.29608801936316315,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 13.30018960000001,
+        "p95Ms": 15.361568
+      },
+      "game": {
+        "colliders": 5271,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 28,
+          "pending": 0,
+          "maxTiles": 28,
+          "loads": 78,
+          "unloads": 22,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.4000000059604645,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "ULTRA",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 757
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 256,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 40,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 285,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.0001987221177202673,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 13.30018960000001,
+            "p95Ms": 15.361568
+          }
+        },
+        "mode": "play",
+        "quality": "ULTRA",
+        "frameMs": 13.900000000001455,
+        "meanMs": 14.711166666666667,
+        "p95Ms": 20.899999999997817,
+        "simulationMs": 0,
+        "drawCalls": 245,
+        "triangles": 1596393,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 153,
+        "textures": 131,
+        "loadingMs": 4846.199999988079,
+        "assetLoadMs": 388.6000000089407,
+        "position": [
+          248.00198364257812,
+          0.16591508388519283,
+          -421.8299560546875
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 28,
+        "pending": 0,
+        "maxTiles": 28,
+        "loads": 78,
+        "unloads": 22,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 1.4000000059604645,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "ULTRA",
+        "assetBytes": 25441996,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 757
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 256,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 40,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 285,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.0001987221177202673,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 13.30018960000001,
+          "p95Ms": 15.361568
+        }
+      },
+      "startPosition": [
+        248.00271606445312,
+        0.161033821105957,
+        -410.0057067871094
+      ],
+      "endPosition": [
+        248.00198364257812,
+        0.16591508388519283,
+        -421.8299560546875
+      ],
+      "jsHeap": 388180947,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1687,
+        "largeAllocations": [
+          {
+            "pid": 43836,
+            "name": "chrome.exe",
+            "dedicatedBytes": 474529792,
+            "sharedBytes": 153243648
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 94330880,
+            "sharedBytes": 5545984
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 31891456
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 202928128,
+            "sharedBytes": 2306048
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:55:12.0171917Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 153243648,
+            "dedicatedBytes": 474529792
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:55:12.234Z"
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "night-rain",
+      "setup": {
+        "position": [
+          248,
+          0.3,
+          -410
+        ],
+        "state": "GROUND",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5275,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 28,
+          "pending": 0,
+          "maxTiles": 28,
+          "loads": 78,
+          "unloads": 22,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.5,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "ULTRA",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 256,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 40,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 2400,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147531617654637,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 15.956365599999994,
+            "p95Ms": 17.961824
+          }
+        },
+        "mode": "play",
+        "quality": "ULTRA",
+        "frameMs": 20.899999999997817,
+        "meanMs": 62.91649122807018,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 1,
+        "drawCalls": 260,
+        "triangles": 1619217,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 157,
+        "textures": 131,
+        "loadingMs": 4996.899999991059,
+        "assetLoadMs": 372.59999999403954,
+        "position": [
+          248.00279235839844,
+          0.16373617649078365,
+          -410.00250244140625
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 347,
+      "meanMs": 17.311815561959655,
+      "fps": 57.76401651351711,
+      "medianMs": 14,
+      "p95Ms": 20.900000000001455,
+      "maxMs": 20.900000000001455,
+      "meanDrawCalls": 260,
+      "maxDrawCalls": 260,
+      "meanSubmittedTriangles": 1619217,
+      "maxSubmittedTriangles": 1619217,
+      "meanSimulationMs": 0.6204610955217043,
+      "maxActiveArchitectureDebris": 0,
+      "activeGameplayFrames": 347,
+      "meanGenerationMs": 0.2916426509189331,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 15.931113599999998,
+        "p95Ms": 17.911424000000004
+      },
+      "game": {
+        "colliders": 5275,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 28,
+          "pending": 0,
+          "maxTiles": 28,
+          "loads": 78,
+          "unloads": 22,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.5,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "ULTRA",
+          "assetBytes": 25441996,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 755
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 256,
+              "batches": 4,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 40,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 276,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 2400,
+          "lightningCount": 0,
+          "fogDensity": 0.0008147487507018734,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 15.931113599999998,
+            "p95Ms": 17.911424000000004
+          }
+        },
+        "mode": "play",
+        "quality": "ULTRA",
+        "frameMs": 14,
+        "meanMs": 17.304000000000002,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0.5,
+        "drawCalls": 260,
+        "triangles": 1619217,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 157,
+        "textures": 131,
+        "loadingMs": 4996.899999991059,
+        "assetLoadMs": 372.59999999403954,
+        "position": [
+          248.00364685058594,
+          0.1653549194335937,
+          -410.0124816894531
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 28,
+        "pending": 0,
+        "maxTiles": 28,
+        "loads": 78,
+        "unloads": 22,
+        "generationMs": 0.29999999701976776,
+        "maxGenerationMs": 1.5,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "ULTRA",
+        "assetBytes": 25441996,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 755
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 256,
+            "batches": 4,
+            "wind": 9
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 40,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 276,
+          "broken": 0
+        },
+        "weather": "heavy-rain",
+        "hour": 23,
+        "night": 1,
+        "wetness": 1,
+        "snowCover": 0,
+        "particles": 2400,
+        "lightningCount": 0,
+        "fogDensity": 0.0008147487507018734,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 15.931113599999998,
+          "p95Ms": 17.911424000000004
+        }
+      },
+      "startPosition": [
+        248.00279235839844,
+        0.16393620967864986,
+        -410.00250244140625
+      ],
+      "endPosition": [
+        248.00364685058594,
+        0.1653549194335937,
+        -410.0124816894531
+      ],
+      "jsHeap": 384772645,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1680,
+        "largeAllocations": [
+          {
+            "pid": 40496,
+            "name": "chrome.exe",
+            "dedicatedBytes": 464314368,
+            "sharedBytes": 149729280
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 93347840,
+            "sharedBytes": 5578752
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 30187520
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 202403840,
+            "sharedBytes": 2306048
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:55:42.2382197Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 149729280,
+            "dedicatedBytes": 464314368
+          }
+        ],
+        "utilizationPercent": 97,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:55:42.459Z"
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "destruction-stress",
+      "setup": {
+        "position": [
+          178,
+          23,
+          -200.4416
+        ],
+        "state": "HOVER",
+        "yaw": 3.141592653589793,
+        "pitch": 0.04
+      },
+      "before": {
+        "colliders": 5242,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 28,
+          "pending": 0,
+          "maxTiles": 28,
+          "loads": 73,
+          "unloads": 17,
+          "generationMs": 0.30000001192092896,
+          "maxGenerationMs": 0.7999999970197678,
+          "collisionResident": true,
+          "worldColliders": 3985,
+          "quality": "ULTRA",
+          "assetBytes": 32361772,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 678
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 0,
+              "particleCap": 256,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 0,
+            "brokenComponents": 0,
+            "activeDebris": 0,
+            "staticDebris": 0,
+            "debrisCap": 40,
+            "maxActivationMs": 0,
+            "states": []
+          },
+          "props": {
+            "registered": 328,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 18.535459066666665,
+            "p95Ms": 20.531424
+          }
+        },
+        "mode": "play",
+        "quality": "ULTRA",
+        "frameMs": 20.799999999999272,
+        "meanMs": 76.34151624548737,
+        "p95Ms": 27.700000000000728,
+        "simulationMs": 0.5,
+        "drawCalls": 298,
+        "triangles": 2790840,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 165,
+        "textures": 146,
+        "loadingMs": 4868.5,
+        "assetLoadMs": 430,
+        "position": [
+          178,
+          22.999999237060546,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "samples": 413,
+      "meanMs": 14.56198547215497,
+      "fps": 68.67195424086727,
+      "medianMs": 13.900000000001455,
+      "p95Ms": 20.899999999997817,
+      "maxMs": 36.099999999998545,
+      "meanDrawCalls": 316.89346246973366,
+      "maxDrawCalls": 340,
+      "meanSubmittedTriangles": 1857789.1283292978,
+      "maxSubmittedTriangles": 2724184,
+      "meanSimulationMs": 0.8595641646489104,
+      "maxActiveArchitectureDebris": 40,
+      "activeGameplayFrames": 413,
+      "meanGenerationMs": 0.023244552188000436,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuTimers": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 12.641144933333338,
+        "p95Ms": 14.836032
+      },
+      "game": {
+        "colliders": 5240,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 28,
+          "pending": 0,
+          "maxTiles": 28,
+          "loads": 73,
+          "unloads": 17,
+          "generationMs": 0,
+          "maxGenerationMs": 0.7999999970197678,
+          "collisionResident": true,
+          "worldColliders": 3943,
+          "quality": "ULTRA",
+          "assetBytes": 32361772,
+          "pendingAssetLoads": 0,
+          "textureBytesEstimate": 164717610.66666666,
+          "street": {
+            "plannedPropSlots": 61240,
+            "activeProps": 678
+          },
+          "destruction": {
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 122,
+              "particleCap": 256,
+              "batches": 4,
+              "wind": 1
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 5134,
+            "activeDebris": 40,
+            "staticDebris": 0,
+            "debrisCap": 40,
+            "maxActivationMs": 4.899999991059303,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 5134,
+                "stage": "collapsed",
+                "colliders": 0
+              }
+            ]
+          },
+          "props": {
+            "registered": 328,
+            "broken": 0
+          },
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 12.641144933333338,
+            "p95Ms": 14.836032
+          }
+        },
+        "mode": "play",
+        "quality": "ULTRA",
+        "frameMs": 20.900000000001455,
+        "meanMs": 25.32516666666667,
+        "p95Ms": 20.900000000001455,
+        "simulationMs": 0.7000000029802322,
+        "drawCalls": 313,
+        "triangles": 1596152,
+        "bodies": 41,
+        "activeBodies": 40,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 183,
+        "textures": 147,
+        "loadingMs": 4868.5,
+        "assetLoadMs": 430,
+        "position": [
+          178,
+          22.999999237060546,
+          -200.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "financial",
+        "buildings": 971,
+        "tiles": 28,
+        "pending": 0,
+        "maxTiles": 28,
+        "loads": 73,
+        "unloads": 17,
+        "generationMs": 0,
+        "maxGenerationMs": 0.7999999970197678,
+        "collisionResident": true,
+        "worldColliders": 3943,
+        "quality": "ULTRA",
+        "assetBytes": 32361772,
+        "pendingAssetLoads": 0,
+        "textureBytesEstimate": 164717610.66666666,
+        "street": {
+          "plannedPropSlots": 61240,
+          "activeProps": 678
+        },
+        "destruction": {
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 122,
+            "particleCap": 256,
+            "batches": 4,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 1,
+          "brokenComponents": 5134,
+          "activeDebris": 40,
+          "staticDebris": 0,
+          "debrisCap": 40,
+          "maxActivationMs": 4.899999991059303,
+          "states": [
+            {
+              "id": 235,
+              "family": "aer_glass",
+              "broken": 5134,
+              "stage": "collapsed",
+              "colliders": 0
+            }
+          ]
+        },
+        "props": {
+          "registered": 328,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 12,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 12.641144933333338,
+          "p95Ms": 14.836032
+        }
+      },
+      "startPosition": [
+        178,
+        22.999999237060546,
+        -200.4416046142578
+      ],
+      "endPosition": [
+        178,
+        22.999999237060546,
+        -200.4416046142578
+      ],
+      "jsHeap": 454478826,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1733,
+        "largeAllocations": [
+          {
+            "pid": 43520,
+            "name": "chrome.exe",
+            "dedicatedBytes": 502349824,
+            "sharedBytes": 180039680
+          },
+          {
+            "pid": 40092,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 547131392,
+            "sharedBytes": 199733248
+          },
+          {
+            "pid": 37584,
+            "name": "Code.exe",
+            "dedicatedBytes": 111501312,
+            "sharedBytes": 5578752
+          },
+          {
+            "pid": 37128,
+            "name": "chrome.exe",
+            "dedicatedBytes": 150257664,
+            "sharedBytes": 31924224
+          },
+          {
+            "pid": 32304,
+            "name": "msedgewebview2.exe",
+            "dedicatedBytes": 58417152,
+            "sharedBytes": 0
+          },
+          {
+            "pid": 11144,
+            "name": "explorer.exe",
+            "dedicatedBytes": 201879552,
+            "sharedBytes": 2596864
+          },
+          {
+            "pid": 9552,
+            "name": "dwm.exe",
+            "dedicatedBytes": 254193664,
+            "sharedBytes": 1871872
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-15T15:56:20.9262356Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 180039680,
+            "dedicatedBytes": 502349824
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "errors": [],
+      "measuredAt": "2026-10-15T15:56:21.147Z"
+    }
+  ]
+}

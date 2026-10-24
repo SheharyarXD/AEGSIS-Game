@@ -1,0 +1,44 @@
+diff --git a/src/main.ts b/src/main.ts
+index 3a5a5d9..a3d272b 100644
+--- a/src/main.ts
++++ b/src/main.ts
+@@ -10,6 +10,7 @@ import { Hud } from './ui/Hud';
+ import { FlightVfx } from './vfx/FlightVfx';
+ import { ImpactVfx } from './vfx/ImpactVfx';
+ import { City, SPAWN } from './world/City';
++import { installEnvironmentDebug } from './world/environment/EnvironmentDebug';
+ import { PhysicsWorld } from './physics/PhysicsWorld';
+ import { Destruction } from './physics/Destruction';
+ import { AudioSystem } from './audio/AudioSystem';
+@@ -38,6 +39,8 @@ async function boot():Promise<void> {
+   const scene=new Scene(),pmrem=new PMREMGenerator(renderer),room=new RoomEnvironment();
+   const environment=pmrem.fromScene(room,.04);scene.environment=environment.texture;scene.environmentIntensity=.6;room.dispose();pmrem.dispose();
+   const physics=new PhysicsWorld(),city=new City(scene,settings,physics),camera=new CameraRig(physics),player=new PlayerController(physics);
++  await city.ready;camera.camera.far=6500;camera.camera.updateProjectionMatrix();
++  installEnvironmentDebug(city,renderer,point=>{player.ragdoll.reset();player.body.setEnabled(true);player.body.teleport(point);player.velocity.set(0,0,0);camera.reset(point);});
+   scene.add(player.object,camera.camera);const input=new InputController(renderer.domElement),audio=new AudioSystem();
+   const impacts=new ImpactVfx(settings.particles),destruction=new Destruction(physics,impacts,settings.debris);scene.add(impacts.group,destruction.group);
+   const flightVfx=new FlightVfx(camera.camera,player.suit.thrusterMounts,settings.speedLineCount);
+@@ -55,10 +58,10 @@ async function boot():Promise<void> {
+     start:range=>{reset();encounter.begin(range);mode=range?'play':'intro';introTime=0;hud.menu('hidden');input.setEnabled(range);if(range)camera.reset(player.position);void audio.start();if(range)void input.lock();},
+     resume:()=>{mode='play';input.setEnabled(true);hud.menu('hidden');void input.lock();audio.mute(false);physics.resetClock();},
+     restart:()=>{reset();mode='intro';hud.menu('hidden');introTime=0;void audio.start();},
+-    quality:q=>{try{localStorage.setItem('aegis-quality',q);}catch{}location.reload();},audio:enabled=>{audio.enabled=enabled;},
++    quality:q=>{try{localStorage.setItem('aegis-quality',q);}catch{}location.reload();},audio:enabled=>{audio.enabled=enabled;city.audio.enabled=enabled;},
+   });
+   hud.menu('title');input.setEnabled(false);
+-  function reset():void {encounter.reset();player.reset();destruction.reset();impacts.reset();physics.resetClock();frameTimes.length=0;wasCinematic=false;city.courseRings.forEach(r=>r.visible=true);camera.reset(SPAWN);hud.endCinematic();hud.show('boss-bar',false);input.reset();audio.mute(false);lastDock=-1;}
++  function reset():void {encounter.reset();player.reset();city.reset();destruction.reset();impacts.reset();physics.resetClock();frameTimes.length=0;wasCinematic=false;city.courseRings.forEach(r=>r.visible=true);camera.reset(SPAWN);hud.endCinematic();hud.show('boss-bar',false);input.reset();audio.mute(false);lastDock=-1;}
+   function pause():void {if(mode!=='play')return;mode='paused';input.setEnabled(false);hud.menu('paused');audio.mute(true);document.exitPointerLock();}
+   function finishIntro():void {if(mode!=='intro')return;mode='play';player.suit.assembly(1);hud.endCinematic();input.setEnabled(true);camera.reset(player.position);void input.lock();}
+   hud.el('skip').onclick=finishIntro;
+@@ -120,7 +123,8 @@ async function boot():Promise<void> {
+       if(encounter.stage==='complete'){mode='complete';hud.endCinematic();hud.menu('complete');input.setEnabled(false);document.exitPointerLock();audio.mute(true);}
+       if(player.health<=0){mode='dead';hud.menu('dead');input.setEnabled(false);document.exitPointerLock();audio.mute(true);}
+     }
+-    if(mode!=='paused'){impacts.update(dt);city.update(player.position,time);}
++    if(mode!=='paused'){impacts.update(dt);city.update(player.position,time,camera.camera,player.velocity,mode==='play');}
++    city.setActive(mode==='play');
+     const telemetry=player.telemetry();flightVfx.update(dt,telemetry.state,telemetry.speed,telemetry.flightActive&&telemetry.boostActive);audio.update(telemetry.speed,telemetry.flightActive&&mode==='play');hud.update(telemetry,time);
+     if(diagnostics){const d=getDiagnostics();hud.text('diagnostics',`${quality} / ${innerWidth}×${innerHeight} / DPR ${renderer.getPixelRatio()}\nFRAME ${d.meanMs.toFixed(1)} ms · P95 ${d.p95Ms.toFixed(1)} ms\nPHYSICS ${simulationMs.toFixed(2)} ms / 60 Hz\nDRAW ${d.drawCalls} · TRI ${d.triangles.toLocaleString()}\nBODIES ${d.bodies} / ACTIVE ${d.activeBodies}\nPARTICLES ${d.particles} · DEBRIS ${d.debris}\nASSET ${(AegisSuit.assetBytes/1e6).toFixed(1)} MB · ${d.assetLoadMs.toFixed(0)} ms\nPOS ${d.position.map(v=>v.toFixed(1)).join(' / ')}`);}
+     renderer.info.reset();if(composer)composer.render();else renderer.render(scene,camera.camera);requestAnimationFrame(tick);

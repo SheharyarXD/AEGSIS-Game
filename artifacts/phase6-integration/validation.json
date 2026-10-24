@@ -1,0 +1,41 @@
+{
+  "typeScriptAndProductionBuild": "PASS",
+  "physicsUnitTests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "environmentAndRecoveryUnitTests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "mainBrowserTests": {
+    "startTime": "2026-10-11T08:31:18.278Z",
+    "duration": 246108.237,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "assetValidation": "PASS: all three GLBs contain normals and UVs; 15 building shells validated outward",
+  "protectedOriginalFilesVerified": 913,
+  "originalGeneratedArtifactsArchivedAndRestored": [
+    "artifacts/performance.json",
+    "artifacts/qa-beam-hover.png",
+    "artifacts/qa-beam.png",
+    "artifacts/qa-boss.png",
+    "artifacts/qa-destruction.png",
+    "artifacts/qa-flight.png",
+    "artifacts/qa-form-armor.png",
+    "artifacts/qa-form-change.png",
+    "artifacts/qa-form-pilot.png",
+    "artifacts/qa-form-stepout.png",
+    "artifacts/qa-landing.png",
+    "artifacts/qa-ragdoll-wall.png"
+  ],
+  "knownIntermittentTest": "Aerial melee contact is intermittent: repeated unchanged-main test on port 5189 yielded 1 pass and 1 failure; repeated merged test yielded the same. Initial dirty-main baseline passed all 13 tests.",
+  "defaultDevAndProductionLaunch": "PASS",
+  "mediaGalleryAndAssetDownloads": "PASS",
+  "actualMainGameplayVideos": 11,
+  "decodedVideoFramesInspected": 33,
+  "combinedBenchmarks": 12
+}

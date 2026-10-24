@@ -1,0 +1,3904 @@
+{
+  "city_brownstoneoffice_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Brownstone_Firstfloor_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_brownstoneoffice_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-3",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-4",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-5",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "8": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "9": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "10": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "11": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Brownstone_Facade_Flr_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Maskedstuff_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-4",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-5",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-5",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        }
+      },
+      "src_downtown_Downtown_Firstfloor_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_classicoffice_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_classicoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_classicoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_3": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Concrete_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_flatiron_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_classicoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_3": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_classicoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_mall_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Firstfloor_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_2-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_2-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_8": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_6": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_2-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_2-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_2-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_3": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_7": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_4": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_4-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_4-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_International_Side_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_4-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_4-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_4-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Concrete_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Firstfloor_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_5": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_5-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_4": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_5-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_5_b": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_5-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_4": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_5-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_publicbuilding_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_residential_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_3": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_residential_3": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_residential_4": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Facade_FLR_3": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_brutal_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Concrete_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-3",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-1",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "8": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "9": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "10": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "11": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Firstfloortrim_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-1",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        }
+      },
+      "src_downtown_Downtown_Firstfloor_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_7_0": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_modernoffice_1_b": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-3",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-1",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+        "width": 512,
+        "height": 1024,
+        "compressedBytes": 699088
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "8": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Firstfloortrim_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-1",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+          "width": 512,
+          "height": 1024,
+          "compressedBytes": 699088
+        }
+      },
+      "src_downtown_Downtown_Modern_Firstfloor_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_brutal_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Firstfloor_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_artdeco_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_downtown_Downtown_Concrete_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Facade_FLR_3": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_downtown_Downtown_Firstfloor_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_building_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Roof_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_building_10": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Material_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_duplex_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_factoryplant_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Walls_FLR_2": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_factoryplant_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Walls_FLR_2_Dif": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_genericbuilding_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Trim_FLR_1_Dif": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      }
+    }
+  },
+  "city_iron_genericbuilding_3": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_genericbuilding_4": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_hangar_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_hangar_2-4",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_hangar_2-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Windows_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_hangar_2-4",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_hangar_2-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_hangar_2-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_logisticterminal_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Trim_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_warehouse_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_warehouse_3": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_4": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Trim_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_warehouse_4": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Facade_Flr_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_warehouse_5": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Material_140": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_warehousesmall_4": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_4": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_iron_powerplant_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_ironwake_Industrial_Walls_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_ironwake_Industrial_Trim_FLR_1": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_vesper_1": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  },
+  "city_vesper_2": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  },
+  "city_vesper_3": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  },
+  "city_vesper_4": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  },
+  "city_vesper_5": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  },
+  "city_vesper_6": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {}
+    }
+  },
+  "city_vesper_7": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_aria_Dark": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Light": {
+        "map": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/provided/textures/aer_gothic-0",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_aria_Glass": {},
+      "p_concrete": {}
+    }
+  },
+  "city_citadel": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_citadel-1",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_citadel-2",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_citadel_Material.001": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_citadel-1",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_citadel-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_citadel-2",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_singapore": {
+    "images": {
+      "0": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-0",
+        "width": 256,
+        "height": 256,
+        "compressedBytes": 87408
+      },
+      "1": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-1",
+        "width": 256,
+        "height": 256,
+        "compressedBytes": 87408
+      },
+      "2": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-2",
+        "width": 512,
+        "height": 512,
+        "compressedBytes": 349552
+      },
+      "3": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-3",
+        "width": 512,
+        "height": 512,
+        "compressedBytes": 349552
+      },
+      "4": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-4",
+        "width": 512,
+        "height": 512,
+        "compressedBytes": 349552
+      },
+      "5": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-5",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "6": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "7": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-7",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "8": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-8",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "9": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-6",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "10": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-10",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "11": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-11",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "12": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-12",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      },
+      "13": {
+        "url": "/assets/environment/premium/city/textures/city_singapore-13",
+        "width": 1024,
+        "height": 1024,
+        "compressedBytes": 1398128
+      }
+    },
+    "materials": {
+      "src_singapore_Red_Beam": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-1",
+          "width": 256,
+          "height": 256,
+          "compressedBytes": 87408
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-0",
+          "width": 256,
+          "height": 256,
+          "compressedBytes": 87408
+        }
+      },
+      "src_singapore_Trimsheet": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-3",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-4",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-4",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-2",
+          "width": 512,
+          "height": 512,
+          "compressedBytes": 349552
+        }
+      },
+      "src_singapore_temp": {},
+      "src_singapore_material_0": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-5",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_singapore_GLASS_BUILDING": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-8",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-6",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-7",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_singapore_Interior": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-11",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-10",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "src_singapore_Emmsive": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-13",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        },
+        "emissiveMap": {
+          "url": "/assets/environment/premium/city/textures/city_singapore-12",
+          "width": 1024,
+          "height": 1024,
+          "compressedBytes": 1398128
+        }
+      },
+      "p_concrete": {}
+    }
+  },
+  "city_meridian_arcade": {
+    "materials": {
+      "src_meridian_MI_Trim_Green": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-1"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-0"
+        }
+      },
+      "src_meridian_MI_Trim_Green.001": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-1"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-0"
+        }
+      },
+      "src_meridian_MI_Glass.001": {},
+      "src_meridian_MI_Trim.001": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-1"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-0"
+        }
+      },
+      "src_meridian_MI_InteriorWall.002": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-4"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-3"
+        }
+      },
+      "src_meridian_MI_Trim_MetalConcrete": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-7"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-8"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-8"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-6"
+        }
+      },
+      "src_meridian_MI_Glass.002": {},
+      "src_meridian_MI_Trim_MetalConcrete.001": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-7"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-8"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-8"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-6"
+        }
+      },
+      "src_meridian_MI_Concrete": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-10"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-11"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-11"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-9"
+        }
+      },
+      "src_meridian_MI_RedBrick_Pale": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-4"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-3"
+        }
+      },
+      "src_meridian_MI_Trim": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-1"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-0"
+        }
+      },
+      "src_meridian_MI_Glass": {},
+      "src_meridian_MI_FakeInterior": {},
+      "src_meridian_MI_InteriorWall": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-4"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-3"
+        }
+      },
+      "src_meridian_MI_Trim.002": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-1"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-2"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-0"
+        }
+      },
+      "src_meridian_MI_Asphalt": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-12"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-11"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-11"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-9"
+        }
+      },
+      "src_meridian_MI_RedBrick": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-4"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-3"
+        }
+      },
+      "src_meridian_MI_InteriorWall.001": {
+        "map": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-4"
+        },
+        "roughnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "metalnessMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-5"
+        },
+        "normalMap": {
+          "url": "/assets/environment/premium/city/textures/city_meridian_arcade-3"
+        }
+      },
+      "p_concrete": {}
+    }
+  }
+}

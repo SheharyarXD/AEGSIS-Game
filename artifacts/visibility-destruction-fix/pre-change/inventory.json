@@ -1,0 +1,6 @@
+{
+  "src/world/WorldStreaming.ts": "8a6a2139e0d4bdb96a808169256c09ee8ae54a40ff6a94f0eb77eb6454005d44",
+  "src/world/ArchitectureDestruction.ts": "0a28a89049e016361c5b1d42ddc1857bcda9b430b91c87ec374bd3bd8e89d0be",
+  "src/world/City.ts": "fa496a9c53585b2260a4e8ba01df8b1e12179e92aa74f627de768314e6ce0751",
+  "src/world/environment/AssetLibrary.ts": "a5e7d5af78c546b6b872a776d73d82d2ee14e782aaf626739ee16fb918a2515d"
+}

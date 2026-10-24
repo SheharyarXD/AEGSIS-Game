@@ -1,0 +1,414 @@
+{
+  "beforeMethod": "Actual MAIN game. Each timed traversal uses the same six seconds of input, rather than tying travel distance to rendered frame count. Mean FPS is 1000/mean frame interval; submitted triangles include beauty, shadow and AO passes. Quality render scales are unchanged. Hardware counters are sampled immediately after timed gameplay; source texture estimates exclude driver allocations and are not total VRAM.",
+  "afterMethod": "Actual MAIN game. Each timed traversal uses the same six seconds of input, rather than tying travel distance to rendered frame count. Mean FPS is 1000/mean frame interval; submitted triangles include beauty, shadow and AO passes. Quality render scales are unchanged. Hardware counters are sampled immediately after timed gameplay; source texture estimates exclude driver allocations and are not total VRAM.",
+  "comparisons": [
+    {
+      "quality": "LOW",
+      "scene": "street-traversal",
+      "beforeFps": 84.99575021248938,
+      "afterFps": 143.99520015999465,
+      "beforeP95Ms": 14,
+      "afterP95Ms": 7,
+      "beforeDraws": 133,
+      "afterDraws": 60.13194444444444,
+      "beforeTriangles": 1106416.4117647058,
+      "afterTriangles": 416777.5115740741,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "errors": []
+    },
+    {
+      "quality": "LOW",
+      "scene": "rooftop-traversal",
+      "beforeFps": 85.49715009499683,
+      "afterFps": 133.99553348221724,
+      "beforeP95Ms": 14,
+      "afterP95Ms": 7.099999999998545,
+      "beforeDraws": 156.45224171539962,
+      "afterDraws": 33.17786069651741,
+      "beforeTriangles": 1554255.2280701755,
+      "afterTriangles": 492178.50621890544,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "errors": []
+    },
+    {
+      "quality": "LOW",
+      "scene": "night-rain",
+      "beforeFps": 78.7388467172726,
+      "afterFps": 143.99760003999933,
+      "beforeP95Ms": 14,
+      "afterP95Ms": 7,
+      "beforeDraws": 136,
+      "afterDraws": 64,
+      "beforeTriangles": 1104516,
+      "afterTriangles": 419211,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "errors": []
+    },
+    {
+      "quality": "LOW",
+      "scene": "aerial-traversal",
+      "beforeFps": 123.99380030998451,
+      "afterFps": 143.99520015999468,
+      "beforeP95Ms": 13.900000000001455,
+      "afterP95Ms": 7,
+      "beforeDraws": 125.78091397849462,
+      "afterDraws": 26.84722222222222,
+      "beforeTriangles": 1498128.7688172043,
+      "afterTriangles": 248267.42361111112,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "errors": []
+    },
+    {
+      "quality": "LOW",
+      "scene": "combat",
+      "beforeFps": 48.6642334549939,
+      "afterFps": 118.02503662271938,
+      "beforeP95Ms": 21,
+      "afterP95Ms": 13.900000000001455,
+      "beforeDraws": 357.8732876712329,
+      "afterDraws": 110.44710860366713,
+      "beforeTriangles": 4237560.821917809,
+      "afterTriangles": 597309.3765867419,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "errors": []
+    },
+    {
+      "quality": "LOW",
+      "scene": "destruction-stress",
+      "beforeFps": 76.32824478368107,
+      "afterFps": 136.3287890403653,
+      "beforeP95Ms": 14,
+      "afterP95Ms": 7.100000000002183,
+      "beforeDraws": 194.9301310043668,
+      "afterDraws": 81.9718826405868,
+      "beforeTriangles": 2110937.7030567685,
+      "afterTriangles": 460672.4034229829,
+      "internalResolution": [
+        1088,
+        612
+      ],
+      "errors": []
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "street-traversal",
+      "beforeFps": 57.59850843168918,
+      "afterFps": 120.32731696748499,
+      "beforeP95Ms": 20.900000000001455,
+      "afterP95Ms": 13.900000000001455,
+      "beforeDraws": 190.28323699421966,
+      "afterDraws": 93,
+      "beforeTriangles": 1729176.9624277456,
+      "afterTriangles": 738584.4709141274,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "rooftop-traversal",
+      "beforeFps": 54.66484450518318,
+      "afterFps": 101.16329455684809,
+      "beforeP95Ms": 20.900000000001455,
+      "afterP95Ms": 13.900000000001455,
+      "beforeDraws": 191.53353658536585,
+      "afterDraws": 60.45799011532125,
+      "beforeTriangles": 2195964.9817073173,
+      "afterTriangles": 1119189.5453047776,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "night-rain",
+      "beforeFps": 47.49762511874404,
+      "afterFps": 98.49671677610745,
+      "beforeP95Ms": 21,
+      "afterP95Ms": 13.900000000001455,
+      "beforeDraws": 210,
+      "afterDraws": 97,
+      "beforeTriangles": 2413952,
+      "afterTriangles": 742432,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "aerial-traversal",
+      "beforeFps": 81.99726675777472,
+      "afterFps": 143.99760003999933,
+      "beforeP95Ms": 14,
+      "afterP95Ms": 7.099999999998545,
+      "beforeDraws": 151.72764227642276,
+      "afterDraws": 35.84953703703704,
+      "beforeTriangles": 1709813.9837398373,
+      "afterTriangles": 434767.4166666667,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "combat",
+      "beforeFps": 31.795179118391278,
+      "afterFps": 77.16409453018231,
+      "beforeP95Ms": 34.80000000000291,
+      "afterP95Ms": 14,
+      "beforeDraws": 469.10994764397907,
+      "afterDraws": 197.37149028077755,
+      "beforeTriangles": 4921935.64921466,
+      "afterTriangles": 1155616.6479481643,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "MEDIUM",
+      "scene": "destruction-stress",
+      "beforeFps": 48.941270475429455,
+      "afterFps": 118.32938902036605,
+      "beforeP95Ms": 20.900000000001455,
+      "afterP95Ms": 13.900000000001455,
+      "beforeDraws": 245.3095238095238,
+      "afterDraws": 122.16478873239437,
+      "beforeTriangles": 2722849.2108843536,
+      "afterTriangles": 743360.4929577465,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "scene": "street-traversal",
+      "beforeFps": 49.99833338888706,
+      "afterFps": 91.66055596293577,
+      "beforeP95Ms": 20.900000000001455,
+      "afterP95Ms": 14,
+      "beforeDraws": 310.88,
+      "afterDraws": 174.25454545454545,
+      "beforeTriangles": 3042563.5033333334,
+      "afterTriangles": 1308063.8145454545,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "scene": "rooftop-traversal",
+      "beforeFps": 49.4351454023656,
+      "afterFps": 85.39752297243312,
+      "beforeP95Ms": 27.700000000000728,
+      "afterP95Ms": 14,
+      "beforeDraws": 290.003355704698,
+      "afterDraws": 104.59649122807018,
+      "beforeTriangles": 3114093.489932886,
+      "afterTriangles": 1576021.9512670566,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "scene": "night-rain",
+      "beforeFps": 41.569670768207516,
+      "afterFps": 79.66401119962673,
+      "beforeP95Ms": 27.80000000000291,
+      "afterP95Ms": 14,
+      "beforeDraws": 333,
+      "afterDraws": 183,
+      "beforeTriangles": 3701985,
+      "afterTriangles": 1317871,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "scene": "aerial-traversal",
+      "beforeFps": 69.99650017499125,
+      "afterFps": 81.51499268985683,
+      "beforeP95Ms": 20.80000000000291,
+      "afterP95Ms": 13.900000000001455,
+      "beforeDraws": 235.92142857142858,
+      "afterDraws": 63.86125211505922,
+      "beforeTriangles": 2520544.7404761906,
+      "afterTriangles": 683743.3705583756,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "scene": "combat",
+      "beforeFps": 29.999000033332237,
+      "afterFps": 67.4988750187497,
+      "beforeP95Ms": 34.80000000000291,
+      "afterP95Ms": 20.799999999999272,
+      "beforeDraws": 675.5388888888889,
+      "afterDraws": 329.99753086419753,
+      "beforeTriangles": 7361435.988888889,
+      "afterTriangles": 1937977.325925926,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "HIGH",
+      "scene": "destruction-stress",
+      "beforeFps": 44.28093422783041,
+      "afterFps": 88.32891688748896,
+      "beforeP95Ms": 27.80000000000291,
+      "afterP95Ms": 14,
+      "beforeDraws": 356.0563909774436,
+      "afterDraws": 215.97924528301886,
+      "beforeTriangles": 3885609.7293233084,
+      "afterTriangles": 1290986.00754717,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "street-traversal",
+      "beforeFps": 49.83250279162015,
+      "afterFps": 89.49552522373882,
+      "beforeP95Ms": 20.900000000001455,
+      "afterP95Ms": 14,
+      "beforeDraws": 312.74581939799333,
+      "afterDraws": 178.24581005586592,
+      "beforeTriangles": 3122836.9030100335,
+      "afterTriangles": 1324730.6945996275,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "rooftop-traversal",
+      "beforeFps": 48.22001629503997,
+      "afterFps": 56.08446320158156,
+      "beforeP95Ms": 27.799999999999272,
+      "afterP95Ms": 14,
+      "beforeDraws": 290.74827586206897,
+      "afterDraws": 118.3425,
+      "beforeTriangles": 3134231.6344827586,
+      "afterTriangles": 1816954.09,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "night-rain",
+      "beforeFps": 40.117856607793854,
+      "afterFps": 78.16536391060146,
+      "beforeP95Ms": 27.900000000001455,
+      "afterP95Ms": 14,
+      "beforeDraws": 333,
+      "afterDraws": 187,
+      "beforeTriangles": 3719361,
+      "afterTriangles": 1336943,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "aerial-traversal",
+      "beforeFps": 64.83009182874191,
+      "afterFps": 69.25607433485312,
+      "beforeP95Ms": 20.899999999997817,
+      "afterP95Ms": 13.899999999999636,
+      "beforeDraws": 248.02827763496143,
+      "afterDraws": 63.83958333333333,
+      "beforeTriangles": 2566103.1233933163,
+      "afterTriangles": 683987.4791666666,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "combat",
+      "beforeFps": 29.964541958682233,
+      "afterFps": 67.66328350249155,
+      "beforeP95Ms": 34.80000000000291,
+      "afterP95Ms": 20.799999999999272,
+      "beforeDraws": 673.4222222222222,
+      "afterDraws": 330.0049261083744,
+      "beforeTriangles": 7349802.811111111,
+      "afterTriangles": 1962165.9655172413,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    },
+    {
+      "quality": "ULTRA",
+      "scene": "destruction-stress",
+      "beforeFps": 42.33192226925766,
+      "afterFps": 86.99710009666344,
+      "beforeP95Ms": 27.80000000000291,
+      "afterP95Ms": 14,
+      "beforeDraws": 368.0787401574803,
+      "afterDraws": 234.28352490421457,
+      "beforeTriangles": 3965477.228346457,
+      "afterTriangles": 1353226.5651340997,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "errors": []
+    }
+  ]
+}

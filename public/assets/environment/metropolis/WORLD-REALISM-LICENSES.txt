@@ -1,0 +1,21 @@
+﻿AEGIS world-realism additions - original work, 2026-10-15
+
+urban-details.blend, build_street_details.py and street-details.glb:
+Original AEGIS project authoring created for this workspace. No external model,
+image or proprietary game content was copied into these new modules.
+Includes newspaper dispenser, dumpster, fence, planter, awning, pedestrian signal,
+street sign, service vent, opaque tree crowns and street-lamp lens modules.
+Runtime street-details-optimized.glb is a Meshopt-compressed derivative.
+
+StreetMaterials.ts uses the project's existing asphalt PBR maps. No new texture
+license is introduced. StreetSigns.ts draws original AEGIS street names and
+simple sign graphics into one shared canvas atlas; no downloaded imagery/font.
+WetStreetReflections.ts reuses the existing attributed source-facades atlas.
+The original building authors and source licenses remain applicable to reflections.
+See public/assets/environment/metropolis/LICENSES.txt and asset-usage.json,
+art/environment/phase7/provided and art/external for retained source attribution.
+Existing source buildings and their textures remain under their original licenses.
+
+concrete-color.webp, concrete-normal.webp, concrete-rough.webp and concrete-height.png:
+Original deterministic tileable aggregate synthesis from build_concrete.py,
+seed 72015. No third-party image inputs; editable height source retained.

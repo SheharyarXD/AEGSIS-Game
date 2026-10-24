@@ -1,0 +1,69 @@
+{
+  "asset": "TITAN-09 adaptation of Godot TPS red robot",
+  "source": "https://github.com/godotengine/tps-demo/tree/a82f15448e9b015440d3bbdf5e10801b260c4e9f/enemies/red_robot",
+  "commit": "a82f15448e9b015440d3bbdf5e10801b260c4e9f",
+  "license": "CC-BY-3.0",
+  "attribution": "Copyright (c) 2018 Juan Linietsky, Fernando Miguel Calabró. Original Substance Painter materials kindly provided by GameTextures.com (upstream attribution).",
+  "licenseFile": "LICENSE-godot.txt",
+  "output": {
+    "file": "public/assets/titan-sentinel.glb",
+    "bytes": 4255932,
+    "sha256": "a45616364b6d6f904ccfe14159554f965895aeb5aaa4323c64ce9c146b282baa"
+  },
+  "rig": {
+    "bones": 64,
+    "skinnedMeshes": 4
+  },
+  "animations": [
+    "Cannon-N",
+    "Cannon_Fire_Recoil",
+    "Damage_heavy",
+    "Damage_take1",
+    "Idle-cycle",
+    "TurnLeft-cycle",
+    "TurnRight-cycle",
+    "Walk-cycle"
+  ],
+  "modifications": [
+    "PBR maps embedded as 2K WebP",
+    "Unused development clips removed; gameplay keys resampled",
+    "Root XZ travel removed; runtime collision owns position",
+    "Runtime scaled to 6.5m, metal materials adapted for TITAN-09"
+  ],
+  "limitations": [
+    "Source rig is a stylized original robot, not a bespoke AAA boss",
+    "Aerial traversal and collapse are runtime transforms, not authored flight/death clips"
+  ],
+  "sources": [
+    {
+      "file": "assets-source/godot-tps/red-robot/red_robot.glb",
+      "url": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/enemies/red_robot/model/red_robot.glb",
+      "bytes": 5805848,
+      "sha256": "f8e52f99e51f11eef0873b09c82c45db663bb9a36c4747a124230b6fbf8e2f0d"
+    },
+    {
+      "file": "assets-source/godot-tps/red-robot/red_robot_albedo.png",
+      "url": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/enemies/red_robot/textures/red_robot_albedo.png",
+      "bytes": 4092092,
+      "sha256": "3e96b620bacc404d2484ff2c0e045afb1dc985e52d441965546ad5aea28da9f4"
+    },
+    {
+      "file": "assets-source/godot-tps/red-robot/red_robot_normal.png",
+      "url": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/enemies/red_robot/textures/red_robot_normal.png",
+      "bytes": 3942412,
+      "sha256": "9a48f9f49aaf6fc8c78636c8e59b9ced71cd82e72ec87925c2c1897ba9bd0887"
+    },
+    {
+      "file": "assets-source/godot-tps/red-robot/red_robot_orm.png",
+      "url": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/enemies/red_robot/textures/red_robot_orm.png",
+      "bytes": 5139588,
+      "sha256": "7d32c485c827b812aa81cd05d1e90e7913278adfac803454f62844981778df74"
+    },
+    {
+      "file": "assets-source/godot-tps/red-robot/red_robot_emission.png",
+      "url": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/enemies/red_robot/textures/red_robot_emission.png",
+      "bytes": 11334,
+      "sha256": "dc9fa5c291f80cf51d69cfbf5d66d24eb61426203d46358f94f61aafb87f4d63"
+    }
+  ]
+}

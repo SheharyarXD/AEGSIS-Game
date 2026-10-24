@@ -1,0 +1,5344 @@
+{
+  "original": true,
+  "author": "AEGIS project",
+  "families": [
+    {
+      "id": "vesper_abbey",
+      "name": "Vesper Abbey Offices",
+      "district": "gothic",
+      "style": "gothic",
+      "facade": "lancet",
+      "roof": "pinnacles",
+      "heights": [
+        32,
+        56
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.8,
+          1,
+          1
+        ],
+        [
+          0.8,
+          0.2,
+          0.74,
+          0.82
+        ]
+      ]
+    },
+    {
+      "id": "vesper_civic",
+      "name": "Ashcourt Civic Tower",
+      "district": "gothic",
+      "style": "gothic",
+      "facade": "triple_lancet",
+      "roof": "belfry",
+      "heights": [
+        48,
+        84
+      ],
+      "width": 36,
+      "depth": 32,
+      "profiles": [
+        [
+          0,
+          0.64,
+          1,
+          1
+        ],
+        [
+          0.64,
+          0.22,
+          0.68,
+          0.78
+        ],
+        [
+          0.86,
+          0.14,
+          0.42,
+          0.58
+        ]
+      ]
+    },
+    {
+      "id": "vesper_collegiate",
+      "name": "Collegiate Chambers",
+      "district": "gothic",
+      "style": "gothic",
+      "facade": "arcade",
+      "roof": "mansard",
+      "heights": [
+        24,
+        44
+      ],
+      "width": 36,
+      "depth": 40,
+      "profiles": [
+        [
+          0,
+          0.94,
+          1,
+          1
+        ],
+        [
+          0.94,
+          0.06,
+          0.86,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "vesper_buttress",
+      "name": "Buttress Exchange",
+      "district": "gothic",
+      "style": "gothic",
+      "facade": "buttress",
+      "roof": "pinnacles",
+      "heights": [
+        40,
+        68
+      ],
+      "width": 32,
+      "depth": 32,
+      "profiles": [
+        [
+          0,
+          0.7,
+          1,
+          1
+        ],
+        [
+          0.7,
+          0.3,
+          0.78,
+          0.78
+        ]
+      ]
+    },
+    {
+      "id": "vesper_bayhouse",
+      "name": "Copper Bay Residences",
+      "district": "gothic",
+      "style": "gothic",
+      "facade": "oriel",
+      "roof": "copper",
+      "heights": [
+        28,
+        48
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.86,
+          1,
+          1
+        ],
+        [
+          0.86,
+          0.14,
+          0.82,
+          0.9
+        ]
+      ]
+    },
+    {
+      "id": "vesper_chancery",
+      "name": "Blackstone Chancery",
+      "district": "gothic",
+      "style": "gothic",
+      "facade": "colonnade",
+      "roof": "lantern",
+      "heights": [
+        36,
+        60
+      ],
+      "width": 36,
+      "depth": 32,
+      "profiles": [
+        [
+          0,
+          0.72,
+          1,
+          1
+        ],
+        [
+          0.72,
+          0.18,
+          0.76,
+          0.86
+        ],
+        [
+          0.9,
+          0.1,
+          0.56,
+          0.68
+        ]
+      ]
+    },
+    {
+      "id": "crown_fan",
+      "name": "Aster Fan Tower",
+      "district": "financial",
+      "style": "financial",
+      "facade": "fins",
+      "roof": "blade",
+      "heights": [
+        80,
+        160,
+        224
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.72,
+          1,
+          1
+        ],
+        [
+          0.72,
+          0.2,
+          0.78,
+          0.82
+        ],
+        [
+          0.92,
+          0.08,
+          0.54,
+          0.62
+        ]
+      ]
+    },
+    {
+      "id": "crown_deco",
+      "name": "Argent Monument",
+      "district": "financial",
+      "style": "deco",
+      "facade": "deco",
+      "roof": "lantern",
+      "heights": [
+        64,
+        128,
+        192
+      ],
+      "width": 36,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.6,
+          1,
+          1
+        ],
+        [
+          0.6,
+          0.22,
+          0.8,
+          0.85
+        ],
+        [
+          0.82,
+          0.12,
+          0.62,
+          0.72
+        ],
+        [
+          0.94,
+          0.06,
+          0.44,
+          0.54
+        ]
+      ]
+    },
+    {
+      "id": "crown_lattice",
+      "name": "Crossbrace Financial",
+      "district": "financial",
+      "style": "financial",
+      "facade": "diagrid",
+      "roof": "antenna",
+      "heights": [
+        72,
+        144,
+        208
+      ],
+      "width": 36,
+      "depth": 32,
+      "profiles": [
+        [
+          0,
+          0.9,
+          1,
+          1
+        ],
+        [
+          0.9,
+          0.1,
+          0.86,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "crown_ribbon",
+      "name": "Ribbon Offices",
+      "district": "financial",
+      "style": "financial",
+      "facade": "ribbon",
+      "roof": "terrace",
+      "heights": [
+        56,
+        112,
+        176
+      ],
+      "width": 32,
+      "depth": 40,
+      "profiles": [
+        [
+          0,
+          0.54,
+          1,
+          1
+        ],
+        [
+          0.54,
+          0.24,
+          0.84,
+          0.88
+        ],
+        [
+          0.78,
+          0.22,
+          0.64,
+          0.76
+        ]
+      ]
+    },
+    {
+      "id": "crown_fluted",
+      "name": "Fluted Securities",
+      "district": "financial",
+      "style": "deco",
+      "facade": "fluted",
+      "roof": "copper",
+      "heights": [
+        64,
+        120,
+        184
+      ],
+      "width": 32,
+      "depth": 32,
+      "profiles": [
+        [
+          0,
+          0.82,
+          1,
+          1
+        ],
+        [
+          0.82,
+          0.18,
+          0.7,
+          0.78
+        ]
+      ]
+    },
+    {
+      "id": "crown_gallery",
+      "name": "Granite Gallery Offices",
+      "district": "financial",
+      "style": "deco",
+      "facade": "colonnade",
+      "roof": "terrace",
+      "heights": [
+        40,
+        88,
+        136
+      ],
+      "width": 40,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.7,
+          1,
+          1
+        ],
+        [
+          0.7,
+          0.18,
+          0.82,
+          0.9
+        ],
+        [
+          0.88,
+          0.12,
+          0.62,
+          0.72
+        ]
+      ]
+    },
+    {
+      "id": "iron_sawtooth",
+      "name": "Sawtooth Works",
+      "district": "industrial",
+      "style": "industrial",
+      "facade": "factory",
+      "roof": "sawtooth",
+      "heights": [
+        12,
+        24
+      ],
+      "width": 64,
+      "depth": 64,
+      "profiles": [
+        [
+          0,
+          0.84,
+          1,
+          1
+        ],
+        [
+          0.84,
+          0.16,
+          0.72,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "iron_foundry",
+      "name": "Copperlane Foundry",
+      "district": "industrial",
+      "style": "industrial",
+      "facade": "buttress",
+      "roof": "stacks",
+      "heights": [
+        16,
+        28
+      ],
+      "width": 64,
+      "depth": 64,
+      "profiles": [
+        [
+          0,
+          0.78,
+          1,
+          1
+        ],
+        [
+          0.78,
+          0.22,
+          0.76,
+          0.8
+        ]
+      ]
+    },
+    {
+      "id": "iron_loading",
+      "name": "Dockside Loading Hall",
+      "district": "industrial",
+      "style": "industrial",
+      "facade": "loading",
+      "roof": "barrel",
+      "heights": [
+        12,
+        20
+      ],
+      "width": 64,
+      "depth": 64,
+      "profiles": [
+        [
+          0,
+          0.9,
+          1,
+          1
+        ],
+        [
+          0.9,
+          0.1,
+          0.88,
+          0.9
+        ]
+      ]
+    },
+    {
+      "id": "iron_mill",
+      "name": "Old Brick Mill",
+      "district": "industrial",
+      "style": "industrial",
+      "facade": "factory_arch",
+      "roof": "copper",
+      "heights": [
+        20,
+        32
+      ],
+      "width": 64,
+      "depth": 64,
+      "profiles": [
+        [
+          0,
+          0.8,
+          1,
+          1
+        ],
+        [
+          0.8,
+          0.2,
+          0.62,
+          0.82
+        ]
+      ]
+    },
+    {
+      "id": "iron_silo",
+      "name": "Silo Service Complex",
+      "district": "industrial",
+      "style": "industrial",
+      "facade": "silo",
+      "roof": "stacks",
+      "heights": [
+        16,
+        28
+      ],
+      "width": 64,
+      "depth": 64,
+      "profiles": [
+        [
+          0,
+          0.6,
+          1,
+          1
+        ],
+        [
+          0.6,
+          0.4,
+          0.64,
+          0.74
+        ]
+      ]
+    },
+    {
+      "id": "iron_power",
+      "name": "Ironwake Power House",
+      "district": "industrial",
+      "style": "industrial",
+      "facade": "steel",
+      "roof": "gantry",
+      "heights": [
+        20,
+        36
+      ],
+      "width": 64,
+      "depth": 64,
+      "profiles": [
+        [
+          0,
+          0.72,
+          1,
+          1
+        ],
+        [
+          0.72,
+          0.28,
+          0.78,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "prism_hotel",
+      "name": "The Prism Hotel",
+      "district": "commercial",
+      "style": "deco",
+      "facade": "deco",
+      "roof": "lantern",
+      "heights": [
+        40,
+        80
+      ],
+      "width": 36,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.74,
+          1,
+          1
+        ],
+        [
+          0.74,
+          0.18,
+          0.76,
+          0.84
+        ],
+        [
+          0.92,
+          0.08,
+          0.5,
+          0.66
+        ]
+      ]
+    },
+    {
+      "id": "prism_arcade",
+      "name": "Mercury Retail Arcade",
+      "district": "commercial",
+      "style": "deco",
+      "facade": "arcade",
+      "roof": "mansard",
+      "heights": [
+        24,
+        44
+      ],
+      "width": 40,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.92,
+          1,
+          1
+        ],
+        [
+          0.92,
+          0.08,
+          0.86,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "prism_cinema",
+      "name": "Orion Picture House",
+      "district": "commercial",
+      "style": "deco",
+      "facade": "fluted",
+      "roof": "blade",
+      "heights": [
+        28,
+        56
+      ],
+      "width": 36,
+      "depth": 40,
+      "profiles": [
+        [
+          0,
+          0.66,
+          1,
+          1
+        ],
+        [
+          0.66,
+          0.2,
+          0.82,
+          0.86
+        ],
+        [
+          0.86,
+          0.14,
+          0.56,
+          0.76
+        ]
+      ]
+    },
+    {
+      "id": "prism_showroom",
+      "name": "Crystal Showrooms",
+      "district": "commercial",
+      "style": "financial",
+      "facade": "ribbon",
+      "roof": "terrace",
+      "heights": [
+        32,
+        68
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.82,
+          1,
+          1
+        ],
+        [
+          0.82,
+          0.18,
+          0.72,
+          0.8
+        ]
+      ]
+    },
+    {
+      "id": "prism_exchange",
+      "name": "Neon Exchange",
+      "district": "commercial",
+      "style": "deco",
+      "facade": "oriel",
+      "roof": "antenna",
+      "heights": [
+        44,
+        92
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.72,
+          1,
+          1
+        ],
+        [
+          0.72,
+          0.2,
+          0.8,
+          0.86
+        ],
+        [
+          0.92,
+          0.08,
+          0.54,
+          0.7
+        ]
+      ]
+    },
+    {
+      "id": "prism_courtyard",
+      "name": "Lumen Courtyard",
+      "district": "commercial",
+      "style": "deco",
+      "facade": "colonnade",
+      "roof": "copper",
+      "heights": [
+        28,
+        52
+      ],
+      "width": 40,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.84,
+          1,
+          1
+        ],
+        [
+          0.84,
+          0.16,
+          0.7,
+          0.84
+        ]
+      ]
+    },
+    {
+      "id": "meridian_tenement",
+      "name": "Meridian Brick Tenements",
+      "district": "residential",
+      "style": "residential",
+      "facade": "tenement",
+      "roof": "tank",
+      "heights": [
+        24,
+        40
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.94,
+          1,
+          1
+        ],
+        [
+          0.94,
+          0.06,
+          0.86,
+          0.9
+        ]
+      ]
+    },
+    {
+      "id": "meridian_balcony",
+      "name": "Garden Balcony Houses",
+      "district": "residential",
+      "style": "residential",
+      "facade": "balcony",
+      "roof": "terrace",
+      "heights": [
+        32,
+        52
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.84,
+          1,
+          1
+        ],
+        [
+          0.84,
+          0.16,
+          0.76,
+          0.82
+        ]
+      ]
+    },
+    {
+      "id": "meridian_civic",
+      "name": "Parkside Civic Chambers",
+      "district": "residential",
+      "style": "residential",
+      "facade": "arcade",
+      "roof": "mansard",
+      "heights": [
+        20,
+        36
+      ],
+      "width": 36,
+      "depth": 40,
+      "profiles": [
+        [
+          0,
+          0.9,
+          1,
+          1
+        ],
+        [
+          0.9,
+          0.1,
+          0.84,
+          0.84
+        ]
+      ]
+    },
+    {
+      "id": "meridian_modern",
+      "name": "Verdant Residential Tower",
+      "district": "residential",
+      "style": "residential",
+      "facade": "ribbon",
+      "roof": "terrace",
+      "heights": [
+        40,
+        64
+      ],
+      "width": 32,
+      "depth": 32,
+      "profiles": [
+        [
+          0,
+          0.72,
+          1,
+          1
+        ],
+        [
+          0.72,
+          0.28,
+          0.76,
+          0.8
+        ]
+      ]
+    },
+    {
+      "id": "meridian_oriel",
+      "name": "Bay-window Apartments",
+      "district": "residential",
+      "style": "residential",
+      "facade": "oriel",
+      "roof": "copper",
+      "heights": [
+        28,
+        48
+      ],
+      "width": 32,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.88,
+          1,
+          1
+        ],
+        [
+          0.88,
+          0.12,
+          0.8,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "meridian_garden",
+      "name": "Terrace Garden Apartments",
+      "district": "residential",
+      "style": "residential",
+      "facade": "balcony",
+      "roof": "garden",
+      "heights": [
+        24,
+        44
+      ],
+      "width": 36,
+      "depth": 36,
+      "profiles": [
+        [
+          0,
+          0.64,
+          1,
+          1
+        ],
+        [
+          0.64,
+          0.24,
+          0.78,
+          0.86
+        ],
+        [
+          0.88,
+          0.12,
+          0.58,
+          0.72
+        ]
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "asset": "vesper_abbey_32_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_abbey_32_near",
+      "material": "p_stone",
+      "vertices": 24056,
+      "triangles": 36084
+    },
+    {
+      "asset": "vesper_abbey_32_near",
+      "material": "p_glass_warm",
+      "vertices": 2048,
+      "triangles": 3072
+    },
+    {
+      "asset": "vesper_abbey_32_near",
+      "material": "p_metal",
+      "vertices": 6252,
+      "triangles": 9364
+    },
+    {
+      "asset": "vesper_abbey_32_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_abbey_32_mid",
+      "material": "p_stone",
+      "vertices": 1008,
+      "triangles": 1512
+    },
+    {
+      "asset": "vesper_abbey_32_mid",
+      "material": "p_glass_warm",
+      "vertices": 2048,
+      "triangles": 3072
+    },
+    {
+      "asset": "vesper_abbey_32_mid",
+      "material": "p_metal",
+      "vertices": 28,
+      "triangles": 28
+    },
+    {
+      "asset": "vesper_abbey_32_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_abbey_32_far",
+      "material": "p_stone",
+      "vertices": 144,
+      "triangles": 216
+    },
+    {
+      "asset": "vesper_abbey_32_far",
+      "material": "p_metal",
+      "vertices": 116,
+      "triangles": 160
+    },
+    {
+      "asset": "vesper_abbey_56_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_abbey_56_near",
+      "material": "p_stone",
+      "vertices": 41688,
+      "triangles": 62532
+    },
+    {
+      "asset": "vesper_abbey_56_near",
+      "material": "p_glass_warm",
+      "vertices": 3616,
+      "triangles": 5424
+    },
+    {
+      "asset": "vesper_abbey_56_near",
+      "material": "p_metal",
+      "vertices": 10956,
+      "triangles": 16420
+    },
+    {
+      "asset": "vesper_abbey_56_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_abbey_56_mid",
+      "material": "p_stone",
+      "vertices": 1328,
+      "triangles": 1992
+    },
+    {
+      "asset": "vesper_abbey_56_mid",
+      "material": "p_glass_warm",
+      "vertices": 3616,
+      "triangles": 5424
+    },
+    {
+      "asset": "vesper_abbey_56_mid",
+      "material": "p_metal",
+      "vertices": 28,
+      "triangles": 28
+    },
+    {
+      "asset": "vesper_abbey_56_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_abbey_56_far",
+      "material": "p_stone",
+      "vertices": 144,
+      "triangles": 216
+    },
+    {
+      "asset": "vesper_abbey_56_far",
+      "material": "p_metal",
+      "vertices": 180,
+      "triangles": 256
+    },
+    {
+      "asset": "vesper_civic_48_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "vesper_civic_48_near",
+      "material": "p_stone",
+      "vertices": 38472,
+      "triangles": 57708
+    },
+    {
+      "asset": "vesper_civic_48_near",
+      "material": "p_glass_warm",
+      "vertices": 3040,
+      "triangles": 4560
+    },
+    {
+      "asset": "vesper_civic_48_near",
+      "material": "p_metal",
+      "vertices": 9213,
+      "triangles": 13816
+    },
+    {
+      "asset": "vesper_civic_48_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "vesper_civic_48_mid",
+      "material": "p_stone",
+      "vertices": 1408,
+      "triangles": 2112
+    },
+    {
+      "asset": "vesper_civic_48_mid",
+      "material": "p_glass_warm",
+      "vertices": 3040,
+      "triangles": 4560
+    },
+    {
+      "asset": "vesper_civic_48_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_civic_48_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_civic_48_far",
+      "material": "p_stone",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "vesper_civic_48_far",
+      "material": "p_metal",
+      "vertices": 165,
+      "triangles": 244
+    },
+    {
+      "asset": "vesper_civic_84_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "vesper_civic_84_near",
+      "material": "p_stone",
+      "vertices": 61640,
+      "triangles": 92460
+    },
+    {
+      "asset": "vesper_civic_84_near",
+      "material": "p_glass_warm",
+      "vertices": 4928,
+      "triangles": 7392
+    },
+    {
+      "asset": "vesper_civic_84_near",
+      "material": "p_metal",
+      "vertices": 14877,
+      "triangles": 22312
+    },
+    {
+      "asset": "vesper_civic_84_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "vesper_civic_84_mid",
+      "material": "p_stone",
+      "vertices": 1824,
+      "triangles": 2736
+    },
+    {
+      "asset": "vesper_civic_84_mid",
+      "material": "p_glass_warm",
+      "vertices": 4928,
+      "triangles": 7392
+    },
+    {
+      "asset": "vesper_civic_84_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_civic_84_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_civic_84_far",
+      "material": "p_stone",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "vesper_civic_84_far",
+      "material": "p_metal",
+      "vertices": 229,
+      "triangles": 340
+    },
+    {
+      "asset": "vesper_collegiate_24_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_collegiate_24_near",
+      "material": "p_stone",
+      "vertices": 3624,
+      "triangles": 5436
+    },
+    {
+      "asset": "vesper_collegiate_24_near",
+      "material": "p_glass_warm",
+      "vertices": 2096,
+      "triangles": 3144
+    },
+    {
+      "asset": "vesper_collegiate_24_near",
+      "material": "p_metal",
+      "vertices": 6384,
+      "triangles": 9568
+    },
+    {
+      "asset": "vesper_collegiate_24_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_collegiate_24_mid",
+      "material": "p_stone",
+      "vertices": 1040,
+      "triangles": 1560
+    },
+    {
+      "asset": "vesper_collegiate_24_mid",
+      "material": "p_glass_warm",
+      "vertices": 2096,
+      "triangles": 3144
+    },
+    {
+      "asset": "vesper_collegiate_24_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_collegiate_24_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_collegiate_24_far",
+      "material": "p_stone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "vesper_collegiate_24_far",
+      "material": "p_metal",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "vesper_collegiate_44_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_collegiate_44_near",
+      "material": "p_stone",
+      "vertices": 5096,
+      "triangles": 7644
+    },
+    {
+      "asset": "vesper_collegiate_44_near",
+      "material": "p_glass_warm",
+      "vertices": 3312,
+      "triangles": 4968
+    },
+    {
+      "asset": "vesper_collegiate_44_near",
+      "material": "p_metal",
+      "vertices": 10032,
+      "triangles": 15040
+    },
+    {
+      "asset": "vesper_collegiate_44_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_collegiate_44_mid",
+      "material": "p_stone",
+      "vertices": 1232,
+      "triangles": 1848
+    },
+    {
+      "asset": "vesper_collegiate_44_mid",
+      "material": "p_glass_warm",
+      "vertices": 3312,
+      "triangles": 4968
+    },
+    {
+      "asset": "vesper_collegiate_44_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_collegiate_44_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_collegiate_44_far",
+      "material": "p_stone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "vesper_collegiate_44_far",
+      "material": "p_metal",
+      "vertices": 136,
+      "triangles": 196
+    },
+    {
+      "asset": "vesper_buttress_40_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_buttress_40_near",
+      "material": "p_stone",
+      "vertices": 28184,
+      "triangles": 42276
+    },
+    {
+      "asset": "vesper_buttress_40_near",
+      "material": "p_glass_warm",
+      "vertices": 2368,
+      "triangles": 3552
+    },
+    {
+      "asset": "vesper_buttress_40_near",
+      "material": "p_metal",
+      "vertices": 7212,
+      "triangles": 10804
+    },
+    {
+      "asset": "vesper_buttress_40_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_buttress_40_mid",
+      "material": "p_stone",
+      "vertices": 1104,
+      "triangles": 1656
+    },
+    {
+      "asset": "vesper_buttress_40_mid",
+      "material": "p_glass_warm",
+      "vertices": 2368,
+      "triangles": 3552
+    },
+    {
+      "asset": "vesper_buttress_40_mid",
+      "material": "p_metal",
+      "vertices": 28,
+      "triangles": 28
+    },
+    {
+      "asset": "vesper_buttress_40_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_buttress_40_far",
+      "material": "p_stone",
+      "vertices": 144,
+      "triangles": 216
+    },
+    {
+      "asset": "vesper_buttress_40_far",
+      "material": "p_metal",
+      "vertices": 116,
+      "triangles": 160
+    },
+    {
+      "asset": "vesper_buttress_68_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_buttress_68_near",
+      "material": "p_stone",
+      "vertices": 46936,
+      "triangles": 70404
+    },
+    {
+      "asset": "vesper_buttress_68_near",
+      "material": "p_glass_warm",
+      "vertices": 4032,
+      "triangles": 6048
+    },
+    {
+      "asset": "vesper_buttress_68_near",
+      "material": "p_metal",
+      "vertices": 12204,
+      "triangles": 18292
+    },
+    {
+      "asset": "vesper_buttress_68_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_buttress_68_mid",
+      "material": "p_stone",
+      "vertices": 1424,
+      "triangles": 2136
+    },
+    {
+      "asset": "vesper_buttress_68_mid",
+      "material": "p_glass_warm",
+      "vertices": 4032,
+      "triangles": 6048
+    },
+    {
+      "asset": "vesper_buttress_68_mid",
+      "material": "p_metal",
+      "vertices": 28,
+      "triangles": 28
+    },
+    {
+      "asset": "vesper_buttress_68_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_buttress_68_far",
+      "material": "p_stone",
+      "vertices": 144,
+      "triangles": 216
+    },
+    {
+      "asset": "vesper_buttress_68_far",
+      "material": "p_metal",
+      "vertices": 212,
+      "triangles": 304
+    },
+    {
+      "asset": "vesper_bayhouse_28_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_bayhouse_28_near",
+      "material": "p_stone",
+      "vertices": 4056,
+      "triangles": 6084
+    },
+    {
+      "asset": "vesper_bayhouse_28_near",
+      "material": "p_glass_warm",
+      "vertices": 1872,
+      "triangles": 2808
+    },
+    {
+      "asset": "vesper_bayhouse_28_near",
+      "material": "p_copper",
+      "vertices": 7872,
+      "triangles": 11800
+    },
+    {
+      "asset": "vesper_bayhouse_28_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_bayhouse_28_mid",
+      "material": "p_stone",
+      "vertices": 976,
+      "triangles": 1464
+    },
+    {
+      "asset": "vesper_bayhouse_28_mid",
+      "material": "p_glass_warm",
+      "vertices": 1872,
+      "triangles": 2808
+    },
+    {
+      "asset": "vesper_bayhouse_28_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_bayhouse_28_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_bayhouse_28_far",
+      "material": "p_stone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "vesper_bayhouse_28_far",
+      "material": "p_copper",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "vesper_bayhouse_48_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "vesper_bayhouse_48_near",
+      "material": "p_stone",
+      "vertices": 6408,
+      "triangles": 9612
+    },
+    {
+      "asset": "vesper_bayhouse_48_near",
+      "material": "p_glass_warm",
+      "vertices": 3200,
+      "triangles": 4800
+    },
+    {
+      "asset": "vesper_bayhouse_48_near",
+      "material": "p_copper",
+      "vertices": 13968,
+      "triangles": 20944
+    },
+    {
+      "asset": "vesper_bayhouse_48_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_bayhouse_48_mid",
+      "material": "p_stone",
+      "vertices": 1200,
+      "triangles": 1800
+    },
+    {
+      "asset": "vesper_bayhouse_48_mid",
+      "material": "p_glass_warm",
+      "vertices": 3200,
+      "triangles": 4800
+    },
+    {
+      "asset": "vesper_bayhouse_48_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_bayhouse_48_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "vesper_bayhouse_48_far",
+      "material": "p_stone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "vesper_bayhouse_48_far",
+      "material": "p_copper",
+      "vertices": 136,
+      "triangles": 196
+    },
+    {
+      "asset": "vesper_chancery_36_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "vesper_chancery_36_near",
+      "material": "p_stone",
+      "vertices": 4776,
+      "triangles": 7164
+    },
+    {
+      "asset": "vesper_chancery_36_near",
+      "material": "p_glass_warm",
+      "vertices": 2240,
+      "triangles": 3360
+    },
+    {
+      "asset": "vesper_chancery_36_near",
+      "material": "p_metal",
+      "vertices": 6813,
+      "triangles": 10216
+    },
+    {
+      "asset": "vesper_chancery_36_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "vesper_chancery_36_mid",
+      "material": "p_stone",
+      "vertices": 1264,
+      "triangles": 1896
+    },
+    {
+      "asset": "vesper_chancery_36_mid",
+      "material": "p_glass_warm",
+      "vertices": 2240,
+      "triangles": 3360
+    },
+    {
+      "asset": "vesper_chancery_36_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_chancery_36_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_chancery_36_far",
+      "material": "p_stone",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "vesper_chancery_36_far",
+      "material": "p_metal",
+      "vertices": 133,
+      "triangles": 196
+    },
+    {
+      "asset": "vesper_chancery_60_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "vesper_chancery_60_near",
+      "material": "p_stone",
+      "vertices": 6968,
+      "triangles": 10452
+    },
+    {
+      "asset": "vesper_chancery_60_near",
+      "material": "p_glass_warm",
+      "vertices": 3984,
+      "triangles": 5976
+    },
+    {
+      "asset": "vesper_chancery_60_near",
+      "material": "p_metal",
+      "vertices": 12045,
+      "triangles": 18064
+    },
+    {
+      "asset": "vesper_chancery_60_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "vesper_chancery_60_mid",
+      "material": "p_stone",
+      "vertices": 1616,
+      "triangles": 2424
+    },
+    {
+      "asset": "vesper_chancery_60_mid",
+      "material": "p_glass_warm",
+      "vertices": 3984,
+      "triangles": 5976
+    },
+    {
+      "asset": "vesper_chancery_60_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "vesper_chancery_60_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "vesper_chancery_60_far",
+      "material": "p_stone",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "vesper_chancery_60_far",
+      "material": "p_metal",
+      "vertices": 197,
+      "triangles": 292
+    },
+    {
+      "asset": "crown_fan_80_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_fan_80_near",
+      "material": "p_limestone",
+      "vertices": 5728,
+      "triangles": 8592
+    },
+    {
+      "asset": "crown_fan_80_near",
+      "material": "p_metal",
+      "vertices": 17086,
+      "triangles": 25628
+    },
+    {
+      "asset": "crown_fan_80_near",
+      "material": "p_glass",
+      "vertices": 4960,
+      "triangles": 7440
+    },
+    {
+      "asset": "crown_fan_80_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_fan_80_mid",
+      "material": "p_limestone",
+      "vertices": 696,
+      "triangles": 1044
+    },
+    {
+      "asset": "crown_fan_80_mid",
+      "material": "p_metal",
+      "vertices": 1070,
+      "triangles": 1604
+    },
+    {
+      "asset": "crown_fan_80_mid",
+      "material": "p_glass",
+      "vertices": 4960,
+      "triangles": 7440
+    },
+    {
+      "asset": "crown_fan_80_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_fan_80_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_fan_80_far",
+      "material": "p_metal",
+      "vertices": 230,
+      "triangles": 344
+    },
+    {
+      "asset": "crown_fan_160_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_fan_160_near",
+      "material": "p_limestone",
+      "vertices": 11440,
+      "triangles": 17160
+    },
+    {
+      "asset": "crown_fan_160_near",
+      "material": "p_metal",
+      "vertices": 32942,
+      "triangles": 49412
+    },
+    {
+      "asset": "crown_fan_160_near",
+      "material": "p_glass",
+      "vertices": 10032,
+      "triangles": 15048
+    },
+    {
+      "asset": "crown_fan_160_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_fan_160_mid",
+      "material": "p_limestone",
+      "vertices": 1336,
+      "triangles": 2004
+    },
+    {
+      "asset": "crown_fan_160_mid",
+      "material": "p_metal",
+      "vertices": 1422,
+      "triangles": 2132
+    },
+    {
+      "asset": "crown_fan_160_mid",
+      "material": "p_glass",
+      "vertices": 10032,
+      "triangles": 15048
+    },
+    {
+      "asset": "crown_fan_160_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_fan_160_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_fan_160_far",
+      "material": "p_metal",
+      "vertices": 454,
+      "triangles": 680
+    },
+    {
+      "asset": "crown_fan_224_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_fan_224_near",
+      "material": "p_limestone",
+      "vertices": 15696,
+      "triangles": 23544
+    },
+    {
+      "asset": "crown_fan_224_near",
+      "material": "p_metal",
+      "vertices": 44750,
+      "triangles": 67124
+    },
+    {
+      "asset": "crown_fan_224_near",
+      "material": "p_glass",
+      "vertices": 13808,
+      "triangles": 20712
+    },
+    {
+      "asset": "crown_fan_224_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_fan_224_mid",
+      "material": "p_limestone",
+      "vertices": 1816,
+      "triangles": 2724
+    },
+    {
+      "asset": "crown_fan_224_mid",
+      "material": "p_metal",
+      "vertices": 1646,
+      "triangles": 2468
+    },
+    {
+      "asset": "crown_fan_224_mid",
+      "material": "p_glass",
+      "vertices": 13808,
+      "triangles": 20712
+    },
+    {
+      "asset": "crown_fan_224_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_fan_224_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_fan_224_far",
+      "material": "p_metal",
+      "vertices": 582,
+      "triangles": 872
+    },
+    {
+      "asset": "crown_deco_64_near",
+      "material": "p_roof",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "crown_deco_64_near",
+      "material": "p_limestone",
+      "vertices": 6592,
+      "triangles": 9888
+    },
+    {
+      "asset": "crown_deco_64_near",
+      "material": "p_glass",
+      "vertices": 4368,
+      "triangles": 6552
+    },
+    {
+      "asset": "crown_deco_64_near",
+      "material": "p_metal",
+      "vertices": 13197,
+      "triangles": 19792
+    },
+    {
+      "asset": "crown_deco_64_mid",
+      "material": "p_roof",
+      "vertices": 40,
+      "triangles": 60
+    },
+    {
+      "asset": "crown_deco_64_mid",
+      "material": "p_limestone",
+      "vertices": 1896,
+      "triangles": 2844
+    },
+    {
+      "asset": "crown_deco_64_mid",
+      "material": "p_glass",
+      "vertices": 4368,
+      "triangles": 6552
+    },
+    {
+      "asset": "crown_deco_64_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "crown_deco_64_far",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_deco_64_far",
+      "material": "p_limestone",
+      "vertices": 200,
+      "triangles": 300
+    },
+    {
+      "asset": "crown_deco_64_far",
+      "material": "p_metal",
+      "vertices": 197,
+      "triangles": 292
+    },
+    {
+      "asset": "crown_deco_128_near",
+      "material": "p_roof",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "crown_deco_128_near",
+      "material": "p_limestone",
+      "vertices": 11392,
+      "triangles": 17088
+    },
+    {
+      "asset": "crown_deco_128_near",
+      "material": "p_glass",
+      "vertices": 8208,
+      "triangles": 12312
+    },
+    {
+      "asset": "crown_deco_128_near",
+      "material": "p_metal",
+      "vertices": 24717,
+      "triangles": 37072
+    },
+    {
+      "asset": "crown_deco_128_mid",
+      "material": "p_roof",
+      "vertices": 40,
+      "triangles": 60
+    },
+    {
+      "asset": "crown_deco_128_mid",
+      "material": "p_limestone",
+      "vertices": 2632,
+      "triangles": 3948
+    },
+    {
+      "asset": "crown_deco_128_mid",
+      "material": "p_glass",
+      "vertices": 8208,
+      "triangles": 12312
+    },
+    {
+      "asset": "crown_deco_128_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "crown_deco_128_far",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_deco_128_far",
+      "material": "p_limestone",
+      "vertices": 200,
+      "triangles": 300
+    },
+    {
+      "asset": "crown_deco_128_far",
+      "material": "p_metal",
+      "vertices": 325,
+      "triangles": 484
+    },
+    {
+      "asset": "crown_deco_192_near",
+      "material": "p_roof",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "crown_deco_192_near",
+      "material": "p_limestone",
+      "vertices": 16848,
+      "triangles": 25272
+    },
+    {
+      "asset": "crown_deco_192_near",
+      "material": "p_glass",
+      "vertices": 12576,
+      "triangles": 18864
+    },
+    {
+      "asset": "crown_deco_192_near",
+      "material": "p_metal",
+      "vertices": 37821,
+      "triangles": 56728
+    },
+    {
+      "asset": "crown_deco_192_mid",
+      "material": "p_roof",
+      "vertices": 40,
+      "triangles": 60
+    },
+    {
+      "asset": "crown_deco_192_mid",
+      "material": "p_limestone",
+      "vertices": 3464,
+      "triangles": 5196
+    },
+    {
+      "asset": "crown_deco_192_mid",
+      "material": "p_glass",
+      "vertices": 12576,
+      "triangles": 18864
+    },
+    {
+      "asset": "crown_deco_192_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "crown_deco_192_far",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_deco_192_far",
+      "material": "p_limestone",
+      "vertices": 200,
+      "triangles": 300
+    },
+    {
+      "asset": "crown_deco_192_far",
+      "material": "p_metal",
+      "vertices": 549,
+      "triangles": 820
+    },
+    {
+      "asset": "crown_lattice_72_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "crown_lattice_72_near",
+      "material": "p_limestone",
+      "vertices": 6104,
+      "triangles": 9156
+    },
+    {
+      "asset": "crown_lattice_72_near",
+      "material": "p_metal",
+      "vertices": 15880,
+      "triangles": 23820
+    },
+    {
+      "asset": "crown_lattice_72_near",
+      "material": "p_glass",
+      "vertices": 4832,
+      "triangles": 7248
+    },
+    {
+      "asset": "crown_lattice_72_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_lattice_72_mid",
+      "material": "p_limestone",
+      "vertices": 912,
+      "triangles": 1368
+    },
+    {
+      "asset": "crown_lattice_72_mid",
+      "material": "p_metal",
+      "vertices": 600,
+      "triangles": 900
+    },
+    {
+      "asset": "crown_lattice_72_mid",
+      "material": "p_glass",
+      "vertices": 4832,
+      "triangles": 7248
+    },
+    {
+      "asset": "crown_lattice_72_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "crown_lattice_72_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "crown_lattice_72_far",
+      "material": "p_metal",
+      "vertices": 208,
+      "triangles": 312
+    },
+    {
+      "asset": "crown_lattice_144_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "crown_lattice_144_near",
+      "material": "p_limestone",
+      "vertices": 12088,
+      "triangles": 18132
+    },
+    {
+      "asset": "crown_lattice_144_near",
+      "material": "p_metal",
+      "vertices": 30952,
+      "triangles": 46428
+    },
+    {
+      "asset": "crown_lattice_144_near",
+      "material": "p_glass",
+      "vertices": 9664,
+      "triangles": 14496
+    },
+    {
+      "asset": "crown_lattice_144_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_lattice_144_mid",
+      "material": "p_limestone",
+      "vertices": 1776,
+      "triangles": 2664
+    },
+    {
+      "asset": "crown_lattice_144_mid",
+      "material": "p_metal",
+      "vertices": 600,
+      "triangles": 900
+    },
+    {
+      "asset": "crown_lattice_144_mid",
+      "material": "p_glass",
+      "vertices": 9664,
+      "triangles": 14496
+    },
+    {
+      "asset": "crown_lattice_144_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "crown_lattice_144_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "crown_lattice_144_far",
+      "material": "p_metal",
+      "vertices": 400,
+      "triangles": 600
+    },
+    {
+      "asset": "crown_lattice_208_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "crown_lattice_208_near",
+      "material": "p_limestone",
+      "vertices": 17432,
+      "triangles": 26148
+    },
+    {
+      "asset": "crown_lattice_208_near",
+      "material": "p_metal",
+      "vertices": 44616,
+      "triangles": 66924
+    },
+    {
+      "asset": "crown_lattice_208_near",
+      "material": "p_glass",
+      "vertices": 13984,
+      "triangles": 20976
+    },
+    {
+      "asset": "crown_lattice_208_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_lattice_208_mid",
+      "material": "p_limestone",
+      "vertices": 2576,
+      "triangles": 3864
+    },
+    {
+      "asset": "crown_lattice_208_mid",
+      "material": "p_metal",
+      "vertices": 600,
+      "triangles": 900
+    },
+    {
+      "asset": "crown_lattice_208_mid",
+      "material": "p_glass",
+      "vertices": 13984,
+      "triangles": 20976
+    },
+    {
+      "asset": "crown_lattice_208_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "crown_lattice_208_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "crown_lattice_208_far",
+      "material": "p_metal",
+      "vertices": 592,
+      "triangles": 888
+    },
+    {
+      "asset": "crown_ribbon_56_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_ribbon_56_near",
+      "material": "p_limestone",
+      "vertices": 4272,
+      "triangles": 6408
+    },
+    {
+      "asset": "crown_ribbon_56_near",
+      "material": "p_metal",
+      "vertices": 12472,
+      "triangles": 18708
+    },
+    {
+      "asset": "crown_ribbon_56_near",
+      "material": "p_glass",
+      "vertices": 3696,
+      "triangles": 5544
+    },
+    {
+      "asset": "crown_ribbon_56_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_ribbon_56_mid",
+      "material": "p_limestone",
+      "vertices": 504,
+      "triangles": 756
+    },
+    {
+      "asset": "crown_ribbon_56_mid",
+      "material": "p_metal",
+      "vertices": 1112,
+      "triangles": 1668
+    },
+    {
+      "asset": "crown_ribbon_56_mid",
+      "material": "p_glass",
+      "vertices": 3696,
+      "triangles": 5544
+    },
+    {
+      "asset": "crown_ribbon_56_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_ribbon_56_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_ribbon_56_far",
+      "material": "p_metal",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "crown_ribbon_112_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_ribbon_112_near",
+      "material": "p_limestone",
+      "vertices": 8384,
+      "triangles": 12576
+    },
+    {
+      "asset": "crown_ribbon_112_near",
+      "material": "p_metal",
+      "vertices": 23912,
+      "triangles": 35868
+    },
+    {
+      "asset": "crown_ribbon_112_near",
+      "material": "p_glass",
+      "vertices": 7360,
+      "triangles": 11040
+    },
+    {
+      "asset": "crown_ribbon_112_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_ribbon_112_mid",
+      "material": "p_limestone",
+      "vertices": 952,
+      "triangles": 1428
+    },
+    {
+      "asset": "crown_ribbon_112_mid",
+      "material": "p_metal",
+      "vertices": 1336,
+      "triangles": 2004
+    },
+    {
+      "asset": "crown_ribbon_112_mid",
+      "material": "p_glass",
+      "vertices": 7360,
+      "triangles": 11040
+    },
+    {
+      "asset": "crown_ribbon_112_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_ribbon_112_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_ribbon_112_far",
+      "material": "p_metal",
+      "vertices": 288,
+      "triangles": 432
+    },
+    {
+      "asset": "crown_ribbon_176_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_ribbon_176_near",
+      "material": "p_limestone",
+      "vertices": 13376,
+      "triangles": 20064
+    },
+    {
+      "asset": "crown_ribbon_176_near",
+      "material": "p_metal",
+      "vertices": 37800,
+      "triangles": 56700
+    },
+    {
+      "asset": "crown_ribbon_176_near",
+      "material": "p_glass",
+      "vertices": 11808,
+      "triangles": 17712
+    },
+    {
+      "asset": "crown_ribbon_176_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_ribbon_176_mid",
+      "material": "p_limestone",
+      "vertices": 1496,
+      "triangles": 2244
+    },
+    {
+      "asset": "crown_ribbon_176_mid",
+      "material": "p_metal",
+      "vertices": 1592,
+      "triangles": 2388
+    },
+    {
+      "asset": "crown_ribbon_176_mid",
+      "material": "p_glass",
+      "vertices": 11808,
+      "triangles": 17712
+    },
+    {
+      "asset": "crown_ribbon_176_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_ribbon_176_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_ribbon_176_far",
+      "material": "p_metal",
+      "vertices": 480,
+      "triangles": 720
+    },
+    {
+      "asset": "crown_fluted_64_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "crown_fluted_64_near",
+      "material": "p_limestone",
+      "vertices": 5560,
+      "triangles": 8340
+    },
+    {
+      "asset": "crown_fluted_64_near",
+      "material": "p_copper",
+      "vertices": 12320,
+      "triangles": 18472
+    },
+    {
+      "asset": "crown_fluted_64_near",
+      "material": "p_glass",
+      "vertices": 3904,
+      "triangles": 5856
+    },
+    {
+      "asset": "crown_fluted_64_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_fluted_64_mid",
+      "material": "p_limestone",
+      "vertices": 1360,
+      "triangles": 2040
+    },
+    {
+      "asset": "crown_fluted_64_mid",
+      "material": "p_glass",
+      "vertices": 3904,
+      "triangles": 5856
+    },
+    {
+      "asset": "crown_fluted_64_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "crown_fluted_64_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "crown_fluted_64_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "crown_fluted_64_far",
+      "material": "p_copper",
+      "vertices": 168,
+      "triangles": 244
+    },
+    {
+      "asset": "crown_fluted_120_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "crown_fluted_120_near",
+      "material": "p_limestone",
+      "vertices": 9912,
+      "triangles": 14868
+    },
+    {
+      "asset": "crown_fluted_120_near",
+      "material": "p_copper",
+      "vertices": 22688,
+      "triangles": 34024
+    },
+    {
+      "asset": "crown_fluted_120_near",
+      "material": "p_glass",
+      "vertices": 7360,
+      "triangles": 11040
+    },
+    {
+      "asset": "crown_fluted_120_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_fluted_120_mid",
+      "material": "p_limestone",
+      "vertices": 2032,
+      "triangles": 3048
+    },
+    {
+      "asset": "crown_fluted_120_mid",
+      "material": "p_glass",
+      "vertices": 7360,
+      "triangles": 11040
+    },
+    {
+      "asset": "crown_fluted_120_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "crown_fluted_120_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "crown_fluted_120_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "crown_fluted_120_far",
+      "material": "p_copper",
+      "vertices": 328,
+      "triangles": 484
+    },
+    {
+      "asset": "crown_fluted_184_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "crown_fluted_184_near",
+      "material": "p_limestone",
+      "vertices": 14840,
+      "triangles": 22260
+    },
+    {
+      "asset": "crown_fluted_184_near",
+      "material": "p_copper",
+      "vertices": 34400,
+      "triangles": 51592
+    },
+    {
+      "asset": "crown_fluted_184_near",
+      "material": "p_glass",
+      "vertices": 11264,
+      "triangles": 16896
+    },
+    {
+      "asset": "crown_fluted_184_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_fluted_184_mid",
+      "material": "p_limestone",
+      "vertices": 2768,
+      "triangles": 4152
+    },
+    {
+      "asset": "crown_fluted_184_mid",
+      "material": "p_glass",
+      "vertices": 11264,
+      "triangles": 16896
+    },
+    {
+      "asset": "crown_fluted_184_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "crown_fluted_184_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "crown_fluted_184_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "crown_fluted_184_far",
+      "material": "p_copper",
+      "vertices": 520,
+      "triangles": 772
+    },
+    {
+      "asset": "crown_gallery_40_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_gallery_40_near",
+      "material": "p_limestone",
+      "vertices": 4448,
+      "triangles": 6672
+    },
+    {
+      "asset": "crown_gallery_40_near",
+      "material": "p_metal",
+      "vertices": 9432,
+      "triangles": 14148
+    },
+    {
+      "asset": "crown_gallery_40_near",
+      "material": "p_glass",
+      "vertices": 2832,
+      "triangles": 4248
+    },
+    {
+      "asset": "crown_gallery_40_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_gallery_40_mid",
+      "material": "p_limestone",
+      "vertices": 1416,
+      "triangles": 2124
+    },
+    {
+      "asset": "crown_gallery_40_mid",
+      "material": "p_glass",
+      "vertices": 2832,
+      "triangles": 4248
+    },
+    {
+      "asset": "crown_gallery_40_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "crown_gallery_40_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_gallery_40_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_gallery_40_far",
+      "material": "p_metal",
+      "vertices": 128,
+      "triangles": 192
+    },
+    {
+      "asset": "crown_gallery_88_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_gallery_88_near",
+      "material": "p_limestone",
+      "vertices": 8544,
+      "triangles": 12816
+    },
+    {
+      "asset": "crown_gallery_88_near",
+      "material": "p_metal",
+      "vertices": 19416,
+      "triangles": 29124
+    },
+    {
+      "asset": "crown_gallery_88_near",
+      "material": "p_glass",
+      "vertices": 6160,
+      "triangles": 9240
+    },
+    {
+      "asset": "crown_gallery_88_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_gallery_88_mid",
+      "material": "p_limestone",
+      "vertices": 1992,
+      "triangles": 2988
+    },
+    {
+      "asset": "crown_gallery_88_mid",
+      "material": "p_glass",
+      "vertices": 6160,
+      "triangles": 9240
+    },
+    {
+      "asset": "crown_gallery_88_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "crown_gallery_88_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_gallery_88_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_gallery_88_far",
+      "material": "p_metal",
+      "vertices": 224,
+      "triangles": 336
+    },
+    {
+      "asset": "crown_gallery_136_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "crown_gallery_136_near",
+      "material": "p_limestone",
+      "vertices": 12752,
+      "triangles": 19128
+    },
+    {
+      "asset": "crown_gallery_136_near",
+      "material": "p_metal",
+      "vertices": 29736,
+      "triangles": 44604
+    },
+    {
+      "asset": "crown_gallery_136_near",
+      "material": "p_glass",
+      "vertices": 9600,
+      "triangles": 14400
+    },
+    {
+      "asset": "crown_gallery_136_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "crown_gallery_136_mid",
+      "material": "p_limestone",
+      "vertices": 2536,
+      "triangles": 3804
+    },
+    {
+      "asset": "crown_gallery_136_mid",
+      "material": "p_glass",
+      "vertices": 9600,
+      "triangles": 14400
+    },
+    {
+      "asset": "crown_gallery_136_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "crown_gallery_136_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "crown_gallery_136_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "crown_gallery_136_far",
+      "material": "p_metal",
+      "vertices": 352,
+      "triangles": 528
+    },
+    {
+      "asset": "iron_sawtooth_12_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_sawtooth_12_near",
+      "material": "p_brick",
+      "vertices": 2744,
+      "triangles": 4116
+    },
+    {
+      "asset": "iron_sawtooth_12_near",
+      "material": "p_glass",
+      "vertices": 1568,
+      "triangles": 2352
+    },
+    {
+      "asset": "iron_sawtooth_12_near",
+      "material": "p_metal",
+      "vertices": 4804,
+      "triangles": 7194
+    },
+    {
+      "asset": "iron_sawtooth_12_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_sawtooth_12_mid",
+      "material": "p_brick",
+      "vertices": 1072,
+      "triangles": 1608
+    },
+    {
+      "asset": "iron_sawtooth_12_mid",
+      "material": "p_glass",
+      "vertices": 1568,
+      "triangles": 2352
+    },
+    {
+      "asset": "iron_sawtooth_12_mid",
+      "material": "p_metal",
+      "vertices": 20,
+      "triangles": 18
+    },
+    {
+      "asset": "iron_sawtooth_12_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_sawtooth_12_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_sawtooth_12_far",
+      "material": "p_metal",
+      "vertices": 76,
+      "triangles": 102
+    },
+    {
+      "asset": "iron_sawtooth_24_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_sawtooth_24_near",
+      "material": "p_brick",
+      "vertices": 3704,
+      "triangles": 5556
+    },
+    {
+      "asset": "iron_sawtooth_24_near",
+      "material": "p_glass",
+      "vertices": 2400,
+      "triangles": 3600
+    },
+    {
+      "asset": "iron_sawtooth_24_near",
+      "material": "p_metal",
+      "vertices": 7300,
+      "triangles": 10938
+    },
+    {
+      "asset": "iron_sawtooth_24_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_sawtooth_24_mid",
+      "material": "p_brick",
+      "vertices": 1168,
+      "triangles": 1752
+    },
+    {
+      "asset": "iron_sawtooth_24_mid",
+      "material": "p_glass",
+      "vertices": 2400,
+      "triangles": 3600
+    },
+    {
+      "asset": "iron_sawtooth_24_mid",
+      "material": "p_metal",
+      "vertices": 20,
+      "triangles": 18
+    },
+    {
+      "asset": "iron_sawtooth_24_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_sawtooth_24_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_sawtooth_24_far",
+      "material": "p_metal",
+      "vertices": 108,
+      "triangles": 150
+    },
+    {
+      "asset": "iron_foundry_16_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_foundry_16_near",
+      "material": "p_brick",
+      "vertices": 18424,
+      "triangles": 27636
+    },
+    {
+      "asset": "iron_foundry_16_near",
+      "material": "p_metal",
+      "vertices": 5608,
+      "triangles": 8412
+    },
+    {
+      "asset": "iron_foundry_16_near",
+      "material": "p_glass",
+      "vertices": 1568,
+      "triangles": 2352
+    },
+    {
+      "asset": "iron_foundry_16_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_foundry_16_mid",
+      "material": "p_brick",
+      "vertices": 1072,
+      "triangles": 1608
+    },
+    {
+      "asset": "iron_foundry_16_mid",
+      "material": "p_glass",
+      "vertices": 1568,
+      "triangles": 2352
+    },
+    {
+      "asset": "iron_foundry_16_mid",
+      "material": "p_metal",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_foundry_16_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_foundry_16_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_foundry_16_far",
+      "material": "p_metal",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "iron_foundry_28_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_foundry_28_near",
+      "material": "p_brick",
+      "vertices": 31288,
+      "triangles": 46932
+    },
+    {
+      "asset": "iron_foundry_28_near",
+      "material": "p_metal",
+      "vertices": 9064,
+      "triangles": 13596
+    },
+    {
+      "asset": "iron_foundry_28_near",
+      "material": "p_glass",
+      "vertices": 2720,
+      "triangles": 4080
+    },
+    {
+      "asset": "iron_foundry_28_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_foundry_28_mid",
+      "material": "p_brick",
+      "vertices": 1200,
+      "triangles": 1800
+    },
+    {
+      "asset": "iron_foundry_28_mid",
+      "material": "p_glass",
+      "vertices": 2720,
+      "triangles": 4080
+    },
+    {
+      "asset": "iron_foundry_28_mid",
+      "material": "p_metal",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_foundry_28_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_foundry_28_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_foundry_28_far",
+      "material": "p_metal",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_loading_12_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_loading_12_near",
+      "material": "p_brick",
+      "vertices": 2840,
+      "triangles": 4260
+    },
+    {
+      "asset": "iron_loading_12_near",
+      "material": "p_glass",
+      "vertices": 1616,
+      "triangles": 2424
+    },
+    {
+      "asset": "iron_loading_12_near",
+      "material": "p_metal",
+      "vertices": 4944,
+      "triangles": 7408
+    },
+    {
+      "asset": "iron_loading_12_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_loading_12_mid",
+      "material": "p_brick",
+      "vertices": 1120,
+      "triangles": 1680
+    },
+    {
+      "asset": "iron_loading_12_mid",
+      "material": "p_glass",
+      "vertices": 1616,
+      "triangles": 2424
+    },
+    {
+      "asset": "iron_loading_12_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "iron_loading_12_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_loading_12_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_loading_12_far",
+      "material": "p_metal",
+      "vertices": 72,
+      "triangles": 100
+    },
+    {
+      "asset": "iron_loading_20_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_loading_20_near",
+      "material": "p_brick",
+      "vertices": 3320,
+      "triangles": 4980
+    },
+    {
+      "asset": "iron_loading_20_near",
+      "material": "p_glass",
+      "vertices": 2032,
+      "triangles": 3048
+    },
+    {
+      "asset": "iron_loading_20_near",
+      "material": "p_metal",
+      "vertices": 6192,
+      "triangles": 9280
+    },
+    {
+      "asset": "iron_loading_20_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_loading_20_mid",
+      "material": "p_brick",
+      "vertices": 1152,
+      "triangles": 1728
+    },
+    {
+      "asset": "iron_loading_20_mid",
+      "material": "p_glass",
+      "vertices": 2032,
+      "triangles": 3048
+    },
+    {
+      "asset": "iron_loading_20_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "iron_loading_20_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_loading_20_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_loading_20_far",
+      "material": "p_metal",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "iron_mill_20_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_mill_20_near",
+      "material": "p_brick",
+      "vertices": 3160,
+      "triangles": 4740
+    },
+    {
+      "asset": "iron_mill_20_near",
+      "material": "p_glass",
+      "vertices": 1952,
+      "triangles": 2928
+    },
+    {
+      "asset": "iron_mill_20_near",
+      "material": "p_copper",
+      "vertices": 5952,
+      "triangles": 8920
+    },
+    {
+      "asset": "iron_mill_20_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_mill_20_mid",
+      "material": "p_brick",
+      "vertices": 1072,
+      "triangles": 1608
+    },
+    {
+      "asset": "iron_mill_20_mid",
+      "material": "p_glass",
+      "vertices": 1952,
+      "triangles": 2928
+    },
+    {
+      "asset": "iron_mill_20_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "iron_mill_20_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_mill_20_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_mill_20_far",
+      "material": "p_copper",
+      "vertices": 72,
+      "triangles": 100
+    },
+    {
+      "asset": "iron_mill_32_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_mill_32_near",
+      "material": "p_brick",
+      "vertices": 4472,
+      "triangles": 6708
+    },
+    {
+      "asset": "iron_mill_32_near",
+      "material": "p_glass",
+      "vertices": 3072,
+      "triangles": 4608
+    },
+    {
+      "asset": "iron_mill_32_near",
+      "material": "p_copper",
+      "vertices": 9312,
+      "triangles": 13960
+    },
+    {
+      "asset": "iron_mill_32_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_mill_32_mid",
+      "material": "p_brick",
+      "vertices": 1200,
+      "triangles": 1800
+    },
+    {
+      "asset": "iron_mill_32_mid",
+      "material": "p_glass",
+      "vertices": 3072,
+      "triangles": 4608
+    },
+    {
+      "asset": "iron_mill_32_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "iron_mill_32_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_mill_32_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_mill_32_far",
+      "material": "p_copper",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "iron_silo_16_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_silo_16_near",
+      "material": "p_brick",
+      "vertices": 2504,
+      "triangles": 3756
+    },
+    {
+      "asset": "iron_silo_16_near",
+      "material": "p_glass",
+      "vertices": 1376,
+      "triangles": 2064
+    },
+    {
+      "asset": "iron_silo_16_near",
+      "material": "p_metal",
+      "vertices": 4232,
+      "triangles": 6348
+    },
+    {
+      "asset": "iron_silo_16_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_silo_16_mid",
+      "material": "p_brick",
+      "vertices": 992,
+      "triangles": 1488
+    },
+    {
+      "asset": "iron_silo_16_mid",
+      "material": "p_glass",
+      "vertices": 1376,
+      "triangles": 2064
+    },
+    {
+      "asset": "iron_silo_16_mid",
+      "material": "p_metal",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_silo_16_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_silo_16_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_silo_16_far",
+      "material": "p_metal",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "iron_silo_28_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_silo_28_near",
+      "material": "p_brick",
+      "vertices": 3800,
+      "triangles": 5700
+    },
+    {
+      "asset": "iron_silo_28_near",
+      "material": "p_glass",
+      "vertices": 2480,
+      "triangles": 3720
+    },
+    {
+      "asset": "iron_silo_28_near",
+      "material": "p_metal",
+      "vertices": 7544,
+      "triangles": 11316
+    },
+    {
+      "asset": "iron_silo_28_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_silo_28_mid",
+      "material": "p_brick",
+      "vertices": 1152,
+      "triangles": 1728
+    },
+    {
+      "asset": "iron_silo_28_mid",
+      "material": "p_glass",
+      "vertices": 2480,
+      "triangles": 3720
+    },
+    {
+      "asset": "iron_silo_28_mid",
+      "material": "p_metal",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_silo_28_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_silo_28_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_silo_28_far",
+      "material": "p_metal",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "iron_power_20_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_power_20_near",
+      "material": "p_brick",
+      "vertices": 2280,
+      "triangles": 3420
+    },
+    {
+      "asset": "iron_power_20_near",
+      "material": "p_metal",
+      "vertices": 7080,
+      "triangles": 10620
+    },
+    {
+      "asset": "iron_power_20_near",
+      "material": "p_glass",
+      "vertices": 2000,
+      "triangles": 3000
+    },
+    {
+      "asset": "iron_power_20_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_power_20_mid",
+      "material": "p_brick",
+      "vertices": 208,
+      "triangles": 312
+    },
+    {
+      "asset": "iron_power_20_mid",
+      "material": "p_metal",
+      "vertices": 936,
+      "triangles": 1404
+    },
+    {
+      "asset": "iron_power_20_mid",
+      "material": "p_glass",
+      "vertices": 2000,
+      "triangles": 3000
+    },
+    {
+      "asset": "iron_power_20_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_power_20_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_power_20_far",
+      "material": "p_metal",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "iron_power_36_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "iron_power_36_near",
+      "material": "p_brick",
+      "vertices": 3912,
+      "triangles": 5868
+    },
+    {
+      "asset": "iron_power_36_near",
+      "material": "p_metal",
+      "vertices": 11720,
+      "triangles": 17580
+    },
+    {
+      "asset": "iron_power_36_near",
+      "material": "p_glass",
+      "vertices": 3504,
+      "triangles": 5256
+    },
+    {
+      "asset": "iron_power_36_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "iron_power_36_mid",
+      "material": "p_brick",
+      "vertices": 336,
+      "triangles": 504
+    },
+    {
+      "asset": "iron_power_36_mid",
+      "material": "p_metal",
+      "vertices": 1000,
+      "triangles": 1500
+    },
+    {
+      "asset": "iron_power_36_mid",
+      "material": "p_glass",
+      "vertices": 3504,
+      "triangles": 5256
+    },
+    {
+      "asset": "iron_power_36_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "iron_power_36_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "iron_power_36_far",
+      "material": "p_metal",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_hotel_40_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "prism_hotel_40_near",
+      "material": "p_limestone",
+      "vertices": 4216,
+      "triangles": 6324
+    },
+    {
+      "asset": "prism_hotel_40_near",
+      "material": "p_glass",
+      "vertices": 2656,
+      "triangles": 3984
+    },
+    {
+      "asset": "prism_hotel_40_near",
+      "material": "p_metal",
+      "vertices": 8061,
+      "triangles": 12088
+    },
+    {
+      "asset": "prism_hotel_40_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "prism_hotel_40_mid",
+      "material": "p_limestone",
+      "vertices": 1360,
+      "triangles": 2040
+    },
+    {
+      "asset": "prism_hotel_40_mid",
+      "material": "p_glass",
+      "vertices": 2656,
+      "triangles": 3984
+    },
+    {
+      "asset": "prism_hotel_40_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "prism_hotel_40_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_hotel_40_far",
+      "material": "p_limestone",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "prism_hotel_40_far",
+      "material": "p_metal",
+      "vertices": 133,
+      "triangles": 196
+    },
+    {
+      "asset": "prism_hotel_80_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "prism_hotel_80_near",
+      "material": "p_limestone",
+      "vertices": 7864,
+      "triangles": 11796
+    },
+    {
+      "asset": "prism_hotel_80_near",
+      "material": "p_glass",
+      "vertices": 5600,
+      "triangles": 8400
+    },
+    {
+      "asset": "prism_hotel_80_near",
+      "material": "p_metal",
+      "vertices": 16893,
+      "triangles": 25336
+    },
+    {
+      "asset": "prism_hotel_80_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "prism_hotel_80_mid",
+      "material": "p_limestone",
+      "vertices": 1872,
+      "triangles": 2808
+    },
+    {
+      "asset": "prism_hotel_80_mid",
+      "material": "p_glass",
+      "vertices": 5600,
+      "triangles": 8400
+    },
+    {
+      "asset": "prism_hotel_80_mid",
+      "material": "p_metal",
+      "vertices": 13,
+      "triangles": 16
+    },
+    {
+      "asset": "prism_hotel_80_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_hotel_80_far",
+      "material": "p_limestone",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "prism_hotel_80_far",
+      "material": "p_metal",
+      "vertices": 229,
+      "triangles": 340
+    },
+    {
+      "asset": "prism_arcade_24_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "prism_arcade_24_near",
+      "material": "p_limestone",
+      "vertices": 3304,
+      "triangles": 4956
+    },
+    {
+      "asset": "prism_arcade_24_near",
+      "material": "p_glass",
+      "vertices": 2096,
+      "triangles": 3144
+    },
+    {
+      "asset": "prism_arcade_24_near",
+      "material": "p_metal",
+      "vertices": 6384,
+      "triangles": 9568
+    },
+    {
+      "asset": "prism_arcade_24_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_arcade_24_mid",
+      "material": "p_limestone",
+      "vertices": 1040,
+      "triangles": 1560
+    },
+    {
+      "asset": "prism_arcade_24_mid",
+      "material": "p_glass",
+      "vertices": 2096,
+      "triangles": 3144
+    },
+    {
+      "asset": "prism_arcade_24_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "prism_arcade_24_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "prism_arcade_24_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_arcade_24_far",
+      "material": "p_metal",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "prism_arcade_44_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "prism_arcade_44_near",
+      "material": "p_limestone",
+      "vertices": 4776,
+      "triangles": 7164
+    },
+    {
+      "asset": "prism_arcade_44_near",
+      "material": "p_glass",
+      "vertices": 3312,
+      "triangles": 4968
+    },
+    {
+      "asset": "prism_arcade_44_near",
+      "material": "p_metal",
+      "vertices": 10032,
+      "triangles": 15040
+    },
+    {
+      "asset": "prism_arcade_44_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_arcade_44_mid",
+      "material": "p_limestone",
+      "vertices": 1232,
+      "triangles": 1848
+    },
+    {
+      "asset": "prism_arcade_44_mid",
+      "material": "p_glass",
+      "vertices": 3312,
+      "triangles": 4968
+    },
+    {
+      "asset": "prism_arcade_44_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "prism_arcade_44_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "prism_arcade_44_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_arcade_44_far",
+      "material": "p_metal",
+      "vertices": 136,
+      "triangles": 196
+    },
+    {
+      "asset": "prism_cinema_28_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "prism_cinema_28_near",
+      "material": "p_limestone",
+      "vertices": 3424,
+      "triangles": 5136
+    },
+    {
+      "asset": "prism_cinema_28_near",
+      "material": "p_metal",
+      "vertices": 6910,
+      "triangles": 10364
+    },
+    {
+      "asset": "prism_cinema_28_near",
+      "material": "p_glass",
+      "vertices": 1984,
+      "triangles": 2976
+    },
+    {
+      "asset": "prism_cinema_28_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "prism_cinema_28_mid",
+      "material": "p_limestone",
+      "vertices": 1304,
+      "triangles": 1956
+    },
+    {
+      "asset": "prism_cinema_28_mid",
+      "material": "p_glass",
+      "vertices": 1984,
+      "triangles": 2976
+    },
+    {
+      "asset": "prism_cinema_28_mid",
+      "material": "p_metal",
+      "vertices": 14,
+      "triangles": 20
+    },
+    {
+      "asset": "prism_cinema_28_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_cinema_28_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "prism_cinema_28_far",
+      "material": "p_metal",
+      "vertices": 134,
+      "triangles": 200
+    },
+    {
+      "asset": "prism_cinema_56_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "prism_cinema_56_near",
+      "material": "p_limestone",
+      "vertices": 5808,
+      "triangles": 8712
+    },
+    {
+      "asset": "prism_cinema_56_near",
+      "material": "p_metal",
+      "vertices": 12718,
+      "triangles": 19076
+    },
+    {
+      "asset": "prism_cinema_56_near",
+      "material": "p_glass",
+      "vertices": 3920,
+      "triangles": 5880
+    },
+    {
+      "asset": "prism_cinema_56_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "prism_cinema_56_mid",
+      "material": "p_limestone",
+      "vertices": 1624,
+      "triangles": 2436
+    },
+    {
+      "asset": "prism_cinema_56_mid",
+      "material": "p_glass",
+      "vertices": 3920,
+      "triangles": 5880
+    },
+    {
+      "asset": "prism_cinema_56_mid",
+      "material": "p_metal",
+      "vertices": 14,
+      "triangles": 20
+    },
+    {
+      "asset": "prism_cinema_56_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_cinema_56_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "prism_cinema_56_far",
+      "material": "p_metal",
+      "vertices": 166,
+      "triangles": 248
+    },
+    {
+      "asset": "prism_showroom_32_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "prism_showroom_32_near",
+      "material": "p_limestone",
+      "vertices": 2488,
+      "triangles": 3732
+    },
+    {
+      "asset": "prism_showroom_32_near",
+      "material": "p_metal",
+      "vertices": 7224,
+      "triangles": 10836
+    },
+    {
+      "asset": "prism_showroom_32_near",
+      "material": "p_glass",
+      "vertices": 2112,
+      "triangles": 3168
+    },
+    {
+      "asset": "prism_showroom_32_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_showroom_32_mid",
+      "material": "p_limestone",
+      "vertices": 304,
+      "triangles": 456
+    },
+    {
+      "asset": "prism_showroom_32_mid",
+      "material": "p_metal",
+      "vertices": 712,
+      "triangles": 1068
+    },
+    {
+      "asset": "prism_showroom_32_mid",
+      "material": "p_glass",
+      "vertices": 2112,
+      "triangles": 3168
+    },
+    {
+      "asset": "prism_showroom_32_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "prism_showroom_32_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_showroom_32_far",
+      "material": "p_metal",
+      "vertices": 96,
+      "triangles": 144
+    },
+    {
+      "asset": "prism_showroom_68_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "prism_showroom_68_near",
+      "material": "p_limestone",
+      "vertices": 5096,
+      "triangles": 7644
+    },
+    {
+      "asset": "prism_showroom_68_near",
+      "material": "p_metal",
+      "vertices": 14472,
+      "triangles": 21708
+    },
+    {
+      "asset": "prism_showroom_68_near",
+      "material": "p_glass",
+      "vertices": 4432,
+      "triangles": 6648
+    },
+    {
+      "asset": "prism_showroom_68_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_showroom_68_mid",
+      "material": "p_limestone",
+      "vertices": 592,
+      "triangles": 888
+    },
+    {
+      "asset": "prism_showroom_68_mid",
+      "material": "p_metal",
+      "vertices": 840,
+      "triangles": 1260
+    },
+    {
+      "asset": "prism_showroom_68_mid",
+      "material": "p_glass",
+      "vertices": 4432,
+      "triangles": 6648
+    },
+    {
+      "asset": "prism_showroom_68_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "prism_showroom_68_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_showroom_68_far",
+      "material": "p_metal",
+      "vertices": 192,
+      "triangles": 288
+    },
+    {
+      "asset": "prism_exchange_44_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "prism_exchange_44_near",
+      "material": "p_limestone",
+      "vertices": 5488,
+      "triangles": 8232
+    },
+    {
+      "asset": "prism_exchange_44_near",
+      "material": "p_glass",
+      "vertices": 2784,
+      "triangles": 4176
+    },
+    {
+      "asset": "prism_exchange_44_near",
+      "material": "p_metal",
+      "vertices": 11816,
+      "triangles": 17724
+    },
+    {
+      "asset": "prism_exchange_44_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "prism_exchange_44_mid",
+      "material": "p_limestone",
+      "vertices": 1352,
+      "triangles": 2028
+    },
+    {
+      "asset": "prism_exchange_44_mid",
+      "material": "p_glass",
+      "vertices": 2784,
+      "triangles": 4176
+    },
+    {
+      "asset": "prism_exchange_44_mid",
+      "material": "p_metal",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_exchange_44_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_exchange_44_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "prism_exchange_44_far",
+      "material": "p_metal",
+      "vertices": 176,
+      "triangles": 264
+    },
+    {
+      "asset": "prism_exchange_92_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "prism_exchange_92_near",
+      "material": "p_limestone",
+      "vertices": 11312,
+      "triangles": 16968
+    },
+    {
+      "asset": "prism_exchange_92_near",
+      "material": "p_glass",
+      "vertices": 6064,
+      "triangles": 9096
+    },
+    {
+      "asset": "prism_exchange_92_near",
+      "material": "p_metal",
+      "vertices": 26792,
+      "triangles": 40188
+    },
+    {
+      "asset": "prism_exchange_92_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "prism_exchange_92_mid",
+      "material": "p_limestone",
+      "vertices": 1992,
+      "triangles": 2988
+    },
+    {
+      "asset": "prism_exchange_92_mid",
+      "material": "p_glass",
+      "vertices": 6064,
+      "triangles": 9096
+    },
+    {
+      "asset": "prism_exchange_92_mid",
+      "material": "p_metal",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_exchange_92_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_exchange_92_far",
+      "material": "p_limestone",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "prism_exchange_92_far",
+      "material": "p_metal",
+      "vertices": 304,
+      "triangles": 456
+    },
+    {
+      "asset": "prism_courtyard_28_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "prism_courtyard_28_near",
+      "material": "p_limestone",
+      "vertices": 3240,
+      "triangles": 4860
+    },
+    {
+      "asset": "prism_courtyard_28_near",
+      "material": "p_copper",
+      "vertices": 6896,
+      "triangles": 10336
+    },
+    {
+      "asset": "prism_courtyard_28_near",
+      "material": "p_glass",
+      "vertices": 2064,
+      "triangles": 3096
+    },
+    {
+      "asset": "prism_courtyard_28_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_courtyard_28_mid",
+      "material": "p_limestone",
+      "vertices": 1008,
+      "triangles": 1512
+    },
+    {
+      "asset": "prism_courtyard_28_mid",
+      "material": "p_glass",
+      "vertices": 2064,
+      "triangles": 3096
+    },
+    {
+      "asset": "prism_courtyard_28_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "prism_courtyard_28_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "prism_courtyard_28_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_courtyard_28_far",
+      "material": "p_copper",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "prism_courtyard_52_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "prism_courtyard_52_near",
+      "material": "p_limestone",
+      "vertices": 5384,
+      "triangles": 8076
+    },
+    {
+      "asset": "prism_courtyard_52_near",
+      "material": "p_copper",
+      "vertices": 12176,
+      "triangles": 18256
+    },
+    {
+      "asset": "prism_courtyard_52_near",
+      "material": "p_glass",
+      "vertices": 3824,
+      "triangles": 5736
+    },
+    {
+      "asset": "prism_courtyard_52_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "prism_courtyard_52_mid",
+      "material": "p_limestone",
+      "vertices": 1296,
+      "triangles": 1944
+    },
+    {
+      "asset": "prism_courtyard_52_mid",
+      "material": "p_glass",
+      "vertices": 3824,
+      "triangles": 5736
+    },
+    {
+      "asset": "prism_courtyard_52_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "prism_courtyard_52_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "prism_courtyard_52_far",
+      "material": "p_limestone",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "prism_courtyard_52_far",
+      "material": "p_copper",
+      "vertices": 168,
+      "triangles": 244
+    },
+    {
+      "asset": "meridian_tenement_24_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_tenement_24_near",
+      "material": "p_brick",
+      "vertices": 3016,
+      "triangles": 4524
+    },
+    {
+      "asset": "meridian_tenement_24_near",
+      "material": "p_glass_warm",
+      "vertices": 1872,
+      "triangles": 2808
+    },
+    {
+      "asset": "meridian_tenement_24_near",
+      "material": "p_metal",
+      "vertices": 5704,
+      "triangles": 8556
+    },
+    {
+      "asset": "meridian_tenement_24_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_tenement_24_mid",
+      "material": "p_brick",
+      "vertices": 976,
+      "triangles": 1464
+    },
+    {
+      "asset": "meridian_tenement_24_mid",
+      "material": "p_glass_warm",
+      "vertices": 1872,
+      "triangles": 2808
+    },
+    {
+      "asset": "meridian_tenement_24_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "meridian_tenement_24_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_tenement_24_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_tenement_24_far",
+      "material": "p_metal",
+      "vertices": 96,
+      "triangles": 144
+    },
+    {
+      "asset": "meridian_tenement_40_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_tenement_40_near",
+      "material": "p_brick",
+      "vertices": 4024,
+      "triangles": 6036
+    },
+    {
+      "asset": "meridian_tenement_40_near",
+      "material": "p_glass_warm",
+      "vertices": 2688,
+      "triangles": 4032
+    },
+    {
+      "asset": "meridian_tenement_40_near",
+      "material": "p_metal",
+      "vertices": 8152,
+      "triangles": 12228
+    },
+    {
+      "asset": "meridian_tenement_40_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_tenement_40_mid",
+      "material": "p_brick",
+      "vertices": 1136,
+      "triangles": 1704
+    },
+    {
+      "asset": "meridian_tenement_40_mid",
+      "material": "p_glass_warm",
+      "vertices": 2688,
+      "triangles": 4032
+    },
+    {
+      "asset": "meridian_tenement_40_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "meridian_tenement_40_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_tenement_40_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_tenement_40_far",
+      "material": "p_metal",
+      "vertices": 128,
+      "triangles": 192
+    },
+    {
+      "asset": "meridian_balcony_32_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_balcony_32_near",
+      "material": "p_brick",
+      "vertices": 4152,
+      "triangles": 6228
+    },
+    {
+      "asset": "meridian_balcony_32_near",
+      "material": "p_glass_warm",
+      "vertices": 2112,
+      "triangles": 3168
+    },
+    {
+      "asset": "meridian_balcony_32_near",
+      "material": "p_metal",
+      "vertices": 9016,
+      "triangles": 13524
+    },
+    {
+      "asset": "meridian_balcony_32_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_balcony_32_mid",
+      "material": "p_brick",
+      "vertices": 1008,
+      "triangles": 1512
+    },
+    {
+      "asset": "meridian_balcony_32_mid",
+      "material": "p_glass_warm",
+      "vertices": 2112,
+      "triangles": 3168
+    },
+    {
+      "asset": "meridian_balcony_32_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "meridian_balcony_32_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_balcony_32_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_balcony_32_far",
+      "material": "p_metal",
+      "vertices": 96,
+      "triangles": 144
+    },
+    {
+      "asset": "meridian_balcony_52_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_balcony_52_near",
+      "material": "p_brick",
+      "vertices": 6456,
+      "triangles": 9684
+    },
+    {
+      "asset": "meridian_balcony_52_near",
+      "material": "p_glass_warm",
+      "vertices": 3408,
+      "triangles": 5112
+    },
+    {
+      "asset": "meridian_balcony_52_near",
+      "material": "p_metal",
+      "vertices": 14968,
+      "triangles": 22452
+    },
+    {
+      "asset": "meridian_balcony_52_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_balcony_52_mid",
+      "material": "p_brick",
+      "vertices": 1232,
+      "triangles": 1848
+    },
+    {
+      "asset": "meridian_balcony_52_mid",
+      "material": "p_glass_warm",
+      "vertices": 3408,
+      "triangles": 5112
+    },
+    {
+      "asset": "meridian_balcony_52_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "meridian_balcony_52_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_balcony_52_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_balcony_52_far",
+      "material": "p_metal",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "meridian_civic_20_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_civic_20_near",
+      "material": "p_brick",
+      "vertices": 2536,
+      "triangles": 3804
+    },
+    {
+      "asset": "meridian_civic_20_near",
+      "material": "p_glass_warm",
+      "vertices": 1472,
+      "triangles": 2208
+    },
+    {
+      "asset": "meridian_civic_20_near",
+      "material": "p_metal",
+      "vertices": 4512,
+      "triangles": 6760
+    },
+    {
+      "asset": "meridian_civic_20_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_civic_20_mid",
+      "material": "p_brick",
+      "vertices": 928,
+      "triangles": 1392
+    },
+    {
+      "asset": "meridian_civic_20_mid",
+      "material": "p_glass_warm",
+      "vertices": 1472,
+      "triangles": 2208
+    },
+    {
+      "asset": "meridian_civic_20_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "meridian_civic_20_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_civic_20_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_civic_20_far",
+      "material": "p_metal",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "meridian_civic_36_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_civic_36_near",
+      "material": "p_brick",
+      "vertices": 4008,
+      "triangles": 6012
+    },
+    {
+      "asset": "meridian_civic_36_near",
+      "material": "p_glass_warm",
+      "vertices": 2688,
+      "triangles": 4032
+    },
+    {
+      "asset": "meridian_civic_36_near",
+      "material": "p_metal",
+      "vertices": 8160,
+      "triangles": 12232
+    },
+    {
+      "asset": "meridian_civic_36_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_civic_36_mid",
+      "material": "p_brick",
+      "vertices": 1120,
+      "triangles": 1680
+    },
+    {
+      "asset": "meridian_civic_36_mid",
+      "material": "p_glass_warm",
+      "vertices": 2688,
+      "triangles": 4032
+    },
+    {
+      "asset": "meridian_civic_36_mid",
+      "material": "p_metal",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "meridian_civic_36_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_civic_36_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_civic_36_far",
+      "material": "p_metal",
+      "vertices": 136,
+      "triangles": 196
+    },
+    {
+      "asset": "meridian_modern_40_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_modern_40_near",
+      "material": "p_brick",
+      "vertices": 2808,
+      "triangles": 4212
+    },
+    {
+      "asset": "meridian_modern_40_near",
+      "material": "p_metal",
+      "vertices": 8024,
+      "triangles": 12036
+    },
+    {
+      "asset": "meridian_modern_40_near",
+      "material": "p_glass_warm",
+      "vertices": 2368,
+      "triangles": 3552
+    },
+    {
+      "asset": "meridian_modern_40_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_modern_40_mid",
+      "material": "p_brick",
+      "vertices": 368,
+      "triangles": 552
+    },
+    {
+      "asset": "meridian_modern_40_mid",
+      "material": "p_metal",
+      "vertices": 712,
+      "triangles": 1068
+    },
+    {
+      "asset": "meridian_modern_40_mid",
+      "material": "p_glass_warm",
+      "vertices": 2368,
+      "triangles": 3552
+    },
+    {
+      "asset": "meridian_modern_40_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_modern_40_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_modern_40_far",
+      "material": "p_metal",
+      "vertices": 96,
+      "triangles": 144
+    },
+    {
+      "asset": "meridian_modern_64_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_modern_64_near",
+      "material": "p_brick",
+      "vertices": 4472,
+      "triangles": 6708
+    },
+    {
+      "asset": "meridian_modern_64_near",
+      "material": "p_metal",
+      "vertices": 12632,
+      "triangles": 18948
+    },
+    {
+      "asset": "meridian_modern_64_near",
+      "material": "p_glass_warm",
+      "vertices": 3840,
+      "triangles": 5760
+    },
+    {
+      "asset": "meridian_modern_64_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_modern_64_mid",
+      "material": "p_brick",
+      "vertices": 560,
+      "triangles": 840
+    },
+    {
+      "asset": "meridian_modern_64_mid",
+      "material": "p_metal",
+      "vertices": 776,
+      "triangles": 1164
+    },
+    {
+      "asset": "meridian_modern_64_mid",
+      "material": "p_glass_warm",
+      "vertices": 3840,
+      "triangles": 5760
+    },
+    {
+      "asset": "meridian_modern_64_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_modern_64_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_modern_64_far",
+      "material": "p_metal",
+      "vertices": 160,
+      "triangles": 240
+    },
+    {
+      "asset": "meridian_oriel_28_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_oriel_28_near",
+      "material": "p_brick",
+      "vertices": 3704,
+      "triangles": 5556
+    },
+    {
+      "asset": "meridian_oriel_28_near",
+      "material": "p_glass_warm",
+      "vertices": 1856,
+      "triangles": 2784
+    },
+    {
+      "asset": "meridian_oriel_28_near",
+      "material": "p_copper",
+      "vertices": 7824,
+      "triangles": 11728
+    },
+    {
+      "asset": "meridian_oriel_28_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_oriel_28_mid",
+      "material": "p_brick",
+      "vertices": 960,
+      "triangles": 1440
+    },
+    {
+      "asset": "meridian_oriel_28_mid",
+      "material": "p_glass_warm",
+      "vertices": 1856,
+      "triangles": 2784
+    },
+    {
+      "asset": "meridian_oriel_28_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "meridian_oriel_28_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_oriel_28_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_oriel_28_far",
+      "material": "p_copper",
+      "vertices": 104,
+      "triangles": 148
+    },
+    {
+      "asset": "meridian_oriel_48_near",
+      "material": "p_roof",
+      "vertices": 64,
+      "triangles": 96
+    },
+    {
+      "asset": "meridian_oriel_48_near",
+      "material": "p_brick",
+      "vertices": 6104,
+      "triangles": 9156
+    },
+    {
+      "asset": "meridian_oriel_48_near",
+      "material": "p_glass_warm",
+      "vertices": 3216,
+      "triangles": 4824
+    },
+    {
+      "asset": "meridian_oriel_48_near",
+      "material": "p_copper",
+      "vertices": 14064,
+      "triangles": 21088
+    },
+    {
+      "asset": "meridian_oriel_48_mid",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_oriel_48_mid",
+      "material": "p_brick",
+      "vertices": 1216,
+      "triangles": 1824
+    },
+    {
+      "asset": "meridian_oriel_48_mid",
+      "material": "p_glass_warm",
+      "vertices": 3216,
+      "triangles": 4824
+    },
+    {
+      "asset": "meridian_oriel_48_mid",
+      "material": "p_copper",
+      "vertices": 16,
+      "triangles": 16
+    },
+    {
+      "asset": "meridian_oriel_48_far",
+      "material": "p_roof",
+      "vertices": 16,
+      "triangles": 24
+    },
+    {
+      "asset": "meridian_oriel_48_far",
+      "material": "p_brick",
+      "vertices": 112,
+      "triangles": 168
+    },
+    {
+      "asset": "meridian_oriel_48_far",
+      "material": "p_copper",
+      "vertices": 168,
+      "triangles": 244
+    },
+    {
+      "asset": "meridian_garden_24_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "meridian_garden_24_near",
+      "material": "p_brick",
+      "vertices": 3360,
+      "triangles": 5040
+    },
+    {
+      "asset": "meridian_garden_24_near",
+      "material": "p_glass_warm",
+      "vertices": 1568,
+      "triangles": 2352
+    },
+    {
+      "asset": "meridian_garden_24_near",
+      "material": "p_metal",
+      "vertices": 6232,
+      "triangles": 9348
+    },
+    {
+      "asset": "meridian_garden_24_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "meridian_garden_24_mid",
+      "material": "p_brick",
+      "vertices": 1176,
+      "triangles": 1764
+    },
+    {
+      "asset": "meridian_garden_24_mid",
+      "material": "p_glass_warm",
+      "vertices": 1568,
+      "triangles": 2352
+    },
+    {
+      "asset": "meridian_garden_24_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "meridian_garden_24_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_garden_24_far",
+      "material": "p_brick",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "meridian_garden_24_far",
+      "material": "p_metal",
+      "vertices": 96,
+      "triangles": 144
+    },
+    {
+      "asset": "meridian_garden_44_near",
+      "material": "p_roof",
+      "vertices": 72,
+      "triangles": 108
+    },
+    {
+      "asset": "meridian_garden_44_near",
+      "material": "p_brick",
+      "vertices": 5760,
+      "triangles": 8640
+    },
+    {
+      "asset": "meridian_garden_44_near",
+      "material": "p_glass_warm",
+      "vertices": 2912,
+      "triangles": 4368
+    },
+    {
+      "asset": "meridian_garden_44_near",
+      "material": "p_metal",
+      "vertices": 12472,
+      "triangles": 18708
+    },
+    {
+      "asset": "meridian_garden_44_mid",
+      "material": "p_roof",
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "asset": "meridian_garden_44_mid",
+      "material": "p_brick",
+      "vertices": 1432,
+      "triangles": 2148
+    },
+    {
+      "asset": "meridian_garden_44_mid",
+      "material": "p_glass_warm",
+      "vertices": 2912,
+      "triangles": 4368
+    },
+    {
+      "asset": "meridian_garden_44_mid",
+      "material": "p_metal",
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "asset": "meridian_garden_44_far",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "meridian_garden_44_far",
+      "material": "p_brick",
+      "vertices": 152,
+      "triangles": 228
+    },
+    {
+      "asset": "meridian_garden_44_far",
+      "material": "p_metal",
+      "vertices": 128,
+      "triangles": 192
+    },
+    {
+      "asset": "premium_cathedral",
+      "material": "p_limestone",
+      "vertices": 3560,
+      "triangles": 5340
+    },
+    {
+      "asset": "premium_cathedral",
+      "material": "p_glass_warm",
+      "vertices": 176,
+      "triangles": 264
+    },
+    {
+      "asset": "premium_cathedral",
+      "material": "p_copper",
+      "vertices": 122,
+      "triangles": 168
+    },
+    {
+      "asset": "premium_cathedral",
+      "material": "p_roof",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "premium_cathedral",
+      "material": "p_warm",
+      "vertices": 24,
+      "triangles": 36
+    },
+    {
+      "asset": "premium_cathedral",
+      "material": "p_glass",
+      "vertices": 41,
+      "triangles": 40
+    },
+    {
+      "asset": "premium_crown",
+      "material": "p_roof",
+      "vertices": 80,
+      "triangles": 120
+    },
+    {
+      "asset": "premium_crown",
+      "material": "p_limestone",
+      "vertices": 27304,
+      "triangles": 40956
+    },
+    {
+      "asset": "premium_crown",
+      "material": "p_metal",
+      "vertices": 72638,
+      "triangles": 108956
+    },
+    {
+      "asset": "premium_crown",
+      "material": "p_glass",
+      "vertices": 22688,
+      "triangles": 34032
+    },
+    {
+      "asset": "premium_crown",
+      "material": "p_neon",
+      "vertices": 16,
+      "triangles": 24
+    }
+  ],
+  "triangles": 3581964,
+  "source": "art/environment/phase7/premium_build.py"
+}

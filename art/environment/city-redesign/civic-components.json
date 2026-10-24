@@ -1,0 +1,7618 @@
+{
+  "families": [
+    {
+      "id": "city_meridian_arcade",
+      "source": "../environment/city-redesign/meridian-arcade-source.glb",
+      "name": "AEGIS original Meridian Arcade / Quaternius CC0 modular composition",
+      "height": 28,
+      "style": "deco",
+      "district": "residential",
+      "materialPrefix": "meridian",
+      "orientation": 0,
+      "width": 25.41881,
+      "depth": 22.84498,
+      "heights": [
+        28
+      ],
+      "facade": "source model",
+      "roof": "source roof",
+      "profiles": [
+        [
+          0.0,
+          0.14285714285714285,
+          0.9681651177597131,
+          0.9822893343800475
+        ],
+        [
+          0.14285714285714285,
+          0.14285714285714285,
+          0.9681651177597131,
+          0.8996126072608165
+        ],
+        [
+          0.2857142857142857,
+          0.14285714285714285,
+          0.9681651177597131,
+          0.8996126072608165
+        ],
+        [
+          0.42857142857142855,
+          0.14285714285714285,
+          0.9681651177597131,
+          0.8996126072608165
+        ],
+        [
+          0.5714285714285714,
+          0.14285714285714285,
+          0.9681651177597131,
+          0.8996126072608165
+        ],
+        [
+          0.7142857142857143,
+          0.14285714285714285,
+          0.9681651177597131,
+          0.8996126072608165
+        ],
+        [
+          0.8571428571428571,
+          0.14285714285714285,
+          0.9999999757591678,
+          0.9350341355453436
+        ]
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": 24671,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24671",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.811787605285645,
+        2.2285375893115997,
+        7.976472616195679
+      ],
+      "size": [
+        2.9860267639160156,
+        3.2597894072532654,
+        3.1145405769348145
+      ]
+    },
+    {
+      "id": 24672,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24672",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -7.907182693481445,
+        2.2285375893115997,
+        9.352631568908691
+      ],
+      "size": [
+        6.127798080444336,
+        3.2597894072532654,
+        0.36222267150878906
+      ]
+    },
+    {
+      "id": 24673,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24673",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.6354451179504395,
+        1.9292161464691162,
+        9.710434913635254
+      ],
+      "size": [
+        5.270890235900879,
+        3.8584322929382324,
+        1.077829360961914
+      ]
+    },
+    {
+      "id": 24674,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24674",
+      "kind": "glass",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -3.238624691963196,
+        1.539834588766098,
+        9.31310749053955
+      ],
+      "size": [
+        1.4395644664764404,
+        2.5252187848091125,
+        0.13535118103027344
+      ]
+    },
+    {
+      "id": 24675,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24675",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6352862119674683,
+        1.9292161464691162,
+        9.710434913635254
+      ],
+      "size": [
+        5.270572900772095,
+        3.8584322929382324,
+        1.077829360961914
+      ]
+    },
+    {
+      "id": 24676,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24676",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.0289855003356934,
+        0.41513845324516296,
+        10.619746208190918
+      ],
+      "size": [
+        4.057971000671387,
+        0.8302769064903259,
+        1.605489730834961
+      ]
+    },
+    {
+      "id": 24677,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24677",
+      "kind": "glass",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        0.8193463385105133,
+        1.539834588766098,
+        9.31310749053955
+      ],
+      "size": [
+        1.4395644068717957,
+        2.5252187848091125,
+        0.13535118103027344
+      ]
+    },
+    {
+      "id": 24678,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24678",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        1.0144927501678467,
+        0.41513845324516296,
+        10.619746208190918
+      ],
+      "size": [
+        2.0289859771728516,
+        0.8302769064903259,
+        1.605489730834961
+      ]
+    },
+    {
+      "id": 24679,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24679",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        7.907182693481445,
+        2.2285375893115997,
+        9.352631568908691
+      ],
+      "size": [
+        6.127798080444336,
+        3.2597894072532654,
+        0.36222267150878906
+      ]
+    },
+    {
+      "id": 24680,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24680",
+      "kind": "wall",
+      "floor": 0,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.811787605285645,
+        2.2285375893115997,
+        7.9764723777771
+      ],
+      "size": [
+        2.9860267639160156,
+        3.2597894072532654,
+        3.1145410537719727
+      ]
+    },
+    {
+      "id": 24681,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24681",
+      "kind": "wall",
+      "floor": 0,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.072463512420654,
+        2.2148721516132355,
+        5.806312799453735
+      ],
+      "size": [
+        0.20289897918701172,
+        3.232458531856537,
+        1.5029797554016113
+      ]
+    },
+    {
+      "id": 24682,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24682",
+      "kind": "wall",
+      "floor": 0,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.123689651489258,
+        2.2285375893115997,
+        2.709597408771515
+      ],
+      "size": [
+        0.36222267150878906,
+        3.2597894072532654,
+        5.270573019981384
+      ]
+    },
+    {
+      "id": 24683,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24683",
+      "kind": "wall",
+      "floor": 0,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.123689651489258,
+        2.2285375893115997,
+        -2.725774794816971
+      ],
+      "size": [
+        0.36222267150878906,
+        3.2597894072532654,
+        5.800846993923187
+      ]
+    },
+    {
+      "id": 24684,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24684",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.123689651489258,
+        2.2285375893115997,
+        -7.858899354934692
+      ],
+      "size": [
+        0.36222267150878906,
+        3.2597894072532654,
+        4.4855780601501465
+      ]
+    },
+    {
+      "id": 24685,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24685",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.746344089508057,
+        2.2285375893115997,
+        -10.345985412597656
+      ],
+      "size": [
+        2.85513973236084,
+        3.2597894072532654,
+        1.3438072204589844
+      ]
+    },
+    {
+      "id": 24686,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24686",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        7.907182693481445,
+        2.2285375893115997,
+        -10.836777687072754
+      ],
+      "size": [
+        6.127798080444336,
+        3.2597894072532654,
+        0.36222267150878906
+      ]
+    },
+    {
+      "id": 24687,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24687",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6354451179504395,
+        2.2285375893115997,
+        -10.836777687072754
+      ],
+      "size": [
+        5.270890235900879,
+        3.2597894072532654,
+        0.36222267150878906
+      ]
+    },
+    {
+      "id": 24688,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24688",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        2.2285375893115997,
+        -10.836777687072754
+      ],
+      "size": [
+        5.270572662353516,
+        3.2597894072532654,
+        0.36222267150878906
+      ]
+    },
+    {
+      "id": 24689,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24689",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -7.907182693481445,
+        2.2285375893115997,
+        -10.836777687072754
+      ],
+      "size": [
+        6.127798080444336,
+        3.2597894072532654,
+        0.36222267150878906
+      ]
+    },
+    {
+      "id": 24690,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24690",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.746344089508057,
+        2.2285375893115997,
+        -10.346144199371338
+      ],
+      "size": [
+        2.85513973236084,
+        3.2597894072532654,
+        1.343489646911621
+      ]
+    },
+    {
+      "id": 24691,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24691",
+      "kind": "wall",
+      "floor": 0,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.123689651489258,
+        2.2285375893115997,
+        -7.859058141708374
+      ],
+      "size": [
+        0.36222267150878906,
+        3.2597894072532654,
+        4.485260486602783
+      ]
+    },
+    {
+      "id": 24692,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24692",
+      "kind": "wall",
+      "floor": 0,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.123689651489258,
+        2.2285375893115997,
+        -2.7257745563983917
+      ],
+      "size": [
+        0.36222267150878906,
+        3.2597894072532654,
+        5.800846517086029
+      ]
+    },
+    {
+      "id": 24693,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24693",
+      "kind": "wall",
+      "floor": 0,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.123689651489258,
+        2.2285375893115997,
+        2.7094386219978333
+      ],
+      "size": [
+        0.36222267150878906,
+        3.2597894072532654,
+        5.270890593528748
+      ]
+    },
+    {
+      "id": 24694,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24694",
+      "kind": "wall",
+      "floor": 0,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.072463512420654,
+        2.2148721516132355,
+        5.806154012680054
+      ],
+      "size": [
+        0.20289897918701172,
+        3.232458531856537,
+        1.502662181854248
+      ]
+    },
+    {
+      "id": 24695,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24695",
+      "kind": "wall",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.501518726348877,
+        5.998342752456665,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        5.8638834953308105,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24696,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24696",
+      "kind": "wall",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        5.998342752456665,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        5.8638834953308105,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24697,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24697",
+      "kind": "glass",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.967113971710205,
+        6.006322145462036,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        4.295779705047607,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24698,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24698",
+      "kind": "glass",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        6.006322145462036,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24699,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24699",
+      "kind": "wall",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.6354451179504395,
+        5.998342752456665,
+        9.34388780593872
+      ],
+      "size": [
+        5.270890235900879,
+        5.8638834953308105,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24700,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24700",
+      "kind": "glass",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        6.006322145462036,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24701,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24701",
+      "kind": "wall",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.635286331176758,
+        5.998342752456665,
+        9.34388780593872
+      ],
+      "size": [
+        5.270572662353516,
+        5.8638834953308105,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24702,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24702",
+      "kind": "glass",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        6.006322145462036,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24703,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24703",
+      "kind": "wall",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        5.998342752456665,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        5.8638834953308105,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24704,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24704",
+      "kind": "glass",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        6.006322145462036,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24705,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24705",
+      "kind": "wall",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.501518726348877,
+        5.998342752456665,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        5.8638834953308105,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24706,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24706",
+      "kind": "glass",
+      "floor": 1,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.967113971710205,
+        6.006322145462036,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        4.295779705047607,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24707,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24707",
+      "kind": "wall",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.072463512420654,
+        6.004588603973389,
+        5.838621616363525
+      ],
+      "size": [
+        0.20289897918701172,
+        4.44490909576416,
+        1.4383621215820312
+      ]
+    },
+    {
+      "id": 24708,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24708",
+      "kind": "wall",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        5.998342752456665,
+        2.698432981967926
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        5.292901873588562
+      ]
+    },
+    {
+      "id": 24709,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24709",
+      "kind": "glass",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        6.006322145462036,
+        3.3158979415893555
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        1.5892038345336914
+      ]
+    },
+    {
+      "id": 24710,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24710",
+      "kind": "wall",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        5.998342752456665,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24711,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24711",
+      "kind": "glass",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        6.006322145462036,
+        -2.492177337408066
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        5.089412033557892
+      ]
+    },
+    {
+      "id": 24712,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24712",
+      "kind": "wall",
+      "floor": 0,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.123689651489258,
+        3.4509552717208862,
+        -5.40146005153656
+      ],
+      "size": [
+        0.36222267150878906,
+        0.8149540424346924,
+        2.855139970779419
+      ]
+    },
+    {
+      "id": 24713,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24713",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        5.998342752456665,
+        -7.960408926010132
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        4.688597202301025
+      ]
+    },
+    {
+      "id": 24714,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24714",
+      "kind": "wall",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        5.998342752456665,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24715,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24715",
+      "kind": "glass",
+      "floor": 1,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        6.006322145462036,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24716,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24716",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.436075210571289,
+        5.998342752456665,
+        -10.345985412597656
+      ],
+      "size": [
+        3.475677490234375,
+        5.8638834953308105,
+        1.3438072204589844
+      ]
+    },
+    {
+      "id": 24717,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24717",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        6.006322145462036,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24718,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24718",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        5.998342752456665,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        5.8638834953308105,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24719,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24719",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.423809051513672,
+        6.006322145462036,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24720,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24720",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        6.006322145462036,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24721,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24721",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6354451179504395,
+        5.998342752456665,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270890235900879,
+        5.8638834953308105,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24722,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24722",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        6.006322145462036,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24723,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24723",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        5.998342752456665,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270572662353516,
+        5.8638834953308105,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24724,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24724",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        6.006322145462036,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24725,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24725",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        5.998342752456665,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        5.8638834953308105,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24726,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24726",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        6.006322145462036,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24727,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24727",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.436075210571289,
+        5.998342752456665,
+        -10.346144199371338
+      ],
+      "size": [
+        3.475677490234375,
+        5.8638834953308105,
+        1.343489646911621
+      ]
+    },
+    {
+      "id": 24728,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24728",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.423809051513672,
+        6.006322145462036,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        4.295779705047607,
+        0.04
+      ]
+    },
+    {
+      "id": 24729,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24729",
+      "kind": "wall",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        5.998342752456665,
+        -7.9605677127838135
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        4.688279628753662
+      ]
+    },
+    {
+      "id": 24730,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24730",
+      "kind": "glass",
+      "floor": 1,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        6.006322145462036,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24731,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24731",
+      "kind": "wall",
+      "floor": 0,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.123689651489258,
+        3.4509552717208862,
+        -5.4014599323272705
+      ],
+      "size": [
+        0.36222267150878906,
+        0.8149540424346924,
+        2.855140209197998
+      ]
+    },
+    {
+      "id": 24732,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24732",
+      "kind": "wall",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        5.998342752456665,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24733,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24733",
+      "kind": "wall",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        5.998342752456665,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24734,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24734",
+      "kind": "glass",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        6.006322145462036,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24735,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24735",
+      "kind": "glass",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        6.006322145462036,
+        -2.4921773076057434
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        5.089412093162537
+      ]
+    },
+    {
+      "id": 24736,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24736",
+      "kind": "wall",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        5.998342752456665,
+        2.6984331011772156
+      ],
+      "size": [
+        0.37971019744873047,
+        5.8638834953308105,
+        5.292901635169983
+      ]
+    },
+    {
+      "id": 24737,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24737",
+      "kind": "wall",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.072463512420654,
+        6.004588603973389,
+        5.838462829589844
+      ],
+      "size": [
+        0.20289897918701172,
+        4.44490909576416,
+        1.438044548034668
+      ]
+    },
+    {
+      "id": 24738,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24738",
+      "kind": "glass",
+      "floor": 1,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        6.006322145462036,
+        3.315898060798645
+      ],
+      "size": [
+        0.04,
+        4.295779705047607,
+        1.5892035961151123
+      ]
+    },
+    {
+      "id": 24739,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24739",
+      "kind": "wall",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.501518726348877,
+        10.163351058959961,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        4.021125793457031,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24740,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24740",
+      "kind": "wall",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        10.163351058959961,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        4.021125793457031,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24741,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24741",
+      "kind": "wall",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.6354451179504395,
+        10.163351058959961,
+        9.34388780593872
+      ],
+      "size": [
+        5.270890235900879,
+        4.021125793457031,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24742,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24742",
+      "kind": "wall",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.635286331176758,
+        10.163351058959961,
+        9.34388780593872
+      ],
+      "size": [
+        5.270572662353516,
+        4.021125793457031,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24743,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24743",
+      "kind": "wall",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        10.163351058959961,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        4.021125793457031,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24744,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24744",
+      "kind": "wall",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.501518726348877,
+        10.163351058959961,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        4.021125793457031,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24745,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24745",
+      "kind": "wall",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.072463512420654,
+        10.169888496398926,
+        5.838621616363525
+      ],
+      "size": [
+        0.20289897918701172,
+        4.008049011230469,
+        1.4383621215820312
+      ]
+    },
+    {
+      "id": 24746,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24746",
+      "kind": "wall",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        10.163351058959961,
+        2.698432981967926
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021125793457031,
+        5.292901873588562
+      ]
+    },
+    {
+      "id": 24747,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24747",
+      "kind": "wall",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        10.163351058959961,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021125793457031,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24748,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24748",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        10.163351058959961,
+        -7.960408926010132
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021125793457031,
+        4.688597202301025
+      ]
+    },
+    {
+      "id": 24749,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24749",
+      "kind": "wall",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        10.163350582122803,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021124839782715,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24750,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24750",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.436075210571289,
+        10.163351058959961,
+        -10.345985412597656
+      ],
+      "size": [
+        3.475677490234375,
+        4.021125793457031,
+        1.3438072204589844
+      ]
+    },
+    {
+      "id": 24751,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24751",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        10.163351058959961,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        4.021125793457031,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24752,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24752",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6354451179504395,
+        10.163351058959961,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270890235900879,
+        4.021125793457031,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24753,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24753",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        10.163351058959961,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270572662353516,
+        4.021125793457031,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24754,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24754",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        10.163351058959961,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        4.021125793457031,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24755,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24755",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.436075210571289,
+        10.163351058959961,
+        -10.346144199371338
+      ],
+      "size": [
+        3.475677490234375,
+        4.021125793457031,
+        1.343489646911621
+      ]
+    },
+    {
+      "id": 24756,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24756",
+      "kind": "wall",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        10.163351058959961,
+        -7.9605677127838135
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021125793457031,
+        4.688279628753662
+      ]
+    },
+    {
+      "id": 24757,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24757",
+      "kind": "wall",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        10.163350582122803,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021124839782715,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24758,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24758",
+      "kind": "wall",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        10.163351058959961,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021125793457031,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24759,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24759",
+      "kind": "wall",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        10.163351058959961,
+        2.6984331011772156
+      ],
+      "size": [
+        0.37971019744873047,
+        4.021125793457031,
+        5.292901635169983
+      ]
+    },
+    {
+      "id": 24760,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24760",
+      "kind": "wall",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.072463512420654,
+        10.169888973236084,
+        5.838462829589844
+      ],
+      "size": [
+        0.20289897918701172,
+        4.008049964904785,
+        1.438044548034668
+      ]
+    },
+    {
+      "id": 24761,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24761",
+      "kind": "wall",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.501518726348877,
+        13.964067935943604,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        4.0825300216674805,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24762,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24762",
+      "kind": "wall",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        13.964067935943604,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        4.0825300216674805,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24763,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24763",
+      "kind": "glass",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.967113971710205,
+        10.571539402008057,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        1.2523012161254883,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24764,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24764",
+      "kind": "glass",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        10.571539402008057,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24765,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24765",
+      "kind": "wall",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.6354451179504395,
+        13.964067935943604,
+        9.34388780593872
+      ],
+      "size": [
+        5.270890235900879,
+        4.0825300216674805,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24766,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24766",
+      "kind": "glass",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        10.571539402008057,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24767,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24767",
+      "kind": "wall",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.635286331176758,
+        13.964067935943604,
+        9.34388780593872
+      ],
+      "size": [
+        5.270572662353516,
+        4.0825300216674805,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24768,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24768",
+      "kind": "glass",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        10.571539402008057,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24769,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24769",
+      "kind": "wall",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        13.964067935943604,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        4.0825300216674805,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24770,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24770",
+      "kind": "glass",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        10.571539402008057,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24771,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24771",
+      "kind": "wall",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.501518726348877,
+        13.964067935943604,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        4.0825300216674805,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24772,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24772",
+      "kind": "glass",
+      "floor": 2,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.967113971710205,
+        10.571539402008057,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        1.2523012161254883,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24773,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24773",
+      "kind": "wall",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.072463512420654,
+        13.963908672332764,
+        5.838621616363525
+      ],
+      "size": [
+        0.20289897918701172,
+        4.082211494445801,
+        1.4383621215820312
+      ]
+    },
+    {
+      "id": 24774,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24774",
+      "kind": "wall",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        13.964067935943604,
+        2.698432981967926
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        5.292901873588562
+      ]
+    },
+    {
+      "id": 24775,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24775",
+      "kind": "glass",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        10.571539402008057,
+        3.3158979415893555
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.5892038345336914
+      ]
+    },
+    {
+      "id": 24776,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24776",
+      "kind": "wall",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        13.964067935943604,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24777,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24777",
+      "kind": "glass",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        10.571539402008057,
+        -2.492177337408066
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        5.089412033557892
+      ]
+    },
+    {
+      "id": 24778,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24778",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        13.964067935943604,
+        -7.960408926010132
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        4.688597202301025
+      ]
+    },
+    {
+      "id": 24779,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24779",
+      "kind": "wall",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        13.964067935943604,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24780,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24780",
+      "kind": "glass",
+      "floor": 2,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        10.571539402008057,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24781,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24781",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.436075210571289,
+        13.964067935943604,
+        -10.345985412597656
+      ],
+      "size": [
+        3.475677490234375,
+        4.0825300216674805,
+        1.3438072204589844
+      ]
+    },
+    {
+      "id": 24782,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24782",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        10.571539402008057,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24783,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24783",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        13.964067935943604,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        4.0825300216674805,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24784,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24784",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.423809051513672,
+        10.571539402008057,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24785,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24785",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        10.571539402008057,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24786,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24786",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6354451179504395,
+        13.964067935943604,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270890235900879,
+        4.0825300216674805,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24787,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24787",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        10.571539402008057,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24788,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24788",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        13.964067935943604,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270572662353516,
+        4.0825300216674805,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24789,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24789",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        10.571539402008057,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24790,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24790",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        13.964067935943604,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        4.0825300216674805,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24791,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24791",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        10.571539402008057,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24792,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24792",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.436075210571289,
+        13.964067935943604,
+        -10.346144199371338
+      ],
+      "size": [
+        3.475677490234375,
+        4.0825300216674805,
+        1.343489646911621
+      ]
+    },
+    {
+      "id": 24793,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24793",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.423809051513672,
+        10.571539402008057,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24794,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24794",
+      "kind": "wall",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        13.964067935943604,
+        -7.9605677127838135
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        4.688279628753662
+      ]
+    },
+    {
+      "id": 24795,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24795",
+      "kind": "glass",
+      "floor": 2,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        10.571539402008057,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24796,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24796",
+      "kind": "wall",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        13.964067935943604,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24797,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24797",
+      "kind": "wall",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        13.964067935943604,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24798,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24798",
+      "kind": "glass",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        10.571539402008057,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24799,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24799",
+      "kind": "glass",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        10.571539402008057,
+        -2.4921773076057434
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        5.089412093162537
+      ]
+    },
+    {
+      "id": 24800,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24800",
+      "kind": "wall",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        13.964067935943604,
+        2.6984331011772156
+      ],
+      "size": [
+        0.37971019744873047,
+        4.0825300216674805,
+        5.292901635169983
+      ]
+    },
+    {
+      "id": 24801,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24801",
+      "kind": "wall",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.072463512420654,
+        13.963908672332764,
+        5.838462829589844
+      ],
+      "size": [
+        0.20289897918701172,
+        4.082211494445801,
+        1.438044548034668
+      ]
+    },
+    {
+      "id": 24802,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24802",
+      "kind": "glass",
+      "floor": 2,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        10.571539402008057,
+        3.315898060798645
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.5892035961151123
+      ]
+    },
+    {
+      "id": 24803,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24803",
+      "kind": "glass",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.967113971710205,
+        13.615017414093018,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        1.2523012161254883,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24804,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24804",
+      "kind": "glass",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        13.615017414093018,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24805,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24805",
+      "kind": "glass",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        13.615017414093018,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24806,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24806",
+      "kind": "glass",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        13.615017414093018,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24807,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24807",
+      "kind": "glass",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        13.615017414093018,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24808,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24808",
+      "kind": "glass",
+      "floor": 3,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.967113971710205,
+        13.615017414093018,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        1.2523012161254883,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24809,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24809",
+      "kind": "glass",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        13.615017414093018,
+        3.3158979415893555
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.5892038345336914
+      ]
+    },
+    {
+      "id": 24810,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24810",
+      "kind": "glass",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        13.615017414093018,
+        -2.492177337408066
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        5.089412033557892
+      ]
+    },
+    {
+      "id": 24811,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24811",
+      "kind": "glass",
+      "floor": 3,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        13.615017414093018,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24812,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24812",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        13.615017414093018,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24813,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24813",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.423809051513672,
+        13.615017414093018,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24814,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24814",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        13.615017414093018,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24815,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24815",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        13.615017414093018,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24816,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24816",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        13.615017414093018,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24817,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24817",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        13.615017414093018,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24818,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24818",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.423809051513672,
+        13.615017414093018,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        1.2523012161254883,
+        0.04
+      ]
+    },
+    {
+      "id": 24819,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24819",
+      "kind": "glass",
+      "floor": 3,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        13.615017414093018,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24820,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24820",
+      "kind": "glass",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        13.615017414093018,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24821,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24821",
+      "kind": "glass",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        13.615017414093018,
+        -2.4921773076057434
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        5.089412093162537
+      ]
+    },
+    {
+      "id": 24822,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24822",
+      "kind": "glass",
+      "floor": 3,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        13.615017414093018,
+        3.315898060798645
+      ],
+      "size": [
+        0.04,
+        1.2523012161254883,
+        1.5892035961151123
+      ]
+    },
+    {
+      "id": 24823,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24823",
+      "kind": "wall",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.501518726348877,
+        18.172255992889404,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        5.863884925842285,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24824,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24824",
+      "kind": "wall",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        18.172255992889404,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        5.863884925842285,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24825,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24825",
+      "kind": "glass",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.967113971710205,
+        18.180234909057617,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        4.295780181884766,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24826,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24826",
+      "kind": "glass",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        18.180234909057617,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24827,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24827",
+      "kind": "wall",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.6354451179504395,
+        18.172255992889404,
+        9.34388780593872
+      ],
+      "size": [
+        5.270890235900879,
+        5.863884925842285,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24828,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24828",
+      "kind": "glass",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        18.180234909057617,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24829,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24829",
+      "kind": "wall",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.635286331176758,
+        18.172255992889404,
+        9.34388780593872
+      ],
+      "size": [
+        5.270572662353516,
+        5.863884925842285,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24830,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24830",
+      "kind": "glass",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        18.180234909057617,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24831,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24831",
+      "kind": "wall",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        18.172255992889404,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        5.863884925842285,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24832,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24832",
+      "kind": "glass",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        18.180234909057617,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24833,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24833",
+      "kind": "wall",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.501518726348877,
+        18.172255992889404,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        5.863884925842285,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24834,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24834",
+      "kind": "glass",
+      "floor": 4,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.967113971710205,
+        18.180234909057617,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        4.295780181884766,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24835,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24835",
+      "kind": "wall",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.072463512420654,
+        18.178502082824707,
+        5.838621616363525
+      ],
+      "size": [
+        0.20289897918701172,
+        4.444910049438477,
+        1.4383621215820312
+      ]
+    },
+    {
+      "id": 24836,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24836",
+      "kind": "wall",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        18.172255992889404,
+        2.698432981967926
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        5.292901873588562
+      ]
+    },
+    {
+      "id": 24837,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24837",
+      "kind": "glass",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        18.180234909057617,
+        3.3158979415893555
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        1.5892038345336914
+      ]
+    },
+    {
+      "id": 24838,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24838",
+      "kind": "wall",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        18.172255992889404,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24839,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24839",
+      "kind": "glass",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        18.180234909057617,
+        -2.492177337408066
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        5.089412033557892
+      ]
+    },
+    {
+      "id": 24840,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24840",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        18.172255992889404,
+        -7.960408926010132
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        4.688597202301025
+      ]
+    },
+    {
+      "id": 24841,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24841",
+      "kind": "wall",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        18.172255992889404,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24842,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24842",
+      "kind": "glass",
+      "floor": 4,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        18.180234909057617,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24843,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24843",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.436075210571289,
+        17.820635318756104,
+        -10.345985412597656
+      ],
+      "size": [
+        3.475677490234375,
+        5.160643577575684,
+        1.3438072204589844
+      ]
+    },
+    {
+      "id": 24844,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24844",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        18.180234909057617,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24845,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24845",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        18.172255992889404,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        5.863884925842285,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24846,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24846",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.423809051513672,
+        18.180234909057617,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24847,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24847",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        18.180234909057617,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24848,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24848",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6354451179504395,
+        18.172255992889404,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270890235900879,
+        5.863884925842285,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24849,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24849",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        18.180234909057617,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24850,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24850",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        18.172255992889404,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270572662353516,
+        5.863884925842285,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24851,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24851",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        18.180234909057617,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24852,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24852",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        18.172255992889404,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        5.863884925842285,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24853,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24853",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        18.180234909057617,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24854,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24854",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.436075210571289,
+        18.172255992889404,
+        -10.346144199371338
+      ],
+      "size": [
+        3.475677490234375,
+        5.863884925842285,
+        1.343489646911621
+      ]
+    },
+    {
+      "id": 24855,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24855",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.423809051513672,
+        18.180234909057617,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        4.295780181884766,
+        0.04
+      ]
+    },
+    {
+      "id": 24856,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24856",
+      "kind": "wall",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        18.172255992889404,
+        -7.9605677127838135
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        4.688279628753662
+      ]
+    },
+    {
+      "id": 24857,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24857",
+      "kind": "glass",
+      "floor": 4,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        18.180234909057617,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24858,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24858",
+      "kind": "wall",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        17.820635318756104,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        5.160643577575684,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24859,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24859",
+      "kind": "wall",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        18.172255992889404,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24860,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24860",
+      "kind": "glass",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        18.180234909057617,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24861,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24861",
+      "kind": "glass",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        18.180234909057617,
+        -2.4921773076057434
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        5.089412093162537
+      ]
+    },
+    {
+      "id": 24862,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24862",
+      "kind": "wall",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        18.172255992889404,
+        2.6984331011772156
+      ],
+      "size": [
+        0.37971019744873047,
+        5.863884925842285,
+        5.292901635169983
+      ]
+    },
+    {
+      "id": 24863,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24863",
+      "kind": "wall",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.072463512420654,
+        18.178502082824707,
+        5.838462829589844
+      ],
+      "size": [
+        0.20289897918701172,
+        4.444910049438477,
+        1.438044548034668
+      ]
+    },
+    {
+      "id": 24864,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24864",
+      "kind": "glass",
+      "floor": 4,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        18.180234909057617,
+        3.315898060798645
+      ],
+      "size": [
+        0.04,
+        4.295780181884766,
+        1.5892035961151123
+      ]
+    },
+    {
+      "id": 24865,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24865",
+      "kind": "wall",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.501518726348877,
+        21.31580924987793,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        6.064033508300781,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24866,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24866",
+      "kind": "wall",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        21.31580924987793,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        6.064033508300781,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24867,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24867",
+      "kind": "glass",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.967113971710205,
+        21.583842277526855,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        3.575521469116211,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24868,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24868",
+      "kind": "glass",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        21.583842277526855,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24869,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24869",
+      "kind": "wall",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.6354451179504395,
+        21.31580924987793,
+        9.34388780593872
+      ],
+      "size": [
+        5.270890235900879,
+        6.064033508300781,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24870,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24870",
+      "kind": "glass",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        21.583842277526855,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24871,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24871",
+      "kind": "wall",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.635286331176758,
+        21.31580924987793,
+        9.34388780593872
+      ],
+      "size": [
+        5.270572662353516,
+        6.064033508300781,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24872,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24872",
+      "kind": "glass",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        21.583842277526855,
+        9.254508018493652
+      ],
+      "size": [
+        1.5892033576965332,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24873,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24873",
+      "kind": "wall",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        21.31580924987793,
+        9.34388780593872
+      ],
+      "size": [
+        6.95135498046875,
+        6.064033508300781,
+        0.37971019744873047
+      ]
+    },
+    {
+      "id": 24874,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24874",
+      "kind": "glass",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        21.583842277526855,
+        9.254508018493652
+      ],
+      "size": [
+        4.530464172363281,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24875,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24875",
+      "kind": "wall",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.501518726348877,
+        21.31580924987793,
+        7.730459928512573
+      ],
+      "size": [
+        3.606564521789551,
+        6.064033508300781,
+        3.6065659523010254
+      ]
+    },
+    {
+      "id": 24876,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24876",
+      "kind": "glass",
+      "floor": 5,
+      "side": 0,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.967113971710205,
+        21.583842277526855,
+        7.9171741008758545
+      ],
+      "size": [
+        2.1180505752563477,
+        3.575521469116211,
+        2.675814151763916
+      ]
+    },
+    {
+      "id": 24877,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24877",
+      "kind": "wall",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.072463512420654,
+        22.343801498413086,
+        5.838621616363525
+      ],
+      "size": [
+        0.20289897918701172,
+        4.008049011230469,
+        1.4383621215820312
+      ]
+    },
+    {
+      "id": 24878,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24878",
+      "kind": "wall",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        21.31580924987793,
+        2.698432981967926
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        5.292901873588562
+      ]
+    },
+    {
+      "id": 24879,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24879",
+      "kind": "glass",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        21.583842277526855,
+        3.3158979415893555
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        1.5892038345336914
+      ]
+    },
+    {
+      "id": 24880,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24880",
+      "kind": "wall",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        21.31580924987793,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24881,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24881",
+      "kind": "glass",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        21.583842277526855,
+        -2.492177337408066
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        5.089412033557892
+      ]
+    },
+    {
+      "id": 24882,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24882",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        21.31580924987793,
+        -7.960408926010132
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        4.688597202301025
+      ]
+    },
+    {
+      "id": 24883,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24883",
+      "kind": "wall",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        12.114945888519287,
+        21.99545955657959,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        4.704732894897461,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24884,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24884",
+      "kind": "glass",
+      "floor": 5,
+      "side": 1,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        21.583842277526855,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24885,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24885",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.436075210571289,
+        21.31580924987793,
+        -10.345985412597656
+      ],
+      "size": [
+        3.475677490234375,
+        6.064033508300781,
+        1.3438072204589844
+      ]
+    },
+    {
+      "id": 24886,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24886",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        12.025566101074219,
+        21.583842277526855,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24887,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24887",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942001342773,
+        21.31580924987793,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        6.064033508300781,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24888,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24888",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        10.423809051513672,
+        21.583842277526855,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24889,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24889",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        7.557586669921875,
+        21.583842277526855,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24890,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24890",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.6354451179504395,
+        21.31580924987793,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270890235900879,
+        6.064033508300781,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24891,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24891",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        2.0289855003356934,
+        21.583842277526855,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24892,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24892",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        21.31580924987793,
+        -10.828034400939941
+      ],
+      "size": [
+        5.270572662353516,
+        6.064033508300781,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24893,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24893",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -2.0289855003356934,
+        21.583842277526855,
+        -10.738654136657715
+      ],
+      "size": [
+        1.5892033576965332,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24894,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24894",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942001342773,
+        21.31580924987793,
+        -10.828034400939941
+      ],
+      "size": [
+        6.95135498046875,
+        6.064033508300781,
+        0.37970924377441406
+      ]
+    },
+    {
+      "id": 24895,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24895",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -7.557586669921875,
+        21.583842277526855,
+        -10.738654136657715
+      ],
+      "size": [
+        4.530464172363281,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24896,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24896",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.436075210571289,
+        21.99545955657959,
+        -10.346144199371338
+      ],
+      "size": [
+        3.475677490234375,
+        4.704732894897461,
+        1.343489646911621
+      ]
+    },
+    {
+      "id": 24897,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24897",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -10.423809051513672,
+        21.583842277526855,
+        -10.738654136657715
+      ],
+      "size": [
+        1.0314407348632812,
+        3.575521469116211,
+        0.04
+      ]
+    },
+    {
+      "id": 24898,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24898",
+      "kind": "wall",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        21.31580924987793,
+        -7.9605677127838135
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        4.688279628753662
+      ]
+    },
+    {
+      "id": 24899,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24899",
+      "kind": "glass",
+      "floor": 5,
+      "side": 2,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        21.583842277526855,
+        -8.858015060424805
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        1.589202880859375
+      ]
+    },
+    {
+      "id": 24900,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24900",
+      "kind": "wall",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        21.31580924987793,
+        -5.091191053390503
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        3.475677967071533
+      ]
+    },
+    {
+      "id": 24901,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24901",
+      "kind": "wall",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        21.31580924987793,
+        -2.77105849981308
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        6.9513550996780396
+      ]
+    },
+    {
+      "id": 24902,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24902",
+      "kind": "glass",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        21.583842277526855,
+        -5.3583996295928955
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        0.47249269485473633
+      ]
+    },
+    {
+      "id": 24903,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24903",
+      "kind": "glass",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        21.583842277526855,
+        -2.4921773076057434
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        5.089412093162537
+      ]
+    },
+    {
+      "id": 24904,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24904",
+      "kind": "wall",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.114945888519287,
+        21.31580924987793,
+        2.6984331011772156
+      ],
+      "size": [
+        0.37971019744873047,
+        6.064033508300781,
+        5.292901635169983
+      ]
+    },
+    {
+      "id": 24905,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24905",
+      "kind": "wall",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -12.072463512420654,
+        22.343801498413086,
+        5.838462829589844
+      ],
+      "size": [
+        0.20289897918701172,
+        4.008049011230469,
+        1.438044548034668
+      ]
+    },
+    {
+      "id": 24906,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24906",
+      "kind": "glass",
+      "floor": 5,
+      "side": 3,
+      "structural": false,
+      "hp": 18,
+      "center": [
+        -12.025566101074219,
+        21.583842277526855,
+        3.315898060798645
+      ],
+      "size": [
+        0.04,
+        3.575521469116211,
+        1.5892035961151123
+      ]
+    },
+    {
+      "id": 24907,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24907",
+      "kind": "roof",
+      "floor": 6,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.412672519683838,
+        24.371967315673828,
+        7.641613960266113
+      ],
+      "size": [
+        4.593461036682129,
+        1.9774246215820312,
+        4.593461990356445
+      ]
+    },
+    {
+      "id": 24908,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24908",
+      "kind": "roof",
+      "floor": 6,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942478179932,
+        24.371967315673828,
+        7.641614198684692
+      ],
+      "size": [
+        8.11594295501709,
+        1.9774246215820312,
+        4.593461513519287
+      ]
+    },
+    {
+      "id": 24909,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24909",
+      "kind": "roof",
+      "floor": 6,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -3.04347825050354,
+        24.371967315673828,
+        7.641614198684692
+      ],
+      "size": [
+        6.08695650100708,
+        1.9774246215820312,
+        4.593461513519287
+      ]
+    },
+    {
+      "id": 24910,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24910",
+      "kind": "roof",
+      "floor": 6,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        24.371967315673828,
+        7.641614198684692
+      ],
+      "size": [
+        6.08695650100708,
+        1.9774246215820312,
+        4.593461513519287
+      ]
+    },
+    {
+      "id": 24911,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24911",
+      "kind": "roof",
+      "floor": 6,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942478179932,
+        24.371967315673828,
+        7.641614198684692
+      ],
+      "size": [
+        8.11594295501709,
+        1.9774246215820312,
+        4.593461513519287
+      ]
+    },
+    {
+      "id": 24912,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24912",
+      "kind": "roof",
+      "floor": 6,
+      "side": 0,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.412672519683838,
+        24.371967315673828,
+        7.641613960266113
+      ],
+      "size": [
+        4.593461036682129,
+        1.9774246215820312,
+        4.593461990356445
+      ]
+    },
+    {
+      "id": 24913,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24913",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        11.427165508270264,
+        24.371967315673828,
+        6.246654748916626
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        2.2544283866882324
+      ]
+    },
+    {
+      "id": 24914,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24914",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        11.427165508270264,
+        24.371967315673828,
+        2.301405429840088
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        6.086956977844238
+      ]
+    },
+    {
+      "id": 24915,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24915",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        11.427165508270264,
+        24.371967315673828,
+        -2.771058678627014
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        8.11594271659851
+      ]
+    },
+    {
+      "id": 24916,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24916",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        11.427165508270264,
+        24.371967315673828,
+        -8.519851207733154
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        4.734299659729004
+      ]
+    },
+    {
+      "id": 24917,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24917",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        11.427165508270264,
+        24.371967315673828,
+        -4.8000441789627075
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        4.057971715927124
+      ]
+    },
+    {
+      "id": 24918,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24918",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        10.41267204284668,
+        24.371967315673828,
+        -10.140253067016602
+      ],
+      "size": [
+        4.5934600830078125,
+        1.9774246215820312,
+        2.5644760131835938
+      ]
+    },
+    {
+      "id": 24919,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24919",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942478179932,
+        24.371967315673828,
+        -10.140253067016602
+      ],
+      "size": [
+        8.11594295501709,
+        1.9774246215820312,
+        2.5644760131835938
+      ]
+    },
+    {
+      "id": 24920,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24920",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        24.371967315673828,
+        -10.140253067016602
+      ],
+      "size": [
+        6.08695650100708,
+        1.9774246215820312,
+        2.5644760131835938
+      ]
+    },
+    {
+      "id": 24921,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24921",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.635286331176758,
+        24.371967315673828,
+        -10.140253067016602
+      ],
+      "size": [
+        5.270572662353516,
+        1.9774246215820312,
+        2.5644760131835938
+      ]
+    },
+    {
+      "id": 24922,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24922",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942478179932,
+        24.371967315673828,
+        -10.140253067016602
+      ],
+      "size": [
+        8.11594295501709,
+        1.9774246215820312,
+        2.5644760131835938
+      ]
+    },
+    {
+      "id": 24923,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24923",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -10.41267204284668,
+        24.371967315673828,
+        -10.140253067016602
+      ],
+      "size": [
+        4.5934600830078125,
+        1.9774246215820312,
+        2.5644760131835938
+      ]
+    },
+    {
+      "id": 24924,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24924",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -11.427165508270264,
+        24.371967315673828,
+        -8.25171446800232
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        5.270573139190674
+      ]
+    },
+    {
+      "id": 24925,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24925",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -11.427165508270264,
+        24.371967315673828,
+        -4.8000441789627075
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        4.057971715927124
+      ]
+    },
+    {
+      "id": 24926,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24926",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -11.427165508270264,
+        24.371967315673828,
+        -2.771058678627014
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        8.11594271659851
+      ]
+    },
+    {
+      "id": 24927,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24927",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -11.427165508270264,
+        24.371967315673828,
+        2.301405429840088
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        6.086956977844238
+      ]
+    },
+    {
+      "id": 24928,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24928",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -11.427165508270264,
+        24.371967315673828,
+        6.246654748916626
+      ],
+      "size": [
+        2.5644750595092773,
+        1.9774246215820312,
+        2.2544283866882324
+      ]
+    },
+    {
+      "id": 24929,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24929",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942239761353,
+        24.95652198791504,
+        6.3593761920928955
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24930,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24930",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942239761353,
+        24.95652198791504,
+        2.301405191421509
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24931,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24931",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942239761353,
+        24.95652198791504,
+        -1.756565809249878
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24932,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24932",
+      "kind": "roof",
+      "floor": 6,
+      "side": 3,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -8.115942239761353,
+        24.95652198791504,
+        -5.814536809921265
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24933,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24933",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -7.101449489593506,
+        24.95652198791504,
+        -8.858015298843384
+      ],
+      "size": [
+        6.086956977844238,
+        0.04,
+        4.057971477508545
+      ]
+    },
+    {
+      "id": 24934,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24934",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -5.072463750839233,
+        24.95652198791504,
+        6.3593761920928955
+      ],
+      "size": [
+        2.0289855003356934,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24935,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24935",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -3.04347825050354,
+        24.95652198791504,
+        2.301405191421509
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24936,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24936",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -6.08695650100708,
+        24.95652198791504,
+        2.301405191421509
+      ],
+      "size": [
+        4.057971000671387,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24937,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24937",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.5362318754196167,
+        26.47826099395752,
+        -1.756565809249878
+      ],
+      "size": [
+        7.101449251174927,
+        3.043478012084961,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24938,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24938",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -6.08695650100708,
+        26.47826099395752,
+        -1.756565809249878
+      ],
+      "size": [
+        4.057971000671387,
+        3.043478012084961,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24939,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24939",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -3.04347825050354,
+        24.95652198791504,
+        -5.814536809921265
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24940,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24940",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -6.08695650100708,
+        24.95652198791504,
+        -5.814536809921265
+      ],
+      "size": [
+        4.057971000671387,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24941,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24941",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -3.04347825050354,
+        24.95652198791504,
+        -8.858015298843384
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        4.057971477508545
+      ]
+    },
+    {
+      "id": 24942,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24942",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -2.0289855003356934,
+        24.95652198791504,
+        6.3593761920928955
+      ],
+      "size": [
+        4.057971000671387,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24943,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24943",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        24.95652198791504,
+        6.3593761920928955
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24944,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24944",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        24.95652198791504,
+        2.301405191421509
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24945,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24945",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        2.5362318754196167,
+        26.47826099395752,
+        -1.756565809249878
+      ],
+      "size": [
+        7.101449251174927,
+        3.043478012084961,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24946,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24946",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        24.95652198791504,
+        -5.814536809921265
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24947,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24947",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        24.95652198791504,
+        -8.858015298843384
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        4.057971477508545
+      ]
+    },
+    {
+      "id": 24948,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24948",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        7.101449251174927,
+        24.95652198791504,
+        6.3593761920928955
+      ],
+      "size": [
+        2.0289855003356934,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24949,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24949",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942239761353,
+        24.95652198791504,
+        2.301405191421509
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24950,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24950",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        6.08695650100708,
+        24.95652198791504,
+        2.301405191421509
+      ],
+      "size": [
+        4.057971000671387,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24951,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24951",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942239761353,
+        24.95652198791504,
+        -1.756565809249878
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24952,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24952",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        6.08695650100708,
+        26.47826099395752,
+        -1.756565809249878
+      ],
+      "size": [
+        4.057971000671387,
+        3.043478012084961,
+        6.08695650100708
+      ]
+    },
+    {
+      "id": 24953,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24953",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        8.115942239761353,
+        24.95652198791504,
+        -5.814536809921265
+      ],
+      "size": [
+        4.057971477508545,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24954,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24954",
+      "kind": "roof",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        6.08695650100708,
+        24.95652198791504,
+        -5.814536809921265
+      ],
+      "size": [
+        4.057971000671387,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24955,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24955",
+      "kind": "roof",
+      "floor": 6,
+      "side": 2,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        7.101449489593506,
+        24.95652198791504,
+        -8.858015298843384
+      ],
+      "size": [
+        6.086956977844238,
+        0.04,
+        4.057971477508545
+      ]
+    },
+    {
+      "id": 24956,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24956",
+      "kind": "roof",
+      "floor": 6,
+      "side": 1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        9.1304349899292,
+        24.95652198791504,
+        6.3593761920928955
+      ],
+      "size": [
+        2.0289859771728516,
+        0.04,
+        2.0289855003356934
+      ]
+    },
+    {
+      "id": 24957,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24957",
+      "kind": "roof",
+      "floor": 7,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -3.04347825050354,
+        28.0,
+        -2.7710585594177246
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        4.057971000671387
+      ]
+    },
+    {
+      "id": 24958,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24958",
+      "kind": "roof",
+      "floor": 7,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        -5.072463750839233,
+        28.0,
+        -2.7710585594177246
+      ],
+      "size": [
+        2.0289855003356934,
+        0.04,
+        4.057971000671387
+      ]
+    },
+    {
+      "id": 24959,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24959",
+      "kind": "roof",
+      "floor": 7,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        3.04347825050354,
+        28.0,
+        -2.7710585594177246
+      ],
+      "size": [
+        6.08695650100708,
+        0.04,
+        4.057971000671387
+      ]
+    },
+    {
+      "id": 24960,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24960",
+      "kind": "roof",
+      "floor": 7,
+      "side": -1,
+      "structural": false,
+      "hp": 180,
+      "center": [
+        5.072463750839233,
+        28.0,
+        -2.7710585594177246
+      ],
+      "size": [
+        2.0289855003356934,
+        0.04,
+        4.057971000671387
+      ]
+    },
+    {
+      "id": 24961,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24961",
+      "kind": "slab",
+      "floor": 0,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -4.052511533333334,
+        0.15000000000000002,
+        3.364645266666667
+      ],
+      "size": [
+        7.766859733333334,
+        0.26,
+        7.583853866666667
+      ]
+    },
+    {
+      "id": 24962,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24962",
+      "kind": "support",
+      "floor": 0,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.844906041819255,
+            2,
+            3.8363905516560877
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.844906041819255,
+        2.0,
+        3.8363905516560877
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999997
+      ]
+    },
+    {
+      "id": 24963,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24963",
+      "kind": "slab",
+      "floor": 0,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -4.052511533333334,
+        0.15000000000000002,
+        -3.8162763333333323
+      ],
+      "size": [
+        7.766859733333334,
+        0.26,
+        6.777989333333333
+      ]
+    },
+    {
+      "id": 24964,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24964",
+      "kind": "support",
+      "floor": 0,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.844906041819255,
+            2,
+            -4.690953884989421
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.844906041819255,
+        2.0,
+        -4.690953884989421
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24965,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24965",
+      "kind": "slab",
+      "floor": 0,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.8225604666666664,
+        0.15000000000000002,
+        3.364645266666667
+      ],
+      "size": [
+        7.983284266666667,
+        0.26,
+        7.583853866666667
+      ]
+    },
+    {
+      "id": 24966,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24966",
+      "kind": "support",
+      "floor": 0,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.506742708485921,
+            2,
+            3.8363905516560877
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.506742708485921,
+        2.0,
+        3.8363905516560877
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999997
+      ]
+    },
+    {
+      "id": 24967,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24967",
+      "kind": "slab",
+      "floor": 0,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.8225604666666664,
+        0.15000000000000002,
+        -3.8162763333333327
+      ],
+      "size": [
+        7.983284266666667,
+        0.26,
+        6.777989333333332
+      ]
+    },
+    {
+      "id": 24968,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24968",
+      "kind": "support",
+      "floor": 0,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.506742708485921,
+            2,
+            -4.690953884989421
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.506742708485921,
+        2.0,
+        -4.690953884989421
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24969,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24969",
+      "kind": "support",
+      "floor": 0,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -0.16908166666666702,
+            2,
+            -0.4272816666666667
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        -0.16908166666666702,
+        2.0,
+        -0.4272816666666668
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    },
+    {
+      "id": 24970,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24970",
+      "kind": "slab",
+      "floor": 1,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        4.15,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.2600000000000007,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24971,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24971",
+      "kind": "support",
+      "floor": 1,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            6,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        6.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24972,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24972",
+      "kind": "slab",
+      "floor": 1,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        4.15,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.2600000000000007,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 24973,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24973",
+      "kind": "support",
+      "floor": 1,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            6,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        6.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24974,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24974",
+      "kind": "slab",
+      "floor": 1,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        4.15,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.2600000000000007,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24975,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24975",
+      "kind": "support",
+      "floor": 1,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            6,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        6.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24976,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24976",
+      "kind": "slab",
+      "floor": 1,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        4.15,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.2600000000000007,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 24977,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24977",
+      "kind": "support",
+      "floor": 1,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            6,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        6.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24978,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24978",
+      "kind": "support",
+      "floor": 1,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            0.0,
+            6,
+            -0.7420733333333337
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        0.0,
+        6.0,
+        -0.7420733333333338
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    },
+    {
+      "id": 24979,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24979",
+      "kind": "slab",
+      "floor": 2,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        8.149999999999999,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24980,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24980",
+      "kind": "support",
+      "floor": 2,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            10,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        10.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24981,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24981",
+      "kind": "slab",
+      "floor": 2,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        8.149999999999999,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 24982,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24982",
+      "kind": "support",
+      "floor": 2,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            10,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        10.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24983,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24983",
+      "kind": "slab",
+      "floor": 2,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        8.149999999999999,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24984,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24984",
+      "kind": "support",
+      "floor": 2,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            10,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        10.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24985,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24985",
+      "kind": "slab",
+      "floor": 2,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        8.149999999999999,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 24986,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24986",
+      "kind": "support",
+      "floor": 2,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            10,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        10.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24987,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24987",
+      "kind": "support",
+      "floor": 2,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            0.0,
+            10,
+            -0.7420733333333337
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        0.0,
+        10.0,
+        -0.7420733333333338
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    },
+    {
+      "id": 24988,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24988",
+      "kind": "slab",
+      "floor": 3,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        12.149999999999999,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24989,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24989",
+      "kind": "support",
+      "floor": 3,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            14,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        14.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24990,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24990",
+      "kind": "slab",
+      "floor": 3,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        12.149999999999999,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 24991,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24991",
+      "kind": "support",
+      "floor": 3,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            14,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        14.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24992,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24992",
+      "kind": "slab",
+      "floor": 3,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        12.149999999999999,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24993,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24993",
+      "kind": "support",
+      "floor": 3,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            14,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        14.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24994,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24994",
+      "kind": "slab",
+      "floor": 3,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        12.149999999999999,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.2599999999999998,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 24995,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24995",
+      "kind": "support",
+      "floor": 3,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            14,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        14.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 24996,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24996",
+      "kind": "support",
+      "floor": 3,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            0.0,
+            14,
+            -0.7420733333333337
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        0.0,
+        14.0,
+        -0.7420733333333338
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    },
+    {
+      "id": 24997,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24997",
+      "kind": "slab",
+      "floor": 4,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        16.15,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 24998,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24998",
+      "kind": "support",
+      "floor": 4,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            18,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        18.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 24999,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c24999",
+      "kind": "slab",
+      "floor": 4,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        16.15,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 25000,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25000",
+      "kind": "support",
+      "floor": 4,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            18,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        18.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 25001,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25001",
+      "kind": "slab",
+      "floor": 4,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        16.15,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 25002,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25002",
+      "kind": "support",
+      "floor": 4,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            18,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        18.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 25003,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25003",
+      "kind": "slab",
+      "floor": 4,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        16.15,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 25004,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25004",
+      "kind": "support",
+      "floor": 4,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            18,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        18.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 25005,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25005",
+      "kind": "support",
+      "floor": 4,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            0.0,
+            18,
+            -0.7420733333333337
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        0.0,
+        18.0,
+        -0.7420733333333338
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    },
+    {
+      "id": 25006,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25006",
+      "kind": "slab",
+      "floor": 5,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        20.15,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 25007,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25007",
+      "kind": "support",
+      "floor": 5,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            22,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        22.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 25008,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25008",
+      "kind": "slab",
+      "floor": 5,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -3.937536,
+        20.15,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 25009,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25009",
+      "kind": "support",
+      "floor": 5,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.675824375152588,
+            22,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.675824375152588,
+        22.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 25010,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25010",
+      "kind": "slab",
+      "floor": 5,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        20.15,
+        2.546186933333333
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.576520533333333
+      ]
+    },
+    {
+      "id": 25011,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25011",
+      "kind": "support",
+      "floor": 5,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            22,
+            3.162736732889811
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        22.0,
+        3.162736732889811
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 25012,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25012",
+      "kind": "slab",
+      "floor": 5,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        3.937536,
+        20.15,
+        -4.030334666666667
+      ],
+      "size": [
+        7.875072,
+        0.26000000000000156,
+        6.5765226666666665
+      ]
+    },
+    {
+      "id": 25013,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25013",
+      "kind": "support",
+      "floor": 5,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.675824375152588,
+            22,
+            -4.6468833995564784
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.675824375152588,
+        22.0,
+        -4.6468833995564784
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 25014,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25014",
+      "kind": "support",
+      "floor": 5,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            0.0,
+            22,
+            -0.7420733333333337
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        0.0,
+        22.0,
+        -0.7420733333333338
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    },
+    {
+      "id": 25015,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25015",
+      "kind": "slab",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -4.067008,
+        24.15,
+        2.6756578
+      ],
+      "size": [
+        8.134016,
+        0.26000000000000156,
+        6.8354656
+      ]
+    },
+    {
+      "id": 25016,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25016",
+      "kind": "support",
+      "floor": 6,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.829573154449463,
+            26,
+            3.31648384552002
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.829573154449463,
+        26.0,
+        3.31648384552002
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 25017,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25017",
+      "kind": "slab",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        -4.067008,
+        24.15,
+        -4.159807799999999
+      ],
+      "size": [
+        8.134016,
+        0.26000000000000156,
+        6.8354656
+      ]
+    },
+    {
+      "id": 25018,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25018",
+      "kind": "support",
+      "floor": 6,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -4.829573154449463,
+            26,
+            -4.80063384552002
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        -4.829573154449463,
+        26.0,
+        -4.80063384552002
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 25019,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25019",
+      "kind": "slab",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        4.067008,
+        24.15,
+        2.6756578
+      ],
+      "size": [
+        8.134016,
+        0.26000000000000156,
+        6.8354656
+      ]
+    },
+    {
+      "id": 25020,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25020",
+      "kind": "support",
+      "floor": 6,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.829573154449463,
+            26,
+            3.31648384552002
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.829573154449463,
+        26.0,
+        3.31648384552002
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6200000000000001
+      ]
+    },
+    {
+      "id": 25021,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25021",
+      "kind": "slab",
+      "floor": 6,
+      "side": -1,
+      "structural": false,
+      "hp": 240,
+      "center": [
+        4.067008,
+        24.15,
+        -4.159807799999999
+      ],
+      "size": [
+        8.134016,
+        0.26000000000000156,
+        6.8354656
+      ]
+    },
+    {
+      "id": 25022,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25022",
+      "kind": "support",
+      "floor": 6,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            4.829573154449463,
+            26,
+            -4.80063384552002
+          ],
+          "size": [
+            0.62,
+            4,
+            0.62
+          ]
+        }
+      ],
+      "center": [
+        4.829573154449463,
+        26.0,
+        -4.80063384552002
+      ],
+      "size": [
+        0.6199999999999992,
+        4.0,
+        0.6199999999999992
+      ]
+    },
+    {
+      "id": 25023,
+      "family": "city_meridian_arcade",
+      "key": "city_meridian_arcade_c25023",
+      "kind": "support",
+      "floor": 6,
+      "side": -1,
+      "structural": true,
+      "hp": 480,
+      "collisionBoxes": [
+        {
+          "center": [
+            -2.220446049250313e-16,
+            26,
+            -0.7420749999999998
+          ],
+          "size": [
+            2.2,
+            4,
+            2.2
+          ]
+        }
+      ],
+      "center": [
+        -2.220446049250313e-16,
+        26.0,
+        -0.7420749999999998
+      ],
+      "size": [
+        2.2,
+        4.0,
+        2.2
+      ]
+    }
+  ],
+  "method": "Actual source geometry cut at floor and bay boundaries; source UVs and materials preserved, hidden interior structural additions."
+}

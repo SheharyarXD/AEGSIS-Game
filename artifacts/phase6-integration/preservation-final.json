@@ -1,0 +1,17 @@
+{
+  "verifiedProtectedOriginalFiles": 913,
+  "mismatches": [],
+  "allowedOriginalChanges": [
+    "package.json",
+    "src/main.ts",
+    "src/world/City.ts"
+  ],
+  "backup": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Backups\\20261011-124733",
+  "mainHead": "784838c0102091d688a5bcf28ef297d1a519af56",
+  "environmentHead": "42d722890c7a56b911952ae3845b7b3d71678768",
+  "stagedDiffEmpty": true,
+  "unmergedPaths": [],
+  "commitsCreated": false,
+  "environmentBlendHeader": "BLENDER",
+  "mainSourceCharacterAndHUDPreserved": true
+}

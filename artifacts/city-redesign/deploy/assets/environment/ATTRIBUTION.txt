@@ -1,0 +1,162 @@
+AEGIS architectural assets / supplied source provenance
+Changes: source selection, metre normalization, UV-preserving damage segmentation, hidden structural additions, LOD reduction, texture compression and city arrangement.
+
+Art Deco Citadel
+Samuel Francis Johnson (Oneironauticus) (https://sketchfab.com/oneironauticus)
+https://sketchfab.com/3d-models/art-deco-citadel-80898b00703f4fbd9a0622c90193032a
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Downtown City MegaKit[Standard].zip
+This is the standard FREE version of the Downtown City MegaKit, which only contains 
+
+a portion of the models . You can buy the SOURCE version which has all the models and also includes Unity(URP), Unreal Engine and Godot projects
+
+with collisions and custom shaders for fake interior windows, wear and more already set up.
+
+
+
+You can get the other versions from the website https://quaternius.com
+
+
+
+-------------------------------------------------------
+
+License:
+
+CC0 1.0 Universal (CC0 1.0) 
+
+Public Domain Dedication
+
+https://creativecommons.org/publicdomain/zero/1.0/
+
+
+
+------------------------------------------------------
+
+Models by @Quaternius
+
+Consider supporting me on Patreon!
+
+
+
+https://www.patreon.com/quaternius
+
+
+
+-------------------------------------------------------
+
+Join the Discord Server:
+
+https://discord.gg/vJqnRUYRfT
+
+
+Downtown Buildings Set - Low Poly model
+Daniel Zhabotinsky (https://sketchfab.com/DanielZhabotinsky)
+https://sketchfab.com/3d-models/downtown-buildings-set-low-poly-model-7378e7fb9c914c39880d9913a6f4e1d6
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+[FREE] London Skyscraper
+99.Miles (https://sketchfab.com/99.Miles)
+https://sketchfab.com/3d-models/free-london-skyscraper-52b73f6ea18a440cb42734840d5edc72
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Gothic Architectural Structures
+Samuel Francis Johnson (Oneironauticus) (https://sketchfab.com/oneironauticus)
+https://sketchfab.com/3d-models/gothic-architectural-structures-affc5b590531447788aafc23a011154c
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Gothic Building For Aria Pack 1.0
+ChamberSu1996 (https://sketchfab.com/chambersu1996)
+https://sketchfab.com/3d-models/gothic-building-for-aria-pack-10-4c00c5e9a9a14388bd58ab9f87f0637b
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Industrial asset pack (Free)
+ForevereQ (https://sketchfab.com/ForevereQ)
+https://sketchfab.com/3d-models/industrial-asset-pack-free-94c5011772a84e8791779b342467f245
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Industrial Buildings Set - Low poly models
+Daniel Zhabotinsky (https://sketchfab.com/DanielZhabotinsky)
+https://sketchfab.com/3d-models/industrial-buildings-set-low-poly-models-e0b0d0342be24e6c923319991a2a4d3d
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Mega Moduler Apartment Building
+Everex (https://sketchfab.com/Everex.agency)
+https://sketchfab.com/3d-models/mega-moduler-apartment-building-b92538b703ac449cbdbfead987f30ce7
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Modern City Block
+akselmot (https://sketchfab.com/akselmot)
+https://sketchfab.com/3d-models/modern-city-block-c80dba249d9547cbb48d00828d23cfa7
+SKETCHFAB Standard (https://sketchfab.com/licenses)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+PBR Street Props Pack (Game Ready)
+MadeByYeshe (https://sketchfab.com/MadeByYeshe)
+https://sketchfab.com/3d-models/pbr-street-props-pack-game-ready-8013d8e6af4645d1a7c3d5b24054bfc8
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Rooftop Ventilation Modular Kit
+D3D (https://sketchfab.com/Darko3DArt)
+https://sketchfab.com/3d-models/rooftop-ventilation-modular-kit-53535fc3005741758c35a4b7227aaff5
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Scifi Gothic Building Pack- Bridge
+ChamberSu1996 (https://sketchfab.com/chambersu1996)
+https://sketchfab.com/3d-models/scifi-gothic-building-pack-bridge-f1ea6f9f55344cf99ebf38cdf7f628ba
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Singapore Office Skyscraper [FREE]
+99.Miles (https://sketchfab.com/99.Miles)
+https://sketchfab.com/3d-models/singapore-office-skyscraper-free-2305f0fe03ba44229a1f768dcb48bd8f
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+Urban Modular Environment
+bpcrews (https://sketchfab.com/bpcrews)
+https://sketchfab.com/3d-models/urban-modular-environment-3212d6ca9c5d40b0976a8b4da9f5196c
+CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Supplied by the user in art/external/. License recorded in the GLB metadata.
+
+
+AEGIS METROPOLIS / CITY REDESIGN
+
+Complete architecture, adapted under CC BY 4.0:
+- London and Singapore skyscrapers: 99.Miles.
+- Aria Gothic tower: ChamberSu1996.
+- Downtown and industrial building sets: Daniel Zhabotinsky.
+- Art Deco Citadel: Samuel Francis Johnson / Oneironauticus.
+- PBR Street Props Pack: MadeByYeshe.
+
+Full source links, author links and original GLB license metadata are recorded in
+/assets/environment/ATTRIBUTION.txt and artifacts/phase7/provided-asset-inventory.json.
+
+Original Meridian Arcade is composed from Downtown City MegaKit [Standard],
+by Quaternius, licensed CC0 1.0. The supplied License_Standard.txt is retained at
+art/environment/city-redesign/quaternius/License_Standard.txt.
+Source: https://quaternius.com/packs/downtownmegakit.html
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Changes: saved city parcels; uniformly scaled source architecture; UV-preserving
+floor/facade separation; independent damage IDs; hidden structural additions;
+near/medium LODs; Blender-rendered source-view distant atlas; shared native BC3
+textures with WebP fallback; authored sidewalks, drains and original furniture;
+bounded source-derived debris and burned/damaged state proxies.
+
+The intact near appearance uses the complete source model. Distant atlas cards
+are a performance LOD, not replacement source architecture. Full-detail Blender
+sources and standalone GLBs with embedded PBR maps are retained for inspection.
+
+Other supplied assets remain inspected but unused; the Sketchfab Standard modern
+city block and Quixel-like apartment pack are not included in the runtime city.

@@ -1,0 +1,155 @@
+{
+  "createdAt": "2026-10-18T13:02:26.474Z",
+  "scope": "Offline code/build/asset checks only; live evidence is reported separately",
+  "status": "Code and assets verified; this command does not measure live acceptance",
+  "browserLaunched": false,
+  "gameLaunched": false,
+  "newScreenshots": 0,
+  "newRecordings": 0,
+  "newFPSRuns": 0,
+  "unitTests": {
+    "total": 58,
+    "passed": 58,
+    "failed": 0,
+    "log": "artifacts/phase8/unit-tests.log"
+  },
+  "build": {
+    "passed": true,
+    "worker": "dist/assets/geometry.worker-D28ovCDD.js",
+    "bundles": [
+      {
+        "file": "dist/assets/geometry.worker-D28ovCDD.js",
+        "bytes": 86579
+      },
+      {
+        "file": "dist/assets/index-DngXQFvW.css",
+        "bytes": 10135
+      },
+      {
+        "file": "dist/assets/index-DXQTP8c7.js",
+        "bytes": 769029
+      },
+      {
+        "file": "dist/assets/physics-OnF19VgH.js",
+        "bytes": 4334395
+      },
+      {
+        "file": "dist/assets/three-DMokfWEL.js",
+        "bytes": 649287
+      }
+    ],
+    "largeChunkWarning": true,
+    "log": "artifacts/phase8/build.log"
+  },
+  "assetAudit": {
+    "passed": true,
+    "moduleCount": 15,
+    "materials": 8,
+    "optimizedBytes": 185912,
+    "triangles": 13160,
+    "vertices": 26022
+  },
+  "preservation": {
+    "protectedSourceFiles": 12,
+    "originalAssets": 15,
+    "baselineFiles": 184,
+    "unchanged": 163,
+    "changed": 21
+  },
+  "world": {
+    "buildings": 971,
+    "families": 25,
+    "districts": 5,
+    "meters": [
+      2048,
+      2048
+    ],
+    "historicLinks": 2,
+    "trafficLoops": 177
+  },
+  "performance": {
+    "LOW": {
+      "finalFPS": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "worstMs": null,
+      "peakGpuMemory": null,
+      "status": "Not measured by this offline command"
+    },
+    "MEDIUM": {
+      "finalFPS": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "worstMs": null,
+      "peakGpuMemory": null,
+      "status": "Not measured by this offline command"
+    },
+    "HIGH": {
+      "finalFPS": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "worstMs": null,
+      "peakGpuMemory": null,
+      "status": "Not measured by this offline command"
+    },
+    "ULTRA": {
+      "finalFPS": null,
+      "p50Ms": null,
+      "p95Ms": null,
+      "p99Ms": null,
+      "worstMs": null,
+      "peakGpuMemory": null,
+      "status": "Not measured by this offline command"
+    }
+  },
+  "pendingLiveChecks": [
+    "Before/after street design",
+    "Sidewalk and curb close-up",
+    "Intersection with signals and road details",
+    "Night streetlights and storefronts",
+    "Rainy downtown gameplay",
+    "Laser heating the facade",
+    "Cooling into persistent scorch",
+    "Standard 3× missile impact",
+    "Heavy 5× demolition missile",
+    "Layered explosion and smoke",
+    "Titan entry impact",
+    "Continuous physical interior travel",
+    "Titan exit impact",
+    "Persistent holes after district streaming",
+    "Partial skyscraper collapse",
+    "Complete showcase collapse",
+    "High-speed district flight and cold/warm profiling",
+    "LOW destruction stress under rain"
+  ],
+  "commands": [
+    {
+      "command": "node scripts/phase8-offline-audit.mjs",
+      "exitCode": 0,
+      "log": "artifacts/phase8/asset-audit.log"
+    },
+    {
+      "command": "node --import tsx scripts/phase8-code-report.ts",
+      "exitCode": 0,
+      "log": "artifacts/phase8/code-report.log"
+    },
+    {
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "exitCode": 0,
+      "log": "artifacts/phase8/build.log"
+    },
+    {
+      "command": "node --import tsx --test --test-reporter=spec tests/physics.test.ts tests/environment.test.ts tests/world-recovery.test.ts tests/visibility-destruction.test.ts tests/world-realism.test.ts tests/phase8.test.ts",
+      "exitCode": 0,
+      "log": "artifacts/phase8/unit-tests.log"
+    },
+    {
+      "command": "node node_modules/vite/bin/vite.js build",
+      "exitCode": 0,
+      "log": "artifacts/phase8/build.log"
+    }
+  ]
+}

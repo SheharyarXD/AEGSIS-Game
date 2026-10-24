@@ -1,0 +1,84 @@
+{
+  "backup": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Art-Backups\\20261011-170704",
+  "verifiedOriginalFiles": 1087,
+  "authorizedWorldAndIntegrationChanges": [
+    {
+      "path": "src/main.ts",
+      "before": "36c6eecb9dbf22673227349a37410c5d743b4b19cea09f01d43645181a4cfc11",
+      "after": "232355eafa4418726d034b725eb956b0b5a68d1ef9ccc288a052bc34b3bd035d"
+    },
+    {
+      "path": "src/physics/Destruction.ts",
+      "before": "b155de40f420e6305d19a38ea982f7aa778406d56f4ec4290802fbf5ec711ba7",
+      "after": "db86c556c7f34349a822e54af7cad499efdd98516bf2b0a4e9d75ac6c169fe55"
+    },
+    {
+      "path": "src/world/City.ts",
+      "before": "83bf88a472cf0e1f73d0bce2ea047d1859c5f46a588d9f68a5a274c19d94e22b",
+      "after": "cdd8d29d80ca1a219163a1ac8979e47c6527a0297e96392a2d74ee77cbe8c789"
+    },
+    {
+      "path": "src/world/CityLayout.ts",
+      "before": "2c963206a34392ea26e33c4349a01812c87f0bb3b9cffe1636bb59d2fe144a91",
+      "after": "789114c55a7a1ca01d1b70cd82bdca237ea189930922aed8ac874b5d05532045"
+    },
+    {
+      "path": "src/world/DeploymentBay.ts",
+      "before": "8abf5238b42fe58654a869ecd4ceb4dddb6704171dfcda40dc05cc7d8595ef58",
+      "after": "01e2d2efd7f54fac031f4183fc918431a15ba4858cd0999672bff4b7e77cfe7e"
+    },
+    {
+      "path": "src/world/WorldCollision.ts",
+      "before": "421946f374359d218d8f3daf0781ff71f1599910dde77e29fad55c9100b1e54b",
+      "after": "d68be19710851de710bba245e7528c4df23714a90a00fc102c8db4a4593325a8"
+    },
+    {
+      "path": "src/world/WorldStreaming.ts",
+      "before": "d3fda1fab8e5e2b9dc965a746ff9979aa1757e8eb7d8fea2e28793d945141c4d",
+      "after": "42c15a1c88ab07deafc658f44ef218c712ed044db88b1f8cbdb80097a27252b0"
+    },
+    {
+      "path": "src/world/environment/AssetLibrary.ts",
+      "before": "09ea0aed0f80220de2d21551656e405513d7ff2a37d1104d8223dc731397d842",
+      "after": "f6f27c4510648101151392cd7ca1df6c8b3b603c508a86da97ce4c0655ed71d8"
+    },
+    {
+      "path": "src/world/environment/Atmosphere.ts",
+      "before": "9eb187268aeda60466c609577ed7d8f26ef35299117fd48712699082b46457bd",
+      "after": "1d79c5604c5d7a7187a0e5ffafbf0611737529e398427cde05c5414d2aa9df2f"
+    },
+    {
+      "path": "src/world/environment/CityInfrastructure.ts",
+      "before": "a60de448c0248c384b95e06bca1c8f45f8ede281373fc32836d63e3d9ac520bf",
+      "after": "712daedee597fd6b7bd28d3962c60102eff160caa851c31aeba86c408d50f9d4"
+    },
+    {
+      "path": "src/world/environment/EnvironmentMaterials.ts",
+      "before": "bcb4cbbeb2e43b304369b8b820f5875642392ad30e1ee8392912318724483711",
+      "after": "b4a3eb6e00338705a460c46c1b4b6806167015fd82f000d8c847a28e5ac2af9b"
+    },
+    {
+      "path": "tests/browser.spec.mjs",
+      "before": "70afa41f8a8277724f23e2618f11cc2b0928eeb165fe448ae716ec31b9e05fb2",
+      "after": "4676b686433e26627894340e9ba7affea9312e7625d1f531a1ab9f751ccad27e"
+    },
+    {
+      "path": "tests/environment.browser.spec.mjs",
+      "before": "e0ce223a34fb0300de14fcd1877679f7e2ba39dcac08b9feedbe307ae2d390ac",
+      "after": "ab70669ef200db74de714cf1c2696e949f0af313325e0281533b7a965d3cdb8a"
+    },
+    {
+      "path": "tests/environment.test.ts",
+      "before": "f0ab636a4a7faba5931dba5b399c986560e573389183826ec1289f8e16ccea2c",
+      "after": "58d0eca22cf4214b05c0a2b8340141789be52588986aeba9a360631b8f538bc7"
+    },
+    {
+      "path": "tests/integration.browser.spec.mjs",
+      "before": "4ba3ada6932fdbf3e8c4601021d34a235b4f58cbcfc61a28a1b0b0a6777f2a68",
+      "after": "5a7516737a139f5a91795af1f7f626d6da62996ca53d98a6fec4f9a74aa1ae0e"
+    }
+  ],
+  "unexpectedChanges": [],
+  "suppliedAssetsUnchanged": true,
+  "suppliedAssetChanges": []
+}

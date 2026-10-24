@@ -1,0 +1,16 @@
+import {chromium} from '@playwright/test';
+import {writeFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({channel:'chrome',headless:true}),page=await browser.newPage({viewport:{width:1280,height:720}}),errors=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+await page.addInitScript(()=>localStorage.setItem('aegis-quality','LOW'));
+await page.goto('http://127.0.0.1:5194/');await page.waitForFunction(()=>window.aegisDiagnostics,null,{timeout:120000});
+assert.equal(await page.evaluate(()=>!!window.__AEGIS__),false,'Production URL must not expose mutation hooks');
+await page.getByRole('button',{name:'Credits',exact:true}).click();assert.equal(await page.getByRole('link',{name:'Architecture licenses and full attribution'}).getAttribute('href'),'/assets/environment/ATTRIBUTION.txt');await page.getByRole('button',{name:'Close dialog'}).click();
+await page.getByRole('button',{name:/DEPLOY OPERATIVE/}).click();await page.getByRole('button',{name:/Skip sequence/}).click();await page.waitForFunction(()=>window.aegisDiagnostics().mode==='play');await page.locator('canvas').click();
+const start=await page.evaluate(()=>window.aegisDiagnostics());await page.keyboard.down('d');await page.waitForFunction(x=>window.aegisDiagnostics().position[0]>x+.8,start.position[0],{timeout:6000});await page.keyboard.up('d');
+await page.keyboard.press('e');await page.keyboard.down('Space');await page.waitForFunction(()=>window.aegisDiagnostics().position[1]>3,null,{timeout:6000});await page.keyboard.up('Space');
+const airborne=await page.evaluate(()=>window.aegisDiagnostics());await page.keyboard.down('w');await page.waitForFunction(z=>window.aegisDiagnostics().position[2]<z-8,airborne.position[2],{timeout:6000});await page.keyboard.up('w');
+await page.keyboard.press('Escape');await page.waitForFunction(()=>window.aegisDiagnostics().mode==='paused');const paused=await page.evaluate(()=>window.aegisDiagnostics());await page.getByRole('button',{name:/Resume operation/}).click();await page.waitForFunction(()=>window.aegisDiagnostics().mode==='play');
+await page.screenshot({path:'artifacts/phase7/production-gameplay.png'});const finish=await page.evaluate(()=>window.aegisDiagnostics());assert.deepEqual(errors,[]);
+await writeFile('artifacts/phase7/production-smoke.json',JSON.stringify({checkedAt:new Date().toISOString(),url:page.url(),browser:browser.version(),mutationHooks:false,checks:['production bootstrap','architecture attribution','deploy and skip','keyboard walking','takeoff and flight','pause and resume'],start,airborne,paused,finish,errors},null,2));await browser.close();console.log('Production smoke: six checks pass; no browser errors');

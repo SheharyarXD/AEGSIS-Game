@@ -1,0 +1,264 @@
+AEGIS — WORLD REALISM, STREET DETAIL, LIGHTING, AND DESTRUCTION VFX REBUILD
+You are now focusing specifically on making the AEGIS city feel like a believable, premium, realistic urban world.
+The current city is still too artificial, too empty, too flat, and too game-like.
+It does not yet feel like a real place.
+I want you to upgrade the world itself with a strong focus on:
+- realism,
+- render quality,
+- New York–style street design,
+- small environmental details,
+- better roads and sidewalks,
+- better lights,
+- denser believable urban dressing,
+- and realistic destruction smoke/fire when buildings are hit.
+This work must remain compatible with the current AEGIS gameplay, flight, combat, destruction, and browser deployment goals.
+1. MAIN GOAL
+Make the city feel like a real urban environment, especially at street level.
+It should feel inspired by:
+- New York City block structure,
+- dense American downtown streets,
+- realistic sidewalks,
+- grounded road systems,
+- believable building entrances,
+- layered city lighting,
+- premium urban atmosphere.
+Do not create a copyright copy of NYC or any real map.
+Use it only as urban design inspiration.
+2. STREET-LEVEL REALISM — TOP PRIORITY
+The player must feel like they are inside a real city when walking or hovering near the ground.
+Roads
+Rebuild and improve roads so they look like real urban streets.
+Include:
+- realistic asphalt materials,
+- lane striping,
+- turning lanes where useful,
+- faded paint variation,
+- crosswalks,
+- stop lines,
+- patched road sections,
+- manholes,
+- drainage grates,
+- curb edges,
+- road wear,
+- subtle cracks,
+- oil and dirt variation,
+- puddle accumulation in wet conditions.
+Avoid flat blank roads with almost no detail.
+Sidewalks / footpaths
+I want much better footpath language, closer to real New York style.
+Add:
+- modular sidewalk slab pattern,
+- curb transitions,
+- curb ramps,
+- utility covers,
+- grates,
+- storefront edge detail,
+- steps / stoops where suitable,
+- subtle wear,
+- stains,
+- corner treatment,
+- sidewalk width variation by district,
+- transitions to plazas and alleys.
+The sidewalks must no longer feel like plain gray filler planes.
+3. MINOR ENVIRONMENTAL DETAIL — VERY IMPORTANT
+Work heavily on small details that sell realism.
+Add believable, optimized city dressing such as:
+- traffic lights,
+- street lamps,
+- sign poles,
+- road signs,
+- pedestrian lights,
+- bollards,
+- benches,
+- trash cans,
+- dumpsters,
+- hydrants,
+- utility boxes,
+- bus stop elements,
+- tree pits or planters where appropriate,
+- newspaper boxes / city boxes,
+- parking meters,
+- barriers,
+- loading-zone props,
+- construction fencing,
+- rooftop props visible from the ground.
+Do not spam props randomly.
+Distribute them in a way that makes each block feel believable and intentionally designed.
+4. LIGHTING QUALITY
+Lighting must become much more realistic and cinematic.
+During the day
+Improve:
+- sun direction and contrast,
+- facade readability,
+- better ambient light balance,
+- more believable shadows,
+- stronger urban form definition.
+During dusk / night
+Improve:
+- street lighting,
+- building window lighting,
+- warm/cool contrast,
+- wet pavement reflections,
+- intersection lighting,
+- darker but still readable streets,
+- stronger depth and atmosphere.
+During rain / storm
+Improve:
+- wet material response,
+- subtle reflections,
+- street light reflection streaking,
+- moody visibility,
+- stronger atmosphere without making gameplay unreadable.
+Avoid fake over-bloomed visuals.
+The goal is realism, not exaggerated effects.
+5. BUILDING-TO-STREET CONNECTION
+Buildings must feel grounded into the city.
+Improve:
+- entrance logic,
+- storefront scale,
+- lobby entry areas,
+- facade-to-sidewalk transitions,
+- curbside rhythm,
+- corner-building treatment,
+- service alleys,
+- loading bays in suitable districts,
+- rooftop detail visible when flying.
+Street-level architecture should no longer feel like buildings dropped onto a blank grid.
+6. WORLD COMPOSITION IMPROVEMENT
+The city still feels too scattered and too synthetic.
+Refine the world layout so it feels more like a believable city:
+- stronger block structure,
+- more coherent road network,
+- better district transitions,
+- more convincing density,
+- less empty dead space,
+- better skyline layering,
+- more realistic spacing between buildings.
+Preserve the district identities, but make them feel like parts of one coherent metropolis.
+7. REALISTIC DESTRUCTION VFX
+This is a major focus.
+When buildings are hit, the destruction must produce realistic fire and smoke, not fake blocky effects.
+On missile impact
+When a missile hits a building, add:
+- an initial impact flash,
+- sparks and debris,
+- realistic smoke burst,
+- small persistent flame on the damaged side,
+- dark scorch mark,
+- embers or glowing fragments if appropriate,
+- facade dust,
+- glass shatter where relevant.
+On repeated hits
+As damage increases:
+- smoke becomes thicker,
+- flames spread slightly around the impact area,
+- scorch darkening increases,
+- debris accumulation grows,
+- the damaged section looks more burned and unstable.
+On major structural damage
+When a section heavily breaks:
+- use larger smoke plumes,
+- dust clouds,
+- falling fragments,
+- brief fire bursts,
+- and then a believable lingering smoke/fire state.
+Important realism rule
+Fire and smoke must feel attached to the impact side of the building.
+Do not place generic floating explosion effects unrelated to the damaged geometry.
+8. REALISTIC SMOKE
+Smoke quality matters a lot.
+I want smoke that feels:
+- thick when needed,
+- directional,
+- naturally dissipating,
+- darker at the core,
+- lighter at the edges,
+- reactive to major impacts,
+- scalable by quality level.
+Use efficient, pooled, optimized smoke systems suitable for browser deployment.
+Avoid:
+- cheap constant puffs,
+- repetitive identical particles,
+- smoke that vanishes too suddenly,
+- giant opaque blobs.
+9. REALISTIC FIRE
+Fire should feel like real localized burning.
+It should:
+- flicker naturally,
+- stay attached to impact zones,
+- vary in size based on damage,
+- cast subtle light if technically feasible,
+- not flood the scene with expensive effects,
+- remain optimized for web performance.
+Small missile hits should create smaller flames.
+Larger destruction moments can create more intense fire.
+10. PERFORMANCE REQUIREMENT
+Do not make the game heavier without control.
+This must still target browser playability and ideally scale toward platforms like Poki/CrazyGames.
+So while upgrading realism, you must also:
+- optimize road materials,
+- optimize prop count with instancing,
+- use LODs,
+- batch repeated street assets,
+- reuse materials,
+- limit particle overdraw,
+- pool smoke/fire effects,
+- reduce expensive dynamic lights,
+- keep quality presets functional.
+LOW quality must remain playable and visually respectable.
+Do not trade massive FPS loss for modest visual improvement.
+11. WHAT TO IMPROVE FIRST
+Prioritize in this order:
+1. One highly polished street-level hero block.
+2. Roads + sidewalks + curb language.
+3. Street props and road furniture.
+4. Day and night lighting improvement.
+5. Rain/wet response.
+6. Building entrance and block realism.
+7. Missile impact fire/smoke realism.
+8. Larger destruction smoke/fire behavior.
+9. Optimization pass.
+10. Extend the improved standard citywide.
+12. VALIDATION SCENES
+After implementation, I want actual browser captures showing:
+1. Daytime street-level block.
+2. Nighttime street-level block.
+3. Rainy street at night.
+4. Sidewalk close-up.
+5. Intersection with proper road markings and lights.
+6. Dense block with believable props.
+7. Missile hit on building facade.
+8. Building facade showing smoke and fire after impact.
+9. Heavier structural damage with larger smoke.
+10. LOW-quality gameplay showing acceptable performance.
+13. STRICT DON’TS
+Do not:
+- leave the world looking like a gray test grid,
+- leave roads flat and texture-poor,
+- leave sidewalks blank,
+- place props randomly without urban logic,
+- use unrealistic fake explosion smoke,
+- make fire look like arcade VFX,
+- add expensive systems without profiling,
+- regress gameplay, flight, targeting, or destruction functionality.
+14. SUCCESS DEFINITION
+Success means:
+- the city feels much more like a believable real place,
+- roads and sidewalks have real urban character,
+- lighting feels premium,
+- street scenes feel richer and denser,
+- buildings feel grounded into the street,
+- destruction produces realistic smoke and fire,
+- missile impacts feel satisfying and believable,
+- and performance remains acceptable for browser deployment.
+15. REQUIRED OUTPUT
+At the end, provide:
+- what was improved,
+- which files changed,
+- what assets/materials/VFX were added or refined,
+- how road/sidewalk realism changed,
+- how lighting changed,
+- how smoke/fire changed,
+- performance impact across quality levels,
+- and actual before/after screenshots or gameplay captures.
+Start by auditing the current world realism problems, then implement the highest-impact fixes directly.

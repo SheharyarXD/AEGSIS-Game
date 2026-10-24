@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-11T23:40:46.651Z",
+  "review": "artifacts/phase7/review.html",
+  "matchedCaptures": 10,
+  "wholeWorldBenchmarks": 15,
+  "damageRecords": 12,
+  "actions": 2,
+  "videoFiles": [
+    {
+      "name": "01-rainy-night-vesper",
+      "file": "world-videos/01-rainy-night-vesper.webm",
+      "bytes": 4225303,
+      "modifiedAt": "2026-10-11T23:11:48.432Z",
+      "review": "Actual browser recording; corrected flight scenes 02, 04 and 06 were decoded and visually inspected."
+    },
+    {
+      "name": "02-day-rooftop-flight",
+      "file": "world-videos/02-day-rooftop-flight.webm",
+      "bytes": 4674072,
+      "modifiedAt": "2026-10-11T23:12:05.310Z",
+      "review": "Actual browser recording; corrected flight scenes 02, 04 and 06 were decoded and visually inspected."
+    },
+    {
+      "name": "03-high-altitude-city",
+      "file": "world-videos/03-high-altitude-city.webm",
+      "bytes": 5450401,
+      "modifiedAt": "2026-10-11T23:12:22.389Z",
+      "review": "Actual browser recording; corrected flight scenes 02, 04 and 06 were decoded and visually inspected."
+    },
+    {
+      "name": "04-high-speed-districts",
+      "file": "world-videos/04-high-speed-districts.webm",
+      "bytes": 4012707,
+      "modifiedAt": "2026-10-11T23:12:37.087Z",
+      "review": "Actual browser recording; corrected flight scenes 02, 04 and 06 were decoded and visually inspected."
+    },
+    {
+      "name": "05-low-combat-rain",
+      "file": "world-videos/05-low-combat-rain.webm",
+      "bytes": 4330897,
+      "modifiedAt": "2026-10-11T23:12:53.690Z",
+      "review": "Actual browser recording; corrected flight scenes 02, 04 and 06 were decoded and visually inspected."
+    },
+    {
+      "name": "06-high-architecture-comparison",
+      "file": "world-videos/06-high-architecture-comparison.webm",
+      "bytes": 5928143,
+      "modifiedAt": "2026-10-11T23:13:27.454Z",
+      "review": "Actual browser recording; corrected flight scenes 02, 04 and 06 were decoded and visually inspected."
+    }
+  ],
+  "errors": []
+}

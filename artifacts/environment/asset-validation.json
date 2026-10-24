@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "file": "aegis-city-kit.glb",
+      "bytes": 2935140,
+      "meshes": 85,
+      "materials": 14,
+      "triangles": 24653,
+      "validatedOutwardShells": 10
+    },
+    {
+      "file": "aegis-skyline-lod.glb",
+      "bytes": 934884,
+      "meshes": 20,
+      "materials": 8,
+      "triangles": 634,
+      "validatedOutwardShells": 5
+    },
+    {
+      "file": "aegis-landmarks.glb",
+      "bytes": 1464668,
+      "meshes": 7,
+      "materials": 5,
+      "triangles": 7217,
+      "validatedOutwardShells": 0
+    }
+  ],
+  "externalAssetLicensesChecked": 3
+}

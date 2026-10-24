@@ -1,0 +1,1690 @@
+[
+  {
+    "label": "before",
+    "b": {
+      "id": 235,
+      "x": 172,
+      "z": -256,
+      "w": 38.1039,
+      "d": 57.1168,
+      "h": 188.16,
+      "assetHeight": 168,
+      "family": "aer_glass",
+      "style": "financial",
+      "district": "financial",
+      "angle": 0,
+      "roof": "roofkit",
+      "damageClass": "full",
+      "category": "landmark",
+      "block": "9:4",
+      "landmark": "Crown Helix",
+      "tile": "9,6"
+    },
+    "player": [
+      140.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "enemy": [
+      160.94805,
+      6,
+      -256
+    ],
+    "hp": 95,
+    "mode": "play",
+    "stage": "ground",
+    "ragdoll": false,
+    "state": "HOVER",
+    "contacts": [],
+    "beam": 0,
+    "end": [
+      0,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "effects": {
+        "scars": 0,
+        "fires": 0,
+        "particles": 0,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 0,
+      "brokenComponents": 0,
+      "activeDebris": 0,
+      "staticDebris": 0,
+      "debrisCap": 16,
+      "maxActivationMs": 0,
+      "states": []
+    }
+  },
+  {
+    "label": "missile",
+    "b": {
+      "id": 235,
+      "x": 172,
+      "z": -256,
+      "w": 38.1039,
+      "d": 57.1168,
+      "h": 188.16,
+      "assetHeight": 168,
+      "family": "aer_glass",
+      "style": "financial",
+      "district": "financial",
+      "angle": 0,
+      "roof": "roofkit",
+      "damageClass": "full",
+      "category": "landmark",
+      "block": "9:4",
+      "landmark": "Crown Helix",
+      "tile": "9,6"
+    },
+    "player": [
+      140.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "enemy": [
+      160.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "hp": 95,
+    "mode": "play",
+    "stage": "ground",
+    "ragdoll": false,
+    "state": "HOVER",
+    "contacts": [
+      {
+        "hp": 95,
+        "p": [
+          160.9480438232422,
+          6.0000001907348635,
+          -256
+        ],
+        "visible": false
+      }
+    ],
+    "beam": 0,
+    "end": [
+      0,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "effects": {
+        "scars": 1,
+        "fires": 1,
+        "particles": 16,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 1,
+      "brokenComponents": 2,
+      "activeDebris": 8,
+      "staticDebris": 0,
+      "debrisCap": 16,
+      "maxActivationMs": 4.6000000005587935,
+      "states": [
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "broken": 2,
+          "stage": "local",
+          "colliders": 297
+        }
+      ]
+    },
+    "activeFloors": [
+      2,
+      1
+    ],
+    "damage": [
+      {
+        "component": {
+          "id": 2,
+          "family": "aer_glass",
+          "key": "aer_glass_c00002",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.925204753875732,
+            10,
+            -2.4999999701976776
+          ],
+          "size": [
+            3.850409507751465,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": 162.80669080511348
+      },
+      {
+        "component": {
+          "id": 23,
+          "family": "aer_glass",
+          "key": "aer_glass_c00023",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.415909767150879,
+            10,
+            2.5
+          ],
+          "size": [
+            2.831819534301758,
+            4,
+            5.000000953674316
+          ]
+        },
+        "hp": 123.02116218793944
+      },
+      {
+        "component": {
+          "id": 42,
+          "family": "aer_glass",
+          "key": "aer_glass_c00042",
+          "kind": "wall",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.499999761581421,
+            10,
+            2.500000238418579
+          ],
+          "size": [
+            5.000000476837158,
+            4,
+            5.000000476837158
+          ]
+        },
+        "hp": 170.90697371320627
+      },
+      {
+        "component": {
+          "id": 1461,
+          "family": "aer_glass",
+          "key": "aer_glass_c01461",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.947729587554932,
+            7.044900894165039,
+            2.499999985098839
+          ],
+          "size": [
+            1.595301628112793,
+            1.9101982116699219,
+            5.000000029802322
+          ]
+        },
+        "hp": 110
+      },
+      {
+        "component": {
+          "id": 1467,
+          "family": "aer_glass",
+          "key": "aer_glass_c01467",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -13.137814998626709,
+            7.0438947677612305,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.1358613967895508,
+            1.912210464477539,
+            5.000000059604645
+          ]
+        },
+        "hp": 161.71377222884647
+      },
+      {
+        "component": {
+          "id": 2571,
+          "family": "aer_glass",
+          "key": "aer_glass_c02571",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.285285472869873,
+            10,
+            -2.5
+          ],
+          "size": [
+            1.0986967086791992,
+            4,
+            5
+          ]
+        },
+        "hp": 2.1009086848479157
+      },
+      {
+        "component": {
+          "id": 3210,
+          "family": "aer_glass",
+          "key": "aer_glass_c03210",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.091032028198242,
+            10,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4538154602050781,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": -38.978837812060554
+      },
+      {
+        "component": {
+          "id": 3580,
+          "family": "aer_glass",
+          "key": "aer_glass_c03580",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.196024894714355,
+            7.044040679931641,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.0023326873779297,
+            1.9119186401367188,
+            5.000000059604645
+          ]
+        },
+        "hp": 0.2812700841567164
+      },
+      {
+        "component": {
+          "id": 3584,
+          "family": "aer_glass",
+          "key": "aer_glass_c03584",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.029285907745361,
+            7.044997453689575,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4133024215698242,
+            1.9100050926208496,
+            5.000000059604645
+          ]
+        },
+        "hp": -52
+      },
+      {
+        "component": {
+          "id": 4819,
+          "family": "aer_glass",
+          "key": "aer_glass_c04819",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.252692461556022,
+            8.149999999999999,
+            10.756029524999999
+          ],
+          "size": [
+            11.942656673112042,
+            0.2599999999999998,
+            18.705028050000003
+          ]
+        },
+        "hp": 200.75886728762868
+      },
+      {
+        "component": {
+          "id": 4821,
+          "family": "aer_glass",
+          "key": "aer_glass_c04821",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.837434768750001,
+            8.149999999999999,
+            -5.719487475000001
+          ],
+          "size": [
+            13.112141287499998,
+            0.2599999999999998,
+            14.24600595
+          ]
+        },
+        "hp": 189.9277582833184
+      }
+    ],
+    "coarse": 40
+  },
+  {
+    "label": "repulsors",
+    "b": {
+      "id": 235,
+      "x": 172,
+      "z": -256,
+      "w": 38.1039,
+      "d": 57.1168,
+      "h": 188.16,
+      "assetHeight": 168,
+      "family": "aer_glass",
+      "style": "financial",
+      "district": "financial",
+      "angle": 0,
+      "roof": "roofkit",
+      "damageClass": "full",
+      "category": "landmark",
+      "block": "9:4",
+      "landmark": "Crown Helix",
+      "tile": "9,6"
+    },
+    "player": [
+      140.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "enemy": [
+      160.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "hp": 75,
+    "mode": "play",
+    "stage": "ground",
+    "ragdoll": false,
+    "state": "HOVER",
+    "contacts": [
+      {
+        "hp": 75,
+        "p": [
+          160.9480438232422,
+          6.0000001907348635,
+          -256
+        ],
+        "visible": true
+      }
+    ],
+    "beam": 0,
+    "end": [
+      0,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "effects": {
+        "scars": 3,
+        "fires": 2,
+        "particles": 62,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 1,
+      "brokenComponents": 5,
+      "activeDebris": 16,
+      "staticDebris": 0,
+      "debrisCap": 16,
+      "maxActivationMs": 4.6000000005587935,
+      "states": [
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "broken": 5,
+          "stage": "local",
+          "colliders": 294
+        }
+      ]
+    },
+    "activeFloors": [
+      2,
+      1
+    ],
+    "damage": [
+      {
+        "component": {
+          "id": 2,
+          "family": "aer_glass",
+          "key": "aer_glass_c00002",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.925204753875732,
+            10,
+            -2.4999999701976776
+          ],
+          "size": [
+            3.850409507751465,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": 137.0795864281164
+      },
+      {
+        "component": {
+          "id": 23,
+          "family": "aer_glass",
+          "key": "aer_glass_c00023",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.415909767150879,
+            10,
+            2.5
+          ],
+          "size": [
+            2.831819534301758,
+            4,
+            5.000000953674316
+          ]
+        },
+        "hp": 56.46845494156412
+      },
+      {
+        "component": {
+          "id": 42,
+          "family": "aer_glass",
+          "key": "aer_glass_c00042",
+          "kind": "wall",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.499999761581421,
+            10,
+            2.500000238418579
+          ],
+          "size": [
+            5.000000476837158,
+            4,
+            5.000000476837158
+          ]
+        },
+        "hp": 159.48137635500183
+      },
+      {
+        "component": {
+          "id": 1461,
+          "family": "aer_glass",
+          "key": "aer_glass_c01461",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.947729587554932,
+            7.044900894165039,
+            2.499999985098839
+          ],
+          "size": [
+            1.595301628112793,
+            1.9101982116699219,
+            5.000000029802322
+          ]
+        },
+        "hp": -3.593789963820644
+      },
+      {
+        "component": {
+          "id": 1467,
+          "family": "aer_glass",
+          "key": "aer_glass_c01467",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -13.137814998626709,
+            7.0438947677612305,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.1358613967895508,
+            1.912210464477539,
+            5.000000059604645
+          ]
+        },
+        "hp": 82.44614277979021
+      },
+      {
+        "component": {
+          "id": 2571,
+          "family": "aer_glass",
+          "key": "aer_glass_c02571",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.285285472869873,
+            10,
+            -2.5
+          ],
+          "size": [
+            1.0986967086791992,
+            4,
+            5
+          ]
+        },
+        "hp": -13.009413514500814
+      },
+      {
+        "component": {
+          "id": 3210,
+          "family": "aer_glass",
+          "key": "aer_glass_c03210",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.091032028198242,
+            10,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4538154602050781,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": -38.978837812060554
+      },
+      {
+        "component": {
+          "id": 3580,
+          "family": "aer_glass",
+          "key": "aer_glass_c03580",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.196024894714355,
+            7.044040679931641,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.0023326873779297,
+            1.9119186401367188,
+            5.000000059604645
+          ]
+        },
+        "hp": -16.65348927709997
+      },
+      {
+        "component": {
+          "id": 3584,
+          "family": "aer_glass",
+          "key": "aer_glass_c03584",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.029285907745361,
+            7.044997453689575,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4133024215698242,
+            1.9100050926208496,
+            5.000000059604645
+          ]
+        },
+        "hp": -52
+      },
+      {
+        "component": {
+          "id": 4819,
+          "family": "aer_glass",
+          "key": "aer_glass_c04819",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.252692461556022,
+            8.149999999999999,
+            10.756029524999999
+          ],
+          "size": [
+            11.942656673112042,
+            0.2599999999999998,
+            18.705028050000003
+          ]
+        },
+        "hp": 159.37332682648974
+      },
+      {
+        "component": {
+          "id": 4821,
+          "family": "aer_glass",
+          "key": "aer_glass_c04821",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.837434768750001,
+            8.149999999999999,
+            -5.719487475000001
+          ],
+          "size": [
+            13.112141287499998,
+            0.2599999999999998,
+            14.24600595
+          ]
+        },
+        "hp": 131.510694151012
+      },
+      {
+        "component": {
+          "id": 43,
+          "family": "aer_glass",
+          "key": "aer_glass_c00043",
+          "kind": "wall",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.261725425720215,
+            5.9999998807907104,
+            -2.5
+          ],
+          "size": [
+            4.52345085144043,
+            4.000000238418579,
+            5
+          ]
+        },
+        "hp": 168.55942171633507
+      },
+      {
+        "component": {
+          "id": 3711,
+          "family": "aer_glass",
+          "key": "aer_glass_c03711",
+          "kind": "glass",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -9.064246654510498,
+            6,
+            -2.5
+          ],
+          "size": [
+            0.8710546493530273,
+            4,
+            5
+          ]
+        },
+        "hp": 6.945774489402616
+      }
+    ],
+    "coarse": 40
+  },
+  {
+    "label": "beam-1.4s",
+    "b": {
+      "id": 235,
+      "x": 172,
+      "z": -256,
+      "w": 38.1039,
+      "d": 57.1168,
+      "h": 188.16,
+      "assetHeight": 168,
+      "family": "aer_glass",
+      "style": "financial",
+      "district": "financial",
+      "angle": 0,
+      "roof": "roofkit",
+      "damageClass": "full",
+      "category": "landmark",
+      "block": "9:4",
+      "landmark": "Crown Helix",
+      "tile": "9,6"
+    },
+    "player": [
+      140.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "enemy": [
+      160.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "hp": 5.766666666666776,
+    "mode": "play",
+    "stage": "ground",
+    "ragdoll": false,
+    "state": "HOVER",
+    "contacts": [
+      {
+        "hp": 5.766666666666776,
+        "p": [
+          160.9480438232422,
+          6.0000001907348635,
+          -256
+        ],
+        "visible": true
+      }
+    ],
+    "beam": 1.1166666666666676,
+    "end": [
+      160.9480438232422,
+      7.0000001907348635,
+      -256
+    ],
+    "diagnostics": {
+      "effects": {
+        "scars": 3,
+        "fires": 2,
+        "particles": 64,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 1,
+      "brokenComponents": 5,
+      "activeDebris": 11,
+      "staticDebris": 5,
+      "debrisCap": 16,
+      "maxActivationMs": 4.6000000005587935,
+      "states": [
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "broken": 5,
+          "stage": "local",
+          "colliders": 294
+        }
+      ]
+    },
+    "activeFloors": [
+      2,
+      1
+    ],
+    "damage": [
+      {
+        "component": {
+          "id": 2,
+          "family": "aer_glass",
+          "key": "aer_glass_c00002",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.925204753875732,
+            10,
+            -2.4999999701976776
+          ],
+          "size": [
+            3.850409507751465,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": 137.0795864281164
+      },
+      {
+        "component": {
+          "id": 23,
+          "family": "aer_glass",
+          "key": "aer_glass_c00023",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.415909767150879,
+            10,
+            2.5
+          ],
+          "size": [
+            2.831819534301758,
+            4,
+            5.000000953674316
+          ]
+        },
+        "hp": 56.46845494156412
+      },
+      {
+        "component": {
+          "id": 42,
+          "family": "aer_glass",
+          "key": "aer_glass_c00042",
+          "kind": "wall",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.499999761581421,
+            10,
+            2.500000238418579
+          ],
+          "size": [
+            5.000000476837158,
+            4,
+            5.000000476837158
+          ]
+        },
+        "hp": 159.48137635500183
+      },
+      {
+        "component": {
+          "id": 1461,
+          "family": "aer_glass",
+          "key": "aer_glass_c01461",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.947729587554932,
+            7.044900894165039,
+            2.499999985098839
+          ],
+          "size": [
+            1.595301628112793,
+            1.9101982116699219,
+            5.000000029802322
+          ]
+        },
+        "hp": -3.593789963820644
+      },
+      {
+        "component": {
+          "id": 1467,
+          "family": "aer_glass",
+          "key": "aer_glass_c01467",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -13.137814998626709,
+            7.0438947677612305,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.1358613967895508,
+            1.912210464477539,
+            5.000000059604645
+          ]
+        },
+        "hp": 82.44614277979021
+      },
+      {
+        "component": {
+          "id": 2571,
+          "family": "aer_glass",
+          "key": "aer_glass_c02571",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.285285472869873,
+            10,
+            -2.5
+          ],
+          "size": [
+            1.0986967086791992,
+            4,
+            5
+          ]
+        },
+        "hp": -13.009413514500814
+      },
+      {
+        "component": {
+          "id": 3210,
+          "family": "aer_glass",
+          "key": "aer_glass_c03210",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.091032028198242,
+            10,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4538154602050781,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": -38.978837812060554
+      },
+      {
+        "component": {
+          "id": 3580,
+          "family": "aer_glass",
+          "key": "aer_glass_c03580",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.196024894714355,
+            7.044040679931641,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.0023326873779297,
+            1.9119186401367188,
+            5.000000059604645
+          ]
+        },
+        "hp": -16.65348927709997
+      },
+      {
+        "component": {
+          "id": 3584,
+          "family": "aer_glass",
+          "key": "aer_glass_c03584",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.029285907745361,
+            7.044997453689575,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4133024215698242,
+            1.9100050926208496,
+            5.000000059604645
+          ]
+        },
+        "hp": -52
+      },
+      {
+        "component": {
+          "id": 4819,
+          "family": "aer_glass",
+          "key": "aer_glass_c04819",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.252692461556022,
+            8.149999999999999,
+            10.756029524999999
+          ],
+          "size": [
+            11.942656673112042,
+            0.2599999999999998,
+            18.705028050000003
+          ]
+        },
+        "hp": 159.37332682648974
+      },
+      {
+        "component": {
+          "id": 4821,
+          "family": "aer_glass",
+          "key": "aer_glass_c04821",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.837434768750001,
+            8.149999999999999,
+            -5.719487475000001
+          ],
+          "size": [
+            13.112141287499998,
+            0.2599999999999998,
+            14.24600595
+          ]
+        },
+        "hp": 131.510694151012
+      },
+      {
+        "component": {
+          "id": 43,
+          "family": "aer_glass",
+          "key": "aer_glass_c00043",
+          "kind": "wall",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.261725425720215,
+            5.9999998807907104,
+            -2.5
+          ],
+          "size": [
+            4.52345085144043,
+            4.000000238418579,
+            5
+          ]
+        },
+        "hp": 168.55942171633507
+      },
+      {
+        "component": {
+          "id": 3711,
+          "family": "aer_glass",
+          "key": "aer_glass_c03711",
+          "kind": "glass",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -9.064246654510498,
+            6,
+            -2.5
+          ],
+          "size": [
+            0.8710546493530273,
+            4,
+            5
+          ]
+        },
+        "hp": 6.945774489402616
+      }
+    ],
+    "coarse": 40
+  },
+  {
+    "label": "beam-6.4s",
+    "b": {
+      "id": 235,
+      "x": 172,
+      "z": -256,
+      "w": 38.1039,
+      "d": 57.1168,
+      "h": 188.16,
+      "assetHeight": 168,
+      "family": "aer_glass",
+      "style": "financial",
+      "district": "financial",
+      "angle": 0,
+      "roof": "roofkit",
+      "damageClass": "full",
+      "category": "landmark",
+      "block": "9:4",
+      "landmark": "Crown Helix",
+      "tile": "9,6"
+    },
+    "player": [
+      140.9480438232422,
+      6.0000001907348635,
+      -256
+    ],
+    "enemy": [
+      162.35243225097656,
+      3.7911006927490236,
+      -255.30787658691406
+    ],
+    "hp": 0,
+    "mode": "play",
+    "stage": "ground",
+    "ragdoll": false,
+    "state": "HOVER",
+    "contacts": [],
+    "beam": 6.11666666666665,
+    "end": [
+      291.6152625934027,
+      7.938232369494232,
+      -255.76047569538972
+    ],
+    "diagnostics": {
+      "effects": {
+        "scars": 6,
+        "fires": 2,
+        "particles": 47,
+        "particleCap": 64
+      },
+      "coldStates": 0,
+      "collapseShowcases": 4,
+      "supportedBuildings": 971,
+      "damagedBuildings": 1,
+      "brokenComponents": 11,
+      "activeDebris": 7,
+      "staticDebris": 14,
+      "debrisCap": 16,
+      "maxActivationMs": 4.6000000005587935,
+      "states": [
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "broken": 11,
+          "stage": "local",
+          "colliders": 288
+        }
+      ]
+    },
+    "activeFloors": [
+      2,
+      1
+    ],
+    "damage": [
+      {
+        "component": {
+          "id": 2,
+          "family": "aer_glass",
+          "key": "aer_glass_c00002",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.925204753875732,
+            10,
+            -2.4999999701976776
+          ],
+          "size": [
+            3.850409507751465,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": 137.0795864281164
+      },
+      {
+        "component": {
+          "id": 23,
+          "family": "aer_glass",
+          "key": "aer_glass_c00023",
+          "kind": "wall",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.415909767150879,
+            10,
+            2.5
+          ],
+          "size": [
+            2.831819534301758,
+            4,
+            5.000000953674316
+          ]
+        },
+        "hp": 56.46845494156412
+      },
+      {
+        "component": {
+          "id": 42,
+          "family": "aer_glass",
+          "key": "aer_glass_c00042",
+          "kind": "wall",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.499999761581421,
+            10,
+            2.500000238418579
+          ],
+          "size": [
+            5.000000476837158,
+            4,
+            5.000000476837158
+          ]
+        },
+        "hp": 159.48137635500183
+      },
+      {
+        "component": {
+          "id": 1461,
+          "family": "aer_glass",
+          "key": "aer_glass_c01461",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -11.947729587554932,
+            7.044900894165039,
+            2.499999985098839
+          ],
+          "size": [
+            1.595301628112793,
+            1.9101982116699219,
+            5.000000029802322
+          ]
+        },
+        "hp": -3.593789963820644
+      },
+      {
+        "component": {
+          "id": 1467,
+          "family": "aer_glass",
+          "key": "aer_glass_c01467",
+          "kind": "wall",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -13.137814998626709,
+            7.0438947677612305,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.1358613967895508,
+            1.912210464477539,
+            5.000000059604645
+          ]
+        },
+        "hp": 82.44614277979021
+      },
+      {
+        "component": {
+          "id": 2571,
+          "family": "aer_glass",
+          "key": "aer_glass_c02571",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.285285472869873,
+            10,
+            -2.5
+          ],
+          "size": [
+            1.0986967086791992,
+            4,
+            5
+          ]
+        },
+        "hp": -13.009413514500814
+      },
+      {
+        "component": {
+          "id": 3210,
+          "family": "aer_glass",
+          "key": "aer_glass_c03210",
+          "kind": "glass",
+          "floor": 2,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.091032028198242,
+            10,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4538154602050781,
+            4,
+            5.000000059604645
+          ]
+        },
+        "hp": -38.978837812060554
+      },
+      {
+        "component": {
+          "id": 3580,
+          "family": "aer_glass",
+          "key": "aer_glass_c03580",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -13.196024894714355,
+            7.044040679931641,
+            -2.4999999701976776
+          ],
+          "size": [
+            1.0023326873779297,
+            1.9119186401367188,
+            5.000000059604645
+          ]
+        },
+        "hp": -16.65348927709997
+      },
+      {
+        "component": {
+          "id": 3584,
+          "family": "aer_glass",
+          "key": "aer_glass_c03584",
+          "kind": "glass",
+          "floor": 1,
+          "side": 3,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -12.029285907745361,
+            7.044997453689575,
+            2.4999999701976776
+          ],
+          "size": [
+            1.4133024215698242,
+            1.9100050926208496,
+            5.000000059604645
+          ]
+        },
+        "hp": -52
+      },
+      {
+        "component": {
+          "id": 4819,
+          "family": "aer_glass",
+          "key": "aer_glass_c04819",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.252692461556022,
+            8.149999999999999,
+            10.756029524999999
+          ],
+          "size": [
+            11.942656673112042,
+            0.2599999999999998,
+            18.705028050000003
+          ]
+        },
+        "hp": 159.37332682648974
+      },
+      {
+        "component": {
+          "id": 4821,
+          "family": "aer_glass",
+          "key": "aer_glass_c04821",
+          "kind": "slab",
+          "floor": 2,
+          "side": -1,
+          "structural": false,
+          "hp": 240,
+          "center": [
+            -5.837434768750001,
+            8.149999999999999,
+            -5.719487475000001
+          ],
+          "size": [
+            13.112141287499998,
+            0.2599999999999998,
+            14.24600595
+          ]
+        },
+        "hp": 131.510694151012
+      },
+      {
+        "component": {
+          "id": 43,
+          "family": "aer_glass",
+          "key": "aer_glass_c00043",
+          "kind": "wall",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -7.261725425720215,
+            5.9999998807907104,
+            -2.5
+          ],
+          "size": [
+            4.52345085144043,
+            4.000000238418579,
+            5
+          ]
+        },
+        "hp": 168.55942171633507
+      },
+      {
+        "component": {
+          "id": 3711,
+          "family": "aer_glass",
+          "key": "aer_glass_c03711",
+          "kind": "glass",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -9.064246654510498,
+            6,
+            -2.5
+          ],
+          "size": [
+            0.8710546493530273,
+            4,
+            5
+          ]
+        },
+        "hp": 6.945774489402616
+      },
+      {
+        "component": {
+          "id": 3697,
+          "family": "aer_glass",
+          "key": "aer_glass_c03697",
+          "kind": "glass",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            -7.9448676109313965,
+            5.631218194961548,
+            2.5
+          ],
+          "size": [
+            1.381901741027832,
+            4.737563610076904,
+            5
+          ]
+        },
+        "hp": -8
+      },
+      {
+        "component": {
+          "id": 34,
+          "family": "aer_glass",
+          "key": "aer_glass_c00034",
+          "kind": "wall",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            -6.930701971054077,
+            6,
+            2.499999998137355
+          ],
+          "size": [
+            3.46726655960083,
+            4,
+            5.00000000372529
+          ]
+        },
+        "hp": -2
+      },
+      {
+        "component": {
+          "id": 56,
+          "family": "aer_glass",
+          "key": "aer_glass_c00056",
+          "kind": "wall",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            7.3172314167022705,
+            5.9999998807907104,
+            2.5
+          ],
+          "size": [
+            2.6906886100769043,
+            4.000000238418579,
+            5
+          ]
+        },
+        "hp": -2
+      },
+      {
+        "component": {
+          "id": 3715,
+          "family": "aer_glass",
+          "key": "aer_glass_c03715",
+          "kind": "glass",
+          "floor": 1,
+          "side": -1,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            7.310229778289795,
+            6,
+            2.5
+          ],
+          "size": [
+            2.647658348083496,
+            4,
+            5
+          ]
+        },
+        "hp": -8
+      },
+      {
+        "component": {
+          "id": 1463,
+          "family": "aer_glass",
+          "key": "aer_glass_c01463",
+          "kind": "wall",
+          "floor": 1,
+          "side": 1,
+          "structural": false,
+          "hp": 180,
+          "center": [
+            11.947646617889404,
+            7.044902324676514,
+            2.5
+          ],
+          "size": [
+            1.595292091369629,
+            1.9101953506469727,
+            5
+          ]
+        },
+        "hp": -2
+      },
+      {
+        "component": {
+          "id": 3583,
+          "family": "aer_glass",
+          "key": "aer_glass_c03583",
+          "kind": "glass",
+          "floor": 1,
+          "side": 1,
+          "structural": false,
+          "hp": 18,
+          "center": [
+            12.029150485992432,
+            7.0449981689453125,
+            2.5
+          ],
+          "size": [
+            1.4133195877075195,
+            1.910003662109375,
+            5
+          ]
+        },
+        "hp": -8
+      }
+    ],
+    "coarse": 40
+  }
+]

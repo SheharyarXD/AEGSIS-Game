@@ -1,0 +1,707 @@
+{
+  "name": "AEGIS original architectural kit",
+  "creator": "AEGIS project, procedural Blender authoring",
+  "source": "art/environment/build.py",
+  "license": "Original project assets; no third-party model content",
+  "commercialUse": true,
+  "authoredDate": "2026-10-11",
+  "units": "metres, Y-up after glTF export",
+  "blenderVersion": "4.5.14 LTS",
+  "objects": [
+    {
+      "name": "financial_far__wall_financial",
+      "vertices": 48,
+      "triangles": 84,
+      "material": "wall_financial",
+      "uv": true,
+      "signedVolume": 0.8547040127677922
+    },
+    {
+      "name": "financial_far__steel",
+      "vertices": 38,
+      "triangles": 56,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.023930540600072908
+    },
+    {
+      "name": "financial_far__stone",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.04006889429086176
+    },
+    {
+      "name": "financial_far__roof",
+      "vertices": 12,
+      "triangles": 14,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.11380112073128756
+    },
+    {
+      "name": "financial_near__wall_financial",
+      "vertices": 48,
+      "triangles": 84,
+      "material": "wall_financial",
+      "uv": true,
+      "signedVolume": 0.8547040127677922
+    },
+    {
+      "name": "financial_near__steel",
+      "vertices": 134,
+      "triangles": 200,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.026649741863222637
+    },
+    {
+      "name": "financial_near__stone",
+      "vertices": 144,
+      "triangles": 216,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.08458182456636656
+    },
+    {
+      "name": "financial_near__roof",
+      "vertices": 28,
+      "triangles": 38,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.11393936130042102
+    },
+    {
+      "name": "deco_far__wall_deco",
+      "vertices": 64,
+      "triangles": 112,
+      "material": "wall_deco",
+      "uv": true,
+      "signedVolume": 0.8278349960315228
+    },
+    {
+      "name": "deco_far__stone",
+      "vertices": 40,
+      "triangles": 60,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.062398672638088334
+    },
+    {
+      "name": "deco_far__roof",
+      "vertices": 12,
+      "triangles": 14,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.07846742508110169
+    },
+    {
+      "name": "deco_far__steel",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.0007560017888544402
+    },
+    {
+      "name": "deco_near__wall_deco",
+      "vertices": 64,
+      "triangles": 112,
+      "material": "wall_deco",
+      "uv": true,
+      "signedVolume": 0.8278349960315228
+    },
+    {
+      "name": "deco_near__stone",
+      "vertices": 256,
+      "triangles": 384,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.10649861686064833
+    },
+    {
+      "name": "deco_near__roof",
+      "vertices": 28,
+      "triangles": 38,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.07860566565023515
+    },
+    {
+      "name": "deco_near__steel",
+      "vertices": 72,
+      "triangles": 108,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.0035747977922190874
+    },
+    {
+      "name": "gothic_far__wall_gothic",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "wall_gothic",
+      "uv": true,
+      "signedVolume": 0.9706200000858307
+    },
+    {
+      "name": "gothic_far__stone",
+      "vertices": 24,
+      "triangles": 36,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.05651209704391119
+    },
+    {
+      "name": "gothic_far__roof",
+      "vertices": 22,
+      "triangles": 26,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.2619365795629166
+    },
+    {
+      "name": "gothic_far__steel",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.0007560017888544402
+    },
+    {
+      "name": "gothic_near__wall_gothic",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "wall_gothic",
+      "uv": true,
+      "signedVolume": 0.9706200000858307
+    },
+    {
+      "name": "gothic_near__stone",
+      "vertices": 5504,
+      "triangles": 9024,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.1347984765374615
+    },
+    {
+      "name": "gothic_near__roof",
+      "vertices": 78,
+      "triangles": 98,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.2633160458215856
+    },
+    {
+      "name": "gothic_near__steel",
+      "vertices": 24,
+      "triangles": 36,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.0010151990454555252
+    },
+    {
+      "name": "industrial_far__wall_industrial",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "wall_industrial",
+      "uv": true,
+      "signedVolume": 0.9179199992275238
+    },
+    {
+      "name": "industrial_far__stone",
+      "vertices": 24,
+      "triangles": 36,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.054406830406165035
+    },
+    {
+      "name": "industrial_far__roof",
+      "vertices": 12,
+      "triangles": 14,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.18353515166148193
+    },
+    {
+      "name": "industrial_far__steel",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.0007560017888544402
+    },
+    {
+      "name": "industrial_near__wall_industrial",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "wall_industrial",
+      "uv": true,
+      "signedVolume": 0.9179199992275238
+    },
+    {
+      "name": "industrial_near__stone",
+      "vertices": 200,
+      "triangles": 300,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.07284664063881091
+    },
+    {
+      "name": "industrial_near__roof",
+      "vertices": 28,
+      "triangles": 38,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.18367339898587617
+    },
+    {
+      "name": "industrial_near__steel",
+      "vertices": 64,
+      "triangles": 96,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.014245191352207632
+    },
+    {
+      "name": "residential_far__wall_residential",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "wall_residential",
+      "uv": true,
+      "signedVolume": 0.9875199979877469
+    },
+    {
+      "name": "residential_far__stone",
+      "vertices": 24,
+      "triangles": 36,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.05667661585390782
+    },
+    {
+      "name": "residential_far__roof",
+      "vertices": 12,
+      "triangles": 14,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.26620263308377573
+    },
+    {
+      "name": "residential_far__steel",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.0007560017888544402
+    },
+    {
+      "name": "residential_near__wall_residential",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "wall_residential",
+      "uv": true,
+      "signedVolume": 0.9875199979877469
+    },
+    {
+      "name": "residential_near__stone",
+      "vertices": 240,
+      "triangles": 360,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.10584089777420325
+    },
+    {
+      "name": "residential_near__roof",
+      "vertices": 28,
+      "triangles": 38,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.2663408736529092
+    },
+    {
+      "name": "residential_near__steel",
+      "vertices": 136,
+      "triangles": 204,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.009345194030317975
+    },
+    {
+      "name": "parapet__stone",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.17903700809276102
+    },
+    {
+      "name": "parapet__steel",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.011999988287687557
+    },
+    {
+      "name": "portal__stone",
+      "vertices": 392,
+      "triangles": 660,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 10.762156813700539
+    },
+    {
+      "name": "portal__roof",
+      "vertices": 48,
+      "triangles": 88,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 1.5372331280976583
+    },
+    {
+      "name": "portal__steel",
+      "vertices": 48,
+      "triangles": 72,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.07199995565413975
+    },
+    {
+      "name": "roofkit__steel",
+      "vertices": 148,
+      "triangles": 248,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 78.70221380272939
+    },
+    {
+      "name": "roofkit__roof",
+      "vertices": 232,
+      "triangles": 384,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 5.078898392783961
+    },
+    {
+      "name": "roofkit__stone",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 71.91043050454681
+    },
+    {
+      "name": "tank__steel",
+      "vertices": 92,
+      "triangles": 160,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 49.21678544466882
+    },
+    {
+      "name": "tank__roof",
+      "vertices": 17,
+      "triangles": 30,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 1.4817511715657032
+    },
+    {
+      "name": "helipad__roof",
+      "vertices": 64,
+      "triangles": 124,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 3.2970264035603103
+    },
+    {
+      "name": "helipad__paint",
+      "vertices": 152,
+      "triangles": 292,
+      "material": "paint",
+      "uv": true,
+      "signedVolume": 0.5256467395410495
+    },
+    {
+      "name": "helipad__warm",
+      "vertices": 32,
+      "triangles": 56,
+      "material": "warm",
+      "uv": true,
+      "signedVolume": 0.01912015784335129
+    },
+    {
+      "name": "spire__stone",
+      "vertices": 64,
+      "triangles": 116,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 64.52081681231914
+    },
+    {
+      "name": "spire__roof",
+      "vertices": 9,
+      "triangles": 14,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 30.631865260075706
+    },
+    {
+      "name": "spire__steel",
+      "vertices": 12,
+      "triangles": 20,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.028059221549499122
+    },
+    {
+      "name": "lamp__steel",
+      "vertices": 48,
+      "triangles": 84,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.3419728550083393
+    },
+    {
+      "name": "lamp__warm",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "warm",
+      "uv": true,
+      "signedVolume": 0.02415009337366092
+    },
+    {
+      "name": "bench__roof",
+      "vertices": 48,
+      "triangles": 88,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.35204795791888416
+    },
+    {
+      "name": "bench__steel",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 0.11700007307529249
+    },
+    {
+      "name": "shop__steel",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 4.700892175257746
+    },
+    {
+      "name": "shop__glass",
+      "vertices": 32,
+      "triangles": 48,
+      "material": "glass",
+      "uv": true,
+      "signedVolume": 2.4480008711815615
+    },
+    {
+      "name": "shop__neon",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "neon",
+      "uv": true,
+      "signedVolume": 0.10079995794291108
+    },
+    {
+      "name": "sign__steel",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 3.8925544617087167
+    },
+    {
+      "name": "sign__neon",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "neon",
+      "uv": true,
+      "signedVolume": 0.31360019068719197
+    },
+    {
+      "name": "container__steel",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 38.964819969899466
+    },
+    {
+      "name": "container__roof",
+      "vertices": 208,
+      "triangles": 312,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.11023999683411995
+    },
+    {
+      "name": "crane__steel",
+      "vertices": 576,
+      "triangles": 964,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 564.5232846048555
+    },
+    {
+      "name": "crane__roof",
+      "vertices": 12,
+      "triangles": 20,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.115742860717857
+    },
+    {
+      "name": "crane__warm",
+      "vertices": 8,
+      "triangles": 12,
+      "material": "warm",
+      "uv": true,
+      "signedVolume": 3.9199988651275817
+    },
+    {
+      "name": "bridge__road",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "road",
+      "uv": true,
+      "signedVolume": 2303.713939522155
+    },
+    {
+      "name": "bridge__steel",
+      "vertices": 432,
+      "triangles": 720,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 59.04051303243324
+    },
+    {
+      "name": "car__steel",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 5.555000048577769
+    },
+    {
+      "name": "car__glass",
+      "vertices": 24,
+      "triangles": 44,
+      "material": "glass",
+      "uv": true,
+      "signedVolume": 2.362325428707757
+    },
+    {
+      "name": "car__roof",
+      "vertices": 96,
+      "triangles": 176,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 0.34560002350536057
+    },
+    {
+      "name": "car__warm",
+      "vertices": 16,
+      "triangles": 24,
+      "material": "warm",
+      "uv": true,
+      "signedVolume": 0.002925011263788198
+    },
+    {
+      "name": "tree__stone",
+      "vertices": 72,
+      "triangles": 120,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 0.583792959875979
+    },
+    {
+      "name": "tree__green",
+      "vertices": 60,
+      "triangles": 100,
+      "material": "green",
+      "uv": true,
+      "signedVolume": 183.28869372811852
+    },
+    {
+      "name": "cathedral__stone",
+      "vertices": 3092,
+      "triangles": 5320,
+      "material": "stone",
+      "uv": true,
+      "signedVolume": 73912.58554669427
+    },
+    {
+      "name": "cathedral__roof",
+      "vertices": 25,
+      "triangles": 27,
+      "material": "roof",
+      "uv": true,
+      "signedVolume": 11653.90290045626
+    },
+    {
+      "name": "cathedral__glass",
+      "vertices": 202,
+      "triangles": 258,
+      "material": "glass",
+      "uv": true,
+      "signedVolume": 1358.380228741045
+    },
+    {
+      "name": "cathedral__steel",
+      "vertices": 144,
+      "triangles": 240,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 1.9753844808081322
+    },
+    {
+      "name": "crown__glass",
+      "vertices": 96,
+      "triangles": 176,
+      "material": "glass",
+      "uv": true,
+      "signedVolume": 472776.536057404
+    },
+    {
+      "name": "crown__steel",
+      "vertices": 736,
+      "triangles": 1176,
+      "material": "steel",
+      "uv": true,
+      "signedVolume": 7438.495163845065
+    },
+    {
+      "name": "crown__neon",
+      "vertices": 12,
+      "triangles": 20,
+      "material": "neon",
+      "uv": true,
+      "signedVolume": 2.263351925743346
+    }
+  ],
+  "glbBytes": 2935140,
+  "exports": [
+    {
+      "file": "aegis-city-kit.glb",
+      "bytes": 2935140
+    },
+    {
+      "file": "aegis-skyline-lod.glb",
+      "bytes": 934884
+    },
+    {
+      "file": "aegis-landmarks.glb",
+      "bytes": 1464668
+    }
+  ]
+}

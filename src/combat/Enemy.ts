@@ -6,7 +6,7 @@ import { CharacterBody, PhysicsWorld } from '../physics/PhysicsWorld';
 import { Ragdoll } from '../physics/Ragdoll';
 
 export class Enemy {
-  readonly suit=new AegisSuit();
+  readonly suit=new AegisSuit({energy:'#ff4a26',lod:true});
   readonly object=this.suit.group;
   readonly body:CharacterBody;
   readonly ragdoll:Ragdoll;

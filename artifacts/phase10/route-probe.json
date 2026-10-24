@@ -1,0 +1,73 @@
+{
+  "b": {
+    "id": 287,
+    "x": 172,
+    "z": -112,
+    "w": 29.2316,
+    "d": 26.2717,
+    "h": 32.2,
+    "assetHeight": 28,
+    "family": "city_meridian_arcade",
+    "style": "deco",
+    "district": "commercial",
+    "angle": 0,
+    "roof": "roofkit",
+    "damageClass": "full",
+    "category": "landmark",
+    "block": "9:5",
+    "landmark": "Prism Exchange",
+    "tile": "9,7"
+  },
+  "p": {
+    "buildingId": 287,
+    "entry": {
+      "x": 172.00100708007812,
+      "y": 2.42,
+      "z": -98.06415
+    },
+    "exit": {
+      "x": 172.00100708007812,
+      "y": 2.42,
+      "z": -125.93585
+    },
+    "direction": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    "length": 27.871700000000004,
+    "radius": 2.75,
+    "halfHeight": 2.3
+  },
+  "foot": [
+    172.00100708007812,
+    0.020019364356994584,
+    -76.00328063964844
+  ],
+  "entry": {
+    "x": 172.00100708007812,
+    "y": 1.3699999999999999,
+    "z": -97.71415
+  },
+  "reason": "ENTRY APPROACH OBSTRUCTED",
+  "hit": {
+    "at": 21.452219009399414,
+    "translation": {
+      "x": 172,
+      "y": 3.0999999046325684,
+      "z": -98.46414947509766
+    },
+    "surface": {
+      "kind": "world"
+    },
+    "prop": true,
+    "shape": {
+      "type": 1,
+      "halfExtents": {
+        "x": 2.55,
+        "y": 0.2,
+        "z": 0.675
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-15",
+  "scope": "Main AEGIS street/detail/lighting and architecture VFX update",
+  "build": {
+    "command": "npm.cmd run build",
+    "exitCode": 0,
+    "knownWarning": "Existing large physics and Three.js chunks"
+  },
+  "unitTests": {
+    "passed": 30,
+    "failed": 0,
+    "raw": "unit-tests.txt"
+  },
+  "browserTests": {
+    "startTime": "2026-10-15T15:44:13.839Z",
+    "duration": 375046.556,
+    "expected": 40,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "attachmentRepeatTests": {
+    "startTime": "2026-10-15T15:39:08.619Z",
+    "duration": 130522.344,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "performanceChecks": {
+    "before": {
+      "samples": 12,
+      "failed": 0
+    },
+    "after": {
+      "samples": 12,
+      "failed": 0
+    },
+    "after-native-1080p": {
+      "samples": 3,
+      "failed": 0
+    }
+  },
+  "captureErrors": {
+    "before": [],
+    "after": []
+  },
+  "lowKeyboardGameplayErrors": [],
+  "protectedSource": {
+    "files": 31,
+    "unchanged": true
+  },
+  "providedExternalModels": {
+    "inspected": 15,
+    "allUnchanged": true,
+    "files": [
+      {
+        "file": "art\\external\\art_deco_citadel.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\Downtown City MegaKit[Standard].zip",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\downtown_buildings_set_-_low_poly_model.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\free_london_skyscraper.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\gothic_architectural_structures.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\gothic_building_for_aria_pack_1.0.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\industrial_asset_pack_free.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\industrial_buildings_set_-_low_poly_models.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\mega_moduler_apartment_building.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\modern_city_block.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\pbr_street_props_pack_game_ready.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\rooftop_ventilation_modular_kit.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\scifi_gothic_building_pack-_bridge.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\singapore_office_skyscraper_free.glb",
+        "unchangedSinceInventory": true
+      },
+      {
+        "file": "art\\external\\urban_modular_environment.glb",
+        "unchangedSinceInventory": true
+      }
+    ]
+  },
+  "httpPackageFiles": 408,
+  "httpPackageErrors": [],
+  "reviewAndPackageBrowser": {
+    "slider": true,
+    "heroBlockLauncher": true,
+    "packagedMain": true,
+    "errors": []
+  },
+  "modifiedWorldFiles": [
+    "src/world/ArchitectureDestruction.ts",
+    "src/world/City.ts",
+    "src/world/EnvironmentalDestruction.ts",
+    "src/world/environment/ArchitecturalLights.ts",
+    "src/world/environment/ArchitectureImpactEffects.ts",
+    "src/world/environment/AssetLibrary.ts",
+    "src/world/environment/Atmosphere.ts",
+    "src/world/environment/EnvironmentMaterials.ts",
+    "src/world/environment/UrbanSurfaces.ts"
+  ],
+  "newWorldFiles": [
+    "src/world/environment/StreetMaterials.ts",
+    "src/world/environment/StreetSigns.ts",
+    "src/world/environment/WetStreetReflections.ts"
+  ],
+  "limits": [
+    "Timing samples are single six-second runs, not device certification.",
+    "LOW native1080p uses1632x918 internal rendering.",
+    "Wet reflection proxies omit dynamic objects and exact view-dependent reflection.",
+    "Smoke is noise billboards; source facade components constrain fracture resolution.",
+    "Existing vehicle and foliage styling limits visual realism.",
+    "Static package is about269MiB with alternative texture formats; not portal certified."
+  ]
+}

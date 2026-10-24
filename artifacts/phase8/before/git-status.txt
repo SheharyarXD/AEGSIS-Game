@@ -1,0 +1,207 @@
+ M .gitignore
+ M README.md
+ M artifacts/browser-results.json
+ M artifacts/performance.json
+ M artifacts/qa-boss.png
+ M artifacts/qa-destruction.png
+ M artifacts/qa-flight.png
+ M artifacts/qa-ragdoll-wall.png
+ M package.json
+ M scripts/character-preview.html
+ M src/audio/AudioSystem.ts
+ M src/camera/CameraRig.ts
+ M src/combat/Encounter.ts
+ M src/combat/Enemy.ts
+ M src/input/InputController.ts
+ M src/main.ts
+ M src/physics/Destruction.ts
+ M src/physics/PhysicsWorld.ts
+ M src/player/AegisSuit.ts
+ M src/player/FlightState.ts
+ M src/player/PlayerController.ts
+ M src/ui/Hud.ts
+ M src/vfx/FlightVfx.ts
+ M src/vfx/ImpactVfx.ts
+ M src/world/City.ts
+ M tests/browser.spec.mjs
+?? "Resource protoypes/"
+?? apply-aegis-upgrade.mjs
+?? apply-mark-ii.mjs
+?? art/
+?? artifacts/city-redesign/
+?? artifacts/environment/
+?? artifacts/hero-qa/
+?? artifacts/hero-video/
+?? artifacts/perf-after-phase2-gpu-shared-run1.json
+?? artifacts/perf-after-phase2-gpu-shared-run2.json
+?? artifacts/perf-after-phase2-gpu-shared-run3.json
+?? artifacts/perf-after-phase3-run1.json
+?? artifacts/perf-after-phase3-run2.json
+?? artifacts/perf-after-phase3-run3.json
+?? artifacts/perf-after-phase4-run1.json
+?? artifacts/perf-after-phase4-run2.json
+?? artifacts/perf-after-phase4-run3.json
+?? artifacts/perf-before-phase2-run1.json
+?? artifacts/perf-before-phase2-run2.json
+?? artifacts/perf-before-phase2-run3.json
+?? artifacts/phase6-integration/
+?? artifacts/phase7/
+?? artifacts/phase8/
+?? artifacts/qa-beam-hover.png
+?? artifacts/qa-beam.png
+?? artifacts/qa-form-armor.png
+?? artifacts/qa-form-change.png
+?? artifacts/qa-form-pilot.png
+?? artifacts/qa-form-stepout.png
+?? artifacts/qa-landing.png
+?? artifacts/sheet_forms_zoom.png
+?? artifacts/visibility-destruction-fix/
+?? artifacts/world-realism/
+?? docs/CITY-REDESIGN-AUDIT.md
+?? docs/CITY-REDESIGN-HANDOFF.md
+?? docs/CITY-REDESIGN-MASTER-PLAN.md
+?? docs/ENVIRONMENT-AUDIT.md
+?? docs/ENVIRONMENT-BOOTSTRAP.patch
+?? docs/ENVIRONMENT-INTEGRATION.md
+?? docs/ENVIRONMENT-REPORT.md
+?? docs/PHASE6-CODEX-TO-CLAUDE-HANDOFF.md
+?? docs/PHASE7-CODEX-TO-CLAUDE-HANDOFF.md
+?? docs/WORLD-REALISM-AUDIT.md
+?? docs/WORLD-REALISM-HANDOFF.md
+?? playwright.city-redesign-counter.config.mjs
+?? playwright.city-redesign.config.mjs
+?? playwright.environment.config.mjs
+?? playwright.integration.config.mjs
+?? playwright.phase7.config.mjs
+?? playwright.visibility-destruction.config.mjs
+?? playwright.world-realism.config.mjs
+?? public/assets/AEGIS-markII-target.png
+?? public/assets/aegis-hero-lod.glb
+?? public/assets/aegis-hero-manifest.json
+?? public/assets/aegis-hero.glb
+?? public/assets/aegis-pilot-manifest.json
+?? public/assets/aegis-pilot.glb
+?? public/assets/environment/
+?? scripts/_dbg.mjs
+?? scripts/acquire-environment.mjs
+?? scripts/city-redesign-aggregate-browser.mjs
+?? scripts/city-redesign-asset-audit.mjs
+?? scripts/city-redesign-asset-manifest.py
+?? scripts/city-redesign-atlas.py
+?? scripts/city-redesign-capture.mjs
+?? scripts/city-redesign-damage-capture.mjs
+?? scripts/city-redesign-fractured-variants.mjs
+?? scripts/city-redesign-gameplay-video.mjs
+?? scripts/city-redesign-install-civic.py
+?? scripts/city-redesign-layout.py
+?? scripts/city-redesign-matched-capture.mjs
+?? scripts/city-redesign-package.mjs
+?? scripts/city-redesign-penetration-probe.mjs
+?? scripts/city-redesign-performance.mjs
+?? scripts/city-redesign-prepare-baseline.mjs
+?? scripts/city-redesign-preservation.py
+?? scripts/city-redesign-probe.mjs
+?? scripts/city-redesign-production-smoke.mjs
+?? scripts/city-redesign-report.mjs
+?? scripts/city-redesign-review-smoke.mjs
+?? scripts/city-redesign-runtime-textures.mjs
+?? scripts/city-redesign-street-textures.py
+?? scripts/city-redesign-strip-street.mjs
+?? scripts/city-redesign-verification.mjs
+?? scripts/city-redesign-weapons-video.mjs
+?? scripts/environment-baseline.mjs
+?? scripts/environment-capture.mjs
+?? scripts/environment-performance.mjs
+?? scripts/environment-report.mjs
+?? scripts/environment-slice.mjs
+?? scripts/finalize-hero.mjs
+?? scripts/hero-capture.mjs
+?? scripts/hero-qa.mjs
+?? scripts/integration-browser.mjs
+?? scripts/integration-capture.mjs
+?? scripts/integration-performance.mjs
+?? scripts/integration-smoke.mjs
+?? scripts/integration-video-frames.mjs
+?? scripts/markII-qa.mjs
+?? scripts/phase7-acquire.py
+?? scripts/phase7-aggregate-browser.mjs
+?? scripts/phase7-asset-audit.mjs
+?? scripts/phase7-backup-provided.py
+?? scripts/phase7-capture.mjs
+?? scripts/phase7-city-specs.py
+?? scripts/phase7-collision-contours.py
+?? scripts/phase7-deduplicate-textures.py
+?? scripts/phase7-destruction-capture.mjs
+?? scripts/phase7-destruction-performance.mjs
+?? scripts/phase7-diversity.py
+?? scripts/phase7-fixed-city.mjs
+?? scripts/phase7-flight-probe.mjs
+?? scripts/phase7-fractured-variants.mjs
+?? scripts/phase7-hardware-state.ps1
+?? scripts/phase7-inspect-provided.py
+?? scripts/phase7-install-provided.mjs
+?? scripts/phase7-layout.mjs
+?? scripts/phase7-optimize.mjs
+?? scripts/phase7-pack-materials.py
+?? scripts/phase7-package-runtime.ps1
+?? scripts/phase7-performance.mjs
+?? scripts/phase7-preservation-audit.py
+?? scripts/phase7-production-smoke.mjs
+?? scripts/phase7-provided-actions.mjs
+?? scripts/phase7-provided-capture.mjs
+?? scripts/phase7-provided-performance.mjs
+?? scripts/phase7-provided-textures.py
+?? scripts/phase7-refine-runtime.py
+?? scripts/phase7-review-link-check.mjs
+?? scripts/phase7-review-report.mjs
+?? scripts/phase7-textures.py
+?? scripts/phase7-verification-summary.mjs
+?? scripts/phase7-world-videos.mjs
+?? scripts/prepare-environment-materials.mjs
+?? scripts/prepare-hero-rig.mjs
+?? scripts/validate-environment-assets.mjs
+?? scripts/visibility-destruction-probe.mjs
+?? scripts/world-realism-allowlist.mjs
+?? scripts/world-realism-audit.mjs
+?? scripts/world-realism-capture.mjs
+?? scripts/world-realism-debug-projection.mjs
+?? scripts/world-realism-low-capture.mjs
+?? scripts/world-realism-package.mjs
+?? scripts/world-realism-performance.mjs
+?? scripts/world-realism-report.mjs
+?? scripts/world-realism-review-check.mjs
+?? src/combat/HandWeapons.ts
+?? src/combat/Melee.ts
+?? src/combat/Missiles.ts
+?? src/combat/Targeting.ts
+?? src/input/Controls.ts
+?? src/player/AegisIdentity.ts
+?? src/player/AegisMarkII.ts
+?? src/player/SuitAssembly.ts
+?? src/player/assemblyManifest.ts
+?? src/vfx/PartThrusters.ts
+?? src/vite-env.d.ts
+?? src/world/ArchitectureDestruction.ts
+?? src/world/ArchitectureFamilies.ts
+?? src/world/CityLayout.ts
+?? src/world/CityPlan.ts
+?? src/world/CollisionTriangles.ts
+?? src/world/DamageIndex.ts
+?? src/world/DeploymentBay.ts
+?? src/world/DestructibleFamilies.ts
+?? src/world/EnvironmentalDestruction.ts
+?? src/world/FixedCityLayout.ts
+?? src/world/WorldCollision.ts
+?? src/world/WorldRecovery.ts
+?? src/world/WorldStreaming.ts
+?? src/world/environment/
+?? tests/architecture.browser.spec.mjs
+?? tests/city-redesign.browser.spec.mjs
+?? tests/environment.browser.spec.mjs
+?? tests/environment.test.ts
+?? tests/integration.browser.spec.mjs
+?? tests/visibility-destruction.browser.spec.mjs
+?? tests/visibility-destruction.test.ts
+?? tests/world-realism.browser.spec.mjs
+?? tests/world-realism.test.ts
+?? tests/world-recovery.test.ts

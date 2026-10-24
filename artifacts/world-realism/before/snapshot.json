@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-15",
+  "files": [
+    {
+      "file": "src/config.ts",
+      "sha256": "f61a24b08e66f8791bf8aeab8fab985dffd4cd2af112d2ac7a1484f69190a66a"
+    },
+    {
+      "file": "src/main.ts",
+      "sha256": "232355eafa4418726d034b725eb956b0b5a68d1ef9ccc288a052bc34b3bd035d"
+    },
+    {
+      "file": "src/styles.css",
+      "sha256": "e6503b1a714b69bba419dd5bcfdcbbee5369d3a36b558944b8bc8aa26d6ee606"
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "file": "src/audio/AudioSystem.ts",
+      "sha256": "42184a1bb6e231bdb1f2edb9cebb3c88ae94cd8dd45f0fc969800344946e3301"
+    },
+    {
+      "file": "src/camera/CameraRig.ts",
+      "sha256": "ff044d80abf2cd427b78eb074c8069cb02bb41cd99ebe497cddd70dc7790d2d1"
+    },
+    {
+      "file": "src/combat/Boss.ts",
+      "sha256": "838d34d6b81dcb1380fc2ef08250dbb9f0255b077e4d97a585738dd2f5da148c"
+    },
+    {
+      "file": "src/combat/Drone.ts",
+      "sha256": "f147752c7f52ef0e2da1b0b3af16ee3e3cbc7308be9e11becfd22aefb35c943c"
+    },
+    {
+      "file": "src/combat/Encounter.ts",
+      "sha256": "fe9275fb8f6f7a0795a284b1fe120cd4b9f10857f68ebfcc5e32b14ec701bdb1"
+    },
+    {
+      "file": "src/combat/Enemy.ts",
+      "sha256": "e535c268c88a477d1e19ea0d5f1a23a08d3728d4ab4f981219dae9686e2519b0"
+    },
+    {
+      "file": "src/combat/HandWeapons.ts",
+      "sha256": "17566b6f0459ea4dda4494750b195b51898602afde1831bf17d04c00edc00877"
+    },
+    {
+      "file": "src/combat/Melee.ts",
+      "sha256": "91893c8e6602a6fc101758665d70af3ed2d71130801d8dc235d640bff6083a0f"
+    },
+    {
+      "file": "src/combat/Missiles.ts",
+      "sha256": "a7dd839b13784954cc64ac1a7225de72ec6dcdc740870fb44fdb3807085f0900"
+    },
+    {
+      "file": "src/combat/Projectiles.ts",
+      "sha256": "f33d2b7011f6608b751bac1b3fd5263d24067a820da31ec0727c4ab3472c50b1"
+    },
+    {
+      "file": "src/combat/Targeting.ts",
+      "sha256": "bdf8f8aca6615cb5a0b5b93a074dcd4dbe3f7af75d715d999176e00645a4c90a"
+    },
+    {
+      "file": "src/input/Controls.ts",
+      "sha256": "79e7d42228e96862cda302fb084082153f3b003f34c61afcc7912eebab773c3a"
+    },
+    {
+      "file": "src/input/InputController.ts",
+      "sha256": "261050eb8fbb7aab000dbf1634f039a3e4af698ac534452af6eaf035a34815ec"
+    },
+    {
+      "file": "src/physics/Destruction.ts",
+      "sha256": "db86c556c7f34349a822e54af7cad499efdd98516bf2b0a4e9d75ac6c169fe55"
+    },
+    {
+      "file": "src/physics/PhysicsWorld.ts",
+      "sha256": "c9c05c5a9b7f5143049eb25d010bbedcbce53e8be9c2fe2bcb6bee38e0adf3a2"
+    },
+    {
+      "file": "src/physics/Ragdoll.ts",
+      "sha256": "08b1da37a46ee8c21d1d96fc24f22d52e1a2948f14b97b69af5e9e3f8a235960"
+    },
+    {
+      "file": "src/player/AegisIdentity.ts",
+      "sha256": "abae0c66f506c13201e3e2a002153ca7a362dd2a633dc14bf59a3e974cc5c36c"
+    },
+    {
+      "file": "src/player/AegisMarkII.ts",
+      "sha256": "a2c79ddb055e113a7830b6ef34a9c34afe5757c38f00757d45b94e9bbcac67ef"
+    },
+    {
+      "file": "src/player/AegisSuit.ts",
+      "sha256": "bf7cf8c42dc7104e84a8114c1bad0611107c87241462e316e540a8b6aac85533"
+    },
+    {
+      "file": "src/player/assemblyManifest.ts",
+      "sha256": "c19e30e1d0cca6bd487ec72a0af04f3ffea8bbba806547bb51e550b08396276d"
+    },
+    {
+      "file": "src/player/FlightState.ts",
+      "sha256": "8f20d982b3c8272167794d9ef8af315ad26867693efb0c229bb2a034cfa2e6a4"
+    },
+    {
+      "file": "src/player/PlayerController.ts",
+      "sha256": "6a31cd58e6b06e03e33555597103c0dc7850bd8bc77787c0f0e97cb3b0134b68"
+    },
+    {
+      "file": "src/player/SuitAssembly.ts",
+      "sha256": "4b219e42bce7bd1fad92f9b4c5f13c540909176379c935300d9566afc342678e"
+    },
+    {
+      "file": "src/ui/Hud.ts",
+      "sha256": "7c01cd27e0593aa32aa38b36b7f8dc875a9dde4c994740d3e22bb442f0416f0c"
+    },
+    {
+      "file": "src/vfx/FlightVfx.ts",
+      "sha256": "419ea2fe8dcd507e34a3bdf4c1370b211fd367b37cd44e49505cdf006b5aabd9"
+    },
+    {
+      "file": "src/vfx/ImpactVfx.ts",
+      "sha256": "b969d8e4ae3077a6423ddd2f9722ea84b5eb4baa9efac62a76ab2af72e85c0c9"
+    },
+    {
+      "file": "src/vfx/PartThrusters.ts",
+      "sha256": "805be4e2cf8d374103fc2b59aa1c39b9af512585349bdf0fd972806f06c284d4"
+    },
+    {
+      "file": "src/world/ArchitectureDestruction.ts",
+      "sha256": "2ab1535a5307d8dad4129c18bf3dc09e4460812df83edb3db33a0a912d0bc4bc"
+    },
+    {
+      "file": "src/world/ArchitectureFamilies.ts",
+      "sha256": "842a27fd9a83bb0697e55df9adae4e1f08c52f50ab38381240cdad49da4c6c16"
+    },
+    {
+      "file": "src/world/City.ts",
+      "sha256": "73a377c5cb190fb93306e108c34ddb7268a554a49d2ce4acb92b3c586ce9f4b1"
+    },
+    {
+      "file": "src/world/CityLayout.ts",
+      "sha256": "02d1d2b6f0df0b3d4558da305b877c1ac3f915359721a6555a156a590334ba6c"
+    },
+    {
+      "file": "src/world/CityPlan.ts",
+      "sha256": "25d3d55f276661ccb7360a032cb8a2e0827ba1949e9e5f57b84549349ec7b4b8"
+    },
+    {
+      "file": "src/world/CollisionTriangles.ts",
+      "sha256": "f795a7f6c2d1152c5d7017283cb36c12d11458a01afa7f5a34fd1d90ec44808b"
+    },
+    {
+      "file": "src/world/DamageIndex.ts",
+      "sha256": "91374a130ed16b915ee1dce1905f7032834a0ae65e2fe70885acb3b31f60b59b"
+    },
+    {
+      "file": "src/world/DeploymentBay.ts",
+      "sha256": "01e2d2efd7f54fac031f4183fc918431a15ba4858cd0999672bff4b7e77cfe7e"
+    },
+    {
+      "file": "src/world/DestructibleFamilies.ts",
+      "sha256": "e21882f1f39ce270e9efa106ede5f590774d81735ff946cd7e9519aa55b7a633"
+    },
+    {
+      "file": "src/world/EnvironmentalDestruction.ts",
+      "sha256": "1a6d7116f9d7247f28e77d2d21f4ffab267320d9d80f0d9bd73fe7624a886462"
+    },
+    {
+      "file": "src/world/FixedCityLayout.ts",
+      "sha256": "f6b4e53ff0f88248726dfa6eff003cb53d43a58901ea7ef55ed9e8e9edf0670f"
+    },
+    {
+      "file": "src/world/GeometryBatch.ts",
+      "sha256": "2b2cc94035565ddc7eb624ad8ba771f38ed8ebec8ee12680100d5a8e7e1957f5"
+    },
+    {
+      "file": "src/world/WorldCollision.ts",
+      "sha256": "90907bbac57d8e2dd6e8b6b9296a1087b4554dca092797bb02ed627e50e7831b"
+    },
+    {
+      "file": "src/world/WorldRecovery.ts",
+      "sha256": "86e0b277523cb8b2d77fdac3e7e3aaa1a1d289c35c1d64d7bfdfa4f95e8dcc06"
+    },
+    {
+      "file": "src/world/WorldStreaming.ts",
+      "sha256": "9b990203bb1e42b32dbd626c80305a4e95fc2e2faf28e0a007a2fb6bed3b78d8"
+    },
+    {
+      "file": "src/world/environment/ArchitecturalLights.ts",
+      "sha256": "7d83399afbd697f8d0c96f4bb82a4663eb9fc6fecec072b556306ad295a8a235"
+    },
+    {
+      "file": "src/world/environment/ArchitectureImpactEffects.ts",
+      "sha256": "5122890322f344ba9b2098815a8e36caf2f0665a4f80bd2df39e6515c3ce39d5"
+    },
+    {
+      "file": "src/world/environment/AssetLibrary.ts",
+      "sha256": "8d51e884be5b6d94da5857df37fef11856f3c914d2bc5d90ffd8f297135c8d11"
+    },
+    {
+      "file": "src/world/environment/Atmosphere.ts",
+      "sha256": "4b29aa5bb135bcf63cc3a022461f3658046b58d47412115adfeb48367301faf4"
+    },
+    {
+      "file": "src/world/environment/CityInfrastructure.ts",
+      "sha256": "ccd4d95b0ebd62a9f1057892fcdc9b9812475d41706ee474a117522b2ddcb7a0"
+    },
+    {
+      "file": "src/world/environment/EnvironmentAudio.ts",
+      "sha256": "ba1321ed2c4b65d6513df294386e1fd02260a9e8e3f78d25ccb94691243603c6"
+    },
+    {
+      "file": "src/world/environment/EnvironmentDebug.ts",
+      "sha256": "7e3e0c01019486d90407c028cc41d1ba7fd6fcca3da028d1e2abce4d25d35dbe"
+    },
+    {
+      "file": "src/world/environment/EnvironmentMaterials.ts",
+      "sha256": "09859a48f32be7dc5048e3e75dd8f0f1c3e8c0c7b803358dfaef975499b75865"
+    },
+    {
+      "file": "src/world/environment/GpuProfiler.ts",
+      "sha256": "bcffa63e2c04146f884ace43d3c0eb10f1c7caad1bad1108a21156a6e1e413ab"
+    },
+    {
+      "file": "src/world/environment/Precipitation.ts",
+      "sha256": "b122616b8fb6e21e1c31eb3bdfefc04b340e265801c710bd29cdb2cb7313bb13"
+    },
+    {
+      "file": "src/world/environment/PremiumMaterials.ts",
+      "sha256": "798914e6f74925225db25a6efb5373b4d79afcb042f0c799b29cd6bcdb0283fd"
+    },
+    {
+      "file": "src/world/environment/UrbanAmbience.ts",
+      "sha256": "5011de7c8b51f06a3a3f16b2f3d53495a69a68c9c52fdf8cb5b2272a61e1cab0"
+    },
+    {
+      "file": "src/world/environment/UrbanSurfaces.ts",
+      "sha256": "bbfe4a9fd25a6bb730188b821444089d462f8774398aef442a3def3c462ba9c4"
+    },
+    {
+      "file": "src/world/environment/WeatherState.ts",
+      "sha256": "5caf16f7d2c35cd722670dc144bb821b619d6f463d0539f9a729bbd29f74ddbc"
+    },
+    {
+      "file": "tests/architecture.browser.spec.mjs",
+      "sha256": "7c3b48a62bfa9be3a3f8315253d5c9a2b6c136be46fcbca4c4602e014d9394a9"
+    },
+    {
+      "file": "tests/browser.spec.mjs",
+      "sha256": "d1cf27f13617f0c2eeb740848d1e33bd512295c37261e071d7ae365e8f863794"
+    },
+    {
+      "file": "tests/city-redesign.browser.spec.mjs",
+      "sha256": "db1848519e18a49f1db672e86e81fba94a85203d0feb0a8e5fb82d7e30592347"
+    },
+    {
+      "file": "tests/environment.browser.spec.mjs",
+      "sha256": "bdea95a29d886d3e80ee6ed236061509f916e4ff30398f028eafea6e702a4367"
+    },
+    {
+      "file": "tests/environment.test.ts",
+      "sha256": "58d0eca22cf4214b05c0a2b8340141789be52588986aeba9a360631b8f538bc7"
+    },
+    {
+      "file": "tests/integration.browser.spec.mjs",
+      "sha256": "d728dccc49188467e065fdc7d806fe4ca6ec2728b148d9818460ff7369ebb66d"
+    },
+    {
+      "file": "tests/physics.test.ts",
+      "sha256": "5dfb5258d73b6d8804c0f7ffca12d4d0e4120ac707b9904dbbadb1a86dd0222c"
+    },
+    {
+      "file": "tests/visibility-destruction.browser.spec.mjs",
+      "sha256": "6ca0c02d68856f3f59706fc5749996b862791d43ea4423f1e8efdaea6f0a0669"
+    },
+    {
+      "file": "tests/visibility-destruction.test.ts",
+      "sha256": "eac74f0f4ac8d689c305dac268f00f8122101c60c116c379b1ba6ae459b5c870"
+    },
+    {
+      "file": "tests/world-recovery.test.ts",
+      "sha256": "4ffdce9431e2e60af4d8041161785d44da80083888092342b5da5e362c482c64"
+    }
+  ],
+  "note": "Current working state, including the newer visibility/destruction fixes. Historical snapshots are not reused for this comparison."
+}

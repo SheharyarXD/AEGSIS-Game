@@ -1,0 +1,2455 @@
+{
+  "base": "http://127.0.0.1:5198",
+  "checked": 408,
+  "errors": [],
+  "files": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 1005,
+      "correctSize": true
+    },
+    {
+      "file": "assets/aegis-hero-lod.glb",
+      "status": 200,
+      "bytes": 1841368,
+      "correctSize": true
+    },
+    {
+      "file": "assets/aegis-hero-manifest.json",
+      "status": 200,
+      "bytes": 4879,
+      "correctSize": true
+    },
+    {
+      "file": "assets/aegis-hero.glb",
+      "status": 200,
+      "bytes": 14801892,
+      "correctSize": true
+    },
+    {
+      "file": "assets/AEGIS-markII-target.png",
+      "status": 200,
+      "bytes": 2606471,
+      "correctSize": true
+    },
+    {
+      "file": "assets/aegis-operative.glb",
+      "status": 200,
+      "bytes": 5116176,
+      "correctSize": true
+    },
+    {
+      "file": "assets/aegis-pilot-manifest.json",
+      "status": 200,
+      "bytes": 5120,
+      "correctSize": true
+    },
+    {
+      "file": "assets/aegis-pilot.glb",
+      "status": 200,
+      "bytes": 7257644,
+      "correctSize": true
+    },
+    {
+      "file": "assets/asset-manifest.json",
+      "status": 200,
+      "bytes": 4759,
+      "correctSize": true
+    },
+    {
+      "file": "assets/index-DhQgeF9A.js",
+      "status": 200,
+      "bytes": 731772,
+      "correctSize": true
+    },
+    {
+      "file": "assets/index-DngXQFvW.css",
+      "status": 200,
+      "bytes": 10135,
+      "correctSize": true
+    },
+    {
+      "file": "assets/LICENSE-godot.txt",
+      "status": 200,
+      "bytes": 1972,
+      "correctSize": true
+    },
+    {
+      "file": "assets/physics-OnF19VgH.js",
+      "status": 200,
+      "bytes": 4334395,
+      "correctSize": true
+    },
+    {
+      "file": "assets/three-BUhmZaaY.js",
+      "status": 200,
+      "bytes": 649278,
+      "correctSize": true
+    },
+    {
+      "file": "assets/titan-manifest.json",
+      "status": 200,
+      "bytes": 3089,
+      "correctSize": true
+    },
+    {
+      "file": "assets/titan-sentinel.glb",
+      "status": 200,
+      "bytes": 4255932,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/ATTRIBUTION.txt",
+      "status": 200,
+      "bytes": 7254,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/aegis-city-kit.glb",
+      "status": 200,
+      "bytes": 2935140,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/asphalt-diff.webp",
+      "status": 200,
+      "bytes": 99302,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/asphalt-normal.webp",
+      "status": 200,
+      "bytes": 83514,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/asphalt-rough.webp",
+      "status": 200,
+      "bytes": 89244,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/atlas-color.webp",
+      "status": 200,
+      "bytes": 104054,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/atlas-normal.webp",
+      "status": 200,
+      "bytes": 333736,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/atlas-orm.webp",
+      "status": 200,
+      "bytes": 43368,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/LICENSES.txt",
+      "status": 200,
+      "bytes": 1621,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/WORLD-REALISM-LICENSES.txt",
+      "status": 200,
+      "bytes": 1410,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/atlas-views.json",
+      "status": 200,
+      "bytes": 22494,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/concrete-color.webp",
+      "status": 200,
+      "bytes": 85114,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/concrete-normal.webp",
+      "status": 200,
+      "bytes": 64244,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/concrete-rough.webp",
+      "status": 200,
+      "bytes": 56064,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/metropolis-hlod-optimized.glb",
+      "status": 200,
+      "bytes": 23348,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/metropolis-street-kit-optimized.glb",
+      "status": 200,
+      "bytes": 185304,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/runtime-components.json",
+      "status": 200,
+      "bytes": 4508456,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/source-facades.dds",
+      "status": 200,
+      "bytes": 11184976,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/source-facades.webp",
+      "status": 200,
+      "bytes": 809122,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/street-details-optimized.glb",
+      "status": 200,
+      "bytes": 148320,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/street-texture-manifest.json",
+      "status": 200,
+      "bytes": 4835,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-0.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-0.webp",
+      "status": 200,
+      "bytes": 7756,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-1.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-1.webp",
+      "status": 200,
+      "bytes": 4820,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-10.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-10.webp",
+      "status": 200,
+      "bytes": 169712,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-11.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-11.webp",
+      "status": 200,
+      "bytes": 30850,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-12.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-12.webp",
+      "status": 200,
+      "bytes": 61648,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-13.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-13.webp",
+      "status": 200,
+      "bytes": 92126,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-14.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-14.webp",
+      "status": 200,
+      "bytes": 42926,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-15.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-15.webp",
+      "status": 200,
+      "bytes": 27884,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-16.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-16.webp",
+      "status": 200,
+      "bytes": 82024,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-17.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-17.webp",
+      "status": 200,
+      "bytes": 40322,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-18.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-18.webp",
+      "status": 200,
+      "bytes": 22080,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-19.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-19.webp",
+      "status": 200,
+      "bytes": 100258,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-2.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-2.webp",
+      "status": 200,
+      "bytes": 76776,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-20.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-20.webp",
+      "status": 200,
+      "bytes": 75510,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-21.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-21.webp",
+      "status": 200,
+      "bytes": 11668,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-22.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-22.webp",
+      "status": 200,
+      "bytes": 44008,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-23.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-23.webp",
+      "status": 200,
+      "bytes": 74596,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-24.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-24.webp",
+      "status": 200,
+      "bytes": 24274,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-25.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-25.webp",
+      "status": 200,
+      "bytes": 22224,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-26.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-26.webp",
+      "status": 200,
+      "bytes": 96872,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-27.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-27.webp",
+      "status": 200,
+      "bytes": 39024,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-28.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-28.webp",
+      "status": 200,
+      "bytes": 4194,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-29.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-29.webp",
+      "status": 200,
+      "bytes": 3124,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-3.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-3.webp",
+      "status": 200,
+      "bytes": 18022,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-30.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-30.webp",
+      "status": 200,
+      "bytes": 121662,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-31.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-31.webp",
+      "status": 200,
+      "bytes": 25832,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-32.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-32.webp",
+      "status": 200,
+      "bytes": 15612,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-34.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-34.webp",
+      "status": 200,
+      "bytes": 30614,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-35.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-35.webp",
+      "status": 200,
+      "bytes": 24404,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-36.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-36.webp",
+      "status": 200,
+      "bytes": 22690,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-4.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-4.webp",
+      "status": 200,
+      "bytes": 20174,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-5.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-5.webp",
+      "status": 200,
+      "bytes": 12036,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-6.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-6.webp",
+      "status": 200,
+      "bytes": 662,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-7.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-7.webp",
+      "status": 200,
+      "bytes": 58588,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-8.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-8.webp",
+      "status": 200,
+      "bytes": 30798,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-9.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/metropolis/textures/street-9.webp",
+      "status": 200,
+      "bytes": 14072,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_artdeco_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 604256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_artdeco_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 55492,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_artdeco_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 187516,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brownstoneoffice_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 434056,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brownstoneoffice_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 60716,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brownstoneoffice_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 213256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brownstoneoffice_2-far-optimized.glb",
+      "status": 200,
+      "bytes": 909824,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brownstoneoffice_2-mid-optimized.glb",
+      "status": 200,
+      "bytes": 84264,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brownstoneoffice_2-near-optimized.glb",
+      "status": 200,
+      "bytes": 264808,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brutal_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 347804,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brutal_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 60932,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_brutal_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 230880,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_citadel-far-optimized.glb",
+      "status": 200,
+      "bytes": 642020,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_citadel-mid-optimized.glb",
+      "status": 200,
+      "bytes": 234540,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_citadel-near-optimized.glb",
+      "status": 200,
+      "bytes": 1118176,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_classicoffice_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 586816,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_classicoffice_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 66904,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_classicoffice_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 253868,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_flatiron_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 655456,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_flatiron_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 266300,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_flatiron_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 1008136,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_duplex_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 445640,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_duplex_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 11824,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_duplex_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 48840,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_genericbuilding_4-far-optimized.glb",
+      "status": 200,
+      "bytes": 451408,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_genericbuilding_4-mid-optimized.glb",
+      "status": 200,
+      "bytes": 17764,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_genericbuilding_4-near-optimized.glb",
+      "status": 200,
+      "bytes": 56128,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_hangar_2-far-optimized.glb",
+      "status": 200,
+      "bytes": 689548,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_hangar_2-mid-optimized.glb",
+      "status": 200,
+      "bytes": 33300,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_hangar_2-near-optimized.glb",
+      "status": 200,
+      "bytes": 233540,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 445540,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 11728,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 46764,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_3-far-optimized.glb",
+      "status": 200,
+      "bytes": 380152,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_3-mid-optimized.glb",
+      "status": 200,
+      "bytes": 11972,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_3-near-optimized.glb",
+      "status": 200,
+      "bytes": 56244,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_4-far-optimized.glb",
+      "status": 200,
+      "bytes": 245828,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_4-mid-optimized.glb",
+      "status": 200,
+      "bytes": 10936,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_4-near-optimized.glb",
+      "status": 200,
+      "bytes": 65196,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_5-far-optimized.glb",
+      "status": 200,
+      "bytes": 438672,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_5-mid-optimized.glb",
+      "status": 200,
+      "bytes": 30644,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_iron_warehouse_5-near-optimized.glb",
+      "status": 200,
+      "bytes": 112140,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_meridian_arcade-mid-optimized.glb",
+      "status": 200,
+      "bytes": 984536,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_meridian_arcade-near-optimized.glb",
+      "status": 200,
+      "bytes": 1591808,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_1_b-far-optimized.glb",
+      "status": 200,
+      "bytes": 484568,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_1_b-mid-optimized.glb",
+      "status": 200,
+      "bytes": 32256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_1_b-near-optimized.glb",
+      "status": 200,
+      "bytes": 205548,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_2-far-optimized.glb",
+      "status": 200,
+      "bytes": 438868,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_2-mid-optimized.glb",
+      "status": 200,
+      "bytes": 19104,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_2-near-optimized.glb",
+      "status": 200,
+      "bytes": 66908,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_4-far-optimized.glb",
+      "status": 200,
+      "bytes": 612328,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_4-mid-optimized.glb",
+      "status": 200,
+      "bytes": 47152,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_4-near-optimized.glb",
+      "status": 200,
+      "bytes": 332060,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_5_b-far-optimized.glb",
+      "status": 200,
+      "bytes": 648548,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_5_b-mid-optimized.glb",
+      "status": 200,
+      "bytes": 38620,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_modernoffice_5_b-near-optimized.glb",
+      "status": 200,
+      "bytes": 241884,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_publicbuilding_1-far-optimized.glb",
+      "status": 200,
+      "bytes": 356500,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_publicbuilding_1-mid-optimized.glb",
+      "status": 200,
+      "bytes": 19556,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_publicbuilding_1-near-optimized.glb",
+      "status": 200,
+      "bytes": 93344,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_residential_2-far-optimized.glb",
+      "status": 200,
+      "bytes": 415156,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_residential_2-mid-optimized.glb",
+      "status": 200,
+      "bytes": 31304,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_residential_2-near-optimized.glb",
+      "status": 200,
+      "bytes": 130688,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_residential_4-far-optimized.glb",
+      "status": 200,
+      "bytes": 424944,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_residential_4-mid-optimized.glb",
+      "status": 200,
+      "bytes": 40832,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_residential_4-near-optimized.glb",
+      "status": 200,
+      "bytes": 163616,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_singapore-far-optimized.glb",
+      "status": 200,
+      "bytes": 3492676,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_singapore-mid-optimized.glb",
+      "status": 200,
+      "bytes": 445336,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/city_singapore-near-optimized.glb",
+      "status": 200,
+      "bytes": 1786264,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/texture-manifest.json",
+      "status": 200,
+      "bytes": 124672,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-1.webp",
+      "status": 200,
+      "bytes": 181202,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-3.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-3.webp",
+      "status": 200,
+      "bytes": 209378,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-4.webp",
+      "status": 200,
+      "bytes": 37498,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-6.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-6.webp",
+      "status": 200,
+      "bytes": 122450,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-7.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_artdeco_1-7.webp",
+      "status": 200,
+      "bytes": 25098,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-1.webp",
+      "status": 200,
+      "bytes": 163516,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-2.webp",
+      "status": 200,
+      "bytes": 19716,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-4.webp",
+      "status": 200,
+      "bytes": 190714,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_1-5.webp",
+      "status": 200,
+      "bytes": 22030,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-1.webp",
+      "status": 200,
+      "bytes": 264844,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-2.webp",
+      "status": 200,
+      "bytes": 16808,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-4.dds",
+      "status": 200,
+      "bytes": 699216,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-4.webp",
+      "status": 200,
+      "bytes": 87086,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-5.dds",
+      "status": 200,
+      "bytes": 699216,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brownstoneoffice_2-5.webp",
+      "status": 200,
+      "bytes": 54108,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brutal_1-3.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brutal_1-3.webp",
+      "status": 200,
+      "bytes": 89694,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brutal_1-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_brutal_1-4.webp",
+      "status": 200,
+      "bytes": 33750,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_citadel-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_citadel-1.webp",
+      "status": 200,
+      "bytes": 323744,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_citadel-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_citadel-2.webp",
+      "status": 200,
+      "bytes": 375374,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_classicoffice_1-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_classicoffice_1-1.webp",
+      "status": 200,
+      "bytes": 122610,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_classicoffice_1-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_classicoffice_1-2.webp",
+      "status": 200,
+      "bytes": 24898,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_building_1-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_building_1-1.webp",
+      "status": 200,
+      "bytes": 257132,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_building_1-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_building_1-2.webp",
+      "status": 200,
+      "bytes": 43758,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_duplex_1-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_duplex_1-1.webp",
+      "status": 200,
+      "bytes": 210702,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_duplex_1-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_duplex_1-2.webp",
+      "status": 200,
+      "bytes": 74104,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_genericbuilding_2-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_genericbuilding_2-1.webp",
+      "status": 200,
+      "bytes": 215240,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_genericbuilding_2-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_genericbuilding_2-2.webp",
+      "status": 200,
+      "bytes": 50786,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_hangar_2-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_hangar_2-4.webp",
+      "status": 200,
+      "bytes": 194076,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_hangar_2-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_hangar_2-5.webp",
+      "status": 200,
+      "bytes": 71458,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_warehouse_3-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_warehouse_3-1.webp",
+      "status": 200,
+      "bytes": 104532,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_warehouse_3-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_iron_warehouse_3-2.webp",
+      "status": 200,
+      "bytes": 65902,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-0.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-0.webp",
+      "status": 200,
+      "bytes": 60224,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-1.webp",
+      "status": 200,
+      "bytes": 94128,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-10.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-10.webp",
+      "status": 200,
+      "bytes": 33554,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-11.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-11.webp",
+      "status": 200,
+      "bytes": 46002,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-12.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-12.webp",
+      "status": 200,
+      "bytes": 19028,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-2.webp",
+      "status": 200,
+      "bytes": 55906,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-3.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-3.webp",
+      "status": 200,
+      "bytes": 263340,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-4.webp",
+      "status": 200,
+      "bytes": 88312,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-5.webp",
+      "status": 200,
+      "bytes": 118196,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-6.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-6.webp",
+      "status": 200,
+      "bytes": 133630,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-7.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-7.webp",
+      "status": 200,
+      "bytes": 40936,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-8.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-8.webp",
+      "status": 200,
+      "bytes": 74412,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-9.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_meridian_arcade-9.webp",
+      "status": 200,
+      "bytes": 109196,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_1-1.dds",
+      "status": 200,
+      "bytes": 699216,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_1-1.webp",
+      "status": 200,
+      "bytes": 78698,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_1-2.dds",
+      "status": 200,
+      "bytes": 699216,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_1-2.webp",
+      "status": 200,
+      "bytes": 31226,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-1.webp",
+      "status": 200,
+      "bytes": 179698,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-2.webp",
+      "status": 200,
+      "bytes": 62010,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-4.webp",
+      "status": 200,
+      "bytes": 137422,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_2-5.webp",
+      "status": 200,
+      "bytes": 22044,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_4-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_4-1.webp",
+      "status": 200,
+      "bytes": 50516,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_4-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_4-2.webp",
+      "status": 200,
+      "bytes": 48776,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_5-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_5-4.webp",
+      "status": 200,
+      "bytes": 264794,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_5-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_modernoffice_5-5.webp",
+      "status": 200,
+      "bytes": 34362,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-0.dds",
+      "status": 200,
+      "bytes": 87536,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-0.webp",
+      "status": 200,
+      "bytes": 35710,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-1.dds",
+      "status": 200,
+      "bytes": 87536,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-1.webp",
+      "status": 200,
+      "bytes": 47368,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-10.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-10.webp",
+      "status": 200,
+      "bytes": 119748,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-11.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-11.webp",
+      "status": 200,
+      "bytes": 129412,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-12.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-12.webp",
+      "status": 200,
+      "bytes": 209144,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-13.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-13.webp",
+      "status": 200,
+      "bytes": 602282,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-2.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-2.webp",
+      "status": 200,
+      "bytes": 8956,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-3.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-3.webp",
+      "status": 200,
+      "bytes": 32198,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-4.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-4.webp",
+      "status": 200,
+      "bytes": 25474,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-5.webp",
+      "status": 200,
+      "bytes": 185020,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-6.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-6.webp",
+      "status": 200,
+      "bytes": 51472,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-7.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-7.webp",
+      "status": 200,
+      "bytes": 35776,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-8.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/city/textures/city_singapore-8.webp",
+      "status": 200,
+      "bytes": 153964,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/destructible/fractures-optimized.glb",
+      "status": 200,
+      "bytes": 4732,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/pbr-color.dds",
+      "status": 200,
+      "bytes": 2796368,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/pbr-color.webp",
+      "status": 200,
+      "bytes": 691496,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/pbr-normal.dds",
+      "status": 200,
+      "bytes": 2796368,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/pbr-normal.webp",
+      "status": 200,
+      "bytes": 721320,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/pbr-orm.dds",
+      "status": 200,
+      "bytes": 2796368,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/pbr-orm.webp",
+      "status": 200,
+      "bytes": 225254,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/aer_glass-far-optimized.glb",
+      "status": 200,
+      "bytes": 7679936,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/aer_glass-mid-optimized.glb",
+      "status": 200,
+      "bytes": 1542720,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/aer_glass-near-optimized.glb",
+      "status": 200,
+      "bytes": 8472492,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/aer_gothic-far-optimized.glb",
+      "status": 200,
+      "bytes": 1711732,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/aer_gothic-mid-optimized.glb",
+      "status": 200,
+      "bytes": 1603544,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/aer_gothic-near-optimized.glb",
+      "status": 200,
+      "bytes": 2242168,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/texture-manifest.json",
+      "status": 200,
+      "bytes": 22331,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-0.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-0.webp",
+      "status": 200,
+      "bytes": 52002,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-1.webp",
+      "status": 200,
+      "bytes": 49668,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-10.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-10.webp",
+      "status": 200,
+      "bytes": 147150,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-11.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-11.webp",
+      "status": 200,
+      "bytes": 67466,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-12.dds",
+      "status": 200,
+      "bytes": 87536,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-12.webp",
+      "status": 200,
+      "bytes": 1444,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-13.dds",
+      "status": 200,
+      "bytes": 87536,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-13.webp",
+      "status": 200,
+      "bytes": 8064,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-14.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-14.webp",
+      "status": 200,
+      "bytes": 36154,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-15.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-15.webp",
+      "status": 200,
+      "bytes": 175656,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-17.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-17.webp",
+      "status": 200,
+      "bytes": 20614,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-18.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-18.webp",
+      "status": 200,
+      "bytes": 32246,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-19.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-19.webp",
+      "status": 200,
+      "bytes": 15854,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-2.webp",
+      "status": 200,
+      "bytes": 39548,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-20.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-20.webp",
+      "status": 200,
+      "bytes": 48506,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-21.dds",
+      "status": 200,
+      "bytes": 87536,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-21.webp",
+      "status": 200,
+      "bytes": 226,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-22.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-22.webp",
+      "status": 200,
+      "bytes": 153668,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-23.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-23.webp",
+      "status": 200,
+      "bytes": 66084,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-24.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-24.webp",
+      "status": 200,
+      "bytes": 26330,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-25.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-25.webp",
+      "status": 200,
+      "bytes": 82774,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-26.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-26.webp",
+      "status": 200,
+      "bytes": 78164,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-27.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-27.webp",
+      "status": 200,
+      "bytes": 82126,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-28.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-28.webp",
+      "status": 200,
+      "bytes": 37930,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-29.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-29.webp",
+      "status": 200,
+      "bytes": 129438,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-3.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-3.webp",
+      "status": 200,
+      "bytes": 34600,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-30.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-30.webp",
+      "status": 200,
+      "bytes": 180944,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-31.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-31.webp",
+      "status": 200,
+      "bytes": 270542,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-32.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-32.webp",
+      "status": 200,
+      "bytes": 307718,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-33.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-33.webp",
+      "status": 200,
+      "bytes": 159082,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-34.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-34.webp",
+      "status": 200,
+      "bytes": 194028,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-35.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-35.webp",
+      "status": 200,
+      "bytes": 89634,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-36.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-36.webp",
+      "status": 200,
+      "bytes": 136924,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-37.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-37.webp",
+      "status": 200,
+      "bytes": 129926,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-38.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-38.webp",
+      "status": 200,
+      "bytes": 71936,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-39.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-39.webp",
+      "status": 200,
+      "bytes": 146268,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-4.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-4.webp",
+      "status": 200,
+      "bytes": 36062,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-40.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-40.webp",
+      "status": 200,
+      "bytes": 78430,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-5.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-5.webp",
+      "status": 200,
+      "bytes": 66118,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-6.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-6.webp",
+      "status": 200,
+      "bytes": 125284,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-7.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-7.webp",
+      "status": 200,
+      "bytes": 78438,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-8.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-8.webp",
+      "status": 200,
+      "bytes": 53814,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-9.dds",
+      "status": 200,
+      "bytes": 349680,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_glass-9.webp",
+      "status": 200,
+      "bytes": 26382,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_gothic-0.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_gothic-0.webp",
+      "status": 200,
+      "bytes": 109740,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_gothic-1.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_gothic-1.webp",
+      "status": 200,
+      "bytes": 43082,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_gothic-2.dds",
+      "status": 200,
+      "bytes": 1398256,
+      "correctSize": true
+    },
+    {
+      "file": "assets/environment/premium/provided/textures/aer_gothic-2.webp",
+      "status": 200,
+      "bytes": 81258,
+      "correctSize": true
+    }
+  ]
+}

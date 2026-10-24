@@ -1,0 +1,3 @@
+{"stage":"after","quality":"HIGH","scenario":"cold-flight","fps":88.69700755842003,"p95":14,"p99":14,"worst":55.600000000000364,"over50":1,"errors":0,"gpu":"ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+{"stage":"after","quality":"HIGH","scenario":"street-traversal","fps":80.4282837379764,"p95":14,"p99":14,"worst":14.099999999998545,"over50":0,"errors":0,"gpu":"ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+{"stage":"after","quality":"HIGH","scenario":"rain-night","fps":67.62246415761928,"p95":20.80000000000291,"p99":20.900000000001455,"worst":20.900000000001455,"over50":0,"errors":0,"gpu":"ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)"}

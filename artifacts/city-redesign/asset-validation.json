@@ -1,0 +1,459 @@
+{
+  "checkedAt": "2026-10-12T16:29:12.320Z",
+  "families": 25,
+  "lodFiles": 50,
+  "assets": [
+    {
+      "family": "aer_glass",
+      "lod": "near",
+      "file": "public/assets/environment/premium/provided/aer_glass-near-optimized.glb",
+      "bytes": 8472492,
+      "triangles": 356655,
+      "vertices": 676618,
+      "primitives": 18
+    },
+    {
+      "family": "aer_glass",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/provided/aer_glass-mid-optimized.glb",
+      "bytes": 1542720,
+      "triangles": 77149,
+      "vertices": 118541,
+      "primitives": 57
+    },
+    {
+      "family": "aer_gothic",
+      "lod": "near",
+      "file": "public/assets/environment/premium/provided/aer_gothic-near-optimized.glb",
+      "bytes": 2242168,
+      "triangles": 140316,
+      "vertices": 234462,
+      "primitives": 4
+    },
+    {
+      "family": "aer_gothic",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/provided/aer_gothic-mid-optimized.glb",
+      "bytes": 1603544,
+      "triangles": 68266,
+      "vertices": 96935,
+      "primitives": 388
+    },
+    {
+      "family": "city_artdeco_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_artdeco_1-near-optimized.glb",
+      "bytes": 187516,
+      "triangles": 9160,
+      "vertices": 15482,
+      "primitives": 4
+    },
+    {
+      "family": "city_artdeco_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_artdeco_1-mid-optimized.glb",
+      "bytes": 55492,
+      "triangles": 2389,
+      "vertices": 4242,
+      "primitives": 3
+    },
+    {
+      "family": "city_brownstoneoffice_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_brownstoneoffice_1-near-optimized.glb",
+      "bytes": 213256,
+      "triangles": 11422,
+      "vertices": 20247,
+      "primitives": 3
+    },
+    {
+      "family": "city_brownstoneoffice_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_brownstoneoffice_1-mid-optimized.glb",
+      "bytes": 60716,
+      "triangles": 2997,
+      "vertices": 5596,
+      "primitives": 2
+    },
+    {
+      "family": "city_brownstoneoffice_2",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_brownstoneoffice_2-near-optimized.glb",
+      "bytes": 264808,
+      "triangles": 11685,
+      "vertices": 20431,
+      "primitives": 5
+    },
+    {
+      "family": "city_brownstoneoffice_2",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_brownstoneoffice_2-mid-optimized.glb",
+      "bytes": 84264,
+      "triangles": 3228,
+      "vertices": 6005,
+      "primitives": 4
+    },
+    {
+      "family": "city_brutal_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_brutal_1-near-optimized.glb",
+      "bytes": 230880,
+      "triangles": 11634,
+      "vertices": 20816,
+      "primitives": 3
+    },
+    {
+      "family": "city_brutal_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_brutal_1-mid-optimized.glb",
+      "bytes": 60932,
+      "triangles": 3188,
+      "vertices": 5129,
+      "primitives": 2
+    },
+    {
+      "family": "city_citadel",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_citadel-near-optimized.glb",
+      "bytes": 1118176,
+      "triangles": 78322,
+      "vertices": 120636,
+      "primitives": 2
+    },
+    {
+      "family": "city_citadel",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_citadel-mid-optimized.glb",
+      "bytes": 234540,
+      "triangles": 13116,
+      "vertices": 22585,
+      "primitives": 1
+    },
+    {
+      "family": "city_classicoffice_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_classicoffice_1-near-optimized.glb",
+      "bytes": 253868,
+      "triangles": 11652,
+      "vertices": 20352,
+      "primitives": 4
+    },
+    {
+      "family": "city_classicoffice_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_classicoffice_1-mid-optimized.glb",
+      "bytes": 66904,
+      "triangles": 2749,
+      "vertices": 5039,
+      "primitives": 3
+    },
+    {
+      "family": "city_flatiron_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_flatiron_1-near-optimized.glb",
+      "bytes": 1008136,
+      "triangles": 47838,
+      "vertices": 81012,
+      "primitives": 3
+    },
+    {
+      "family": "city_flatiron_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_flatiron_1-mid-optimized.glb",
+      "bytes": 266300,
+      "triangles": 14245,
+      "vertices": 20176,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_duplex_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_duplex_1-near-optimized.glb",
+      "bytes": 48840,
+      "triangles": 1878,
+      "vertices": 3373,
+      "primitives": 3
+    },
+    {
+      "family": "city_iron_duplex_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_duplex_1-mid-optimized.glb",
+      "bytes": 11824,
+      "triangles": 268,
+      "vertices": 528,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_genericbuilding_4",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_genericbuilding_4-near-optimized.glb",
+      "bytes": 56128,
+      "triangles": 2706,
+      "vertices": 4749,
+      "primitives": 3
+    },
+    {
+      "family": "city_iron_genericbuilding_4",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_genericbuilding_4-mid-optimized.glb",
+      "bytes": 17764,
+      "triangles": 678,
+      "vertices": 1320,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_hangar_2",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_hangar_2-near-optimized.glb",
+      "bytes": 233540,
+      "triangles": 9806,
+      "vertices": 17805,
+      "primitives": 3
+    },
+    {
+      "family": "city_iron_hangar_2",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_hangar_2-mid-optimized.glb",
+      "bytes": 33300,
+      "triangles": 1134,
+      "vertices": 2206,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_warehouse_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_1-near-optimized.glb",
+      "bytes": 46764,
+      "triangles": 2162,
+      "vertices": 3706,
+      "primitives": 3
+    },
+    {
+      "family": "city_iron_warehouse_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_1-mid-optimized.glb",
+      "bytes": 11728,
+      "triangles": 341,
+      "vertices": 643,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_warehouse_3",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_3-near-optimized.glb",
+      "bytes": 56244,
+      "triangles": 2248,
+      "vertices": 3997,
+      "primitives": 3
+    },
+    {
+      "family": "city_iron_warehouse_3",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_3-mid-optimized.glb",
+      "bytes": 11972,
+      "triangles": 282,
+      "vertices": 538,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_warehouse_4",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_4-near-optimized.glb",
+      "bytes": 65196,
+      "triangles": 2866,
+      "vertices": 4774,
+      "primitives": 2
+    },
+    {
+      "family": "city_iron_warehouse_4",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_4-mid-optimized.glb",
+      "bytes": 10936,
+      "triangles": 344,
+      "vertices": 634,
+      "primitives": 1
+    },
+    {
+      "family": "city_iron_warehouse_5",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_5-near-optimized.glb",
+      "bytes": 112140,
+      "triangles": 4978,
+      "vertices": 8554,
+      "primitives": 3
+    },
+    {
+      "family": "city_iron_warehouse_5",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_iron_warehouse_5-mid-optimized.glb",
+      "bytes": 30644,
+      "triangles": 1426,
+      "vertices": 2104,
+      "primitives": 2
+    },
+    {
+      "family": "city_meridian_arcade",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_meridian_arcade-near-optimized.glb",
+      "bytes": 1591808,
+      "triangles": 81956,
+      "vertices": 136501,
+      "primitives": 19
+    },
+    {
+      "family": "city_meridian_arcade",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_meridian_arcade-mid-optimized.glb",
+      "bytes": 984536,
+      "triangles": 37725,
+      "vertices": 66471,
+      "primitives": 19
+    },
+    {
+      "family": "city_modernoffice_1_b",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_modernoffice_1_b-near-optimized.glb",
+      "bytes": 205548,
+      "triangles": 9871,
+      "vertices": 16526,
+      "primitives": 4
+    },
+    {
+      "family": "city_modernoffice_1_b",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_modernoffice_1_b-mid-optimized.glb",
+      "bytes": 32256,
+      "triangles": 1081,
+      "vertices": 1983,
+      "primitives": 3
+    },
+    {
+      "family": "city_modernoffice_2",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_modernoffice_2-near-optimized.glb",
+      "bytes": 66908,
+      "triangles": 3049,
+      "vertices": 5234,
+      "primitives": 3
+    },
+    {
+      "family": "city_modernoffice_2",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_modernoffice_2-mid-optimized.glb",
+      "bytes": 19104,
+      "triangles": 646,
+      "vertices": 1156,
+      "primitives": 2
+    },
+    {
+      "family": "city_modernoffice_4",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_modernoffice_4-near-optimized.glb",
+      "bytes": 332060,
+      "triangles": 17120,
+      "vertices": 28633,
+      "primitives": 4
+    },
+    {
+      "family": "city_modernoffice_4",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_modernoffice_4-mid-optimized.glb",
+      "bytes": 47152,
+      "triangles": 1824,
+      "vertices": 3436,
+      "primitives": 3
+    },
+    {
+      "family": "city_modernoffice_5_b",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_modernoffice_5_b-near-optimized.glb",
+      "bytes": 241884,
+      "triangles": 11560,
+      "vertices": 19706,
+      "primitives": 3
+    },
+    {
+      "family": "city_modernoffice_5_b",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_modernoffice_5_b-mid-optimized.glb",
+      "bytes": 38620,
+      "triangles": 1370,
+      "vertices": 2752,
+      "primitives": 2
+    },
+    {
+      "family": "city_publicbuilding_1",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_publicbuilding_1-near-optimized.glb",
+      "bytes": 93344,
+      "triangles": 5040,
+      "vertices": 8243,
+      "primitives": 3
+    },
+    {
+      "family": "city_publicbuilding_1",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_publicbuilding_1-mid-optimized.glb",
+      "bytes": 19556,
+      "triangles": 828,
+      "vertices": 1434,
+      "primitives": 2
+    },
+    {
+      "family": "city_residential_2",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_residential_2-near-optimized.glb",
+      "bytes": 130688,
+      "triangles": 6169,
+      "vertices": 10138,
+      "primitives": 3
+    },
+    {
+      "family": "city_residential_2",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_residential_2-mid-optimized.glb",
+      "bytes": 31304,
+      "triangles": 1226,
+      "vertices": 2001,
+      "primitives": 2
+    },
+    {
+      "family": "city_residential_4",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_residential_4-near-optimized.glb",
+      "bytes": 163616,
+      "triangles": 7962,
+      "vertices": 12895,
+      "primitives": 3
+    },
+    {
+      "family": "city_residential_4",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_residential_4-mid-optimized.glb",
+      "bytes": 40832,
+      "triangles": 1661,
+      "vertices": 2891,
+      "primitives": 2
+    },
+    {
+      "family": "city_singapore",
+      "lod": "near",
+      "file": "public/assets/environment/premium/city/city_singapore-near-optimized.glb",
+      "bytes": 1786264,
+      "triangles": 91231,
+      "vertices": 172895,
+      "primitives": 8
+    },
+    {
+      "family": "city_singapore",
+      "lod": "mid",
+      "file": "public/assets/environment/premium/city/city_singapore-mid-optimized.glb",
+      "bytes": 445336,
+      "triangles": 24938,
+      "vertices": 40205,
+      "primitives": 8
+    }
+  ],
+  "errors": [],
+  "method": "Decode actual Meshopt runtime GLBs; verify finite geometry, normals, UVs, materials, registered near component IDs and editable source/damage Blender files. Far presentation uses shared source-view HLOD, not 25 dense FAR meshes."
+}

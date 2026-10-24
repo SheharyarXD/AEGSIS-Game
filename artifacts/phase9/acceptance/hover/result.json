@@ -1,0 +1,629 @@
+{
+  "name": "hover",
+  "method": "QA sets only starting location/camera/weather and preloads assets. Actual keyboard Y or O/F causes all damage. Normal W/Q controls subsequent transit. No scripted support damage.",
+  "errors": [],
+  "opened": {
+    "p": [
+      172,
+      9.7,
+      -76
+    ],
+    "launches": [
+      {
+        "time": 5.516666666666652,
+        "mode": "standard",
+        "wave": 0,
+        "token": 1,
+        "position": [
+          171.80587940296442,
+          11.537467125424895,
+          -75.98140666129481
+        ],
+        "aim": [
+          172.300620299664,
+          11.800000000000011,
+          -100.23282363106989
+        ]
+      },
+      {
+        "time": 5.7666666666666515,
+        "mode": "standard",
+        "wave": 0,
+        "token": 1,
+        "position": [
+          172.19667323277415,
+          11.536973077911352,
+          -75.97412161934315
+        ],
+        "aim": [
+          173.10068180277938,
+          11.800000000000011,
+          -100.23281935143679
+        ]
+      },
+      {
+        "time": 6.016666666666651,
+        "mode": "standard",
+        "wave": 0,
+        "token": 1,
+        "position": [
+          171.80444158190798,
+          11.582768357970949,
+          -75.97162167117189
+        ],
+        "aim": [
+          171.50055871669682,
+          11.800000000000011,
+          -100.23282147389666
+        ]
+      },
+      {
+        "time": 6.583333333333315,
+        "mode": "standard",
+        "wave": 1,
+        "token": 1,
+        "position": [
+          172.1951238577522,
+          11.583016616454666,
+          -75.97882328333577
+        ],
+        "aim": [
+          172.4421120307465,
+          11.800000000000011,
+          -111.63838795393701
+        ]
+      },
+      {
+        "time": 6.833333333333314,
+        "mode": "standard",
+        "wave": 1,
+        "token": 1,
+        "position": [
+          171.80718272046585,
+          11.536539018946508,
+          -75.97477041310202
+        ],
+        "aim": [
+          173.242173522032,
+          11.800000000000011,
+          -111.63838272070295
+        ]
+      },
+      {
+        "time": 7.0833333333333135,
+        "mode": "standard",
+        "wave": 1,
+        "token": 1,
+        "position": [
+          172.19402923252278,
+          11.53643278665063,
+          -75.97325543997857
+        ],
+        "aim": [
+          171.64205044482185,
+          11.800000000000011,
+          -111.63838555836354
+        ]
+      },
+      {
+        "time": 7.799999999999978,
+        "mode": "standard",
+        "wave": 2,
+        "token": 1,
+        "position": [
+          171.80606665551284,
+          11.58286165168216,
+          -75.97996678830897
+        ],
+        "aim": [
+          172.59964295761003,
+          11.800000000000011,
+          -124.33686231308488
+        ]
+      },
+      {
+        "time": 8.04999999999998,
+        "mode": "standard",
+        "wave": 2,
+        "token": 1,
+        "position": [
+          172.1959216393697,
+          11.582259897354634,
+          -75.97246400645376
+        ],
+        "aim": [
+          173.3992986479484,
+          11.800000000000011,
+          -124.30414570676018
+        ]
+      }
+    ],
+    "plan": {
+      "buildingId": 287,
+      "entry": [
+        172.27371758196384,
+        11.800000000000011,
+        -98.0642115514703
+      ],
+      "exit": [
+        172.61947843618637,
+        11.800000000000011,
+        -125.93578844852968
+      ],
+      "direction": [
+        0.012404545781111099,
+        0,
+        -0.9999230606621514
+      ],
+      "length": 27.873721482733647,
+      "radius": 2.75,
+      "halfHeight": 2.3,
+      "ground": false,
+      "lining": "concrete",
+      "exitOpen": true
+    },
+    "status": "BREACH COMPLETE — PATH OPEN",
+    "clearance": null
+  },
+  "displacement": 0,
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 8\n\n    at file:///C:/Users/XD%20GAMING/Downloads/Work/Agesis%20Game/scripts/phase9-live-acceptance.mjs:27:444",
+  "failureDiagnostics": {
+    "d": {
+      "colliders": 5290,
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "commercial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 42,
+        "unloads": 10,
+        "generationMs": 0.5,
+        "maxGenerationMs": 5.5,
+        "collisionResident": true,
+        "worldColliders": 3978,
+        "quality": "MEDIUM",
+        "assetBytes": 22528180,
+        "pendingAssetLoads": 0,
+        "assetQueue": {
+          "active": 0,
+          "queued": 0,
+          "concurrency": 2,
+          "preparing": 0,
+          "decodedKeys": 149,
+          "timings": {
+            "files": 28,
+            "fetchMaxMs": 119.70000000298023,
+            "decodeMaxMs": 138,
+            "prepareMaxMs": 29.100000008940697
+          }
+        },
+        "textureBytesEstimate": 167513813.33333334,
+        "street": {
+          "plannedPropSlots": 68352,
+          "activeProps": 723
+        },
+        "destruction": {
+          "collapsePresentation": {
+            "ruins": 0,
+            "fallingMasses": 0,
+            "active": 0,
+            "ruinColliders": 0
+          },
+          "barrageRejection": null,
+          "adaptiveDestruction": false,
+          "destructionQuality": "MEDIUM",
+          "scheduler": {
+            "pending": 0,
+            "maxMs": 17.799999997019768
+          },
+          "breaches": 1,
+          "effects": {
+            "scars": 5,
+            "fires": 5,
+            "particles": 109,
+            "particleCap": 112,
+            "explosions": {
+              "emitters": 0,
+              "lobes": 0,
+              "cap": 30
+            },
+            "batches": 5,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 1,
+          "brokenComponents": 26,
+          "activeDebris": 8,
+          "staticDebris": 1,
+          "debrisCap": 24,
+          "maxActivationMs": 4.300000011920929,
+          "states": [
+            {
+              "id": 287,
+              "family": "city_meridian_arcade",
+              "broken": 26,
+              "stage": "local",
+              "collapsePending": false,
+              "integrity": 0.6666666666666666,
+              "colliders": 16
+            }
+          ]
+        },
+        "props": {
+          "registered": 292,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 15,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.00019199831987321136,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 14.175064133333331,
+          "p95Ms": 20.471008
+        }
+      },
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "completed": 1,
+        "cooldown": 10.566666666666396,
+        "preparing": false,
+        "building": null,
+        "wave": 2,
+        "impacts": 8,
+        "playerDisplacement": 0,
+        "events": [
+          {
+            "time": 4.433333333333323,
+            "kind": "acquire",
+            "position": [
+              172,
+              9.7,
+              -76
+            ]
+          },
+          {
+            "time": 5.449999999999986,
+            "kind": "wave",
+            "wave": 0
+          },
+          {
+            "time": 5.999999999999984,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              172.2775073497614,
+              11.79159858005018,
+              -99.18292627898182
+            ]
+          },
+          {
+            "time": 6.249999999999983,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              173.06261858446686,
+              11.791411779805854,
+              -99.16426905857207
+            ]
+          },
+          {
+            "time": 6.499999999999982,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              171.5120679495837,
+              11.793909554956292,
+              -99.17638882966389
+            ]
+          },
+          {
+            "time": 6.516666666666649,
+            "kind": "wave",
+            "wave": 1
+          },
+          {
+            "time": 7.216666666666646,
+            "kind": "impact",
+            "wave": 1,
+            "position": [
+              172.44048620111306,
+              11.798771875908056,
+              -111.37698096323317
+            ]
+          },
+          {
+            "time": 7.4666666666666455,
+            "kind": "impact",
+            "wave": 1,
+            "position": [
+              173.23016193101012,
+              11.798189464155216,
+              -111.34491979317328
+            ]
+          },
+          {
+            "time": 7.716666666666645,
+            "kind": "impact",
+            "wave": 1,
+            "position": [
+              171.64642816016428,
+              11.798329849274017,
+              -111.36777806145031
+            ]
+          },
+          {
+            "time": 7.733333333333311,
+            "kind": "wave",
+            "wave": 2
+          },
+          {
+            "time": 8.58333333333334,
+            "kind": "impact",
+            "wave": 2,
+            "position": [
+              172.59605154376985,
+              11.799194921400774,
+              -124.12282451131712
+            ]
+          },
+          {
+            "time": 8.833333333333352,
+            "kind": "impact",
+            "wave": 2,
+            "position": [
+              173.39446094569536,
+              11.7992550003031,
+              -124.10687961981414
+            ]
+          },
+          {
+            "time": 9.066666666666697,
+            "kind": "verified"
+          }
+        ]
+      },
+      "timing": {
+        "samples": 541,
+        "p50Ms": 13.899999618530273,
+        "p95Ms": 34.70000076293945,
+        "p99Ms": 62.5,
+        "worstMs": 770.7999877929688,
+        "over50": 10,
+        "stages": {
+          "physics": {
+            "meanMs": 1.2040665433940076,
+            "maxMs": 14,
+            "lastMs": 0.7999999970197678,
+            "calls": 541
+          },
+          "city": {
+            "meanMs": 1.4833641400949793,
+            "maxMs": 44.79999999701977,
+            "lastMs": 1,
+            "calls": 541
+          },
+          "render": {
+            "meanMs": 3.334011090440803,
+            "maxMs": 64,
+            "lastMs": 2.1000000089406967,
+            "calls": 541
+          }
+        },
+        "spikes": [
+          {
+            "stage": "render",
+            "ms": 37.1000000089407,
+            "at": 17368.5
+          },
+          {
+            "stage": "render",
+            "ms": 47.099999994039536,
+            "at": 18682.70000000298
+          },
+          {
+            "stage": "render",
+            "ms": 64,
+            "at": 21017.70000000298
+          },
+          {
+            "stage": "city",
+            "ms": 36,
+            "at": 21472.20000000298
+          },
+          {
+            "stage": "city",
+            "ms": 44.79999999701977,
+            "at": 21536
+          },
+          {
+            "stage": "city",
+            "ms": 33.1000000089407,
+            "at": 21578.10000000894
+          },
+          {
+            "stage": "city",
+            "ms": 21.299999997019768,
+            "at": 21606.79999999702
+          },
+          {
+            "stage": "city",
+            "ms": 22,
+            "at": 24039.10000000894
+          }
+        ]
+      },
+      "shaderPrograms": 102,
+      "mode": "play",
+      "quality": "MEDIUM",
+      "frameMs": 13.799999999999272,
+      "meanMs": 19.653049907578556,
+      "p95Ms": 34.70000000000073,
+      "simulationMs": 0.7999999970197678,
+      "drawCalls": 193,
+      "triangles": 1127064,
+      "bodies": 9,
+      "activeBodies": 8,
+      "particles": 25,
+      "debris": 0,
+      "broken": 0,
+      "geometries": 210,
+      "textures": 192,
+      "loadingMs": 14810,
+      "assetLoadMs": 480.20000000298023,
+      "position": [
+        172,
+        9.7,
+        -76
+      ],
+      "state": "HOVER",
+      "health": 100,
+      "courseIndex": 0,
+      "stage": "course",
+      "crashes": 0,
+      "throws": 0,
+      "enemyHealth": [],
+      "missiles": 0
+    },
+    "t": {
+      "state": "cooldown",
+      "entries": 1,
+      "exits": 1,
+      "completed": 1,
+      "cooldown": 10.566666666666396,
+      "preparing": false,
+      "building": null,
+      "wave": 2,
+      "impacts": 8,
+      "playerDisplacement": 0,
+      "events": [
+        {
+          "time": 4.433333333333323,
+          "kind": "acquire",
+          "position": [
+            172,
+            9.7,
+            -76
+          ]
+        },
+        {
+          "time": 5.449999999999986,
+          "kind": "wave",
+          "wave": 0
+        },
+        {
+          "time": 5.999999999999984,
+          "kind": "impact",
+          "wave": 0,
+          "position": [
+            172.2775073497614,
+            11.79159858005018,
+            -99.18292627898182
+          ]
+        },
+        {
+          "time": 6.249999999999983,
+          "kind": "impact",
+          "wave": 0,
+          "position": [
+            173.06261858446686,
+            11.791411779805854,
+            -99.16426905857207
+          ]
+        },
+        {
+          "time": 6.499999999999982,
+          "kind": "impact",
+          "wave": 0,
+          "position": [
+            171.5120679495837,
+            11.793909554956292,
+            -99.17638882966389
+          ]
+        },
+        {
+          "time": 6.516666666666649,
+          "kind": "wave",
+          "wave": 1
+        },
+        {
+          "time": 7.216666666666646,
+          "kind": "impact",
+          "wave": 1,
+          "position": [
+            172.44048620111306,
+            11.798771875908056,
+            -111.37698096323317
+          ]
+        },
+        {
+          "time": 7.4666666666666455,
+          "kind": "impact",
+          "wave": 1,
+          "position": [
+            173.23016193101012,
+            11.798189464155216,
+            -111.34491979317328
+          ]
+        },
+        {
+          "time": 7.716666666666645,
+          "kind": "impact",
+          "wave": 1,
+          "position": [
+            171.64642816016428,
+            11.798329849274017,
+            -111.36777806145031
+          ]
+        },
+        {
+          "time": 7.733333333333311,
+          "kind": "wave",
+          "wave": 2
+        },
+        {
+          "time": 8.58333333333334,
+          "kind": "impact",
+          "wave": 2,
+          "position": [
+            172.59605154376985,
+            11.799194921400774,
+            -124.12282451131712
+          ]
+        },
+        {
+          "time": 8.833333333333352,
+          "kind": "impact",
+          "wave": 2,
+          "position": [
+            173.39446094569536,
+            11.7992550003031,
+            -124.10687961981414
+          ]
+        },
+        {
+          "time": 9.066666666666697,
+          "kind": "verified"
+        }
+      ]
+    },
+    "message": "BREACH COMPLETE — PATH OPEN",
+    "failure": null,
+    "clearance": null
+  },
+  "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase9\\acceptance\\hover\\page@3eb164b0093faaaf1ebbfa35cec1e163.webm"
+}

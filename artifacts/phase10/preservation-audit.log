@@ -1,0 +1,21 @@
+{
+  "protected": 12,
+  "originals": 15,
+  "changed": 17,
+  "assets": {
+    "file": "public/assets/environment/metropolis/phase10-cinematic-kit-optimized.glb",
+    "bytes": 229480,
+    "modules": [
+      "titan10_interior_office",
+      "titan10_interior_stone",
+      "titan10_interior_utility",
+      "titan10_lobby_canopy"
+    ],
+    "triangles": 8684,
+    "primitives": 13,
+    "normals": true,
+    "uvs": true,
+    "validIndices": true,
+    "license": "public/assets/environment/metropolis/PHASE10-LICENSES.txt"
+  }
+}

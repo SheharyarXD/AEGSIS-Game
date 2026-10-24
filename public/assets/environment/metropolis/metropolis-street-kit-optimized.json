@@ -1,0 +1,7 @@
+{
+  "input": "public/assets/environment/metropolis/metropolis-street-kit.glb",
+  "output": "public/assets/environment/metropolis/metropolis-street-kit-optimized.glb",
+  "sourceBytes": 3640904,
+  "runtimeBytes": 3224316,
+  "meshes": 49
+}

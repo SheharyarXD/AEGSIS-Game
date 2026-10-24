@@ -1,0 +1,615 @@
+{
+  "createdAt": "2026-10-19T04:25:11.582Z",
+  "complete": true,
+  "code": {
+    "checkedAt": "2026-10-19T04:21:15.105Z",
+    "unit": {
+      "pass": 85,
+      "fail": 0
+    },
+    "build": true,
+    "steps": {
+      "unitExit": 0,
+      "typeExit": 0,
+      "buildExit": 0,
+      "auditExit": 0
+    }
+  },
+  "browser": {
+    "startTime": "2026-10-19T01:03:18.523Z",
+    "duration": 585809.563,
+    "expected": 56,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "production": {
+    "passed": true,
+    "qualities": [
+      "LOW",
+      "MEDIUM",
+      "HIGH",
+      "ULTRA"
+    ]
+  },
+  "acceptance": [
+    {
+      "name": "ground",
+      "passed": true,
+      "seconds": 7.346099999994039,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/ground/videos/page@169ff1c0c25dd4125bf69966d9a7112b.webm"
+    },
+    {
+      "name": "hover",
+      "passed": true,
+      "seconds": 7.386,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/hover/videos/page@2723253ce83b6ebd45be9d494691984b.webm"
+    },
+    {
+      "name": "roof",
+      "passed": true,
+      "seconds": 13.0885,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/roof/videos/page@31893c3d2140de7d4f09730fe3f183d0.webm"
+    },
+    {
+      "name": "glass",
+      "passed": true,
+      "seconds": 8.413399999991059,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/glass/videos/page@4a287cb508025f98d8ea01a2edb886f8.webm"
+    },
+    {
+      "name": "gothic",
+      "passed": true,
+      "seconds": 7.564800000011921,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/gothic/videos/page@312fc0fe7b53d9264e83871945327b04.webm"
+    },
+    {
+      "name": "night",
+      "passed": true,
+      "seconds": 7.3625,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/night/videos/page@33935058a668fa134305a22a4c482c84.webm"
+    },
+    {
+      "name": "slow",
+      "passed": true,
+      "seconds": 7.600399999991059,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/slow/videos/page@12877369a93dab8a394570637e045bc9.webm"
+    },
+    {
+      "name": "fast",
+      "passed": true,
+      "seconds": 7.58909999999404,
+      "teleports": 0,
+      "capsuleDisables": 0,
+      "video": "acceptance/fast/videos/page@b1c5c64fba2c4144b7a02f4d052707c9.webm"
+    }
+  ],
+  "tiers": [
+    {
+      "quality": "LOW",
+      "internal": [
+        1088,
+        612
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "meanMs": 8.241834451901568,
+      "fps": 121.33221139491326,
+      "p50Ms": 7,
+      "p95Ms": 13.900000000001455,
+      "p99Ms": 14,
+      "worstMs": 41.70000000000073,
+      "maxDrawCalls": 214,
+      "maxActiveBodies": 16,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1071,
+        "largeAllocations": [
+          {
+            "pid": 66480,
+            "name": "chrome.exe",
+            "dedicatedBytes": 424448000,
+            "sharedBytes": 156106752
+          },
+          {
+            "pid": 30268,
+            "name": "Code.exe",
+            "dedicatedBytes": 162975744,
+            "sharedBytes": 10276864
+          },
+          {
+            "pid": 11668,
+            "name": "chrome.exe",
+            "dedicatedBytes": 130523136,
+            "sharedBytes": 241664
+          },
+          {
+            "pid": 15152,
+            "name": "explorer.exe",
+            "dedicatedBytes": 111828992,
+            "sharedBytes": 2396160
+          },
+          {
+            "pid": 5100,
+            "name": "csrss.exe",
+            "dedicatedBytes": 88293376,
+            "sharedBytes": 8343552
+          },
+          {
+            "pid": 15192,
+            "name": "dwm.exe",
+            "dedicatedBytes": 407359488,
+            "sharedBytes": 1859584
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-19T01:17:08.3139576Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 156106752,
+            "dedicatedBytes": 424448000
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "passed": true,
+      "raw": "performance-LOW/night/result.json"
+    },
+    {
+      "quality": "MEDIUM",
+      "internal": [
+        1280,
+        720
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "meanMs": 13.037588652487553,
+      "fps": 76.7013001142049,
+      "p50Ms": 13.899999999997817,
+      "p95Ms": 14,
+      "p99Ms": 27.799999999999272,
+      "worstMs": 48.60000000000218,
+      "maxDrawCalls": 248,
+      "maxActiveBodies": 15,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1102,
+        "largeAllocations": [
+          {
+            "pid": 30080,
+            "name": "chrome.exe",
+            "dedicatedBytes": 459722752,
+            "sharedBytes": 139550720
+          },
+          {
+            "pid": 30268,
+            "name": "Code.exe",
+            "dedicatedBytes": 170381312,
+            "sharedBytes": 10866688
+          },
+          {
+            "pid": 11668,
+            "name": "chrome.exe",
+            "dedicatedBytes": 130523136,
+            "sharedBytes": 241664
+          },
+          {
+            "pid": 15152,
+            "name": "explorer.exe",
+            "dedicatedBytes": 111304704,
+            "sharedBytes": 2768896
+          },
+          {
+            "pid": 5100,
+            "name": "csrss.exe",
+            "dedicatedBytes": 88293376,
+            "sharedBytes": 8343552
+          },
+          {
+            "pid": 15192,
+            "name": "dwm.exe",
+            "dedicatedBytes": 407359488,
+            "sharedBytes": 1859584
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-19T01:17:40.1323327Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 139550720,
+            "dedicatedBytes": 459722752
+          }
+        ],
+        "utilizationPercent": 99,
+        "memoryClockMHz": 2700
+      },
+      "passed": true,
+      "raw": "performance-MEDIUM/night/result.json"
+    },
+    {
+      "quality": "HIGH",
+      "internal": [
+        1280,
+        720
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "meanMs": 16.651700680285625,
+      "fps": 60.05392597429557,
+      "p50Ms": 13.900000000001455,
+      "p95Ms": 20.900000000001455,
+      "p99Ms": 34.69999999999709,
+      "worstMs": 48.70000000000073,
+      "maxDrawCalls": 494,
+      "maxActiveBodies": 16,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1228,
+        "largeAllocations": [
+          {
+            "pid": 62352,
+            "name": "chrome.exe",
+            "dedicatedBytes": 593428480,
+            "sharedBytes": 186138624
+          },
+          {
+            "pid": 30268,
+            "name": "Code.exe",
+            "dedicatedBytes": 170119168,
+            "sharedBytes": 10276864
+          },
+          {
+            "pid": 11668,
+            "name": "chrome.exe",
+            "dedicatedBytes": 130523136,
+            "sharedBytes": 241664
+          },
+          {
+            "pid": 15152,
+            "name": "explorer.exe",
+            "dedicatedBytes": 110780416,
+            "sharedBytes": 2543616
+          },
+          {
+            "pid": 5100,
+            "name": "csrss.exe",
+            "dedicatedBytes": 88293376,
+            "sharedBytes": 8343552
+          },
+          {
+            "pid": 15192,
+            "name": "dwm.exe",
+            "dedicatedBytes": 407359488,
+            "sharedBytes": 1859584
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-19T01:19:06.3552796Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 186138624,
+            "dedicatedBytes": 593428480
+          }
+        ],
+        "utilizationPercent": 99,
+        "memoryClockMHz": 2700
+      },
+      "passed": true,
+      "raw": "performance-HIGH/night/result.json"
+    },
+    {
+      "quality": "ULTRA",
+      "internal": [
+        1280,
+        720
+      ],
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "meanMs": 16.80616438356164,
+      "fps": 59.501976606757154,
+      "p50Ms": 14,
+      "p95Ms": 20.900000000001455,
+      "p99Ms": 34.79999999999927,
+      "worstMs": 62.400000000001455,
+      "maxDrawCalls": 490,
+      "maxActiveBodies": 16,
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1229,
+        "largeAllocations": [
+          {
+            "pid": 65740,
+            "name": "chrome.exe",
+            "dedicatedBytes": 591183872,
+            "sharedBytes": 178266112
+          },
+          {
+            "pid": 30268,
+            "name": "Code.exe",
+            "dedicatedBytes": 173264896,
+            "sharedBytes": 10276864
+          },
+          {
+            "pid": 11668,
+            "name": "chrome.exe",
+            "dedicatedBytes": 130523136,
+            "sharedBytes": 241664
+          },
+          {
+            "pid": 15152,
+            "name": "explorer.exe",
+            "dedicatedBytes": 110780416,
+            "sharedBytes": 2543616
+          },
+          {
+            "pid": 5100,
+            "name": "csrss.exe",
+            "dedicatedBytes": 88293376,
+            "sharedBytes": 8343552
+          },
+          {
+            "pid": 15192,
+            "name": "dwm.exe",
+            "dedicatedBytes": 407359488,
+            "sharedBytes": 1859584
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-19T01:19:40.1381285Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 178266112,
+            "dedicatedBytes": 591183872
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "passed": true,
+      "raw": "performance-ULTRA/night/result.json"
+    }
+  ],
+  "extra": [
+    {
+      "name": "gothic",
+      "meanMs": 13.399297012307523,
+      "fps": 74.63078093436394,
+      "p50Ms": 13.899999999997817,
+      "p95Ms": 20.700000000000728,
+      "p99Ms": 27.799999999999272,
+      "worstMs": 41.60000000000218
+    },
+    {
+      "name": "fast",
+      "meanMs": 11.847900466562987,
+      "fps": 84.40313984930823,
+      "p50Ms": 13.80000000000291,
+      "p95Ms": 14,
+      "p99Ms": 20.900000000001455,
+      "worstMs": 48.70000000000073
+    }
+  ],
+  "weapons": [
+    {
+      "scenario": "demolition",
+      "fps": 79.81031490202118,
+      "p50Ms": 13.80000000000291,
+      "p95Ms": 20.899999999997817,
+      "p99Ms": 34.599999999998545,
+      "worstMs": 55.60000000000218
+    },
+    {
+      "scenario": "overlap",
+      "fps": 74.37124700650962,
+      "p50Ms": 13.900000000001455,
+      "p95Ms": 20.799999999999272,
+      "p99Ms": 27.900000000001455,
+      "worstMs": 69.5,
+      "overlap": {
+        "samples": 20,
+        "impactSamples": 11,
+        "maxAirborne": 3
+      }
+    }
+  ],
+  "streaming": [
+    {
+      "scenario": "cold-flight",
+      "fps": 116.08726388768311,
+      "p50Ms": 7,
+      "p95Ms": 13.900000000001455,
+      "p99Ms": 14,
+      "worstMs": 48.600000000000364
+    },
+    {
+      "scenario": "street-traversal",
+      "fps": 104.73298089056628,
+      "p50Ms": 7,
+      "p95Ms": 14,
+      "p99Ms": 14,
+      "worstMs": 14.099999999998545
+    },
+    {
+      "scenario": "rooftop-traversal",
+      "fps": 125.67055557634959,
+      "p50Ms": 7,
+      "p95Ms": 13.900000000001455,
+      "p99Ms": 14,
+      "worstMs": 20.900000000001455
+    },
+    {
+      "scenario": "combat",
+      "fps": 70.61970352223584,
+      "p50Ms": 13.900000000001455,
+      "p95Ms": 20.799999999999272,
+      "p99Ms": 27.799999999999272,
+      "worstMs": 27.900000000001455
+    }
+  ],
+  "preservation": {
+    "protected": 12,
+    "originalAssets": 15,
+    "changes": [
+      {
+        "file": "src/main.ts",
+        "before": "4206585a77bc5643f0785d27598989f45d3d460845158afe48b0acdbfc5d9099",
+        "after": "ef84a9860ded8a38905d304624a542a3c54a94e3fe879d53f57410a9b8113400"
+      },
+      {
+        "file": "src/combat/Encounter.ts",
+        "before": "a72725d9a6483b6199ee3dfe2bfdc9eb4a7c5e8b5bff19757f2c34ff3780f3dc",
+        "after": "cc8a312a2bbffea655b104d07fa6c394154b4b3126b0c9e285260b9e2b6df779"
+      },
+      {
+        "file": "src/combat/Missiles.ts",
+        "before": "b6e7cffc7b33c32b46c70c2021f70deb293af3fb0e17cf9347a3e32f8d90db04",
+        "after": "6d3f090e68dbb4b104d78bb5fd54a03b11a5279543822f786243a47998eec668"
+      },
+      {
+        "file": "src/world/ArchitectureDestruction.ts",
+        "before": "f717f64d8126e2e6786e77a3763a2bb348f9a69967054bf628bc62f0cef40e18",
+        "after": "80b3b74aa51dc1b3dd335592935a73364b185f052a2ec8675e1b4fad401bf726"
+      },
+      {
+        "file": "src/world/EnvironmentalDestruction.ts",
+        "before": "a64baf65277a1114f6b5a34e1efc7ac236ea60e5ab73fc1c1cf70100a90d94ad",
+        "after": "33547db885c7cce99e85026b3b9d12f150c1ecf367ab9fbb101176f5a0fc5c6d"
+      },
+      {
+        "file": "src/world/environment/ArchitecturalLights.ts",
+        "before": "ffa3866cce3c6a010f3d9e308390f1fa3c636c6620beea4a6a6e3f4c857bcd08",
+        "after": "caa2dcc352ac9576c624cc00dd3efbb561abae16ef671cf89065721279ab02eb"
+      },
+      {
+        "file": "src/world/environment/ArchitectureImpactEffects.ts",
+        "before": "d2db7cbd297add0357b27a6f7f0cdf06a6c9fb7cff56fb85790f1984c043a985",
+        "after": "2d8182fb775094ccce3ed63ef979a36fd03f5d18463eb04b61db2b4f1bd6b3f5"
+      },
+      {
+        "file": "src/world/environment/AssetLibrary.ts",
+        "before": "8b8ba79899869e3307d0e5b2c6399cef6d56bfcd51ef70ac341e0d917e3ee2af",
+        "after": "28002def5d1f52bea2eac06699f12e8b633c5c64a6bfe8e80888d208a0cdb11b"
+      },
+      {
+        "file": "src/world/environment/Atmosphere.ts",
+        "before": "f905c11710fcd610db42b215d7c1377fd4e917ec0fcf54ed067ee08a5782948f",
+        "after": "07ab12e170b04b02079ac81e61f2fb5d76225ac7e844304b298128f33de69c5b"
+      },
+      {
+        "file": "src/world/environment/EnvironmentMaterials.ts",
+        "before": "ecd318e5c2517c7c23e4e187bebc17b082f41e5e801e81d656438bfaa50f2513",
+        "after": "7fcfb1843c8acc9e1071b5211d38e354983567e21557f056fabd03c2d04ef640"
+      },
+      {
+        "file": "src/world/environment/PremiumMaterials.ts",
+        "before": "798914e6f74925225db25a6efb5373b4d79afcb042f0c799b29cd6bcdb0283fd",
+        "after": "d10f1660c2b5157ba1ccdf8610971f95ca1af1c4b8ae3292bfae9b34d0e8e486"
+      },
+      {
+        "file": "src/world/environment/StreetMaterials.ts",
+        "before": "5fff6cf09b0af60e9041f5a3579fac3535ad51794f21454ee77aaf2f859a0a62",
+        "after": "81584b07248db3b3d036f60af001e534b6f47addcdfaac98043aa432d07a18fb"
+      },
+      {
+        "file": "src/world/titan/BreachInteriors.ts",
+        "before": "48d116826de3367abf4115309beb8298dedc0715d673d52308f90a13aed40b43",
+        "after": "0fa01c1eeddad2313911bf423694fc3b38f4234adbc9866452710c3d020e5f82"
+      },
+      {
+        "file": "src/world/titan/ExplosionEffects.ts",
+        "before": "c413af016bbbf63d16f902ef71de29096458fd8f6ed82ed319e8b5277f8d9418",
+        "after": "a2aa3e994f25977e98eb916ac16ba07d6f100c01cf36de383730f2cab857419f"
+      },
+      {
+        "file": "src/world/titan/LivingBlock.ts",
+        "before": "d71f989be27d67c6cb0ae6a528332fa255c4744e67c45380a17e1373579eb979",
+        "after": "18589be7f1f891f58034ece6b85da4fbf947abc536e96bb45e32be06355bc6d1"
+      },
+      {
+        "file": "src/world/titan/TitanBreakthrough.ts",
+        "before": "ba8619323590d974e48dde6c5277ca8d5ad158ca4b9717dce57992d3716eb2d5",
+        "after": "400e76e0341243f1db3c2e60819a1ff2dbfd9260ffac887fd53fbc9b6c45c625"
+      },
+      {
+        "file": "package.json",
+        "before": "a0381f9a4e3f55e41d0749adda0d994cd920be201a5d8c782ec056ab336ef053",
+        "after": "087176596560377c71e22c28bb172473356675bd41f4b8b0fc8215bbf5a29d03"
+      }
+    ],
+    "newFiles": [
+      "src/world/titan/BreachAnimation.ts",
+      "src/world/titan/CinematicCamera.ts",
+      "src/world/titan/CinematicRoute.ts",
+      "src/world/titan/TitanCinematicAssault.ts",
+      "src/world/environment/SourceMaterialPolicy.ts",
+      "scripts/phase10-audit.mjs",
+      "scripts/phase10-cinematic-live.mjs",
+      "scripts/phase10-code-checks.mjs",
+      "scripts/phase10-export-poses.mjs",
+      "scripts/phase10-final-verification.mjs",
+      "scripts/phase10-finalize-checks.mjs",
+      "scripts/phase10-open-game.mjs",
+      "scripts/phase10-optimize-kit.mjs",
+      "scripts/phase10-overlap-probe.mjs",
+      "scripts/phase10-preflight-guard-refinement.py",
+      "scripts/phase10-presentation.mjs",
+      "scripts/phase10-production-smoke.mjs",
+      "scripts/phase10-report.mjs",
+      "scripts/phase10-review-browser.mjs",
+      "scripts/phase10-route-probe.mjs",
+      "scripts/phase10-weapons-performance.mjs",
+      "tests/phase10-camera.test.ts",
+      "tests/phase10-controller.test.ts",
+      "tests/phase10.browser.spec.mjs",
+      "tests/phase10.test.ts",
+      "docs/PHASE10-CODEX-TO-CLAUDE-HANDOFF.md",
+      "docs/PHASE10-PLAN.md",
+      "art/environment/phase10/build_cinematic_kit.py",
+      "art/environment/phase10/cinematic-corridors.blend",
+      "art/environment/phase10/cinematic-corridors.blend1",
+      "art/environment/phase10/README.md",
+      "art/animation/phase10/titan-breach-clips.json"
+    ]
+  },
+  "assets": {
+    "createdAt": "2026-10-19T00:51:21.896Z",
+    "source": "art/environment/phase10/cinematic-corridors.blend",
+    "raw": 604800,
+    "optimized": 229480,
+    "modules": [
+      "titan10_interior_office",
+      "titan10_interior_stone",
+      "titan10_interior_utility",
+      "titan10_lobby_canopy"
+    ],
+    "triangles": 8684
+  },
+  "limits": [
+    "Not an AAA-finished city: repeated families/corridors, broad avenues and simplified urban life remain.",
+    "Nearby cinematics take roughly 7–9 s; a long rooftop approach can take around 14 s.",
+    "Measurements share the GPU with unrelated desktop applications. The emulator was left untouched but is not listed in the final allocation samples. Baseline contention differs; no controlled percentage-speed claim.",
+    "Cold streaming and activation outliers are measured, not guaranteed below a hard budget.",
+    "Architectural refraction is deliberately approximated by reflective glazing. Other reflections, dust, flames and collapse are bounded approximations.",
+    "Raw Playwright recordings are silent; audible mix quality is not established.",
+    "Portal network/download certification, every device/GPU, and inherited source/pilot redistribution licenses remain outside these local results."
+  ]
+}

@@ -1,0 +1,2 @@
+$ node --import tsx scripts/phase8-code-report.ts
+{"buildings":971,"families":25,"districts":5,"historicLinks":2,"trafficLoops":177}

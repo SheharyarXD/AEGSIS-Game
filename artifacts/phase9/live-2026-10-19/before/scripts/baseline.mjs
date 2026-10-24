@@ -1,0 +1,20 @@
+import { chromium } from '@playwright/test';
+import { writeFile } from 'node:fs/promises';
+const browser = await chromium.launch({channel:'chrome', headless:true});
+const page = await browser.newPage({viewport:{width:1440,height:900}});
+const errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:5173');
+await page.waitForTimeout(3000);
+await page.screenshot({path:'artifacts/baseline.png'});
+const result=await page.evaluate(async()=>{
+ const gl=document.querySelector('canvas').getContext('webgl2');
+ const ext=gl.getExtension('WEBGL_debug_renderer_info');
+ const times=[];let last=performance.now();
+ await new Promise(resolve=>{function step(t){times.push(t-last);last=t;if(times.length<240)requestAnimationFrame(step);else resolve();}requestAnimationFrame(step)});
+ times.shift();times.sort((a,b)=>a-b);
+ return {renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER),viewport:[innerWidth,innerHeight],dpr:devicePixelRatio,meanMs:times.reduce((a,b)=>a+b)/times.length,p95Ms:times[Math.floor(times.length*.95)],samples:times.length};
+});
+await writeFile('artifacts/baseline-performance.json',JSON.stringify({browser:browser.version(),...result,errors},null,2));
+console.log(result,errors);
+await browser.close();

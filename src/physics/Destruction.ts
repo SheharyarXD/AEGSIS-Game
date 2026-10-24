@@ -3,6 +3,7 @@ import { PhysicsWorld, RAPIER } from './PhysicsWorld';
 import { ImpactVfx } from '../vfx/ImpactVfx';
 import { ConvexGeometry } from 'three/addons/geometries/ConvexGeometry.js';
 
+import type { WorldAttack } from '../world/titan/TitanConfig';
 interface Piece {mesh:Mesh;collider:RAPIER.Collider|null;position:Vector3;size:Vector3;hp:number;maxHp:number;broken:boolean;}
 interface Debris {mesh:Mesh;body:RAPIER.RigidBody;life:number;}
 export class Destruction {
@@ -11,6 +12,8 @@ export class Destruction {
   readonly debris:Debris[]=[];
   broken=0;
   onBreak?: (position:Vector3)=>void;
+  onWorldHit?: (collider:RAPIER.Collider,strength:number,point:Vector3,direction:Vector3,attack?:WorldAttack)=>boolean;
+  onWorldBlast?: (position:Vector3,radius:number,strength:number,direction?:Vector3,attack?:WorldAttack)=>void;
   private readonly geometry=new BoxGeometry();
   private readonly fragments=Array.from({length:4},(_,index)=>new ConvexGeometry(Array.from({length:8},(_,i)=>new Vector3(
     (i&1?.5:-.5)*(1-((i*7+index*3)%5)*.035),
@@ -32,15 +35,16 @@ export class Destruction {
     const collider=this.physics.box(position,size,{kind:'breakable',id});
     this.pieces.push({mesh,collider,position,size,hp,maxHp:hp,broken:false});
   }
-  hit(collider:RAPIER.Collider,strength:number,point:Vector3,direction:Vector3):boolean {
-    const surface=this.physics.surfaces.get(collider.handle);if(surface?.kind!=='breakable')return false;
+  hit(collider:RAPIER.Collider,strength:number,point:Vector3,direction:Vector3,attack?:WorldAttack):boolean {
+    const surface=this.physics.surfaces.get(collider.handle);if(surface?.kind!=='breakable')return this.onWorldHit?.(collider,strength,point,direction,attack)??false;
     const piece=this.pieces[surface.id!];if(!piece||piece.broken)return false;
     piece.hp-=strength;
     if(piece.hp<=0)this.fracture(piece,direction,Math.min(18,strength/10));
     else this.vfx.mark(point,direction.clone().negate(),.8);
     return piece.broken;
   }
-  blast(position:Vector3,radius:number,strength:number,direction?:Vector3):void {
+  blast(position:Vector3,radius:number,strength:number,direction?:Vector3,attack?:WorldAttack):void {
+    this.onWorldBlast?.(position,radius,strength,direction,attack);
     for(const piece of this.pieces)if(!piece.broken&&piece.position.distanceTo(position)<radius){
       this.hit(piece.collider!,strength*(1-piece.position.distanceTo(position)/(radius+1)),piece.position,direction??piece.position.clone().sub(position).normalize());
     }

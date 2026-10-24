@@ -1,0 +1,16 @@
+AEGIS Phase 10 original authored additions
+
+The corridor office partitions, damaged stone vaults, service pipes, structural frames,
+ceiling trays and entrance canopies in phase10-cinematic-kit.glb and its optimized
+derivative were authored specifically for this project using the Blender Python API.
+Editable source: art/environment/phase10/cinematic-corridors.blend
+Reproduction source: art/environment/phase10/build_cinematic_kit.py
+
+These additions contain no downloaded game assets, copied proprietary architecture,
+third-party texture downloads or franchise-specific character material. The project
+owner may use and modify these original additions with AEGIS.
+
+Runtime materials reuse the existing project's licensed PBR atlases. Their existing
+attribution and terms remain authoritative: ../ATTRIBUTION.txt, LICENSES.txt,
+and the source texture notices under art/environment/ and public/assets/environment/.
+Original supplied architecture and character asset licenses are unchanged.

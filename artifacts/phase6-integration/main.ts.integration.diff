@@ -1,0 +1,105 @@
+--- backup/src/main.ts
++++ main/src/main.ts
+@@ -6,10 +6,12 @@
+ import { InputController } from './input/InputController';
+ import { PlayerController } from './player/PlayerController';
+ import { AegisSuit } from './player/AegisSuit';
++import { FlightState } from './player/FlightState';
+ import { Hud } from './ui/Hud';
+ import { FlightVfx } from './vfx/FlightVfx';
+ import { ImpactVfx } from './vfx/ImpactVfx';
+ import { City, SPAWN } from './world/City';
++import { installEnvironmentDebug } from './world/environment/EnvironmentDebug';
+ import { PhysicsWorld } from './physics/PhysicsWorld';
+ import { Destruction } from './physics/Destruction';
+ import { AudioSystem } from './audio/AudioSystem';
+@@ -30,14 +32,22 @@
+ async function boot():Promise<void> {
+   const loadingStart=performance.now();
+   await Promise.all([PhysicsWorld.init(),Boss.loadAssets(),AegisSuit.loadAssets(p=>{const bar=root.querySelector('progress'),status=root.querySelector('#load-status');if(bar)bar.value=p;if(status)status.textContent=`LOADING VANGUARD ARMOR · ${Math.round(p*100)}%`;})]);
+-  const loadingMs=performance.now()-loadingStart;
++  let loadingMs=performance.now()-loadingStart;
+   const renderer=new WebGLRenderer({antialias:true,powerPreference:'high-performance'});
+   renderer.setPixelRatio(Math.min(devicePixelRatio,settings.pixelRatio));renderer.setSize(innerWidth,innerHeight);
+-  renderer.shadowMap.enabled=settings.shadows;renderer.shadowMap.type=PCFShadowMap;renderer.toneMapping=ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
++  renderer.shadowMap.autoUpdate=false;renderer.shadowMap.enabled=settings.shadows;renderer.shadowMap.type=PCFShadowMap;renderer.toneMapping=ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
+   renderer.domElement.setAttribute('aria-label','AEGIS 3D game viewport');root.prepend(renderer.domElement);
+   const scene=new Scene(),pmrem=new PMREMGenerator(renderer),room=new RoomEnvironment();
+   const environment=pmrem.fromScene(room,.04);scene.environment=environment.texture;scene.environmentIntensity=.6;room.dispose();pmrem.dispose();
+   const physics=new PhysicsWorld(),city=new City(scene,settings,physics),camera=new CameraRig(physics),player=new PlayerController(physics);
++  await city.ready;loadingMs=performance.now()-loadingStart;
++  camera.camera.far=6500;camera.camera.updateProjectionMatrix();
++  function relocate(point:Vector3):void {
++    player.ragdoll.reset();player.body.setEnabled(true);player.body.teleport(point);player.body.grounded=false;player.velocity.set(0,0,0);
++    player.state=point.y>1?FlightState.Fall:FlightState.Ground;
++    player.sync(0);player.present(1);camera.reset(point);physics.resetClock();city.prepareAt(point);
++  }
++  installEnvironmentDebug(city,renderer,relocate);
+   scene.add(player.root,camera.camera);const input=new InputController(renderer.domElement),audio=new AudioSystem();
+   const impacts=new ImpactVfx(settings.particles),destruction=new Destruction(physics,impacts,settings.debris);scene.add(impacts.group,destruction.group);
+   const flightVfx=new FlightVfx(camera.camera,player.armor.thrusterMounts,settings.speedLineCount,quality);
+@@ -56,10 +66,10 @@
+     start:range=>{reset();encounter.begin(range);mode=range?'play':'intro';introTime=0;hud.menu('hidden');input.setEnabled(range);if(range)camera.reset(player.position);void audio.start();if(range)void input.lock();},
+     resume:()=>{mode='play';input.setEnabled(true);hud.menu('hidden');void input.lock();audio.mute(false);physics.resetClock();},
+     restart:()=>{reset();mode='intro';hud.menu('hidden');introTime=0;void audio.start();},
+-    quality:q=>{try{localStorage.setItem('aegis-quality',q);}catch{}location.reload();},audio:enabled=>{audio.enabled=enabled;},
++    quality:q=>{try{localStorage.setItem('aegis-quality',q);}catch{}location.reload();},audio:enabled=>{audio.enabled=enabled;city.audio.enabled=enabled;},
+   });
+   hud.menu('title');input.setEnabled(false);
+-  function reset():void {encounter.reset();player.reset();destruction.reset();impacts.reset();physics.resetClock();frameTimes.length=0;wasCinematic=false;city.courseRings.forEach(r=>r.visible=true);camera.reset(SPAWN);hud.endCinematic();hud.show('boss-bar',false);input.reset();audio.mute(false);lastDock=-1;}
++  function reset():void {encounter.reset();player.reset();city.reset();destruction.reset();impacts.reset();physics.resetClock();frameTimes.length=0;wasCinematic=false;city.courseRings.forEach(r=>r.visible=true);camera.reset(SPAWN);hud.endCinematic();hud.show('boss-bar',false);input.reset();audio.mute(false);lastDock=-1;}
+   function pause():void {if(mode!=='play')return;mode='paused';input.setEnabled(false);hud.menu('paused');audio.mute(true);document.exitPointerLock();}
+   function finishIntro():void {if(mode!=='intro')return;mode='play';player.suitUp(1);hud.endCinematic();input.setEnabled(true);camera.reset(player.position);void input.lock();}
+   hud.el('skip').onclick=finishIntro;
+@@ -103,12 +113,14 @@
+   window.addEventListener('resize',()=>{renderer.setSize(innerWidth,innerHeight);composer?.setSize(innerWidth,innerHeight);camera.resize(innerWidth,innerHeight);});
+   renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();pause();hud.text('menu-copy','Graphics context lost. Reload the page to reinitialize the renderer.');});
+   window.addEventListener('error',e=>{pause();hud.show('toast',true);hud.text('toast',`Simulation stopped: ${e.message}. Restart or reload to recover.`);});
+-  const getDiagnostics=()=>({mode,quality,frameMs,meanMs:frameTimes.reduce((a,b)=>a+b,0)/Math.max(1,frameTimes.length),p95Ms:[...frameTimes].sort((a,b)=>a-b)[Math.floor(frameTimes.length*.95)]??0,simulationMs,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,bodies:physics.world.bodies.len(),activeBodies:physics.activeBodies,particles:impacts.active,debris:destruction.debris.length,broken:destruction.broken,geometries:renderer.info.memory.geometries,textures:renderer.info.memory.textures,loadingMs,assetLoadMs:AegisSuit.assetLoadMilliseconds,position:player.position.toArray(),state:player.state,health:player.health,courseIndex:encounter.courseIndex,stage:encounter.stage,crashes:player.crashCount,throws:encounter.throws,enemyHealth:encounter.enemies.map(e=>e.health),bossHealth:encounter.boss?.health,bossPhase:encounter.boss?.phase,missiles:encounter.projectiles.pool.filter(p=>p.hostile&&p.life>0).length});
++  const getDiagnostics=()=>({colliders:physics.world.colliders.len(),environment:city.diagnostics(),mode,quality,frameMs,meanMs:frameTimes.reduce((a,b)=>a+b,0)/Math.max(1,frameTimes.length),p95Ms:[...frameTimes].sort((a,b)=>a-b)[Math.floor(frameTimes.length*.95)]??0,simulationMs,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,bodies:physics.world.bodies.len(),activeBodies:physics.activeBodies,particles:impacts.active,debris:destruction.debris.length,broken:destruction.broken,geometries:renderer.info.memory.geometries,textures:renderer.info.memory.textures,loadingMs,assetLoadMs:AegisSuit.assetLoadMilliseconds,position:player.position.toArray(),state:player.state,health:player.health,courseIndex:encounter.courseIndex,stage:encounter.stage,crashes:player.crashCount,throws:encounter.throws,enemyHealth:encounter.enemies.map(e=>e.health),bossHealth:encounter.boss?.health,bossPhase:encounter.boss?.phase,missiles:encounter.projectiles.pool.filter(p=>p.hostile&&p.life>0).length});
+   // Read-only telemetry is always available. Mutation hooks are restricted to the explicit QA URL.
+   Object.assign(window,{aegisDiagnostics:getDiagnostics});
+-  if(new URLSearchParams(location.search).has('qa'))Object.assign(window,{__AEGIS__:{player,physics,city,destruction,impacts,camera,input,encounter,audio,reset,start:(range=false)=>{reset();encounter.begin(range);mode='play';hud.menu('hidden');input.setEnabled(true);camera.reset(player.position);},getDiagnostics}});
++  if(new URLSearchParams(location.search).has('qa'))Object.assign(window,{__AEGIS__:{player,physics,city,destruction,impacts,camera,input,encounter,audio,reset,teleport:relocate,start:(range=false)=>{reset();encounter.begin(range);mode='play';hud.menu('hidden');input.setEnabled(true);camera.reset(player.position);},getDiagnostics}});
+   physics.world.step();root.querySelector('.loader')!.remove();
++  let animationFrame=0,closed=false;
+   function tick(now:number):void {
++    if(closed)return;
+     const dt=Math.min((now-previous)/1000,.15);frameMs=now-previous;previous=now;
+     if(mode==='play'){frameTimes.push(frameMs);if(frameTimes.length>600)frameTimes.shift();}
+     if(mode!=='paused'&&mode!=='dead'&&mode!=='complete')time+=dt;
+@@ -124,7 +136,7 @@
+     }else if(mode==='play') {
+       camera.readInput(input);const start=performance.now(),steps=physics.steps;
+       {const view=camera.getReference();encounter.setView(camera.camera.position,view.forward,view.right,camera.camera.fov);}
+-      physics.advance(dt,step=>{player.control(step,input,camera.getReference(),!encounter.cinematic);encounter.update(step,input,camera.getReference());},step=>{player.sync(step);encounter.sync(step);destruction.update(step);});
++      physics.advance(dt,step=>{player.control(step,input,camera.getReference(),!encounter.cinematic);if(!player.ragdoll.active)player.object.position.copy(player.position);encounter.update(step,input,camera.getReference());},step=>{player.sync(step);encounter.sync(step);destruction.update(step);});
+       simulationMs=performance.now()-start;if(physics.steps>steps)input.endFrame();player.present(physics.alpha);player.animate(dt);encounter.animate(dt);
+       if(wasCinematic&&!encounter.cinematic)camera.reset(player.position);wasCinematic=encounter.cinematic;
+       if(encounter.cinematic){
+@@ -139,16 +151,21 @@
+       if(encounter.stage==='complete'){mode='complete';hud.endCinematic();hud.menu('complete');input.setEnabled(false);document.exitPointerLock();audio.mute(true);}
+       if(player.health<=0){mode='dead';hud.menu('dead');input.setEnabled(false);document.exitPointerLock();audio.mute(true);}
+     }
+-    if(mode!=='paused'){impacts.update(dt);city.update(player.position,time);}
++    if(mode==='play'){const recovery=city.recovery.check(player.position,player.state===FlightState.Ground&&player.body.grounded&&!player.ragdoll.active);if(recovery)relocate(recovery);}
++    if(mode!=='paused'){impacts.update(dt);city.update(player.position,time,camera.camera,player.velocity,mode==='play');}
++    city.setActive(mode==='play');
+     const telemetry=player.telemetry();
+     if(mode==='play'){
+       if(telemetry.state!==heard.state){if(telemetry.state==='TAKEOFF')audio.cue('thrusterStart');else if(telemetry.state==='BRAKE')audio.cue('brake',.8);else if(heard.state==='FALL'&&telemetry.state==='HOVER')audio.cue('thrusterStart',1.2);}
+       if(telemetry.boostActive&&!heard.boost)audio.cue('boost');
+     }
+     heard={state:telemetry.state,boost:telemetry.boostActive};flightVfx.update(dt,telemetry.state,telemetry.speed,telemetry.flightActive&&telemetry.boostActive,{velocity:player.velocity,bank:player.bankAmount});audio.update(telemetry.speed,telemetry.flightActive&&mode==='play');hud.update(telemetry,time);
+-    if(diagnostics){const d=getDiagnostics();hud.text('diagnostics',`${quality} / ${innerWidth}×${innerHeight} / DPR ${renderer.getPixelRatio()}\nFRAME ${d.meanMs.toFixed(1)} ms · P95 ${d.p95Ms.toFixed(1)} ms\nPHYSICS ${simulationMs.toFixed(2)} ms / 60 Hz\nDRAW ${d.drawCalls} · TRI ${d.triangles.toLocaleString()}\nBODIES ${d.bodies} / ACTIVE ${d.activeBodies}\nPARTICLES ${d.particles} · DEBRIS ${d.debris}\nASSET ${(AegisSuit.assetBytes/1e6).toFixed(1)} MB · ${d.assetLoadMs.toFixed(0)} ms\nPOS ${d.position.map(v=>v.toFixed(1)).join(' / ')}`);}
+-    renderer.info.reset();if(composer)composer.render();else renderer.render(scene,camera.camera);requestAnimationFrame(tick);
++    if(diagnostics){const d=getDiagnostics();hud.text('diagnostics',`${quality} / ${innerWidth}×${innerHeight} / DPR ${renderer.getPixelRatio()}\nFRAME ${d.meanMs.toFixed(1)} ms · P95 ${d.p95Ms.toFixed(1)} ms\nPHYSICS ${simulationMs.toFixed(2)} ms / 60 Hz\nDRAW ${d.drawCalls} · TRI ${d.triangles.toLocaleString()}\nBODIES ${d.bodies} / ACTIVE ${d.activeBodies}\nPARTICLES ${d.particles} · DEBRIS ${d.debris}\nASSET ${(AegisSuit.assetBytes/1e6).toFixed(1)} MB · ${d.assetLoadMs.toFixed(0)} ms\nCITY ${d.environment.district.toUpperCase()} / ${d.environment.tiles} TILES\n${d.environment.weather.toUpperCase()} / ${d.environment.hour.toFixed(1)} h / ${d.colliders} COLLIDERS\nPOS ${d.position.map(v=>v.toFixed(1)).join(' / ')}`);}
++    renderer.info.reset();renderer.shadowMap.needsUpdate=true;if(composer)composer.render();else renderer.render(scene,camera.camera);animationFrame=requestAnimationFrame(tick);
+   }
+-  requestAnimationFrame(tick);
++  animationFrame=requestAnimationFrame(tick);
++  function dispose():void {if(closed)return;closed=true;cancelAnimationFrame(animationFrame);audio.mute(true);city.dispose();composer?.passes.forEach(pass=>pass.dispose());composer?.dispose();environment.dispose();renderer.dispose();}
++  window.addEventListener('pagehide',event=>{if(!event.persisted)dispose();});
++  import.meta.hot?.dispose(dispose);
+ }
+ void boot().catch(error=>{console.error(error);const loader=root.querySelector('.loader')!;loader.replaceChildren();const title=document.createElement('strong');title.textContent='SYSTEM OFFLINE';const text=document.createElement('p');text.textContent=error instanceof Error?error.message:String(error);const button=document.createElement('button');button.textContent='Retry loading';button.onclick=()=>location.reload();loader.append(title,text,button);});

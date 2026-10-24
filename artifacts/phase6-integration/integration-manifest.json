@@ -1,0 +1,427 @@
+{
+  "main": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game",
+  "environment": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis-Environment",
+  "rehearsal": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733",
+  "backup": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Backups\\20261011-124733",
+  "mainHead": "784838c0102091d688a5bcf28ef297d1a519af56",
+  "branch": "main",
+  "environmentCommits": [
+    "0cba83dd429f82812c3de20ff05837f1b6b2851b",
+    "42d722890c7a56b911952ae3845b7b3d71678768"
+  ],
+  "transferred": [
+    {
+      "path": "art/environment/README.md",
+      "sha256": "83ce18b3ef12192c5cc51e5812ae8994f966f3f30b8e35b6be2938d88320fdbb",
+      "bytes": 3248,
+      "integrationType": "addition"
+    },
+    {
+      "path": "art/environment/aegis-environment.blend",
+      "sha256": "dc450a121f875894f189abd3c4cecc3ed4a7d0e2933b7cabd0874316765cf158",
+      "bytes": 2970340,
+      "integrationType": "addition"
+    },
+    {
+      "path": "art/environment/build.py",
+      "sha256": "88c07c4c1d7b8501463711e04febd94bce1d7f32b59a2cd9c996ae27cd11b9f7",
+      "bytes": 19260,
+      "integrationType": "addition"
+    },
+    {
+      "path": "art/environment/textures/atlas-color.png",
+      "sha256": "8836e85b7d731c75074267d681815e2c27fd030611af1198a0c69e94001a4666",
+      "bytes": 346703,
+      "integrationType": "addition"
+    },
+    {
+      "path": "art/environment/textures/atlas-normal.png",
+      "sha256": "d59a2e1c1b274ea94038ecaf73dff1441bcc6bce83a1a1e792c2e69399895a45",
+      "bytes": 431426,
+      "integrationType": "addition"
+    },
+    {
+      "path": "art/environment/textures/atlas-orm.png",
+      "sha256": "ac4a59478798fb56ec11e18b9e85a344fec4fc5abc2f1a5df1d16428ad2682d4",
+      "bytes": 69809,
+      "integrationType": "addition"
+    },
+    {
+      "path": "artifacts/environment/asset-validation.json",
+      "sha256": "53a893cc08eb8d75e4d15613a6f1928c0e46eceeba39a8d37d60eb750ecce155",
+      "bytes": 602,
+      "integrationType": "addition"
+    },
+    {
+      "path": "artifacts/environment/file-manifest.json",
+      "sha256": "b3628847bbe4ac140bee83e453cb9ef5215d110c19983d15584928b26bfcfce6",
+      "bytes": 16803,
+      "integrationType": "addition"
+    },
+    {
+      "path": "docs/ENVIRONMENT-AUDIT.md",
+      "sha256": "ecb6e171661c1dc0b56ce363dc167f2467418b485cf87ee495124e14deecb11c",
+      "bytes": 2187,
+      "integrationType": "addition"
+    },
+    {
+      "path": "docs/ENVIRONMENT-BOOTSTRAP.patch",
+      "sha256": "f37a6da27167cee1f331018fec4b616831a4a0abdf1cd9ff7cbed5a7966b356b",
+      "bytes": 4977,
+      "integrationType": "addition"
+    },
+    {
+      "path": "docs/ENVIRONMENT-INTEGRATION.md",
+      "sha256": "f7951f8df454f711a1e2ff8b090b1cfdf02c07a6d7524dcc0a7b3f9ffdde02a0",
+      "bytes": 5044,
+      "integrationType": "addition"
+    },
+    {
+      "path": "docs/ENVIRONMENT-REPORT.md",
+      "sha256": "f928f2eb51bbe051c43f0f5177487b57a856cd4e29348635f59491c5ab4e8f22",
+      "bytes": 13184,
+      "integrationType": "addition"
+    },
+    {
+      "path": "package.json",
+      "sha256": "c5c6b3550f821308f6ca18003fe2c0f8ef0ab8760fb263286322ef0213fba0a2",
+      "bytes": 1321,
+      "integrationType": "semantic merge"
+    },
+    {
+      "path": "playwright.environment.config.mjs",
+      "sha256": "36960348785316fac67446d45601b850de9448e4ab6c93d25fb1c23438d2aad5",
+      "bytes": 231,
+      "integrationType": "addition"
+    },
+    {
+      "path": "playwright.integration.config.mjs",
+      "sha256": "6aa8b0e1f755b9488f1df4588744fed2af51cd1cbc9bf77c8db38b65e25af33f",
+      "bytes": 841,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/LICENSE-PolyHaven.txt",
+      "sha256": "414befc28352d57b932b7de7759157b0f3b945d30fed54b89fe984d3a519b7f0",
+      "bytes": 332,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/aegis-city-kit.glb",
+      "sha256": "c5c299a8ee4675380cd807ada8f0bf2a965c891d47c0a0ef9266a64c6dbfe14f",
+      "bytes": 2935140,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/aegis-landmarks.glb",
+      "sha256": "c407eee451ef1bf98240d2cae63cfbf54cc993035f1ea72d0a70e3091355ab5b",
+      "bytes": 1464668,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/aegis-skyline-lod.glb",
+      "sha256": "fa3584d03a459a64010173999d350aef24183e2b19bbbadbead7c81ec4cc4518",
+      "bytes": 934884,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/asphalt-diff.webp",
+      "sha256": "5edbb3a8793d366ac6f254fcc7f375af60fd75deb98003f56ca667ec8a4299fb",
+      "bytes": 99302,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/asphalt-normal.webp",
+      "sha256": "a3e4ae96cf6c130c94824bdbe75f8c1b9620e95ee8256d9df1b6b02c8104139a",
+      "bytes": 83514,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/asphalt-rough.webp",
+      "sha256": "e10015949736e9b1f89ce24a71f81e42b8d9448b36b262ddf46f6dcf53ffbcb4",
+      "bytes": 89244,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/atlas-color.webp",
+      "sha256": "7de2732b7010e10389cc243dc5e3ad242b2855a1cddf3c722e2c323d708849c9",
+      "bytes": 104054,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/atlas-manifest.json",
+      "sha256": "9a4d326a18b15c1c5f7ee6c1fbc1d4277d1bb5a2384f7d91974f3b857cd8d243",
+      "bytes": 404,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/atlas-normal.webp",
+      "sha256": "62f7d5b5e5c41af5d6d16e0e3cc04f87563082f2a0bf711450f738b3068687c3",
+      "bytes": 333736,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/atlas-orm.webp",
+      "sha256": "b649a2b214524e5640950ffbe40044d8c11cfd290401f4372f3b406bc59227b7",
+      "bytes": 43368,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/authored-manifest.json",
+      "sha256": "c50908bb4a2d6dfd21e172045f5cda21e7c92dd2fe5621e1cda0094493cf751d",
+      "bytes": 16640,
+      "integrationType": "addition"
+    },
+    {
+      "path": "public/assets/environment/external-manifest.json",
+      "sha256": "5bc31672e21e7c38c6faab61d1c900ea462bf925cf92236101c2fb8fd10201fc",
+      "bytes": 2395,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/acquire-environment.mjs",
+      "sha256": "c16e8b43221cc441bbe25ad7016c50bf286461ff447d78b22f85d492667c3f90",
+      "bytes": 1895,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/environment-baseline.mjs",
+      "sha256": "b515c0eecdeb4e26cce69b26dd1faab9319a66e6e8d7cf63feeaa19589e8808f",
+      "bytes": 1789,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/environment-capture.mjs",
+      "sha256": "08096de80b78482e03d5aadcbc44c0bc89c3fef559351a6e6545767ee8f34410",
+      "bytes": 6301,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/environment-performance.mjs",
+      "sha256": "6a0734793f72b3701a5ce3af309a618ba40da362c464dade836a412a6fb9ca0b",
+      "bytes": 2888,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/environment-report.mjs",
+      "sha256": "5d20d35f3ec43d21c4f550f0107cb06d5e88d06734d9b0fae3f4d5c44277b650",
+      "bytes": 14974,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/environment-slice.mjs",
+      "sha256": "078333a2d1968362181d355432fb065743560dafad6aca1e4ce3302e7d2320d8",
+      "bytes": 1777,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/integration-browser.mjs",
+      "sha256": "7d94b5036d765bfe2e6a97410011585d2d2f07e83dc17b16cf936147c4655383",
+      "bytes": 3455,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/integration-capture.mjs",
+      "sha256": "f6225116acebd0f9b9aba4dafd36a36749de4c09d3f30a410967f737915a9852",
+      "bytes": 8729,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/integration-performance.mjs",
+      "sha256": "a5fc922fa0abcd08dd6497a32bf5f81192f4dbeae37840234215e37eec1f3e08",
+      "bytes": 8272,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/prepare-environment-materials.mjs",
+      "sha256": "14f354855acca888620eebeab4215f7848e32a88da8de772f7ac8fcfc7ddf22a",
+      "bytes": 2617,
+      "integrationType": "addition"
+    },
+    {
+      "path": "scripts/validate-environment-assets.mjs",
+      "sha256": "884e2db8e850bef626efa15980e47dd7eb5f12bd6a4d20ef92282e0e70642685",
+      "bytes": 2037,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/CityLayout.ts",
+      "sha256": "2c963206a34392ea26e33c4349a01812c87f0bb3b9cffe1636bb59d2fe144a91",
+      "bytes": 5954,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/DeploymentBay.ts",
+      "sha256": "8abf5238b42fe58654a869ecd4ceb4dddb6704171dfcda40dc05cc7d8595ef58",
+      "bytes": 14961,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/WorldCollision.ts",
+      "sha256": "421946f374359d218d8f3daf0781ff71f1599910dde77e29fad55c9100b1e54b",
+      "bytes": 3185,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/WorldRecovery.ts",
+      "sha256": "86e0b277523cb8b2d77fdac3e7e3aaa1a1d289c35c1d64d7bfdfa4f95e8dcc06",
+      "bytes": 829,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/WorldStreaming.ts",
+      "sha256": "d3fda1fab8e5e2b9dc965a746ff9979aa1757e8eb7d8fea2e28793d945141c4d",
+      "bytes": 8303,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/AssetLibrary.ts",
+      "sha256": "09ea0aed0f80220de2d21551656e405513d7ff2a37d1104d8223dc731397d842",
+      "bytes": 2141,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/Atmosphere.ts",
+      "sha256": "9eb187268aeda60466c609577ed7d8f26ef35299117fd48712699082b46457bd",
+      "bytes": 6163,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/CityInfrastructure.ts",
+      "sha256": "a60de448c0248c384b95e06bca1c8f45f8ede281373fc32836d63e3d9ac520bf",
+      "bytes": 12757,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/EnvironmentAudio.ts",
+      "sha256": "ba1321ed2c4b65d6513df294386e1fd02260a9e8e3f78d25ccb94691243603c6",
+      "bytes": 3020,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/EnvironmentDebug.ts",
+      "sha256": "7e3e0c01019486d90407c028cc41d1ba7fd6fcca3da028d1e2abce4d25d35dbe",
+      "bytes": 4810,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/EnvironmentMaterials.ts",
+      "sha256": "bcb4cbbeb2e43b304369b8b820f5875642392ad30e1ee8392912318724483711",
+      "bytes": 7886,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/GpuProfiler.ts",
+      "sha256": "bcffa63e2c04146f884ace43d3c0eb10f1c7caad1bad1108a21156a6e1e413ab",
+      "bytes": 2465,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/Precipitation.ts",
+      "sha256": "b122616b8fb6e21e1c31eb3bdfefc04b340e265801c710bd29cdb2cb7313bb13",
+      "bytes": 5775,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/UrbanAmbience.ts",
+      "sha256": "e0add25e00039515d59e175485bd2d096069cc2558b925703b93bdc9b8d798d9",
+      "bytes": 2619,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/world/environment/WeatherState.ts",
+      "sha256": "ffea608ab8dd0e40d05e5f9833813314f882bc20db1f0bb62e2e127129e837e6",
+      "bytes": 2708,
+      "integrationType": "addition"
+    },
+    {
+      "path": "tests/environment.browser.spec.mjs",
+      "sha256": "e0ce223a34fb0300de14fcd1877679f7e2ba39dcac08b9feedbe307ae2d390ac",
+      "bytes": 7275,
+      "integrationType": "addition"
+    },
+    {
+      "path": "tests/environment.test.ts",
+      "sha256": "f0ab636a4a7faba5931dba5b399c986560e573389183826ec1289f8e16ccea2c",
+      "bytes": 6830,
+      "integrationType": "addition"
+    },
+    {
+      "path": "tests/integration.browser.spec.mjs",
+      "sha256": "4ba3ada6932fdbf3e8c4601021d34a235b4f58cbcfc61a28a1b0b0a6777f2a68",
+      "bytes": 8486,
+      "integrationType": "addition"
+    },
+    {
+      "path": "tests/world-recovery.test.ts",
+      "sha256": "4ffdce9431e2e60af4d8041161785d44da80083888092342b5da5e362c482c64",
+      "bytes": 1000,
+      "integrationType": "addition"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "36c6eecb9dbf22673227349a37410c5d743b4b19cea09f01d43645181a4cfc11",
+      "bytes": 18078,
+      "integrationType": "semantic merge"
+    },
+    {
+      "path": "src/world/City.ts",
+      "sha256": "83bf88a472cf0e1f73d0bce2ea047d1859c5f46a588d9f68a5a274c19d94e22b",
+      "bytes": 9691,
+      "integrationType": "environment replacement"
+    }
+  ],
+  "originalFileCount": 916,
+  "originalBytes": 873248633,
+  "commitsCreated": false,
+  "stagedOriginalBytes": 0,
+  "rehearsalBuildPassed": true,
+  "rehearsalOriginalBrowserTests": {
+    "pass": 13,
+    "total": 13
+  },
+  "rehearsalBrowserChecks": {
+    "fullRunPass": 23,
+    "total": 24,
+    "followupPass": 2,
+    "followupCovers": [
+      "under-bridge traversal and crane landing",
+      "ceiling-free climb and edge recovery"
+    ]
+  },
+  "knownPreExistingFailure": "Aerial melee contact is intermittent: repeated unchanged-main test on port 5189 yielded 1 pass and 1 failure; repeated merged test yielded the same. Initial dirty-main baseline passed all 13 tests.",
+  "postTransferAdditions": [
+    {
+      "path": "scripts/integration-video-frames.mjs",
+      "bytes": 3028,
+      "sha256": "3660d95683a63f83810fb24b618fb86e45e1b324ceed6a9dc0f36a872f3d07a2"
+    },
+    {
+      "path": "scripts/integration-smoke.mjs",
+      "bytes": 1870,
+      "sha256": "410a209e6d670ba876fa243a30289beb439c7790615d3569714dfa445d8c272a"
+    },
+    {
+      "path": "docs/PHASE6-CODEX-TO-CLAUDE-HANDOFF.md",
+      "bytes": 19844,
+      "sha256": "32494f3e5278280b8c54915b82fbb78bb5aef62cf77e6e375d5140bf817246de"
+    }
+  ],
+  "postTransferUtilityRefinements": [
+    "Capture camera views and sunset composition",
+    "Boundary benchmark measured flight across financial/commercial during the sample window",
+    "Integration browser test default port 5190"
+  ],
+  "finalMainBrowserTests": {
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0
+  },
+  "integrationComplete": true
+}

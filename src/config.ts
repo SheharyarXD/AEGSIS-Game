@@ -18,10 +18,10 @@ const qualitySettings: Record<QualityLevel, QualitySettings> = {
 };
 
 export function chooseInitialQuality(): QualityLevel {
-  const cores = navigator.hardwareConcurrency ?? 4;
-  const memory = (navigator as Navigator & { deviceMemory?: number }).deviceMemory ?? 4;
-  if (cores <= 4 || memory <= 4) return 'MEDIUM';
-  return 'HIGH';
+  // CPU core count does not establish GPU capability. MEDIUM is the authored
+  // browser baseline; explicit saved quality choices still take precedence.
+  const cores=navigator.hardwareConcurrency??4,memory=(navigator as Navigator & {deviceMemory?:number}).deviceMemory??4;
+  return cores<=2||memory<=2?'LOW':'MEDIUM';
 }
 
 export function getQualitySettings(quality: QualityLevel): QualitySettings {

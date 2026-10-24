@@ -1,0 +1,1101 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.integration.config.mjs"
+    ],
+    "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\playwright.integration.config.mjs",
+    "rootDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/artifacts/phase6-integration/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests",
+        "snapshotDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs"
+        ],
+        "timeout": 60000,
+        "use": {
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "baseURL": "http://127.0.0.1:5187",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/phase6-integration/merged-browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm.cmd run dev -- --host 127.0.0.1 --port 5187 --strictPort",
+      "url": "http://127.0.0.1:5187",
+      "reuseExistingServer": false,
+      "timeout": 45000
+    }
+  },
+  "suites": [
+    {
+      "title": "browser.spec.mjs",
+      "file": "browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "menu, real input traversal, takeoff, braking, pause and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13245,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:00:53.056Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-6f3b9e8df2e5fef522b5",
+          "file": "browser.spec.mjs",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "heavy punch transfers to jointed ragdoll, wall collision, then recovers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9565,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:01:06.501Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-f0b21350c3d832f20685",
+          "file": "browser.spec.mjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "grab, throw, persistent fracture and restart body cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4775,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:01:16.079Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-f5103f58b9d338ad2d98",
+          "file": "browser.spec.mjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "flight collision crashes into physical ragdoll and returns control",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9053,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:01:20.863Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-7d24ded7c2553c25c89c",
+          "file": "browser.spec.mjs",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "mission transitions, missiles, boss phases, finisher and clean restart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:01:29.927Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-049c74b906dbca287762",
+          "file": "browser.spec.mjs",
+          "line": 50,
+          "column": 1
+        },
+        {
+          "title": "hardware frame measurement and bounded repeated restart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14508,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:01:47.395Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-a9165f29f30cb579c880",
+          "file": "browser.spec.mjs",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "pilot and armour are both playable: T runs the part-by-part transformation, flight needs the armour",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:02:01.915Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-878ec5d006ae8083697a",
+          "file": "browser.spec.mjs",
+          "line": 74,
+          "column": 1
+        },
+        {
+          "title": "free fall is gravity-driven, can be caught, and landings are graded by impact speed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14376,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:02:17.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-18ecca0a2b8eb3ed9ce0",
+          "file": "browser.spec.mjs",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "shoulder launchers deploy, fire guided and unguided missiles and stow; palms aim before the hand weapons fire",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10834,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:02:32.062Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-c909136a36139258a3ca",
+          "file": "browser.spec.mjs",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "soft lock reaches useful ranges, respects line of sight, spreads a salvo, and a hard lock survives camera movement",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9138,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[2m    1,\u001b[22m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[2m    1,\u001b[22m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs:178:18",
+                    "location": {
+                      "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                      "column": 18,
+                      "line": 178
+                    },
+                    "snippet": "  176 |   await key(page,'f');await page.waitForFunction(()=>window.__AEGIS__.encounter.missiles.launches===4,null,{timeout:4000});\n  177 |   const shared=await page.evaluate(()=>{const e=window.__AEGIS__.encounter;return e.missiles.flights.map(f=>e.enemies.indexOf(f.target)).sort();});\n> 178 |   expect(shared).toEqual([0,1]);\n      |                  ^\n  179 |   await page.waitForFunction(()=>window.__AEGIS__.encounter.missiles.airborne===0,null,{timeout:8000});\n  180 |   // a hard lock holds while the view swings well away from the target and back\n  181 |   await still(page);await reticleOn(page,1);await key(page,'Tab');await page.waitForTimeout(150);expect((await lock()).hard).toBe(1);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                        "column": 18,
+                        "line": 178
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[2m    1,\u001b[22m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  176 |   await key(page,'f');await page.waitForFunction(()=>window.__AEGIS__.encounter.missiles.launches===4,null,{timeout:4000});\n  177 |   const shared=await page.evaluate(()=>{const e=window.__AEGIS__.encounter;return e.missiles.flights.map(f=>e.enemies.indexOf(f.target)).sort();});\n> 178 |   expect(shared).toEqual([0,1]);\n      |                  ^\n  179 |   await page.waitForFunction(()=>window.__AEGIS__.encounter.missiles.airborne===0,null,{timeout:8000});\n  180 |   // a hard lock holds while the view swings well away from the target and back\n  181 |   await still(page);await reticleOn(page,1);await key(page,'Tab');await page.waitForTimeout(150);expect((await lock()).hard).toBe(1);\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs:178:18"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:02:42.908Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\browser-soft-lock-reaches--360b2-ck-survives-camera-movement\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\browser-soft-lock-reaches--360b2-ck-survives-camera-movement\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                    "column": 18,
+                    "line": 178
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-e44436a365ee96038e16",
+          "file": "browser.spec.mjs",
+          "line": 158,
+          "column": 1
+        },
+        {
+          "title": "flight follows the view in three dimensions: climb, dive, banked turn, and a free view in the hover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18383,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:02:52.609Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-7af0d291f79b9dddb9c5",
+          "file": "browser.spec.mjs",
+          "line": 191,
+          "column": 1
+        },
+        {
+          "title": "combat: a buffered three-hit combination, hit windows tied to the fist, counter, dash and clean exits",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 6633,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m81\u001b[39m\nReceived: \u001b[31m95\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m81\u001b[39m\nReceived: \u001b[31m95\u001b[39m\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs:231:150",
+                    "location": {
+                      "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                      "column": 150,
+                      "line": 231
+                    },
+                    "snippet": "  229 |   expect(done.move).toBe(null);expect(done.attackTime).toBe(0);expect(done.swings).toBe(3);expect(done.hits).toBe(3);expect(done.health).toBe(95-14-20-30);\n  230 |   // a single press is a single jab: the combination does not run on by itself\n> 231 |   await setup(2.1);await key(page,'j');await page.waitForTimeout(700);const single=await fight();expect(single.swings).toBe(1);expect(single.health).toBe(81);\n      |                                                                                                                                                      ^\n  232 |   // out of reach, a swing is only a swing\n  233 |   await setup(5.2);await key(page,'j');await page.waitForTimeout(600);const whiff=await fight();expect(whiff.swings).toBe(1);expect(whiff.hits).toBe(0);expect(whiff.health).toBe(95);\n  234 |   // the heavy strike hurts only in its active frames, late in the move"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                        "column": 150,
+                        "line": 231
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m81\u001b[39m\nReceived: \u001b[31m95\u001b[39m\n\n  229 |   expect(done.move).toBe(null);expect(done.attackTime).toBe(0);expect(done.swings).toBe(3);expect(done.hits).toBe(3);expect(done.health).toBe(95-14-20-30);\n  230 |   // a single press is a single jab: the combination does not run on by itself\n> 231 |   await setup(2.1);await key(page,'j');await page.waitForTimeout(700);const single=await fight();expect(single.swings).toBe(1);expect(single.health).toBe(81);\n      |                                                                                                                                                      ^\n  232 |   // out of reach, a swing is only a swing\n  233 |   await setup(5.2);await key(page,'j');await page.waitForTimeout(600);const whiff=await fight();expect(whiff.swings).toBe(1);expect(whiff.hits).toBe(0);expect(whiff.health).toBe(95);\n  234 |   // the heavy strike hurts only in its active frames, late in the move\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs:231:150"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:11.177Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\browser-combat-a-buffered--d22a4-ounter-dash-and-clean-exits\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\browser-combat-a-buffered--d22a4-ounter-dash-and-clean-exits\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                    "column": 150,
+                    "line": 231
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-fc1758a6961d66c2694c",
+          "file": "browser.spec.mjs",
+          "line": 219,
+          "column": 1
+        },
+        {
+          "title": "weapons in flight and sound lifecycle: palm aims while hovering, the beam ends on what it hits, its tone starts once and stops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15770,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:18.312Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-711acd955202294e78b7",
+          "file": "browser.spec.mjs",
+          "line": 250,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "environment.browser.spec.mjs",
+      "file": "environment.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all districts, precipitation, sky and material shaders render without errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6934,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:34.282Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-cbe903c5b88779e60d0a",
+          "file": "environment.browser.spec.mjs",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "weather transition, solar lighting, effects cleanup and restart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:41.228Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-75815b78fd77a81cd9d4",
+          "file": "environment.browser.spec.mjs",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "repeated cross-city traversal and restarts keep GPU and physics resources bounded",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3534,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:43.165Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-7246d1ede3dc81f69a19",
+          "file": "environment.browser.spec.mjs",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "rooftop landing and swept fast flight work with authored buildings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2336,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:46.709Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-c52dde3fa74a76928770",
+          "file": "environment.browser.spec.mjs",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "quality changes preserve layout and collision and debug UI is opt-in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3103,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:49.059Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-3e196362cb29cf7f2aa0",
+          "file": "environment.browser.spec.mjs",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "bridge landing, ramp traversal and environment disposal preserve hero-owned physics",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2796,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:52.171Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba0b86bc253daae0b0a7-48040a55e5eba4f04729",
+          "file": "environment.browser.spec.mjs",
+          "line": 52,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "integration.browser.spec.mjs",
+      "file": "integration.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "latest pilot walks and runs into authored city collision and stands on an industrial roof",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9290,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m-941.0914306640625\u001b[39m\nReceived:   \u001b[31m-941.260498046875\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m-941.0914306640625\u001b[39m\nReceived:   \u001b[31m-941.260498046875\u001b[39m\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs:16:50",
+                    "location": {
+                      "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs",
+                      "column": 50,
+                      "line": 16
+                    },
+                    "snippet": "  14 |   await key(page,'w',650);await page.keyboard.down('ShiftLeft');await key(page,'w',2300);await page.keyboard.up('ShiftLeft');\n  15 |   const walk=await page.evaluate(()=>({x:window.__AEGIS__.player.position.x,form:window.__AEGIS__.player.form,grounded:window.__AEGIS__.player.body.grounded}));\n> 16 |   expect(walk.form).toBe('pilot');expect(walk.x).toBeGreaterThan(setup.start+2);expect(walk.x).toBeLessThan(setup.wall-.2);expect(walk.x).toBeGreaterThan(setup.wall-1.5);expect(walk.grounded).toBe(true);\n     |                                                  ^\n  17 |   const roof=await page.evaluate(()=>{const q=window.__AEGIS__,b=q.city.layout.buildings.find(b=>b.style==='industrial');\n  18 |     q.teleport(q.player.position.clone().set(b.x+b.w*.15,b.h+.8,b.z-b.d*.16));q.player.state='FALL';return b.h;});\n  19 |   await page.waitForFunction(h=>{const p=window.__AEGIS__.player;return p.body.grounded&&Math.abs(p.position.y-h)<.2&&!p.ragdoll.active;},roof);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs",
+                        "column": 50,
+                        "line": 16
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m-941.0914306640625\u001b[39m\nReceived:   \u001b[31m-941.260498046875\u001b[39m\n\n  14 |   await key(page,'w',650);await page.keyboard.down('ShiftLeft');await key(page,'w',2300);await page.keyboard.up('ShiftLeft');\n  15 |   const walk=await page.evaluate(()=>({x:window.__AEGIS__.player.position.x,form:window.__AEGIS__.player.form,grounded:window.__AEGIS__.player.body.grounded}));\n> 16 |   expect(walk.form).toBe('pilot');expect(walk.x).toBeGreaterThan(setup.start+2);expect(walk.x).toBeLessThan(setup.wall-.2);expect(walk.x).toBeGreaterThan(setup.wall-1.5);expect(walk.grounded).toBe(true);\n     |                                                  ^\n  17 |   const roof=await page.evaluate(()=>{const q=window.__AEGIS__,b=q.city.layout.buildings.find(b=>b.style==='industrial');\n  18 |     q.teleport(q.player.position.clone().set(b.x+b.w*.15,b.h+.8,b.z-b.d*.16));q.player.state='FALL';return b.h;});\n  19 |   await page.waitForFunction(h=>{const p=window.__AEGIS__.player;return p.body.grounded&&Math.abs(p.position.y-h)<.2&&!p.ragdoll.active;},roof);\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs:16:50"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:03:54.988Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\integration.browser-latest-2ce8b-tands-on-an-industrial-roof\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\integration.browser-latest-2ce8b-tands-on-an-industrial-roof\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs",
+                    "column": 50,
+                    "line": 16
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-c9e5c917ebc12002c844",
+          "file": "integration.browser.spec.mjs",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "real climb passes the old ceiling, powered recovery works, and the world edge returns safely",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 18218,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m175\u001b[39m\nReceived:   \u001b[31m154.9773742675781\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m175\u001b[39m\nReceived:   \u001b[31m154.9773742675781\u001b[39m\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs:25:71",
+                    "location": {
+                      "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs",
+                      "column": 71,
+                      "line": 25
+                    },
+                    "snippet": "  23 |   await boot(page);await page.evaluate(()=>{const q=window.__AEGIS__;q.teleport(q.player.position.clone().set(128,.3,-320));});\n  24 |   await page.waitForFunction(()=>window.__AEGIS__.player.body.grounded);await key(page,'e');await key(page,'Space',12000);\n> 25 |   expect(await page.evaluate(()=>window.__AEGIS__.player.position.y)).toBeGreaterThan(175);\n     |                                                                       ^\n  26 |   await key(page,'e');await page.waitForTimeout(350);expect(await page.evaluate(()=>window.__AEGIS__.player.falling)).toBe(true);\n  27 |   await key(page,'e');await page.waitForTimeout(500);expect(await page.evaluate(()=>window.__AEGIS__.player.powered)).toBe(true);\n  28 |   await page.evaluate(()=>{const q=window.__AEGIS__;q.player.body.teleport(q.player.position.clone().set(1220,300,-320));});"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs",
+                        "column": 71,
+                        "line": 25
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m175\u001b[39m\nReceived:   \u001b[31m154.9773742675781\u001b[39m\n\n  23 |   await boot(page);await page.evaluate(()=>{const q=window.__AEGIS__;q.teleport(q.player.position.clone().set(128,.3,-320));});\n  24 |   await page.waitForFunction(()=>window.__AEGIS__.player.body.grounded);await key(page,'e');await key(page,'Space',12000);\n> 25 |   expect(await page.evaluate(()=>window.__AEGIS__.player.position.y)).toBeGreaterThan(175);\n     |                                                                       ^\n  26 |   await key(page,'e');await page.waitForTimeout(350);expect(await page.evaluate(()=>window.__AEGIS__.player.falling)).toBe(true);\n  27 |   await key(page,'e');await page.waitForTimeout(500);expect(await page.evaluate(()=>window.__AEGIS__.player.powered)).toBe(true);\n  28 |   await page.evaluate(()=>{const q=window.__AEGIS__;q.player.body.teleport(q.player.position.clone().set(1220,300,-320));});\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs:25:71"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:04:04.802Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\integration.browser-real-c-7d2db-e-world-edge-returns-safely\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\integration.browser-real-c-7d2db-e-world-edge-returns-safely\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs",
+                    "column": 71,
+                    "line": 25
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-e4efad3f261ddfb94577",
+          "file": "integration.browser.spec.mjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "new skyscrapers occlude targeting and stop missiles, repulsors and the palm beam",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:04:23.831Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-0eeeb514818b27b21781",
+          "file": "integration.browser.spec.mjs",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "all ten weather presets, audio toggle and repeated world construction/disposal coexist with the current hero",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3349,
+                  "error": {
+                    "message": "Error: page.evaluate: TypeError: Failed to resolve module specifier 'three'\n    at eval (eval at evaluate (:370:30), <anonymous>:10:24)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+                    "stack": "Error: page.evaluate: TypeError: Failed to resolve module specifier 'three'\n    at eval (eval at evaluate (:370:30), <anonymous>:10:24)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:370:30), <anonymous>:10:24)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs:62:26",
+                    "location": {
+                      "file": "eval at evaluate (:370:30), <anonymous>",
+                      "column": 24,
+                      "line": 10
+                    }
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "eval at evaluate (:370:30), <anonymous>",
+                        "column": 24,
+                        "line": 10
+                      },
+                      "message": "Error: page.evaluate: TypeError: Failed to resolve module specifier 'three'\n    at eval (eval at evaluate (:370:30), <anonymous>:10:24)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:370:30), <anonymous>:10:24)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\integration.browser.spec.mjs:62:26"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:04:35.606Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\integration.browser-all-te-ca2d5-exist-with-the-current-hero\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\integration.browser-all-te-ca2d5-exist-with-the-current-hero\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "eval at evaluate (:370:30), <anonymous>",
+                    "column": 24,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-fd22522693277546e193",
+          "file": "integration.browser.spec.mjs",
+          "line": 52,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-11T08:00:51.713Z",
+    "duration": 227514.17,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  }
+}

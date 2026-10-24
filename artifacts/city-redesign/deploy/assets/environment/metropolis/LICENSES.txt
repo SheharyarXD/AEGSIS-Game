@@ -1,0 +1,30 @@
+AEGIS METROPOLIS / CITY REDESIGN
+
+Complete architecture, adapted under CC BY 4.0:
+- London and Singapore skyscrapers: 99.Miles.
+- Aria Gothic tower: ChamberSu1996.
+- Downtown and industrial building sets: Daniel Zhabotinsky.
+- Art Deco Citadel: Samuel Francis Johnson / Oneironauticus.
+- PBR Street Props Pack: MadeByYeshe.
+
+Full source links, author links and original GLB license metadata are recorded in
+/assets/environment/ATTRIBUTION.txt and artifacts/phase7/provided-asset-inventory.json.
+
+Original Meridian Arcade is composed from Downtown City MegaKit [Standard],
+by Quaternius, licensed CC0 1.0. The supplied License_Standard.txt is retained at
+art/environment/city-redesign/quaternius/License_Standard.txt.
+Source: https://quaternius.com/packs/downtownmegakit.html
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Changes: saved city parcels; uniformly scaled source architecture; UV-preserving
+floor/facade separation; independent damage IDs; hidden structural additions;
+near/medium LODs; Blender-rendered source-view distant atlas; shared native BC3
+textures with WebP fallback; authored sidewalks, drains and original furniture;
+bounded source-derived debris and burned/damaged state proxies.
+
+The intact near appearance uses the complete source model. Distant atlas cards
+are a performance LOD, not replacement source architecture. Full-detail Blender
+sources and standalone GLBs with embedded PBR maps are retained for inspection.
+
+Other supplied assets remain inspected but unused; the Sketchfab Standard modern
+city block and Quixel-like apartment pack are not included in the runtime city.

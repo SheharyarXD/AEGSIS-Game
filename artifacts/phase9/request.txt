@@ -1,0 +1,975 @@
+# AEGIS: RISE OF THE TITAN
+# PHASE 9 — TOTAL DEMOLITION, TITAN BREACH BARRAGE & LIVING METROPOLIS
+## Complete implementation specification for Codex
+
+You are the principal game-engine programmer, destruction systems engineer, senior technical artist, animation director, urban environment designer, and performance engineer working on AEGIS: Rise of the Titan.
+
+This is a real implementation task. Do not just write a plan or demonstrate simulated results.
+
+Work directly within the existing AEGIS game, inspect the latest Phase 8 handoff and verification records, preserve previous working systems, and implement the changes described below.
+
+The project currently uses Three.js, Blender-authored architectural assets, Rapier-based physics, and an existing missile/laser/flight/destruction system.
+
+**The priority is believable, spectacular destruction and a significantly more realistic city that remains smoothly playable on MEDIUM quality.**
+
+---
+
+# 1. UNDERSTAND WHAT PHASE 8 GOT WRONG
+
+The previous implementation made technical progress, especially in streaming and frame times. However, the intended gameplay is still not achieved.
+
+Critical problems:
+
+1. The Y breakthrough ability requires player movement and flight alignment. This is fundamentally different from the requested feature.
+2. Demolition does not reliably destroy an entire major building through normal player-fired missiles.
+3. Full-collapse demonstrations relied on scripted support damage instead of genuine weapon input.
+4. Some destruction still resembles sections disappearing rather than a physically convincing structural failure.
+5. Smoke, explosions and fire lack adequate visual sophistication.
+6. Buildings have simple and repetitive interiors, with weak exposed destruction surfaces.
+7. Roads, footpaths and urban environments are not sufficiently dense or believable.
+8. The world still lacks the small details that make a metropolis feel inhabited.
+9. Performance testing does not fully establish smooth simultaneous explosions and city destruction in dense scenes.
+
+Do not treat passing automated tests as visual acceptance.
+
+---
+
+# 2. PRIMARY GAMEPLAY CHANGE — REBUILD THE Y ABILITY
+
+## New name: TITAN BREACH BARRAGE
+
+**Y must no longer require the player to fly forward, boost or hit a building physically.**
+
+This is a stationary, animated, missile-based architectural breaching ability.
+
+The player may activate it while:
+
+- Standing on a road.
+- Standing on a rooftop.
+- Hovering in place.
+- Flying at low speed.
+- Remaining completely stationary.
+
+The player must not need to move at high speed.
+
+### Intended behavior
+
+AEGIS faces a building and presses Y.
+
+The character enters a powerful attack animation.
+
+Shoulder and forearm weapon systems deploy, target locks appear over the building, and a coordinated series of missiles launches.
+
+The missiles strike the facade and internal structure in stages, producing a real destruction corridor through the building.
+
+The missiles complete the entrance-to-exit passage.
+
+Only after the passage is physically clear does the HUD display:
+
+**BREACH COMPLETE — PATH OPEN**
+
+The player then chooses whether to walk, run, hover or fly through that opening.
+
+Do not automatically move the character through the building.
+
+Do not teleport the character.
+
+Do not disable character collision to fake traversal.
+
+---
+
+# 3. TITAN BREACH — ANIMATION DIRECTOR SPECIFICATION
+
+Create a cinematic but responsive multi-stage animation.
+
+## Stage A — Target acquisition
+
+Duration guideline: approximately 0.3–0.6 seconds.
+
+When Y is pressed:
+
+- Identify the targeted building using the actual camera/weapon targeting system.
+- Check range, line of sight and target validity.
+- Calculate an entrance point on the visible facade.
+- Calculate a feasible path through the building.
+- Calculate the exit point on the opposite side.
+- Determine which wall, facade, floor or structural modules must be destroyed.
+- Reserve necessary collision changes and destruction resources.
+
+Display subtle targeting graphics that outline the expected breach corridor.
+
+If the target is invalid, show a clear reason and do not consume ammunition.
+
+## Stage B — Armor weapon deployment
+
+Duration guideline: approximately 0.5–0.8 seconds.
+
+Create a convincing character animation:
+
+- Shoulder missile compartments open.
+- Mechanical launcher rails deploy.
+- Armor panels articulate where the rig supports it.
+- The player assumes a stable firing posture.
+- Small servo and targeting sounds play.
+- Weapon indicator lights activate.
+- A short multi-target lock sequence appears.
+
+Use the existing AEGIS skeleton and animation infrastructure.
+
+If needed, author additional animation clips using Blender.
+
+Do not replace or damage the existing hero model.
+
+## Stage C — First missile wave: Entrance destruction
+
+Launch approximately 3–4 guided missiles.
+
+The missiles must visibly leave their launchers.
+
+Give each projectile an individually readable flight path, with varied but controlled timing.
+
+They should strike the selected facade in a coordinated pattern.
+
+Impact effects:
+
+- Bright initial flash.
+- Physically plausible directional explosion.
+- Breaking glass.
+- Shattering facade panels.
+- Falling wall fragments.
+- Sparks.
+- Pressure dust.
+- Smoke.
+- Localized fire where appropriate.
+
+The initial wave opens the entrance.
+
+It must reveal actual damaged geometry and a passable opening, not simply a black decal.
+
+## Stage D — Second missile wave: Interior penetration
+
+Launch an additional 3–5 guided missiles.
+
+They should travel through the newly created entrance or use an equally physically coherent route.
+
+They strike the internal corridor in stages.
+
+Destroy the required:
+
+- Interior partitions.
+- Floor-to-ceiling obstructions.
+- Nonessential facade modules.
+- Structural panels appropriate to the building's design.
+
+Show successive shock waves and dust eruptions progressing inward.
+
+Prepare the corresponding interior breach geometry offline whenever possible.
+
+## Stage E — Final missile wave: Exit destruction
+
+Launch another coordinated wave of approximately 2–4 missiles.
+
+These missiles must reach the far-side breach target through an unobstructed created corridor or a visible exterior guided route.
+
+Do not let missiles invisibly pass through intact solid concrete.
+
+Destroy the exit facade and expose the exterior world.
+
+The player should be able to see daylight, streetlights or scenery through the entire passage.
+
+## Stage F — Aftermath animation
+
+- Missile compartments retract.
+- Smoke escapes from the new openings.
+- Smaller debris continues to fall.
+- Fire persists in appropriate damaged areas.
+- Broken facade edges remain.
+- The HUD confirms the corridor is clear.
+
+The character returns control to the player immediately.
+
+If attack choreography takes too long, optimize its timing while preserving the visual sequence. Aim for a satisfying sequence of a few seconds, not a lengthy unskippable cutscene.
+
+---
+
+# 4. REAL PHYSICAL PASSAGE THROUGH BUILDINGS
+
+The Titan Breach system must produce a true navigable corridor.
+
+### Geometry requirements
+
+Calculate the passage based on the existing player collider, with comfortable clearance.
+
+A useful initial target is approximately 5–7 meters wide and 4–6 meters high, adjusted to actual character dimensions and building structure.
+
+A corridor may pass through multiple prepared interior modules, depending on building depth.
+
+The opening must not be restricted to a single wall.
+
+### Visual requirements
+
+The player should see:
+
+- Fractured concrete edges.
+- Exposed steel or reinforcement.
+- Broken glass frames.
+- Damaged floor slabs.
+- Collapsed interior wall pieces.
+- Exposed ceiling infrastructure.
+- Hanging cables and fragments.
+- Dust floating through the opening.
+- Scorching and smoke around missile impact points.
+- The exterior environment visible through the exit.
+
+Use different damage materials for glass skyscrapers, Gothic stone buildings, offices and industrial architecture.
+
+### Collision requirements
+
+The opening must have matching collision geometry.
+
+Update affected colliders after each destruction stage.
+
+Verify a continuous player-sized route from entrance to exit before displaying BREACH COMPLETE.
+
+Preserve normal collision everywhere outside the destroyed corridor.
+
+Do not let the player fall through intact-looking floors.
+
+### Persistence
+
+If the player leaves the district and returns, both openings and the damaged corridor must remain.
+
+Support saving and reloading damage state through existing persistence infrastructure.
+
+If the path cannot be prepared safely, reject the ability before firing rather than creating a visually broken, impassable corridor.
+
+---
+
+# 5. TOTAL DEMOLITION — ENTIRE BUILDING COLLAPSE
+
+This is the second major gameplay requirement.
+
+**Normal player-fired demolition weapons must be capable of destroying an entire skyscraper.**
+
+The existing 5× building damage is not sufficient if the destruction system cannot translate it into major structural failure.
+
+Rework damage propagation instead of merely increasing an HP multiplier.
+
+## 5.1 Demolition mode
+
+Preserve the existing O demolition toggle.
+
+When demolition mode is active, F should fire heavy structural-destruction missiles.
+
+Introduce a configurable high-damage demolition profile that targets:
+
+- Facade integrity.
+- Structural support integrity.
+- Load-bearing columns.
+- Core strength.
+- Floor connections.
+- Section connectivity.
+
+As an initial tuning experiment, test structural damage substantially beyond the current 5× profile, potentially equivalent to 10–15× the original environmental damage.
+
+These are starting values, not fixed final balancing requirements.
+
+**The acceptance requirement is much more important than the numeric multiplier: full building collapse must actually happen through player-fired attacks.**
+
+## 5.2 Expected demolition power
+
+Tune the system so that:
+
+- Small buildings can collapse from one well-placed heavy demolition barrage.
+- Medium buildings can collapse after one or two strong barrages.
+- Large skyscrapers can undergo catastrophic progressive collapse after a concentrated sequence, ideally no more than about three major demolition barrages at vulnerable structural sections.
+
+The player should not need to fire 50 missiles into a skyscraper just to remove a few wall panels.
+
+However, the result must still look like structural damage rather than a building being deleted instantly.
+
+## 5.3 Structural destruction graph
+
+Develop or upgrade a lightweight authored structural dependency system.
+
+Use grouped structural nodes:
+
+- Foundation / lower supports.
+- Main load-bearing core.
+- Perimeter support columns.
+- Floor plates.
+- Vertical facade sections.
+- Roof structure.
+- Attached architectural components.
+
+Damage should propagate according to support dependencies.
+
+Destroying enough lower supports should cause overlying sections to lose stability.
+
+The building should collapse in a visibly coherent sequence.
+
+This is an artistic structural simulation, not a claim of engineering-grade real-world structural physics.
+
+## 5.4 Progressive collapse animation
+
+A skyscraper collapse should include:
+
+1. Initial structural damage and visible cracks.
+2. Distortion or breakup of important support sections.
+3. Localized floor or facade failure.
+4. Large facade sections falling outward.
+5. Connected floors progressively losing support.
+6. Upper building sections tilting, dropping or telescoping downward as appropriate.
+7. Large rolling dust clouds.
+8. Falling glass, concrete and steel.
+9. Significant ground impact.
+10. Secondary debris and localized fire.
+11. A persistent ruined structure.
+
+**The building must not disappear, scale down, sink through the ground, or turn into a small stack of rectangular blocks.**
+
+Use multiple collapse archetypes appropriate to building construction.
+
+## 5.5 Realistic final ruins
+
+Final destruction should visibly occupy much of the original building footprint.
+
+Prepare LODs for ruined buildings.
+
+Include:
+
+- Major broken structural masses.
+- Exposed building cores.
+- Broken floor stacks.
+- Concrete rubble.
+- Steel framing.
+- Glass fragments.
+- Crushed facade sections.
+- Dust and soot.
+- Localized flames.
+- Persistent collision on major ruins.
+
+Smaller debris may consolidate into static rubble after settling.
+
+The ruins must still look substantial on MEDIUM quality.
+
+---
+
+# 6. IMPORTANT SEPARATION OF ABILITIES
+
+Titan Breach and Demolition are different gameplay features.
+
+| Feature | Y — Titan Breach | O + F — Demolition |
+|---|---|---|
+| Player movement required | No | No |
+| Missiles used | Coordinated multi-wave barrage | Heavy structural missiles |
+| Main objective | Open a navigable passage | Destroy a building |
+| Expected result | Entrance, interior and exit openings | Partial or total structural collapse |
+| Player automatically moves | Never | Never |
+| Structure preserved | Where feasible | Can be completely destroyed |
+
+Do not merge both features into one vague damage animation.
+
+A Titan Breach should not automatically demolish the entire target building unless a separate structural failure is legitimately triggered.
+
+---
+
+# 7. REBUILD THE WORLD TO FEEL LIKE A REAL METROPOLIS
+
+The current city still needs major architectural and environmental work.
+
+The new direction is an original dense American metropolis with New York-inspired streets, a dark cinematic identity, and cohesive architecture.
+
+Retain the current 2048 × 2048 meter world unless the existing layout requires an explicitly justified correction.
+
+Do not add empty land merely to increase map dimensions.
+
+## 7.1 Urban master plan
+
+Preserve five connected districts with clearly different identities.
+
+### Financial District
+
+- Tall modern and Art Deco skyscrapers.
+- Closely packed architectural blocks.
+- Glass lobbies.
+- Distinctive corner towers.
+- Corporate plazas.
+- Loading entrances.
+- Rooftop utilities.
+- Dense streetlights and traffic signals.
+
+### Midtown
+
+- Mixed commercial/residential blocks.
+- Wide avenues and narrower side streets.
+- Shops, offices and apartment facades.
+- Frequent ground-level doorways.
+- Bus stops.
+- Parked vehicles.
+- Sidewalk furniture.
+- More varied roof heights.
+
+### Historic / Civic District
+
+- Monumental masonry buildings.
+- Courthouses.
+- Museums.
+- Older commercial architecture.
+- Stone plazas.
+- Decorative fences and railings.
+- Art Deco and neoclassical facades.
+
+### Gothic District
+
+- Complete original Gothic architectural compositions.
+- Major towers and civic landmarks.
+- Connected walls and buildings.
+- Narrower streets and courtyards.
+- Dramatic bridges.
+- Enclosed block edges.
+- Ornamental lighting.
+
+Stop placing repeated detached Gothic modules on empty ground.
+
+### Industrial / Waterfront District
+
+- Dense brick warehouses.
+- Industrial factories.
+- Cargo loading areas.
+- Utility facilities.
+- Fences.
+- Container stacks.
+- Large pipes.
+- Water access.
+- Cranes.
+- Rail/service corridors.
+- Breakable industrial props.
+
+---
+
+# 8. REALISTIC CITY BLOCK CONSTRUCTION
+
+Build the world using intentional urban planning rather than random building placement.
+
+Initial scale guidelines, to be refined against actual source buildings:
+
+- Typical building block dimension: approximately 65–110 meters.
+- Major avenues: approximately 18–28 meters of vehicle carriageway where appropriate.
+- Secondary streets: approximately 9–15 meters of carriageway.
+- Traffic lanes: approximately 3–3.5 meters wide.
+- Typical sidewalks: approximately 2.5–6 meters wide, varying by district.
+- Service alleys: approximately 4–7 meters wide.
+- Curb height: approximately 0.12–0.18 meters.
+
+Use these as design constraints, not rigid measurements forced onto every asset.
+
+Create real intersections, corner geometry, setbacks and building entrances.
+
+Avoid huge empty spaces between buildings.
+
+Arrange buildings into believable blocks, with consistent frontage along streets.
+
+Give the city recognizable avenues, smaller streets, alleys, courtyards, plazas and important landmarks.
+
+---
+
+# 9. EXTREME STREET-LEVEL DETAIL
+
+The city must look convincing when AEGIS stands still at an intersection.
+
+Do not judge city quality only from aerial screenshots.
+
+## Roads
+
+Replace uniform road surfaces with layered, efficient asphalt materials.
+
+Include:
+
+- Proper asphalt texture scale.
+- Road surface wear.
+- Faded lane markings.
+- Directional arrows.
+- Stop lines.
+- Zebra crossings.
+- Patched asphalt.
+- Manhole covers.
+- Drainage grates.
+- Utility access covers.
+- Tire marks in suitable locations.
+- Road cracks.
+- Subtle surface contamination.
+- Wet-road variation.
+- Parking and loading markings.
+- Realistic intersection geometry.
+
+Do not put all detail into geometry. Use atlased material variation and efficient decals.
+
+## Sidewalks
+
+Include proper:
+
+- Raised curbs.
+- Concrete footpath slabs.
+- Expansion joints.
+- Corner curb ramps.
+- Drainage.
+- Street trees and tree grates.
+- Utility covers.
+- Doorstep transitions.
+- Stone or concrete variation.
+- Stains and wear.
+- Fences and railings.
+- Bus stop areas.
+- Building entrance features.
+
+Footpaths must not appear as flat gray planes.
+
+## Street furniture
+
+Create and position:
+
+- Streetlights.
+- Traffic signals.
+- Pedestrian crossing lights.
+- Fire hydrants.
+- Street-name signs.
+- Parking meters.
+- Utility cabinets.
+- Trash bins.
+- Dumpsters.
+- Benches.
+- Bike racks.
+- Newspaper boxes.
+- Bollards.
+- Construction barriers.
+- Temporary fencing.
+- Security railings.
+- Planters.
+- Loading-zone infrastructure.
+- Bus shelters.
+- Shop signs.
+- Billboard structures.
+- Electrical and service fixtures.
+
+Use realistic placement constraints rather than random scatter.
+
+## Architectural micro-detail
+
+Improve:
+
+- Window frames.
+- Door handles and door frames at close range.
+- Lobby and shop entrances.
+- Ground-floor facades.
+- Canopies.
+- Awnings.
+- Fire escapes.
+- Drainpipes.
+- Building vents.
+- Rooftop fans.
+- Air-conditioning equipment.
+- Water tanks.
+- Antennas.
+- Decorative cornices.
+- Roof parapets.
+- Maintenance ladders.
+- Security gates.
+
+Use near-camera detail selectively rather than generating all of it across the full map.
+
+---
+
+# 10. MAKE THE WORLD FEEL INHABITED
+
+At present the city feels like an architectural exhibition rather than a functioning metropolis.
+
+Create believable signs of life.
+
+Prioritize:
+
+- Parked cars.
+- Sparse moving traffic on major routes.
+- Traffic signal cycles.
+- Selected pedestrians where feasible.
+- Lit storefronts.
+- Building entrance lights.
+- Street advertisements with original fictional brands.
+- Occasional animated signage.
+- Utility steam vents.
+- Distant urban ambience.
+- Traffic and environmental audio.
+- Day/night lighting behavior.
+- Localized rain drainage and puddles.
+
+Use low-cost crowds and traffic simulations.
+
+Do not spawn hundreds of fully simulated pedestrians or vehicles.
+
+Use distance-based animation, low-detail representations, instancing and controlled update frequencies.
+
+The result should feel busy without excessive CPU overhead.
+
+---
+
+# 11. BETTER SKYLINE AND WORLD EDGES
+
+The city must no longer resemble isolated structures placed on a square island with a visible boundary ring.
+
+Improve:
+
+- Skyline hierarchy.
+- Clusters of tall and medium buildings.
+- District transitions.
+- Natural silhouettes.
+- Distant urban density.
+- Roads leading toward visible destinations.
+- Harbor and waterfront composition.
+- Far terrain and atmospheric perspective.
+- Distant buildings through impostors and skyline layers.
+
+Do not place isolated buildings on a visible artificial map-edge wall.
+
+Hide world boundaries through convincing distant geometry and atmospheric composition.
+
+---
+
+# 12. LASER, MISSILE, FIRE AND SMOKE REALISM
+
+Preserve Phase 8 improvements but increase visual fidelity.
+
+## Laser
+
+A sustained laser should:
+
+- Heat the impact surface.
+- Produce white-hot and orange-red contact glow.
+- Scatter sparks.
+- Create surface smoke.
+- Gradually darken into a persistent burn mark.
+- Eventually penetrate suitable materials.
+
+The glow must be attached to the correct geometry.
+
+## Missiles
+
+Missile detonations should use multiple visual stages:
+
+1. Initial intense flash.
+2. Expanding irregular fireball.
+3. Directional blast and flying fragments.
+4. Dust and debris.
+5. Smoke expansion.
+6. Localized lingering fire where plausible.
+7. Persistent damage and soot.
+
+Do not use a static flame picture or emoji-like fire sprite.
+
+Create better optimized flipbook sequences, shader-controlled irregular fire shapes, volumetric-looking layered smoke, and pooled particle effects.
+
+Real volumetric simulation is not required if high-quality approximations look convincing.
+
+## Massive collapse VFX
+
+The demolition system requires a separate large-scale effects profile:
+
+- Directional ground dust.
+- Floor-by-floor dust emission.
+- Rolling collapse clouds.
+- Secondary facade impacts.
+- Heavy debris audio.
+- Material-specific particles.
+- Controlled camera shake.
+- Large smoke plumes.
+- Localized persistent fire.
+- Ruined-building ambient effects.
+
+Fire should not cover the entire building uniformly unless justified by actual damage.
+
+---
+
+# 13. MEDIUM-QUALITY PERFORMANCE IS THE MAIN TARGET
+
+Treat MEDIUM as the primary development and visual-quality preset.
+
+The user wants a rich environment without the game becoming unplayable.
+
+**Do not design the game for ULTRA first and then strip the entire world down for MEDIUM.**
+
+MEDIUM should have:
+
+- High-quality nearby building facades.
+- Complete street architecture.
+- Detailed sidewalks.
+- Functional road markings.
+- Useful prop density.
+- Convincing night lighting.
+- Clear missiles and laser damage.
+- Visually substantial debris and ruins.
+- Good smoke and explosion effects.
+- Smooth district streaming.
+
+Optimize the implementation underneath.
+
+## Performance requirements
+
+Prioritize:
+
+- Shared materials and texture atlases.
+- Compressed runtime textures.
+- Geometry instancing.
+- Hierarchical LOD.
+- Block-level HLOD and impostors.
+- Precomputed damaged meshes.
+- Prefractured building components.
+- Limited dynamic rigid bodies.
+- Baked or approximated lighting.
+- Shadow caster budgets.
+- Camera visibility culling.
+- Predictive world streaming.
+- Pooled effects.
+- Low-allocation update loops.
+- Time-budgeted destruction processing.
+- Worker-based offline or background preparation where appropriate.
+- Aggressive cleanup and GPU-memory management.
+
+Prevent large frame spikes when an unfamiliar building or destruction effect becomes visible for the first time.
+
+## Performance acceptance goals
+
+On the actual GTX 750 Ti:
+
+- Target around 60 FPS during ordinary MEDIUM gameplay at 720p where feasible.
+- Keep heavy combat and demolition playable, ideally remaining above 30 FPS.
+- Avoid freezes exceeding 100 ms during normal streaming or missile activation.
+- Limit expensive physics activation during whole-building collapse.
+- Maintain stable camera controls during major demolition.
+
+These are engineering targets. Measure real results and report failures.
+
+Also provide LOW configurations for low-end laptops and browser portal deployment.
+
+Avoid visual shortcuts that make the city empty just to improve average FPS.
+
+---
+
+# 14. PRIORITY IMPLEMENTATION ORDER
+
+Follow this sequence.
+
+## Stage 1 — Audit existing Phase 8
+
+Inspect the current Y control, missile launcher, building damage system, collision handling, structural-support graph, animation controllers, VFX pools and streaming code.
+
+Read actual verification artifacts.
+
+Identify what can be reused and what must be redesigned.
+
+## Stage 2 — Implement Y as Titan Breach Barrage
+
+Fully remove the high-speed-player-impact requirement for Y.
+
+Create the stationary animation, target acquisition, multi-wave missiles, entrance/interior/exit damage and path verification.
+
+First demonstrate this on a medium office building.
+
+Test from both standing and stationary hovering.
+
+## Stage 3 — True total demolition
+
+Upgrade structural damage and progressive collapse.
+
+Demonstrate an intact skyscraper being brought down completely through actual O/F missile gameplay.
+
+Do not inject artificial support damage for the acceptance demonstration.
+
+## Stage 4 — Improve collapse visuals
+
+Replace sparse, block-shaped collapse results with more convincing structural breakage, substantial persistent ruins, dust and debris.
+
+## Stage 5 — New York-inspired premium city block
+
+Create a complete showcase urban block with excellent roads, footpaths, architectural micro-details, lights, fences, furniture, cars and storefronts.
+
+Show real MEDIUM browser captures.
+
+## Stage 6 — District-wide architecture rollout
+
+Apply the same street design standard across all five districts.
+
+Make every district visually coherent and believable.
+
+Avoid identical facade repetition.
+
+## Stage 7 — Destruction performance optimization
+
+Profile simultaneous missiles, Y salvos, partial collapse and total collapse.
+
+Fix frame spikes.
+
+## Stage 8 — Final browser verification
+
+Run complete gameplay, performance, visual and regression tests.
+
+---
+
+# 15. REQUIRED ACCEPTANCE DEMONSTRATIONS
+
+Record genuine browser gameplay for:
+
+### A. Ground-based Titan Breach
+
+AEGIS stands motionless on a street.
+
+The player presses Y.
+
+Multiple missiles fire.
+
+A building is breached from front to back.
+
+The animation ends.
+
+The player walks through the newly created corridor using ordinary movement controls.
+
+### B. Hover-based Titan Breach
+
+AEGIS hovers without significant horizontal movement.
+
+The player presses Y.
+
+The missile barrage opens a full corridor through an office building.
+
+The character remains stationary until the user decides to fly through it.
+
+### C. Total skyscraper demolition
+
+AEGIS aims at an intact skyscraper.
+
+The player enables demolition mode with O and fires actual missiles using F.
+
+Repeated powerful attacks damage structural supports.
+
+The building progressively collapses from its original height to substantial ruins.
+
+No QA-only support-damage injection may be used to demonstrate the full attack sequence.
+
+### D. Persistent ruins
+
+Leave the demolished district, then return.
+
+The destroyed building remains collapsed.
+
+The rubble remains visible.
+
+### E. Dense street-level world
+
+Show a real intersection featuring:
+
+- Raised sidewalks.
+- Proper curbs.
+- Road markings.
+- Traffic lights.
+- Streetlights.
+- Fences.
+- Parked vehicles.
+- Building entrances.
+- Urban furniture.
+- Realistic materials.
+
+### F. Night and rain
+
+Demonstrate MEDIUM quality with streetlights, lit windows, rain, wet surfaces and readable environment detail.
+
+### G. Destruction stress
+
+Trigger a Y barrage and a major building collapse in a populated district.
+
+Measure worst-frame timing, p95/p99, active bodies, draw calls, GPU memory and overall frame rate.
+
+---
+
+# 16. STRICT VISUAL QA
+
+Do not call the project finished if:
+
+- Y still requires high-speed player movement.
+- Missiles are merely visual particles that do not cause real damage.
+- The breach stops at the front wall.
+- The exit remains blocked by collision.
+- The player is automatically teleported through the building.
+- Skyscraper demolition only removes some rectangular facade pieces.
+- Full collapse is demonstrated only using scripted test damage.
+- A collapsed building vanishes instead of leaving ruins.
+- The street looks like a wide gray empty plane.
+- Sidewalks are flat placeholders.
+- Repeated Gothic towers are scattered without connected buildings.
+- Explosion fire resembles an emoji.
+- Smoke has an obviously repeated flat-sprite appearance.
+- MEDIUM suffers major rendering freezes.
+- Character/HUD/combat regressions are introduced.
+
+Capture and inspect actual screenshots and gameplay recordings.
+
+---
+
+# 17. SOURCE PRESERVATION AND DEVELOPMENT RULES
+
+Preserve existing:
+
+- Character mesh and rig.
+- Pilot transformation.
+- Flight controls.
+- HUD and targeting.
+- Weapons.
+- Weather.
+- Existing licensed asset sources.
+- World streaming.
+- Save state.
+- User-modified files.
+
+Prepare backups before destructive edits.
+
+Use approved third-party licensing.
+
+Keep source assets separate from optimized runtime assets.
+
+Do not discard working Phase 8 components without verifying replacements.
+
+Do not commit, push, deploy, or publish without approval.
+
+---
+
+# 18. FINAL DELIVERY REPORT
+
+Provide:
+
+1. Exact files modified.
+2. How Y was redesigned.
+3. Real character and launcher animation evidence.
+4. Actual number and timing of missiles in each barrage.
+5. Entrance, interior and exit destruction behavior.
+6. Collision and passage validation.
+7. Demolition damage tuning.
+8. Structural collapse logic.
+9. Actual weapon-driven complete-collapse recordings.
+10. Persistent ruins demonstration.
+11. Street design and environmental-density upgrades.
+12. MEDIUM visual comparisons.
+13. Performance before and after.
+14. Destruction stress-test results.
+15. Test results.
+16. Known remaining limitations.
+17. Updated Claude handoff.
+
+**IMPLEMENT THE FEATURES. DO NOT STOP AT A PLAN.**
+
+Use actual gameplay footage and real measurements to prove success.
+
+The highest priorities are:
+
+1. Stationary multi-missile Y ability that creates a traversable building corridor.
+2. Powerful player-driven total building demolition.
+3. A denser and more realistic New York-inspired metropolis.
+4. Smooth MEDIUM performance.
+
+Begin with the Phase 8 audit, then build and validate these systems in that order.

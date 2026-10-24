@@ -1,0 +1,901 @@
+{
+  "stage": "slice",
+  "project": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game",
+  "viewport": [
+    1600,
+    900
+  ],
+  "captures": [
+    {
+      "name": "01-night-skyline",
+      "eye": [
+        50,
+        215,
+        -190
+      ],
+      "look": [
+        165,
+        80,
+        -535
+      ],
+      "point": [
+        128,
+        160,
+        -320
+      ],
+      "preset": "clear",
+      "hour": 23,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 14,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 33,
+          "unloads": 8,
+          "generationMs": 0,
+          "maxGenerationMs": 0.6000000089406967,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 23,
+          "night": 1,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.0001028273951299473,
+          "gpu": {
+            "supported": true,
+            "samples": 98,
+            "meanMs": 65.28742857142856,
+            "p95Ms": 16.852064
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.899999999999636,
+        "meanMs": 70.05436893203883,
+        "p95Ms": 27.700000000000728,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 96,
+        "triangles": 668938,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 103,
+        "textures": 35,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          128,
+          160.0000030517578,
+          -320
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "02-day-rooftop",
+      "eye": [
+        128,
+        170,
+        -370
+      ],
+      "look": [
+        328,
+        130,
+        -496
+      ],
+      "point": [
+        128,
+        160,
+        -320
+      ],
+      "preset": "clear",
+      "hour": 12,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 14,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 55,
+          "unloads": 16,
+          "generationMs": 0,
+          "maxGenerationMs": 0.5,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00011640463641957349,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 11.497449733333339,
+            "p95Ms": 14.29856
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 7,
+        "meanMs": 10.684615384615382,
+        "p95Ms": 20.899999999999636,
+        "simulationMs": 0,
+        "drawCalls": 85,
+        "triangles": 612974,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 103,
+        "textures": 35,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          128,
+          160.0000030517578,
+          -320
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "03-gothic-street",
+      "eye": [
+        -576,
+        3.2,
+        -258
+      ],
+      "look": [
+        -605,
+        16,
+        -348
+      ],
+      "point": [
+        -576,
+        1,
+        -260
+      ],
+      "preset": "clear",
+      "hour": 17,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "gothic",
+          "buildings": 632,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 82,
+          "unloads": 27,
+          "generationMs": 0,
+          "maxGenerationMs": 1.3999999910593033,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 17,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019778932729658748,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 14.005598133333335,
+            "p95Ms": 13.00192
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 7,
+        "meanMs": 23.737313432835816,
+        "p95Ms": 27.69999999999891,
+        "simulationMs": 0,
+        "drawCalls": 235,
+        "triangles": 2349834,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 201,
+        "textures": 50,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          -576,
+          0.9999999523162841,
+          -260
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "04-downtown-rain",
+      "eye": [
+        128,
+        3.2,
+        -268
+      ],
+      "look": [
+        128,
+        8,
+        -420
+      ],
+      "point": [
+        128,
+        0.3,
+        -280
+      ],
+      "preset": "heavy-rain",
+      "hour": 23,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 13,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 103,
+          "unloads": 35,
+          "generationMs": 0,
+          "maxGenerationMs": 0.29999999701976776,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1200,
+          "lightningCount": 0,
+          "fogDensity": 0.0008109362419160087,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 13.720147333333326,
+            "p95Ms": 12.512288
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 7,
+        "meanMs": 10.818367346938771,
+        "p95Ms": 20.899999999999636,
+        "simulationMs": 0.699999988079071,
+        "drawCalls": 94,
+        "triangles": 634226,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 203,
+        "textures": 50,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          128,
+          0.30000002384185787,
+          -280
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "05-glass-closeup",
+      "eye": [
+        271,
+        37,
+        -497
+      ],
+      "look": [
+        296,
+        42,
+        -500
+      ],
+      "point": [
+        256,
+        40,
+        -496
+      ],
+      "preset": "clear",
+      "hour": 12,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 15,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 129,
+          "unloads": 46,
+          "generationMs": 0,
+          "maxGenerationMs": 0.5,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00017622449863124998,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 9.940684266666668,
+            "p95Ms": 10.20384
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 6.899999999997817,
+        "meanMs": 10.536551724137926,
+        "p95Ms": 14,
+        "simulationMs": 0,
+        "drawCalls": 87,
+        "triangles": 640238,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 203,
+        "textures": 50,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          256,
+          39.99999923706055,
+          -496
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "06-gothic-facade",
+      "eye": [
+        -615,
+        6,
+        -304
+      ],
+      "look": [
+        -640,
+        15,
+        -331
+      ],
+      "point": [
+        -576,
+        7,
+        -260
+      ],
+      "preset": "clear",
+      "hour": 16,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "gothic",
+          "buildings": 632,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 156,
+          "unloads": 57,
+          "generationMs": 0,
+          "maxGenerationMs": 0.5,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 16,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00019588005896030856,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 10.475109599999998,
+            "p95Ms": 11.326688
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.899999999997817,
+        "meanMs": 11.624637681159426,
+        "p95Ms": 14,
+        "simulationMs": 1.1000000089406967,
+        "drawCalls": 217,
+        "triangles": 2291954,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 203,
+        "textures": 50,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          -576,
+          7.0000001907348635,
+          -260
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "07-roof-detail",
+      "eye": [
+        0,
+        180,
+        -445
+      ],
+      "look": [
+        28,
+        174,
+        -487
+      ],
+      "point": [
+        0,
+        180,
+        -445
+      ],
+      "preset": "clear",
+      "hour": 12,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 181,
+          "unloads": 66,
+          "generationMs": 0,
+          "maxGenerationMs": 1.0999999940395355,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00011315387647596069,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 10.922857600000006,
+            "p95Ms": 11.394432
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 6.900000000001455,
+        "meanMs": 11.591366906474825,
+        "p95Ms": 14,
+        "simulationMs": 0,
+        "drawCalls": 96,
+        "triangles": 762832,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 203,
+        "textures": 50,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          0,
+          180.0000030517578,
+          -445
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "08-industrial",
+      "eye": [
+        716,
+        14,
+        555
+      ],
+      "look": [
+        780,
+        22,
+        665
+      ],
+      "point": [
+        704,
+        28,
+        512
+      ],
+      "preset": "partly-cloudy",
+      "hour": 17,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "industrial",
+          "buildings": 632,
+          "tiles": 7,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 199,
+          "unloads": 77,
+          "generationMs": 0,
+          "maxGenerationMs": 0.20000000298023224,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "partly-cloudy",
+          "hour": 17,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.0002381891927708667,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 7.825749066666666,
+            "p95Ms": 10.753216
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 6.900000000001455,
+        "meanMs": 7.973015873015881,
+        "p95Ms": 7,
+        "simulationMs": 0,
+        "drawCalls": 91,
+        "triangles": 479546,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 216,
+        "textures": 51,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          704,
+          27.999999237060546,
+          512
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "09-altitude",
+      "eye": [
+        190,
+        650,
+        80
+      ],
+      "look": [
+        0,
+        70,
+        -340
+      ],
+      "point": [
+        128,
+        600,
+        -320
+      ],
+      "preset": "clear",
+      "hour": 12,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 14,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 221,
+          "unloads": 85,
+          "generationMs": 0,
+          "maxGenerationMs": 0.30000001192092896,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 12,
+          "night": 0,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00004947907614739903,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 10.108862933333334,
+            "p95Ms": 13.985536
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.899999999997817,
+        "meanMs": 15.559615384615357,
+        "p95Ms": 20.899999999997817,
+        "simulationMs": 0.7000000029802322,
+        "drawCalls": 180,
+        "triangles": 701503,
+        "bodies": 1,
+        "activeBodies": 0,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 222,
+        "textures": 51,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          128,
+          599.9999877929688,
+          -320
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    },
+    {
+      "name": "10-sunset",
+      "eye": [
+        340,
+        250,
+        -145
+      ],
+      "look": [
+        90,
+        130,
+        -650
+      ],
+      "point": [
+        328,
+        280,
+        -496
+      ],
+      "preset": "clear",
+      "hour": 17.5,
+      "quality": "MEDIUM",
+      "fov": 57,
+      "diagnostics": {
+        "colliders": 7108,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 632,
+          "tiles": 15,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 247,
+          "unloads": 96,
+          "generationMs": 0,
+          "maxGenerationMs": 0.20000000298023224,
+          "collisionResident": true,
+          "worldColliders": 6710,
+          "quality": "MEDIUM",
+          "assetBytes": 88490916,
+          "textureBytesEstimate": 58720368.000000015,
+          "weather": "clear",
+          "hour": 17.5,
+          "night": 0.36842142333984407,
+          "wetness": 0,
+          "snowCover": 0,
+          "particles": 0,
+          "lightningCount": 0,
+          "fogDensity": 0.00009395861120376383,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 12.860561733333332,
+            "p95Ms": 13.985536
+          }
+        },
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 13.69999999999709,
+        "meanMs": 12.15234375,
+        "p95Ms": 14,
+        "simulationMs": 0.5999999940395355,
+        "drawCalls": 128,
+        "triangles": 705326,
+        "bodies": 1,
+        "activeBodies": 1,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 222,
+        "textures": 51,
+        "loadingMs": 3570,
+        "assetLoadMs": 381.40000000596046,
+        "position": [
+          328.0006408691406,
+          280.020068359375,
+          -495.9993591308594
+        ],
+        "state": "GROUND",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      }
+    }
+  ],
+  "errors": []
+}

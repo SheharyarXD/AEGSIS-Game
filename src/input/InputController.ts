@@ -34,6 +34,11 @@ export class InputController {
     return true;
   }
 
+  /** Any of several bindings held. */
+  public anyHeld(codes: string[]): boolean { return codes.some(code => this.isHeld(code)); }
+  /** Any of several bindings tapped (all of them are consumed). */
+  public anyTap(codes: string[]): boolean { let tapped = false; for (const code of codes) if (this.consumeTap(code)) tapped = true; return tapped; }
+
   public consumeLook(): Vector2 {
     const delta = this.lookDelta.clone();
     this.lookDelta.set(0, 0);

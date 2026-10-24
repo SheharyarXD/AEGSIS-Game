@@ -1,0 +1,1636 @@
+{
+  "beforeBytes": 1292258203,
+  "archivedBytes": 987697439,
+  "files": [
+    {
+      "path": "aegis-premium-architecture-optimized.glb",
+      "sha256": "30793776B7CABA2979D34AF80D429707EDBA89717ED6232218E1F99DD9600AD7",
+      "bytes": 72369064
+    },
+    {
+      "path": "aegis-premium-architecture-optimized.json",
+      "sha256": "C50887DD787FD91DC4124EAFA1F4B61491819928F8ACAF7525595AFD513E74DC",
+      "bytes": 244
+    },
+    {
+      "path": "aegis-premium-architecture.glb",
+      "sha256": "CA104040DE660EC86D714512484BE614B13733F21507725EFCEAFEF4801F7923",
+      "bytes": 254827884
+    },
+    {
+      "path": "city\\city_artdeco_1-far.glb",
+      "sha256": "7447580C23C692FF4357F238A22E963FABBAA1B349433A588122887F5DF6DFFF",
+      "bytes": 740160
+    },
+    {
+      "path": "city\\city_artdeco_1-far.glb.optimization.log",
+      "sha256": "7621E0FF1BEF29EF4767D357F8B61767DB7EFFB5E14E454D42A4E20F3189FFB3",
+      "bytes": 1742
+    },
+    {
+      "path": "city\\city_artdeco_1-mid.glb",
+      "sha256": "E196521C04344BE6BEF7AAD21A9D95396828E286F99D4BBFCC2345A7E28AE846",
+      "bytes": 740160
+    },
+    {
+      "path": "city\\city_artdeco_1-mid.glb.optimization.log",
+      "sha256": "EA44EE8139941C685EEADA01523D69D89C58ECD9212BE5A32143A1BF3139B2FE",
+      "bytes": 1742
+    },
+    {
+      "path": "city\\city_artdeco_1-near.glb",
+      "sha256": "4BA49DB1751295F664A2614214DF420D130F4B5691689E33E66E76C7B3D85597",
+      "bytes": 1582772
+    },
+    {
+      "path": "city\\city_artdeco_1-near.glb.optimization.log",
+      "sha256": "A27663CD01838552A91B9D25DFD4933A0F9BDE2173FE4DD963F7C69543E2EFAC",
+      "bytes": 1852
+    },
+    {
+      "path": "city\\city_brownstoneoffice_1-far.glb",
+      "sha256": "E74DC62532A85689B0C6D3FFF15CBFEAB73C1AF7A2EDCB10EB1DB2282B24DC9C",
+      "bytes": 593516
+    },
+    {
+      "path": "city\\city_brownstoneoffice_1-far.glb.optimization.log",
+      "sha256": "EF27F54BB80ECB0FBC1F16DC45044853A73F4C7D5A906709DAFDDEAC6F623607",
+      "bytes": 876
+    },
+    {
+      "path": "city\\city_brownstoneoffice_1-mid.glb",
+      "sha256": "1CF51F5591D4A41E548258BD6E45FC1E771B3E3567D6077F3E8DA7486FC17C31",
+      "bytes": 593840
+    },
+    {
+      "path": "city\\city_brownstoneoffice_1-mid.glb.optimization.log",
+      "sha256": "9D3026C8B1E217760615BC02D121F8D897B12EB2435CAB835E54F32ED0CA4568",
+      "bytes": 876
+    },
+    {
+      "path": "city\\city_brownstoneoffice_1-near.glb",
+      "sha256": "49FD44F4B196A8F606AEF2E9A18F135B567FC5798410A6D5F5BF48F59E2583D0",
+      "bytes": 1666840
+    },
+    {
+      "path": "city\\city_brownstoneoffice_1-near.glb.optimization.log",
+      "sha256": "F20005F00312AFB646B09E818DD5505567FE4E0CD2985412A64692EB9F2674C8",
+      "bytes": 1680
+    },
+    {
+      "path": "city\\city_brownstoneoffice_2-far.glb",
+      "sha256": "04A0C923C2E92ADDB88B8C8DCCC62D02AAD8CA236C57AF4D95E13FC815EB615E",
+      "bytes": 1084316
+    },
+    {
+      "path": "city\\city_brownstoneoffice_2-far.glb.optimization.log",
+      "sha256": "A570EA205074499D43335A72E06DA67DB21A5A77AE1220692EBA1BDDB4F96FF4",
+      "bytes": 1884
+    },
+    {
+      "path": "city\\city_brownstoneoffice_2-mid.glb",
+      "sha256": "82E6F6FE2D6312428D6A8047A0ABB95FEA6A55421C46F7E87606BA7333942E27",
+      "bytes": 1084808
+    },
+    {
+      "path": "city\\city_brownstoneoffice_2-mid.glb.optimization.log",
+      "sha256": "F7866F7D10D62398770723A513FA34997FFFBE75BFC7C4F19D8C687E6BE53841",
+      "bytes": 1884
+    },
+    {
+      "path": "city\\city_brownstoneoffice_2-near.glb",
+      "sha256": "07D5D43DF8DF9DAA78F9E899F82370235609F479856D546FA211AA90FB5BAD40",
+      "bytes": 2158540
+    },
+    {
+      "path": "city\\city_brownstoneoffice_2-near.glb.optimization.log",
+      "sha256": "5894460253F00D49C1B62550906C85092D85DAF17A1B3B832A1F8461E9442424",
+      "bytes": 1994
+    },
+    {
+      "path": "city\\city_brutal_1-far.glb",
+      "sha256": "D0459CE00861F8306B443C2B7A2F2113C05030CD2CF01CFE5548B159202A094C",
+      "bytes": 493164
+    },
+    {
+      "path": "city\\city_brutal_1-far.glb.optimization.log",
+      "sha256": "FCDD9507049382EC3A6A53108C10E318CCFAC2150C8D7212C4D6F6CF85BE7F1B",
+      "bytes": 836
+    },
+    {
+      "path": "city\\city_brutal_1-mid.glb",
+      "sha256": "3BD62F2E34415AC203A8449DD3F46536DB3FBBF5CAEB98F3B171533B45130174",
+      "bytes": 493164
+    },
+    {
+      "path": "city\\city_brutal_1-mid.glb.optimization.log",
+      "sha256": "65DBC5388FEFE089F1FD70079D51F391835B29512A0BC6FB09880EFA58B04FC2",
+      "bytes": 836
+    },
+    {
+      "path": "city\\city_brutal_1-near.glb",
+      "sha256": "63B4ABAA22721188B7625363D903768E885170FFD110689E03C203FAF57EC369",
+      "bytes": 1604568
+    },
+    {
+      "path": "city\\city_brutal_1-near.glb.optimization.log",
+      "sha256": "10CECDB32C703738A33E139F8D2B0E673A78F33890F0C13BD9F81BE6DBE602D4",
+      "bytes": 1640
+    },
+    {
+      "path": "city\\city_citadel-far.glb",
+      "sha256": "3F08695D7859A5110F18BA3C927C27948C8001060DAD7B63B65C5DD7C4D2FA48",
+      "bytes": 1295540
+    },
+    {
+      "path": "city\\city_citadel-far.glb.optimization.log",
+      "sha256": "8DB07C645E9A9D8D79557FD67705A3D094E9B3F44A835451BCC26939F9C6AB3E",
+      "bytes": 834
+    },
+    {
+      "path": "city\\city_citadel-mid.glb",
+      "sha256": "5A0FDD5B57E2E9B1E253109463E1CB0068A997F771D5375A81148BB6250FD31C",
+      "bytes": 1857732
+    },
+    {
+      "path": "city\\city_citadel-mid.glb.optimization.log",
+      "sha256": "E21A7BCBA0CD2AF2C1AA533349B02128FD119F828C56B126A73A815CAED594BB",
+      "bytes": 834
+    },
+    {
+      "path": "city\\city_citadel-near.glb",
+      "sha256": "F7520C0044E0ADFFD8290EE271ED149DCC88B2B3B09E214CFE60C4861F9A5986",
+      "bytes": 9812008
+    },
+    {
+      "path": "city\\city_citadel-near.glb.optimization.log",
+      "sha256": "06DB5A9461E2DF955C6690AE7C9D28D9AD97730191AF9F05298567A3BA20E841",
+      "bytes": 1638
+    },
+    {
+      "path": "city\\city_classicoffice_1-far.glb",
+      "sha256": "B07E8586FD9B1C662842BBBCA661962435D9641933E3E758D07EB4C5918C6EC3",
+      "bytes": 1024628
+    },
+    {
+      "path": "city\\city_classicoffice_1-far.glb.optimization.log",
+      "sha256": "DD5F21A0447E7C07F2305D689F20B73D88C324DA6C7291EFB07D46C6D64CFA40",
+      "bytes": 3224
+    },
+    {
+      "path": "city\\city_classicoffice_1-mid.glb",
+      "sha256": "FA3B8F9B9ED89D037387734D45C298F6EDB82493D4616793BA57408076AED59C",
+      "bytes": 1024628
+    },
+    {
+      "path": "city\\city_classicoffice_1-mid.glb.optimization.log",
+      "sha256": "59C0638A4CE2D272008F92D59112D7F9D2AC8AFF61B34103A83BCAD444FB83DE",
+      "bytes": 3224
+    },
+    {
+      "path": "city\\city_classicoffice_1-near.glb",
+      "sha256": "F4B8A7AAC392817802FA0689A0DF0FD94A8C818CC003C316E0085184FCF7E76C",
+      "bytes": 1827972
+    },
+    {
+      "path": "city\\city_classicoffice_1-near.glb.optimization.log",
+      "sha256": "1653781752BD293A1DE0451FC03BEA1E6A0BB09C35D986C48F96AEF90AE842C6",
+      "bytes": 1876
+    },
+    {
+      "path": "city\\city_flatiron_1-far.glb",
+      "sha256": "3CEC9C3B5EA768ACCE3038B82B9258C9C2362F273600AD9B1C989F4B68B7337D",
+      "bytes": 2279196
+    },
+    {
+      "path": "city\\city_flatiron_1-far.glb.optimization.log",
+      "sha256": "089562B9F66B51F99F43CB175AF136FEBB29601BCB4F0E7DE76DBB0D5752B4E8",
+      "bytes": 2372
+    },
+    {
+      "path": "city\\city_flatiron_1-mid.glb",
+      "sha256": "E5B2E476F6BD935D4F57EA7D90AB4E48542DA430635CC3E0E38F5F94821E4561",
+      "bytes": 2282984
+    },
+    {
+      "path": "city\\city_flatiron_1-mid.glb.optimization.log",
+      "sha256": "4574F93487C1354BD29895FA317B4C1A8386261AA420E39B5A6A71190E2BA8C0",
+      "bytes": 2372
+    },
+    {
+      "path": "city\\city_flatiron_1-near.glb",
+      "sha256": "481D6EC0FFFA5E70AA7D574D0C3364D0EA4C67A174FBA518768CB912E0FA7D28",
+      "bytes": 5934572
+    },
+    {
+      "path": "city\\city_flatiron_1-near.glb.optimization.log",
+      "sha256": "EA71E6E9D4540DF6B4019DC3DB0F719807D4276A632D56E7E873783FF1B6747C",
+      "bytes": 1754
+    },
+    {
+      "path": "city\\city_iron_building_1-far.glb",
+      "sha256": "6B7C2A875FF6B379FB9FA3DD85EF089163EB5B4B0E7A10B3A58D321C0708F3A0",
+      "bytes": 807484
+    },
+    {
+      "path": "city\\city_iron_building_1-far.glb.optimization.log",
+      "sha256": "9FCB393D4659D14426AE66148A018AFAB30382611FB6B4FAC27E7A0234ED5CA5",
+      "bytes": 1764
+    },
+    {
+      "path": "city\\city_iron_building_1-mid.glb",
+      "sha256": "CE35736D0DF32300DB54C2BBC0E4DB9E5A0102F4624F96F480ABD53EE6CF570A",
+      "bytes": 807484
+    },
+    {
+      "path": "city\\city_iron_building_1-mid.glb.optimization.log",
+      "sha256": "F2922F89E4FA68CB8A8F29A2EE2B035629A6E91EB8D0707339AE9036C99034D4",
+      "bytes": 1764
+    },
+    {
+      "path": "city\\city_iron_building_1-near.glb",
+      "sha256": "0F1CA348350386D5A656FE06DAE175B20964FCA620ACD439FE2F028868C941D4",
+      "bytes": 1625492
+    },
+    {
+      "path": "city\\city_iron_building_1-near.glb.optimization.log",
+      "sha256": "3C502520D7330BB12EA04B70424D644EC4D783AB4B1DB795995B5304F99B7211",
+      "bytes": 1876
+    },
+    {
+      "path": "city\\city_iron_building_10-far.glb",
+      "sha256": "EF5B8776BDF25E1294C012759DBCDC7307047FA0647B7A627075B95D9F33F95B",
+      "bytes": 396084
+    },
+    {
+      "path": "city\\city_iron_building_10-far.glb.optimization.log",
+      "sha256": "3DE9F7F516D673F6440430BF78970D493065341A85B8F315062FA8A8D6EC4EE4",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_building_10-mid.glb",
+      "sha256": "68A024141349400E6F3BFD098C6FC422BF39BC762D2811EB632C4ED9E4287847",
+      "bytes": 396732
+    },
+    {
+      "path": "city\\city_iron_building_10-mid.glb.optimization.log",
+      "sha256": "083326E8BAA489789BE0999E4187751B4C942FB7E919C250D5BD27458BD6F7D5",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_building_10-near.glb",
+      "sha256": "7B7673BA5D2FBD432FFEA3E8E4DDA30C73529684EE483A95062FD34F61508A01",
+      "bytes": 1547636
+    },
+    {
+      "path": "city\\city_iron_building_10-near.glb.optimization.log",
+      "sha256": "CFEC506FDA439704BE9DB40C451EAD9E446755EAA020EA1A9510B03AC2588CB1",
+      "bytes": 1776
+    },
+    {
+      "path": "city\\city_iron_duplex_1-far.glb",
+      "sha256": "EE3E2B089A411F858BE22F04E91C74E5720234916F5E929791BD1CFBE9E252A1",
+      "bytes": 473460
+    },
+    {
+      "path": "city\\city_iron_duplex_1-far.glb.optimization.log",
+      "sha256": "F564E604756E04CB6AA5A86F806D63E440955E1FAAD2002E2ED815251F987BDF",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_iron_duplex_1-mid.glb",
+      "sha256": "C2879B6A29583DE9E6C2601C9922E318D9C858F20997AFE1E39D1D9BCA9C36D5",
+      "bytes": 473460
+    },
+    {
+      "path": "city\\city_iron_duplex_1-mid.glb.optimization.log",
+      "sha256": "FBC33515F93500F194DD3A67D90B8DDFF5B627E817047058442300A4E0806978",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_iron_duplex_1-near.glb",
+      "sha256": "77F1C3063313DF4408402B79CD1D8D1B6C421EC75234BF08CFC08F57A5C90EF0",
+      "bytes": 657068
+    },
+    {
+      "path": "city\\city_iron_duplex_1-near.glb.optimization.log",
+      "sha256": "AA11E9E5F8799817CB2CEF4148F2063E790549D02BD10D1256A2613EF81BC49E",
+      "bytes": 1762
+    },
+    {
+      "path": "city\\city_iron_factoryplant_1-far.glb",
+      "sha256": "6A0011677721EC1A43EB113E3AED8AAA78CC68EFC12E2BEF2F6991D9ACEDCE06",
+      "bytes": 772016
+    },
+    {
+      "path": "city\\city_iron_factoryplant_1-far.glb.optimization.log",
+      "sha256": "DDB671408108655D7C199E1FCCDDFBB020DA95BA0B2EDFFEF6A868848A186F4A",
+      "bytes": 1676
+    },
+    {
+      "path": "city\\city_iron_factoryplant_1-mid.glb",
+      "sha256": "D3447EF607A647EEA4D34E074BFC800109AF4669C3D48094525D870F53CB04CF",
+      "bytes": 772016
+    },
+    {
+      "path": "city\\city_iron_factoryplant_1-mid.glb.optimization.log",
+      "sha256": "9E88FCA3D2F90C07569C0F0F1C75F9910F7C56C9524AA30BC4B47CCC6CABFBD2",
+      "bytes": 1676
+    },
+    {
+      "path": "city\\city_iron_factoryplant_1-near.glb",
+      "sha256": "9C04EA6E8E8D4B3D5BFE318AC8E623464683F2B7329DFB1F651266D260DB6198",
+      "bytes": 2207776
+    },
+    {
+      "path": "city\\city_iron_factoryplant_1-near.glb.optimization.log",
+      "sha256": "4CC913FDEC546D36FF1F6DBCA16881F90E093FC5CAF5C6BC82E4BA40131C56A0",
+      "bytes": 1788
+    },
+    {
+      "path": "city\\city_iron_factoryplant_2-far.glb",
+      "sha256": "4AD03D8CD45F7749ED2730537EF13F723EB6BF245AEB7C8E222DC7FEBFB59E16",
+      "bytes": 610420
+    },
+    {
+      "path": "city\\city_iron_factoryplant_2-far.glb.optimization.log",
+      "sha256": "253DA4745BA77AB02ABB07FB16EBDEC5895E4EDD7EEA9072913121F8D2E26CF4",
+      "bytes": 1676
+    },
+    {
+      "path": "city\\city_iron_factoryplant_2-mid.glb",
+      "sha256": "099D6BDFCEF118D936874A3E429355AFD932029C2396E0BF489E5FFAF5C81561",
+      "bytes": 610420
+    },
+    {
+      "path": "city\\city_iron_factoryplant_2-mid.glb.optimization.log",
+      "sha256": "A28C763710751DCE7F80A16963C4D9BB888EC3B0664D6375C80B496A842702E5",
+      "bytes": 1676
+    },
+    {
+      "path": "city\\city_iron_factoryplant_2-near.glb",
+      "sha256": "A3D9FE0C0C42916A0ED9E617870912F5F4E4D57E810E46CB50DD3AFB0AE62D37",
+      "bytes": 1394600
+    },
+    {
+      "path": "city\\city_iron_factoryplant_2-near.glb.optimization.log",
+      "sha256": "EF9D954AFE1B058F10B249F220F35112D873CEE49B684947493C854141BA54A9",
+      "bytes": 1788
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_2-far.glb",
+      "sha256": "C1C7F68AD80F89A8EFCBBDBAC368B32EF4E0C24861084A5F8AB2E693F12B73D6",
+      "bytes": 221640
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_2-far.glb.optimization.log",
+      "sha256": "C32491D5305FBBCC1069DAC40C1381F62E38CCE21BFB328FEFE194161FB06A83",
+      "bytes": 892
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_2-mid.glb",
+      "sha256": "3EEAA0D3D1DA64F49AC69793D55019654B6CB82B5EEF72D6B3E5A8D87EA40C3D",
+      "bytes": 221640
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_2-mid.glb.optimization.log",
+      "sha256": "1F35825CB2BE0D8A0DDACF869EC76C37537503685C6C0B59FAB89B530E7E03D8",
+      "bytes": 892
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_2-near.glb",
+      "sha256": "DB0A6DB886B846150D140727050D58DE9294180F9F6A7DBF81CA1237D250655D",
+      "bytes": 230856
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_2-near.glb.optimization.log",
+      "sha256": "934757382E57E078D03ECDCC071619CD26FC13152B8AA55C99ED8B89FC4F5C6B",
+      "bytes": 896
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_3-far.glb",
+      "sha256": "9CB7761494375C34E2E2A406C3CA850233F4D03A02250CB43A850041B0BB8267",
+      "bytes": 463872
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_3-far.glb.optimization.log",
+      "sha256": "8CD3E8958208FA08FC7BC5359F0C696B9E314E282A82C61FBE36DEBE6B6533BD",
+      "bytes": 892
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_3-mid.glb",
+      "sha256": "054BC02E73F86D3D39D4967FE7890495556CFE90ADCE53C07C2731759A35B983",
+      "bytes": 463872
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_3-mid.glb.optimization.log",
+      "sha256": "0BDA55B55B1392B897ED5F8462BAEDF8A1C0097F65C700E002CF01B07C5BB186",
+      "bytes": 892
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_3-near.glb",
+      "sha256": "E109D60AB4EDF4FD260DE66FC2A85E4D3794BE227672D2EFBA3002A2EC6C245D",
+      "bytes": 552156
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_3-near.glb.optimization.log",
+      "sha256": "CA983480A0804C52828DF643BABB47C5DE535707BD84A0C692D18641FBBED16C",
+      "bytes": 1694
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_4-far.glb",
+      "sha256": "08229D61E869F45DE412843F1A9EAEE8470F968B3FE9E56EB793F5331FAF7EFE",
+      "bytes": 501296
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_4-far.glb.optimization.log",
+      "sha256": "8AE55D06B5C55CD7AEF328BB808B0D8602557C971536209745D5D3233BE7E3C0",
+      "bytes": 892
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_4-mid.glb",
+      "sha256": "5644E74A816B725EE41A0162A4E22D8FE8BBF03354778190E69D3E53BE63C837",
+      "bytes": 501296
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_4-mid.glb.optimization.log",
+      "sha256": "29F3A04D96EE34782D40D783F40C76B336A0451C92BBFC513275D40879173401",
+      "bytes": 892
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_4-near.glb",
+      "sha256": "FE815C9419461C3C043371B95553A99DBB34668B4C592F590D87DD5BAF9D3D33",
+      "bytes": 753880
+    },
+    {
+      "path": "city\\city_iron_genericbuilding_4-near.glb.optimization.log",
+      "sha256": "591B34CCD380255B4793FF951B8AE1C1BD414908344C4AAE41E7283624250700",
+      "bytes": 1694
+    },
+    {
+      "path": "city\\city_iron_hangar_2-far.glb",
+      "sha256": "712F34AB3FBAF74AED16928990B05FAAE224AC82509A404C449DFA90F3B2E493",
+      "bytes": 755408
+    },
+    {
+      "path": "city\\city_iron_hangar_2-far.glb.optimization.log",
+      "sha256": "95BF47298FCFC7EAE5E9D95EF3FDCAC7D7310296C4A1616B6B9FBB88FF949BC6",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_iron_hangar_2-mid.glb",
+      "sha256": "915396168040A9E3F114471CF1D8DE99A2F3B526020448259904CA2E7058F363",
+      "bytes": 755408
+    },
+    {
+      "path": "city\\city_iron_hangar_2-mid.glb.optimization.log",
+      "sha256": "E5DBFC932CE0099E88E497674165B70A406E23E5A1FC314A5ACEAF1C45CF689A",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_iron_hangar_2-near.glb",
+      "sha256": "4FD47777A8E37398046C86DEC90E5A7DE46586D611F4FBBED46B5B1A3D3C6B0F",
+      "bytes": 1774232
+    },
+    {
+      "path": "city\\city_iron_hangar_2-near.glb.optimization.log",
+      "sha256": "DCD1F1FA095C70E583123A6EDD58C48F17DD7CBFF460B40803526199330AB3A0",
+      "bytes": 1764
+    },
+    {
+      "path": "city\\city_iron_logisticterminal_1-far.glb",
+      "sha256": "D45B17509F1E5AF2150475723382B253EF79A8B1F69DE5DEA034E6EDED777DC5",
+      "bytes": 484340
+    },
+    {
+      "path": "city\\city_iron_logisticterminal_1-far.glb.optimization.log",
+      "sha256": "02CFEA2861DAA9615C203081EF17765F58A4EF26E03FE072B357A01CB1555CB6",
+      "bytes": 1692
+    },
+    {
+      "path": "city\\city_iron_logisticterminal_1-mid.glb",
+      "sha256": "4D33DDEE15BE50C13BF2620A03B0A074397F6AAD1A95778929CEC0D2FDDF62E1",
+      "bytes": 484340
+    },
+    {
+      "path": "city\\city_iron_logisticterminal_1-mid.glb.optimization.log",
+      "sha256": "EBD77CBC5E0DE307C4CF2BE37E61ED5898D86918BB56A786208C83A269F745C3",
+      "bytes": 1692
+    },
+    {
+      "path": "city\\city_iron_logisticterminal_1-near.glb",
+      "sha256": "EB6038F64A72D9E81E55FD403235288EB2B7E61F5CA5DDBB9DC6391444636A52",
+      "bytes": 703676
+    },
+    {
+      "path": "city\\city_iron_logisticterminal_1-near.glb.optimization.log",
+      "sha256": "0CFDFC365E933FDA4AC1866373E28CA8CAE3467A42BDCD76313123E0ABFBF910",
+      "bytes": 1802
+    },
+    {
+      "path": "city\\city_iron_powerplant_1-far.glb",
+      "sha256": "A723947746242F60B928AB9B0975F827C31C0D0CB7F27D0DC97CE104716439DF",
+      "bytes": 587460
+    },
+    {
+      "path": "city\\city_iron_powerplant_1-far.glb.optimization.log",
+      "sha256": "A7BF8A3F454406D0D85DBD1C398A552BA60D9E0122239D4FAA064AE1C9814ADE",
+      "bytes": 1668
+    },
+    {
+      "path": "city\\city_iron_powerplant_1-mid.glb",
+      "sha256": "7FFB739D7D1864449F88BDAEC28F81ED1FD050FA1D4F0F5D37FDB7E3DCB34684",
+      "bytes": 587460
+    },
+    {
+      "path": "city\\city_iron_powerplant_1-mid.glb.optimization.log",
+      "sha256": "B1A061A2BC0235BE1FB273E43DDA9192E9DDD76290B4C752600826E8A70BA799",
+      "bytes": 1668
+    },
+    {
+      "path": "city\\city_iron_powerplant_1-near.glb",
+      "sha256": "0145BCD71F2EBD253B39241670D5D3C0E5B9ACD5B63E6ED494D276B87F727854",
+      "bytes": 4679972
+    },
+    {
+      "path": "city\\city_iron_powerplant_1-near.glb.optimization.log",
+      "sha256": "7E212AEB964C55BF8FA59E8750DE25410917B63726A7F20414CF867869A8F578",
+      "bytes": 1782
+    },
+    {
+      "path": "city\\city_iron_warehousesmall_4-far.glb",
+      "sha256": "2577506F0323288E9EFAA49C50ED1D29FFD2C1893649456429987E6061EDAA86",
+      "bytes": 189024
+    },
+    {
+      "path": "city\\city_iron_warehousesmall_4-far.glb.optimization.log",
+      "sha256": "D2D289AAFEEDCE8C8A4BA664F73433C9007B42C02241DAF6FF8C699719069C49",
+      "bytes": 888
+    },
+    {
+      "path": "city\\city_iron_warehousesmall_4-mid.glb",
+      "sha256": "97D26EA397FC6580317DF3D31A6B6ACF740ACDB0C21FB8F111FAC047EBF0BC26",
+      "bytes": 189100
+    },
+    {
+      "path": "city\\city_iron_warehousesmall_4-mid.glb.optimization.log",
+      "sha256": "706CC0EB7585F861DD67CAD538F8AD424E444E1C1342FF44B46AA4B5DD000BA3",
+      "bytes": 888
+    },
+    {
+      "path": "city\\city_iron_warehousesmall_4-near.glb",
+      "sha256": "42517FDEDA3CA5C0EB091434EF6A99A0C6D3B97C17C7AA61D3714B164B85F166",
+      "bytes": 278628
+    },
+    {
+      "path": "city\\city_iron_warehousesmall_4-near.glb.optimization.log",
+      "sha256": "EA4EA53DF603D33E24339FFB90740B8EBAB242F2275CA6D3A8A5D387444F25BB",
+      "bytes": 1690
+    },
+    {
+      "path": "city\\city_iron_warehouse_1-far.glb",
+      "sha256": "5B1F1A477147667E29837F7EBFC5A4D4D960121414BA07F52F77217239D52981",
+      "bytes": 477600
+    },
+    {
+      "path": "city\\city_iron_warehouse_1-far.glb.optimization.log",
+      "sha256": "89987B72D4212CBD93191E1436F6454354C438840EEA26EB20C0A510432577C7",
+      "bytes": 868
+    },
+    {
+      "path": "city\\city_iron_warehouse_1-mid.glb",
+      "sha256": "BE32B3A0CA9FF8650459C909F3622C4A8E63E35E1FDE152BB8D7FC1FFC33E523",
+      "bytes": 477600
+    },
+    {
+      "path": "city\\city_iron_warehouse_1-mid.glb.optimization.log",
+      "sha256": "C18C2E63E9A801FBE019A3C85F71F8040C3E48CEC7FAD5E312AC40E141AD0551",
+      "bytes": 868
+    },
+    {
+      "path": "city\\city_iron_warehouse_1-near.glb",
+      "sha256": "70C5147A58210020272698249223FBB2816883529E95903117FCCFF44BE4C114",
+      "bytes": 687716
+    },
+    {
+      "path": "city\\city_iron_warehouse_1-near.glb.optimization.log",
+      "sha256": "B19307D6B5E612A5BCC8FEB6DC5215AAFDB98C7F6257F150696D7758C2C632B1",
+      "bytes": 1670
+    },
+    {
+      "path": "city\\city_iron_warehouse_3-far.glb",
+      "sha256": "B1D2F4BE6492D875FE794F5B3DDC08D36D4A464B64DEAB7ED53FFB1265FF7CC0",
+      "bytes": 408224
+    },
+    {
+      "path": "city\\city_iron_warehouse_3-far.glb.optimization.log",
+      "sha256": "3521B591E8779E27A7D7CC58C9AE925A2E3EE0A52E9ED3BE920E313B5B9E992E",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_warehouse_3-mid.glb",
+      "sha256": "0187A0B4A0D4D5E3772D2051A5D00BB2AD62AF7272E827F1F0713FBB0035BC2E",
+      "bytes": 408224
+    },
+    {
+      "path": "city\\city_iron_warehouse_3-mid.glb.optimization.log",
+      "sha256": "6A56E5E99B86E24EB3DA1B992C7CDB1C13DD162768F930C64C916107DD046EC4",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_warehouse_3-near.glb",
+      "sha256": "787A88B3BF7DEE2D87A5F8AED67378C04569E8177463394921DAC450033F2FBD",
+      "bytes": 629112
+    },
+    {
+      "path": "city\\city_iron_warehouse_3-near.glb.optimization.log",
+      "sha256": "C3FB8A6723093B7BD870EC0959209AAD3EB9CE9A30B52E0518565DBCDC8BE538",
+      "bytes": 1774
+    },
+    {
+      "path": "city\\city_iron_warehouse_4-far.glb",
+      "sha256": "0ABE583C401D6B08CCDE19C7F044DDCC8F6C6C09A89A386DCEEFD62174F716FF",
+      "bytes": 259632
+    },
+    {
+      "path": "city\\city_iron_warehouse_4-far.glb.optimization.log",
+      "sha256": "038F72EB90448398621ED4A0F9F9251A1FFDC7AB328869A15FEA5C16E312CF6A",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_warehouse_4-mid.glb",
+      "sha256": "79F892548CE5887BF3933D117AB758FF665740ADA9C1FE30130961A78F9B10C5",
+      "bytes": 259632
+    },
+    {
+      "path": "city\\city_iron_warehouse_4-mid.glb.optimization.log",
+      "sha256": "6A913E7D72FCFAD2B3EA5A60989994A82950818D3148BA5ED63ADF87A6ACE9D3",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_warehouse_4-near.glb",
+      "sha256": "239EFF8D995499B92AB4A31DC7101663A38DFEC29E4A33F429BE26A10E17C216",
+      "bytes": 552124
+    },
+    {
+      "path": "city\\city_iron_warehouse_4-near.glb.optimization.log",
+      "sha256": "28B1587DB4813E32EE43090AF27B10064C0A21F7E83542042A2014EB29EA1292",
+      "bytes": 1774
+    },
+    {
+      "path": "city\\city_iron_warehouse_5-far.glb",
+      "sha256": "79F0B78FDF764ED684EC3A22E676E76CB966A489202AF8374BE882A73CEBB93E",
+      "bytes": 505816
+    },
+    {
+      "path": "city\\city_iron_warehouse_5-far.glb.optimization.log",
+      "sha256": "333F29DAE84DF95221AD9CA2B53D6CED0A9AD339B39518C6B362BF83B018C171",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_warehouse_5-mid.glb",
+      "sha256": "BF195A217B0FE5A3A378F629225FCA21BEF70B395CD6AC5407824E2B9CE6CDBD",
+      "bytes": 505816
+    },
+    {
+      "path": "city\\city_iron_warehouse_5-mid.glb.optimization.log",
+      "sha256": "539707DAF8177A5081882D7262EEEB2ECED856804F22BBAD21047238E648DA81",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_iron_warehouse_5-near.glb",
+      "sha256": "5CD1EAD7F977A29EA836D083056589E15AEB6913D1C635FB30B4BAC0CB2FBC2C",
+      "bytes": 985012
+    },
+    {
+      "path": "city\\city_iron_warehouse_5-near.glb.optimization.log",
+      "sha256": "9FAA1DD919439F772EFCCCD99A96921C47B954B7777FAFE392EADE3782F7E056",
+      "bytes": 1774
+    },
+    {
+      "path": "city\\city_mall_1-far.glb",
+      "sha256": "5B08141DE41F501D1DC4CDA50EF6BB6715048AD80BB9F457333DA495BC5E7954",
+      "bytes": 489412
+    },
+    {
+      "path": "city\\city_mall_1-far.glb.optimization.log",
+      "sha256": "6F0FA8653C269B4BD27681406F1A41BB552BFCB3041FE5BB0CB02D7B055FF256",
+      "bytes": 1728
+    },
+    {
+      "path": "city\\city_mall_1-mid.glb",
+      "sha256": "6135F7BF3F275A4169C5737687A37380D7D993431D99CA178FE35B3A8B0DD0A2",
+      "bytes": 490308
+    },
+    {
+      "path": "city\\city_mall_1-mid.glb.optimization.log",
+      "sha256": "6355811EE39BD84421F0E051B32B339AF0E1D82D39F42961A1A39899A4DF1A40",
+      "bytes": 1728
+    },
+    {
+      "path": "city\\city_mall_1-near.glb",
+      "sha256": "9E9F6043C3722DA5CA8E3A04B269963FF7F8831EB77F83BBCAE43AF065C1450D",
+      "bytes": 876400
+    },
+    {
+      "path": "city\\city_mall_1-near.glb.optimization.log",
+      "sha256": "91EFB2837B5F6F63E037AB396FD235942D52A8BF74979CC4AD37AC8BBD8460CB",
+      "bytes": 1838
+    },
+    {
+      "path": "city\\city_modernoffice_1-far.glb",
+      "sha256": "92A8C8FDFC0A878BC01007ACB3BE43A5588A23F72CE709C0F0F8B764CEED86BA",
+      "bytes": 802648
+    },
+    {
+      "path": "city\\city_modernoffice_1-far.glb.optimization.log",
+      "sha256": "C0B0019F78B8259874F834DAC0713585D4DEB1B0E80F4A4ABE679C7B3E2BFDAB",
+      "bytes": 2074
+    },
+    {
+      "path": "city\\city_modernoffice_1-mid.glb",
+      "sha256": "8CFFB0B107162BE0BFA336BE63187B0A4430D223648179FFC492151E7C16D687",
+      "bytes": 802648
+    },
+    {
+      "path": "city\\city_modernoffice_1-mid.glb.optimization.log",
+      "sha256": "C82BCBAD64A2B4EFCA4BCFF6B76E4BD831CBC1619BCAE3B6CE2C96886875AA70",
+      "bytes": 2074
+    },
+    {
+      "path": "city\\city_modernoffice_1-near.glb",
+      "sha256": "B0C662DE1E8FD0364A0107EAEA20739ED73FEB976C359D95C1D8520754ED02FA",
+      "bytes": 2225328
+    },
+    {
+      "path": "city\\city_modernoffice_1-near.glb.optimization.log",
+      "sha256": "25514C16DFAE2F0CFBD45BD7E4BF53638BABB17612A7F371D00C3565C5E7281B",
+      "bytes": 1976
+    },
+    {
+      "path": "city\\city_modernoffice_1_b-far.glb",
+      "sha256": "52987444E433837843C2CB0BF337A006C708330F7690D73CCBCE6CB395E0AE62",
+      "bytes": 545784
+    },
+    {
+      "path": "city\\city_modernoffice_1_b-far.glb.optimization.log",
+      "sha256": "6BD3D430150B4D3BB812FFDB6C208BA9E3843A5DB4A5F09FF44E83563341137D",
+      "bytes": 1874
+    },
+    {
+      "path": "city\\city_modernoffice_1_b-mid.glb",
+      "sha256": "7B18ED59816C032DE3EC4B49C91E7CDA8F8EF19BF07B9EBF3B0BD2224DA59766",
+      "bytes": 545784
+    },
+    {
+      "path": "city\\city_modernoffice_1_b-mid.glb.optimization.log",
+      "sha256": "A58636A7A93919103446B784CB946A3D7C894B4FD69E178144D9DDDFEA107DE5",
+      "bytes": 1874
+    },
+    {
+      "path": "city\\city_modernoffice_1_b-near.glb",
+      "sha256": "51CF42BD2AB71616EC654A6C820F88265E24506CFA98368F286334DCC4194E09",
+      "bytes": 1515016
+    },
+    {
+      "path": "city\\city_modernoffice_1_b-near.glb.optimization.log",
+      "sha256": "4E3EFF34605B21CAAE774D3ED0B6711A12902C67B3E1E98F1E2322654C37C438",
+      "bytes": 1984
+    },
+    {
+      "path": "city\\city_modernoffice_2-far.glb",
+      "sha256": "4323F238F78745EF15F07734FC0280D201BD3A60EFBC46D320C9B61AD8E6BAD4",
+      "bytes": 481960
+    },
+    {
+      "path": "city\\city_modernoffice_2-far.glb.optimization.log",
+      "sha256": "5DF9012ED1E97399A104BFFC828B28D7509B6C4DEC751542D48081E7722D99BB",
+      "bytes": 1656
+    },
+    {
+      "path": "city\\city_modernoffice_2-mid.glb",
+      "sha256": "6AC0BCD814424BD86E5CF75F8AF3481C23F1481128229D76B89CACC15BAAAF58",
+      "bytes": 482288
+    },
+    {
+      "path": "city\\city_modernoffice_2-mid.glb.optimization.log",
+      "sha256": "6A8FD8E8F7B24DAD6EA29A178C19A7E47F2B601BB6D14EF420904E9A2B744B0A",
+      "bytes": 1656
+    },
+    {
+      "path": "city\\city_modernoffice_2-near.glb",
+      "sha256": "0F1E4F91B414CD88C63C45BCF7E684008DC5342B3297CE05229FCE5D716B6AE3",
+      "bytes": 762764
+    },
+    {
+      "path": "city\\city_modernoffice_2-near.glb.optimization.log",
+      "sha256": "D91A3250F696F85339DC5294FD16B43B5B63D004F5CFB5DB80F0F11787C9704A",
+      "bytes": 1766
+    },
+    {
+      "path": "city\\city_modernoffice_3-far.glb",
+      "sha256": "281B985D7C6621F4619480323D3C40DA0EDF6562D2A642A36B4EA20D8311397A",
+      "bytes": 447636
+    },
+    {
+      "path": "city\\city_modernoffice_3-far.glb.optimization.log",
+      "sha256": "2936DF6C174235EB7AD43360D37A5BF000ED79D82C789BFD595B6A0CAC5C0688",
+      "bytes": 862
+    },
+    {
+      "path": "city\\city_modernoffice_3-mid.glb",
+      "sha256": "96088873DD33B2F89C4AF8D273AD762E5E58FCCEFA85C729E800D71DECC99E66",
+      "bytes": 447636
+    },
+    {
+      "path": "city\\city_modernoffice_3-mid.glb.optimization.log",
+      "sha256": "93A7F39003E4D7556C27C18F209F839A9D81554F59D566C9F1436A7CE1FB8B58",
+      "bytes": 862
+    },
+    {
+      "path": "city\\city_modernoffice_3-near.glb",
+      "sha256": "F36F3D1B7A1F36C6187317569669E6A9A8502ACDDD56613355E2068379D8CF5B",
+      "bytes": 625256
+    },
+    {
+      "path": "city\\city_modernoffice_3-near.glb.optimization.log",
+      "sha256": "B799A56808E31129319094821C712159B84AD4D118BED10F65D9AEA530E13AAD",
+      "bytes": 1662
+    },
+    {
+      "path": "city\\city_modernoffice_4-far.glb",
+      "sha256": "4D780E07BD51E047A0C9837AFDF30098D0BEB8446551C80C69601358618B2E11",
+      "bytes": 726696
+    },
+    {
+      "path": "city\\city_modernoffice_4-far.glb.optimization.log",
+      "sha256": "68CE8C39304DDB0D986D2BD78D93414080935EDD765AB0BE2ECAA2AD8CB34270",
+      "bytes": 1762
+    },
+    {
+      "path": "city\\city_modernoffice_4-mid.glb",
+      "sha256": "A74E0B12C74F8C72E4473491B59C3097838238DEE2CA4F96E8225263E30E9899",
+      "bytes": 726696
+    },
+    {
+      "path": "city\\city_modernoffice_4-mid.glb.optimization.log",
+      "sha256": "34590F40C7F91D0E93DFA653972B850046626A62BD3B00FF55F00A626DF38149",
+      "bytes": 1762
+    },
+    {
+      "path": "city\\city_modernoffice_4-near.glb",
+      "sha256": "DC8FACBC6F1C358A13DA57937FD6BF7B0057DB789EAE430599D5DA1B0F474F64",
+      "bytes": 2460796
+    },
+    {
+      "path": "city\\city_modernoffice_4-near.glb.optimization.log",
+      "sha256": "C162291E6354B64295E8B692F60F7C31C9ED57836CA428E50D9CCC615753646E",
+      "bytes": 1872
+    },
+    {
+      "path": "city\\city_modernoffice_5-far.glb",
+      "sha256": "AD5F4659AEE000D680E4BCDED8733A94C6645D1045D6B969D9C7E568DE2DDE4C",
+      "bytes": 874596
+    },
+    {
+      "path": "city\\city_modernoffice_5-far.glb.optimization.log",
+      "sha256": "5D217C940F30CBBA0CDCFCB676010079B36778D5CDDDB452442DC89D1DFBE585",
+      "bytes": 1762
+    },
+    {
+      "path": "city\\city_modernoffice_5-mid.glb",
+      "sha256": "45C12904B6F9C5A28A5C733FF42E35E6D8DC1FA1A8A22B5C221AFD821CE96477",
+      "bytes": 875620
+    },
+    {
+      "path": "city\\city_modernoffice_5-mid.glb.optimization.log",
+      "sha256": "EE663D36FB1792FA7E2CDBBD4C7DC82AB88B4642A503552DDA83B46F29378E07",
+      "bytes": 1762
+    },
+    {
+      "path": "city\\city_modernoffice_5-near.glb",
+      "sha256": "031C7EF4FC550E8AC222656091D632A456BCA54F3AC41542F8F65DFEEA4820F9",
+      "bytes": 3882044
+    },
+    {
+      "path": "city\\city_modernoffice_5-near.glb.optimization.log",
+      "sha256": "CAE6859B3B0120522A0853401976741522AB6DAE9209D003079BB956F4517288",
+      "bytes": 1770
+    },
+    {
+      "path": "city\\city_modernoffice_5_b-far.glb",
+      "sha256": "D31B08DE53F346F2DB413DE31706E7C82169C6E05B5D71C949ECD04C67CB9372",
+      "bytes": 727636
+    },
+    {
+      "path": "city\\city_modernoffice_5_b-far.glb.optimization.log",
+      "sha256": "8C5AE0909DF5B06D22A3D6C1D4F8A42587CC9ADF4999F8F3FCFE8D326B7980AC",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_modernoffice_5_b-mid.glb",
+      "sha256": "2881C1DAF3FC7DC01D5FF308009E116FAA39A663F3D6B8035092FCAE29B9B688",
+      "bytes": 728148
+    },
+    {
+      "path": "city\\city_modernoffice_5_b-mid.glb.optimization.log",
+      "sha256": "9F143BA4FD84F426470A3D328157F4CF848FC26C34020DBB1BC099CAA71C64EA",
+      "bytes": 1664
+    },
+    {
+      "path": "city\\city_modernoffice_5_b-near.glb",
+      "sha256": "E9DAD815ABAD88BD4C629F40A0A4A8EC2923B0DA89B63469F18B21BA7A20D54D",
+      "bytes": 1895232
+    },
+    {
+      "path": "city\\city_modernoffice_5_b-near.glb.optimization.log",
+      "sha256": "1E2CF6A3EA10B8ED9ACCF931856DA38CB5547FA9F139ABEA89D8F1CC7B444E11",
+      "bytes": 1776
+    },
+    {
+      "path": "city\\city_publicbuilding_1-far.glb",
+      "sha256": "A444B6DB0D5308CDFB9A579D5EA1314C25C5A35EA718BAE3D0DBE2994AD77302",
+      "bytes": 409000
+    },
+    {
+      "path": "city\\city_publicbuilding_1-far.glb.optimization.log",
+      "sha256": "31E6402C9A4E8B3F44C4D4764D24BDC749FC1EC60587B14CE06141FB1B0C8CD5",
+      "bytes": 868
+    },
+    {
+      "path": "city\\city_publicbuilding_1-mid.glb",
+      "sha256": "D727CE8F31970B67A63C80ACF0175C6BA424CFEF02C4014E8DEF067D0845B092",
+      "bytes": 409304
+    },
+    {
+      "path": "city\\city_publicbuilding_1-mid.glb.optimization.log",
+      "sha256": "AEF9EE6566F7683F703855E372FAC0CC620B6EC4F0468F9FEE8C8F27F58A3862",
+      "bytes": 868
+    },
+    {
+      "path": "city\\city_publicbuilding_1-near.glb",
+      "sha256": "DAF9BCB8320C5B71314BDB8600690DCFABF4F76722CCF22A45476A575FD2BCAC",
+      "bytes": 900544
+    },
+    {
+      "path": "city\\city_publicbuilding_1-near.glb.optimization.log",
+      "sha256": "1AC76C93CCD9E5EA88CB60D13F242FAC7CC16FAE0FC1910CDC9483DADCFE9186",
+      "bytes": 1670
+    },
+    {
+      "path": "city\\city_residential_2-far.glb",
+      "sha256": "1FDD6D7F2E20F30EF375BBD7E1A389B8A524CD04623E96F34D3214C53E9F07EA",
+      "bytes": 477296
+    },
+    {
+      "path": "city\\city_residential_2-far.glb.optimization.log",
+      "sha256": "C002ABB535E38814E74A9A91C08BB7AF4BD62043D611EB3CB50FD7EAAC1FF0F4",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_residential_2-mid.glb",
+      "sha256": "C73B9C01CE10D9B85B309C830B4BFF006C46188C25B8ADBDC11D861038CAF135",
+      "bytes": 477296
+    },
+    {
+      "path": "city\\city_residential_2-mid.glb.optimization.log",
+      "sha256": "433725DAAA83A3660B66BE6C8E1000CD6F254722A64B31DC091D45879E18C749",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_residential_2-near.glb",
+      "sha256": "166EDA8AF0D77B6F0A2FC79B6AAE1A82927EDB22A50F47BAD75CDF2641493D87",
+      "bytes": 1079724
+    },
+    {
+      "path": "city\\city_residential_2-near.glb.optimization.log",
+      "sha256": "3A856E3B13B02D746633D76FAEC87EC5C4AAB91D5767F4AC0CDF522022CF5B44",
+      "bytes": 1764
+    },
+    {
+      "path": "city\\city_residential_3-far.glb",
+      "sha256": "B46C307A29B73F48B8C559ABD66E646621CF81D59BC14B6CF13170CD4FB2940D",
+      "bytes": 457284
+    },
+    {
+      "path": "city\\city_residential_3-far.glb.optimization.log",
+      "sha256": "56824A13051D58C38F30FA09CF66DD0A21F1647FFCDCC591A6DFC3D43632C59D",
+      "bytes": 856
+    },
+    {
+      "path": "city\\city_residential_3-mid.glb",
+      "sha256": "5D553B2BE7D14786846785C83BA4A30A759033727CEEE93EDAB2D3DC759D156A",
+      "bytes": 457284
+    },
+    {
+      "path": "city\\city_residential_3-mid.glb.optimization.log",
+      "sha256": "6B3553DDDD76B2FF417383C2E905C5278E0484433C1BA8E6C590BD43A881155E",
+      "bytes": 856
+    },
+    {
+      "path": "city\\city_residential_3-near.glb",
+      "sha256": "B05D1F93AC8D27E906CA9C51F9AF4B0A5B0DB74A07AE58C09135D3DD7AB62ACD",
+      "bytes": 1227276
+    },
+    {
+      "path": "city\\city_residential_3-near.glb.optimization.log",
+      "sha256": "CB237F972AA24B7F7493B18125C9F729A1FB1E32A9D6425091584E738890B7D1",
+      "bytes": 1660
+    },
+    {
+      "path": "city\\city_residential_4-far.glb",
+      "sha256": "239CD6AE45D9BE1587DFA646FC8065E8DBEB2BB69BF07CF52B8ECE384F0D5E2E",
+      "bytes": 508360
+    },
+    {
+      "path": "city\\city_residential_4-far.glb.optimization.log",
+      "sha256": "C687EF594C92C72C0E4FC3F4BFB93FB194A1EBD4CC35188337F20614548E1BC2",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_residential_4-mid.glb",
+      "sha256": "B4F14F34B7B2BBC04276474849B7A6E50201C80CA29D5E414C85A456657B9C5A",
+      "bytes": 508360
+    },
+    {
+      "path": "city\\city_residential_4-mid.glb.optimization.log",
+      "sha256": "F2764367572CF89C5CBA5BFB349F2442851AE75C137AFBAD217809F4B4C88EBD",
+      "bytes": 1652
+    },
+    {
+      "path": "city\\city_residential_4-near.glb",
+      "sha256": "AEF2B03C66867F04DF157C5EAD9870F1395BEA1187C8F6D08A8BA35FC6361438",
+      "bytes": 1285824
+    },
+    {
+      "path": "city\\city_residential_4-near.glb.optimization.log",
+      "sha256": "CC8E1320E8EB212C73FC600D3D2277B753C262F4C757186B6F3760150BECC03C",
+      "bytes": 1764
+    },
+    {
+      "path": "city\\city_singapore-far.glb",
+      "sha256": "C7D96F62D2E8A1B118F69D5457E82AD232A43F88762BCA5F9210E629EB5ABA69",
+      "bytes": 5102676
+    },
+    {
+      "path": "city\\city_singapore-far.glb.optimization.log",
+      "sha256": "AE677931973D8B97EE07AA6D7A355231BE1094890AB4E2C7BEF509DF099DBD03",
+      "bytes": 2684
+    },
+    {
+      "path": "city\\city_singapore-mid.glb",
+      "sha256": "098A5A37DDF3ABE1D0428EC4057A7C0B80CEA2F11029F31F7BB0F058D5463ABD",
+      "bytes": 5119440
+    },
+    {
+      "path": "city\\city_singapore-mid.glb.optimization.log",
+      "sha256": "2BF998A0F1C6600F4D60F12CE102BC117EF7AFF6C0C378ECB3D99C46DBADD33E",
+      "bytes": 2684
+    },
+    {
+      "path": "city\\city_singapore-near.glb",
+      "sha256": "9587F15A94AFDCEBA48E161AC433C4CE0E0C5CCC7E96CA004D8B997680D54C5E",
+      "bytes": 13773016
+    },
+    {
+      "path": "city\\city_singapore-near.glb.optimization.log",
+      "sha256": "28633061C383D9F7C3F49BB1D0BEE9ECC6D0EC2FDA9D357CE897AAAE0BB4F52A",
+      "bytes": 2066
+    },
+    {
+      "path": "city\\city_vesper_1-far.glb",
+      "sha256": "8E96F9C34D067895DECAA72FC7F06E92ABB5E6F6070AEA06508D4EDC754B782E",
+      "bytes": 778648
+    },
+    {
+      "path": "city\\city_vesper_1-far.glb.optimization.log",
+      "sha256": "8315A3FEBEA48D0317A83BB09E8D71E9CFD36440B2F6ACC9F1349E37AA5CB03D",
+      "bytes": 846
+    },
+    {
+      "path": "city\\city_vesper_1-mid.glb",
+      "sha256": "50B49229DB767AD08F175E55B119A6F538C1A345676B557A334B4924348E0912",
+      "bytes": 637932
+    },
+    {
+      "path": "city\\city_vesper_1-mid.glb.optimization.log",
+      "sha256": "E373B7AD970FFC93F9C150D665ECC39F716A8498E2E2B67205BC4D587135E627",
+      "bytes": 846
+    },
+    {
+      "path": "city\\city_vesper_1-near.glb",
+      "sha256": "A06BC3944DDAD1C58DFB3FC03978344C812B6A5FEF19433261EFEBFF09CDB8C5",
+      "bytes": 2464864
+    },
+    {
+      "path": "city\\city_vesper_1-near.glb.optimization.log",
+      "sha256": "00C70EE5B4702AA9E55B0649F7E01A3819EA1327B569D7EBD18A3D05AB1319F3",
+      "bytes": 1640
+    },
+    {
+      "path": "city\\city_vesper_2-far.glb",
+      "sha256": "4EAC3C0DEE06D7CBAE59D305F8F91C7DD42B18CC6F1EEF42F7E8E8D2724DB925",
+      "bytes": 1026312
+    },
+    {
+      "path": "city\\city_vesper_2-far.glb.optimization.log",
+      "sha256": "3D0CCDFE225D8A436401B44AC4FCD3BC647F9DA2A1A0952EC3B71B2ECF60DAED",
+      "bytes": 848
+    },
+    {
+      "path": "city\\city_vesper_2-mid.glb",
+      "sha256": "E2AD54BE97D4B7AE4921E2C9C1AEFF47F829E90C18AFE309DF2574D2E06765E2",
+      "bytes": 755312
+    },
+    {
+      "path": "city\\city_vesper_2-mid.glb.optimization.log",
+      "sha256": "77406965C6705572B4B11090FE5A81C7563B3F2919BCEA91149BAA9B8DED493E",
+      "bytes": 846
+    },
+    {
+      "path": "city\\city_vesper_2-near.glb",
+      "sha256": "827302C6D2C86AD23BB7BA076EEFDE1CDCB922F47CA5C358A98C5DC7BA04A1BB",
+      "bytes": 3363756
+    },
+    {
+      "path": "city\\city_vesper_2-near.glb.optimization.log",
+      "sha256": "C5F9F3C2D4F538F3FDA282C5AD716D521B810D2055FCC2C9736DE9FA2EBE1033",
+      "bytes": 1640
+    },
+    {
+      "path": "city\\city_vesper_3-far.glb",
+      "sha256": "DAF79290B31DB071D4CADB7DEA9D01F9E23BCC0ECA9A62A09727702C4FFD5F22",
+      "bytes": 1525724
+    },
+    {
+      "path": "city\\city_vesper_3-far.glb.optimization.log",
+      "sha256": "CA3DAF95638F192F5F951D12FB706DA870C408DAB44C683430467717F595AA31",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_3-mid.glb",
+      "sha256": "954419FD68D4779E837AD3086A8E73EB283ACE1DC9E1F39272F0C9E189ECE88A",
+      "bytes": 1311148
+    },
+    {
+      "path": "city\\city_vesper_3-mid.glb.optimization.log",
+      "sha256": "A7CF7DBFA1613D1B1BAE4895AAE6CE8B93014881D72AF1B1D3FB3CCAD584799A",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_3-near.glb",
+      "sha256": "895B2102922F6A5353B53F413D603B3384491C7B913B0B756F890F88F503EFF4",
+      "bytes": 5694648
+    },
+    {
+      "path": "city\\city_vesper_3-near.glb.optimization.log",
+      "sha256": "D0B81EB8A582644B1F659BB23480E80A45C4006D82A9112B2C4DF0067B450E57",
+      "bytes": 1640
+    },
+    {
+      "path": "city\\city_vesper_4-far.glb",
+      "sha256": "46C38419531BF8DF10CDAC3AAD63F480801654E5038C516BBB2015701DD3214F",
+      "bytes": 2523792
+    },
+    {
+      "path": "city\\city_vesper_4-far.glb.optimization.log",
+      "sha256": "1D29A83F52C3C0797F5BC1B64401B90A965FE2E9E248537152FBBCBF51479D1C",
+      "bytes": 852
+    },
+    {
+      "path": "city\\city_vesper_4-mid.glb",
+      "sha256": "22B8BA6764C028DF00ED8AD3F2850F2B31FD82CA77C5466F58218A93CB98A992",
+      "bytes": 1932608
+    },
+    {
+      "path": "city\\city_vesper_4-mid.glb.optimization.log",
+      "sha256": "163000892072DF1967970FF84F9BDF2ED605851D2B51A0722596800A1F831F65",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_4-near.glb",
+      "sha256": "C1202C3B9FB2DAD1ED5C64854243F516F65411D20BFE6EF959000BD5850F2BF5",
+      "bytes": 9434932
+    },
+    {
+      "path": "city\\city_vesper_4-near.glb.optimization.log",
+      "sha256": "B62943F0009E393F985955FD19292850CD2EC8E189D07CC829C42ECB820AA772",
+      "bytes": 1642
+    },
+    {
+      "path": "city\\city_vesper_5-far.glb",
+      "sha256": "1791E6C621E477D5847CF4807813502F5F9BD71F423022B63718E70DE5FE3874",
+      "bytes": 1845944
+    },
+    {
+      "path": "city\\city_vesper_5-far.glb.optimization.log",
+      "sha256": "FA1E68E840B9C158823DB4DF77E22165E5B7D0C8A11795081EAFFD69AB477B02",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_5-mid.glb",
+      "sha256": "46729596A4FDF8C4ABB4EE425E671366334CE8E41889C8B19A96A2FD2468F53B",
+      "bytes": 1288856
+    },
+    {
+      "path": "city\\city_vesper_5-mid.glb.optimization.log",
+      "sha256": "E808317E896A34F8307340F22DB47E17744C4EFD18845F1C6F62779FC9FA241A",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_5-near.glb",
+      "sha256": "451F40D94D4584C2B7420C3CE51A561BBC2365529CEFF0FE5011710E0835E2BC",
+      "bytes": 5701292
+    },
+    {
+      "path": "city\\city_vesper_5-near.glb.optimization.log",
+      "sha256": "105CD20BD4CBECAB168AA34204B97BBD54777C94F4884EE625D3E84016D8CB38",
+      "bytes": 1640
+    },
+    {
+      "path": "city\\city_vesper_6-far.glb",
+      "sha256": "6D00E4D286DA4204A64CCE475CE5D9822E01AAB3ECDE7D62F7A2F5327ABF8BE2",
+      "bytes": 1606920
+    },
+    {
+      "path": "city\\city_vesper_6-far.glb.optimization.log",
+      "sha256": "A6D3E6ECB8CB02ACD5813CF520666144EA1EA01DDA62D4B75EF86C575AD40582",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_6-mid.glb",
+      "sha256": "15B31456BE744C929EF5E9742329113C3133E847B4B7FA9A7280A337CDF3C8A1",
+      "bytes": 1046048
+    },
+    {
+      "path": "city\\city_vesper_6-mid.glb.optimization.log",
+      "sha256": "2D55C33F5E286815F406D5D08D0158528BCE74479EE909E795497ACFF43E9E31",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_6-near.glb",
+      "sha256": "6B0CDCA81DF662911D48791B708675F437649F9F3EA1E08873722E99E319F9E1",
+      "bytes": 5547540
+    },
+    {
+      "path": "city\\city_vesper_6-near.glb.optimization.log",
+      "sha256": "A011452FD48735198EFE6E01072C93E4EB1A6039F289743C77BB45DB3461423E",
+      "bytes": 844
+    },
+    {
+      "path": "city\\city_vesper_7-far.glb",
+      "sha256": "08583109CAA18F2524C18C72DA9C5C6B514F28C596AE0CBF7F76E76C54DF3CB8",
+      "bytes": 1884504
+    },
+    {
+      "path": "city\\city_vesper_7-far.glb.optimization.log",
+      "sha256": "A56A7A165A5EC85AA259F03CE57D9573FEF6ED1776BAFECAEDC03FCA00ECA15B",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_7-mid.glb",
+      "sha256": "BB92D59A399B3AFE2DF0BD226B2F10D745058F84059166AAE91A406E082B5CFE",
+      "bytes": 1279540
+    },
+    {
+      "path": "city\\city_vesper_7-mid.glb.optimization.log",
+      "sha256": "D463CF615C9AD0D257B64104126CD0F79DBC49FB5A828098B6D79E5DA0550A2B",
+      "bytes": 850
+    },
+    {
+      "path": "city\\city_vesper_7-near.glb",
+      "sha256": "A26558FA5A720282070D8B6AB5820B29D5383C98588379376FC2EBA6845BE68B",
+      "bytes": 6768592
+    },
+    {
+      "path": "city\\city_vesper_7-near.glb.optimization.log",
+      "sha256": "3D2E2C6B4E9A21E3F20876BAC934D74F096A21166CAEA6FA5AD4B20C9A13B55A",
+      "bytes": 1642
+    },
+    {
+      "path": "destructible\\aer_commercial-components-optimized.glb",
+      "sha256": "7DEB96D67459065195EEE5D5B6C28F81375BBAAEA41AB8BF9A8256AF7E569BB5",
+      "bytes": 1486840
+    },
+    {
+      "path": "destructible\\aer_commercial-components-optimized.json",
+      "sha256": "FFFF0AF87BAB31928ABFD47F420E4F9FDBCA94D5E6C2E85FA33A1839C893191F",
+      "bytes": 380
+    },
+    {
+      "path": "destructible\\aer_commercial-components.glb",
+      "sha256": "67BCC476332B14EE7EB919FBE71C10CAA4E0966B830B0DB4D5E35055EE71EC2B",
+      "bytes": 3610376
+    },
+    {
+      "path": "destructible\\aer_commercial-components.glb.optimization.log",
+      "sha256": "1129B9C64991F23834472499F3FDD56485B9488D84D3E1A31AD908B89C034D77",
+      "bytes": 151998
+    },
+    {
+      "path": "destructible\\aer_commercial-far-optimized.glb",
+      "sha256": "E4CEB7AD7F953567F82135A8C58F316AC57D6727F34283149DE96354A9FA9B78",
+      "bytes": 150432
+    },
+    {
+      "path": "destructible\\aer_commercial-far-optimized.json",
+      "sha256": "FF3BA5F583CE8D13550F6C5BAFDDB4A88AE83FC8FE3328F0F14EFE7FCB2BB06E",
+      "bytes": 361
+    },
+    {
+      "path": "destructible\\aer_commercial-far.glb",
+      "sha256": "70CE2C4DA138DB1CC1A2F6AD995D7E20163D37C12AC3E1CE448E1C94472DAE64",
+      "bytes": 387112
+    },
+    {
+      "path": "destructible\\aer_commercial-far.glb.optimization.log",
+      "sha256": "445699BE62359E5F812F99F3906A7BF8825007CBDCB444C6B0D5A2EB0B1F8D12",
+      "bytes": 2398
+    },
+    {
+      "path": "destructible\\aer_commercial-mid-optimized.glb",
+      "sha256": "1788B9BEF59F8C34991C213C69BE4193EE1D4EBD59C81C79E27DB48135C3C584",
+      "bytes": 394800
+    },
+    {
+      "path": "destructible\\aer_commercial-mid-optimized.json",
+      "sha256": "1323393C3F630820BACC48DD26B47C3C1AA9EF76EC5DB7589AB71D431157E06F",
+      "bytes": 362
+    },
+    {
+      "path": "destructible\\aer_commercial-mid.glb",
+      "sha256": "C95A9CF328E6F238E6B61DA20219FA1DDCE61922206907C611F06FDA3B69A492",
+      "bytes": 1281852
+    },
+    {
+      "path": "destructible\\aer_commercial-mid.glb.optimization.log",
+      "sha256": "2785438FC483FF797A8BAAA74147CAC191719C285AE9050528E83D9E191B006F",
+      "bytes": 2400
+    },
+    {
+      "path": "destructible\\aer_commercial-near-optimized.glb",
+      "sha256": "96179B672CA912DCF99DA289B2E4C286C548FC9E2032DC869250D342EF239067",
+      "bytes": 806720
+    },
+    {
+      "path": "destructible\\aer_commercial-near-optimized.json",
+      "sha256": "C2342FC95FE3E1978B473EDDDF62EA3A6B5550F49C598B8CB919AB9717ACDEE6",
+      "bytes": 364
+    },
+    {
+      "path": "destructible\\aer_commercial-near.glb",
+      "sha256": "076F362C44653BD42AC20522E14AE919247F9C82A0D76C681ABEE43DD909E548",
+      "bytes": 3105584
+    },
+    {
+      "path": "destructible\\aer_commercial-near.glb.optimization.log",
+      "sha256": "016169AA31867BCBB8BEC4A5CB7560F2D348B689A0EF266F3758C56F2CA18FF9",
+      "bytes": 2404
+    },
+    {
+      "path": "destructible\\aer_glass-components-optimized.glb",
+      "sha256": "DBFE766A3B183386A9C8EB68BE44760AE1ACE77A021817AD1EA774E4EE96AB88",
+      "bytes": 3602416
+    },
+    {
+      "path": "destructible\\aer_glass-components-optimized.json",
+      "sha256": "74B9E84A5A61D637325863B42DA21D16D6385790E715437427EFC4431FC31248",
+      "bytes": 370
+    },
+    {
+      "path": "destructible\\aer_glass-components.glb",
+      "sha256": "B92FBE6E1C5265856660B8DF736D12517AB6FC66B15B9A5E12FF144F793D90A2",
+      "bytes": 8770528
+    },
+    {
+      "path": "destructible\\aer_glass-components.glb.optimization.log",
+      "sha256": "22BC26A006CE3D07BDB77F80317EF4C448F4B79039F3BADCB7AECACD1EAC51C1",
+      "bytes": 383692
+    },
+    {
+      "path": "destructible\\aer_glass-far-optimized.glb",
+      "sha256": "7956C1FC2E5564A4E38356F7E6FA7508AE3B9405FA082A30D313BC1923C9BA1F",
+      "bytes": 310872
+    },
+    {
+      "path": "destructible\\aer_glass-far-optimized.json",
+      "sha256": "C5D0ADDBAEE0B5591274BB6F9AE7C29D01A12BEBF7CD77D4A77C74B0EDEE67C1",
+      "bytes": 351
+    },
+    {
+      "path": "destructible\\aer_glass-far.glb",
+      "sha256": "85648B97F57C9A3F4EF790EB43CAE9D109D0094B1162541D1BF98286E48B8F77",
+      "bytes": 911440
+    },
+    {
+      "path": "destructible\\aer_glass-far.glb.optimization.log",
+      "sha256": "C3252E0178E6820788C1AE6C24BFD6EB10122821E0D843AE574788B92E74AC33",
+      "bytes": 2066
+    },
+    {
+      "path": "destructible\\aer_glass-mid-optimized.glb",
+      "sha256": "BD25F77ABFC2E56C8372C0C0FE344B7A934357558E615E877266308732CBA12D",
+      "bytes": 855028
+    },
+    {
+      "path": "destructible\\aer_glass-mid-optimized.json",
+      "sha256": "584FAFF0CF0DA0D873DEAC4DB760C61273BF132C9860FDAD8415B7B3BBE1FC4A",
+      "bytes": 352
+    },
+    {
+      "path": "destructible\\aer_glass-mid.glb",
+      "sha256": "C3119CCE5CB251C9647B7EB14FF0393C1CD8A64C0791FFC97382D9D75C3803A1",
+      "bytes": 2921388
+    },
+    {
+      "path": "destructible\\aer_glass-mid.glb.optimization.log",
+      "sha256": "D1A4FCA448946B91156FFF8F40F2B62DCC4022E0D4038AD50426EC267D6D01AA",
+      "bytes": 2068
+    },
+    {
+      "path": "destructible\\aer_glass-near-optimized.glb",
+      "sha256": "A99AB4B484CFD5F984AD7B94C5C240E0B1CC9202B923D72B6A33123314F1E656",
+      "bytes": 1857356
+    },
+    {
+      "path": "destructible\\aer_glass-near-optimized.json",
+      "sha256": "D3FBDF1234DED324E0606E09A7584384FF71415B1C7716034F597E159FBF4E36",
+      "bytes": 355
+    },
+    {
+      "path": "destructible\\aer_glass-near.glb",
+      "sha256": "996653BDCE64C1EBAD7BB8C03922564AD900B140E92987EFD386B308DBD0482D",
+      "bytes": 7832588
+    },
+    {
+      "path": "destructible\\aer_glass-near.glb.optimization.log",
+      "sha256": "B27B268649A87385E57F7F32DCE38D5C149CCB0E46FF8525BA677E6D1D14E033",
+      "bytes": 2074
+    },
+    {
+      "path": "destructible\\aer_gothic-components-optimized.glb",
+      "sha256": "3472A0C39F8F0A6B00EF2401CF0BC820E448566A74BCB1D9C436BCA43BA791C2",
+      "bytes": 5089828
+    },
+    {
+      "path": "destructible\\aer_gothic-components-optimized.json",
+      "sha256": "B248DF9E5222E223CA145432694F0E8F93EFD1C9D6AE50410DC532620ABB8363",
+      "bytes": 373
+    },
+    {
+      "path": "destructible\\aer_gothic-components.glb",
+      "sha256": "0483418DEAA340530D9921B5F7A9630F2CADA8483FDA291DFB72E391116A4B7B",
+      "bytes": 15294752
+    },
+    {
+      "path": "destructible\\aer_gothic-components.glb.optimization.log",
+      "sha256": "3EA22104CCE5B9C0B8729F7AD6BFA56F365FD35BB081CD3BA801EAA57A1235E2",
+      "bytes": 453898
+    },
+    {
+      "path": "destructible\\aer_gothic-far-optimized.glb",
+      "sha256": "708CC3A7F22C2CB6811F8CBD8374F1B43D9352BB5C8B6C163808171DEB44B054",
+      "bytes": 598184
+    },
+    {
+      "path": "destructible\\aer_gothic-far-optimized.json",
+      "sha256": "95BC6BCA7A389685F65D54283E5C7F677366BC467243227C9C2F786A2F29253E",
+      "bytes": 354
+    },
+    {
+      "path": "destructible\\aer_gothic-far.glb",
+      "sha256": "9BAD99C97E36F2C17F00C43CE6C5D86C5ECF8A4865BA672C3D80F6C586A83A79",
+      "bytes": 1776148
+    },
+    {
+      "path": "destructible\\aer_gothic-far.glb.optimization.log",
+      "sha256": "07C40DBBFAE5E396F5E16A8BCD9207AAC6288A5C5CFF60DFE4409F263C6B31CD",
+      "bytes": 2176
+    },
+    {
+      "path": "destructible\\aer_gothic-mid-optimized.glb",
+      "sha256": "EF424271DB1E9A596291E713E4D6DEADF988A57222B0D5DEB298251D36B9B16D",
+      "bytes": 1788348
+    },
+    {
+      "path": "destructible\\aer_gothic-mid-optimized.json",
+      "sha256": "58A84FE4086CC666DB9A7F6C6864EAE7460A008B46A4DC09425BE6AFFA44E195",
+      "bytes": 355
+    },
+    {
+      "path": "destructible\\aer_gothic-mid.glb",
+      "sha256": "2C88C9682CA1912CF52F6CCCAC03E91CDCA8632A8EBA33ED12FC78CFFA9770EE",
+      "bytes": 6617680
+    },
+    {
+      "path": "destructible\\aer_gothic-mid.glb.optimization.log",
+      "sha256": "47C17FCF71431EB8F39E98871FD372760E67F87A05D0FABD316A8ED0DDB0DF9F",
+      "bytes": 2178
+    },
+    {
+      "path": "destructible\\aer_gothic-near-optimized.glb",
+      "sha256": "182EA6E404E73F412F2D9C525FA96B2B5EF21CCD0A91EE2DC58255527010C98D",
+      "bytes": 3880124
+    },
+    {
+      "path": "destructible\\aer_gothic-near-optimized.json",
+      "sha256": "21BDD7BE24813B12F4D75514B9398203B8ECA4F10854510795039FFB96B6A2F8",
+      "bytes": 358
+    },
+    {
+      "path": "destructible\\aer_gothic-near.glb",
+      "sha256": "626FF7CCB4CDCEDD5B7E90D70240473B0D4F1CEA960E4C68A024C702EC385E41",
+      "bytes": 15604396
+    },
+    {
+      "path": "destructible\\aer_gothic-near.glb.optimization.log",
+      "sha256": "BD5F1947004514EC5F57A03C5BF2EB4368848CD7807390ADEBEBA0CF0F9B2BF9",
+      "bytes": 2184
+    },
+    {
+      "path": "destructible\\components.json",
+      "sha256": "80E6B35FC0BD3B748BA113D18D18EE977BA77DEF24DE447D11F17829DDEDAB55",
+      "bytes": 7931809
+    },
+    {
+      "path": "destructible\\fractures-optimized.json",
+      "sha256": "F7B53ED3D9A875D5B4DCA5D37DF2D2C80DCDCFD498DCAB69CC04E5C2983706AF",
+      "bytes": 339
+    },
+    {
+      "path": "destructible\\fractures.glb",
+      "sha256": "90F5914B6EB81EF972A5CEC73F9FDA50D31414D7231A47420F5109AA235E1567",
+      "bytes": 3676
+    },
+    {
+      "path": "destructible\\fractures.glb.optimization.log",
+      "sha256": "BEC2F334B216DB7DB1D6C79B4F37138CAFF975B0AB18D20276444C160BD1F58A",
+      "bytes": 1728
+    },
+    {
+      "path": "provided\\aer_glass-far.glb",
+      "sha256": "488634BF4354C6DE00725F7A153D533A8EEA740F1AA5698F4A6746CA47A1547F",
+      "bytes": 11327644
+    },
+    {
+      "path": "provided\\aer_glass-far.glb.optimization.log",
+      "sha256": "D22F3A00C25A2671B03CDFBCABE8A587DD38E074253BC48DABC7463A99CA2CE1",
+      "bytes": 5598
+    },
+    {
+      "path": "provided\\aer_glass-mid.glb",
+      "sha256": "AC234339583411603BF348AFE50B905D9C1F9F005C722BAC146E8DBDEC491AD1",
+      "bytes": 12530980
+    },
+    {
+      "path": "provided\\aer_glass-mid.glb.optimization.log",
+      "sha256": "157C7C0A9690EBB164C888ABC7F796599FE5543402625028111A9A93754B1DF4",
+      "bytes": 5598
+    },
+    {
+      "path": "provided\\aer_glass-near.glb",
+      "sha256": "094BC7B5E8813CB035F1AB69CA62398CEE7F8A9CE83D21798D0D11B89719F6E3",
+      "bytes": 47950444
+    },
+    {
+      "path": "provided\\aer_glass-near.glb.optimization.log",
+      "sha256": "AF7D718E08F1F49ED6D28E64EF332202992D78C95E205B246AB2A66B1E8169A4",
+      "bytes": 2482
+    },
+    {
+      "path": "provided\\aer_gothic-far.glb",
+      "sha256": "4CAA4E5F6BCC9047E5C6AF39DC18261E15B2F7B1BD0755D15FA3EAAEFD4949CA",
+      "bytes": 4539536
+    },
+    {
+      "path": "provided\\aer_gothic-far.glb.optimization.log",
+      "sha256": "DE449B914C1CC5A0A90C15A70BA9B1E50F5477381C48F458CC0FC5B00C71064F",
+      "bytes": 858
+    },
+    {
+      "path": "provided\\aer_gothic-mid.glb",
+      "sha256": "E20134C4F7829056819A9961AD69EC8FAEF9553D02CDD9DE4AF319E78837E8C8",
+      "bytes": 3362152
+    },
+    {
+      "path": "provided\\aer_gothic-mid.glb.optimization.log",
+      "sha256": "A03E68E08457919E4516D342DAE027896F51A9AB77B1A4E62B686FC5512A8792",
+      "bytes": 858
+    },
+    {
+      "path": "provided\\aer_gothic-near.glb",
+      "sha256": "88B63A897B664D36D0641FC77B46469FA68A06F540A45F57515ECDA75A201E55",
+      "bytes": 16811140
+    },
+    {
+      "path": "provided\\aer_gothic-near.glb.optimization.log",
+      "sha256": "9FACA0B2F2377CBF04E31125399395B0EFC38206ED5E6B4F41C7D109F6F673C2",
+      "bytes": 1648
+    }
+  ],
+  "runtimeBytes": 304560764,
+  "note": "Only generated development exports and logs moved. Supplied originals and editable Blender sources are unchanged.",
+  "textureSharingReport": "artifacts/phase7/texture-sharing.json",
+  "verifiedRuntimeBytes": 304969246,
+  "verifiedOn": "2026-10-12"
+}

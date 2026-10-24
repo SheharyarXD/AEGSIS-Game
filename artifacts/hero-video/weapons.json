@@ -1,0 +1,194 @@
+[
+ {
+  "mode": "SOFT",
+  "ammo": 8,
+  "launches": 0,
+  "hits": 0,
+  "deployed": 0.48,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 8,
+  "launches": 0,
+  "hits": 0,
+  "deployed": 0.75,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 8,
+  "launches": 0,
+  "hits": 0,
+  "deployed": 1,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 7,
+  "launches": 1,
+  "hits": 0,
+  "deployed": 1,
+  "airborne": 1,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 6,
+  "launches": 2,
+  "hits": 0,
+  "deployed": 1,
+  "airborne": 2,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   95,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 6,
+  "launches": 2,
+  "hits": 1,
+  "deployed": 1,
+  "airborne": 1,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   57,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 6,
+  "launches": 2,
+  "hits": 2,
+  "deployed": 1,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   19,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 6,
+  "launches": 2,
+  "hits": 2,
+  "deployed": 1,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   19,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 6,
+  "launches": 2,
+  "hits": 2,
+  "deployed": 1,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   19,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 6,
+  "launches": 2,
+  "hits": 2,
+  "deployed": 0,
+  "airborne": 0,
+  "shots": 0,
+  "beam": 0,
+  "alive": 3,
+  "health": [
+   95,
+   19,
+   95
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 7,
+  "launches": 2,
+  "hits": 2,
+  "deployed": 0,
+  "airborne": 0,
+  "shots": 7,
+  "beam": 0,
+  "alive": 2,
+  "health": [
+   75,
+   0,
+   15
+  ]
+ },
+ {
+  "mode": "SOFT",
+  "ammo": 8,
+  "launches": 2,
+  "hits": 2,
+  "deployed": 0,
+  "airborne": 0,
+  "shots": 7,
+  "beam": 0,
+  "alive": 2,
+  "health": [
+   75,
+   0,
+   15
+  ]
+ }
+]

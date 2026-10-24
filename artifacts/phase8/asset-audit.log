@@ -1,0 +1,13 @@
+$ node scripts/phase8-offline-audit.mjs
+{
+  "protectedFiles": 12,
+  "originalAssets": 15,
+  "baselineUnchanged": 163,
+  "changed": 21,
+  "moduleCount": 15,
+  "primitives": 159,
+  "vertices": 26022,
+  "triangles": 13160,
+  "optimizedBytes": 185912,
+  "sourceFamilies": 25
+}

@@ -1,0 +1,172 @@
+{
+  "Bin_Body_Orange": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-0"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-1"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-1"
+    }
+  },
+  "Orange_Lid": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-3"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-4"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-4"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-2"
+    }
+  },
+  "Bin_Wheel": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-5"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-6"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-6"
+    }
+  },
+  "Metal_Bolard": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-8"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-9"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-9"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-7"
+    }
+  },
+  "Trash_Bag_2nd": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-11"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-12"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-12"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-10"
+    }
+  },
+  "Wood": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-14"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-15"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-15"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-13"
+    }
+  },
+  "Bench_Supports": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-17"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-18"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-18"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-16"
+    }
+  },
+  "Orange_Trash_Can": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-20"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-21"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-21"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-19"
+    }
+  },
+  "Orange_Cone_2": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-22"
+    }
+  },
+  "Fire_Hydrant": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-24"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-25"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-25"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-23"
+    }
+  },
+  "Concrete_Block": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-27"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-28"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-28"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-26"
+    }
+  },
+  "Street_Light": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-31"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-32"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-32"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-30"
+    },
+    "emissiveMap": {
+      "url": "/assets/environment/metropolis/textures/street-29"
+    }
+  },
+  "Red_Post_Box": {
+    "map": {
+      "url": "/assets/environment/metropolis/textures/street-35"
+    },
+    "roughnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-36"
+    },
+    "metalnessMap": {
+      "url": "/assets/environment/metropolis/textures/street-36"
+    },
+    "normalMap": {
+      "url": "/assets/environment/metropolis/textures/street-34"
+    }
+  }
+}

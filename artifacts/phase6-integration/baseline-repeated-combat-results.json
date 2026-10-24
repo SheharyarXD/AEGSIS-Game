@@ -1,0 +1,224 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.integration.baseline-reference.config.mjs",
+      "--grep",
+      "combat: a buffered",
+      "--repeat-each=2"
+    ],
+    "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\playwright.integration.baseline-reference.config.mjs",
+    "rootDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/artifacts/phase6-integration/test-results",
+        "repeatEach": 2,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/XD GAMING/Downloads/Work/Aegis-Integration-Rehearsal-20261011-124733/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results",
+        "repeatEach": 2,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests",
+        "snapshotDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests",
+        "testIgnore": [],
+        "testMatch": "browser.spec.mjs",
+        "timeout": 60000,
+        "use": {
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "baseURL": "http://127.0.0.1:5189",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/phase6-integration/baseline-repeated-combat-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "browser.spec.mjs",
+      "file": "browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "combat: a buffered three-hit combination, hit windows tied to the fist, counter, dash and clean exits",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 20281,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m95\u001b[39m\nReceived:   \u001b[31m95\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m95\u001b[39m\nReceived:   \u001b[31m95\u001b[39m\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs:247:105",
+                    "location": {
+                      "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                      "column": 105,
+                      "line": 247
+                    },
+                    "snippet": "  245 |   // in the air a strike flies in, hits, and leaves him flying or landed, never stuck\n  246 |   await setup(9);await key(page,'e');await key(page,'Space',220);await page.waitForTimeout(700);await key(page,'j');await page.waitForTimeout(120);expect((await fight()).move).toBe('air');\n> 247 |   await page.waitForTimeout(900);const air=await fight();expect(air.move).toBe(null);expect(air.health).toBeLessThan(95);expect(['HOVER','CRUISE','GROUND','LANDING','FALL']).toContain(air.state);\n      |                                                                                                         ^\n  248 |   expect(errors).toEqual([]);\n  249 | });\n  250 | test('weapons in flight and sound lifecycle: palm aims while hovering, the beam ends on what it hits, its tone starts once and stops',async({page})=>{"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                        "column": 105,
+                        "line": 247
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: < \u001b[32m95\u001b[39m\nReceived:   \u001b[31m95\u001b[39m\n\n  245 |   // in the air a strike flies in, hits, and leaves him flying or landed, never stuck\n  246 |   await setup(9);await key(page,'e');await key(page,'Space',220);await page.waitForTimeout(700);await key(page,'j');await page.waitForTimeout(120);expect((await fight()).move).toBe('air');\n> 247 |   await page.waitForTimeout(900);const air=await fight();expect(air.move).toBe(null);expect(air.health).toBeLessThan(95);expect(['HOVER','CRUISE','GROUND','LANDING','FALL']).toContain(air.state);\n      |                                                                                                         ^\n  248 |   expect(errors).toEqual([]);\n  249 | });\n  250 | test('weapons in flight and sound lifecycle: palm aims while hovering, the beam ends on what it hits, its tone starts once and stops',async({page})=>{\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs:247:105"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:18:34.131Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\browser-combat-a-buffered--d22a4-ounter-dash-and-clean-exits\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\artifacts\\phase6-integration\\test-results\\browser-combat-a-buffered--d22a4-ounter-dash-and-clean-exits\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\XD GAMING\\Downloads\\Work\\Aegis-Integration-Rehearsal-20261011-124733\\tests\\browser.spec.mjs",
+                    "column": 105,
+                    "line": 247
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-fc1758a6961d66c2694c",
+          "file": "browser.spec.mjs",
+          "line": 219,
+          "column": 1
+        },
+        {
+          "title": "combat: a buffered three-hit combination, hit windows tied to the fist, counter, dash and clean exits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20029,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-11T08:18:55.167Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aed1748819d3efb96fac-9070fede74ccf836c195",
+          "file": "browser.spec.mjs",
+          "line": 219,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-11T08:18:33.729Z",
+    "duration": 41851.311,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

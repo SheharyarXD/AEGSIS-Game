@@ -1,0 +1,125 @@
+{
+  "asset": "Godot TPS demo robot, AEGIS material/propulsion adaptation",
+  "license": "CC-BY-3.0",
+  "attribution": "All assets Copyright (c) 2018 Juan Linietsky, Fernando Miguel Calabró. Original Substance Painter materials kindly provided by GameTextures.com (upstream attribution).",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "repository": "https://github.com/godotengine/tps-demo",
+  "commit": "a82f15448e9b015440d3bbdf5e10801b260c4e9f",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player/model/player.glb",
+      "localSource": "assets-source/godot-tps/player.glb",
+      "bytes": 23844032,
+      "sha256": "16b783ec2e19245d034326d401796b9bd2635de75f4e38917854316abeee4f9c"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player/textures/player_robot_albedo.png",
+      "localSource": "assets-source/godot-tps/player_robot_albedo.png",
+      "bytes": 1127472,
+      "sha256": "1a3e77bc611c7378557a90300204107d8d7c624c765e54022699e6f1a2359b2d"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player/textures/player_robot_normal.png",
+      "localSource": "assets-source/godot-tps/player_robot_normal.png",
+      "bytes": 1429561,
+      "sha256": "aafc4ad4f93caa0f0cfc607bda0c5eee2389c89696c176cb14f48df963927465"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player/textures/player_robot_orm.png",
+      "localSource": "assets-source/godot-tps/player_robot_orm.png",
+      "bytes": 4080059,
+      "sha256": "16be14ffcf728fa4168d110c3eb7438bc28de7f15dc22757020bfccdef086a08"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/player/textures/player_robot_emissive.png",
+      "localSource": "assets-source/godot-tps/player_robot_emissive.png",
+      "bytes": 10946,
+      "sha256": "b002d15617b5dcde87f85e766221012252a25b50f27504b70798a80921c1bf25"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/godotengine/tps-demo/a82f15448e9b015440d3bbdf5e10801b260c4e9f/LICENSE.md",
+      "localSource": "public/assets/LICENSE-godot.txt",
+      "bytes": 1972,
+      "sha256": "f7bf763d4c378425b99a5abfe42f49bb03fc530e9721cc5943072becf348caff"
+    }
+  ],
+  "output": {
+    "file": "public/assets/aegis-operative.glb",
+    "bytes": 5116176,
+    "sha256": "49ccc679856d4d6950af7aa071ecb7e44b9e7d898ca19f98b5e6c6e8f448deb9"
+  },
+  "rig": {
+    "format": "glTF 2.0 skin",
+    "boneCount": 145,
+    "skinnedMeshes": 5
+  },
+  "animations": [
+    "Cannon_Charge",
+    "Cannon_Charge-cycle",
+    "flinch1",
+    "flinch2",
+    "flinch_heavy",
+    "Idle-cycle",
+    "Idlecombat-cycle",
+    "jump_1_up",
+    "jump_2_upwards-cycle",
+    "jump_3_midair-cycle",
+    "jump_4_falling-cycle",
+    "jump_5_hardlanding",
+    "lean_left-cycle",
+    "lean_right-cycle",
+    "running_nogun-cycle",
+    "walking_nogun-cycle"
+  ],
+  "textures": [
+    {
+      "name": "player_robot_albedo",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 258248,
+      "format": "image/webp"
+    },
+    {
+      "name": "player_robot_normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 112602,
+      "format": "image/webp"
+    },
+    {
+      "name": "player_robot_orm",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 573910,
+      "format": "image/webp"
+    },
+    {
+      "name": "player_robot_emissive",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 16264,
+      "format": "image/webp"
+    }
+  ],
+  "modifications": [
+    "Retained 16 gameplay animation clips; removed unused development clips from deployable derivative only.",
+    "Resampled animation keyframes with 0.00015 tolerance; deduplicated/pruned unused data.",
+    "Bundled original 2K albedo, normal, ORM, emissive maps; WebP quality 90.",
+    "Gunmetal and restrained cyan PBR material adaptation; single-sided rendering.",
+    "AEGIS runtime propulsion modules supplement original authored character."
+  ],
+  "integration": "Local GLB loaded once; SkeletonUtils clones share geometry and textures, with individual AnimationMixers and materials.",
+  "limitations": [
+    "Underlying robot silhouette is a licensed asset, not an original fully authored AEGIS hero.",
+    "No authored melee/throw/recovery/flight or modular suit-up clips. Procedural overlays and removable supplementary panels are practical fallbacks.",
+    "WebP reduces download size, not decoded GPU texture memory; no KTX2 GPU compression."
+  ]
+}

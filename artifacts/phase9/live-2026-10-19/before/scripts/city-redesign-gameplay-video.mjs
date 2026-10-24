@@ -1,0 +1,13 @@
+import {chromium} from '@playwright/test';import {mkdir,writeFile} from 'node:fs/promises';
+const stage=process.env.CITY_CAPTURE_STAGE??'after',base=process.env.AEGIS_BASE_URL??'http://127.0.0.1:5192',dir=`artifacts/city-redesign/${stage}/gameplay`;await mkdir(dir,{recursive:true});const browser=await chromium.launch({channel:'chrome',headless:true}),records=[];
+for(const [name,quality,scene] of [['low-street','LOW','street'],['medium-flight','MEDIUM','flight'],['low-night-rain','LOW','rain']]){
+ const context=await browser.newContext({viewport:{width:1280,height:720},recordVideo:{dir,size:{width:1280,height:720}}}),page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
+ await page.addInitScript(q=>localStorage.setItem('aegis-quality',q),quality);await page.goto(base+'/?qa=1');await page.waitForFunction(()=>window.__AEGIS__,null,{timeout:120000});
+ await page.evaluate(async scene=>{const q=window.__AEGIS__;q.start();q.teleport(q.player.position.clone().set(248,scene==='flight'?65:.3,-410));q.player.state=scene==='flight'?'HOVER':'GROUND';q.camera.yaw=Math.PI;q.camera.pitch=scene==='flight'?-.12:.025;q.city.setWeather(scene==='rain'?'heavy-rain':'clear',0);q.city.weather.setTime(scene==='rain'?23:16);q.city.prepareAt(q.player.position);await q.city.assets.idle();q.city.prepareAt(q.player.position);await q.city.assets.idle();},scene);
+ if(scene==='street'){await page.keyboard.press('t');await page.waitForFunction(()=>window.__AEGIS__.player.form==='pilot'&&!window.__AEGIS__.player.changingForm);}
+ await page.waitForTimeout(1600);const start=await page.evaluate(()=>window.aegisDiagnostics());await page.keyboard.down('w');await page.waitForTimeout(3000);await page.screenshot({path:`${dir}/${name}.png`});
+ if(scene==='flight')await page.keyboard.down('ShiftLeft');else if(scene==='street')await page.keyboard.down('ShiftLeft');await page.waitForTimeout(3500);await page.keyboard.up('ShiftLeft');await page.keyboard.up('w');
+ if(scene==='flight'){await page.keyboard.down('Space');await page.waitForTimeout(2500);await page.keyboard.up('Space');}
+ const finish=await page.evaluate(()=>window.aegisDiagnostics());records.push({name,quality,scene,start,finish,errors,method:'Live keyboard walking/running or flight and boost. QA is used only for initial positioning and weather; hero and HUD remain visible.'});const video=page.video();await context.close();await video.saveAs(`${dir}/${name}.webm`);console.log(name,finish.mode,finish.position);
+}
+await writeFile(dir+'/results.json',JSON.stringify(records,null,2));await browser.close();

@@ -1,0 +1,26 @@
+{
+  "source": {
+    "description": "Male character in a business suit, a static scanned model from Sketchfab",
+    "author": "Nathang30 (https://sketchfab.com/Nathang30)",
+    "url": "https://sketchfab.com/3d-models/tony-stark-86c267264a2e4903b8c2bcc1b972cb74",
+    "license": "CC-BY-NC-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "localSource": "art/aegis-hero/source/pilot-source.glb",
+    "motion": "Idle, walk and run are retargeted from the CMU Graphics Lab Motion Capture Database (BVH conversion by B. Hahne; sources in art/aegis-hero/source/mocap). The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217. Free for use in research and commercial projects."
+  },
+  "status": "PLACEHOLDER - non-commercial builds only",
+  "restrictions": [
+    "NonCommercial: must not ship in any build that earns money (ads, sales, in-app purchases).",
+    "ShareAlike: this derivative (re-faced, rigged, re-posed, re-textured at 2K) carries the same CC-BY-NC-SA 4.0 licence.",
+    "Attribution: credit the author and link the source wherever the game is distributed, and say that it was modified.",
+    "The source model depicts a third-party film character with a photographic face. The face has been changed here (see modifications), which lowers the resemblance; it does not clear it. The skin texture is still derived from the source's, the body and clothes are unchanged, and the uploader's licence never granted character or personal likeness rights. Replace with an original or properly licensed pilot before any public release."
+  ],
+  "modifications": [
+    "Scaled to 1.80 m, grounded, four meshes joined.",
+    "Face changed by art/aegis-hero/hero/pilot_face.py: beard, moustache and stubble painted out; hair and brows recoloured dark blond with synthesised strands; iris colour changed; jaw, chin, cheekbones, nose, eyes, brow, mouth, ears and haircut reshaped. The source file itself is untouched.",
+    "Fitted to the AEGIS gameplay skeleton; geometric skin weights; head weighted rigidly.",
+    "Re-posed from the source A-pose to the rig's T-pose bind pose.",
+    "Textures capped at 2K WebP."
+  ],
+  "swap": "Replace art/aegis-hero/source/pilot-source.glb, adjust the joint targets in art/aegis-hero/build_pilot.py, rebuild. The game only loads public/assets/aegis-pilot.glb."
+}

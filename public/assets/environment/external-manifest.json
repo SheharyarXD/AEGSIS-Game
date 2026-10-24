@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "name": "Asphalt 02 diff",
+      "creator": "Rob Tuytel / Poly Haven",
+      "sourceUrl": "https://polyhaven.com/a/asphalt_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_diff_1k.jpg",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "attributionRequired": false,
+      "commercialUse": true,
+      "downloadDate": "2026-10-11",
+      "originalFormat": "JPEG 1024×1024",
+      "originalBytes": 731707,
+      "optimizedFormat": "WebP 512×512",
+      "optimizedBytes": 99302,
+      "file": "asphalt-diff.webp",
+      "modifications": [
+        "Reduced to 512×512",
+        "Re-encoded WebP, quality 87",
+        "Normal remains OpenGL tangent convention"
+      ]
+    },
+    {
+      "name": "Asphalt 02 nor_gl",
+      "creator": "Rob Tuytel / Poly Haven",
+      "sourceUrl": "https://polyhaven.com/a/asphalt_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_nor_gl_1k.jpg",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "attributionRequired": false,
+      "commercialUse": true,
+      "downloadDate": "2026-10-11",
+      "originalFormat": "JPEG 1024×1024",
+      "originalBytes": 1240122,
+      "optimizedFormat": "WebP 512×512",
+      "optimizedBytes": 83514,
+      "file": "asphalt-normal.webp",
+      "modifications": [
+        "Reduced to 512×512",
+        "Re-encoded WebP, quality 87",
+        "Normal remains OpenGL tangent convention"
+      ]
+    },
+    {
+      "name": "Asphalt 02 rough",
+      "creator": "Rob Tuytel / Poly Haven",
+      "sourceUrl": "https://polyhaven.com/a/asphalt_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/asphalt_02/asphalt_02_rough_1k.jpg",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "attributionRequired": false,
+      "commercialUse": true,
+      "downloadDate": "2026-10-11",
+      "originalFormat": "JPEG 1024×1024",
+      "originalBytes": 544032,
+      "optimizedFormat": "WebP 512×512",
+      "optimizedBytes": 89244,
+      "file": "asphalt-rough.webp",
+      "modifications": [
+        "Reduced to 512×512",
+        "Re-encoded WebP, quality 87",
+        "Normal remains OpenGL tangent convention"
+      ]
+    }
+  ],
+  "noExternalModels": true
+}

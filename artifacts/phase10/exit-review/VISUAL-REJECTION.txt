@@ -1,0 +1,1 @@
+Functional traversal passed. Visual review rejected exit framing: target quaternion aliased the interpolation output, so the camera moved but did not rotate toward the building. Fixed in CinematicCamera and covered by a projection/orientation regression. Raw footage retained.

@@ -1,0 +1,2 @@
+﻿import {prepareGeometry,GeometryPayload} from './GeometryPreparation';
+self.onmessage=(event:MessageEvent<{id:number;input:GeometryPayload}>)=>{try{const result=prepareGeometry(event.data.input),buffers=result.attributes.map(a=>a.array.buffer);if(result.index)buffers.push(result.index.buffer);self.postMessage({id:event.data.id,result},{transfer:buffers});}catch(e){self.postMessage({id:event.data.id,error:String(e)});}};

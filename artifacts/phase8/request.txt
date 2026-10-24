@@ -1,0 +1,818 @@
+# AEGIS: RISE OF THE TITAN
+# PHASE 8 — TITAN DESTRUCTION, ZERO-STUTTER STREAMING & LIVING METROPOLIS
+
+## YOUR ROLE
+
+You are the Lead Engine Programmer, Technical Art Director, Destruction Systems Engineer, Open-World Designer, VFX Engineer, and Browser Performance Engineer for AEGIS: Rise of the Titan.
+
+This is a continuation of the existing AEGIS project. Inspect all current code, assets, documentation, recent Phase 7 changes, test results, and the Phase 7 Codex-to-Claude handoff before making modifications.
+
+**Implement the improvements in the existing working game, not in an unrelated prototype.**
+
+Do not replace the character, flight controls, HUD, weapons, weather, or previously working gameplay systems.
+
+Preserve existing user changes. Create verified backups before significant changes and do not commit, push, or deploy without authorization.
+
+## THE CURRENT PROBLEM
+
+The open world has improved substantially, but four serious problems remain:
+
+1. **Severe rendering freezes:** Certain areas or events cause the game to stall heavily before resuming. This is unacceptable for a browser game.
+2. **Unconvincing street environments:** Roads, sidewalks, fences, lights, intersections, and urban props still lack the density, realism, and composition of a believable metropolis.
+3. **Weak weapon impact visuals:** Laser damage does not convincingly leave glowing heated material, and missile explosions sometimes resemble simple cartoon flames or emoji-like sprites.
+4. **Underwhelming structural destruction:** Buildings do not yet fracture and collapse with the visual and gameplay impact expected from a powerful superhero.
+
+Our new goal is to deliver a living, richly detailed city with spectacular destruction, while making performance significantly better, especially on low-end laptops and the GTX 750 Ti.
+
+The ambition is informed by the environmental richness of GTA V, the dramatic architecture and atmosphere of Arkham Knight, the spectacle of Split/Second, and the structural destruction of modern physics games.
+
+Do not copy any copyrighted game assets, maps, designs, or effects. Develop an original, cohesive AEGIS visual identity.
+
+---
+
+# PART 1 — REMOVE GAME FREEZES AND STUTTER FIRST
+
+## 1.1 Perform a full performance investigation
+
+Before adding additional environmental detail or destruction features, investigate why the current game freezes when entering or rendering certain locations.
+
+Profile real gameplay scenarios, not just an idle camera.
+
+Investigate:
+
+- Asset loading and GLB decoding.
+- Meshopt / Draco decoding if used.
+- GPU texture upload stalls.
+- Shader compilation and material variants.
+- WebGL state changes and excessive draw calls.
+- CPU-side geometry generation.
+- Synchronous mesh merging or BVH generation.
+- Physics broadphase and collision mesh construction.
+- Raycast spikes.
+- Destruction activation and rigid-body spawning.
+- Reactivity of the world streaming system.
+- Garbage collection and allocation spikes.
+- VRAM pressure and GPU memory eviction.
+- Repeated initialization of building instances.
+- Texture and material disposal/recreation.
+- Rain, shadows, post-processing, and transparent VFX overdraw.
+
+Instrument the game with frame timing, GPU timing where supported, memory estimates, active collider counts, active rigid-body counts, draw calls, triangle counts, texture allocations, and world-streaming state.
+
+Collect p50, p95, p99 and worst-frame timings. Average FPS alone is not sufficient.
+
+## 1.2 Zero-stutter streaming architecture
+
+Implement a real streaming strategy appropriate for high-speed superhero flight.
+
+Required behavior:
+
+- Predict which world sectors the player is approaching using camera direction, player velocity, and current flight speed.
+- Begin asset loading before the player reaches a sector.
+- Use bounded concurrent loading with a priority queue.
+- Prioritize nearby visible buildings and upcoming collision sectors.
+- Reuse decoded assets, materials, geometries, and shared textures.
+- Avoid synchronously decoding large GLBs during active gameplay.
+- Move expensive preparation into background workers where supported and appropriate.
+- Distribute scene integration over multiple frames using explicit time budgets.
+- Avoid creating hundreds of new meshes, physics bodies, or colliders in a single frame.
+- Prewarm important shaders and common destruction/VFX materials.
+- Cache or precompute expensive collision representations.
+- Use low-detail proxy representations while higher-detail assets load.
+- Avoid destroying and rebuilding resources every time a player crosses a tile boundary.
+- Keep collision and render streaming coordinated without delaying gameplay.
+
+If texture uploads or first-time shader compilation still cause GPU stalls, identify them explicitly and implement an appropriate preloading and upload scheduling strategy.
+
+Do not simply hide a multi-second stall behind a loading animation.
+
+## 1.3 Destruction-specific performance
+
+Destruction must not introduce a major frame freeze.
+
+Precompute fracture patterns in Blender or an offline pipeline wherever possible.
+
+Never perform expensive whole-building runtime mesh booleans or fracture generation on the main thread during missile impact.
+
+Use pooled effects, prefractured modules, lightweight rigid bodies, and batched geometry.
+
+Large collapses must be spread across frames and use bounded active physics.
+
+## 1.4 Performance targets
+
+Measure these against the previous build on the same machine, resolution, quality level, and gameplay scenario.
+
+Initial targets:
+
+| Environment | Target |
+|---|---|
+| GTX 750 Ti, LOW, 720p | Aim for stable 60 FPS; avoid sustained drops below 30 FPS |
+| Low-end laptop / integrated graphics | Target playable 30 FPS using adaptive LOW settings |
+| Normal city streaming | No perceptible multi-second loading freezes |
+| Routine streaming frame spikes | Aim below 50 ms where feasible |
+| Destruction-heavy events | Recover promptly without long freezes |
+| VRAM and memory | Stay within measured hardware limits with headroom |
+
+Targets are goals, not assumed results. Report actual measurements, including failed targets and the hardware used.
+
+Make sure LOW is still visually attractive and does not remove major buildings or essential environmental detail.
+
+---
+
+# PART 2 — NEW YORK-INSPIRED STREET REALISM
+
+## 2.1 Rebuild street construction
+
+The streets should look physically plausible and carefully authored.
+
+Do not use a giant uniform asphalt plane with lane markings pasted over it.
+
+Create modular road components for:
+
+- Major avenues.
+- Two-way secondary streets.
+- One-way streets.
+- Service alleys.
+- Building access roads.
+- Loading zones.
+- Urban intersections.
+- T-junctions.
+- Four-way intersections.
+- Waterfront access roads.
+- Industrial streets.
+
+Use believable lane widths, sidewalk dimensions, turning radii, and intersection geometry. Set these using an explicit district-specific street standard.
+
+Road surfaces should have convincing asphalt roughness, subtle aggregate variation, old patches, tire wear, cracks, seams, manholes, lane paint aging, drainage paths, and physically sensible rain accumulation.
+
+All decorative road detail must be efficiently batched, atlased, instanced, or implemented using optimized material variation and decals.
+
+## 2.2 Build realistic sidewalks and curbs
+
+Every street should have proper architectural transitions from vehicle lanes to pedestrian paths.
+
+Include:
+
+- Raised concrete curbs.
+- NYC-inspired concrete sidewalk slab patterns.
+- Expansion joints.
+- Curb ramps at intersections.
+- Pedestrian crossing approaches.
+- Rounded or cut corner treatments.
+- Utility covers.
+- Sewer and drainage grates.
+- Basement ventilation grates.
+- Fire hydrants.
+- Tree pits.
+- Planters.
+- Stoop entrances.
+- Storefront threshold transitions.
+- Building setbacks.
+- Loading dock ramps.
+- Sidewalk repairs, stains, and aging.
+- Subtle height and material differences between buildings and streets.
+
+Sidewalks must align correctly with building entrances and crosswalks.
+
+Avoid floating sidewalks, terrain intersections, and curbs that block normal pedestrian movement.
+
+## 2.3 Street lighting and electrical infrastructure
+
+Implement a coherent streetlighting system.
+
+Use realistic poles, arms, fixtures, mounting heights, and spacing for different street categories.
+
+Include:
+
+- LED streetlights.
+- Older-style decorative lamps in historic districts.
+- Traffic signal poles.
+- Pedestrian crossing signals.
+- Illuminated signs.
+- Storefront signage lighting.
+- Lobby lights.
+- Parking garage lighting.
+- Industrial floodlights.
+- Bridge lighting.
+- Selected construction warning lights.
+
+Nighttime streetlights must illuminate road and sidewalk surfaces convincingly.
+
+However, do not create one expensive dynamic shadow-casting light for every lamp.
+
+Use baked illumination, emissive geometry, selectively pooled local lights, and low-cost lighting approximations based on quality level.
+
+## 2.4 Street furniture and minor details
+
+Develop district-aware collections of:
+
+- Metal fences.
+- Railings.
+- Construction fencing.
+- Security fences.
+- Protective barriers.
+- Bollards.
+- Bus stops.
+- Benches.
+- Public trash bins.
+- Dumpsters.
+- Mailboxes.
+- Utility cabinets.
+- Electrical boxes.
+- Parking meters.
+- Street-name signs.
+- Stop and traffic signs.
+- Loading-zone markings.
+- Fire department connection details.
+- Bike racks.
+- Newspaper boxes.
+- Small trees and planted areas.
+- Outdoor service equipment.
+- Construction materials.
+- Scaffolding and temporary pedestrian protections where appropriate.
+
+Props should have believable placement rules. Do not randomly scatter them.
+
+For example, hydrants belong near curbs, traffic signals belong at intersections, and loading equipment belongs beside service entrances.
+
+Small environmental props should use instancing, atlas textures, simple collision, and distance-based visibility.
+
+## 2.5 Building-to-sidewalk integration
+
+Many current buildings look like models dropped onto a flat grid.
+
+Fix this.
+
+Every important building should have a believable relationship with the street:
+
+- Lobby or main entrance.
+- Service entrance.
+- Ground-floor facade variation.
+- Storefront or blank structural wall according to building type.
+- Windows at plausible heights.
+- Entrance steps where appropriate.
+- Appropriate corner facade.
+- Parking or loading access where suitable.
+- Roof drainage and exterior utility elements.
+- Sidewalk edge detailing.
+- Consistent scale.
+
+Create a small library of reusable storefront, doorway, window and entrance modules that can visually integrate otherwise unrelated downloaded building assets.
+
+## 2.6 City variation
+
+Avoid repeating the same building six times next to itself.
+
+Introduce meaningful variation in architecture, building height, facade materials, rooftop shapes, storefronts, corner conditions, streetscape, and environmental dressing.
+
+Make each district recognizable without producing a disconnected collage of assets.
+
+The Gothic district must stop looking like a collection of detached cathedral towers placed over a gray grid. Rebuild it with complete block compositions, actual facades, walls, connected structures, believable streets, courtyards, and architectural hierarchy.
+
+Keep major landmarks visually distinct.
+
+---
+
+# PART 3 — ULTRA-REALISTIC LASER IMPACT DAMAGE
+
+## 3.1 New thermal damage system
+
+When AEGIS fires a laser at a building, the exact hit location must visibly respond.
+
+Create a localized thermal damage effect aligned to the impacted surface.
+
+Expected visual sequence:
+
+1. The beam contacts the facade.
+2. A concentrated impact flash appears.
+3. The surface becomes extremely hot at the point of contact.
+4. The center develops a bright white-yellow/orange glow.
+5. The surrounding material glows deep orange and red.
+6. Small sparks, molten fragments, and smoke emerge.
+7. The glow gradually cools from bright yellow through orange/red to dark.
+8. A persistent scorched, cracked or damaged surface remains.
+
+The result should communicate that the laser heated and damaged the building material.
+
+Do not render a generic red circle floating in front of the wall.
+
+Use surface-attached decals, damage masks, geometry-aware projection, or suitable local material modifications.
+
+Support different responses for:
+
+- Glass.
+- Steel.
+- Concrete.
+- Brick.
+- Stone.
+- Composite panels.
+
+Repeated laser hits should increase thermal damage and eventually break appropriate surfaces.
+
+## 3.2 Laser penetration
+
+Sustained laser fire should be capable of cutting a real opening through suitable facade sections.
+
+The opening should reveal darkness, interior structural elements, or prepared damaged-interior geometry rather than an obviously hollow building shell.
+
+Update relevant collision so the opening is usable.
+
+Damage must remain visible after the beam stops and persist through streaming.
+
+Avoid per-frame destructive geometry operations.
+
+---
+
+# PART 4 — MISSILE DAMAGE INCREASE AND REAL EXPLOSIONS
+
+## 4.1 Building-only damage multipliers
+
+The current missiles do not feel powerful enough against buildings.
+
+Introduce configurable building destruction multipliers:
+
+**Standard missile building damage: 3× current environmental damage.**
+
+**Heavy demolition attack: 5× current environmental damage.**
+
+Maintain separate values for:
+
+- Environmental damage.
+- Structural damage.
+- Blast radius.
+- Structural impulse.
+- Fire and smoke intensity.
+- Character/enemy damage.
+
+Do not accidentally multiply missile damage against enemies or the player unless explicitly intended.
+
+Keep these multipliers in a centralized configuration rather than hardcoded values scattered through combat code.
+
+The 5× demolition mode should be optional, with appropriate visual feedback and gameplay costs or cooldowns.
+
+## 4.2 Replace cartoon-looking explosion effects
+
+The current fire resembles a simple flame sprite or emoji-like graphic.
+
+Replace it with a layered, high-quality explosion system.
+
+Explosion stages:
+
+### Initial detonation
+A brief, very bright flash at the exact collision point, with an appropriate shock impulse.
+
+### Fireball
+An irregular, rapidly expanding fireball with shifting orange, yellow and dark regions. It must not resemble a single flat flame icon.
+
+### Material destruction
+Glass fragments, facade chips, dust, sparks and chunks appropriate to the impacted building.
+
+### Smoke expansion
+A thick initial plume expanding away from the impact surface, rising and dispersing.
+
+### Persistent burning
+Where the struck material or surrounding objects would plausibly burn, attach small localized flames and smoke emitters to the damage area.
+
+### Aftermath
+Scorching, soot, damaged material, broken geometry, and persistent structural damage.
+
+Use realistic animation timing, spatial layering, lighting, material transitions and sound design.
+
+## 4.3 Browser-optimized fire and smoke
+
+Develop one reusable, configurable VFX library for missiles, lasers, structural collapse and ongoing building fires.
+
+Prefer appropriate flipbook textures, carefully layered sprites, or GPU-instanced particles rather than hundreds of individual transparent meshes.
+
+Requirements:
+
+- Depth-aware placement.
+- Varied scale and rotation.
+- Natural opacity evolution.
+- No visibly repeating single flame graphic.
+- Wind-influenced smoke drift.
+- Material-appropriate smoke color.
+- Appropriate duration.
+- Pooled emitters and particles.
+- Controlled transparent overdraw.
+- Quality-dependent particle counts.
+- Optional heat distortion only on capable settings.
+- Limited dynamic lights.
+- Proper cleanup and persistence rules.
+
+Make fire, smoke, dust, and debris visually distinct.
+
+The destruction VFX should still look respectable on LOW quality.
+
+---
+
+# PART 5 — TITAN BREAKTHROUGH ABILITY
+
+## 5.1 New gameplay mechanic
+
+Add a special superhero ability:
+
+**TITAN BREAKTHROUGH**
+
+AEGIS can accelerate toward a building and smash through its exterior, continue through the structure, and exit the opposite side, leaving a visibly destroyed passage.
+
+This should feel powerful and cinematic, not like ordinary no-clip movement.
+
+The player must intentionally activate the ability. It must not trigger accidentally during normal flight or collisions.
+
+Use a configurable, remappable control that does not conflict with existing bindings.
+
+## 5.2 Ability activation
+
+Proposed requirements:
+
+- The player is in armored form.
+- The player is flying or boosting.
+- The player activates the breakthrough ability.
+- Minimum velocity, energy and cooldown requirements are satisfied.
+- The trajectory intersects a valid destructible structure.
+- The system verifies or prepares a feasible exit route.
+
+Use sensible gameplay feedback if the attack cannot pass through the target.
+
+## 5.3 Entry impact
+
+On building contact:
+
+- A massive impact flash and shock effect.
+- Concrete or facade fragments explode outward.
+- Glass shatters across nearby windows.
+- Structural panels break.
+- The exterior wall opens around the character's collision path.
+- Dust and fragments expand away from the entry.
+- The character maintains forward momentum.
+- Collision is updated immediately and safely.
+
+Create a passage sufficiently wide for the actual player collider, with sensible clearance.
+
+## 5.4 Movement through the building
+
+The character must visibly travel through a damaged internal corridor, not teleport from one side to the other.
+
+Where full interiors are unavailable, generate or reveal a prepared low-cost breach corridor containing:
+
+- Broken interior wall sections.
+- Structural beams and columns.
+- Floor and ceiling damage.
+- Dust clouds.
+- Hanging fragments.
+- Glass and masonry debris.
+- Interior darkness and occasional lighting.
+- Distinctive architectural damage matching the building.
+
+The corridor must be physically traversable with accurate collision.
+
+The character may continue breaking intermediate walls while boosting.
+
+Protect against high-speed tunneling through collision detection.
+
+## 5.5 Exit impact
+
+As the character reaches the opposite facade:
+
+- Break the exit wall in the direction of travel.
+- Eject fragments outward.
+- Emit a second impact flash and large dust burst.
+- Throw shattered glass and material fragments away from the exit.
+- Preserve an actual hole in the exterior.
+- Continue the flight animation smoothly.
+
+The character emerges from the building with substantial visible damage left behind.
+
+Entry and exit openings must persist.
+
+Do not create a temporary effect that instantly restores the original intact building.
+
+## 5.6 Camera, controls and animation
+
+The animation must feel dramatic but remain responsive.
+
+Improve:
+
+- Anticipation during acceleration.
+- Impact pose.
+- Armor stability while breaking through.
+- Short controlled camera shake.
+- Speed sensation.
+- Directional debris.
+- Camera collision handling.
+- Smooth entry and exit camera movement.
+- Distinct sound layers for entry, internal breaking, and exit.
+
+Never force a lengthy cinematic animation that makes the game feel unresponsive.
+
+If a full animation requires changes to Claude's character rig, avoid destructive rig edits and add compatible animation states through the existing controller.
+
+---
+
+# PART 6 — MASSIVE SKYSCRAPER DESTRUCTION
+
+## 6.1 Destruction must go beyond simple cube holes
+
+The player wants the ability to destroy a major portion of a building, including half of a skyscraper or the entire structure.
+
+Implement a material-aware, hierarchical destruction system.
+
+A building should be able to transition through:
+
+1. Intact.
+2. Locally damaged.
+3. Multiple destroyed facade sections.
+4. Major internal damage.
+5. Structural instability.
+6. Partial collapse.
+7. Large-scale or complete collapse.
+
+Do not use one crude rectangular block disappearing as the entire destruction effect.
+
+## 6.2 Prefractured geometry
+
+Prepare realistic fracture variants in Blender or the existing asset processing pipeline.
+
+Use appropriate patterns for each material:
+
+- Concrete: angular fractured slabs, chips, exposed aggregate.
+- Brick: broken masonry and mortar fragments.
+- Glass: irregular shards and panels.
+- Steel: bent or separated structural sections.
+- Stone: fractured blocks and irregular debris.
+- Composite facades: broken panels, frames and insulation.
+
+Favor reusable fragment libraries and deterministic fracture selections.
+
+Do not dynamically generate thousands of convex hulls at impact time.
+
+## 6.3 Structural integrity
+
+Represent major load-bearing elements using a lightweight connectivity or structural-support model.
+
+Destroying facade panels alone should not instantly collapse an entire skyscraper.
+
+Repeated hits against columns, load-bearing cores, transfer levels and connected supports should progressively destabilize the structure.
+
+Possible results:
+
+- Corner collapse.
+- Upper-floor collapse.
+- Facade peeling.
+- Falling roof sections.
+- Partial vertical collapse.
+- Major building shear.
+- Complete controlled collapse.
+
+The system must produce visually understandable consequences for where the player strikes.
+
+## 6.4 Massive destruction sequences
+
+Enable convincing large-scale collapse through an optimized combination of:
+
+- Prefractured structural groups.
+- Bounded dynamic physics.
+- Animated structural failure.
+- Selective rigid-body activation.
+- Falling facade sections.
+- Dust and smoke plumes.
+- Directional collapse.
+- Procedurally varied debris.
+- Persistent ruined building states.
+
+Large events must use staged activation and strict CPU/GPU budgets.
+
+Do not activate every fracture piece simultaneously.
+
+The entire world should support destructible building instances through a shared damage interface, but the physics fidelity should scale with proximity, building type, destruction level, and quality preset.
+
+## 6.5 Persistent destruction
+
+Persist:
+
+- Building damage levels.
+- Laser scorch marks.
+- Broken windows.
+- Destroyed facade sections.
+- Entry and exit openings.
+- Structural failure states.
+- Collapse states.
+- Settled rubble.
+
+When leaving a district and returning, its buildings must not magically become intact.
+
+Restore damage using saved compact state rather than keeping every remote rigid body active.
+
+---
+
+# PART 7 — INTEGRATED GAMEPLAY EXAMPLES
+
+Implement and demonstrate these exact scenarios.
+
+## Scenario A — Laser cutting a facade
+
+AEGIS hovers in front of a glass-and-steel tower and fires a continuous laser.
+
+The contact point heats, glows orange-red, produces sparks and smoke, then cools into a blackened mark.
+
+Continued firing weakens the facade until it breaks open.
+
+## Scenario B — Standard missile
+
+A missile strikes the side of a skyscraper.
+
+The impact causes a convincing blast, broken windows, localized wall failure, falling debris, and a small persistent fire with rising smoke where appropriate.
+
+Environmental damage is increased to 3× the previous setting.
+
+## Scenario C — Heavy demolition missile
+
+AEGIS activates the 5× demolition mode and fires at a structurally important building section.
+
+The larger blast damages multiple connected sections and may initiate partial collapse if structural integrity has been sufficiently weakened.
+
+Use more destruction, not merely an oversized orange explosion.
+
+## Scenario D — Titan Breakthrough
+
+AEGIS accelerates toward a mid-rise office building, activates Titan Breakthrough, crashes through the near facade, destroys intermediate structural and interior sections, and exits from the other side.
+
+The player continues flying without teleportation.
+
+Both holes remain visible and physically traversable.
+
+## Scenario E — Half-building collapse
+
+AEGIS repeatedly attacks one side of a large building.
+
+Damaged support structures cause a substantial partial collapse. Facade sections fall, dust fills the street, debris impacts the ground, and the remaining portion of the building is visibly damaged.
+
+## Scenario F — Destruction under load
+
+Trigger major building destruction during rain, with nearby city assets loaded.
+
+Measure actual frame times and ensure destruction does not cause a catastrophic freeze.
+
+---
+
+# PART 8 — EXTREME PERFORMANCE ENGINEERING
+
+This project targets low-end browser hardware as well as standard gaming PCs.
+
+Develop quality-aware budgets for:
+
+- Active rigid bodies.
+- Active colliders.
+- Falling debris.
+- Simultaneous smoke/fire emitters.
+- Transparent particle overdraw.
+- Decals and damage masks.
+- Dynamic lights.
+- Visible fractured mesh groups.
+- High-detail building instances.
+- Destruction animation processing.
+- Streaming memory and cache size.
+
+Avoid unrestricted growth of any of these systems.
+
+### Performance architecture
+
+- Reuse materials and geometries aggressively.
+- Use instancing for repeatable props and debris.
+- Separate visual meshes from collision geometry.
+- Precompute fracture pieces.
+- Limit expensive building-level collision updates.
+- Prefer simple collider replacements over arbitrary triangle-mesh rebuilding.
+- Use a time-budgeted destruction scheduler.
+- Use pooled smoke/fire systems.
+- Sleep settled physics bodies and consolidate rubble.
+- Disable distant collision detail where safely possible.
+- Use HLOD and impostor systems for distant city blocks.
+- Avoid per-frame object allocation in hot loops.
+- Ensure proper event listener, texture, mesh, and physics resource cleanup.
+- Handle rapid district crossings without repeated reloads.
+- Provide an adaptive destruction-quality setting.
+
+Do not remove the visual identity of the city just to achieve FPS.
+
+Performance improvements should come primarily from better architecture, culling, batching, preprocessing, streaming and effects budgets.
+
+---
+
+# PART 9 — IMPLEMENTATION ORDER
+
+Execute in this order.
+
+### Stage 1 — Freeze diagnosis
+Find and resolve the largest real stutter sources.
+
+Do not proceed with expensive additional features until this foundation is materially improved.
+
+### Stage 2 — One premium street block
+Create a fully polished, realistic NYC-inspired city block with sidewalks, curbs, road details, traffic lights, lamps, fences, storefronts, drainage and urban props.
+
+Measure performance.
+
+### Stage 3 — Laser heat damage
+Implement realistic surface glowing, cooling, smoke, sparks, and persistent scars.
+
+### Stage 4 — Missile impact overhaul
+Implement the new fireball, explosion, smoke, material fragments, and 3×/5× environment damage settings.
+
+### Stage 5 — Titan Breakthrough
+Implement a complete entry-to-exit destruction path through one selected test building.
+
+### Stage 6 — Structural collapse
+Implement partial and major collapse demonstrations.
+
+### Stage 7 — Citywide rollout
+Extend the proven street system and building damage architecture throughout the city, without creating performance regression.
+
+### Stage 8 — Final optimization and verification
+Profile, fix, and document the whole game under normal and destruction-heavy conditions.
+
+---
+
+# PART 10 — NON-NEGOTIABLE QUALITY TESTS
+
+Capture actual in-game screenshots, recordings and performance traces.
+
+Required demonstrations:
+
+1. Before/after street design.
+2. Realistic sidewalk and curb close-up.
+3. Full intersection with signals and road details.
+4. Nighttime streetlights and storefronts.
+5. Rainy downtown gameplay.
+6. Laser heating a building facade.
+7. Red-hot damage cooling into a permanent scorch mark.
+8. Standard 3× missile impact.
+9. Heavy 5× demolition attack.
+10. Realistic explosion and smoke.
+11. Titan Breakthrough entry impact.
+12. Camera traveling with the player through the building.
+13. Breakthrough exit impact.
+14. Persistent entrance and exit holes.
+15. Partial skyscraper collapse.
+16. Major building collapse.
+17. High-speed flight between districts without freezing.
+18. Destruction stress testing on LOW quality.
+
+For each important benchmark, include hardware, resolution, actual quality settings, p50/p95/p99 frame times, minimum/average FPS, worst stall, CPU/GPU observations when available, and memory usage.
+
+Use automated tests for collision, persistence, state transitions, asset loading, and performance regression. Visually inspect the rendered results as well.
+
+If a scene looks like a cartoon fire emoji, primitive cube explosion, or poorly aligned damage overlay, treat it as failed visual QA even if tests pass.
+
+If a scene freezes badly, treat it as failed technical QA even if average FPS looks acceptable.
+
+---
+
+# PART 11 — PRESERVATION AND SAFETY
+
+Preserve:
+
+- Existing AEGIS character and armor models.
+- Pilot mode and suit transformation.
+- Current flight and boost controls.
+- Current missile, laser and repulsor systems.
+- Current HUD.
+- Current targeting and enemy behavior.
+- Existing open-world save and streaming systems.
+- Previously acquired licensed asset sources.
+- Existing developer documentation.
+- User's uncommitted work.
+
+Do not silently replace the good Phase 7 models with procedural boxes.
+
+Do not implement an entirely new game engine.
+
+Do not claim a feature is complete based only on code presence. Verify it in real browser gameplay.
+
+Do not commit, push, deploy, or publish without permission.
+
+---
+
+# FINAL DELIVERABLES
+
+When finished, provide:
+
+- A summary of all implemented changes.
+- Root causes of the rendering freezes and how they were corrected.
+- Real before/after performance measurements.
+- Updated city street standard and asset catalog.
+- Exact implementation of the laser thermal damage system.
+- Exact missile damage multipliers.
+- Titan Breakthrough controls and demonstration.
+- Structural destruction and collapse behavior.
+- Gameplay recordings.
+- Before/after screenshots.
+- Tests and results.
+- Files changed.
+- Remaining limitations.
+- A handoff document for Claude.
+
+**Final rule: prioritize working, visually impressive gameplay over claims, prototypes, or large amounts of generated code.**
+
+Begin by inspecting the latest AEGIS project, conducting an instrumented stutter investigation, and producing the implementation plan. Then perform the actual work in stages, verifying each stage before continuing.

@@ -1,0 +1,3269 @@
+{
+  "samples": [
+    {
+      "t": 50,
+      "p": [
+        172,
+        11.000000190734863,
+        -219.96499633789062
+      ],
+      "v": [
+        0,
+        0,
+        1.0499999999999998
+      ],
+      "state": "HOVER",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 100,
+      "p": [
+        172,
+        11.000000190734863,
+        -219.87750244140625
+      ],
+      "v": [
+        0,
+        0,
+        2.0999999999999996
+      ],
+      "state": "HOVER",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 150,
+      "p": [
+        172,
+        11.000000190734863,
+        -219.7375030517578
+      ],
+      "v": [
+        0,
+        0,
+        3.1499999999999995
+      ],
+      "state": "HOVER",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 200,
+      "p": [
+        172,
+        11.000000190734863,
+        -219.5449981689453
+      ],
+      "v": [
+        0,
+        0,
+        4.199999999999999
+      ],
+      "state": "HOVER",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 250,
+      "p": [
+        172,
+        11.000000190734863,
+        -219.3000030517578
+      ],
+      "v": [
+        0,
+        0,
+        5.249999999999998
+      ],
+      "state": "HOVER",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 300,
+      "p": [
+        172,
+        11.000000190734863,
+        -219.00250244140625
+      ],
+      "v": [
+        0,
+        0,
+        6.299999999999997
+      ],
+      "state": "HOVER",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 350,
+      "p": [
+        172,
+        11.000000190734863,
+        -218.65249633789062
+      ],
+      "v": [
+        0,
+        0,
+        7.349999999999996
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 400,
+      "p": [
+        172,
+        11.000000190734863,
+        -218.25
+      ],
+      "v": [
+        0,
+        0,
+        8.399999999999995
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 450,
+      "p": [
+        172,
+        11.000000190734863,
+        -217.7949981689453
+      ],
+      "v": [
+        0,
+        0,
+        9.449999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 500,
+      "p": [
+        172,
+        11.000000190734863,
+        -217.28749084472656
+      ],
+      "v": [
+        0,
+        0,
+        10.499999999999993
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 550,
+      "p": [
+        172,
+        11.000000190734863,
+        -216.7274932861328
+      ],
+      "v": [
+        0,
+        0,
+        11.549999999999992
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 600,
+      "p": [
+        172,
+        11.000000190734863,
+        -216.114990234375
+      ],
+      "v": [
+        0,
+        0,
+        12.59999999999999
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 650,
+      "p": [
+        172,
+        11.000000190734863,
+        -215.4499969482422
+      ],
+      "v": [
+        0,
+        0,
+        13.649999999999986
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 700,
+      "p": [
+        172,
+        11.000000190734863,
+        -214.7324981689453
+      ],
+      "v": [
+        0,
+        0,
+        14.699999999999983
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 750,
+      "p": [
+        172,
+        11.000000190734863,
+        -213.96249389648438
+      ],
+      "v": [
+        0,
+        0,
+        15.74999999999998
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 800,
+      "p": [
+        172,
+        11.000000190734863,
+        -213.1404571533203
+      ],
+      "v": [
+        0,
+        0,
+        16.77882666666665
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 850,
+      "p": [
+        172,
+        11.000000190734863,
+        -212.5650177001953
+      ],
+      "v": [
+        0,
+        0,
+        17.421931965629614
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 900,
+      "p": [
+        172,
+        11.000000190734863,
+        -211.35345458984375
+      ],
+      "v": [
+        0,
+        0,
+        18.608398495464407
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 950,
+      "p": [
+        172,
+        11.000000190734863,
+        -210.39581298828125
+      ],
+      "v": [
+        0,
+        0,
+        19.417754921505367
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1000,
+      "p": [
+        172,
+        11.000000190734863,
+        -209.3998260498047
+      ],
+      "v": [
+        0,
+        0,
+        20.164074112709336
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1050,
+      "p": [
+        172,
+        11.000000190734863,
+        -208.3684844970703
+      ],
+      "v": [
+        0,
+        0,
+        20.85226576380171
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1100,
+      "p": [
+        172,
+        11.000000190734863,
+        -207.3045196533203
+      ],
+      "v": [
+        0,
+        0,
+        21.486857174842903
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1150,
+      "p": [
+        172,
+        11.000000190734863,
+        -206.2104949951172
+      ],
+      "v": [
+        0,
+        0,
+        22.072023034277596
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1200,
+      "p": [
+        172,
+        11.000000190734863,
+        -205.0887451171875
+      ],
+      "v": [
+        0,
+        0,
+        22.611612882312453
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1250,
+      "p": [
+        172,
+        11.000000190734863,
+        -203.94143676757812
+      ],
+      "v": [
+        0,
+        0,
+        23.109176435291364
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1300,
+      "p": [
+        172,
+        11.000000190734863,
+        -202.77053833007812
+      ],
+      "v": [
+        0,
+        0,
+        23.567986937665754
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1350,
+      "p": [
+        172,
+        11.000000190734863,
+        -201.97775268554688
+      ],
+      "v": [
+        0,
+        0,
+        23.853831536145922
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1400,
+      "p": [
+        172,
+        11.000000190734863,
+        -200.36520385742188
+      ],
+      "v": [
+        0,
+        0,
+        24.38118693094312
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1450,
+      "p": [
+        172,
+        11.000000190734863,
+        -199.13404846191406
+      ],
+      "v": [
+        0,
+        0,
+        24.740926094968177
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1500,
+      "p": [
+        172,
+        11.000000190734863,
+        -197.88584899902344
+      ],
+      "v": [
+        0,
+        0,
+        25.0726467477007
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1550,
+      "p": [
+        172,
+        11.000000190734863,
+        -196.62193298339844
+      ],
+      "v": [
+        0,
+        0,
+        25.378531128533993
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1600,
+      "p": [
+        172,
+        11.000000190734863,
+        -195.34352111816406
+      ],
+      "v": [
+        0,
+        0,
+        25.660591511772225
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1650,
+      "p": [
+        172,
+        11.000000190734863,
+        -194.0517578125
+      ],
+      "v": [
+        0,
+        0,
+        25.920683444468374
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1700,
+      "p": [
+        172,
+        11.000000190734863,
+        -192.74766540527344
+      ],
+      "v": [
+        0,
+        0,
+        26.160517953224897
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1750,
+      "p": [
+        172,
+        11.000000190734863,
+        -191.4322052001953
+      ],
+      "v": [
+        0,
+        0,
+        26.381672800260006
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1800,
+      "p": [
+        172,
+        11.000000190734863,
+        -190.10626220703125
+      ],
+      "v": [
+        0,
+        0,
+        26.585602862788136
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1850,
+      "p": [
+        172,
+        11.000000190734863,
+        -189.21688842773438
+      ],
+      "v": [
+        0,
+        0,
+        26.712653805475195
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1900,
+      "p": [
+        172,
+        11.000000190734863,
+        -187.4261474609375
+      ],
+      "v": [
+        0,
+        0,
+        26.947050398576252
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 1950,
+      "p": [
+        172,
+        11.000000190734863,
+        -186.07342529296875
+      ],
+      "v": [
+        0,
+        0,
+        27.10694567088104
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 2000,
+      "p": [
+        172,
+        11.000000190734863,
+        -184.71311950683594
+      ],
+      "v": [
+        0,
+        0,
+        27.25438739922756
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 2050,
+      "p": [
+        172,
+        11.000000190734863,
+        -183.3458251953125
+      ],
+      "v": [
+        0,
+        0,
+        27.390345535728137
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 2100,
+      "p": [
+        172,
+        11.000000190734863,
+        -182.43069458007812
+      ],
+      "v": [
+        0,
+        0,
+        27.47504913064804
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 2150,
+      "p": [
+        172,
+        11.000000190734863,
+        -180.59242248535156
+      ],
+      "v": [
+        0,
+        0,
+        27.631318998881454
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 2200,
+      "p": [
+        172,
+        11.000000190734863,
+        -179.207275390625
+      ],
+      "v": [
+        0,
+        0,
+        27.737919580415685
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 100,
+      "crashes": 0
+    },
+    {
+      "t": 2250,
+      "p": [
+        172,
+        11.000000190734863,
+        -178.74441528320312
+      ],
+      "v": [
+        0,
+        0,
+        27.771575058271267
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 12,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 68,
+      "crashes": 0
+    },
+    {
+      "t": 2300,
+      "p": [
+        172,
+        11.000000190734863,
+        -175.9652557373047
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.916666666666663,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 68.5833333333333,
+      "crashes": 0
+    },
+    {
+      "t": 2350,
+      "p": [
+        172,
+        11.000000190734863,
+        -174.8535919189453
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.883333333333328,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 68.81666666666662,
+      "crashes": 0
+    },
+    {
+      "t": 2400,
+      "p": [
+        172,
+        11.000000190734863,
+        -172.63026428222656
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.816666666666658,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 69.28333333333326,
+      "crashes": 0
+    },
+    {
+      "t": 2450,
+      "p": [
+        172,
+        11.000000190734863,
+        -170.9627685546875
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.766666666666655,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 69.63333333333324,
+      "crashes": 0
+    },
+    {
+      "t": 2500,
+      "p": [
+        172,
+        11.000000190734863,
+        -169.29527282714844
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.716666666666653,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 69.98333333333322,
+      "crashes": 0
+    },
+    {
+      "t": 2550,
+      "p": [
+        172,
+        11.000000190734863,
+        -167.62777709960938
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.66666666666665,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 70.3333333333332,
+      "crashes": 0
+    },
+    {
+      "t": 2600,
+      "p": [
+        172,
+        11.000000190734863,
+        -165.9602813720703
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.616666666666648,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 70.68333333333318,
+      "crashes": 0
+    },
+    {
+      "t": 2650,
+      "p": [
+        172,
+        11.000000190734863,
+        -164.29278564453125
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.566666666666645,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 71.03333333333316,
+      "crashes": 0
+    },
+    {
+      "t": 2700,
+      "p": [
+        172,
+        11.000000190734863,
+        -162.6252899169922
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.516666666666643,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 71.38333333333314,
+      "crashes": 0
+    },
+    {
+      "t": 2750,
+      "p": [
+        172,
+        11.000000190734863,
+        -160.95779418945312
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.46666666666664,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 71.73333333333312,
+      "crashes": 0
+    },
+    {
+      "t": 2800,
+      "p": [
+        172,
+        11.000000190734863,
+        -159.29029846191406
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.416666666666638,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 72.0833333333331,
+      "crashes": 0
+    },
+    {
+      "t": 2850,
+      "p": [
+        172,
+        11.000000190734863,
+        -158.1786346435547
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.383333333333303,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 72.31666666666642,
+      "crashes": 0
+    },
+    {
+      "t": 2900,
+      "p": [
+        172,
+        11.000000190734863,
+        -155.95530700683594
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.316666666666633,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 72.78333333333306,
+      "crashes": 0
+    },
+    {
+      "t": 2950,
+      "p": [
+        172,
+        11.000000190734863,
+        -154.28781127929688
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.26666666666663,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 73.13333333333304,
+      "crashes": 0
+    },
+    {
+      "t": 3000,
+      "p": [
+        172,
+        11.000000190734863,
+        -152.6203155517578
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.216666666666628,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 73.48333333333302,
+      "crashes": 0
+    },
+    {
+      "t": 3050,
+      "p": [
+        172,
+        11.000000190734863,
+        -150.95281982421875
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.166666666666625,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 73.833333333333,
+      "crashes": 0
+    },
+    {
+      "t": 3100,
+      "p": [
+        172,
+        11.000000190734863,
+        -149.84115600585938
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.13333333333329,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 74.06666666666632,
+      "crashes": 0
+    },
+    {
+      "t": 3150,
+      "p": [
+        172,
+        11.000000190734863,
+        -147.61782836914062
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.06666666666662,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 74.53333333333296,
+      "crashes": 0
+    },
+    {
+      "t": 3200,
+      "p": [
+        172,
+        11.000000190734863,
+        -145.95033264160156
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 11.016666666666618,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 74.88333333333294,
+      "crashes": 0
+    },
+    {
+      "t": 3250,
+      "p": [
+        172,
+        11.000000190734863,
+        -144.2828369140625
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.966666666666615,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 75.23333333333292,
+      "crashes": 0
+    },
+    {
+      "t": 3300,
+      "p": [
+        172,
+        11.000000190734863,
+        -142.61534118652344
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.916666666666613,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 75.5833333333329,
+      "crashes": 0
+    },
+    {
+      "t": 3350,
+      "p": [
+        172,
+        11.000000190734863,
+        -140.94784545898438
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.86666666666661,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 75.93333333333288,
+      "crashes": 0
+    },
+    {
+      "t": 3400,
+      "p": [
+        172,
+        11.000000190734863,
+        -139.2803497314453
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.816666666666608,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 76.28333333333286,
+      "crashes": 0
+    },
+    {
+      "t": 3450,
+      "p": [
+        172,
+        11.000000190734863,
+        -137.61285400390625
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.766666666666605,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 76.63333333333284,
+      "crashes": 0
+    },
+    {
+      "t": 3500,
+      "p": [
+        172,
+        11.000000190734863,
+        -136.50119018554688
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.73333333333327,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 76.86666666666616,
+      "crashes": 0
+    },
+    {
+      "t": 3550,
+      "p": [
+        172,
+        11.000000190734863,
+        -134.8336944580078
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.683333333333268,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 77.21666666666614,
+      "crashes": 0
+    },
+    {
+      "t": 3600,
+      "p": [
+        172,
+        11.000000190734863,
+        -133.16619873046875
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.633333333333265,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 77.56666666666612,
+      "crashes": 0
+    },
+    {
+      "t": 3650,
+      "p": [
+        172,
+        11.000000190734863,
+        -131.4987030029297
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.583333333333263,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 77.9166666666661,
+      "crashes": 0
+    },
+    {
+      "t": 3700,
+      "p": [
+        172,
+        11.000000190734863,
+        -129.83120727539062
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.53333333333326,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 78.26666666666608,
+      "crashes": 0
+    },
+    {
+      "t": 3750,
+      "p": [
+        172,
+        11.000000190734863,
+        -127.60787963867188
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.46666666666659,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 78.73333333333272,
+      "crashes": 0
+    },
+    {
+      "t": 3800,
+      "p": [
+        172,
+        11.000000190734863,
+        -126.4962158203125
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "approach",
+        "entries": 0,
+        "exits": 0,
+        "cooldown": 10.433333333333255,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 78.96666666666604,
+      "crashes": 0
+    },
+    {
+      "t": 3850,
+      "p": [
+        172,
+        11.000000190734863,
+        -124.82872009277344
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.383333333333253,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 79.31666666666602,
+      "crashes": 0
+    },
+    {
+      "t": 3900,
+      "p": [
+        172,
+        11.000000190734863,
+        -123.16122436523438
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.33333333333325,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 79.666666666666,
+      "crashes": 0
+    },
+    {
+      "t": 3950,
+      "p": [
+        172,
+        11.000000190734863,
+        -121.49372863769531
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.283333333333248,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 80.01666666666598,
+      "crashes": 0
+    },
+    {
+      "t": 4000,
+      "p": [
+        172,
+        11.000000190734863,
+        -119.27040100097656
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.216666666666578,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 80.48333333333262,
+      "crashes": 0
+    },
+    {
+      "t": 4050,
+      "p": [
+        172,
+        11.000000190734863,
+        -118.15873718261719
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.183333333333243,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 80.71666666666594,
+      "crashes": 0
+    },
+    {
+      "t": 4100,
+      "p": [
+        172,
+        11.000000190734863,
+        -116.49124145507812
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.13333333333324,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 81.06666666666592,
+      "crashes": 0
+    },
+    {
+      "t": 4150,
+      "p": [
+        172,
+        11.000000190734863,
+        -114.82374572753906
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.083333333333238,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 81.4166666666659,
+      "crashes": 0
+    },
+    {
+      "t": 4200,
+      "p": [
+        172,
+        11.000000190734863,
+        -112.60041809082031
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 10.016666666666568,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 81.88333333333254,
+      "crashes": 0
+    },
+    {
+      "t": 4250,
+      "p": [
+        172,
+        11.000000190734863,
+        -110.93292236328125
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.966666666666566,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 82.23333333333252,
+      "crashes": 0
+    },
+    {
+      "t": 4300,
+      "p": [
+        172,
+        11.000000190734863,
+        -109.26542663574219
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.916666666666563,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 82.5833333333325,
+      "crashes": 0
+    },
+    {
+      "t": 4350,
+      "p": [
+        172,
+        11.000000190734863,
+        -108.15376281738281
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.883333333333228,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 82.81666666666582,
+      "crashes": 0
+    },
+    {
+      "t": 4400,
+      "p": [
+        172,
+        11.000000190734863,
+        -106.48626708984375
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.833333333333226,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 83.1666666666658,
+      "crashes": 0
+    },
+    {
+      "t": 4450,
+      "p": [
+        172,
+        11.000000190734863,
+        -104.81877136230469
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.783333333333223,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 83.51666666666578,
+      "crashes": 0
+    },
+    {
+      "t": 4500,
+      "p": [
+        172,
+        11.000000190734863,
+        -103.15127563476562
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.73333333333322,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 83.86666666666576,
+      "crashes": 0
+    },
+    {
+      "t": 4550,
+      "p": [
+        172,
+        11.000000190734863,
+        -100.92794799804688
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.66666666666655,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 84.3333333333324,
+      "crashes": 0
+    },
+    {
+      "t": 4600,
+      "p": [
+        172,
+        11.000000190734863,
+        -99.8162841796875
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.633333333333216,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 84.56666666666572,
+      "crashes": 0
+    },
+    {
+      "t": 4650,
+      "p": [
+        172,
+        11.000000190734863,
+        -98.14878845214844
+      ],
+      "v": [
+        0,
+        0,
+        33.349999999999994
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "inside",
+        "entries": 1,
+        "exits": 0,
+        "cooldown": 9.583333333333213,
+        "preparing": false,
+        "building": 287
+      },
+      "energy": 84.9166666666657,
+      "crashes": 0
+    },
+    {
+      "t": 4700,
+      "p": [
+        172,
+        11.000000190734863,
+        -96.48322296142578
+      ],
+      "v": [
+        0,
+        0,
+        33.233999999999995
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.53333333333321,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 85.26666666666569,
+      "crashes": 0
+    },
+    {
+      "t": 4750,
+      "p": [
+        172,
+        11.000000190734863,
+        -94.8326187133789
+      ],
+      "v": [
+        0,
+        0,
+        32.90423224414814
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.483333333333208,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 85.61666666666567,
+      "crashes": 0
+    },
+    {
+      "t": 4800,
+      "p": [
+        172,
+        11.000000190734863,
+        -93.1976318359375
+      ],
+      "v": [
+        0,
+        0,
+        32.600148657592364
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.433333333333206,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 85.96666666666565,
+      "crashes": 0
+    },
+    {
+      "t": 4850,
+      "p": [
+        172,
+        11.000000190734863,
+        -91.57705688476562
+      ],
+      "v": [
+        0,
+        0,
+        32.319748812635524
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.383333333333203,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 86.31666666666563,
+      "crashes": 0
+    },
+    {
+      "t": 4900,
+      "p": [
+        172,
+        11.000000190734863,
+        -89.96976470947266
+      ],
+      "v": [
+        0,
+        0,
+        32.06118808615119
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.3333333333332,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 86.6666666666656,
+      "crashes": 0
+    },
+    {
+      "t": 4950,
+      "p": [
+        172,
+        11.000000190734863,
+        -88.37472534179688
+      ],
+      "v": [
+        0,
+        0,
+        31.82276552464658
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.283333333333198,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 87.01666666666559,
+      "crashes": 0
+    },
+    {
+      "t": 5000,
+      "p": [
+        172,
+        11.000000190734863,
+        -86.79098510742188
+      ],
+      "v": [
+        0,
+        0,
+        31.602912654462667
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.233333333333196,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 87.36666666666557,
+      "crashes": 0
+    },
+    {
+      "t": 5050,
+      "p": [
+        172,
+        11.000000190734863,
+        -84.69538879394531
+      ],
+      "v": [
+        0,
+        0,
+        31.336178279138938
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.166666666666526,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 87.8333333333322,
+      "crashes": 0
+    },
+    {
+      "t": 5100,
+      "p": [
+        172,
+        11.000000190734863,
+        -83.13470458984375
+      ],
+      "v": [
+        0,
+        0,
+        31.15422356294113
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.116666666666523,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 88.18333333333219,
+      "crashes": 0
+    },
+    {
+      "t": 5150,
+      "p": [
+        172,
+        11.000000190734863,
+        -82.09907531738281
+      ],
+      "v": [
+        0,
+        0,
+        31.040863531895695
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.083333333333188,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 88.4166666666655,
+      "crashes": 0
+    },
+    {
+      "t": 5200,
+      "p": [
+        172,
+        11.000000190734863,
+        -80.55237579345703
+      ],
+      "v": [
+        0,
+        0,
+        30.88190959072585
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 9.033333333333186,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 88.76666666666549,
+      "crashes": 0
+    },
+    {
+      "t": 5250,
+      "p": [
+        172,
+        11.000000190734863,
+        -78.5017318725586
+      ],
+      "v": [
+        0,
+        0,
+        30.689060253950228
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.966666666666516,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 89.23333333333213,
+      "crashes": 0
+    },
+    {
+      "t": 5300,
+      "p": [
+        172,
+        11.000000190734863,
+        -76.9717025756836
+      ],
+      "v": [
+        0,
+        0,
+        30.557506732588926
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.916666666666513,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 89.5833333333321,
+      "crashes": 0
+    },
+    {
+      "t": 5350,
+      "p": [
+        172,
+        11.000000190734863,
+        -75.9551773071289
+      ],
+      "v": [
+        0,
+        0,
+        30.475547267194024
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.883333333333178,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 89.81666666666543,
+      "crashes": 0
+    },
+    {
+      "t": 5400,
+      "p": [
+        172,
+        11.000000190734863,
+        -74.43526458740234
+      ],
+      "v": [
+        0,
+        0,
+        30.360623339240338
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.833333333333176,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 90.1666666666654,
+      "crashes": 0
+    },
+    {
+      "t": 5450,
+      "p": [
+        172,
+        11.000000190734863,
+        -72.9207992553711
+      ],
+      "v": [
+        0,
+        0,
+        30.254650333774833
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.783333333333173,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 90.51666666666539,
+      "crashes": 0
+    },
+    {
+      "t": 5500,
+      "p": [
+        172,
+        11.000000190734863,
+        -70.90925598144531
+      ],
+      "v": [
+        0,
+        0,
+        30.126079606495388
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.716666666666503,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 90.98333333333203,
+      "crashes": 0
+    },
+    {
+      "t": 5550,
+      "p": [
+        172,
+        11.000000190734863,
+        -69.40589904785156
+      ],
+      "v": [
+        0,
+        0,
+        30.038374187330405
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.6666666666665,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 91.333333333332,
+      "crashes": 0
+    },
+    {
+      "t": 5600,
+      "p": [
+        172,
+        11.000000190734863,
+        -68.40599822998047
+      ],
+      "v": [
+        0,
+        0,
+        29.983732630094877
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.633333333333166,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 91.56666666666533,
+      "crashes": 0
+    },
+    {
+      "t": 5650,
+      "p": [
+        172,
+        11.000000190734863,
+        -66.90939331054688
+      ],
+      "v": [
+        0,
+        0,
+        29.907113994812725
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.583333333333163,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 91.91666666666531,
+      "crashes": 0
+    },
+    {
+      "t": 5700,
+      "p": [
+        172,
+        11.000000190734863,
+        -65.41641235351562
+      ],
+      "v": [
+        0,
+        0,
+        29.83646285018088
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.533333333333161,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 92.26666666666529,
+      "crashes": 0
+    },
+    {
+      "t": 5750,
+      "p": [
+        172,
+        11.000000190734863,
+        -63.92677688598633
+      ],
+      "v": [
+        0,
+        0,
+        29.771314414432744
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.483333333333158,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 92.61666666666527,
+      "crashes": 0
+    },
+    {
+      "t": 5800,
+      "p": [
+        172,
+        11.000000190734863,
+        -61.94535827636719
+      ],
+      "v": [
+        0,
+        0,
+        29.69227370280565
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.416666666666488,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 93.08333333333191,
+      "crashes": 0
+    },
+    {
+      "t": 5850,
+      "p": [
+        172,
+        11.000000190734863,
+        -60.9565315246582
+      ],
+      "v": [
+        0,
+        0,
+        29.655844722178006
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.383333333333153,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 93.31666666666523,
+      "crashes": 0
+    },
+    {
+      "t": 5900,
+      "p": [
+        172,
+        11.000000190734863,
+        -59.47545623779297
+      ],
+      "v": [
+        0,
+        0,
+        29.604763843051895
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.333333333333151,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 93.66666666666521,
+      "crashes": 0
+    },
+    {
+      "t": 5950,
+      "p": [
+        172,
+        11.000000190734863,
+        -57.996803283691406
+      ],
+      "v": [
+        0,
+        0,
+        29.557661430358564
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.283333333333148,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 94.01666666666519,
+      "crashes": 0
+    },
+    {
+      "t": 6000,
+      "p": [
+        172,
+        11.000000190734863,
+        -56.520381927490234
+      ],
+      "v": [
+        0,
+        0,
+        29.514227618734925
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.233333333333146,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 94.36666666666517,
+      "crashes": 0
+    },
+    {
+      "t": 6050,
+      "p": [
+        172,
+        11.000000190734863,
+        -54.55499267578125
+      ],
+      "v": [
+        0,
+        0,
+        29.461531965493425
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.166666666666476,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 94.83333333333181,
+      "crashes": 0
+    },
+    {
+      "t": 6100,
+      "p": [
+        172,
+        11.000000190734863,
+        -53.573551177978516
+      ],
+      "v": [
+        0,
+        0,
+        29.43724512784257
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.133333333333141,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 95.06666666666513,
+      "crashes": 0
+    },
+    {
+      "t": 6150,
+      "p": [
+        172,
+        11.000000190734863,
+        -52.10283660888672
+      ],
+      "v": [
+        0,
+        0,
+        29.40319001575806
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.083333333333139,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 95.41666666666511,
+      "crashes": 0
+    },
+    {
+      "t": 6200,
+      "p": [
+        172,
+        11.000000190734863,
+        -50.14436721801758
+      ],
+      "v": [
+        0,
+        0,
+        29.36187297931982
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 8.016666666666469,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 95.88333333333175,
+      "crashes": 0
+    },
+    {
+      "t": 6250,
+      "p": [
+        172,
+        11.000000190734863,
+        -48.67721939086914
+      ],
+      "v": [
+        0,
+        0,
+        29.333688274479538
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.966666666666469,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 96.23333333333173,
+      "crashes": 0
+    },
+    {
+      "t": 6300,
+      "p": [
+        172,
+        11.000000190734863,
+        -47.21141052246094
+      ],
+      "v": [
+        0,
+        0,
+        29.30769875312167
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.916666666666469,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 96.58333333333171,
+      "crashes": 0
+    },
+    {
+      "t": 6350,
+      "p": [
+        172,
+        11.000000190734863,
+        -46.234893798828125
+      ],
+      "v": [
+        0,
+        0,
+        29.2915069609574
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.883333333333136,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 96.81666666666503,
+      "crashes": 0
+    },
+    {
+      "t": 6400,
+      "p": [
+        172,
+        11.000000190734863,
+        -44.771080017089844
+      ],
+      "v": [
+        0,
+        0,
+        29.268802757761808
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.833333333333136,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 97.16666666666501,
+      "crashes": 0
+    },
+    {
+      "t": 6450,
+      "p": [
+        172,
+        11.000000190734863,
+        -43.30834197998047
+      ],
+      "v": [
+        0,
+        0,
+        29.247866885727344
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.783333333333136,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 97.51666666666499,
+      "crashes": 0
+    },
+    {
+      "t": 6500,
+      "p": [
+        172,
+        11.000000190734863,
+        -41.846595764160156
+      ],
+      "v": [
+        0,
+        0,
+        29.22856161726813
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.733333333333136,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 97.86666666666497,
+      "crashes": 0
+    },
+    {
+      "t": 6550,
+      "p": [
+        172,
+        11.000000190734863,
+        -40.385765075683594
+      ],
+      "v": [
+        0,
+        0,
+        29.210759951798032
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.683333333333136,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 98.21666666666495,
+      "crashes": 0
+    },
+    {
+      "t": 6600,
+      "p": [
+        172,
+        11.000000190734863,
+        -38.92578125
+      ],
+      "v": [
+        0,
+        0,
+        29.19434478025153
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.633333333333137,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 98.56666666666493,
+      "crashes": 0
+    },
+    {
+      "t": 6650,
+      "p": [
+        172,
+        11.000000190734863,
+        -36.9803352355957
+      ],
+      "v": [
+        0,
+        0,
+        29.17442923161837
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.56666666666647,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 99.03333333333157,
+      "crashes": 0
+    },
+    {
+      "t": 6700,
+      "p": [
+        172,
+        11.000000190734863,
+        -35.52206802368164
+      ],
+      "v": [
+        0,
+        0,
+        29.16084370108796
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.51666666666647,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 99.38333333333155,
+      "crashes": 0
+    },
+    {
+      "t": 6750,
+      "p": [
+        172,
+        11.000000190734863,
+        -34.06444549560547
+      ],
+      "v": [
+        0,
+        0,
+        29.148316288156764
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.4666666666664705,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 99.73333333333153,
+      "crashes": 0
+    },
+    {
+      "t": 6800,
+      "p": [
+        172.01556396484375,
+        10.873861503601074,
+        -34.229685829162094
+      ],
+      "v": [
+        1.0598239025831724,
+        -0.0007602976862272625,
+        -29.105771260363056
+      ],
+      "state": "CRUISE",
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "cooldown": 7.416666666666471,
+        "preparing": false,
+        "building": null
+      },
+      "energy": 99.84999999999819,
+      "crashes": 1
+    }
+  ],
+  "errors": []
+}

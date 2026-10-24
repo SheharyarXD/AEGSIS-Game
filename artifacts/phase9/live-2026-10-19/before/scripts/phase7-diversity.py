@@ -1,0 +1,10 @@
+from pathlib import Path
+import json,hashlib,struct,collections
+ROOT=Path(__file__).resolve().parents[1];layout=json.loads((ROOT/'art/environment/phase7/city-layout.json').read_text());catalog=json.loads((ROOT/'public/assets/environment/premium/city/runtime-components.json').read_text());families={f['id']:f for f in catalog['families']};districts={}
+for district in ['financial','gothic','industrial','commercial','residential']:
+ buildings=[b for b in layout['buildings'] if b['district']==district];distribution=collections.Counter(b['family'] for b in buildings);details=[]
+ for id,count in distribution.items():
+  folder='provided' if id.startswith('aer_') else 'city';p=ROOT/'public/assets/environment/premium'/folder/(id+'-near-optimized.glb');raw=p.read_bytes();size,typ=struct.unpack_from('<II',raw,12);d=json.loads(raw[20:20+size]);details.append({'family':id,'sourceFile':families[id]['source'],'placements':count,'canonicalDimensions':[families[id]['width'],families[id]['height'],families[id]['depth']],'materialPalette':[m['name'] for m in d['materials']],'geometryFile':str(p.relative_to(ROOT)).replace('\\','/'),'sha256':hashlib.sha256(raw).hexdigest(),'roof':'Original source roof geometry preserved','facade':'Original source UVs, surface geometry and material palette'})
+ districts[district]={'placements':len(buildings),'distinctFamilies':len(distribution),'mostRepeated':distribution.most_common(1)[0],'frequencyDistribution':dict(distribution),'families':details}
+report={'worldSize':[2048,2048],'placements':len(layout['buildings']),'authoredLayout':'art/environment/phase7/city-layout.json','districts':districts,'geometryMethod':'Source model selection and uniform city scaling; protected deployment lots are fitted to their original volumes. Family IDs refer to actual distinct supplied models, not random primitive parameters.'}
+(ROOT/'artifacts/phase7/diversity-audit.json').write_text(json.dumps(report,indent=2));print([(k,d['placements'],d['distinctFamilies']) for k,d in districts.items()])

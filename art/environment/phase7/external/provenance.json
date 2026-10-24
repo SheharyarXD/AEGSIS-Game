@@ -1,0 +1,543 @@
+[
+  {
+    "asset": "modular_urban_apartments_facade",
+    "name": "Modular Urban Apartments Facade",
+    "creators": {
+      "James Ray Cock": "All"
+    },
+    "source": "https://polyhaven.com/a/modular_urban_apartments_facade",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "downloadedAt": "2026-10-11T12:14:09.063502+00:00",
+    "originalFormats": [
+      "glTF + binary buffers + 1K maps",
+      "Blender source geometry (maps from glTF download)"
+    ],
+    "files": [
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/modular_urban_apartments_facade.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_1k.gltf",
+        "originalBytes": 270799,
+        "md5Verified": "81f4252c7816d0e93149c1ca814134ff",
+        "sha256": "1a5a17dffd27fb9e1236dea7e51c4e0393a9d88ed0885a0621e67a37f80b27eb"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_plaster_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_plaster_arm_1k.jpg",
+        "originalBytes": 533411,
+        "md5Verified": "4c5089bcf37a8dffce54b08dbbd18277",
+        "sha256": "71c2ab6cfe97411f0111e99658b88cd22946abc96a3ed67051e06dab8dde5cb8"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_plaster_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_plaster_nor_gl_1k.jpg",
+        "originalBytes": 1003277,
+        "md5Verified": "17cd57b1af85612484e1d5c04f3ae98c",
+        "sha256": "79cebca9b98dcb62efc5474a2d236c98a34b7260b58a65db24e501acf60de66c"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_objects_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_nor_gl_1k.jpg",
+        "originalBytes": 544638,
+        "md5Verified": "e946b86448a627db9d7672a6d2cd3430",
+        "sha256": "e5bac0355cbacb09d4400398f7e5f159624fb0519d5c007b639da75e59137030"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_objects_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_diff_1k.jpg",
+        "originalBytes": 576336,
+        "md5Verified": "f37a2e4d64b5d31e35c95b96f1346472",
+        "sha256": "038083f96e63d92e6a30685f1a7f5b5b01a6448118dfecd6ed364d31088db7df"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_trim_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_01_diff_1k.jpg",
+        "originalBytes": 553769,
+        "md5Verified": "065bcc1f7e4e9bb0cd79573f7cd6b5f3",
+        "sha256": "62510c9e167363da1ff101b03d0c7705c74cb0e20bb02fc7bc0596f9da26ac8c"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_trim_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_01_arm_1k.jpg",
+        "originalBytes": 651756,
+        "md5Verified": "4275d3cc004e0475c2ab0b8fcdac88d6",
+        "sha256": "b3fe0aa9389d827afa4a29e15842209a6d8dadb86eca9a0b462c2c9fe4f58987"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg",
+        "originalBytes": 820776,
+        "md5Verified": "613735836878414de4b3b1a8d07d53b9",
+        "sha256": "8a87d143725ec32951061b55935ffcef426755b0d11236d93e8b18cf94612498"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg",
+        "originalBytes": 850037,
+        "md5Verified": "a9b1ec2e41fa1b3e2c857109ced93963",
+        "sha256": "65cf274a67914590329b67eb6d926377d5aa45fa326afb91caa8781a30c99160"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_objects_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_arm_1k.jpg",
+        "originalBytes": 790231,
+        "md5Verified": "0e4c15b0cea8d5ffec1fef80f3398736",
+        "sha256": "16c23388d22461b5fc8f2a879e5549bc1591d99e0da4f0c057fe2a49c458da38"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_trim_02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_02_diff_1k.jpg",
+        "originalBytes": 499399,
+        "md5Verified": "6541ee4a6a9877338a54e70834ee620e",
+        "sha256": "10097392fa107eb3723fff229f1f9522dedd2f91e4bdc3eaac884325d42ddf8e"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/modular_urban_apartments_facade.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_urban_apartments_facade/modular_urban_apartments_facade.bin",
+        "originalBytes": 8168772,
+        "md5Verified": "e54b1de59041da0f44db64efb8bda8f6",
+        "sha256": "f041e71b6bd31864f20dd64d3a82519454a603c300686161e0349ff44f838bf2"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_trim_02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_02_arm_1k.jpg",
+        "originalBytes": 706292,
+        "md5Verified": "b99d29cde37713e4cc19d65c7a13cf63",
+        "sha256": "45a49a17b19b7d579237ec343b56ebee79ce1b06cb9d1179af8609d64ee1c27f"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/textures/modular_urban_apartments_facade_plaster_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_plaster_diff_1k.jpg",
+        "originalBytes": 519200,
+        "md5Verified": "04dc48f9569357117f07dcd811dffe99",
+        "sha256": "aac6cb79d9a3f73ad360077a439e1b81b1e919d6ace658a27225b20858bcad3c"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_urban_apartments_facade/modular_urban_apartments_facade.blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_1k.blend",
+        "originalBytes": 1599439,
+        "md5Verified": "b96087f62fe03224993e4a8d52ea864b",
+        "sha256": "f8cfe8858d3acbb3d99bd9974bd5b4bbdac04c8d947918ba21ec15f5d05bba64"
+      }
+    ],
+    "conversion": "Pending Blender normalization/LOD export and shared PBR preparation"
+  },
+  {
+    "asset": "modular_factory_facade",
+    "name": "Modular Factory Facade",
+    "creators": {
+      "James Ray Cock": "All"
+    },
+    "source": "https://polyhaven.com/a/modular_factory_facade",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "downloadedAt": "2026-10-11T12:14:57.467438+00:00",
+    "originalFormats": [
+      "glTF + binary buffers + 1K maps",
+      "Blender source geometry (maps from glTF download)"
+    ],
+    "files": [
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/modular_factory_facade.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_factory_facade/modular_factory_facade_1k.gltf",
+        "originalBytes": 372666,
+        "md5Verified": "0633b294fcc02eac73cfd7be32ab5dce",
+        "sha256": "41ff58b722f9cb3e9db8bcacae3163946603ae99a1d42bb6f9045d7c4ec0f179"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_brick_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_brick_diff_1k.jpg",
+        "originalBytes": 1115986,
+        "md5Verified": "4feceecc0de80a7a918da3d978a3ce43",
+        "sha256": "852b01c61efc07fd8e60e59767657ef51112bf65f5eaf184f02c27ea5170582d"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_doors_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_doors_diff_1k.jpg",
+        "originalBytes": 570733,
+        "md5Verified": "5bce81bcd8fc898b944c4b093d52ba7c",
+        "sha256": "157b59b9d1c929e51e2747f4f9481389743acba539308cecbb98c17294b6c7e1"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_trim_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_trim_01_arm_1k.jpg",
+        "originalBytes": 733418,
+        "md5Verified": "0d491794ea39a9a7afeb03b559102e9a",
+        "sha256": "0ab1657c75a9b5beb3d5552adfafccdd5174c391f20ccd6c0b41939c1a8bfe3f"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_doors_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_doors_arm_1k.jpg",
+        "originalBytes": 723782,
+        "md5Verified": "d4b8f00519d2e7ddf58fa44153844c44",
+        "sha256": "794b16de5bd2aae6431fd8aee7b10b3b1095bbe89b233a158a1e031e0a27c4e3"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_trim_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_trim_01_diff_1k.jpg",
+        "originalBytes": 617348,
+        "md5Verified": "c7a15377b393f037443e3d7887a29774",
+        "sha256": "beff49832938c5493a4b5bbb82eeabd138c29c6523e5228e006f702859bbc87f"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_windows_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_windows_arm_1k.jpg",
+        "originalBytes": 873236,
+        "md5Verified": "a151ecff61bb35d2ad79ac9d185ddfae",
+        "sha256": "7bfc0d579188dd88bb2d8962ae81402e6ccabff244709e68ba3be4cc5d500d0d"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_garage_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_garage_nor_gl_1k.jpg",
+        "originalBytes": 752068,
+        "md5Verified": "8633fc5d96f268b36a16a7f081270a81",
+        "sha256": "e8ac6265622fb8c8df454ae02a75746bc37ded0d4533dbe65fa275d0e40f28ba"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_windows_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_windows_nor_gl_1k.jpg",
+        "originalBytes": 612643,
+        "md5Verified": "0840bdc3c5b917607cb7c08816e34618",
+        "sha256": "4dc9e4a6b97d5384849faeebca87eae9f6736664971c6c10a41fc19bd01fc106"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_trim_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_trim_01_nor_gl_1k.jpg",
+        "originalBytes": 827556,
+        "md5Verified": "afc86cc035a9547145dac6033560f62d",
+        "sha256": "05441cf545c9d5f6786cd191e9b3b627668b1176e155d1fae7fbe28f6a8d3802"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_garage_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_garage_diff_1k.jpg",
+        "originalBytes": 588149,
+        "md5Verified": "792087136344341d1f7e9d84ea7c7ed4",
+        "sha256": "d1cf6239c7364900b02279600937a4c9bf0a21d315efabf18f16d5637020e39f"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_brick_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_brick_arm_1k.jpg",
+        "originalBytes": 726245,
+        "md5Verified": "06461ea382b58db6fd761fc934583bcb",
+        "sha256": "322cba4e6b03e39fa2a57335deddfbda6d819f8b29b108b9000790ded99b0d95"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_brick_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_brick_nor_gl_1k.jpg",
+        "originalBytes": 1052229,
+        "md5Verified": "83e7a81d1c675db96b7cdfb2d0ff7cfe",
+        "sha256": "1168796e949c5ce3957142e86bce1d09531466aaea90dc46cbc3f3225cbdd78e"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_doors_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_doors_nor_gl_1k.jpg",
+        "originalBytes": 488916,
+        "md5Verified": "b111ecd5d50f7444569e3af33f351ad1",
+        "sha256": "1e3bdff6d4b30cb26e901d6d14e42d398aeacfb46767900404eb38ec5ba016dc"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_windows_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_windows_diff_1k.jpg",
+        "originalBytes": 619613,
+        "md5Verified": "6017facba3275e6d0903fea05834f9df",
+        "sha256": "d361dacbd23095dacf1d82eb5a509a305c44b007f8adfb221dc2e5efe56180e0"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/modular_factory_facade.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_factory_facade/modular_factory_facade.bin",
+        "originalBytes": 6269260,
+        "md5Verified": "225eee006759007851584344b0b22847",
+        "sha256": "12702fb065a838695e0621e1aac3947af92d32c439fb965c8b0563ad691fed70"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/textures/modular_factory_facade_garage_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_factory_facade/modular_factory_facade_garage_arm_1k.jpg",
+        "originalBytes": 682331,
+        "md5Verified": "4949c0a6096a8f9ba3017239f1a4249f",
+        "sha256": "a72cfa9020a0a7aad2476b2ceb3c60dc21ac69d4e9026dcddc82710e6784b40f"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_factory_facade/modular_factory_facade.blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_factory_facade/modular_factory_facade_1k.blend",
+        "originalBytes": 2457480,
+        "md5Verified": "dd6763bf48a5558e51c2ed9855a2cc93",
+        "sha256": "7f4eaef1a85d87c90191c1e26ecc85d17bc634b656f7ee233e217efe55a8fa90"
+      }
+    ],
+    "conversion": "Pending Blender normalization/LOD export and shared PBR preparation"
+  },
+  {
+    "asset": "exterior_aircon_unit",
+    "name": "Exterior Aircon Unit",
+    "creators": {
+      "Monsta3D": "All"
+    },
+    "source": "https://polyhaven.com/a/exterior_aircon_unit",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "downloadedAt": "2026-10-11T12:15:30.103554+00:00",
+    "originalFormats": [
+      "glTF + binary buffers + 1K maps",
+      "Blender source geometry (maps from glTF download)"
+    ],
+    "files": [
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/exterior_aircon_unit.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/exterior_aircon_unit/exterior_aircon_unit_1k.gltf",
+        "originalBytes": 9634,
+        "md5Verified": "10beccfb1bf0c973a0729be8970532a9",
+        "sha256": "f19d85c76948903047c2846068aeaa376d5e956a410675268cb6cb6aac5d97c2"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_nor_gl_1k.jpg",
+        "originalBytes": 472088,
+        "md5Verified": "244025f2008cbdc8c8680f0c962ed26f",
+        "sha256": "e5a6f3c135b942d6efe62a24496c575d03f6a4316188efe65079035d7faf1c38"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_01_opacity_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_opacity_1k.jpg",
+        "originalBytes": 333675,
+        "md5Verified": "f253dbcb057612371dd1b6d37095c6ba",
+        "sha256": "c19feb434c2b01923fbb3e16ace3aa6d9cb16b05c2a5c479ad237759b2d331d6"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_rusted_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_arm_1k.jpg",
+        "originalBytes": 673246,
+        "md5Verified": "f1c2653ac0fb58e8641f9076a2af8a67",
+        "sha256": "51c103926b118bf00b902826001db802b15755c6eefa12b00afa24c60d7b341b"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_arm_1k.jpg",
+        "originalBytes": 651293,
+        "md5Verified": "9af3805e7371643962ffe6079d547b00",
+        "sha256": "14671920f716691dc3b8940432f7aba5c469e3b466441ff8ad500de92d3178fb"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_02_arm_1k.jpg",
+        "originalBytes": 484026,
+        "md5Verified": "98b44ba240f832fe4fa94e90d1887c6a",
+        "sha256": "1cdfa2d1c938c3af61a5f06510b0d94aeddddd4bdc1832008b3826240dd1535d"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_rusted_02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_arm_1k.jpg",
+        "originalBytes": 605557,
+        "md5Verified": "6e2bee1569b55a3b01d18799e942a6af",
+        "sha256": "6ac4cfca6a8d8bec6ef1ff756652eb1f36b780d1ff7d70d9cb3e0f7fe1faf271"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/exterior_aircon_unit.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/exterior_aircon_unit/exterior_aircon_unit.bin",
+        "originalBytes": 494784,
+        "md5Verified": "971c2cfcbc29256d7872eafe74352279",
+        "sha256": "b4b9ad082bdaa8f8b437bc14d9981caeaf318334499d4bf65d616fb2ec0c5ca8"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_02_nor_gl_1k.jpg",
+        "originalBytes": 942230,
+        "md5Verified": "e00f9c963e9f3dc798d84f7ebcc4185a",
+        "sha256": "864c0fb1e55aff910d826a8c1f6a2ad459f7db0124b5846445d466cabf0cadf5"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_nor_gl_1k.jpg",
+        "originalBytes": 583620,
+        "md5Verified": "5b9df77429c9010ea389aef30fd7d460",
+        "sha256": "14f105cda9172290be2e8b23b8e895099b65e222619850af3b13105901d922e2"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_rusted_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_01_diff_1k.jpg",
+        "originalBytes": 606076,
+        "md5Verified": "7b9fba8819918dc388c49f05b5522575",
+        "sha256": "a8771db98ed7f3d46ce48fd70867f58a74a2530666c339f8dcc14f3e5de86d0b"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_01_diff_1k.jpg",
+        "originalBytes": 506664,
+        "md5Verified": "81003ea4afe59ed4dac090791e41f562",
+        "sha256": "2ae5005b4836d2c91d1e712d9acf425c7dcc4973b7c0fc6f23da9afaa6381da6"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_rusted_02_opacity_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_opacity_1k.jpg",
+        "originalBytes": 357558,
+        "md5Verified": "0540ff18330b76e4e55053d5bd21f59e",
+        "sha256": "a86bcaf9c4858cf250fd67c9a0ee362504454b9972ff6e1ac44e38bac3213421"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/textures/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/exterior_aircon_unit/exterior_aircon_unit_rusted_02_nor_gl_1k.jpg",
+        "originalBytes": 947477,
+        "md5Verified": "53f4890e3c9b9fb2efcd96f3143f579b",
+        "sha256": "3af4716b42812b742577594c7a0a342accd79925f02037c152b1da1c5831bb78"
+      },
+      {
+        "path": "art/environment/phase7/external/exterior_aircon_unit/exterior_aircon_unit.blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/exterior_aircon_unit/exterior_aircon_unit_1k.blend",
+        "originalBytes": 393828,
+        "md5Verified": "2cb142e9989e47e147c6649f9ca535b9",
+        "sha256": "6dde5d61e91d3a1fbc5a8d64dedf02f4cba310be51d7e146171798b9f118559b"
+      }
+    ],
+    "conversion": "Pending Blender normalization/LOD export and shared PBR preparation"
+  },
+  {
+    "asset": "modular_fire_escape",
+    "name": "Modular Fire Escape",
+    "creators": {
+      "Juniix": "All"
+    },
+    "source": "https://polyhaven.com/a/modular_fire_escape",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "downloadedAt": "2026-10-11T12:15:54.142322+00:00",
+    "originalFormats": [
+      "glTF + binary buffers + 1K maps",
+      "Blender source geometry (maps from glTF download)"
+    ],
+    "files": [
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/modular_fire_escape.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_fire_escape/modular_fire_escape_1k.gltf",
+        "originalBytes": 13672,
+        "md5Verified": "498464ece6337d8a5fad13b2c52b9a8f",
+        "sha256": "3a28e24cf2b6fc32c86f4fd378a372f9c3babfb9c2206036c6276d5bb47df2fd"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/textures/modular_fire_escape_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_01_arm_1k.jpg",
+        "originalBytes": 711858,
+        "md5Verified": "db6c25c26dbbd9d1d3aa35b12cd13fe2",
+        "sha256": "ca4ada942209b9b880b180f0646e1bf7c86f46b7599b12ff56b4ef6ad533c44d"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/textures/modular_fire_escape_02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_02_nor_gl_1k.jpg",
+        "originalBytes": 939689,
+        "md5Verified": "573666c02d0db273726be7d48b94d32c",
+        "sha256": "d9024407844f8baf514d005354ea4a729aff3659753e36cbab92fb09d0df3565"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/textures/modular_fire_escape_02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_02_arm_1k.jpg",
+        "originalBytes": 732941,
+        "md5Verified": "049d55eebf33b1070d189f35e4efaabd",
+        "sha256": "b4b65ebcd05e6c4502240a46eebd6535e9f83c0c65e0baaebaf25dae207c7c95"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/modular_fire_escape.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_fire_escape/modular_fire_escape.bin",
+        "originalBytes": 515356,
+        "md5Verified": "2aec399d6248cb657cd26eaee303e778",
+        "sha256": "5173033f47b33cbfe47fb38fb18ad99e6d78070ab7e1faf6fcc5a002afe98728"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/textures/modular_fire_escape_02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_02_diff_1k.jpg",
+        "originalBytes": 615280,
+        "md5Verified": "41d01ed76f372f9671d4bee951c740f7",
+        "sha256": "9e969f5912b61aee6a6aa6dac3d98a4be3a4c92bf3b8f71e80fedc068493aa18"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/textures/modular_fire_escape_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_01_diff_1k.jpg",
+        "originalBytes": 591379,
+        "md5Verified": "b84d59c223b8eae20a322f45304b4096",
+        "sha256": "50b15363269bee95c4c4aeb54a4a4df31a3e52680877fe286259c92885c17b74"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/textures/modular_fire_escape_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_fire_escape/modular_fire_escape_01_nor_gl_1k.jpg",
+        "originalBytes": 685951,
+        "md5Verified": "84dc137a2781b2b3e8b6287e20cd70a6",
+        "sha256": "2db2bfc1d9d487cec32f68a846883ded440a1d10a328d81d8dcc522be45e7734"
+      },
+      {
+        "path": "art/environment/phase7/external/modular_fire_escape/modular_fire_escape.blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_fire_escape/modular_fire_escape_1k.blend",
+        "originalBytes": 393477,
+        "md5Verified": "7c1e38171ff7b6fab1aee42760afa3dc",
+        "sha256": "5c4435667e861a8c9550d07dec6dcb7086154ca4373eb598a10ef28707361b6b"
+      }
+    ],
+    "conversion": "Pending Blender normalization/LOD export and shared PBR preparation"
+  },
+  {
+    "asset": "street_lamp_02",
+    "name": "Street Lamp 02",
+    "creators": {
+      "Josh Dean": "All"
+    },
+    "source": "https://polyhaven.com/a/street_lamp_02",
+    "license": "CC0-1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "downloadedAt": "2026-10-11T12:16:05.213260+00:00",
+    "originalFormats": [
+      "glTF + binary buffers + 1K maps",
+      "Blender source geometry (maps from glTF download)"
+    ],
+    "files": [
+      {
+        "path": "art/environment/phase7/external/street_lamp_02/street_lamp_02.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/street_lamp_02/street_lamp_02_1k.gltf",
+        "originalBytes": 6429,
+        "md5Verified": "94023fbd7e6392d9276d91ca36c00144",
+        "sha256": "3a8a42486c5dc4538a8b44aeeef502c64a1c9d0d42fa5610e37886c355337ff8"
+      },
+      {
+        "path": "art/environment/phase7/external/street_lamp_02/textures/street_lamp_02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/street_lamp_02/street_lamp_02_diff_1k.jpg",
+        "originalBytes": 303714,
+        "md5Verified": "381097a4c700b86b1c8f7e0d115b1a0a",
+        "sha256": "19882567313dd43fef60f9fa41a4c55f81a957f9fee539e931fc36a32e386b6c"
+      },
+      {
+        "path": "art/environment/phase7/external/street_lamp_02/textures/street_lamp_02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/street_lamp_02/street_lamp_02_arm_1k.jpg",
+        "originalBytes": 657710,
+        "md5Verified": "d4d49b0153762ebe5ccde8e87af87dd5",
+        "sha256": "a1e2d654e7d5d48a1fdfbf720840192d171df54e5ea5f055145d0472d617eede"
+      },
+      {
+        "path": "art/environment/phase7/external/street_lamp_02/street_lamp_02.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/street_lamp_02/street_lamp_02.bin",
+        "originalBytes": 530092,
+        "md5Verified": "5c89269a65d65cdb33d018012f003ef7",
+        "sha256": "e544c04855dcf728ff2724f691f6784690b8ba3ac323a9a332e56b271ffe1d7c"
+      },
+      {
+        "path": "art/environment/phase7/external/street_lamp_02/textures/street_lamp_02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/street_lamp_02/street_lamp_02_nor_gl_1k.jpg",
+        "originalBytes": 372301,
+        "md5Verified": "39389c9a5c2c467ea559ac3ad3a03218",
+        "sha256": "fdd9fb26ca853020ed156fdd84e90ce3f9a68bf94edf71c0ffe72add67e316c6"
+      },
+      {
+        "path": "art/environment/phase7/external/street_lamp_02/street_lamp_02.blend",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/street_lamp_02/street_lamp_02_1k.blend",
+        "originalBytes": 562338,
+        "md5Verified": "19dd123f2725666718edcf39eb614823",
+        "sha256": "b8641f80ccf4fba5d9625b6eb9b5efe5483354abebc7490bf6c77bdd91e7c713"
+      }
+    ],
+    "conversion": "Pending Blender normalization/LOD export and shared PBR preparation"
+  }
+]

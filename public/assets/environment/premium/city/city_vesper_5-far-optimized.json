@@ -1,0 +1,7 @@
+{
+  "input": "public/assets/environment/premium/city/city_vesper_5-far.glb",
+  "output": "public/assets/environment/premium/city/city_vesper_5-far-optimized.glb",
+  "sourceBytes": 1674100,
+  "runtimeBytes": 806856,
+  "meshes": 142
+}

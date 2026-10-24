@@ -1,0 +1,2 @@
+{"scenario":"demolition","quality":"MEDIUM","passed":true,"fps":79.81031490202118,"p95":20.899999999997817,"p99":34.599999999998545,"worst":55.60000000000218}
+{"scenario":"overlap","quality":"MEDIUM","failure":"page.waitForFunction: Timeout 22000ms exceeded."}

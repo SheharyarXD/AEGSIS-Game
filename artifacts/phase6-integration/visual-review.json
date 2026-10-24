@@ -1,0 +1,26 @@
+{
+  "reviewed": true,
+  "actualMainRecordings": 11,
+  "decodedFramesReviewed": 33,
+  "stillsReviewed": [
+    "perf-low-downtown-clear.png",
+    "pilot-city-street.png",
+    "transformation-midway.png",
+    "armored-high-altitude.png",
+    "05-rooftop-impact-landing.png",
+    "armored-rooftop-landing.png",
+    "night-storm.png",
+    "laser-building-impact.png",
+    "sunset.png"
+  ],
+  "findings": [
+    "Current hero and pilot assets present; no old robot player replacement",
+    "Part-by-part assembly visible",
+    "367 m climb and central rooftop landing visible",
+    "World geometry and persistent collision align in recorded cases",
+    "Weapon beam and impact positions meet world surfaces",
+    "Current HUD remains visible in rain/night",
+    "Modular repetition and coarse distant terrain remain visible"
+  ],
+  "audioReview": "Running browser audio graphs and automated cue/lifecycle checks; WebM recordings are video-only"
+}

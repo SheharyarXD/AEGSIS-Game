@@ -1,0 +1,8 @@
+{
+  "source": {
+    "design": "Original AEGIS armour authored for this project (art/aegis-hero): signed-distance hard-surface modelling, meshed and baked in Blender 4.5.",
+    "rig": "Skeleton and 16 animation clips from the Godot TPS demo robot (CC-BY-3.0, Juan Linietsky, Fernando Miguel Calabro), re-proportioned to a 185 cm human. See public/assets/asset-manifest.json and LICENSE-godot.txt.",
+    "sourceFile": "art/aegis-hero/aegis-hero.blend",
+    "motion": "Idle, walk and run are retargeted from the CMU Graphics Lab Motion Capture Database (BVH conversion by B. Hahne; sources in art/aegis-hero/source/mocap). The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217. Free for use in research and commercial projects."
+  }
+}

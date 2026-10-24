@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-19T04:25:13.060Z",
+  "passed": true,
+  "links": 263,
+  "missing": [],
+  "images": 75,
+  "videos": [
+    {
+      "src": "acceptance/ground/videos/page@169ff1c0c25dd4125bf69966d9a7112b.webm",
+      "duration": 28.16,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/hover/videos/page@2723253ce83b6ebd45be9d494691984b.webm",
+      "duration": 27.36,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/roof/videos/page@31893c3d2140de7d4f09730fe3f183d0.webm",
+      "duration": 46.2,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/glass/videos/page@4a287cb508025f98d8ea01a2edb886f8.webm",
+      "duration": 39.76,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/gothic/videos/page@312fc0fe7b53d9264e83871945327b04.webm",
+      "duration": 26.44,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/night/videos/page@33935058a668fa134305a22a4c482c84.webm",
+      "duration": 27.4,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/slow/videos/page@12877369a93dab8a394570637e045bc9.webm",
+      "duration": 28,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "acceptance/fast/videos/page@b1c5c64fba2c4144b7a02f4d052707c9.webm",
+      "duration": 29.16,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "demolition/collapse/page@68b80b6af580de80d92d9c1d1431bceb.webm",
+      "duration": 48.96,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "playback": {
+    "src": "acceptance/glass/videos/page@4a287cb508025f98d8ea01a2edb886f8.webm",
+    "start": 27.831999,
+    "end": 28.183503,
+    "ready": 4
+  },
+  "errors": []
+}

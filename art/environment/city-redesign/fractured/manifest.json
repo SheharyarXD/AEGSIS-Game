@@ -1,0 +1,65 @@
+[
+  {
+    "family": "aer_glass",
+    "stage": "windows",
+    "file": "art/environment/city-redesign/fractured/aer_glass-windows.glb",
+    "removedTriangles": 518,
+    "brokenComponents": 24
+  },
+  {
+    "family": "aer_glass",
+    "stage": "wall",
+    "file": "art/environment/city-redesign/fractured/aer_glass-wall.glb",
+    "removedTriangles": 1407,
+    "brokenComponents": 24
+  },
+  {
+    "family": "aer_glass",
+    "stage": "partial-collapse",
+    "file": "art/environment/city-redesign/fractured/aer_glass-partial-collapse.glb",
+    "removedTriangles": 142846,
+    "brokenComponents": 2167
+  },
+  {
+    "family": "aer_gothic",
+    "stage": "windows",
+    "file": "art/environment/city-redesign/fractured/aer_gothic-windows.glb",
+    "removedTriangles": 134,
+    "brokenComponents": 8
+  },
+  {
+    "family": "aer_gothic",
+    "stage": "wall",
+    "file": "art/environment/city-redesign/fractured/aer_gothic-wall.glb",
+    "removedTriangles": 3590,
+    "brokenComponents": 41
+  },
+  {
+    "family": "aer_gothic",
+    "stage": "partial-collapse",
+    "file": "art/environment/city-redesign/fractured/aer_gothic-partial-collapse.glb",
+    "removedTriangles": 54539,
+    "brokenComponents": 572
+  },
+  {
+    "family": "city_meridian_arcade",
+    "stage": "windows",
+    "file": "art/environment/city-redesign/fractured/city_meridian_arcade-windows.glb",
+    "removedTriangles": 384,
+    "brokenComponents": 18
+  },
+  {
+    "family": "city_meridian_arcade",
+    "stage": "wall",
+    "file": "art/environment/city-redesign/fractured/city_meridian_arcade-wall.glb",
+    "removedTriangles": 6526,
+    "brokenComponents": 18
+  },
+  {
+    "family": "city_meridian_arcade",
+    "stage": "partial-collapse",
+    "file": "art/environment/city-redesign/fractured/city_meridian_arcade-partial-collapse.glb",
+    "removedTriangles": 1994,
+    "brokenComponents": 32
+  }
+]

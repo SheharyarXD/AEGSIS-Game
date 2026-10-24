@@ -1,0 +1,2099 @@
+{
+  "duplicateMaps": 190,
+  "archivedBytes": 275563506,
+  "urlAliases": {
+    "/assets/environment/premium/city/textures/city_artdeco_1-2": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_artdeco_1-5": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-10": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-11": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-6": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-7": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-8": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+    "/assets/environment/premium/city/textures/city_brownstoneoffice_2-9": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brutal_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_brutal_1-1": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+    "/assets/environment/premium/city/textures/city_brutal_1-2": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_citadel-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_classicoffice_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_classicoffice_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_classicoffice_1-4": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+    "/assets/environment/premium/city/textures/city_classicoffice_1-5": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+    "/assets/environment/premium/city/textures/city_classicoffice_1-6": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_classicoffice_1-7": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+    "/assets/environment/premium/city/textures/city_flatiron_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_flatiron_1-1": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+    "/assets/environment/premium/city/textures/city_flatiron_1-2": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+    "/assets/environment/premium/city/textures/city_flatiron_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_flatiron_1-4": "/assets/environment/premium/city/textures/city_classicoffice_1-1",
+    "/assets/environment/premium/city/textures/city_flatiron_1-5": "/assets/environment/premium/city/textures/city_classicoffice_1-2",
+    "/assets/environment/premium/city/textures/city_iron_building_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_building_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_building_10-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_building_10-1": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_building_10-2": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_duplex_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_duplex_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_duplex_1-4": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_duplex_1-5": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_1-1": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_1-2": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_2-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_2-1": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_2-2": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_2-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_2-4": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-4",
+    "/assets/environment/premium/city/textures/city_iron_factoryplant_2-5": "/assets/environment/premium/city/textures/city_iron_factoryplant_1-5",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_3-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_3-1": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_3-2": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_3-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_3-4": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_3-5": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_4-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_4-1": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_4-2": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_4-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_4-4": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_genericbuilding_4-5": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_hangar_2-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_hangar_2-1": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_hangar_2-2": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_hangar_2-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_logisticterminal_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_logisticterminal_1-1": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_logisticterminal_1-2": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_logisticterminal_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_logisticterminal_1-4": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+    "/assets/environment/premium/city/textures/city_iron_logisticterminal_1-5": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+    "/assets/environment/premium/city/textures/city_iron_powerplant_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_powerplant_1-1": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_powerplant_1-2": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_powerplant_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_powerplant_1-4": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+    "/assets/environment/premium/city/textures/city_iron_powerplant_1-5": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_1-1": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_1-2": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_1-4": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_1-5": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_3-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_3-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_3-4": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_3-5": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_4-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_4-1": "/assets/environment/premium/city/textures/city_iron_building_1-1",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_4-2": "/assets/environment/premium/city/textures/city_iron_building_1-2",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_5-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_5-1": "/assets/environment/premium/city/textures/city_iron_duplex_1-1",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_5-2": "/assets/environment/premium/city/textures/city_iron_duplex_1-2",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_5-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_5-4": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-1",
+    "/assets/environment/premium/city/textures/city_iron_warehouse_5-5": "/assets/environment/premium/city/textures/city_iron_genericbuilding_2-2",
+    "/assets/environment/premium/city/textures/city_iron_warehousesmall_4-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_iron_warehousesmall_4-1": "/assets/environment/premium/city/textures/city_iron_warehouse_3-1",
+    "/assets/environment/premium/city/textures/city_iron_warehousesmall_4-2": "/assets/environment/premium/city/textures/city_iron_warehouse_3-2",
+    "/assets/environment/premium/city/textures/city_mall_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_mall_1-1": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+    "/assets/environment/premium/city/textures/city_mall_1-2": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+    "/assets/environment/premium/city/textures/city_mall_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_mall_1-4": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+    "/assets/environment/premium/city/textures/city_mall_1-5": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-0": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-10": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-11": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-4": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-5": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-6": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_1-9": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-0": "/assets/environment/premium/city/textures/city_brownstoneoffice_2-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-1": "/assets/environment/premium/city/textures/city_modernoffice_1-1",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-2": "/assets/environment/premium/city/textures/city_modernoffice_1-2",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-6": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-7": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+    "/assets/environment/premium/city/textures/city_modernoffice_1_b-8": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+    "/assets/environment/premium/city/textures/city_modernoffice_2-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_2-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_3-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_3-1": "/assets/environment/premium/city/textures/city_modernoffice_1-7",
+    "/assets/environment/premium/city/textures/city_modernoffice_3-2": "/assets/environment/premium/city/textures/city_modernoffice_1-8",
+    "/assets/environment/premium/city/textures/city_modernoffice_3-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_3-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_3-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_modernoffice_4-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_4-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_4-4": "/assets/environment/premium/city/textures/city_artdeco_1-1",
+    "/assets/environment/premium/city/textures/city_modernoffice_4-5": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_4-6": "/assets/environment/premium/city/textures/city_artdeco_1-6",
+    "/assets/environment/premium/city/textures/city_modernoffice_4-7": "/assets/environment/premium/city/textures/city_artdeco_1-7",
+    "/assets/environment/premium/city/textures/city_modernoffice_5-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_5-1": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_5-2": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_modernoffice_5-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_5_b-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_5_b-1": "/assets/environment/premium/city/textures/city_modernoffice_5-4",
+    "/assets/environment/premium/city/textures/city_modernoffice_5_b-2": "/assets/environment/premium/city/textures/city_modernoffice_5-5",
+    "/assets/environment/premium/city/textures/city_modernoffice_5_b-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_modernoffice_5_b-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_modernoffice_5_b-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_publicbuilding_1-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_publicbuilding_1-1": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+    "/assets/environment/premium/city/textures/city_publicbuilding_1-2": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+    "/assets/environment/premium/city/textures/city_publicbuilding_1-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_publicbuilding_1-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_publicbuilding_1-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_residential_2-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_residential_2-1": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+    "/assets/environment/premium/city/textures/city_residential_2-2": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+    "/assets/environment/premium/city/textures/city_residential_2-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_residential_2-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_residential_2-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_residential_3-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_residential_3-1": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-1",
+    "/assets/environment/premium/city/textures/city_residential_3-2": "/assets/environment/premium/city/textures/city_brownstoneoffice_1-2",
+    "/assets/environment/premium/city/textures/city_residential_3-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_residential_3-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_residential_3-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_residential_4-0": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_residential_4-1": "/assets/environment/premium/city/textures/city_artdeco_1-3",
+    "/assets/environment/premium/city/textures/city_residential_4-2": "/assets/environment/premium/city/textures/city_artdeco_1-4",
+    "/assets/environment/premium/city/textures/city_residential_4-3": "/assets/environment/premium/city/textures/city_artdeco_1-0",
+    "/assets/environment/premium/city/textures/city_residential_4-4": "/assets/environment/premium/city/textures/city_brutal_1-3",
+    "/assets/environment/premium/city/textures/city_residential_4-5": "/assets/environment/premium/city/textures/city_brutal_1-4",
+    "/assets/environment/premium/city/textures/city_singapore-9": "/assets/environment/premium/city/textures/city_singapore-6",
+    "/assets/environment/premium/city/textures/city_vesper_1-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_1-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_1-2": "/assets/environment/premium/provided/textures/aer_gothic-2",
+    "/assets/environment/premium/city/textures/city_vesper_2-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_2-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_2-2": "/assets/environment/premium/provided/textures/aer_gothic-2",
+    "/assets/environment/premium/city/textures/city_vesper_3-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_3-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_3-2": "/assets/environment/premium/provided/textures/aer_gothic-2",
+    "/assets/environment/premium/city/textures/city_vesper_4-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_4-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_4-2": "/assets/environment/premium/provided/textures/aer_gothic-2",
+    "/assets/environment/premium/city/textures/city_vesper_5-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_5-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_5-2": "/assets/environment/premium/provided/textures/aer_gothic-2",
+    "/assets/environment/premium/city/textures/city_vesper_6-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_6-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_6-2": "/assets/environment/premium/provided/textures/aer_gothic-2",
+    "/assets/environment/premium/city/textures/city_vesper_7-0": "/assets/environment/premium/provided/textures/aer_gothic-0",
+    "/assets/environment/premium/city/textures/city_vesper_7-1": "/assets/environment/premium/provided/textures/aer_gothic-1",
+    "/assets/environment/premium/city/textures/city_vesper_7-2": "/assets/environment/premium/provided/textures/aer_gothic-2"
+  },
+  "files": [
+    {
+      "path": "public/assets/environment/premium/city/textures/city_artdeco_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_artdeco_1-2.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_artdeco_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_artdeco_1-5.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-10.dds",
+      "bytes": 1398256,
+      "sha256": "bbf73da34832e6cb6c0efcde59e304d33ca13e9a4990105fc8af82966e14a310"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-10.webp",
+      "bytes": 163516,
+      "sha256": "02256ef3facb228469999fae2fd6ae002d9f835c1195ac42f6738ca52d93b84c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-11.dds",
+      "bytes": 1398256,
+      "sha256": "13fa216f9a9f4c0c754e231b55ff4e72852a5e892507c274a7891473695a4eaf"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-11.webp",
+      "bytes": 19716,
+      "sha256": "89f9a8ab015b8dd5346823ce065bdbc11a5c6b884b3bb7166f1e61ab46a4ec35"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-6.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-6.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-7.dds",
+      "bytes": 1398256,
+      "sha256": "b5cfcffedf2d09657f2b3d8866a05226dd6657da0eb855e65c3adc91e66b1b9e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-7.webp",
+      "bytes": 122450,
+      "sha256": "e8a4cb2bc69c46b9b7ec0f190fabb4c153ab26bcbaa3b4cecc89b4b5069338b0"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-8.dds",
+      "bytes": 1398256,
+      "sha256": "97c5d10e47e1a41d00f8c40e64a6bc29dabe3d52e1ccaf278afec0dbfd8db393"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-8.webp",
+      "bytes": 25098,
+      "sha256": "71ba1f1fafd23b24abc9dc92e53e521c1b718da55f28c31d26529dc018d5c2ab"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-9.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brownstoneoffice_2-9.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brutal_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brutal_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brutal_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "8177994128fd418b395dd3939814584e4bedf25e24982a91bf0444d642337849"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brutal_1-1.webp",
+      "bytes": 181202,
+      "sha256": "d4f23f4cfc2563620f69cd3ac4b943b1500fa5c88a41a6e51c7077fd225d37e7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brutal_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_brutal_1-2.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_citadel-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_citadel-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "7b86e6ee1fa9d15eaeb938bde3e5cee2a53d232c63ff887fd638d1940f5af89e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-4.webp",
+      "bytes": 209378,
+      "sha256": "d53e353a07b980eb4fd703f485bd77d5138ea88ccb3a54077db67432b5b7d9b7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "174046b93e151f8d191ca8e9676f8f603b5d2624123edcc6fd6df23551192384"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-5.webp",
+      "bytes": 37498,
+      "sha256": "513ae6230a80c840041bf0cab31ac92ce56d5193feb90e3b83e6b6824734e501"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-6.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-6.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-7.dds",
+      "bytes": 1398256,
+      "sha256": "8177994128fd418b395dd3939814584e4bedf25e24982a91bf0444d642337849"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_classicoffice_1-7.webp",
+      "bytes": 181202,
+      "sha256": "d4f23f4cfc2563620f69cd3ac4b943b1500fa5c88a41a6e51c7077fd225d37e7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "7b86e6ee1fa9d15eaeb938bde3e5cee2a53d232c63ff887fd638d1940f5af89e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-1.webp",
+      "bytes": 209378,
+      "sha256": "d53e353a07b980eb4fd703f485bd77d5138ea88ccb3a54077db67432b5b7d9b7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "174046b93e151f8d191ca8e9676f8f603b5d2624123edcc6fd6df23551192384"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-2.webp",
+      "bytes": 37498,
+      "sha256": "513ae6230a80c840041bf0cab31ac92ce56d5193feb90e3b83e6b6824734e501"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "21bc59c87c4c83a06212bd26a26471bc3dfb97ac1900af88a49418730913436a"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-4.webp",
+      "bytes": 122610,
+      "sha256": "51612ee1bb60011bc6032ce6d989986af5efce08e5ea60bfce8a9725de69f62b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "c19ec2ae991387e8bca8e0fae7275968a399cda4107021463f2b8cb2b4be80dc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_flatiron_1-5.webp",
+      "bytes": 24898,
+      "sha256": "7871e91de7f6addc0c51131b4f295607dece70ca20ba097974550e23a0e1afbb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_10-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_10-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_10-1.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_10-1.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_10-2.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_building_10-2.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-4.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_duplex_1-5.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-1.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-2.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-1.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-1.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-2.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-2.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-4.dds",
+      "bytes": 1398256,
+      "sha256": "effa68fea1208acce02bde91f428da867909377e05b28762cdd9560715793b9b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-4.webp",
+      "bytes": 242082,
+      "sha256": "f42c8f9bd6a34286af76e4a8594d6130fa4395044ae1cae244d69ca7900b1d15"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-5.dds",
+      "bytes": 1398256,
+      "sha256": "e6f97f3f32043404a8feb5efb2153de7c25de284aff7684c1212883117cf9f5e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_factoryplant_2-5.webp",
+      "bytes": 199230,
+      "sha256": "91b37f9eacfdd2c5bcbd7565cc0c38e56d9b3e341c0eb201cb71538862566fb2"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_2-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-1.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-1.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-2.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-2.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-4.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-4.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-5.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_3-5.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-1.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-1.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-2.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-2.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-4.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-4.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-5.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_genericbuilding_4-5.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-1.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-1.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-2.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-2.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_hangar_2-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-1.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-2.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "566dd6231595a83ceabc6b6acaeadb34f286baf5345e1d02b6a56c3e9dc42482"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-4.webp",
+      "bytes": 215240,
+      "sha256": "a31d3b27caae0d4726b8a125a61af7c59a6d56b70e7fbb2e5d344d37c96dfd20"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "542e80a9daae2c422ef4b4d2a5a7fd6fb3787b415531b045168903c3d3b51875"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_logisticterminal_1-5.webp",
+      "bytes": 50786,
+      "sha256": "b71d7b7a2323e1d62e22ab771ac74e4944d07b2a379a81026eae191c22cf721b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-1.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-2.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "566dd6231595a83ceabc6b6acaeadb34f286baf5345e1d02b6a56c3e9dc42482"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-4.webp",
+      "bytes": 215240,
+      "sha256": "a31d3b27caae0d4726b8a125a61af7c59a6d56b70e7fbb2e5d344d37c96dfd20"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "542e80a9daae2c422ef4b4d2a5a7fd6fb3787b415531b045168903c3d3b51875"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_powerplant_1-5.webp",
+      "bytes": 50786,
+      "sha256": "b71d7b7a2323e1d62e22ab771ac74e4944d07b2a379a81026eae191c22cf721b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-1.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-2.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-4.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_1-5.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-4.dds",
+      "bytes": 1398256,
+      "sha256": "566dd6231595a83ceabc6b6acaeadb34f286baf5345e1d02b6a56c3e9dc42482"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-4.webp",
+      "bytes": 215240,
+      "sha256": "a31d3b27caae0d4726b8a125a61af7c59a6d56b70e7fbb2e5d344d37c96dfd20"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-5.dds",
+      "bytes": 1398256,
+      "sha256": "542e80a9daae2c422ef4b4d2a5a7fd6fb3787b415531b045168903c3d3b51875"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_3-5.webp",
+      "bytes": 50786,
+      "sha256": "b71d7b7a2323e1d62e22ab771ac74e4944d07b2a379a81026eae191c22cf721b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_4-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_4-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_4-1.dds",
+      "bytes": 1398256,
+      "sha256": "d7277991da9d2f2c375ed30a479855ddc2f3a0c8a164ea511503b29811a72587"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_4-1.webp",
+      "bytes": 257132,
+      "sha256": "dc7ac29fea576d4ac5c58cd856409668e726bace56b1fff28e12170f897c2126"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_4-2.dds",
+      "bytes": 1398256,
+      "sha256": "21edc89e3697825318b52c19e8ca9572687523d2e855b7958d9e2ecaea66b3ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_4-2.webp",
+      "bytes": 43758,
+      "sha256": "cb0562d3ddb09151ca773ed6ea5390b12f2be563392df74b7c26a1a6cb5866c1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-1.dds",
+      "bytes": 1398256,
+      "sha256": "003e18a0bcace4d15420b59f82c1a724375b316490eeb159c565dc9b081ef989"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-1.webp",
+      "bytes": 210702,
+      "sha256": "b4c7ba13ebeb44380d2408bbfb62e624c813913adb6c7015087e769298c0b3a9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-2.dds",
+      "bytes": 1398256,
+      "sha256": "a5097a58540ab673b7b613bea883ad8be9b8355bda3879516965b1e4fe2d159c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-2.webp",
+      "bytes": 74104,
+      "sha256": "efb0ea9bf59df9e707f4e0036f496c8fa6a95eb52d55d07f1d4eca5c9c80b85b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-4.dds",
+      "bytes": 1398256,
+      "sha256": "566dd6231595a83ceabc6b6acaeadb34f286baf5345e1d02b6a56c3e9dc42482"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-4.webp",
+      "bytes": 215240,
+      "sha256": "a31d3b27caae0d4726b8a125a61af7c59a6d56b70e7fbb2e5d344d37c96dfd20"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-5.dds",
+      "bytes": 1398256,
+      "sha256": "542e80a9daae2c422ef4b4d2a5a7fd6fb3787b415531b045168903c3d3b51875"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehouse_5-5.webp",
+      "bytes": 50786,
+      "sha256": "b71d7b7a2323e1d62e22ab771ac74e4944d07b2a379a81026eae191c22cf721b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehousesmall_4-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehousesmall_4-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehousesmall_4-1.dds",
+      "bytes": 1398256,
+      "sha256": "4a27a47dd3ac5f5750a6ce1dffe68358a4c2766c33eb5b780a8cd3feca5b54a6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehousesmall_4-1.webp",
+      "bytes": 104532,
+      "sha256": "f834fbf22cf165ce23008487ccd0ca4064bd4f1fc21e62816ec816390b860b60"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehousesmall_4-2.dds",
+      "bytes": 1398256,
+      "sha256": "c4d5dc8239e69932698bd00f0c58e5da9518bdf3e12faffab3b0c91f9345f031"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_iron_warehousesmall_4-2.webp",
+      "bytes": 65902,
+      "sha256": "fa22ae49049a34084f29a0978129275b5179e4c7bb311b047fe50c3cc297989b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "bbf73da34832e6cb6c0efcde59e304d33ca13e9a4990105fc8af82966e14a310"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-1.webp",
+      "bytes": 163516,
+      "sha256": "02256ef3facb228469999fae2fd6ae002d9f835c1195ac42f6738ca52d93b84c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "13fa216f9a9f4c0c754e231b55ff4e72852a5e892507c274a7891473695a4eaf"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-2.webp",
+      "bytes": 19716,
+      "sha256": "89f9a8ab015b8dd5346823ce065bdbc11a5c6b884b3bb7166f1e61ab46a4ec35"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "b5cfcffedf2d09657f2b3d8866a05226dd6657da0eb855e65c3adc91e66b1b9e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-4.webp",
+      "bytes": 122450,
+      "sha256": "e8a4cb2bc69c46b9b7ec0f190fabb4c153ab26bcbaa3b4cecc89b4b5069338b0"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "97c5d10e47e1a41d00f8c40e64a6bc29dabe3d52e1ccaf278afec0dbfd8db393"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_mall_1-5.webp",
+      "bytes": 25098,
+      "sha256": "71ba1f1fafd23b24abc9dc92e53e521c1b718da55f28c31d26529dc018d5c2ab"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-0.dds",
+      "bytes": 699216,
+      "sha256": "0f717c8903b44c8647320b3f43ced92caf6b14af3671c2893d618f9574460482"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-0.webp",
+      "bytes": 990,
+      "sha256": "99808bf923f4551e5f4e7627cd18ceb89c92abd9abccd902628cc11fbd571415"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-10.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-10.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-11.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-11.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "b5cfcffedf2d09657f2b3d8866a05226dd6657da0eb855e65c3adc91e66b1b9e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-4.webp",
+      "bytes": 122450,
+      "sha256": "e8a4cb2bc69c46b9b7ec0f190fabb4c153ab26bcbaa3b4cecc89b4b5069338b0"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "97c5d10e47e1a41d00f8c40e64a6bc29dabe3d52e1ccaf278afec0dbfd8db393"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-5.webp",
+      "bytes": 25098,
+      "sha256": "71ba1f1fafd23b24abc9dc92e53e521c1b718da55f28c31d26529dc018d5c2ab"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-6.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-6.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-9.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1-9.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-0.dds",
+      "bytes": 699216,
+      "sha256": "0f717c8903b44c8647320b3f43ced92caf6b14af3671c2893d618f9574460482"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-0.webp",
+      "bytes": 990,
+      "sha256": "99808bf923f4551e5f4e7627cd18ceb89c92abd9abccd902628cc11fbd571415"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-1.dds",
+      "bytes": 699216,
+      "sha256": "00825fdee4ba55e967196c3fe89db4db248a16252b8f7a2156738cac0cf4cf33"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-1.webp",
+      "bytes": 78698,
+      "sha256": "e35b2ae7d2a8d0beb9bae033fceb796e62468975fa9c194edb985aca81170bc1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-2.dds",
+      "bytes": 699216,
+      "sha256": "34f1de98798edaca9622c38afe8bbd1820dedbd3d85dfc543fad472abc15202f"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-2.webp",
+      "bytes": 31226,
+      "sha256": "ef42717bee6a9e5329d1f1089376b60b1a3947a180144f7dabe8f92140803ce3"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-6.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-6.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-7.dds",
+      "bytes": 1398256,
+      "sha256": "b5cfcffedf2d09657f2b3d8866a05226dd6657da0eb855e65c3adc91e66b1b9e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-7.webp",
+      "bytes": 122450,
+      "sha256": "e8a4cb2bc69c46b9b7ec0f190fabb4c153ab26bcbaa3b4cecc89b4b5069338b0"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-8.dds",
+      "bytes": 1398256,
+      "sha256": "97c5d10e47e1a41d00f8c40e64a6bc29dabe3d52e1ccaf278afec0dbfd8db393"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_1_b-8.webp",
+      "bytes": 25098,
+      "sha256": "71ba1f1fafd23b24abc9dc92e53e521c1b718da55f28c31d26529dc018d5c2ab"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_2-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_2-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_2-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-1.dds",
+      "bytes": 1398256,
+      "sha256": "aaddf067133a2316a058bfd2ea7dc50a5e2f89961edba552d94dbd94d94893fd"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-1.webp",
+      "bytes": 68300,
+      "sha256": "310f3d328e3d5c03de4d68dd21b29931140e03a1fd5f7e1d66f80b77d4592902"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-2.dds",
+      "bytes": 1398256,
+      "sha256": "a3ece085eab93b2898f34ee6897a4e17ee1aae9c65fb9f64429876475cb07dce"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-2.webp",
+      "bytes": 52122,
+      "sha256": "305314447c11a9bdc8549756f4f43aca4cb073a6d882b7fefea7b6d97c7ad214"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_3-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-4.dds",
+      "bytes": 1398256,
+      "sha256": "8177994128fd418b395dd3939814584e4bedf25e24982a91bf0444d642337849"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-4.webp",
+      "bytes": 181202,
+      "sha256": "d4f23f4cfc2563620f69cd3ac4b943b1500fa5c88a41a6e51c7077fd225d37e7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-5.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-5.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-6.dds",
+      "bytes": 1398256,
+      "sha256": "b5cfcffedf2d09657f2b3d8866a05226dd6657da0eb855e65c3adc91e66b1b9e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-6.webp",
+      "bytes": 122450,
+      "sha256": "e8a4cb2bc69c46b9b7ec0f190fabb4c153ab26bcbaa3b4cecc89b4b5069338b0"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-7.dds",
+      "bytes": 1398256,
+      "sha256": "97c5d10e47e1a41d00f8c40e64a6bc29dabe3d52e1ccaf278afec0dbfd8db393"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_4-7.webp",
+      "bytes": 25098,
+      "sha256": "71ba1f1fafd23b24abc9dc92e53e521c1b718da55f28c31d26529dc018d5c2ab"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-1.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-1.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-2.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-2.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-1.dds",
+      "bytes": 1398256,
+      "sha256": "2e2e936a4bcd2d214b8b5798523a16e80b0bea5f7df685e062c2e1587874a76f"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-1.webp",
+      "bytes": 264794,
+      "sha256": "bcdc608494be6f386786a703ae3509900bfa0e06b47aba0b8299494d10dfd642"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-2.dds",
+      "bytes": 1398256,
+      "sha256": "62154e11dd56e43cf166ba0fab81699c368b270f91a107acb41f0c8dc3c11324"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-2.webp",
+      "bytes": 34362,
+      "sha256": "6311078294a91d3e0ec717f9c92047e9445ed6593ad1e2edce12f057a8fae661"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_modernoffice_5_b-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "bbf73da34832e6cb6c0efcde59e304d33ca13e9a4990105fc8af82966e14a310"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-1.webp",
+      "bytes": 163516,
+      "sha256": "02256ef3facb228469999fae2fd6ae002d9f835c1195ac42f6738ca52d93b84c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "13fa216f9a9f4c0c754e231b55ff4e72852a5e892507c274a7891473695a4eaf"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-2.webp",
+      "bytes": 19716,
+      "sha256": "89f9a8ab015b8dd5346823ce065bdbc11a5c6b884b3bb7166f1e61ab46a4ec35"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_publicbuilding_1-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-1.dds",
+      "bytes": 1398256,
+      "sha256": "7b86e6ee1fa9d15eaeb938bde3e5cee2a53d232c63ff887fd638d1940f5af89e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-1.webp",
+      "bytes": 209378,
+      "sha256": "d53e353a07b980eb4fd703f485bd77d5138ea88ccb3a54077db67432b5b7d9b7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-2.dds",
+      "bytes": 1398256,
+      "sha256": "174046b93e151f8d191ca8e9676f8f603b5d2624123edcc6fd6df23551192384"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-2.webp",
+      "bytes": 37498,
+      "sha256": "513ae6230a80c840041bf0cab31ac92ce56d5193feb90e3b83e6b6824734e501"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_2-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-1.dds",
+      "bytes": 1398256,
+      "sha256": "bbf73da34832e6cb6c0efcde59e304d33ca13e9a4990105fc8af82966e14a310"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-1.webp",
+      "bytes": 163516,
+      "sha256": "02256ef3facb228469999fae2fd6ae002d9f835c1195ac42f6738ca52d93b84c"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-2.dds",
+      "bytes": 1398256,
+      "sha256": "13fa216f9a9f4c0c754e231b55ff4e72852a5e892507c274a7891473695a4eaf"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-2.webp",
+      "bytes": 19716,
+      "sha256": "89f9a8ab015b8dd5346823ce065bdbc11a5c6b884b3bb7166f1e61ab46a4ec35"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_3-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-0.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-0.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-1.dds",
+      "bytes": 1398256,
+      "sha256": "7b86e6ee1fa9d15eaeb938bde3e5cee2a53d232c63ff887fd638d1940f5af89e"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-1.webp",
+      "bytes": 209378,
+      "sha256": "d53e353a07b980eb4fd703f485bd77d5138ea88ccb3a54077db67432b5b7d9b7"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-2.dds",
+      "bytes": 1398256,
+      "sha256": "174046b93e151f8d191ca8e9676f8f603b5d2624123edcc6fd6df23551192384"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-2.webp",
+      "bytes": 37498,
+      "sha256": "513ae6230a80c840041bf0cab31ac92ce56d5193feb90e3b83e6b6824734e501"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-3.dds",
+      "bytes": 1398256,
+      "sha256": "65ea90efdce10940aba43508cf147c2b58f2d00b8dc124a922495cb8e4b723f9"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-3.webp",
+      "bytes": 1922,
+      "sha256": "a1c9eaa8111b6be83314add164abb2c5e2638ed4872e3affd565c27739df5246"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-4.dds",
+      "bytes": 1398256,
+      "sha256": "236fe5dd64b6cf5b52999cd591beb598e8df43ce53906940932aeabcadbf267b"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-4.webp",
+      "bytes": 89694,
+      "sha256": "da8a2e5c5bf5fe16614dbd9eb0210ea3261c2ee1cd60dc770c6ce9604b6265c8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-5.dds",
+      "bytes": 1398256,
+      "sha256": "f5e421059965844de97365006a7326d0ce70281de70adb36c307532f0b63bdbc"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_residential_4-5.webp",
+      "bytes": 33750,
+      "sha256": "ccdde4f0b67c10c1546f3c2cdef680a4ab5af75135d5f82cf1caa8185d8db4f8"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_singapore-9.dds",
+      "bytes": 1398256,
+      "sha256": "1ba8608e7369d327bd9525fa8d5487b9f21410c2b632aeee65c84e7e0c8f33b1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_singapore-9.webp",
+      "bytes": 51472,
+      "sha256": "4320ae28ada7e8722e42a9fd902a271eb46a84d22f4f381ec8dbbb00d66a68fa"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_1-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_1-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_1-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_1-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_1-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_1-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_2-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_2-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_2-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_2-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_2-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_2-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_3-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_3-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_3-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_3-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_3-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_3-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_4-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_4-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_4-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_4-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_4-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_4-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_5-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_5-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_5-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_5-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_5-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_5-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_6-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_6-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_6-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_6-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_6-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_6-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_7-0.dds",
+      "bytes": 1398256,
+      "sha256": "3b344eb197fd7ac2307da53411fdddf102e763aff19bf6fa570ab5bc450d2adb"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_7-0.webp",
+      "bytes": 109740,
+      "sha256": "5e319ce4fd449525d28c0f9d3e452aa2cef720bd037343f845ab92ea31f05760"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_7-1.dds",
+      "bytes": 1398256,
+      "sha256": "216ea81f3dbd23d735e15202a07a90dc158e53360a6d8fc8b48ad7d8067745ea"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_7-1.webp",
+      "bytes": 43082,
+      "sha256": "c2b0b5de03deb07b333ea54d9e6dfeeb76f90369006fc757b3e9783176c08bb1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_7-2.dds",
+      "bytes": 1398256,
+      "sha256": "8a51720e2415360f4c2a48501a8e701aa8c0183c79db9358cf8ef7cbb16147a1"
+    },
+    {
+      "path": "public/assets/environment/premium/city/textures/city_vesper_7-2.webp",
+      "bytes": 81258,
+      "sha256": "920be323fb5c35808c97cdc31d1b2c0f70ff09f40f0db87eadb4104e7205b1e6"
+    }
+  ],
+  "method": "DDS and WebP bytes both identical; original UV transforms, materials and full-detail source maps are retained."
+}

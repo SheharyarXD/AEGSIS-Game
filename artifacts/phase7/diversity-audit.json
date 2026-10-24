@@ -1,0 +1,930 @@
+{
+  "worldSize": [
+    2048,
+    2048
+  ],
+  "placements": 571,
+  "authoredLayout": "art/environment/phase7/city-layout.json",
+  "districts": {
+    "financial": {
+      "placements": 161,
+      "distinctFamilies": 11,
+      "mostRepeated": [
+        "city_modernoffice_1_b",
+        37
+      ],
+      "frequencyDistribution": {
+        "city_modernoffice_4": 30,
+        "city_modernoffice_3": 14,
+        "city_modernoffice_2": 17,
+        "city_flatiron_1": 20,
+        "city_modernoffice_1_b": 37,
+        "city_brutal_1": 18,
+        "city_modernoffice_5": 5,
+        "city_modernoffice_5_b": 11,
+        "aer_glass": 1,
+        "city_brownstoneoffice_2": 1,
+        "city_citadel": 7
+      },
+      "families": [
+        {
+          "family": "city_modernoffice_4",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 30,
+          "canonicalDimensions": [
+            40.28143,
+            84,
+            40.42727
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_International_Side_1",
+            "src_downtown_Downtown_Concrete_FLR_1",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_modernoffice_4-near-optimized.glb",
+          "sha256": "6cb067a5305a248df73226ee3cbb5225a4752df1706f7d73c72f9c88656eaebe",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_modernoffice_3",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 14,
+          "canonicalDimensions": [
+            14.46677,
+            20,
+            25.04625
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_7",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_modernoffice_3-near-optimized.glb",
+          "sha256": "0bfd8122379ec6e9baa0ce2fe203c9377ae53f42ecb9f68c8597ad793f95dc82",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_modernoffice_2",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 17,
+          "canonicalDimensions": [
+            11.2978,
+            24,
+            24.23013
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_8",
+            "src_downtown_Downtown_Facade_FLR_6",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_modernoffice_2-near-optimized.glb",
+          "sha256": "ac6835b7e32aee69958854183b6553860881b158b5fd0362e0e1246264f550de",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_flatiron_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 20,
+          "canonicalDimensions": [
+            57.92386,
+            88,
+            41.58465
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_3",
+            "src_downtown_Downtown_Facade_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_flatiron_1-near-optimized.glb",
+          "sha256": "2464b4f3cdea6f353aaedb89f0abe28a27edf3cb9bbfd0c3409aa3735c674dd9",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_modernoffice_1_b",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 37,
+          "canonicalDimensions": [
+            27.62239,
+            68,
+            24.80946
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Firstfloortrim_FLR_1",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_modernoffice_1_b-near-optimized.glb",
+          "sha256": "ac2329d51c1633045336756a3a6fa673fbdff5469e615c383789294536e1c56f",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_brutal_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 18,
+          "canonicalDimensions": [
+            43.01504,
+            24,
+            42.43117
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Concrete_FLR_1",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brutal_1-near-optimized.glb",
+          "sha256": "afa1ba1f5dce9c27b05f66b74d1c4b3c1aef67e95d31672daabf72457c519bc9",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_modernoffice_5",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 5,
+          "canonicalDimensions": [
+            107.49865,
+            104,
+            36.31075
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "src_downtown_Downtown_Facade_FLR_4",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_modernoffice_5-near-optimized.glb",
+          "sha256": "62ce297ed67b3171446fc09eee1509551f6feb543a7d32c9b4dfa03d88b3fee3",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_modernoffice_5_b",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 11,
+          "canonicalDimensions": [
+            35.79742,
+            56,
+            35.79744
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_4",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_modernoffice_5_b-near-optimized.glb",
+          "sha256": "dfb6c497143d7e62d5e6d6af5e49ca706c9ed424989bc0e96cf02013c0f89daa",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "aer_glass",
+          "sourceFile": "free_london_skyscraper.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            34.02138,
+            168,
+            50.9971
+          ],
+          "materialPalette": [
+            "src_london_Building_Elements_Trim",
+            "src_london_Building_Facade",
+            "src_london_Building_Maintenance_Unit",
+            "src_london_Concrete_Pillar",
+            "src_london_Flare_Red",
+            "src_london_Furniture",
+            "src_london_Glass_Generic",
+            "src_london_Glass_Generic_More_Opaque",
+            "src_london_Glass_Lobby",
+            "src_london_Glass_Railing",
+            "src_london_Interior_Blinds",
+            "src_london_Interior_Top",
+            "src_london_Lobby_Curtains",
+            "src_london_Lobby_Floor",
+            "src_london_Lobby_Furniture",
+            "src_london_Lobby_Interior_1",
+            "src_london_Top_Piece",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/provided/aer_glass-near-optimized.glb",
+          "sha256": "8c6426db78ef698767df5f78858e1a50a5fefb2cc4bf1ac3d559c368289f5c77",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_brownstoneoffice_2",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            15.70741,
+            28,
+            42.4878
+          ],
+          "materialPalette": [
+            "src_downtown_Brownstone_Facade_Flr_2",
+            "src_downtown_Downtown_Maskedstuff_1",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "src_downtown_Downtown_Facade_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brownstoneoffice_2-near-optimized.glb",
+          "sha256": "38d8ecfaba177755d3def4d4a29beaab16547a213e5915880e6f2557a0a8408e",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_citadel",
+          "sourceFile": "art_deco_citadel.glb",
+          "placements": 7,
+          "canonicalDimensions": [
+            25.5501,
+            52,
+            25.55011
+          ],
+          "materialPalette": [
+            "src_citadel_Material.001",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_citadel-near-optimized.glb",
+          "sha256": "d2d510d66e4caa823b992676ceef030b90163843f0cc1b91917cd7758b17e940",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        }
+      ]
+    },
+    "gothic": {
+      "placements": 159,
+      "distinctFamilies": 8,
+      "mostRepeated": [
+        "city_vesper_6",
+        24
+      ],
+      "frequencyDistribution": {
+        "city_vesper_1": 23,
+        "city_vesper_2": 23,
+        "city_vesper_3": 22,
+        "city_vesper_5": 22,
+        "city_vesper_6": 24,
+        "city_vesper_4": 24,
+        "city_vesper_7": 20,
+        "aer_gothic": 1
+      },
+      "families": [
+        {
+          "family": "city_vesper_1",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 23,
+          "canonicalDimensions": [
+            10.85412,
+            36,
+            10.85411
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_1-near-optimized.glb",
+          "sha256": "064e5959de72ee67295a063a931d924b5e80da282f766d79ec3a079f366cd53e",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_vesper_2",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 23,
+          "canonicalDimensions": [
+            14.26451,
+            28,
+            14.26452
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_2-near-optimized.glb",
+          "sha256": "3ba3cb741226c6f12c0f9c21cc8befa052dd7399a5c9c2580afdce0106f9bd32",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_vesper_3",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 22,
+          "canonicalDimensions": [
+            15.60817,
+            44,
+            15.60818
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_3-near-optimized.glb",
+          "sha256": "be888d2692b255d3ac263b192721f55537c1863fa154f2ec7ddc9a97069bec66",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_vesper_5",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 22,
+          "canonicalDimensions": [
+            12.07077,
+            88,
+            11.28394
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_5-near-optimized.glb",
+          "sha256": "4de441b84ae89830186417875c07387dcf0d097be186e8928413e2b3b00c7b2a",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_vesper_6",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 24,
+          "canonicalDimensions": [
+            29.789,
+            56,
+            3.7978
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_6-near-optimized.glb",
+          "sha256": "bcae1abf62d9a4f6402bccbf7e876d50f6a0ba51484b7900786732c67bec660a",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_vesper_4",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 24,
+          "canonicalDimensions": [
+            14.40608,
+            68,
+            14.40608
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_4-near-optimized.glb",
+          "sha256": "45e4f6ba26472b58807338f26eb56ce9803ebeb8bb83359ef0b67b3d974fbbf8",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_vesper_7",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 20,
+          "canonicalDimensions": [
+            29.78904,
+            56,
+            10.07866
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_vesper_7-near-optimized.glb",
+          "sha256": "4ac9c190f97fb0b3661be8f1199170d6578b99d62df17935d210a583c36509cb",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "aer_gothic",
+          "sourceFile": "gothic_building_for_aria_pack_1.0.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            16.23752,
+            152,
+            16.23752
+          ],
+          "materialPalette": [
+            "src_aria_Dark",
+            "src_aria_Glass",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/provided/aer_gothic-near-optimized.glb",
+          "sha256": "fc7442e35ec278c857ace8707f8f7d59e07ba73489750287077470c59e18afee",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        }
+      ]
+    },
+    "industrial": {
+      "placements": 17,
+      "distinctFamilies": 11,
+      "mostRepeated": [
+        "city_iron_genericbuilding_2",
+        3
+      ],
+      "frequencyDistribution": {
+        "city_iron_genericbuilding_3": 2,
+        "city_iron_logisticterminal_1": 2,
+        "city_iron_warehouse_1": 2,
+        "city_iron_warehouse_5": 1,
+        "city_iron_building_10": 2,
+        "city_iron_genericbuilding_2": 3,
+        "city_iron_warehousesmall_4": 1,
+        "city_iron_duplex_1": 1,
+        "city_iron_factoryplant_1": 1,
+        "city_iron_building_1": 1,
+        "city_iron_hangar_2": 1
+      },
+      "families": [
+        {
+          "family": "city_iron_genericbuilding_3",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 2,
+          "canonicalDimensions": [
+            14.68983,
+            8,
+            18.58736
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Facade_Flr_1",
+            "src_ironwake_Industrial_Walls_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_genericbuilding_3-near-optimized.glb",
+          "sha256": "393aa3805421688df5356b1128490831c3fe89e5e94aeb534fce35fb760e41e1",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_logisticterminal_1",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 2,
+          "canonicalDimensions": [
+            54.23202,
+            8,
+            16.08054
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Walls_FLR_1",
+            "src_ironwake_Industrial_Trim_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_logisticterminal_1-near-optimized.glb",
+          "sha256": "29471591192cb7f1648dfde72f5212daaed0ce7de38ffc844628915680cd56d0",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_warehouse_1",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 2,
+          "canonicalDimensions": [
+            36.50008,
+            12,
+            14.41309
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Walls_FLR_1",
+            "src_ironwake_Industrial_Facade_Flr_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_warehouse_1-near-optimized.glb",
+          "sha256": "63bca5b218534319ef5aba3b6b1e805f07719f2aecdfda48cb3e8de521b3c5f7",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_warehouse_5",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            33.89243,
+            12,
+            56.42411
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Walls_FLR_1",
+            "src_ironwake_Material_140",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_warehouse_5-near-optimized.glb",
+          "sha256": "5ab96f5ded0337b5a02856003db5fb5a31718abe2ea611712199f41ddaa96bc7",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_building_10",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 2,
+          "canonicalDimensions": [
+            47.16201,
+            28,
+            90.27745
+          ],
+          "materialPalette": [
+            "src_ironwake_Material_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_building_10-near-optimized.glb",
+          "sha256": "ecd825e097ed44016ae32b4918b19e82ef55d29d4d134a17a4498468db0bbe5e",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_genericbuilding_2",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 3,
+          "canonicalDimensions": [
+            4.98144,
+            4,
+            4.69536
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Trim_FLR_1_Dif"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_genericbuilding_2-near-optimized.glb",
+          "sha256": "bd77501f4d5fd5e15e6700ca5d5d662f97455f258ff83c625b6b0601e2856c78",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_warehousesmall_4",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            11.87096,
+            8,
+            16.60056
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Walls_FLR_4",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_warehousesmall_4-near-optimized.glb",
+          "sha256": "1a42c3f5f105b90581c51dae7b43fa5bcda2ae1605adf587c2fa4440f5fc91b0",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_duplex_1",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            28.60396,
+            12,
+            12.97258
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Walls_FLR_1",
+            "src_ironwake_Industrial_Facade_Flr_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_duplex_1-near-optimized.glb",
+          "sha256": "3cba63b41b82a02f86c5dd2733c30ff450e1c674cdedc54956bb59729f55b596",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_factoryplant_1",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            52.68709,
+            28,
+            107.9018
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Facade_Flr_1",
+            "src_ironwake_Industrial_Walls_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_factoryplant_1-near-optimized.glb",
+          "sha256": "9e8e3b85ed3876de635a506c78f79be5046f0306102f60d64f14389e4bd54423",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_building_1",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            45.48346,
+            28,
+            80.03907
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Facade_Flr_1",
+            "src_ironwake_Industrial_Roof_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_building_1-near-optimized.glb",
+          "sha256": "9d2f71fc19cd31694c94226a8c1f6548fe41ead475e714abcdde215ad8109d14",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_iron_hangar_2",
+          "sourceFile": "industrial_buildings_set_-_low_poly_models.glb",
+          "placements": 1,
+          "canonicalDimensions": [
+            61.81472,
+            16,
+            74.44571
+          ],
+          "materialPalette": [
+            "src_ironwake_Industrial_Walls_FLR_1",
+            "src_ironwake_Industrial_Windows_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_iron_hangar_2-near-optimized.glb",
+          "sha256": "5120427a60b2da56b38bc600d7b9f706e892319e60090ffa98e62b34160ccd86",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        }
+      ]
+    },
+    "commercial": {
+      "placements": 109,
+      "distinctFamilies": 6,
+      "mostRepeated": [
+        "city_brownstoneoffice_2",
+        32
+      ],
+      "frequencyDistribution": {
+        "city_mall_1": 16,
+        "city_publicbuilding_1": 14,
+        "city_classicoffice_1": 21,
+        "city_brownstoneoffice_2": 32,
+        "city_artdeco_1": 18,
+        "city_brownstoneoffice_1": 8
+      },
+      "families": [
+        {
+          "family": "city_mall_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 16,
+          "canonicalDimensions": [
+            35.70869,
+            20,
+            35.61809
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_2",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_mall_1-near-optimized.glb",
+          "sha256": "d132b7508afac68147b26309f8a8eeccb4cec0e331457c37366c674db2e1076b",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_publicbuilding_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 14,
+          "canonicalDimensions": [
+            38.21818,
+            28,
+            38.21822
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_2",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_publicbuilding_1-near-optimized.glb",
+          "sha256": "2bec93f2006958eae68bc8e341c2249c0665fbc368bc983fd5e43a28b8dd37ee",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_classicoffice_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 21,
+          "canonicalDimensions": [
+            41.51945,
+            48,
+            33.76643
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_1",
+            "src_downtown_Downtown_Facade_FLR_3",
+            "src_downtown_Downtown_Concrete_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_classicoffice_1-near-optimized.glb",
+          "sha256": "59da0a81f82898204fd07288ec44299a052e34b0383f928af2ab13530b07ff80",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_brownstoneoffice_2",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 32,
+          "canonicalDimensions": [
+            15.70741,
+            28,
+            42.4878
+          ],
+          "materialPalette": [
+            "src_downtown_Brownstone_Facade_Flr_2",
+            "src_downtown_Downtown_Maskedstuff_1",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "src_downtown_Downtown_Facade_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brownstoneoffice_2-near-optimized.glb",
+          "sha256": "38d8ecfaba177755d3def4d4a29beaab16547a213e5915880e6f2557a0a8408e",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_artdeco_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 18,
+          "canonicalDimensions": [
+            19.19263,
+            48,
+            33.38607
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Concrete_FLR_1",
+            "src_downtown_Downtown_Facade_FLR_3",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_artdeco_1-near-optimized.glb",
+          "sha256": "8042f6a6dca91491326e4c48d8e049cfcaf71abf9a2b3face179c272de3d61bd",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_brownstoneoffice_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 8,
+          "canonicalDimensions": [
+            60.01864,
+            28,
+            21.92316
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_2",
+            "src_downtown_Downtown_Brownstone_Firstfloor_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brownstoneoffice_1-near-optimized.glb",
+          "sha256": "dd44b4ed9c7c8640b1d3a0bd3d1c4fb2237ffb84efb48367740aeaf1fc754cfe",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        }
+      ]
+    },
+    "residential": {
+      "placements": 125,
+      "distinctFamilies": 6,
+      "mostRepeated": [
+        "city_brutal_1",
+        24
+      ],
+      "frequencyDistribution": {
+        "city_brownstoneoffice_2": 19,
+        "city_brutal_1": 24,
+        "city_brownstoneoffice_1": 16,
+        "city_residential_2": 21,
+        "city_residential_3": 23,
+        "city_residential_4": 22
+      },
+      "families": [
+        {
+          "family": "city_brownstoneoffice_2",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 19,
+          "canonicalDimensions": [
+            15.70741,
+            28,
+            42.4878
+          ],
+          "materialPalette": [
+            "src_downtown_Brownstone_Facade_Flr_2",
+            "src_downtown_Downtown_Maskedstuff_1",
+            "src_downtown_Downtown_Firstfloor_FLR_2",
+            "src_downtown_Downtown_Facade_FLR_2",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brownstoneoffice_2-near-optimized.glb",
+          "sha256": "38d8ecfaba177755d3def4d4a29beaab16547a213e5915880e6f2557a0a8408e",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_brutal_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 24,
+          "canonicalDimensions": [
+            43.01504,
+            24,
+            42.43117
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Concrete_FLR_1",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brutal_1-near-optimized.glb",
+          "sha256": "afa1ba1f5dce9c27b05f66b74d1c4b3c1aef67e95d31672daabf72457c519bc9",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_brownstoneoffice_1",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 16,
+          "canonicalDimensions": [
+            60.01864,
+            28,
+            21.92316
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_2",
+            "src_downtown_Downtown_Brownstone_Firstfloor_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_brownstoneoffice_1-near-optimized.glb",
+          "sha256": "dd44b4ed9c7c8640b1d3a0bd3d1c4fb2237ffb84efb48367740aeaf1fc754cfe",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_residential_2",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 21,
+          "canonicalDimensions": [
+            33.86499,
+            32,
+            33.86501
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_3",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_residential_2-near-optimized.glb",
+          "sha256": "c786b5330ec935f6849e84a33cb8bdfaf6beec77c264795fc20bead82623fcbd",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_residential_3",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 23,
+          "canonicalDimensions": [
+            37.10398,
+            28,
+            37.10398
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_2",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_residential_3-near-optimized.glb",
+          "sha256": "3e997c5f978fd24773feeb9e9db8288b1260721b172013fa57f1e022ac610b38",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        },
+        {
+          "family": "city_residential_4",
+          "sourceFile": "downtown_buildings_set_-_low_poly_model.glb",
+          "placements": 22,
+          "canonicalDimensions": [
+            37.10398,
+            28,
+            37.10398
+          ],
+          "materialPalette": [
+            "src_downtown_Downtown_Facade_FLR_3",
+            "src_downtown_Downtown_Modern_Firstfloor_FLR_1",
+            "p_concrete"
+          ],
+          "geometryFile": "public/assets/environment/premium/city/city_residential_4-near-optimized.glb",
+          "sha256": "81e05f708affe052f2c79d1eaec8b32052879e2c32dcfb85a88d4c3e42b20d34",
+          "roof": "Original source roof geometry preserved",
+          "facade": "Original source UVs, surface geometry and material palette"
+        }
+      ]
+    }
+  },
+  "geometryMethod": "Source model selection and uniform city scaling; protected deployment lots are fitted to their original volumes. Family IDs refer to actual distinct supplied models, not random primitive parameters."
+}

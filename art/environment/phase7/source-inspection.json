@@ -1,0 +1,6415 @@
+{
+  "exterior_aircon_unit": [
+    {
+      "name": "exterior_aircon_unit",
+      "vertices": 6841,
+      "faces": 9493,
+      "min": [
+        -0.892697811126709,
+        -0.15819303691387177,
+        -0.32006561756134033
+      ],
+      "max": [
+        -0.09272649884223938,
+        0.21596616506576538,
+        0.6078314781188965
+      ],
+      "materials": [
+        "exterior_aircon_unit_01",
+        "exterior_aircon_unit_02"
+      ]
+    },
+    {
+      "name": "exterior_aircon_unit_rusted",
+      "vertices": 6841,
+      "faces": 9493,
+      "min": [
+        0.10730218887329102,
+        -0.15819303691387177,
+        -0.32006561756134033
+      ],
+      "max": [
+        0.907273530960083,
+        0.21596616506576538,
+        0.6078314781188965
+      ],
+      "materials": [
+        "exterior_aircon_unit_rusted_01",
+        "exterior_aircon_unit_rusted_02"
+      ]
+    }
+  ],
+  "modular_factory_facade": [
+    {
+      "name": "cornice02_standard_standard_01",
+      "vertices": 36,
+      "faces": 28,
+      "min": [
+        -20.0,
+        -0.05687412619590759,
+        5.000000476837158
+      ],
+      "max": [
+        -17.0,
+        0.11624957621097565,
+        5.160000324249268
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_end_01",
+      "vertices": 93,
+      "faces": 68,
+      "min": [
+        -30.27312660217285,
+        -0.05687413364648819,
+        5.0
+      ],
+      "max": [
+        -30.09999656677246,
+        0.19999907910823822,
+        5.159999847412109
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_end_02",
+      "vertices": 95,
+      "faces": 68,
+      "min": [
+        -29.90000343322754,
+        -0.05687413364648819,
+        5.000000476837158
+      ],
+      "max": [
+        -29.72687339782715,
+        0.19999907910823822,
+        5.160000324249268
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_standard_corner_small_01",
+      "vertices": 100,
+      "faces": 70,
+      "min": [
+        -27.056873321533203,
+        -0.05687413364648819,
+        5.000000476837158
+      ],
+      "max": [
+        -25.0,
+        2.000000476837158,
+        5.160000324249268
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_standard_corner_large_01",
+      "vertices": 99,
+      "faces": 70,
+      "min": [
+        -24.056873321533203,
+        -0.05687413364648819,
+        5.000000476837158
+      ],
+      "max": [
+        -21.0,
+        3.000000476837158,
+        5.160000324249268
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_standard_corner_large_02",
+      "vertices": 118,
+      "faces": 70,
+      "min": [
+        -24.0,
+        1.9999992847442627,
+        5.0
+      ],
+      "max": [
+        -20.88374900817871,
+        5.1162495613098145,
+        5.160000324249268
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_standard_corner_small_02",
+      "vertices": 118,
+      "faces": 70,
+      "min": [
+        -27.0,
+        2.9999992847442627,
+        5.0
+      ],
+      "max": [
+        -24.88374900817871,
+        5.1162495613098145,
+        5.160000324249268
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_pier_corner_01",
+      "vertices": 442,
+      "faces": 504,
+      "min": [
+        -29.114723205566406,
+        -0.11472178995609283,
+        4.982392311096191
+      ],
+      "max": [
+        -28.745283126831055,
+        0.2547103464603424,
+        5.177607536315918
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_pier_corner_02",
+      "vertices": 363,
+      "faces": 372,
+      "min": [
+        -29.314714431762695,
+        0.5852779150009155,
+        4.982392311096191
+      ],
+      "max": [
+        -28.90000343322754,
+        1.0000004768371582,
+        5.177607536315918
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice02_pier_standard_01",
+      "vertices": 268,
+      "faces": 308,
+      "min": [
+        -28.184717178344727,
+        -0.11471596360206604,
+        4.982392311096191
+      ],
+      "max": [
+        -27.815282821655273,
+        0.09999999403953552,
+        5.177607536315918
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_centered_medium_03",
+      "vertices": 683,
+      "faces": 494,
+      "min": [
+        4.720001697540283,
+        -0.030000001192092896,
+        13.340306282043457
+      ],
+      "max": [
+        6.279998302459717,
+        0.18666666746139526,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_medium_02",
+      "vertices": 909,
+      "faces": 682,
+      "min": [
+        4.800004959106445,
+        -0.029999926686286926,
+        8.475306510925293
+      ],
+      "max": [
+        6.19999885559082,
+        0.1866973489522934,
+        10.099891662597656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_large_02",
+      "vertices": 1253,
+      "faces": 947,
+      "min": [
+        0.45000243186950684,
+        -0.0299999862909317,
+        8.475306510925293
+      ],
+      "max": [
+        2.549997568130493,
+        0.18666671216487885,
+        10.100005149841309
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_large_03",
+      "vertices": 863,
+      "faces": 638,
+      "min": [
+        0.3900017738342285,
+        -0.030000001192092896,
+        13.340306282043457
+      ],
+      "max": [
+        2.6099982261657715,
+        0.18666666746139526,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_medium_04",
+      "vertices": 600,
+      "faces": 454,
+      "min": [
+        4.800004959106445,
+        -0.02999994158744812,
+        17.220306396484375
+      ],
+      "max": [
+        6.19999885559082,
+        0.1866973340511322,
+        18.099891662597656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_large_04",
+      "vertices": 791,
+      "faces": 605,
+      "min": [
+        0.45000243186950684,
+        -0.030000001192092896,
+        17.220306396484375
+      ],
+      "max": [
+        2.549997568130493,
+        0.18666669726371765,
+        18.100006103515625
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_large_01",
+      "vertices": 1709,
+      "faces": 1272,
+      "min": [
+        -11.917783737182617,
+        -0.06778685748577118,
+        4.980262279510498
+      ],
+      "max": [
+        -9.082212448120117,
+        0.19999989867210388,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_windows",
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_tall_small_01",
+      "vertices": 1053,
+      "faces": 764,
+      "min": [
+        -3.5177865028381348,
+        -0.06778687238693237,
+        4.980262279510498
+      ],
+      "max": [
+        -1.4822098016738892,
+        0.19999989867210388,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_windows",
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_centered_small_03",
+      "vertices": 534,
+      "faces": 380,
+      "min": [
+        9.04000186920166,
+        -0.030000105500221252,
+        13.340306282043457
+      ],
+      "max": [
+        9.949997901916504,
+        0.18666666746139526,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_small_04",
+      "vertices": 454,
+      "faces": 316,
+      "min": [
+        9.04000186920166,
+        -0.030000105500221252,
+        17.69780731201172
+      ],
+      "max": [
+        9.949997901916504,
+        0.18666666746139526,
+        18.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_small_01",
+      "vertices": 714,
+      "faces": 524,
+      "min": [
+        9.04000186920166,
+        -0.03000009059906006,
+        4.590306282043457
+      ],
+      "max": [
+        9.949997901916504,
+        0.18666668236255646,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_medium_01",
+      "vertices": 999,
+      "faces": 734,
+      "min": [
+        4.720001697540283,
+        -0.0299999862909317,
+        4.590306282043457
+      ],
+      "max": [
+        6.279998302459717,
+        0.18666668236255646,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_large_01",
+      "vertices": 1355,
+      "faces": 1022,
+      "min": [
+        0.3900017738342285,
+        -0.0299999862909317,
+        4.590305805206299
+      ],
+      "max": [
+        2.6099982261657715,
+        0.18666668236255646,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_small_02",
+      "vertices": 624,
+      "faces": 452,
+      "min": [
+        9.04000186920166,
+        -0.03000009059906006,
+        8.957805633544922
+      ],
+      "max": [
+        9.949997901916504,
+        0.18666668236255646,
+        10.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_large_05",
+      "vertices": 5611,
+      "faces": 5775,
+      "min": [
+        -12.000000953674316,
+        0.07937544584274292,
+        20.0
+      ],
+      "max": [
+        -8.999999046325684,
+        0.25249916315078735,
+        22.624996185302734
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01",
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_large_010",
+      "vertices": 96,
+      "faces": 90,
+      "min": [
+        -16.0,
+        0.07937544584274292,
+        20.0
+      ],
+      "max": [
+        -12.999999046325684,
+        0.25249916315078735,
+        20.750001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_tall_large_08",
+      "vertices": 96,
+      "faces": 90,
+      "min": [
+        -16.0,
+        0.07937544584274292,
+        12.0
+      ],
+      "max": [
+        -12.999999046325684,
+        0.25249916315078735,
+        12.750001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_tall_large_03",
+      "vertices": 6311,
+      "faces": 6634,
+      "min": [
+        -12.000000953674316,
+        0.07937544584274292,
+        12.0
+      ],
+      "max": [
+        -8.999999046325684,
+        0.25249916315078735,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01",
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_large_02",
+      "vertices": 2088,
+      "faces": 1632,
+      "min": [
+        -11.500003814697266,
+        0.12000000476837158,
+        8.0
+      ],
+      "max": [
+        -9.5,
+        0.18666668236255646,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "window_tall_large_04",
+      "vertices": 2003,
+      "faces": 1557,
+      "min": [
+        -11.500003814697266,
+        0.12000000476837158,
+        16.0
+      ],
+      "max": [
+        -9.499999046325684,
+        0.18666671216487885,
+        18.624996185302734
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_large_06",
+      "vertices": 380,
+      "faces": 248,
+      "min": [
+        -15.917783737182617,
+        -0.06778685748577118,
+        4.980262279510498
+      ],
+      "max": [
+        -13.082212448120117,
+        0.19999989867210388,
+        5.132248878479004
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_tall_small_05",
+      "vertices": 1043,
+      "faces": 788,
+      "min": [
+        -3.4999983310699463,
+        0.07937544584274292,
+        20.0
+      ],
+      "max": [
+        -1.4999973773956299,
+        0.25249916315078735,
+        22.62489128112793
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01",
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_small_010",
+      "vertices": 76,
+      "faces": 58,
+      "min": [
+        -7.499998092651367,
+        0.07937544584274292,
+        20.0
+      ],
+      "max": [
+        -5.499997138977051,
+        0.25249916315078735,
+        20.750001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_tall_small_03",
+      "vertices": 1112,
+      "faces": 842,
+      "min": [
+        -3.4999983310699463,
+        0.07937544584274292,
+        12.0
+      ],
+      "max": [
+        -1.4999973773956299,
+        0.25249916315078735,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01",
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "window_tall_small_08",
+      "vertices": 76,
+      "faces": 58,
+      "min": [
+        -7.499998092651367,
+        0.07937544584274292,
+        12.0
+      ],
+      "max": [
+        -5.499997138977051,
+        0.25249916315078735,
+        12.750001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_tall_small_02",
+      "vertices": 1352,
+      "faces": 1024,
+      "min": [
+        -3.1733415126800537,
+        0.11999998986721039,
+        7.999999046325684
+      ],
+      "max": [
+        -1.8266777992248535,
+        0.18666666746139526,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "window_tall_small_04",
+      "vertices": 1327,
+      "faces": 1002,
+      "min": [
+        -3.173341751098633,
+        0.12000000476837158,
+        15.999999046325684
+      ],
+      "max": [
+        -1.8266754150390625,
+        0.1866973489522934,
+        18.62489128112793
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_tall_small_06",
+      "vertices": 184,
+      "faces": 116,
+      "min": [
+        -7.517786502838135,
+        -0.06778687238693237,
+        4.980262279510498
+      ],
+      "max": [
+        -5.4822096824646,
+        0.19999989867210388,
+        5.132248878479004
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_centered_double_03",
+      "vertices": 1068,
+      "faces": 760,
+      "min": [
+        12.29000186920166,
+        -0.030000105500221252,
+        13.340306282043457
+      ],
+      "max": [
+        14.699997901916504,
+        0.18666666746139526,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_double_04",
+      "vertices": 908,
+      "faces": 632,
+      "min": [
+        12.29000186920166,
+        -0.030000105500221252,
+        17.69780731201172
+      ],
+      "max": [
+        14.699997901916504,
+        0.18666666746139526,
+        18.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_double_01",
+      "vertices": 1428,
+      "faces": 1048,
+      "min": [
+        12.29000186920166,
+        -0.03000009059906006,
+        4.590306282043457
+      ],
+      "max": [
+        14.699997901916504,
+        0.18666668236255646,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_centered_double_02",
+      "vertices": 1248,
+      "faces": 904,
+      "min": [
+        12.29000186920166,
+        -0.03000009059906006,
+        8.957805633544922
+      ],
+      "max": [
+        14.699997901916504,
+        0.18666668236255646,
+        10.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_06",
+      "vertices": 534,
+      "faces": 380,
+      "min": [
+        16.290000915527344,
+        1.96999990940094,
+        13.340306282043457
+      ],
+      "max": [
+        17.19999885559082,
+        2.18666672706604,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_08",
+      "vertices": 454,
+      "faces": 316,
+      "min": [
+        16.290000915527344,
+        1.96999990940094,
+        17.69780731201172
+      ],
+      "max": [
+        17.19999885559082,
+        2.18666672706604,
+        18.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_02",
+      "vertices": 714,
+      "faces": 524,
+      "min": [
+        16.290000915527344,
+        1.96999990940094,
+        4.590306282043457
+      ],
+      "max": [
+        17.19999885559082,
+        2.18666672706604,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_04",
+      "vertices": 624,
+      "faces": 452,
+      "min": [
+        16.290000915527344,
+        1.96999990940094,
+        8.957805633544922
+      ],
+      "max": [
+        17.19999885559082,
+        2.18666672706604,
+        10.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_05",
+      "vertices": 534,
+      "faces": 380,
+      "min": [
+        17.790000915527344,
+        -0.03000009059906006,
+        13.340306282043457
+      ],
+      "max": [
+        18.69999885559082,
+        0.18666668236255646,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_07",
+      "vertices": 454,
+      "faces": 316,
+      "min": [
+        17.790000915527344,
+        -0.03000009059906006,
+        17.69780731201172
+      ],
+      "max": [
+        18.69999885559082,
+        0.18666668236255646,
+        18.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_01",
+      "vertices": 714,
+      "faces": 524,
+      "min": [
+        17.790000915527344,
+        -0.03000009059906006,
+        4.590306282043457
+      ],
+      "max": [
+        18.69999885559082,
+        0.18666668236255646,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_03",
+      "vertices": 624,
+      "faces": 452,
+      "min": [
+        17.790000915527344,
+        -0.03000009059906006,
+        8.957805633544922
+      ],
+      "max": [
+        18.69999885559082,
+        0.18666668236255646,
+        10.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_large_01",
+      "vertices": 44,
+      "faces": 30,
+      "min": [
+        -24.100000381469727,
+        -0.09999993443489075,
+        -1.0
+      ],
+      "max": [
+        -20.999998092651367,
+        3.000002861022949,
+        -0.4500000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_end_02",
+      "vertices": 35,
+      "faces": 23,
+      "min": [
+        -29.89999008178711,
+        -0.09999991208314896,
+        -1.000000238418579
+      ],
+      "max": [
+        -29.79999542236328,
+        0.3600001335144043,
+        -0.45000016689300537
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_end_01",
+      "vertices": 35,
+      "faces": 23,
+      "min": [
+        -30.199996948242188,
+        -0.09999989718198776,
+        -1.0000001192092896
+      ],
+      "max": [
+        -30.100000381469727,
+        0.3600001335144043,
+        -0.4500001072883606
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_standard_standard_01",
+      "vertices": 12,
+      "faces": 6,
+      "min": [
+        -20.0,
+        -0.09999993443489075,
+        -1.0
+      ],
+      "max": [
+        -17.0,
+        5.623690526590508e-07,
+        -0.4500000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_door_centered_large_01",
+      "vertices": 94,
+      "faces": 58,
+      "min": [
+        15.999998092651367,
+        -0.09999992698431015,
+        -1.000000238418579
+      ],
+      "max": [
+        18.999998092651367,
+        0.3600001037120819,
+        -0.4500000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_door_recessed_large_01",
+      "vertices": 70,
+      "faces": 46,
+      "min": [
+        7.999999046325684,
+        -0.09999991208314896,
+        -1.000000238418579
+      ],
+      "max": [
+        11.0,
+        0.3600001335144043,
+        -0.4500001072883606
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_garage_door_01",
+      "vertices": 140,
+      "faces": 92,
+      "min": [
+        0.9999990463256836,
+        -0.10000000149011612,
+        -1.000000238418579
+      ],
+      "max": [
+        7.0,
+        0.36000004410743713,
+        -0.45000016689300537
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_garage_centered_01",
+      "vertices": 164,
+      "faces": 114,
+      "min": [
+        -16.000001907348633,
+        -0.10000002384185791,
+        -1.000000238418579
+      ],
+      "max": [
+        -10.000004768371582,
+        0.36000004410743713,
+        -0.4500001072883606
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_garage_door_02",
+      "vertices": 140,
+      "faces": 92,
+      "min": [
+        0.9999990463256836,
+        1.9000000953674316,
+        -1.000000238418579
+      ],
+      "max": [
+        7.0,
+        2.3600001335144043,
+        -0.45000016689300537
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_door_recessed_small_01",
+      "vertices": 152,
+      "faces": 102,
+      "min": [
+        11.999996185302734,
+        -0.10000002384185791,
+        -1.000000238418579
+      ],
+      "max": [
+        14.999996185302734,
+        0.36000004410743713,
+        -0.4500001072883606
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_garage_double_01",
+      "vertices": 282,
+      "faces": 192,
+      "min": [
+        -9.00000286102295,
+        -0.10000002384185791,
+        -1.000000238418579
+      ],
+      "max": [
+        -5.125999450683594e-06,
+        0.36000004410743713,
+        -0.4500001072883606
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_door_centered_small_01",
+      "vertices": 153,
+      "faces": 102,
+      "min": [
+        19.999998092651367,
+        -0.09999995678663254,
+        -1.000000238418579
+      ],
+      "max": [
+        22.9999942779541,
+        0.3600001037120819,
+        -0.4500000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_small_01",
+      "vertices": 44,
+      "faces": 30,
+      "min": [
+        -27.100000381469727,
+        -0.09999993443489075,
+        -1.0
+      ],
+      "max": [
+        -24.999998092651367,
+        2.000002861022949,
+        -0.4500000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_large_02",
+      "vertices": 44,
+      "faces": 30,
+      "min": [
+        -24.0000057220459,
+        1.999997854232788,
+        -0.9999999403953552
+      ],
+      "max": [
+        -21.000003814697266,
+        5.000003814697266,
+        -0.44999998807907104
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_small_02",
+      "vertices": 44,
+      "faces": 30,
+      "min": [
+        -27.0000057220459,
+        2.999997854232788,
+        -0.9999999403953552
+      ],
+      "max": [
+        -25.000003814697266,
+        5.000003814697266,
+        -0.44999998807907104
+      ],
+      "materials": [
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "dado_pier_corner_01",
+      "vertices": 205,
+      "faces": 222,
+      "min": [
+        -29.130006790161133,
+        -0.1300058662891388,
+        -1.0
+      ],
+      "max": [
+        -28.729999542236328,
+        0.26999393105506897,
+        -0.24999994039535522
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_pier_corner_02",
+      "vertices": 184,
+      "faces": 209,
+      "min": [
+        -29.329994201660156,
+        0.569994330406189,
+        -1.0
+      ],
+      "max": [
+        -28.899999618530273,
+        1.0000004768371582,
+        -0.24999994039535522
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_pier_pedestal_01",
+      "vertices": 153,
+      "faces": 134,
+      "min": [
+        -28.200000762939453,
+        -0.1300000250339508,
+        -1.0
+      ],
+      "max": [
+        -27.799999237060547,
+        0.09999999403953552,
+        -0.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice03_standard_standard_01",
+      "vertices": 281,
+      "faces": 144,
+      "min": [
+        -19.999998092651367,
+        -0.030000001192092896,
+        3.9753072261810303
+      ],
+      "max": [
+        -17.000001907348633,
+        0.14624957740306854,
+        4.099999904632568
+      ],
+      "materials": [
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "cornice03_standard_corner_small_01",
+      "vertices": 373,
+      "faces": 198,
+      "min": [
+        -27.030000686645508,
+        -0.03000003844499588,
+        3.9753072261810303
+      ],
+      "max": [
+        -25.000001907348633,
+        1.9999983310699463,
+        4.099999904632568
+      ],
+      "materials": [
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "cornice03_standard_corner_large_01",
+      "vertices": 374,
+      "faces": 198,
+      "min": [
+        -24.030000686645508,
+        -0.03000003844499588,
+        3.9753072261810303
+      ],
+      "max": [
+        -21.000001907348633,
+        2.9999983310699463,
+        4.099999904632568
+      ],
+      "materials": [
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "cornice03_standard_corner_large_02",
+      "vertices": 374,
+      "faces": 198,
+      "min": [
+        -23.999998092651367,
+        2.0000016689300537,
+        3.9753072261810303
+      ],
+      "max": [
+        -20.823749542236328,
+        5.146249771118164,
+        4.099999904632568
+      ],
+      "materials": [
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "cornice03_standard_corner_small_02",
+      "vertices": 374,
+      "faces": 198,
+      "min": [
+        -26.999998092651367,
+        3.0000016689300537,
+        3.9753072261810303
+      ],
+      "max": [
+        -24.823749542236328,
+        5.146249771118164,
+        4.099999904632568
+      ],
+      "materials": [
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "base_standard_corner_large_01",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -24.19999885559082,
+        -0.20000004768371582,
+        -2.0
+      ],
+      "max": [
+        -20.999998092651367,
+        3.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_end_02",
+      "vertices": 53,
+      "faces": 38,
+      "min": [
+        -29.900001525878906,
+        -0.2000000923871994,
+        -2.0
+      ],
+      "max": [
+        -29.700000762939453,
+        8.742276236262114e-09,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_standard_standard_01",
+      "vertices": 10,
+      "faces": 8,
+      "min": [
+        -20.0,
+        -0.20000000298023224,
+        -2.0
+      ],
+      "max": [
+        -17.0,
+        0.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_end_01",
+      "vertices": 53,
+      "faces": 38,
+      "min": [
+        -30.299999237060547,
+        -0.20000004768371582,
+        -2.0
+      ],
+      "max": [
+        -30.099998474121094,
+        4.235143791220253e-08,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_standard_corner_small_01",
+      "vertices": 64,
+      "faces": 40,
+      "min": [
+        -27.19999885559082,
+        -0.20000004768371582,
+        -2.0
+      ],
+      "max": [
+        -24.999998092651367,
+        2.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_standard_corner_large_02",
+      "vertices": 52,
+      "faces": 40,
+      "min": [
+        -24.0,
+        2.0,
+        -2.0
+      ],
+      "max": [
+        -21.0,
+        5.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_standard_corner_small_02",
+      "vertices": 54,
+      "faces": 40,
+      "min": [
+        -27.0,
+        3.0,
+        -2.0
+      ],
+      "max": [
+        -25.0,
+        5.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_standard_standard_01",
+      "vertices": 45,
+      "faces": 48,
+      "min": [
+        -20.000003814697266,
+        -0.06778641045093536,
+        6.000262260437012
+      ],
+      "max": [
+        -16.999996185302734,
+        0.10041344165802002,
+        6.152247905731201
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_standard_corner_large_01",
+      "vertices": 205,
+      "faces": 144,
+      "min": [
+        -24.067787170410156,
+        -0.06779008358716965,
+        6.000263214111328
+      ],
+      "max": [
+        -21.0,
+        3.0,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_standard_corner_small_02",
+      "vertices": 191,
+      "faces": 144,
+      "min": [
+        -27.0,
+        2.9999964237213135,
+        6.000263214111328
+      ],
+      "max": [
+        -24.900001525878906,
+        5.09999942779541,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_pier_standard_01",
+      "vertices": 326,
+      "faces": 188,
+      "min": [
+        -28.21778678894043,
+        -0.14778810739517212,
+        6.000263214111328
+      ],
+      "max": [
+        -27.78220558166504,
+        0.020000018179416656,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_pier_corner_02",
+      "vertices": 249,
+      "faces": 146,
+      "min": [
+        -29.34779167175293,
+        0.5522130727767944,
+        6.000263214111328
+      ],
+      "max": [
+        -28.97999382019043,
+        0.9199999570846558,
+        6.139003276824951
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_end_01",
+      "vertices": 180,
+      "faces": 94,
+      "min": [
+        -30.317785263061523,
+        -0.06737466901540756,
+        6.000263214111328
+      ],
+      "max": [
+        -30.10000228881836,
+        0.10041345655918121,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_end_02",
+      "vertices": 175,
+      "faces": 94,
+      "min": [
+        -29.900009155273438,
+        -0.06737466901540756,
+        6.000263214111328
+      ],
+      "max": [
+        -29.682207107543945,
+        0.10041345655918121,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_pier_corner_01",
+      "vertices": 491,
+      "faces": 284,
+      "min": [
+        -29.147789001464844,
+        -0.14778810739517212,
+        6.000263214111328
+      ],
+      "max": [
+        -28.71220588684082,
+        0.28778693079948425,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_standard_corner_large_02",
+      "vertices": 205,
+      "faces": 144,
+      "min": [
+        -24.0,
+        1.9999964237213135,
+        6.000263214111328
+      ],
+      "max": [
+        -20.900001525878906,
+        5.09999942779541,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice01_standard_corner_small_01",
+      "vertices": 205,
+      "faces": 144,
+      "min": [
+        -27.067787170410156,
+        -0.06779008358716965,
+        6.000263214111328
+      ],
+      "max": [
+        -25.0,
+        2.0,
+        6.152248859405518
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_standard_standard_01",
+      "vertices": 62,
+      "faces": 32,
+      "min": [
+        -20.0,
+        -0.12999999523162842,
+        6.999999523162842
+      ],
+      "max": [
+        -17.0,
+        0.0,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_end_01",
+      "vertices": 222,
+      "faces": 160,
+      "min": [
+        -30.329998016357422,
+        -0.12999999523162842,
+        6.999999523162842
+      ],
+      "max": [
+        -30.099998474121094,
+        0.19999998807907104,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_end_02",
+      "vertices": 222,
+      "faces": 160,
+      "min": [
+        -29.899993896484375,
+        -0.12999999523162842,
+        6.999999523162842
+      ],
+      "max": [
+        -29.669994354248047,
+        0.19999998807907104,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_small_01",
+      "vertices": 221,
+      "faces": 160,
+      "min": [
+        -27.130001068115234,
+        -0.12999999523162842,
+        6.999999523162842
+      ],
+      "max": [
+        -25.0,
+        2.0,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_large_01",
+      "vertices": 222,
+      "faces": 160,
+      "min": [
+        -24.130001068115234,
+        -0.12999999523162842,
+        6.999999523162842
+      ],
+      "max": [
+        -21.0,
+        3.0,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_large_02",
+      "vertices": 220,
+      "faces": 160,
+      "min": [
+        -24.0,
+        1.9999961853027344,
+        6.999999523162842
+      ],
+      "max": [
+        -20.999996185302734,
+        5.0,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_small_02",
+      "vertices": 220,
+      "faces": 160,
+      "min": [
+        -27.0,
+        2.9999961853027344,
+        6.999999523162842
+      ],
+      "max": [
+        -24.999996185302734,
+        5.0,
+        7.319999694824219
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_pier_corner_01",
+      "vertices": 746,
+      "faces": 537,
+      "min": [
+        -29.209999084472656,
+        -0.20999999344348907,
+        6.999999523162842
+      ],
+      "max": [
+        -28.649999618530273,
+        0.3499997854232788,
+        7.32346773147583
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_pier_corner_02",
+      "vertices": 616,
+      "faces": 405,
+      "min": [
+        -29.40999984741211,
+        0.49000024795532227,
+        6.999999523162842
+      ],
+      "max": [
+        -29.000003814697266,
+        0.8999999761581421,
+        7.32346773147583
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_pier_pedestal_01",
+      "vertices": 428,
+      "faces": 310,
+      "min": [
+        -28.280000686645508,
+        -0.2099994421005249,
+        6.999999523162842
+      ],
+      "max": [
+        -27.719999313354492,
+        4.544854164123535e-07,
+        7.32346773147583
+      ],
+      "materials": [
+        "modular_factory_facade_trim_01"
+      ]
+    },
+    {
+      "name": "wall_standard_standard_01",
+      "vertices": 625,
+      "faces": 1152,
+      "min": [
+        -20.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        -17.0,
+        0.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_centered_large_01",
+      "vertices": 438,
+      "faces": 744,
+      "min": [
+        15.999998092651367,
+        0.0,
+        0.0
+      ],
+      "max": [
+        18.999998092651367,
+        0.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_05",
+      "vertices": 1990,
+      "faces": 1924,
+      "min": [
+        -12.0,
+        -0.015000006183981895,
+        20.0
+      ],
+      "max": [
+        -9.0,
+        0.2850000262260437,
+        22.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_01",
+      "vertices": 982,
+      "faces": 1256,
+      "min": [
+        -3.814697265625e-06,
+        0.0,
+        4.0
+      ],
+      "max": [
+        3.0,
+        0.20000000298023224,
+        6.999999523162842
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_medium_01",
+      "vertices": 920,
+      "faces": 1316,
+      "min": [
+        4.000000476837158,
+        0.0,
+        4.0
+      ],
+      "max": [
+        6.9999918937683105,
+        0.20000000298023224,
+        6.999999523162842
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_02",
+      "vertices": 1361,
+      "faces": 1540,
+      "min": [
+        -3.814697265625e-06,
+        -0.015000000596046448,
+        8.0
+      ],
+      "max": [
+        3.0,
+        0.23499999940395355,
+        10.999999046325684
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_medium_02",
+      "vertices": 1329,
+      "faces": 1584,
+      "min": [
+        3.9999923706054688,
+        -0.015000477433204651,
+        8.0
+      ],
+      "max": [
+        7.0,
+        0.23499999940395355,
+        10.999999046325684
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_02",
+      "vertices": 881,
+      "faces": 1344,
+      "min": [
+        8.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        11.0,
+        0.20000000298023224,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_01",
+      "vertices": 918,
+      "faces": 1356,
+      "min": [
+        8.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        11.0,
+        0.20000000298023224,
+        6.999999523162842
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_recessed_small_01",
+      "vertices": 1115,
+      "faces": 1504,
+      "min": [
+        11.999995231628418,
+        -6.020384546445712e-08,
+        -1.6763806343078613e-07
+      ],
+      "max": [
+        14.999996185302734,
+        0.2600001096725464,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_centered_small_01",
+      "vertices": 499,
+      "faces": 864,
+      "min": [
+        20.0,
+        0.0,
+        -2.384185791015625e-07
+      ],
+      "max": [
+        23.0,
+        0.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_recessed_large_01",
+      "vertices": 1091,
+      "faces": 1480,
+      "min": [
+        7.999995231628418,
+        3.2778604719396753e-08,
+        -1.30385160446167e-07
+      ],
+      "max": [
+        10.999996185302734,
+        0.26000019907951355,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_05",
+      "vertices": 1654,
+      "faces": 2044,
+      "min": [
+        -3.814697265625e-06,
+        -0.015000000596046448,
+        20.0
+      ],
+      "max": [
+        3.0,
+        0.23499999940395355,
+        23.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_medium_05",
+      "vertices": 1526,
+      "faces": 1920,
+      "min": [
+        3.9999923706054688,
+        -0.015000477433204651,
+        20.0
+      ],
+      "max": [
+        7.0,
+        0.23499999940395355,
+        23.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_06",
+      "vertices": 1555,
+      "faces": 2000,
+      "min": [
+        -16.0,
+        -1.4901161193847656e-08,
+        4.0
+      ],
+      "max": [
+        -13.0,
+        0.16999997198581696,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_010",
+      "vertices": 2329,
+      "faces": 2500,
+      "min": [
+        -16.0,
+        -0.015000006183981895,
+        20.0
+      ],
+      "max": [
+        -13.0,
+        0.2850000262260437,
+        22.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_08",
+      "vertices": 1517,
+      "faces": 1800,
+      "min": [
+        -16.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        -13.0,
+        0.16999994218349457,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_07",
+      "vertices": 1611,
+      "faces": 2016,
+      "min": [
+        -16.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        -13.0,
+        0.16999994218349457,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_01",
+      "vertices": 1222,
+      "faces": 1352,
+      "min": [
+        -12.0,
+        -1.4901161193847656e-08,
+        4.0
+      ],
+      "max": [
+        -9.0,
+        0.16999997198581696,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_03",
+      "vertices": 1190,
+      "faces": 1152,
+      "min": [
+        -12.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        -9.0,
+        0.17000003159046173,
+        15.000001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_02",
+      "vertices": 1148,
+      "faces": 1152,
+      "min": [
+        -12.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        -9.0,
+        0.16999994218349457,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_04",
+      "vertices": 2013,
+      "faces": 1924,
+      "min": [
+        -12.0,
+        -0.015000006183981895,
+        16.0
+      ],
+      "max": [
+        -9.0,
+        0.2850000262260437,
+        18.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_large_09",
+      "vertices": 2435,
+      "faces": 2716,
+      "min": [
+        -16.0,
+        -0.015000006183981895,
+        16.0
+      ],
+      "max": [
+        -13.0,
+        0.2850000262260437,
+        18.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_05",
+      "vertices": 2109,
+      "faces": 2092,
+      "min": [
+        -4.000000476837158,
+        -0.015000483021140099,
+        20.0
+      ],
+      "max": [
+        -0.9999995231628418,
+        0.2850000262260437,
+        22.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_010",
+      "vertices": 2311,
+      "faces": 2476,
+      "min": [
+        -8.0,
+        -0.015000483021140099,
+        20.0
+      ],
+      "max": [
+        -4.999999523162842,
+        0.2850000262260437,
+        22.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_03",
+      "vertices": 1423,
+      "faces": 1440,
+      "min": [
+        -4.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        -0.9999995231628418,
+        0.17000001668930054,
+        15.000001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_08",
+      "vertices": 1658,
+      "faces": 1872,
+      "min": [
+        -8.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        -4.999999523162842,
+        0.17000001668930054,
+        15.000001907348633
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_06",
+      "vertices": 1503,
+      "faces": 1916,
+      "min": [
+        -8.0,
+        -1.4901161193847656e-08,
+        4.0
+      ],
+      "max": [
+        -4.999999523162842,
+        0.16999998688697815,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_01",
+      "vertices": 1270,
+      "faces": 1484,
+      "min": [
+        -4.0,
+        -1.4901161193847656e-08,
+        4.0
+      ],
+      "max": [
+        -0.9999995231628418,
+        0.16999998688697815,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_02",
+      "vertices": 1400,
+      "faces": 1440,
+      "min": [
+        -4.0,
+        -1.4901161193847656e-08,
+        8.0
+      ],
+      "max": [
+        -1.0000147819519043,
+        0.16999995708465576,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_07",
+      "vertices": 1747,
+      "faces": 2016,
+      "min": [
+        -8.0,
+        -1.4901161193847656e-08,
+        7.999999523162842
+      ],
+      "max": [
+        -5.000014781951904,
+        0.16999995708465576,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_04",
+      "vertices": 2055,
+      "faces": 2092,
+      "min": [
+        -4.000000476837158,
+        -0.015000483021140099,
+        15.999999046325684
+      ],
+      "max": [
+        -1.00001060962677,
+        0.2850000262260437,
+        18.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_tall_small_09",
+      "vertices": 2349,
+      "faces": 2620,
+      "min": [
+        -8.0,
+        -0.015000483021140099,
+        15.999998092651367
+      ],
+      "max": [
+        -5.0000104904174805,
+        0.2850000262260437,
+        18.999998092651367
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_garage_door_02",
+      "vertices": 1815,
+      "faces": 2344,
+      "min": [
+        0.999995231628418,
+        1.9999998807907104,
+        -1.6763806343078613e-07
+      ],
+      "max": [
+        6.999996185302734,
+        2.260000228881836,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_garage_door_01",
+      "vertices": 1852,
+      "faces": 2344,
+      "min": [
+        0.999995231628418,
+        -6.020384546445712e-08,
+        -1.6763806343078613e-07
+      ],
+      "max": [
+        6.999996185302734,
+        0.2600001096725464,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_garage_centered_01",
+      "vertices": 1322,
+      "faces": 1992,
+      "min": [
+        -16.000003814697266,
+        -6.020384546445712e-08,
+        -5.960464477539063e-08
+      ],
+      "max": [
+        -10.000003814697266,
+        0.2600001096725464,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_medium_03",
+      "vertices": 886,
+      "faces": 1340,
+      "min": [
+        4.0,
+        -1.4901161193847656e-08,
+        12.0
+      ],
+      "max": [
+        7.0,
+        0.19999998807907104,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_03",
+      "vertices": 933,
+      "faces": 1352,
+      "min": [
+        0.0,
+        -1.4901161193847656e-08,
+        12.0
+      ],
+      "max": [
+        3.0,
+        0.19999998807907104,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_medium_04",
+      "vertices": 1288,
+      "faces": 1572,
+      "min": [
+        3.9999923706054688,
+        -0.015000492334365845,
+        16.0
+      ],
+      "max": [
+        7.0,
+        0.23499998450279236,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_04",
+      "vertices": 1343,
+      "faces": 1596,
+      "min": [
+        -3.814697265625e-06,
+        -0.015000015497207642,
+        16.0
+      ],
+      "max": [
+        3.0,
+        0.23499998450279236,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_medium_06",
+      "vertices": 1429,
+      "faces": 1764,
+      "min": [
+        3.9999923706054688,
+        -0.015000492334365845,
+        24.0
+      ],
+      "max": [
+        7.0,
+        0.23499998450279236,
+        27.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_06",
+      "vertices": 1524,
+      "faces": 1884,
+      "min": [
+        -3.814697265625e-06,
+        -0.015000015497207642,
+        24.0
+      ],
+      "max": [
+        3.0,
+        0.23499998450279236,
+        27.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_04",
+      "vertices": 818,
+      "faces": 1320,
+      "min": [
+        8.0,
+        -1.4901161193847656e-08,
+        16.0
+      ],
+      "max": [
+        11.0,
+        0.19999998807907104,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_03",
+      "vertices": 866,
+      "faces": 1332,
+      "min": [
+        8.0,
+        -1.4901161193847656e-08,
+        12.0
+      ],
+      "max": [
+        11.0,
+        0.19999998807907104,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_02",
+      "vertices": 1117,
+      "faces": 1536,
+      "min": [
+        12.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        15.0,
+        0.20000000298023224,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_01",
+      "vertices": 1193,
+      "faces": 1560,
+      "min": [
+        12.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        15.0,
+        0.20000000298023224,
+        6.999999523162842
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_04",
+      "vertices": 1015,
+      "faces": 1488,
+      "min": [
+        12.0,
+        -1.4901161193847656e-08,
+        16.0
+      ],
+      "max": [
+        15.0,
+        0.19999998807907104,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_03",
+      "vertices": 1057,
+      "faces": 1509,
+      "min": [
+        12.0,
+        -1.4901161193847656e-08,
+        12.0
+      ],
+      "max": [
+        15.0,
+        0.19999998807907104,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_02",
+      "vertices": 912,
+      "faces": 1356,
+      "min": [
+        16.0,
+        2.0,
+        4.0
+      ],
+      "max": [
+        19.0,
+        2.200000047683716,
+        6.999999523162842
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_04",
+      "vertices": 860,
+      "faces": 1344,
+      "min": [
+        16.0,
+        2.0,
+        8.0
+      ],
+      "max": [
+        19.0,
+        2.200000047683716,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_06",
+      "vertices": 859,
+      "faces": 1332,
+      "min": [
+        16.0,
+        2.0,
+        12.0
+      ],
+      "max": [
+        19.0,
+        2.200000047683716,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_08",
+      "vertices": 814,
+      "faces": 1320,
+      "min": [
+        16.0,
+        2.0,
+        16.0
+      ],
+      "max": [
+        19.0,
+        2.200000047683716,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_03",
+      "vertices": 878,
+      "faces": 1344,
+      "min": [
+        16.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        19.0,
+        0.20000000298023224,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_01",
+      "vertices": 904,
+      "faces": 1356,
+      "min": [
+        16.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        19.0,
+        0.20000000298023224,
+        6.999999523162842
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_07",
+      "vertices": 822,
+      "faces": 1320,
+      "min": [
+        16.0,
+        -1.4901161193847656e-08,
+        16.0
+      ],
+      "max": [
+        19.0,
+        0.19999998807907104,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_05",
+      "vertices": 853,
+      "faces": 1332,
+      "min": [
+        16.0,
+        -1.4901161193847656e-08,
+        12.0
+      ],
+      "max": [
+        19.0,
+        0.19999998807907104,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_centered_small_02",
+      "vertices": 499,
+      "faces": 864,
+      "min": [
+        20.0,
+        2.0,
+        -2.384185791015625e-07
+      ],
+      "max": [
+        23.0,
+        2.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_garage_double_01",
+      "vertices": 2144,
+      "faces": 2832,
+      "min": [
+        -9.000004768371582,
+        -6.020384546445712e-08,
+        -5.960464477539063e-08
+      ],
+      "max": [
+        -3.814697265625e-06,
+        0.2600001096725464,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_01",
+      "vertices": 792,
+      "faces": 1068,
+      "min": [
+        20.0,
+        -3.675685533721662e-08,
+        3.999999761581421
+      ],
+      "max": [
+        23.0,
+        0.19999997317790985,
+        7.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_03",
+      "vertices": 779,
+      "faces": 1056,
+      "min": [
+        20.0,
+        -3.675685533721662e-08,
+        8.0
+      ],
+      "max": [
+        23.0,
+        0.19999997317790985,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_05",
+      "vertices": 767,
+      "faces": 1044,
+      "min": [
+        20.0,
+        -3.675685533721662e-08,
+        12.0
+      ],
+      "max": [
+        23.0,
+        0.19999997317790985,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_07",
+      "vertices": 712,
+      "faces": 1032,
+      "min": [
+        20.0,
+        -3.675685533721662e-08,
+        16.0
+      ],
+      "max": [
+        23.0,
+        0.19999997317790985,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_04",
+      "vertices": 775,
+      "faces": 1056,
+      "min": [
+        20.0,
+        2.0,
+        8.0
+      ],
+      "max": [
+        23.0,
+        2.200000047683716,
+        11.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_06",
+      "vertices": 753,
+      "faces": 1044,
+      "min": [
+        20.0,
+        2.0,
+        12.0
+      ],
+      "max": [
+        23.0,
+        2.200000047683716,
+        15.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_08",
+      "vertices": 707,
+      "faces": 1032,
+      "min": [
+        20.0,
+        2.0,
+        16.0
+      ],
+      "max": [
+        23.0,
+        2.200000047683716,
+        19.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_02",
+      "vertices": 796,
+      "faces": 1068,
+      "min": [
+        20.0,
+        2.0,
+        3.999999761581421
+      ],
+      "max": [
+        23.0,
+        2.200000047683716,
+        7.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_door_recessed_small_02",
+      "vertices": 1118,
+      "faces": 1504,
+      "min": [
+        11.999995231628418,
+        1.9999998807907104,
+        -1.6763806343078613e-07
+      ],
+      "max": [
+        14.999996185302734,
+        2.260000228881836,
+        3.000000238418579
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_large_01",
+      "vertices": 1303,
+      "faces": 2400,
+      "min": [
+        -24.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        -21.0,
+        3.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_large_02",
+      "vertices": 1306,
+      "faces": 2400,
+      "min": [
+        -24.0,
+        2.0,
+        0.0
+      ],
+      "max": [
+        -21.0,
+        5.000000953674316,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_small_01",
+      "vertices": 900,
+      "faces": 1632,
+      "min": [
+        -27.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        -25.0,
+        2.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_small_02",
+      "vertices": 910,
+      "faces": 1632,
+      "min": [
+        -27.0,
+        3.0,
+        0.0
+      ],
+      "max": [
+        -25.0,
+        5.000000953674316,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_pier_corner_01",
+      "vertices": 535,
+      "faces": 576,
+      "min": [
+        -29.079999923706055,
+        -0.07999952882528305,
+        0.0
+      ],
+      "max": [
+        -28.779998779296875,
+        0.21999691426753998,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_pier_corner_02",
+      "vertices": 535,
+      "faces": 480,
+      "min": [
+        -29.279996871948242,
+        0.619998574256897,
+        0.0
+      ],
+      "max": [
+        -29.0,
+        0.9000000357627869,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "wall_pier_standard_01",
+      "vertices": 443,
+      "faces": 384,
+      "min": [
+        -28.149999618530273,
+        -0.08000011742115021,
+        0.0
+      ],
+      "max": [
+        -27.849998474121094,
+        0.0,
+        3.0
+      ],
+      "materials": [
+        "modular_factory_facade_brick"
+      ]
+    },
+    {
+      "name": "door_recessed_large_01",
+      "vertices": 994,
+      "faces": 806,
+      "min": [
+        8.340002059936523,
+        -0.030000001192092896,
+        0.0
+      ],
+      "max": [
+        10.659997940063477,
+        0.5000009536743164,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_garage",
+        "modular_factory_facade_brick_doors",
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "door_centered_large_01",
+      "vertices": 778,
+      "faces": 668,
+      "min": [
+        16.60000228881836,
+        -0.030000001192092896,
+        0.0
+      ],
+      "max": [
+        18.39999771118164,
+        0.205000102519989,
+        2.3299994468688965
+      ],
+      "materials": [
+        "modular_factory_facade_brick_doors",
+        "modular_factory_facade_windows"
+      ]
+    },
+    {
+      "name": "door_recessed_small_01",
+      "vertices": 1105,
+      "faces": 846,
+      "min": [
+        12.840002059936523,
+        -0.030000094324350357,
+        7.078051567077637e-08
+      ],
+      "max": [
+        14.159997940063477,
+        0.5000003576278687,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_garage",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_centered_small_01",
+      "vertices": 889,
+      "faces": 708,
+      "min": [
+        20.8700008392334,
+        -0.030000023543834686,
+        0.0
+      ],
+      "max": [
+        22.1299991607666,
+        0.20500008761882782,
+        2.3299994468688965
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_centered_small_02",
+      "vertices": 656,
+      "faces": 574,
+      "min": [
+        20.8700008392334,
+        1.9700000286102295,
+        0.0
+      ],
+      "max": [
+        22.1299991607666,
+        2.205000162124634,
+        2.3299994468688965
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_garage_door_02",
+      "vertices": 1813,
+      "faces": 1314,
+      "min": [
+        1.3400015830993652,
+        1.96999990940094,
+        7.078051567077637e-08
+      ],
+      "max": [
+        6.659998416900635,
+        2.5000009536743164,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_garage",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_garage_door_01",
+      "vertices": 1813,
+      "faces": 1314,
+      "min": [
+        1.3400015830993652,
+        -0.030000094324350357,
+        7.078051567077637e-08
+      ],
+      "max": [
+        6.659998416900635,
+        0.5000008344650269,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_garage",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_garage_centered_01",
+      "vertices": 708,
+      "faces": 468,
+      "min": [
+        -14.659997940063477,
+        -0.030000094324350357,
+        7.078051567077637e-08
+      ],
+      "max": [
+        -11.340002059936523,
+        0.5000008344650269,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "door_garage_double_01",
+      "vertices": 1416,
+      "faces": 936,
+      "min": [
+        -8.159997940063477,
+        -0.030000094324350357,
+        7.078051567077637e-08
+      ],
+      "max": [
+        -0.8400017619132996,
+        0.5000008344650269,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_garage"
+      ]
+    },
+    {
+      "name": "door_window_small_01",
+      "vertices": 1370,
+      "faces": 1098,
+      "min": [
+        20.290000915527344,
+        -0.030000127851963043,
+        4.0
+      ],
+      "max": [
+        22.8799991607666,
+        0.20500008761882782,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_brick_doors",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_03",
+      "vertices": 1280,
+      "faces": 1026,
+      "min": [
+        20.290000915527344,
+        -0.030000127851963043,
+        8.0
+      ],
+      "max": [
+        22.8799991607666,
+        0.20500008761882782,
+        10.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_brick_doors",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_05",
+      "vertices": 1190,
+      "faces": 954,
+      "min": [
+        20.290000915527344,
+        -0.030000127851963043,
+        12.0
+      ],
+      "max": [
+        22.8799991607666,
+        0.20500008761882782,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_brick_doors",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_07",
+      "vertices": 1110,
+      "faces": 890,
+      "min": [
+        20.290000915527344,
+        -0.030000127851963043,
+        16.0
+      ],
+      "max": [
+        22.8799991607666,
+        0.20500008761882782,
+        18.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_brick_doors",
+        "modular_factory_facade_windows_glass"
+      ]
+    },
+    {
+      "name": "door_recessed_small_02",
+      "vertices": 872,
+      "faces": 712,
+      "min": [
+        12.840002059936523,
+        1.96999990940094,
+        7.078051567077637e-08
+      ],
+      "max": [
+        14.159997940063477,
+        2.500000476837158,
+        2.739999532699585
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_garage",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_window_small_02",
+      "vertices": 1370,
+      "faces": 1098,
+      "min": [
+        20.1200008392334,
+        1.96999990940094,
+        4.0
+      ],
+      "max": [
+        22.69999885559082,
+        2.205000162124634,
+        6.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_window_small_04",
+      "vertices": 1280,
+      "faces": 1026,
+      "min": [
+        20.1200008392334,
+        1.96999990940094,
+        8.0
+      ],
+      "max": [
+        22.69999885559082,
+        2.205000162124634,
+        10.334999084472656
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_window_small_06",
+      "vertices": 1190,
+      "faces": 954,
+      "min": [
+        20.1200008392334,
+        1.96999990940094,
+        12.0
+      ],
+      "max": [
+        22.69999885559082,
+        2.205000162124634,
+        14.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_brick_doors"
+      ]
+    },
+    {
+      "name": "door_window_small_08",
+      "vertices": 1110,
+      "faces": 890,
+      "min": [
+        20.1200008392334,
+        1.96999990940094,
+        16.0
+      ],
+      "max": [
+        22.69999885559082,
+        2.205000162124634,
+        18.354999542236328
+      ],
+      "materials": [
+        "modular_factory_facade_windows",
+        "modular_factory_facade_windows_glass",
+        "modular_factory_facade_brick_doors"
+      ]
+    }
+  ],
+  "modular_fire_escape": [
+    {
+      "name": "modular_fire_escape_railing_middle",
+      "vertices": 1122,
+      "faces": 932,
+      "min": [
+        -2.3599839210510254,
+        -0.6018127202987671,
+        5.123857021331787
+      ],
+      "max": [
+        2.3513174057006836,
+        0.7848619222640991,
+        6.1079888343811035
+      ],
+      "materials": [
+        "modular_fire_escape_01"
+      ]
+    },
+    {
+      "name": "modular_fire_escape_platform_railing",
+      "vertices": 646,
+      "faces": 712,
+      "min": [
+        -0.8401068449020386,
+        -0.5907816886901855,
+        5.003652572631836
+      ],
+      "max": [
+        1.3938722610473633,
+        0.13959765434265137,
+        5.989367961883545
+      ],
+      "materials": [
+        "modular_fire_escape_01"
+      ]
+    },
+    {
+      "name": "modular_fire_escape_platform_middle",
+      "vertices": 2128,
+      "faces": 1244,
+      "min": [
+        -2.4008800983428955,
+        -0.5976550579071045,
+        3.351437568664551
+      ],
+      "max": [
+        2.392214059829712,
+        0.7667770385742188,
+        4.123857021331787
+      ],
+      "materials": [
+        "modular_fire_escape_02"
+      ]
+    },
+    {
+      "name": "modular_fire_escape_stairs",
+      "vertices": 6312,
+      "faces": 5810,
+      "min": [
+        -1.6078749895095825,
+        -0.6047808527946472,
+        -0.8973116874694824
+      ],
+      "max": [
+        1.3867638111114502,
+        0.766776978969574,
+        3.108213424682617
+      ],
+      "materials": [
+        "modular_fire_escape_01"
+      ]
+    },
+    {
+      "name": "modular_fire_escape_ladder_bottom",
+      "vertices": 880,
+      "faces": 632,
+      "min": [
+        3.485346794128418,
+        -0.6359028816223145,
+        -2.1375060081481934
+      ],
+      "max": [
+        4.260319709777832,
+        -0.5714890360832214,
+        4.328365325927734
+      ],
+      "materials": [
+        "modular_fire_escape_01"
+      ]
+    },
+    {
+      "name": "modular_fire_escape_railing_bottom",
+      "vertices": 1234,
+      "faces": 1036,
+      "min": [
+        -2.359983444213867,
+        -0.6228810548782349,
+        -1.876143455505371
+      ],
+      "max": [
+        2.3513176441192627,
+        0.7848618626594543,
+        -0.8920116424560547
+      ],
+      "materials": [
+        "modular_fire_escape_01.001"
+      ]
+    },
+    {
+      "name": "modular_fire_escape_platform_bottom",
+      "vertices": 1660,
+      "faces": 956,
+      "min": [
+        -2.4008803367614746,
+        -0.5976550579071045,
+        -3.64856219291687
+      ],
+      "max": [
+        2.392213821411133,
+        0.7667770385742188,
+        -2.876142740249634
+      ],
+      "materials": [
+        "modular_fire_escape_02"
+      ]
+    }
+  ],
+  "modular_urban_apartments_facade": [
+    {
+      "name": "door_angled_small_01",
+      "vertices": 1774,
+      "faces": 1360,
+      "min": [
+        4.8382415771484375,
+        -0.16175901889801025,
+        0.0
+      ],
+      "max": [
+        6.192966461181641,
+        1.192966341972351,
+        2.809999704360962
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_centered_small_01",
+      "vertices": 1774,
+      "faces": 1360,
+      "min": [
+        12.759997367858887,
+        -0.20000004768371582,
+        0.0
+      ],
+      "max": [
+        14.240002632141113,
+        0.24000000953674316,
+        2.809999704360962
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_centered_large_01",
+      "vertices": 2263,
+      "faces": 1711,
+      "min": [
+        8.459999084472656,
+        -0.20000004768371582,
+        0.0
+      ],
+      "max": [
+        10.54000473022461,
+        0.24000000953674316,
+        2.809999704360962
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_angled_large_01",
+      "vertices": 2479,
+      "faces": 1711,
+      "min": [
+        1.1261084079742432,
+        0.1261090636253357,
+        0.0
+      ],
+      "max": [
+        2.905097723007202,
+        1.9050984382629395,
+        2.809999704360962
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_offset_small_01",
+      "vertices": 1004,
+      "faces": 790,
+      "min": [
+        21.690000534057617,
+        -0.029999949038028717,
+        9.5367431640625e-07
+      ],
+      "max": [
+        22.809999465942383,
+        0.20000018179416656,
+        2.260000705718994
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects"
+      ]
+    },
+    {
+      "name": "door_offset_small_02",
+      "vertices": 1004,
+      "faces": 790,
+      "min": [
+        20.190000534057617,
+        1.9700000286102295,
+        9.5367431640625e-07
+      ],
+      "max": [
+        21.309999465942383,
+        2.200000286102295,
+        2.260000705718994
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects"
+      ]
+    },
+    {
+      "name": "door_centered_small_02",
+      "vertices": 1004,
+      "faces": 790,
+      "min": [
+        16.940000534057617,
+        -0.029999949038028717,
+        9.5367431640625e-07
+      ],
+      "max": [
+        18.059999465942383,
+        0.20000018179416656,
+        2.260000705718994
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects"
+      ]
+    },
+    {
+      "name": "door_window_small_01",
+      "vertices": 2244,
+      "faces": 1637,
+      "min": [
+        24.189990997314453,
+        -0.1500074714422226,
+        3.999999761581421
+      ],
+      "max": [
+        26.809999465942383,
+        0.24000000953674316,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_05",
+      "vertices": 2152,
+      "faces": 1597,
+      "min": [
+        24.189990997314453,
+        -0.1500074714422226,
+        8.000000953674316
+      ],
+      "max": [
+        26.809999465942383,
+        0.24000000953674316,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_09",
+      "vertices": 1745,
+      "faces": 1195,
+      "min": [
+        24.329999923706055,
+        -0.040474262088537216,
+        12.000000953674316
+      ],
+      "max": [
+        26.809999465942383,
+        0.21440011262893677,
+        14.260000228881836
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass",
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "door_window_small_03",
+      "vertices": 3014,
+      "faces": 2207,
+      "min": [
+        24.189990997314453,
+        3.799999952316284,
+        3.999999761581421
+      ],
+      "max": [
+        26.99000358581543,
+        4.239999771118164,
+        6.809999465942383
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_07",
+      "vertices": 2922,
+      "faces": 2167,
+      "min": [
+        24.189990997314453,
+        3.799999952316284,
+        8.0
+      ],
+      "max": [
+        26.99000358581543,
+        4.239999771118164,
+        10.809999465942383
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_011",
+      "vertices": 2515,
+      "faces": 1765,
+      "min": [
+        24.329999923706055,
+        3.799999952316284,
+        12.0
+      ],
+      "max": [
+        26.99000358581543,
+        4.239999771118164,
+        14.809999465942383
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass",
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "door_offset_small_04",
+      "vertices": 1774,
+      "faces": 1360,
+      "min": [
+        20.00999641418457,
+        5.800000190734863,
+        0.0
+      ],
+      "max": [
+        21.49000358581543,
+        6.239999771118164,
+        2.809999704360962
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_offset_small_03",
+      "vertices": 1774,
+      "faces": 1360,
+      "min": [
+        21.50999641418457,
+        3.799999952316284,
+        0.0
+      ],
+      "max": [
+        22.99000358581543,
+        4.239999771118164,
+        2.809999704360962
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_02",
+      "vertices": 2244,
+      "faces": 1637,
+      "min": [
+        24.190000534057617,
+        1.8499925136566162,
+        3.999999761581421
+      ],
+      "max": [
+        26.810009002685547,
+        2.240000009536743,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_04",
+      "vertices": 3014,
+      "faces": 2207,
+      "min": [
+        24.00999641418457,
+        5.800000190734863,
+        3.999999761581421
+      ],
+      "max": [
+        26.810009002685547,
+        6.239999771118164,
+        6.809999465942383
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_06",
+      "vertices": 2152,
+      "faces": 1597,
+      "min": [
+        24.190000534057617,
+        1.8499925136566162,
+        8.000000953674316
+      ],
+      "max": [
+        26.810009002685547,
+        2.240000009536743,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_08",
+      "vertices": 2922,
+      "faces": 2167,
+      "min": [
+        24.00999641418457,
+        5.800000190734863,
+        8.0
+      ],
+      "max": [
+        26.810009002685547,
+        6.239999771118164,
+        10.809999465942383
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "door_window_small_010",
+      "vertices": 1745,
+      "faces": 1195,
+      "min": [
+        24.190000534057617,
+        1.95952570438385,
+        12.000000953674316
+      ],
+      "max": [
+        26.670000076293945,
+        2.214400053024292,
+        14.260000228881836
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass",
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "door_window_small_012",
+      "vertices": 2515,
+      "faces": 1765,
+      "min": [
+        24.00999641418457,
+        5.800000190734863,
+        12.0
+      ],
+      "max": [
+        26.670000076293945,
+        6.239999771118164,
+        14.809999465942383
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass",
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_end_02",
+      "vertices": 146,
+      "faces": 90,
+      "min": [
+        -23.900001525878906,
+        -0.0400000624358654,
+        3.3999996185302734
+      ],
+      "max": [
+        -23.760000228881836,
+        0.09999994933605194,
+        3.6000001430511475
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_end_01",
+      "vertices": 144,
+      "faces": 90,
+      "min": [
+        -24.23999786376953,
+        -0.0400000624358654,
+        3.3999996185302734
+      ],
+      "max": [
+        -24.09999656677246,
+        0.09999994933605194,
+        3.6000001430511475
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_standard_01",
+      "vertices": 30,
+      "faces": 18,
+      "min": [
+        -3.0,
+        -0.03999999910593033,
+        3.3999996185302734
+      ],
+      "max": [
+        0.0,
+        0.0,
+        3.5999996662139893
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_angled_large_01",
+      "vertices": 267,
+      "faces": 180,
+      "min": [
+        -11.039999961853027,
+        -0.04000047594308853,
+        3.3999996185302734
+      ],
+      "max": [
+        -8.0,
+        2.999999523162842,
+        3.6000001430511475
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_angled_small_01",
+      "vertices": 259,
+      "faces": 180,
+      "min": [
+        -17.039997100830078,
+        -0.04000059515237808,
+        3.3999996185302734
+      ],
+      "max": [
+        -14.999998092651367,
+        1.9999994039535522,
+        3.5999999046325684
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_corner_large_01",
+      "vertices": 148,
+      "faces": 90,
+      "min": [
+        -7.039999961853027,
+        -0.04000008478760719,
+        3.3999998569488525
+      ],
+      "max": [
+        -3.999999761581421,
+        3.0,
+        3.6000001430511475
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_corner_large_02",
+      "vertices": 146,
+      "faces": 90,
+      "min": [
+        -7.0,
+        1.0,
+        3.4000003337860107
+      ],
+      "max": [
+        -3.999999761581421,
+        4.0,
+        3.6000001430511475
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_corner_small_01",
+      "vertices": 148,
+      "faces": 90,
+      "min": [
+        -14.039999961853027,
+        -0.040000010281801224,
+        3.3999996185302734
+      ],
+      "max": [
+        -12.0,
+        2.0,
+        3.5999999046325684
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_standard_corner_small_02",
+      "vertices": 140,
+      "faces": 90,
+      "min": [
+        -14.0,
+        2.0,
+        3.3999998569488525
+      ],
+      "max": [
+        -12.0,
+        4.0,
+        3.5999999046325684
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_pier_angled_01",
+      "vertices": 112,
+      "faces": 56,
+      "min": [
+        -18.247488021850586,
+        -0.09999998658895493,
+        3.3999993801116943
+      ],
+      "max": [
+        -17.750001907348633,
+        0.17677634954452515,
+        3.59999942779541
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_pier_corner_01",
+      "vertices": 112,
+      "faces": 56,
+      "min": [
+        -20.100000381469727,
+        -0.10000067204236984,
+        3.3999993801116943
+      ],
+      "max": [
+        -19.75,
+        0.24999909102916718,
+        3.59999942779541
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_pier_standard_01",
+      "vertices": 84,
+      "faces": 42,
+      "min": [
+        -22.17500114440918,
+        -0.09999994933605194,
+        3.3999993801116943
+      ],
+      "max": [
+        -21.825002670288086,
+        0.0,
+        3.59999942779541
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "cornice_pier_corner_02",
+      "vertices": 174,
+      "faces": 98,
+      "min": [
+        -20.349998474121094,
+        1.6500000953674316,
+        3.3999991416931152
+      ],
+      "max": [
+        -20.0,
+        1.9999985694885254,
+        3.599999189376831
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "crown_standard_angled_large_01",
+      "vertices": 2198,
+      "faces": 1500,
+      "min": [
+        -11.329999923706055,
+        -0.3300004005432129,
+        4.0
+      ],
+      "max": [
+        -8.0,
+        2.999999523162842,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_standard_standard_01",
+      "vertices": 1003,
+      "faces": 684,
+      "min": [
+        -3.000001907348633,
+        -0.33000001311302185,
+        4.0
+      ],
+      "max": [
+        -2.384185791015625e-07,
+        0.09999996423721313,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_standard_angled_small_01",
+      "vertices": 1759,
+      "faces": 1194,
+      "min": [
+        -17.329998016357422,
+        -0.33000051975250244,
+        4.0
+      ],
+      "max": [
+        -14.99999713897705,
+        1.9999994039535522,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_end_02",
+      "vertices": 631,
+      "faces": 442,
+      "min": [
+        -23.900001525878906,
+        -0.33000004291534424,
+        4.0
+      ],
+      "max": [
+        -23.470001220703125,
+        0.10000011324882507,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_end_01",
+      "vertices": 631,
+      "faces": 442,
+      "min": [
+        -24.529996871948242,
+        -0.33000004291534424,
+        4.0
+      ],
+      "max": [
+        -24.09999656677246,
+        0.10000011324882507,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_large_01",
+      "vertices": 2491,
+      "faces": 1700,
+      "min": [
+        -7.3300018310546875,
+        -0.33000001311302185,
+        4.0
+      ],
+      "max": [
+        -4.0,
+        3.000001907348633,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_large_02",
+      "vertices": 2314,
+      "faces": 1554,
+      "min": [
+        -7.000001907348633,
+        1.0,
+        4.0
+      ],
+      "max": [
+        -3.899998188018799,
+        4.100002765655518,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_small_01",
+      "vertices": 1908,
+      "faces": 1292,
+      "min": [
+        -14.330001831054688,
+        -0.32999998331069946,
+        3.999999761581421
+      ],
+      "max": [
+        -12.000000953674316,
+        2.000001907348633,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_standard_corner_small_02",
+      "vertices": 1730,
+      "faces": 1146,
+      "min": [
+        -14.000001907348633,
+        2.0000009536743164,
+        3.999999761581421
+      ],
+      "max": [
+        -11.899998664855957,
+        4.100002765655518,
+        4.75
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_pier_pedestal_01",
+      "vertices": 734,
+      "faces": 486,
+      "min": [
+        -22.354999542236328,
+        -0.42500004172325134,
+        3.944999933242798
+      ],
+      "max": [
+        -21.645000457763672,
+        0.09999994933605194,
+        4.779999732971191
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_pier_corner_01",
+      "vertices": 912,
+      "faces": 634,
+      "min": [
+        -20.424999237060547,
+        -0.4249998927116394,
+        3.944999933242798
+      ],
+      "max": [
+        -19.56999969482422,
+        0.4300007224082947,
+        4.78000020980835
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_pier_angled_01",
+      "vertices": 949,
+      "faces": 634,
+      "min": [
+        -18.626033782958984,
+        -0.4243406057357788,
+        3.944999933242798
+      ],
+      "max": [
+        -17.553943634033203,
+        0.4013808071613312,
+        4.78000020980835
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "crown_pier_corner_02",
+      "vertices": 956,
+      "faces": 680,
+      "min": [
+        -20.530000686645508,
+        1.469997525215149,
+        3.9449996948242188
+      ],
+      "max": [
+        -19.89999771118164,
+        2.099999189376831,
+        4.779999256134033
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_02"
+      ]
+    },
+    {
+      "name": "dado_end_02",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -23.90000343322754,
+        -0.0400003045797348,
+        -1.0
+      ],
+      "max": [
+        -23.76000213623047,
+        0.03999997675418854,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_end_01",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -24.23999786376953,
+        -0.040000032633543015,
+        -1.0
+      ],
+      "max": [
+        -24.099998474121094,
+        0.03999999165534973,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_centered_large_01",
+      "vertices": 91,
+      "faces": 48,
+      "min": [
+        8.000001907348633,
+        -0.0400003120303154,
+        -1.0
+      ],
+      "max": [
+        11.000001907348633,
+        0.03999999165534973,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_centered_small_01",
+      "vertices": 95,
+      "faces": 48,
+      "min": [
+        12.0,
+        -0.0400003120303154,
+        -1.0
+      ],
+      "max": [
+        15.0,
+        0.03999999165534973,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_angled_large_01",
+      "vertices": 120,
+      "faces": 80,
+      "min": [
+        0.9600000381469727,
+        -0.04000002145767212,
+        -1.0
+      ],
+      "max": [
+        4.0,
+        3.000000238418579,
+        -0.4999999403953552
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_angled_small_01",
+      "vertices": 128,
+      "faces": 80,
+      "min": [
+        4.960000038146973,
+        -0.040000200271606445,
+        -1.0
+      ],
+      "max": [
+        7.0,
+        1.9999998807907104,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_centered_small_02",
+      "vertices": 95,
+      "faces": 48,
+      "min": [
+        16.0,
+        -0.0400003120303154,
+        -1.0
+      ],
+      "max": [
+        19.0,
+        0.03999999165534973,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_offset_small_01",
+      "vertices": 80,
+      "faces": 40,
+      "min": [
+        20.0,
+        -0.0400003120303154,
+        -1.0
+      ],
+      "max": [
+        23.0,
+        0.03999999165534973,
+        -0.4999999403953552
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_offset_small_02",
+      "vertices": 80,
+      "faces": 40,
+      "min": [
+        19.999998092651367,
+        1.959999680519104,
+        -1.0
+      ],
+      "max": [
+        23.0,
+        2.0399999618530273,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_door_window_small_01",
+      "vertices": 136,
+      "faces": 80,
+      "min": [
+        23.999998092651367,
+        -0.0400003045797348,
+        -1.0
+      ],
+      "max": [
+        27.0,
+        0.03999999165534973,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_standard_01",
+      "vertices": 16,
+      "faces": 8,
+      "min": [
+        -3.0,
+        -0.040000032633543015,
+        -1.0
+      ],
+      "max": [
+        0.0,
+        0.0,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_angled_large_01",
+      "vertices": 120,
+      "faces": 80,
+      "min": [
+        -11.039999961853027,
+        -0.04000067710876465,
+        -1.0
+      ],
+      "max": [
+        -8.0,
+        2.999999523162842,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_angled_small_01",
+      "vertices": 112,
+      "faces": 72,
+      "min": [
+        -17.040000915527344,
+        -0.0400005578994751,
+        -1.0
+      ],
+      "max": [
+        -15.0,
+        1.9999995231628418,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_large_01",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -7.0400004386901855,
+        -0.040000058710575104,
+        -1.0
+      ],
+      "max": [
+        -4.0,
+        3.0,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_large_02",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -7.0,
+        1.0,
+        -1.0
+      ],
+      "max": [
+        -4.0,
+        4.0,
+        -0.5
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_small_01",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -14.040000915527344,
+        -0.04000004380941391,
+        -0.9999998807907104
+      ],
+      "max": [
+        -12.0,
+        2.0,
+        -0.49999988079071045
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_standard_corner_small_02",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -14.0,
+        2.0,
+        -0.9999998807907104
+      ],
+      "max": [
+        -12.0,
+        4.0,
+        -0.49999988079071045
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_pier_pedestal_01",
+      "vertices": 92,
+      "faces": 50,
+      "min": [
+        -22.19999885559082,
+        -0.13000042736530304,
+        -1.0
+      ],
+      "max": [
+        -21.80000114440918,
+        -4.76837158203125e-07,
+        -0.46000003814697266
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_pier_angled_01",
+      "vertices": 123,
+      "faces": 68,
+      "min": [
+        -18.289913177490234,
+        -0.12999998033046722,
+        -1.0
+      ],
+      "max": [
+        -17.720001220703125,
+        0.21920277178287506,
+        -0.46000003814697266
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_pier_corner_01",
+      "vertices": 123,
+      "faces": 68,
+      "min": [
+        -20.1299991607666,
+        -0.13000068068504333,
+        -1.0
+      ],
+      "max": [
+        -19.719999313354492,
+        0.27999910712242126,
+        -0.46000003814697266
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "dado_pier_corner_02",
+      "vertices": 204,
+      "faces": 122,
+      "min": [
+        -20.3799991607666,
+        1.6200000047683716,
+        -1.0
+      ],
+      "max": [
+        -20.0,
+        1.9999985694885254,
+        -0.46000009775161743
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "wall_door_centered_large_01",
+      "vertices": 1275,
+      "faces": 2256,
+      "min": [
+        8.00000286102295,
+        -4.3711395392165286e-08,
+        0.0
+      ],
+      "max": [
+        11.000000953674316,
+        -4.371138828673793e-08,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_angled_large_01",
+      "vertices": 3152,
+      "faces": 5736,
+      "min": [
+        0.9999985694885254,
+        -6.490946589110536e-07,
+        0.0
+      ],
+      "max": [
+        4.0,
+        2.999999761581421,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_angled_small_01",
+      "vertices": 2660,
+      "faces": 4800,
+      "min": [
+        4.999999046325684,
+        -6.451659828599077e-07,
+        0.0
+      ],
+      "max": [
+        7.0,
+        1.9999996423721313,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_angled_large_01",
+      "vertices": 3653,
+      "faces": 6696,
+      "min": [
+        0.9999990463256836,
+        -6.453693686125916e-07,
+        4.0
+      ],
+      "max": [
+        4.0,
+        2.999999761581421,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_angled_small_01",
+      "vertices": 2927,
+      "faces": 5312,
+      "min": [
+        4.999999046325684,
+        -6.453693686125916e-07,
+        4.0
+      ],
+      "max": [
+        7.0,
+        1.9999996423721313,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_01",
+      "vertices": 1647,
+      "faces": 2944,
+      "min": [
+        7.999999523162842,
+        0.0,
+        4.0
+      ],
+      "max": [
+        11.0,
+        0.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_02",
+      "vertices": 1636,
+      "faces": 2944,
+      "min": [
+        7.999999523162842,
+        0.0,
+        8.0
+      ],
+      "max": [
+        11.0,
+        0.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_angled_small_02",
+      "vertices": 2924,
+      "faces": 5312,
+      "min": [
+        4.999999046325684,
+        -6.449222951232514e-07,
+        8.0
+      ],
+      "max": [
+        7.0,
+        1.9999996423721313,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_angled_large_02",
+      "vertices": 3653,
+      "faces": 6696,
+      "min": [
+        0.9999990463256836,
+        -6.453693686125916e-07,
+        8.0
+      ],
+      "max": [
+        4.0,
+        2.999999761581421,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_large_03",
+      "vertices": 2489,
+      "faces": 4608,
+      "min": [
+        7.999999523162842,
+        0.0,
+        12.0
+      ],
+      "max": [
+        11.0,
+        0.18000012636184692,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_03",
+      "vertices": 3035,
+      "faces": 5504,
+      "min": [
+        16.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        19.0,
+        0.1800001561641693,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_02",
+      "vertices": 1696,
+      "faces": 2944,
+      "min": [
+        16.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        19.0,
+        0.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_double_01",
+      "vertices": 1676,
+      "faces": 2944,
+      "min": [
+        16.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        19.0,
+        0.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_centered_small_01",
+      "vertices": 1778,
+      "faces": 3264,
+      "min": [
+        12.0,
+        -4.3711395392165286e-08,
+        0.0
+      ],
+      "max": [
+        15.0,
+        0.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_centered_small_02",
+      "vertices": 1904,
+      "faces": 3520,
+      "min": [
+        16.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        19.0,
+        0.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_02",
+      "vertices": 2036,
+      "faces": 3776,
+      "min": [
+        12.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        15.0,
+        0.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_03",
+      "vertices": 2702,
+      "faces": 5056,
+      "min": [
+        12.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        15.0,
+        0.18000012636184692,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_centered_small_01",
+      "vertices": 2036,
+      "faces": 3776,
+      "min": [
+        12.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        15.0,
+        0.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_05",
+      "vertices": 2700,
+      "faces": 5056,
+      "min": [
+        20.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        23.0,
+        0.18000014126300812,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_03",
+      "vertices": 2050,
+      "faces": 3776,
+      "min": [
+        20.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        23.0,
+        0.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_01",
+      "vertices": 2041,
+      "faces": 3776,
+      "min": [
+        20.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        23.0,
+        0.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_06",
+      "vertices": 2737,
+      "faces": 5056,
+      "min": [
+        20.0,
+        2.0,
+        12.0
+      ],
+      "max": [
+        23.0,
+        2.180000066757202,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_04",
+      "vertices": 2046,
+      "faces": 3776,
+      "min": [
+        20.0,
+        2.0,
+        8.0
+      ],
+      "max": [
+        23.0,
+        2.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_window_offset_small_02",
+      "vertices": 2038,
+      "faces": 3776,
+      "min": [
+        20.0,
+        2.0,
+        4.0
+      ],
+      "max": [
+        23.0,
+        2.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_offset_small_01",
+      "vertices": 1906,
+      "faces": 3520,
+      "min": [
+        20.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        23.0,
+        0.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_offset_small_02",
+      "vertices": 1906,
+      "faces": 3520,
+      "min": [
+        20.0,
+        2.0,
+        0.0
+      ],
+      "max": [
+        23.0,
+        2.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_010",
+      "vertices": 2207,
+      "faces": 3968,
+      "min": [
+        24.0,
+        2.0,
+        12.0
+      ],
+      "max": [
+        27.0,
+        2.180000066757202,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_06",
+      "vertices": 1552,
+      "faces": 2688,
+      "min": [
+        24.0,
+        2.0,
+        8.0
+      ],
+      "max": [
+        27.0,
+        2.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_02",
+      "vertices": 1544,
+      "faces": 2688,
+      "min": [
+        24.0,
+        2.0,
+        4.0
+      ],
+      "max": [
+        27.0,
+        2.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_01",
+      "vertices": 1544,
+      "faces": 2688,
+      "min": [
+        24.0,
+        0.0,
+        4.0
+      ],
+      "max": [
+        27.0,
+        0.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_05",
+      "vertices": 1554,
+      "faces": 2688,
+      "min": [
+        24.0,
+        0.0,
+        8.0
+      ],
+      "max": [
+        27.0,
+        0.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_09",
+      "vertices": 2204,
+      "faces": 3968,
+      "min": [
+        24.0,
+        0.0,
+        12.0
+      ],
+      "max": [
+        27.0,
+        0.18000014126300812,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_013",
+      "vertices": 2083,
+      "faces": 3712,
+      "min": [
+        24.0,
+        6.0,
+        12.0
+      ],
+      "max": [
+        27.0,
+        6.180000305175781,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_08",
+      "vertices": 1426,
+      "faces": 2432,
+      "min": [
+        24.0,
+        6.0,
+        8.0
+      ],
+      "max": [
+        27.0,
+        6.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_04",
+      "vertices": 1416,
+      "faces": 2432,
+      "min": [
+        24.0,
+        6.0,
+        4.0
+      ],
+      "max": [
+        27.0,
+        6.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_012",
+      "vertices": 2073,
+      "faces": 3712,
+      "min": [
+        24.0,
+        4.0,
+        12.0
+      ],
+      "max": [
+        27.0,
+        4.180000305175781,
+        15.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_07",
+      "vertices": 1422,
+      "faces": 2432,
+      "min": [
+        24.0,
+        4.0,
+        8.0
+      ],
+      "max": [
+        27.0,
+        4.0,
+        11.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_window_small_03",
+      "vertices": 1415,
+      "faces": 2432,
+      "min": [
+        24.0,
+        4.0,
+        4.0
+      ],
+      "max": [
+        27.0,
+        4.0,
+        7.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_standard_01",
+      "vertices": 2401,
+      "faces": 4608,
+      "min": [
+        -3.000000476837158,
+        0.0,
+        0.0
+      ],
+      "max": [
+        0.0,
+        0.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_angled_large_01",
+      "vertices": 4361,
+      "faces": 8256,
+      "min": [
+        -11.000001907348633,
+        -6.490946589110536e-07,
+        0.0
+      ],
+      "max": [
+        -8.0,
+        2.999999761581421,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_angled_small_01",
+      "vertices": 3283,
+      "faces": 6144,
+      "min": [
+        -17.0,
+        -6.451659828599077e-07,
+        0.0
+      ],
+      "max": [
+        -15.0,
+        1.9999996423721313,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_large_01",
+      "vertices": 4802,
+      "faces": 9216,
+      "min": [
+        -7.000000476837158,
+        -1.3113418617649586e-07,
+        0.0
+      ],
+      "max": [
+        -4.0,
+        3.000000476837158,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_large_02",
+      "vertices": 4802,
+      "faces": 9216,
+      "min": [
+        -7.000000476837158,
+        1.0,
+        0.0
+      ],
+      "max": [
+        -3.9999990463256836,
+        4.000000953674316,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_small_01",
+      "vertices": 3234,
+      "faces": 6144,
+      "min": [
+        -14.0,
+        -5.7620482607489976e-08,
+        5.960465188081798e-08
+      ],
+      "max": [
+        -12.0,
+        2.000000238418579,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_standard_corner_small_02",
+      "vertices": 3234,
+      "faces": 6144,
+      "min": [
+        -14.0,
+        2.0,
+        5.960465188081798e-08
+      ],
+      "max": [
+        -11.999999046325684,
+        4.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_offset_small_04",
+      "vertices": 1775,
+      "faces": 3264,
+      "min": [
+        20.0,
+        6.0,
+        0.0
+      ],
+      "max": [
+        23.0,
+        6.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_door_offset_small_03",
+      "vertices": 1780,
+      "faces": 3264,
+      "min": [
+        20.0,
+        4.0,
+        0.0
+      ],
+      "max": [
+        23.0,
+        4.0,
+        3.000000476837158
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_pier_angled_01",
+      "vertices": 591,
+      "faces": 576,
+      "min": [
+        -18.17263412475586,
+        -0.049999989569187164,
+        0.0
+      ],
+      "max": [
+        -17.80000114440918,
+        0.14142106473445892,
+        3.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_pier_corner_01",
+      "vertices": 635,
+      "faces": 576,
+      "min": [
+        -20.049999237060547,
+        -0.05000067502260208,
+        0.0
+      ],
+      "max": [
+        -19.799999237060547,
+        0.19999909400939941,
+        3.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_pier_corner_02",
+      "vertices": 601,
+      "faces": 576,
+      "min": [
+        -20.299999237060547,
+        1.7000000476837158,
+        0.0
+      ],
+      "max": [
+        -20.0,
+        1.9999985694885254,
+        2.999999761581421
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "wall_pier_standard_01",
+      "vertices": 505,
+      "faces": 384,
+      "min": [
+        -22.125,
+        -0.04999995231628418,
+        0.0
+      ],
+      "max": [
+        -21.875,
+        0.0,
+        3.0
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_plaster"
+      ]
+    },
+    {
+      "name": "base_end_02",
+      "vertices": 53,
+      "faces": 38,
+      "min": [
+        -23.900001525878906,
+        -0.2000000923871994,
+        -2.0
+      ],
+      "max": [
+        -23.700000762939453,
+        8.742276236262114e-09,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_end_01",
+      "vertices": 53,
+      "faces": 38,
+      "min": [
+        -24.299999237060547,
+        -0.2000000923871994,
+        -2.0
+      ],
+      "max": [
+        -24.099998474121094,
+        8.742276236262114e-09,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_standard_01",
+      "vertices": 10,
+      "faces": 8,
+      "min": [
+        -3.0,
+        -0.20000000298023224,
+        -2.0
+      ],
+      "max": [
+        0.0,
+        0.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_angled_large_01",
+      "vertices": 101,
+      "faces": 64,
+      "min": [
+        -11.199999809265137,
+        -0.20000047981739044,
+        -2.0
+      ],
+      "max": [
+        -8.0,
+        2.999999761581421,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_angled_small_01",
+      "vertices": 89,
+      "faces": 64,
+      "min": [
+        -17.199996948242188,
+        -0.20000059902668,
+        -2.0
+      ],
+      "max": [
+        -14.999998092651367,
+        1.9999994039535522,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_corner_large_02",
+      "vertices": 54,
+      "faces": 40,
+      "min": [
+        -7.0,
+        1.0,
+        -2.0
+      ],
+      "max": [
+        -4.0,
+        4.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_corner_large_01",
+      "vertices": 70,
+      "faces": 40,
+      "min": [
+        -7.199999809265137,
+        -0.20000004768371582,
+        -2.0
+      ],
+      "max": [
+        -4.0,
+        3.0,
+        -1.25
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_corner_small_02",
+      "vertices": 56,
+      "faces": 40,
+      "min": [
+        -14.0,
+        2.0,
+        -1.999999761581421
+      ],
+      "max": [
+        -12.0,
+        4.0,
+        -1.249999761581421
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "base_corner_small_01",
+      "vertices": 68,
+      "faces": 40,
+      "min": [
+        -14.199999809265137,
+        -0.20000001788139343,
+        -1.999999761581421
+      ],
+      "max": [
+        -12.0,
+        2.0,
+        -1.249999761581421
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_centered_large_02",
+      "vertices": 1891,
+      "faces": 1264,
+      "min": [
+        8.439990997314453,
+        -0.1500074714422226,
+        8.300000190734863
+      ],
+      "max": [
+        10.560009002685547,
+        0.24000000953674316,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_angled_small_02",
+      "vertices": 1148,
+      "faces": 807,
+      "min": [
+        5.000218391418457,
+        0.00021797418594360352,
+        8.300000190734863
+      ],
+      "max": [
+        6.065687656402588,
+        1.0656869411468506,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_angled_large_02",
+      "vertices": 1891,
+      "faces": 1264,
+      "min": [
+        1.1820201873779297,
+        0.11130887269973755,
+        8.300000190734863
+      ],
+      "max": [
+        2.9545960426330566,
+        1.8838847875595093,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_large_01",
+      "vertices": 2139,
+      "faces": 1408,
+      "min": [
+        8.439990997314453,
+        -0.1500074714422226,
+        3.999999761581421
+      ],
+      "max": [
+        10.560009002685547,
+        0.24000000953674316,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_angled_small_01",
+      "vertices": 1240,
+      "faces": 847,
+      "min": [
+        5.000218391418457,
+        0.00021797418594360352,
+        3.999999761581421
+      ],
+      "max": [
+        6.065687656402588,
+        1.0656869411468506,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_angled_large_01",
+      "vertices": 2139,
+      "faces": 1408,
+      "min": [
+        1.146665096282959,
+        0.14666414260864258,
+        3.999999761581421
+      ],
+      "max": [
+        2.919240713119507,
+        1.919240117073059,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_large_03",
+      "vertices": 1344,
+      "faces": 730,
+      "min": [
+        8.630000114440918,
+        -0.040474262088537216,
+        12.45300006866455
+      ],
+      "max": [
+        10.369999885559082,
+        0.164400115609169,
+        14.137638092041016
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass",
+        "modular_urban_apartments_facade_trim_01"
+      ]
+    },
+    {
+      "name": "window_centered_double_02",
+      "vertices": 2296,
+      "faces": 1614,
+      "min": [
+        16.189990997314453,
+        -0.1500074714422226,
+        8.300000190734863
+      ],
+      "max": [
+        18.810009002685547,
+        0.24000000953674316,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_double_01",
+      "vertices": 2480,
+      "faces": 1694,
+      "min": [
+        16.189990997314453,
+        -0.1500074714422226,
+        3.999999761581421
+      ],
+      "max": [
+        18.810009002685547,
+        0.24000000953674316,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_double_03",
+      "vertices": 1482,
+      "faces": 810,
+      "min": [
+        16.329999923706055,
+        -0.040474262088537216,
+        12.45300006866455
+      ],
+      "max": [
+        18.670000076293945,
+        0.21440011262893677,
+        14.137638092041016
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01",
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_03",
+      "vertices": 1148,
+      "faces": 807,
+      "min": [
+        21.689990997314453,
+        -0.1500074714422226,
+        8.300000190734863
+      ],
+      "max": [
+        22.810009002685547,
+        0.24000000953674316,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_01",
+      "vertices": 1240,
+      "faces": 847,
+      "min": [
+        21.689990997314453,
+        -0.1500074714422226,
+        3.999999761581421
+      ],
+      "max": [
+        22.810009002685547,
+        0.24000000953674316,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_05",
+      "vertices": 741,
+      "faces": 405,
+      "min": [
+        21.829999923706055,
+        -0.040474262088537216,
+        12.45300006866455
+      ],
+      "max": [
+        22.670000076293945,
+        0.21440011262893677,
+        14.137638092041016
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01",
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_04",
+      "vertices": 1148,
+      "faces": 807,
+      "min": [
+        20.189990997314453,
+        1.8499925136566162,
+        8.300000190734863
+      ],
+      "max": [
+        21.310009002685547,
+        2.240000009536743,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_02",
+      "vertices": 1240,
+      "faces": 847,
+      "min": [
+        20.189990997314453,
+        1.8499925136566162,
+        3.999999761581421
+      ],
+      "max": [
+        21.310009002685547,
+        2.240000009536743,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_offset_small_06",
+      "vertices": 741,
+      "faces": 405,
+      "min": [
+        20.329999923706055,
+        1.95952570438385,
+        12.45300006866455
+      ],
+      "max": [
+        21.170000076293945,
+        2.214400053024292,
+        14.137638092041016
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01",
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_small_02",
+      "vertices": 1148,
+      "faces": 807,
+      "min": [
+        12.939990997314453,
+        -0.1500074714422226,
+        8.300000190734863
+      ],
+      "max": [
+        14.060009956359863,
+        0.24000000953674316,
+        10.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_small_01",
+      "vertices": 1240,
+      "faces": 847,
+      "min": [
+        12.939990997314453,
+        -0.1500074714422226,
+        3.999999761581421
+      ],
+      "max": [
+        14.060009956359863,
+        0.24000000953674316,
+        6.299999237060547
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    },
+    {
+      "name": "window_centered_small_03",
+      "vertices": 741,
+      "faces": 405,
+      "min": [
+        13.079999923706055,
+        -0.040474262088537216,
+        12.45300006866455
+      ],
+      "max": [
+        13.920000076293945,
+        0.21440011262893677,
+        14.137638092041016
+      ],
+      "materials": [
+        "modular_urban_apartments_facade_trim_01",
+        "modular_urban_apartments_facade_objects",
+        "modular_urban_apartments_facade_glass"
+      ]
+    }
+  ],
+  "street_lamp_02": [
+    {
+      "name": "street_lamp_02",
+      "vertices": 12752,
+      "faces": 20338,
+      "min": [
+        -0.19324660301208496,
+        -0.8067892789840698,
+        -0.394923597574234
+      ],
+      "max": [
+        0.19324655830860138,
+        2.31228973746056e-08,
+        1.2801183462142944
+      ],
+      "materials": [
+        "street_lamp_02",
+        "street_lamp_02_glass",
+        "street_lamp_02_bulb"
+      ]
+    }
+  ]
+}

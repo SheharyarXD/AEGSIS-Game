@@ -1,0 +1,7 @@
+{
+  "input": "public/assets/environment/premium/aegis-premium-architecture.glb",
+  "output": "public/assets/environment/premium/aegis-premium-architecture-optimized.glb",
+  "sourceBytes": 254827884,
+  "runtimeBytes": 72369064,
+  "meshes": 682
+}

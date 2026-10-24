@@ -1,0 +1,214 @@
+{
+  "name": "ground",
+  "quality": "MEDIUM",
+  "videoRecorded": true,
+  "method": "QA sets starting location, target view, weather and preloads assets. One actual keyboard Y drives the entire attack. No W/Shift, teleports or collision bypass during traversal.",
+  "errors": [],
+  "failure": "page.waitForFunction: Timeout 25000ms exceeded.\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\scripts\\phase10-cinematic-live.mjs:19:15",
+  "failureDiagnostics": {
+    "d": {
+      "colliders": 5262,
+      "environment": {
+        "worldSize": [
+          2048,
+          2048
+        ],
+        "district": "commercial",
+        "buildings": 971,
+        "tiles": 16,
+        "pending": 0,
+        "maxTiles": 16,
+        "loads": 42,
+        "unloads": 10,
+        "generationMs": 0.5,
+        "maxGenerationMs": 1.5999999940395355,
+        "collisionResident": true,
+        "worldColliders": 3985,
+        "quality": "MEDIUM",
+        "assetBytes": 23141372,
+        "pendingAssetLoads": 0,
+        "assetQueue": {
+          "active": 0,
+          "queued": 0,
+          "concurrency": 2,
+          "preparing": 0,
+          "decodedKeys": 154,
+          "timings": {
+            "files": 29,
+            "fetchMaxMs": 84.8999999910593,
+            "decodeMaxMs": 106.79999999701977,
+            "prepareMaxMs": 24.599999994039536
+          }
+        },
+        "textureBytesEstimate": 167513813.33333334,
+        "street": {
+          "plannedPropSlots": 68352,
+          "activeProps": 723
+        },
+        "destruction": {
+          "collapsePresentation": {
+            "ruins": 0,
+            "fallingMasses": 0,
+            "active": 0,
+            "ruinColliders": 0
+          },
+          "barrageRejection": null,
+          "adaptiveDestruction": false,
+          "destructionQuality": "MEDIUM",
+          "scheduler": {
+            "pending": 0,
+            "maxMs": 0.10000000894069672
+          },
+          "breaches": 0,
+          "effects": {
+            "scars": 0,
+            "fires": 0,
+            "particles": 0,
+            "particleCap": 112,
+            "explosions": {
+              "emitters": 0,
+              "lobes": 0,
+              "cap": 30
+            },
+            "batches": 5,
+            "wind": 1
+          },
+          "coldStates": 0,
+          "collapseShowcases": 4,
+          "supportedBuildings": 971,
+          "damagedBuildings": 0,
+          "brokenComponents": 0,
+          "activeDebris": 0,
+          "staticDebris": 0,
+          "debrisCap": 24,
+          "maxActivationMs": 0,
+          "states": []
+        },
+        "props": {
+          "registered": 292,
+          "broken": 0
+        },
+        "weather": "clear",
+        "hour": 15,
+        "night": 0,
+        "wetness": 0,
+        "snowCover": 0,
+        "particles": 0,
+        "lightningCount": 0,
+        "fogDensity": 0.0001986698710247116,
+        "gpu": {
+          "supported": true,
+          "samples": 240,
+          "meanMs": 10.797297200000006,
+          "p95Ms": 10.97424
+        }
+      },
+      "titan": {
+        "state": "IDLE",
+        "entries": 0,
+        "exits": 0,
+        "completed": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "ownsInput": false,
+        "building": null,
+        "wave": -1,
+        "impacts": 0,
+        "playerDisplacement": 188.05388528558706,
+        "age": 0,
+        "events": [],
+        "cameraCorrections": 0,
+        "reducedCameraMotion": false,
+        "message": "BREACH · ENTRY APPROACH OBSTRUCTED"
+      },
+      "timing": {
+        "samples": 900,
+        "p50Ms": 13.800000190734863,
+        "p95Ms": 14,
+        "p99Ms": 14,
+        "worstMs": 34.70000076293945,
+        "over50": 0,
+        "stages": {
+          "physics": {
+            "meanMs": 0.5220684040131515,
+            "maxMs": 11.200000002980232,
+            "lastMs": 0,
+            "calls": 2456
+          },
+          "city": {
+            "meanMs": 0.6812296418005946,
+            "maxMs": 9.300000011920929,
+            "lastMs": 1,
+            "calls": 2456
+          },
+          "render": {
+            "meanMs": 2.049959283419172,
+            "maxMs": 23,
+            "lastMs": 2.2999999970197678,
+            "calls": 2456
+          }
+        },
+        "spikes": [
+          {
+            "stage": "render",
+            "ms": 23,
+            "at": 15264.5
+          }
+        ]
+      },
+      "shaderPrograms": 102,
+      "mode": "play",
+      "quality": "MEDIUM",
+      "frameMs": 7,
+      "meanMs": 11.655666666666656,
+      "p95Ms": 14,
+      "simulationMs": 0,
+      "drawCalls": 177,
+      "triangles": 1134540,
+      "bodies": 1,
+      "activeBodies": 1,
+      "particles": 0,
+      "debris": 0,
+      "broken": 0,
+      "geometries": 182,
+      "textures": 192,
+      "loadingMs": 12760.79999999702,
+      "assetLoadMs": 386.5,
+      "position": [
+        172.00498962402344,
+        0.020096850395202592,
+        -76.01675415039062
+      ],
+      "state": "GROUND",
+      "health": 100,
+      "courseIndex": 0,
+      "stage": "course",
+      "crashes": 0,
+      "throws": 0,
+      "enemyHealth": [],
+      "missiles": 0
+    },
+    "t": {
+      "state": "IDLE",
+      "entries": 0,
+      "exits": 0,
+      "completed": 0,
+      "cooldown": 0,
+      "preparing": false,
+      "ownsInput": false,
+      "building": null,
+      "wave": -1,
+      "impacts": 0,
+      "playerDisplacement": 188.05388528558706,
+      "age": 0,
+      "events": [],
+      "cameraCorrections": 0,
+      "reducedCameraMotion": false,
+      "message": "BREACH · ENTRY APPROACH OBSTRUCTED"
+    },
+    "motion": [],
+    "clearance": null,
+    "failure": null
+  },
+  "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\first-route\\ground\\videos\\page@1719b26ee2a7321bae6b7bedbc70cbaa.webm"
+}

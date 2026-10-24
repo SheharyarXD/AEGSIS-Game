@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-10",
+  "browser": "155.0.8059.40",
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": [
+    1440,
+    900
+  ],
+  "headless": true,
+  "scenario": "Ground encounter, three pursuing enforcers; camera stationary",
+  "samples": 359,
+  "meanMs": 15.475766016713093,
+  "medianMs": 13.900000000000546,
+  "p95Ms": 20.899999999999636,
+  "diagnostics": {
+    "mode": "play",
+    "quality": "HIGH",
+    "frameMs": 13.899999999999636,
+    "meanMs": 23.296088019559903,
+    "p95Ms": 20.899999999999636,
+    "simulationMs": 0.29999999701976776,
+    "drawCalls": 301,
+    "triangles": 1515449,
+    "bodies": 4,
+    "activeBodies": 4,
+    "particles": 0,
+    "debris": 0,
+    "broken": 0,
+    "geometries": 39,
+    "textures": 57,
+    "loadingMs": 376.70000000298023,
+    "assetLoadMs": 356,
+    "position": [
+      0.008155551739037037,
+      0.02004284858703609,
+      -57.026214599609375
+    ],
+    "state": "GROUND",
+    "health": 40,
+    "courseIndex": 4,
+    "stage": "ground",
+    "crashes": 0,
+    "throws": 0,
+    "enemyHealth": [
+      95,
+      95,
+      95
+    ],
+    "missiles": 0
+  }
+}

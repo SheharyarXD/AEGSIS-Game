@@ -1,0 +1,53 @@
+[
+  {
+    "channel": "color",
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "slots": [
+      "stone_wall_03",
+      "old_stone_wall_02",
+      "brick_wall_006",
+      "concrete_pavement",
+      "metal_plate",
+      "rusty_metal_02"
+    ],
+    "mips": 12,
+    "compressedBytes": 2796240
+  },
+  {
+    "channel": "normal",
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "slots": [
+      "stone_wall_03",
+      "old_stone_wall_02",
+      "brick_wall_006",
+      "concrete_pavement",
+      "metal_plate",
+      "rusty_metal_02"
+    ],
+    "mips": 12,
+    "compressedBytes": 2796240
+  },
+  {
+    "channel": "orm",
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "slots": [
+      "stone_wall_03",
+      "old_stone_wall_02",
+      "brick_wall_006",
+      "concrete_pavement",
+      "metal_plate",
+      "rusty_metal_02"
+    ],
+    "mips": 12,
+    "compressedBytes": 2796240
+  }
+]

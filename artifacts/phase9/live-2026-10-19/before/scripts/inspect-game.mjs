@@ -1,0 +1,13 @@
+import {chromium} from '@playwright/test';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:900}});const errors=[],warnings=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());if(m.type()==='warning')warnings.push(m.text());});
+await page.goto('http://127.0.0.1:5173/?qa=1');
+await page.waitForFunction(()=>!!window.__AEGIS__,{timeout:60000});
+await page.waitForTimeout(3000);await page.screenshot({path:'artifacts/overhaul-title.png'});
+await page.evaluate(()=>window.__AEGIS__.start());
+await page.waitForTimeout(3000);await page.screenshot({path:'artifacts/overhaul-hangar.png'});
+const data=await page.evaluate(()=>window.aegisDiagnostics());
+await writeFile('artifacts/inspection.json',JSON.stringify({data,errors,warnings},null,2));console.log({data,errors,warnings});
+await browser.close();

@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-18T23:23:28.728Z",
+  "unit": {
+    "pass": 62,
+    "fail": 0
+  },
+  "build": true,
+  "steps": {
+    "unitExit": 0,
+    "typeExit": 0,
+    "buildExit": 0,
+    "auditExit": 0
+  }
+}

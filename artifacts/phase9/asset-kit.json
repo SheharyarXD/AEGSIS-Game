@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-10-18T18:01:06.318Z",
+  "source": "art/environment/phase9/demolition-and-living-block.blend",
+  "raw": 2130044,
+  "optimized": 937932,
+  "modules": [
+    "titan9_ruin_glass_0",
+    "titan9_ruin_glass_1",
+    "titan9_ruin_glass_2",
+    "titan9_ruin_gothic_0",
+    "titan9_ruin_gothic_1",
+    "titan9_ruin_gothic_2",
+    "titan9_ruin_industrial_0",
+    "titan9_ruin_industrial_1",
+    "titan9_ruin_industrial_2",
+    "titan9_breach_glass",
+    "titan9_breach_stone",
+    "titan9_breach_concrete",
+    "titan9_breach_floor",
+    "titan9_storefront",
+    "titan9_fire_escape",
+    "titan9_service_bank",
+    "titan9_railing",
+    "titan9_sedan",
+    "titan9_courtyard_span"
+  ],
+  "triangles": 31262
+}

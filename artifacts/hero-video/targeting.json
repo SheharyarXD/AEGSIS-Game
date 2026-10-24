@@ -1,0 +1,59 @@
+[
+ [
+  "soft lock at 20 m",
+  {
+   "label": "SOFT 20 M",
+   "soft": 1,
+   "hard": -1,
+   "hits": 0,
+   "launches": 0
+  }
+ ],
+ [
+  "soft lock at 50 m",
+  {
+   "label": "SOFT 50 M",
+   "soft": 1,
+   "hard": -1,
+   "hits": 0,
+   "launches": 0
+  }
+ ],
+ [
+  "soft lock at 100 m",
+  {
+   "label": "SOFT 100 M",
+   "soft": 1,
+   "hard": -1,
+   "hits": 0,
+   "launches": 0
+  }
+ ],
+ [
+  "pair fired from 100 m",
+  {
+   "label": "SOFT 95 M",
+   "soft": 0,
+   "hard": -1,
+   "hits": 2,
+   "launches": 2
+  }
+ ],
+ [
+  "pair shared between targets",
+  [
+   0,
+   1
+  ]
+ ],
+ [
+  "hard lock after swinging the view away and back",
+  {
+   "label": "LOCK 60 M",
+   "soft": -1,
+   "hard": 1,
+   "hits": 4,
+   "launches": 4
+  }
+ ]
+]

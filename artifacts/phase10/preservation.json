@@ -1,0 +1,280 @@
+{
+  "checkedAt": "2026-10-19T04:25:54.764Z",
+  "protectedFiles": [
+    {
+      "path": "src/audio/AudioSystem.ts",
+      "sha256": "42184a1bb6e231bdb1f2edb9cebb3c88ae94cd8dd45f0fc969800344946e3301",
+      "unchanged": true
+    },
+    {
+      "path": "src/camera/CameraRig.ts",
+      "sha256": "ff044d80abf2cd427b78eb074c8069cb02bb41cd99ebe497cddd70dc7790d2d1",
+      "unchanged": true
+    },
+    {
+      "path": "src/input/InputController.ts",
+      "sha256": "261050eb8fbb7aab000dbf1634f039a3e4af698ac534452af6eaf035a34815ec",
+      "unchanged": true
+    },
+    {
+      "path": "src/physics/PhysicsWorld.ts",
+      "sha256": "c9c05c5a9b7f5143049eb25d010bbedcbce53e8be9c2fe2bcb6bee38e0adf3a2",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/AegisIdentity.ts",
+      "sha256": "abae0c66f506c13201e3e2a002153ca7a362dd2a633dc14bf59a3e974cc5c36c",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/AegisMarkII.ts",
+      "sha256": "a2c79ddb055e113a7830b6ef34a9c34afe5757c38f00757d45b94e9bbcac67ef",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/AegisSuit.ts",
+      "sha256": "bf7cf8c42dc7104e84a8114c1bad0611107c87241462e316e540a8b6aac85533",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/assemblyManifest.ts",
+      "sha256": "c19e30e1d0cca6bd487ec72a0af04f3ffea8bbba806547bb51e550b08396276d",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/FlightState.ts",
+      "sha256": "8f20d982b3c8272167794d9ef8af315ad26867693efb0c229bb2a034cfa2e6a4",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/PlayerController.ts",
+      "sha256": "6a31cd58e6b06e03e33555597103c0dc7850bd8bc77787c0f0e97cb3b0134b68",
+      "unchanged": true
+    },
+    {
+      "path": "src/player/SuitAssembly.ts",
+      "sha256": "4b219e42bce7bd1fad92f9b4c5f13c540909176379c935300d9566afc342678e",
+      "unchanged": true
+    },
+    {
+      "path": "src/ui/Hud.ts",
+      "sha256": "7c01cd27e0593aa32aa38b36b7f8dc875a9dde4c994740d3e22bb442f0416f0c",
+      "unchanged": true
+    }
+  ],
+  "originals": [
+    {
+      "file": "art/external/art_deco_citadel.glb",
+      "sha256": "b852e65595f4d9816a8627ceab50e7de21eabb61f979b85b546f6ffe8c2c7577",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/Downtown City MegaKit[Standard].zip",
+      "sha256": "5b1a945576d54cdbb4ccc9c3d52711e6d530da74c74c586407ecc28b165335da",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/downtown_buildings_set_-_low_poly_model.glb",
+      "sha256": "073df274ae856ecf64bafc2173d54666f62d1dfe4c32a6f3a59b04f9586ffa02",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/free_london_skyscraper.glb",
+      "sha256": "f873b1447db97dd3029a3b4588318f60157f3c22152a2c0561399ca326bff4a2",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/gothic_architectural_structures.glb",
+      "sha256": "417dc69a55a53ee25560118c2ed380035c10d4064a5949f53b570c24721b9eeb",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/gothic_building_for_aria_pack_1.0.glb",
+      "sha256": "682bc3d9a8235c1f764b138cea7b660ae017634e922584996e2dea303475351a",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/industrial_asset_pack_free.glb",
+      "sha256": "271cfa2cc8290181f6f30f45096e00209ecc1a26fd163ba21e45d6f8f712dde7",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/industrial_buildings_set_-_low_poly_models.glb",
+      "sha256": "944e00eba19feb2f12c181cd78df6e54549d66d0b9a41d112df355fbfae3005c",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/mega_moduler_apartment_building.glb",
+      "sha256": "08b71609a1102eb29f1e4c880d15b27e1c4eab586a89a5bf1569395df4b9c358",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/modern_city_block.glb",
+      "sha256": "28694dd37f81873745ad6c1a23a9e00cd777033b85ed862c2cde89e2728bbcf5",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/pbr_street_props_pack_game_ready.glb",
+      "sha256": "856bc3f5d6f00762600280e712de67328be4618f100563f69f3e7583da91c941",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/rooftop_ventilation_modular_kit.glb",
+      "sha256": "48b6e6ba7fa707bd01219e526a640344d1b06ee3f5ee6640ce93c51804925056",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/scifi_gothic_building_pack-_bridge.glb",
+      "sha256": "6889cb7c4faea430ef6e8c32be4e9c38bd8f4e6a439c92012a4e230f2e9c1352",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/singapore_office_skyscraper_free.glb",
+      "sha256": "b4a3b40029908f8289223df5c435f510262feda4b65f068b484784bdd9682bbc",
+      "unchanged": true
+    },
+    {
+      "file": "art/external/urban_modular_environment.glb",
+      "sha256": "7bccd2ba4e1a5d7c5c0dc73b90f4c8436dd6eb8c526ab281106eb623d2ec6225",
+      "unchanged": true
+    }
+  ],
+  "changes": [
+    {
+      "file": "src/main.ts",
+      "before": "4206585a77bc5643f0785d27598989f45d3d460845158afe48b0acdbfc5d9099",
+      "after": "ef84a9860ded8a38905d304624a542a3c54a94e3fe879d53f57410a9b8113400"
+    },
+    {
+      "file": "src/combat/Encounter.ts",
+      "before": "a72725d9a6483b6199ee3dfe2bfdc9eb4a7c5e8b5bff19757f2c34ff3780f3dc",
+      "after": "cc8a312a2bbffea655b104d07fa6c394154b4b3126b0c9e285260b9e2b6df779"
+    },
+    {
+      "file": "src/combat/Missiles.ts",
+      "before": "b6e7cffc7b33c32b46c70c2021f70deb293af3fb0e17cf9347a3e32f8d90db04",
+      "after": "6d3f090e68dbb4b104d78bb5fd54a03b11a5279543822f786243a47998eec668"
+    },
+    {
+      "file": "src/world/ArchitectureDestruction.ts",
+      "before": "f717f64d8126e2e6786e77a3763a2bb348f9a69967054bf628bc62f0cef40e18",
+      "after": "80b3b74aa51dc1b3dd335592935a73364b185f052a2ec8675e1b4fad401bf726"
+    },
+    {
+      "file": "src/world/EnvironmentalDestruction.ts",
+      "before": "a64baf65277a1114f6b5a34e1efc7ac236ea60e5ab73fc1c1cf70100a90d94ad",
+      "after": "33547db885c7cce99e85026b3b9d12f150c1ecf367ab9fbb101176f5a0fc5c6d"
+    },
+    {
+      "file": "src/world/environment/ArchitecturalLights.ts",
+      "before": "ffa3866cce3c6a010f3d9e308390f1fa3c636c6620beea4a6a6e3f4c857bcd08",
+      "after": "caa2dcc352ac9576c624cc00dd3efbb561abae16ef671cf89065721279ab02eb"
+    },
+    {
+      "file": "src/world/environment/ArchitectureImpactEffects.ts",
+      "before": "d2db7cbd297add0357b27a6f7f0cdf06a6c9fb7cff56fb85790f1984c043a985",
+      "after": "2d8182fb775094ccce3ed63ef979a36fd03f5d18463eb04b61db2b4f1bd6b3f5"
+    },
+    {
+      "file": "src/world/environment/AssetLibrary.ts",
+      "before": "8b8ba79899869e3307d0e5b2c6399cef6d56bfcd51ef70ac341e0d917e3ee2af",
+      "after": "28002def5d1f52bea2eac06699f12e8b633c5c64a6bfe8e80888d208a0cdb11b"
+    },
+    {
+      "file": "src/world/environment/Atmosphere.ts",
+      "before": "f905c11710fcd610db42b215d7c1377fd4e917ec0fcf54ed067ee08a5782948f",
+      "after": "07ab12e170b04b02079ac81e61f2fb5d76225ac7e844304b298128f33de69c5b"
+    },
+    {
+      "file": "src/world/environment/EnvironmentMaterials.ts",
+      "before": "ecd318e5c2517c7c23e4e187bebc17b082f41e5e801e81d656438bfaa50f2513",
+      "after": "7fcfb1843c8acc9e1071b5211d38e354983567e21557f056fabd03c2d04ef640"
+    },
+    {
+      "file": "src/world/environment/PremiumMaterials.ts",
+      "before": "798914e6f74925225db25a6efb5373b4d79afcb042f0c799b29cd6bcdb0283fd",
+      "after": "d10f1660c2b5157ba1ccdf8610971f95ca1af1c4b8ae3292bfae9b34d0e8e486"
+    },
+    {
+      "file": "src/world/environment/StreetMaterials.ts",
+      "before": "5fff6cf09b0af60e9041f5a3579fac3535ad51794f21454ee77aaf2f859a0a62",
+      "after": "81584b07248db3b3d036f60af001e534b6f47addcdfaac98043aa432d07a18fb"
+    },
+    {
+      "file": "src/world/titan/BreachInteriors.ts",
+      "before": "48d116826de3367abf4115309beb8298dedc0715d673d52308f90a13aed40b43",
+      "after": "0fa01c1eeddad2313911bf423694fc3b38f4234adbc9866452710c3d020e5f82"
+    },
+    {
+      "file": "src/world/titan/ExplosionEffects.ts",
+      "before": "c413af016bbbf63d16f902ef71de29096458fd8f6ed82ed319e8b5277f8d9418",
+      "after": "a2aa3e994f25977e98eb916ac16ba07d6f100c01cf36de383730f2cab857419f"
+    },
+    {
+      "file": "src/world/titan/LivingBlock.ts",
+      "before": "d71f989be27d67c6cb0ae6a528332fa255c4744e67c45380a17e1373579eb979",
+      "after": "18589be7f1f891f58034ece6b85da4fbf947abc536e96bb45e32be06355bc6d1"
+    },
+    {
+      "file": "src/world/titan/TitanBreakthrough.ts",
+      "before": "ba8619323590d974e48dde6c5277ca8d5ad158ca4b9717dce57992d3716eb2d5",
+      "after": "400e76e0341243f1db3c2e60819a1ff2dbfd9260ffac887fd53fbc9b6c45c625"
+    },
+    {
+      "file": "package.json",
+      "before": "a0381f9a4e3f55e41d0749adda0d994cd920be201a5d8c782ec056ab336ef053",
+      "after": "087176596560377c71e22c28bb172473356675bd41f4b8b0fc8215bbf5a29d03"
+    }
+  ],
+  "newFiles": [
+    "src/world/titan/BreachAnimation.ts",
+    "src/world/titan/CinematicCamera.ts",
+    "src/world/titan/CinematicRoute.ts",
+    "src/world/titan/TitanCinematicAssault.ts",
+    "src/world/environment/SourceMaterialPolicy.ts",
+    "scripts/phase10-audit.mjs",
+    "scripts/phase10-cinematic-live.mjs",
+    "scripts/phase10-code-checks.mjs",
+    "scripts/phase10-export-poses.mjs",
+    "scripts/phase10-final-verification.mjs",
+    "scripts/phase10-finalize-checks.mjs",
+    "scripts/phase10-open-game.mjs",
+    "scripts/phase10-optimize-kit.mjs",
+    "scripts/phase10-overlap-probe.mjs",
+    "scripts/phase10-preflight-guard-refinement.py",
+    "scripts/phase10-presentation.mjs",
+    "scripts/phase10-production-smoke.mjs",
+    "scripts/phase10-report.mjs",
+    "scripts/phase10-review-browser.mjs",
+    "scripts/phase10-route-probe.mjs",
+    "scripts/phase10-weapons-performance.mjs",
+    "tests/phase10-camera.test.ts",
+    "tests/phase10-controller.test.ts",
+    "tests/phase10.browser.spec.mjs",
+    "tests/phase10.test.ts",
+    "docs/PHASE10-CODEX-TO-CLAUDE-HANDOFF.md",
+    "docs/PHASE10-PLAN.md",
+    "art/environment/phase10/build_cinematic_kit.py",
+    "art/environment/phase10/cinematic-corridors.blend",
+    "art/environment/phase10/cinematic-corridors.blend1",
+    "art/environment/phase10/README.md",
+    "art/animation/phase10/titan-breach-clips.json"
+  ],
+  "preserved": 234,
+  "assets": {
+    "file": "public/assets/environment/metropolis/phase10-cinematic-kit-optimized.glb",
+    "bytes": 229480,
+    "modules": [
+      "titan10_interior_office",
+      "titan10_interior_stone",
+      "titan10_interior_utility",
+      "titan10_lobby_canopy"
+    ],
+    "triangles": 8684,
+    "primitives": 13,
+    "normals": true,
+    "uvs": true,
+    "validIndices": true,
+    "license": "public/assets/environment/metropolis/PHASE10-LICENSES.txt"
+  }
+}

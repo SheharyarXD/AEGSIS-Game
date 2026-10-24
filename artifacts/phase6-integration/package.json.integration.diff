@@ -1,0 +1,17 @@
+--- backup/package.json
++++ main/package.json
+@@ -9,7 +9,13 @@
+     "preview": "vite preview",
+     "test": "node --import tsx --test tests/physics.test.ts",
+     "test:browser": "playwright test",
+-    "verify": "npm run test && npm run build && npm run test:browser"
++    "verify": "npm run test && npm run test:environment && npm run build && npm run test:integration:browser",
++    "test:environment": "node --import tsx --test tests/environment.test.ts tests/world-recovery.test.ts",
++    "test:environment:browser": "playwright test --config playwright.environment.config.mjs",
++    "test:integration:browser": "playwright test --config playwright.integration.config.mjs",
++    "capture:integration": "node scripts/integration-capture.mjs",
++    "perf:integration": "node scripts/integration-performance.mjs",
++    "capture:environment": "node scripts/environment-capture.mjs"
+   },
+   "dependencies": {
+     "@dimforge/rapier3d-compat": "^0.21.0",

@@ -1,0 +1,191 @@
+{
+  "source": "art/environment/phase8/titan-urban-and-fracture.blend",
+  "script": "art/environment/phase8/build_titan_kit.py",
+  "license": "public/assets/environment/metropolis/PHASE8-LICENSES.txt",
+  "raw": "public/assets/environment/metropolis/phase8-titan-kit.glb",
+  "optimized": "public/assets/environment/metropolis/phase8-titan-kit-optimized.glb",
+  "rawBytes": 974096,
+  "optimizedBytes": 185912,
+  "savingsPercent": 80.91440679358092,
+  "sourceSha256": "44c7df3bba869146c3c2b63a7298dc3227a0e422bfe389f7e725490fd5ad9f50",
+  "exportSha256": "15392083488b2d4393c9b75d1a286350a980d5d73aa8ec7966e8a6d78e1cef68",
+  "modules": [
+    {
+      "key": "titan_breach_frame",
+      "meshes": 27,
+      "primitives": 27,
+      "vertices": 4572,
+      "triangles": 2300,
+      "materials": [
+        "titan_steel",
+        "titan_concrete"
+      ]
+    },
+    {
+      "key": "titan_lobby_portal",
+      "meshes": 9,
+      "primitives": 9,
+      "vertices": 1608,
+      "triangles": 812,
+      "materials": [
+        "titan_stone",
+        "titan_interior",
+        "titan_glass",
+        "titan_steel",
+        "titan_lamp_glow"
+      ]
+    },
+    {
+      "key": "titan_stoop",
+      "meshes": 11,
+      "primitives": 11,
+      "vertices": 1440,
+      "triangles": 756,
+      "materials": [
+        "titan_stone",
+        "titan_steel"
+      ]
+    },
+    {
+      "key": "titan_basement_grate",
+      "meshes": 19,
+      "primitives": 19,
+      "vertices": 4104,
+      "triangles": 2052,
+      "materials": [
+        "titan_steel"
+      ]
+    },
+    {
+      "key": "titan_bike_rack",
+      "meshes": 6,
+      "primitives": 6,
+      "vertices": 672,
+      "triangles": 360,
+      "materials": [
+        "titan_steel"
+      ]
+    },
+    {
+      "key": "titan_courtyard_wall",
+      "meshes": 21,
+      "primitives": 21,
+      "vertices": 4536,
+      "triangles": 2268,
+      "materials": [
+        "titan_stone"
+      ]
+    },
+    {
+      "key": "titan_courtyard_gate",
+      "meshes": 16,
+      "primitives": 16,
+      "vertices": 3456,
+      "triangles": 1728,
+      "materials": [
+        "titan_stone"
+      ]
+    },
+    {
+      "key": "titan_historic_lamp",
+      "meshes": 14,
+      "primitives": 14,
+      "vertices": 1836,
+      "triangles": 944,
+      "materials": [
+        "titan_steel",
+        "titan_lamp_glow"
+      ]
+    },
+    {
+      "key": "titan_railing",
+      "meshes": 19,
+      "primitives": 19,
+      "vertices": 1452,
+      "triangles": 764,
+      "materials": [
+        "titan_steel",
+        "titan_stone"
+      ]
+    },
+    {
+      "key": "titan_fragment_stone",
+      "meshes": 1,
+      "primitives": 1,
+      "vertices": 24,
+      "triangles": 12,
+      "materials": [
+        "titan_stone"
+      ]
+    },
+    {
+      "key": "titan_fragment_glass",
+      "meshes": 1,
+      "primitives": 1,
+      "vertices": 18,
+      "triangles": 8,
+      "materials": [
+        "titan_glass"
+      ]
+    },
+    {
+      "key": "titan_fragment_concrete",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 96,
+      "triangles": 52,
+      "materials": [
+        "titan_concrete",
+        "titan_steel"
+      ]
+    },
+    {
+      "key": "titan_fragment_brick",
+      "meshes": 1,
+      "primitives": 1,
+      "vertices": 24,
+      "triangles": 12,
+      "materials": [
+        "titan_brick"
+      ]
+    },
+    {
+      "key": "titan_fragment_steel",
+      "meshes": 9,
+      "primitives": 9,
+      "vertices": 1944,
+      "triangles": 972,
+      "materials": [
+        "titan_steel"
+      ]
+    },
+    {
+      "key": "titan_fragment_composite",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 240,
+      "triangles": 120,
+      "materials": [
+        "titan_interior",
+        "titan_insulation"
+      ]
+    }
+  ],
+  "materials": [
+    "titan_steel",
+    "titan_concrete",
+    "titan_stone",
+    "titan_interior",
+    "titan_glass",
+    "titan_lamp_glow",
+    "titan_brick",
+    "titan_insulation"
+  ],
+  "primitives": 159,
+  "vertices": 26022,
+  "triangles": 13160,
+  "uvs": true,
+  "normals": true,
+  "finiteAttributes": true,
+  "validIndices": true
+}

@@ -1,0 +1,190 @@
+{
+  "asset": "aegis-pilot",
+  "output": {
+    "file": "public/assets/aegis-pilot.glb",
+    "bytes": 7257644,
+    "sha256": "ee3b90defa438b0425643ee7bafe7e9fc07d0bbd390545d0cbd022a4f00c7c24"
+  },
+  "geometry": {
+    "triangles": 68484,
+    "vertices": 37529,
+    "primitives": 4
+  },
+  "materials": [
+    {
+      "name": "24_shirt_0.3_0_0.001",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.82,
+      "emissive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "material_0.004",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.62,
+      "emissive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "24_suit_0.4_0_0.001",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.82,
+      "emissive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "24_trousers_0.4_0_0.001",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.82,
+      "emissive": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Image_1",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 42310,
+      "format": "image/webp"
+    },
+    {
+      "name": "Image_0",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 762302,
+      "format": "image/webp"
+    },
+    {
+      "name": "aegis-pilot-skin",
+      "size": [
+        2048,
+        1024
+      ],
+      "bytes": 76138,
+      "format": "image/webp"
+    },
+    {
+      "name": "Image_3",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 1280744,
+      "format": "image/webp"
+    },
+    {
+      "name": "Image_2",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 700750,
+      "format": "image/webp"
+    },
+    {
+      "name": "Image_4",
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 85304,
+      "format": "image/webp"
+    }
+  ],
+  "rig": {
+    "joints": 145,
+    "mounts": []
+  },
+  "animations": [
+    "aegis_fall",
+    "aegis_fall_fast",
+    "aegis_idle",
+    "aegis_land_medium",
+    "aegis_land_prep",
+    "aegis_land_soft",
+    "aegis_run",
+    "aegis_suitup",
+    "aegis_walk",
+    "Cannon_Charge",
+    "Cannon_Charge-cycle",
+    "flinch1",
+    "flinch2",
+    "flinch_heavy",
+    "Idle-cycle",
+    "Idlecombat-cycle",
+    "jump_1_up",
+    "jump_2_upwards-cycle",
+    "jump_3_midair-cycle",
+    "jump_4_falling-cycle",
+    "jump_5_hardlanding",
+    "lean_left-cycle",
+    "lean_right-cycle",
+    "running_nogun-cycle",
+    "walking_nogun-cycle"
+  ],
+  "source": {
+    "description": "Male character in a business suit, a static scanned model from Sketchfab",
+    "author": "Nathang30 (https://sketchfab.com/Nathang30)",
+    "url": "https://sketchfab.com/3d-models/tony-stark-86c267264a2e4903b8c2bcc1b972cb74",
+    "license": "CC-BY-NC-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "localSource": "art/aegis-hero/source/pilot-source.glb",
+    "motion": "Idle, walk and run are retargeted from the CMU Graphics Lab Motion Capture Database (BVH conversion by B. Hahne; sources in art/aegis-hero/source/mocap). The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217. Free for use in research and commercial projects."
+  },
+  "status": "PLACEHOLDER - non-commercial builds only",
+  "restrictions": [
+    "NonCommercial: must not ship in any build that earns money (ads, sales, in-app purchases).",
+    "ShareAlike: this derivative (re-faced, rigged, re-posed, re-textured at 2K) carries the same CC-BY-NC-SA 4.0 licence.",
+    "Attribution: credit the author and link the source wherever the game is distributed, and say that it was modified.",
+    "The source model depicts a third-party film character with a photographic face. The face has been changed here (see modifications), which lowers the resemblance; it does not clear it. The skin texture is still derived from the source's, the body and clothes are unchanged, and the uploader's licence never granted character or personal likeness rights. Replace with an original or properly licensed pilot before any public release."
+  ],
+  "modifications": [
+    "Scaled to 1.80 m, grounded, four meshes joined.",
+    "Face changed by art/aegis-hero/hero/pilot_face.py: beard, moustache and stubble painted out; hair and brows recoloured dark blond with synthesised strands; iris colour changed; jaw, chin, cheekbones, nose, eyes, brow, mouth, ears and haircut reshaped. The source file itself is untouched.",
+    "Fitted to the AEGIS gameplay skeleton; geometric skin weights; head weighted rigidly.",
+    "Re-posed from the source A-pose to the rig's T-pose bind pose.",
+    "Textures capped at 2K WebP."
+  ],
+  "swap": "Replace art/aegis-hero/source/pilot-source.glb, adjust the joint targets in art/aegis-hero/build_pilot.py, rebuild. The game only loads public/assets/aegis-pilot.glb."
+}

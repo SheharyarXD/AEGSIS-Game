@@ -1,0 +1,390 @@
+{
+  "result": {
+    "buildings": 971,
+    "tallBuildings": 22,
+    "lods": [
+      {
+        "id": 8014,
+        "family": "city_flatiron_1",
+        "height": 91,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10035,
+        "family": "city_flatiron_1",
+        "height": 110,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10038,
+        "family": "city_modernoffice_4",
+        "height": 105,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10042,
+        "family": "city_flatiron_1",
+        "height": 110,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10045,
+        "family": "city_modernoffice_4",
+        "height": 105,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10049,
+        "family": "city_flatiron_1",
+        "height": 110,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10053,
+        "family": "city_modernoffice_4",
+        "height": 105,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9011,
+        "family": "aer_gothic",
+        "height": 112.48,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10170,
+        "family": "city_flatiron_1",
+        "height": 110,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9003,
+        "family": "aer_glass",
+        "height": 225.12,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10173,
+        "family": "city_flatiron_1",
+        "height": 110,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9002,
+        "family": "city_singapore",
+        "height": 150.9956,
+        "parts": 1,
+        "geometry": [
+          {
+            "vertices": 20,
+            "triangles": 10,
+            "bounds": [
+              [
+                -0.5,
+                0,
+                -0.5
+              ],
+              [
+                0.5,
+                1,
+                0.5
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "components": 18915
+  },
+  "impacts": [
+    {
+      "stage": "windows",
+      "callMs": 35.29999999701977,
+      "diagnostics": {
+        "effects": {
+          "scars": 1,
+          "fires": 0,
+          "particles": 6,
+          "particleCap": 64
+        },
+        "coldStates": 0,
+        "collapseShowcases": 4,
+        "supportedBuildings": 971,
+        "damagedBuildings": 1,
+        "brokenComponents": 12,
+        "activeDebris": 16,
+        "staticDebris": 0,
+        "debrisCap": 16,
+        "maxActivationMs": 5.0999999940395355,
+        "states": [
+          {
+            "id": 235,
+            "family": "aer_glass",
+            "broken": 12,
+            "stage": "local",
+            "colliders": 317
+          }
+        ]
+      }
+    },
+    {
+      "stage": "wall",
+      "callMs": 14.600000001490116,
+      "diagnostics": {
+        "effects": {
+          "scars": 1,
+          "fires": 1,
+          "particles": 22,
+          "particleCap": 64
+        },
+        "coldStates": 0,
+        "collapseShowcases": 4,
+        "supportedBuildings": 971,
+        "damagedBuildings": 1,
+        "brokenComponents": 35,
+        "activeDebris": 16,
+        "staticDebris": 0,
+        "debrisCap": 16,
+        "maxActivationMs": 5.0999999940395355,
+        "states": [
+          {
+            "id": 235,
+            "family": "aer_glass",
+            "broken": 35,
+            "stage": "local",
+            "colliders": 294
+          }
+        ]
+      }
+    },
+    {
+      "stage": "structure",
+      "callMs": 8.799999997019768,
+      "diagnostics": {
+        "effects": {
+          "scars": 1,
+          "fires": 1,
+          "particles": 22,
+          "particleCap": 64
+        },
+        "coldStates": 0,
+        "collapseShowcases": 4,
+        "supportedBuildings": 971,
+        "damagedBuildings": 1,
+        "brokenComponents": 37,
+        "activeDebris": 16,
+        "staticDebris": 0,
+        "debrisCap": 16,
+        "maxActivationMs": 5.0999999940395355,
+        "states": [
+          {
+            "id": 235,
+            "family": "aer_glass",
+            "broken": 37,
+            "stage": "partial",
+            "colliders": 404
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

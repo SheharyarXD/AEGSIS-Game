@@ -1,0 +1,1892 @@
+{
+  "createdAt": "2026-10-18T18:27:43.992Z",
+  "status": "Code finalized; remaining live verification and performance matrix deferred at user request",
+  "unit": {
+    "pass": 62,
+    "fail": 0
+  },
+  "build": true,
+  "browser": {
+    "status": "deferred at user request"
+  },
+  "production": {
+    "status": "deferred at user request",
+    "passed": null
+  },
+  "deferred": [
+    "Remaining live gameplay checks",
+    "LOW/MEDIUM/HIGH/ULTRA performance matrix",
+    "Full browser regression and bundled production browser smoke",
+    "Final simultaneous-collapse-and-barrage recording after the stress-fixture input-order correction"
+  ],
+  "acceptance": [
+    {
+      "name": "ground",
+      "passed": true,
+      "displacement": 0.027497677286181323,
+      "launches": 8,
+      "dir": "acceptance-final/ground"
+    },
+    {
+      "name": "hover",
+      "passed": true,
+      "displacement": 0,
+      "launches": 8,
+      "dir": "acceptance-final/hover"
+    },
+    {
+      "name": "roof",
+      "passed": true,
+      "displacement": 0.022399736494442705,
+      "launches": 8,
+      "dir": "acceptance-roof/roof"
+    },
+    {
+      "name": "glass",
+      "passed": true,
+      "displacement": 0,
+      "launches": 8,
+      "dir": "acceptance-final/glass"
+    },
+    {
+      "name": "gothic",
+      "passed": true,
+      "displacement": 0,
+      "launches": 8,
+      "dir": "acceptance-final/gothic"
+    },
+    {
+      "name": "collapse",
+      "passed": true,
+      "launches": 6,
+      "dir": "acceptance-optimized/collapse"
+    }
+  ],
+  "performance": [
+    {
+      "scenario": "barrage",
+      "quality": "MEDIUM",
+      "errors": [],
+      "glCalls": [],
+      "fps": 32.16358977035937,
+      "meanMs": 31.09105691061756,
+      "p50": 27.899999999997817,
+      "p95": 34.79999999999927,
+      "p99": 69.5,
+      "worstMs": 97.29999999999927,
+      "over50": 4,
+      "over100": 0,
+      "final": {
+        "colliders": 5290,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "commercial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 42,
+          "unloads": 10,
+          "generationMs": 0.29999999701976776,
+          "maxGenerationMs": 1.4000000059604645,
+          "collisionResident": true,
+          "worldColliders": 3978,
+          "quality": "MEDIUM",
+          "assetBytes": 22910604,
+          "pendingAssetLoads": 0,
+          "assetQueue": {
+            "active": 0,
+            "queued": 0,
+            "concurrency": 2,
+            "preparing": 0,
+            "decodedKeys": 150,
+            "timings": {
+              "files": 28,
+              "fetchMaxMs": 85.59999999403954,
+              "decodeMaxMs": 140,
+              "prepareMaxMs": 31.5
+            }
+          },
+          "textureBytesEstimate": 167513813.33333334,
+          "street": {
+            "plannedPropSlots": 68352,
+            "activeProps": 723
+          },
+          "destruction": {
+            "collapsePresentation": {
+              "ruins": 0,
+              "fallingMasses": 0,
+              "active": 0,
+              "ruinColliders": 0
+            },
+            "barrageRejection": null,
+            "adaptiveDestruction": true,
+            "destructionQuality": "LOW",
+            "scheduler": {
+              "pending": 0,
+              "maxMs": 12.799999997019768
+            },
+            "breaches": 1,
+            "effects": {
+              "scars": 5,
+              "fires": 5,
+              "particles": 64,
+              "particleCap": 64,
+              "explosions": {
+                "emitters": 0,
+                "lobes": 0,
+                "cap": 18
+              },
+              "batches": 5,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 26,
+            "activeDebris": 3,
+            "staticDebris": 6,
+            "debrisCap": 16,
+            "maxActivationMs": 3.5,
+            "states": [
+              {
+                "id": 287,
+                "family": "city_meridian_arcade",
+                "broken": 26,
+                "stage": "local",
+                "collapsePending": false,
+                "integrity": 0.6666666666666666,
+                "colliders": 16
+              }
+            ]
+          },
+          "props": {
+            "registered": 292,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1200,
+          "lightningCount": 0,
+          "fogDensity": 0.0007871931115351739,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 27.814318399999994,
+            "p95Ms": 30.108576
+          }
+        },
+        "titan": {
+          "state": "cooldown",
+          "entries": 1,
+          "exits": 1,
+          "completed": 1,
+          "cooldown": 8.383333333332954,
+          "preparing": false,
+          "building": null,
+          "wave": 2,
+          "impacts": 8,
+          "playerDisplacement": 0,
+          "events": [
+            {
+              "time": 3.7499999999999916,
+              "kind": "acquire",
+              "position": [
+                172,
+                9.7,
+                -76
+              ]
+            },
+            {
+              "time": 4.766666666666655,
+              "kind": "wave",
+              "wave": 0
+            },
+            {
+              "time": 5.316666666666653,
+              "kind": "impact",
+              "wave": 0,
+              "position": [
+                172.2775072694422,
+                11.791598562892004,
+                -99.18292624401832
+              ]
+            },
+            {
+              "time": 5.566666666666652,
+              "kind": "impact",
+              "wave": 0,
+              "position": [
+                173.06261865238886,
+                11.791411839877156,
+                -99.1642728572873
+              ]
+            },
+            {
+              "time": 5.816666666666651,
+              "kind": "impact",
+              "wave": 0,
+              "position": [
+                171.51207148738303,
+                11.793905938608345,
+                -99.176039998711
+              ]
+            },
+            {
+              "time": 5.833333333333318,
+              "kind": "wave",
+              "wave": 1
+            },
+            {
+              "time": 6.5333333333333155,
+              "kind": "impact",
+              "wave": 1,
+              "position": [
+                172.44048728535046,
+                11.798772814932775,
+                -111.37715636965365
+              ]
+            },
+            {
+              "time": 6.783333333333315,
+              "kind": "impact",
+              "wave": 1,
+              "position": [
+                173.2301278511015,
+                11.798183608813265,
+                -111.34407929272516
+              ]
+            },
+            {
+              "time": 7.033333333333314,
+              "kind": "impact",
+              "wave": 1,
+              "position": [
+                171.64641591938334,
+                11.798335120931583,
+                -111.36854140340778
+              ]
+            },
+            {
+              "time": 7.04999999999998,
+              "kind": "wave",
+              "wave": 2
+            },
+            {
+              "time": 7.899999999999977,
+              "kind": "impact",
+              "wave": 2,
+              "position": [
+                172.59604995742245,
+                11.799194527443044,
+                -124.12272950089199
+              ]
+            },
+            {
+              "time": 8.149999999999984,
+              "kind": "impact",
+              "wave": 2,
+              "position": [
+                173.3945002861132,
+                11.799261704886577,
+                -124.10849074533627
+              ]
+            },
+            {
+              "time": 8.38333333333333,
+              "kind": "verified"
+            }
+          ]
+        },
+        "timing": {
+          "samples": 387,
+          "p50Ms": 27.799999237060547,
+          "p95Ms": 34.79999923706055,
+          "p99Ms": 69.5,
+          "worstMs": 777.9000244140625,
+          "over50": 7,
+          "stages": {
+            "physics": {
+              "meanMs": 1.7025839794975843,
+              "maxMs": 10.299999997019768,
+              "lastMs": 1.699999988079071,
+              "calls": 387
+            },
+            "city": {
+              "meanMs": 1.2940568476530316,
+              "maxMs": 26,
+              "lastMs": 0.5999999940395355,
+              "calls": 387
+            },
+            "render": {
+              "meanMs": 3.186304909275792,
+              "maxMs": 62.599999994039536,
+              "lastMs": 2.4000000059604645,
+              "calls": 387
+            }
+          },
+          "spikes": [
+            {
+              "stage": "render",
+              "ms": 52.70000000298023,
+              "at": 17890.59999999404
+            },
+            {
+              "stage": "render",
+              "ms": 62.599999994039536,
+              "at": 19985.09999999404
+            },
+            {
+              "stage": "render",
+              "ms": 29,
+              "at": 20019.29999999702
+            },
+            {
+              "stage": "city",
+              "ms": 26,
+              "at": 20442.29999999702
+            },
+            {
+              "stage": "render",
+              "ms": 35.900000005960464,
+              "at": 20478.29999999702
+            },
+            {
+              "stage": "city",
+              "ms": 24.400000005960464,
+              "at": 20506
+            },
+            {
+              "stage": "city",
+              "ms": 20.599999994039536,
+              "at": 20531.69999998808
+            },
+            {
+              "stage": "city",
+              "ms": 21.400000005960464,
+              "at": 23018.29999999702
+            }
+          ]
+        },
+        "shaderPrograms": 101,
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 34.69999999999709,
+        "meanMs": 31.242118863049093,
+        "p95Ms": 34.79999999999927,
+        "simulationMs": 1.699999988079071,
+        "drawCalls": 195,
+        "triangles": 1127514,
+        "bodies": 4,
+        "activeBodies": 3,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 211,
+        "textures": 192,
+        "loadingMs": 14555.5,
+        "assetLoadMs": 479.90000000596046,
+        "position": [
+          172,
+          9.7,
+          -76
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "titan": {
+        "state": "cooldown",
+        "entries": 1,
+        "exits": 1,
+        "completed": 1,
+        "cooldown": 8.383333333332954,
+        "preparing": false,
+        "building": null,
+        "wave": 2,
+        "impacts": 8,
+        "playerDisplacement": 0,
+        "events": [
+          {
+            "time": 3.7499999999999916,
+            "kind": "acquire",
+            "position": [
+              172,
+              9.7,
+              -76
+            ]
+          },
+          {
+            "time": 4.766666666666655,
+            "kind": "wave",
+            "wave": 0
+          },
+          {
+            "time": 5.316666666666653,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              172.2775072694422,
+              11.791598562892004,
+              -99.18292624401832
+            ]
+          },
+          {
+            "time": 5.566666666666652,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              173.06261865238886,
+              11.791411839877156,
+              -99.1642728572873
+            ]
+          },
+          {
+            "time": 5.816666666666651,
+            "kind": "impact",
+            "wave": 0,
+            "position": [
+              171.51207148738303,
+              11.793905938608345,
+              -99.176039998711
+            ]
+          },
+          {
+            "time": 5.833333333333318,
+            "kind": "wave",
+            "wave": 1
+          },
+          {
+            "time": 6.5333333333333155,
+            "kind": "impact",
+            "wave": 1,
+            "position": [
+              172.44048728535046,
+              11.798772814932775,
+              -111.37715636965365
+            ]
+          },
+          {
+            "time": 6.783333333333315,
+            "kind": "impact",
+            "wave": 1,
+            "position": [
+              173.2301278511015,
+              11.798183608813265,
+              -111.34407929272516
+            ]
+          },
+          {
+            "time": 7.033333333333314,
+            "kind": "impact",
+            "wave": 1,
+            "position": [
+              171.64641591938334,
+              11.798335120931583,
+              -111.36854140340778
+            ]
+          },
+          {
+            "time": 7.04999999999998,
+            "kind": "wave",
+            "wave": 2
+          },
+          {
+            "time": 7.899999999999977,
+            "kind": "impact",
+            "wave": 2,
+            "position": [
+              172.59604995742245,
+              11.799194527443044,
+              -124.12272950089199
+            ]
+          },
+          {
+            "time": 8.149999999999984,
+            "kind": "impact",
+            "wave": 2,
+            "position": [
+              173.3945002861132,
+              11.799261704886577,
+              -124.10849074533627
+            ]
+          },
+          {
+            "time": 8.38333333333333,
+            "kind": "verified"
+          }
+        ]
+      },
+      "launches": [
+        {
+          "time": 4.8333333333333215,
+          "mode": "standard",
+          "wave": 0,
+          "token": 1,
+          "position": [
+            171.80587787406432,
+            11.537466800982122,
+            -75.98140666068005
+          ],
+          "aim": [
+            172.30062029966535,
+            11.80000000000286,
+            -100.23282363106988
+          ]
+        },
+        {
+          "time": 5.083333333333321,
+          "mode": "standard",
+          "wave": 0,
+          "token": 1,
+          "position": [
+            172.1966720961089,
+            11.536973666831692,
+            -75.97412545671708
+          ],
+          "aim": [
+            173.10068180278077,
+            11.80000000000286,
+            -100.23281935143672
+          ]
+        },
+        {
+          "time": 5.33333333333332,
+          "mode": "standard",
+          "wave": 0,
+          "token": 1,
+          "position": [
+            171.80444036586312,
+            11.582735680010591,
+            -75.97127295599448
+          ],
+          "aim": [
+            171.50055871669818,
+            11.80000000000286,
+            -100.23282147389668
+          ]
+        },
+        {
+          "time": 5.899999999999984,
+          "mode": "standard",
+          "wave": 1,
+          "token": 1,
+          "position": [
+            172.19512413693758,
+            11.583031337511091,
+            -75.97899863001655
+          ],
+          "aim": [
+            172.44211203074852,
+            11.80000000000286,
+            -111.63838795393698
+          ]
+        },
+        {
+          "time": 6.1499999999999835,
+          "mode": "standard",
+          "wave": 1,
+          "token": 1,
+          "position": [
+            171.80718286740185,
+            11.536461923400381,
+            -75.97392895135152
+          ],
+          "aim": [
+            173.24217352203402,
+            11.80000000000286,
+            -111.63838272070288
+          ]
+        },
+        {
+          "time": 6.399999999999983,
+          "mode": "standard",
+          "wave": 1,
+          "token": 1,
+          "position": [
+            172.19402953912717,
+            11.536503103686648,
+            -75.97401858353898
+          ],
+          "aim": [
+            171.64205044482387,
+            11.80000000000286,
+            -111.63838555836355
+          ]
+        },
+        {
+          "time": 7.116666666666647,
+          "mode": "standard",
+          "wave": 2,
+          "token": 1,
+          "position": [
+            171.80606668730445,
+            11.582853727559977,
+            -75.97987177905696
+          ],
+          "aim": [
+            172.59964295761276,
+            11.80000000000286,
+            -124.33686231308484
+          ]
+        },
+        {
+          "time": 7.366666666666646,
+          "mode": "standard",
+          "wave": 2,
+          "token": 1,
+          "position": [
+            172.19592261399677,
+            11.582406219759893,
+            -75.97407554580253
+          ],
+          "aim": [
+            173.39929864795113,
+            11.80000000000286,
+            -124.3041457067601
+          ]
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "internal": [
+        1280,
+        720
+      ],
+      "heap": {
+        "used": 372468457,
+        "total": 422755645
+      },
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1900,
+        "largeAllocations": [
+          {
+            "pid": 42380,
+            "name": "chrome.exe",
+            "dedicatedBytes": 318840832,
+            "sharedBytes": 241266688
+          },
+          {
+            "pid": 37740,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 1351024640,
+            "sharedBytes": 338735104
+          },
+          {
+            "pid": 30268,
+            "name": "Code.exe",
+            "dedicatedBytes": 69840896,
+            "sharedBytes": 27009024
+          },
+          {
+            "pid": 15152,
+            "name": "explorer.exe",
+            "dedicatedBytes": 68747264,
+            "sharedBytes": 2490368
+          },
+          {
+            "pid": 15192,
+            "name": "dwm.exe",
+            "dedicatedBytes": 202092544,
+            "sharedBytes": 19681280
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-18T18:14:10.8602424Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 241266688,
+            "dedicatedBytes": 318840832
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "passed": true,
+      "source": "performance-weapons-MEDIUM-final/results.json"
+    },
+    {
+      "scenario": "demolition",
+      "quality": "MEDIUM",
+      "errors": [],
+      "glCalls": [],
+      "fps": 45.181454551357845,
+      "meanMs": 22.13297491038714,
+      "p50": 20.80000000000291,
+      "p95": 27.89999999999418,
+      "p99": 48.70000000000073,
+      "worstMs": 152.8000000000029,
+      "over50": 8,
+      "over100": 1,
+      "final": {
+        "colliders": 5253,
+        "environment": {
+          "worldSize": [
+            2048,
+            2048
+          ],
+          "district": "financial",
+          "buildings": 971,
+          "tiles": 16,
+          "pending": 0,
+          "maxTiles": 16,
+          "loads": 42,
+          "unloads": 10,
+          "generationMs": 0,
+          "maxGenerationMs": 2.0999999940395355,
+          "collisionResident": true,
+          "worldColliders": 3943,
+          "quality": "MEDIUM",
+          "assetBytes": 30582672,
+          "pendingAssetLoads": 0,
+          "assetQueue": {
+            "active": 0,
+            "queued": 0,
+            "concurrency": 2,
+            "preparing": 0,
+            "decodedKeys": 151,
+            "timings": {
+              "files": 29,
+              "fetchMaxMs": 127.09999999403954,
+              "decodeMaxMs": 121.29999999701977,
+              "prepareMaxMs": 93.09999999403954
+            }
+          },
+          "textureBytesEstimate": 167513813.33333334,
+          "street": {
+            "plannedPropSlots": 68352,
+            "activeProps": 726
+          },
+          "destruction": {
+            "collapsePresentation": {
+              "ruins": 1,
+              "fallingMasses": 0,
+              "active": 0,
+              "ruinColliders": 3
+            },
+            "barrageRejection": null,
+            "adaptiveDestruction": true,
+            "destructionQuality": "LOW",
+            "scheduler": {
+              "pending": 0,
+              "maxMs": 21.900000005960464
+            },
+            "breaches": 0,
+            "effects": {
+              "scars": 0,
+              "fires": 0,
+              "particles": 39,
+              "particleCap": 64,
+              "explosions": {
+                "emitters": 0,
+                "lobes": 0,
+                "cap": 18
+              },
+              "batches": 5,
+              "wind": 9
+            },
+            "coldStates": 0,
+            "collapseShowcases": 4,
+            "supportedBuildings": 971,
+            "damagedBuildings": 1,
+            "brokenComponents": 5134,
+            "activeDebris": 16,
+            "staticDebris": 14,
+            "debrisCap": 16,
+            "maxActivationMs": 5.199999988079071,
+            "states": [
+              {
+                "id": 235,
+                "family": "aer_glass",
+                "broken": 5134,
+                "stage": "collapsed",
+                "collapsePending": false,
+                "integrity": 0,
+                "colliders": 0
+              }
+            ]
+          },
+          "props": {
+            "registered": 280,
+            "broken": 0
+          },
+          "weather": "heavy-rain",
+          "hour": 23,
+          "night": 1,
+          "wetness": 1,
+          "snowCover": 0,
+          "particles": 1200,
+          "lightningCount": 0,
+          "fogDensity": 0.000788927005937629,
+          "gpu": {
+            "supported": true,
+            "samples": 240,
+            "meanMs": 17.323142133333327,
+            "p95Ms": 20.269312
+          }
+        },
+        "titan": {
+          "state": "ready",
+          "entries": 0,
+          "exits": 0,
+          "completed": 0,
+          "cooldown": 0,
+          "preparing": false,
+          "building": null,
+          "wave": -1,
+          "impacts": 0,
+          "playerDisplacement": 0,
+          "events": []
+        },
+        "timing": {
+          "samples": 900,
+          "p50Ms": 20.799999237060547,
+          "p95Ms": 27.899999618530273,
+          "p99Ms": 48.70000076293945,
+          "worstMs": 152.8000030517578,
+          "over50": 8,
+          "stages": {
+            "physics": {
+              "meanMs": 1.2668128655079687,
+              "maxMs": 46.80000001192093,
+              "lastMs": 0.9000000059604645,
+              "calls": 1368
+            },
+            "city": {
+              "meanMs": 1.2595029238023256,
+              "maxMs": 64.09999999403954,
+              "lastMs": 0.4000000059604645,
+              "calls": 1368
+            },
+            "render": {
+              "meanMs": 2.4953216374225433,
+              "maxMs": 65.6000000089407,
+              "lastMs": 3.2999999970197678,
+              "calls": 1368
+            }
+          },
+          "spikes": [
+            {
+              "stage": "render",
+              "ms": 65.6000000089407,
+              "at": 23531.5
+            },
+            {
+              "stage": "render",
+              "ms": 46.20000000298023,
+              "at": 25958
+            },
+            {
+              "stage": "render",
+              "ms": 22.700000002980232,
+              "at": 25984.40000000596
+            },
+            {
+              "stage": "city",
+              "ms": 23.900000005960464,
+              "at": 26562.20000000298
+            },
+            {
+              "stage": "render",
+              "ms": 34.20000000298023,
+              "at": 26596.60000000894
+            },
+            {
+              "stage": "city",
+              "ms": 33.1000000089407,
+              "at": 26639.40000000596
+            },
+            {
+              "stage": "city",
+              "ms": 25,
+              "at": 26676.20000000298
+            },
+            {
+              "stage": "city",
+              "ms": 26.900000005960464,
+              "at": 26717.60000000894
+            },
+            {
+              "stage": "physics",
+              "ms": 20.299999997019768,
+              "at": 26742.90000000596
+            },
+            {
+              "stage": "city",
+              "ms": 64.09999999403954,
+              "at": 26807.29999999702
+            },
+            {
+              "stage": "city",
+              "ms": 33.1000000089407,
+              "at": 26864.40000000596
+            },
+            {
+              "stage": "physics",
+              "ms": 46.80000001192093,
+              "at": 26915.60000000894
+            },
+            {
+              "stage": "city",
+              "ms": 41.8999999910593,
+              "at": 26957.79999999702
+            },
+            {
+              "stage": "physics",
+              "ms": 38.8999999910593,
+              "at": 27001.40000000596
+            },
+            {
+              "stage": "city",
+              "ms": 34,
+              "at": 27035.79999999702
+            },
+            {
+              "stage": "physics",
+              "ms": 22.700000002980232,
+              "at": 27065.20000000298
+            },
+            {
+              "stage": "city",
+              "ms": 24.799999997019768,
+              "at": 27090.20000000298
+            },
+            {
+              "stage": "city",
+              "ms": 20.899999991059303,
+              "at": 27272.90000000596
+            },
+            {
+              "stage": "city",
+              "ms": 23.299999997019768,
+              "at": 27305.70000000298
+            },
+            {
+              "stage": "city",
+              "ms": 21.599999994039536,
+              "at": 27367.5
+            },
+            {
+              "stage": "city",
+              "ms": 28.600000008940697,
+              "at": 32264.90000000596
+            }
+          ]
+        },
+        "shaderPrograms": 134,
+        "mode": "play",
+        "quality": "MEDIUM",
+        "frameMs": 20.69999999999709,
+        "meanMs": 21.296833333333332,
+        "p95Ms": 27.80000000000291,
+        "simulationMs": 0.9000000059604645,
+        "drawCalls": 199,
+        "triangles": 907181,
+        "bodies": 17,
+        "activeBodies": 16,
+        "particles": 0,
+        "debris": 0,
+        "broken": 0,
+        "geometries": 240,
+        "textures": 192,
+        "loadingMs": 14382.29999999702,
+        "assetLoadMs": 458.70000000298023,
+        "position": [
+          172,
+          8.000000190734863,
+          -197.4416046142578
+        ],
+        "state": "HOVER",
+        "health": 100,
+        "courseIndex": 0,
+        "stage": "course",
+        "crashes": 0,
+        "throws": 0,
+        "enemyHealth": [],
+        "missiles": 0
+      },
+      "titan": {
+        "state": "ready",
+        "entries": 0,
+        "exits": 0,
+        "completed": 0,
+        "cooldown": 0,
+        "preparing": false,
+        "building": null,
+        "wave": -1,
+        "impacts": 0,
+        "playerDisplacement": 0,
+        "events": []
+      },
+      "launches": [
+        {
+          "time": 11.033333333333461,
+          "mode": "demolition",
+          "position": [
+            171.8058986442459,
+            9.829913110701467,
+            -197.41706275038499
+          ],
+          "aim": [
+            172.30000000000004,
+            4.578821367709235,
+            -232.39489265150422
+          ]
+        },
+        {
+          "time": 11.200000000000136,
+          "mode": "demolition",
+          "position": [
+            172.1948487218047,
+            9.828941328632803,
+            -197.40630218577658
+          ],
+          "aim": [
+            172.30000000000004,
+            4.578821367709235,
+            -232.39489265150422
+          ]
+        },
+        {
+          "time": 11.366666666666811,
+          "mode": "demolition",
+          "position": [
+            171.8059595770784,
+            9.874016055251019,
+            -197.40780687675124
+          ],
+          "aim": [
+            172.30000000000004,
+            4.578821367709235,
+            -232.39489265150422
+          ]
+        },
+        {
+          "time": 16.150000000000365,
+          "mode": "demolition",
+          "position": [
+            172.1947860882302,
+            9.875201867216076,
+            -197.42332062423884
+          ],
+          "aim": [
+            172.29999999999995,
+            2.442835284677443,
+            -245.91731950940593
+          ]
+        },
+        {
+          "time": 16.31666666666702,
+          "mode": "demolition",
+          "position": [
+            171.80579701148534,
+            9.828809659752478,
+            -197.40672898209678
+          ],
+          "aim": [
+            172.29999999999995,
+            2.442835284677443,
+            -245.91731950940593
+          ]
+        },
+        {
+          "time": 16.48333333333368,
+          "mode": "demolition",
+          "position": [
+            172.1947381803774,
+            9.828313813317818,
+            -197.40182498851647
+          ],
+          "aim": [
+            172.29999999999995,
+            2.442835284677443,
+            -245.91731950940593
+          ]
+        },
+        {
+          "time": 21.250000000000075,
+          "mode": "demolition",
+          "position": [
+            171.80586193483825,
+            9.875258625185406,
+            -197.42347447974086
+          ],
+          "aim": [
+            172.3160615738584,
+            2.702496318215843,
+            -244.32280855297188
+          ]
+        },
+        {
+          "time": 21.416666666666732,
+          "mode": "demolition",
+          "position": [
+            172.194809403426,
+            9.874288500381235,
+            -197.41276773666536
+          ],
+          "aim": [
+            172.3160615738584,
+            2.702496318215843,
+            -244.32280855297188
+          ]
+        },
+        {
+          "time": 21.58333333333339,
+          "mode": "demolition",
+          "position": [
+            171.80582279347578,
+            9.828472339101591,
+            -197.40304234861313
+          ],
+          "aim": [
+            172.3160615738584,
+            2.702496318215843,
+            -244.32280855297188
+          ]
+        }
+      ],
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "internal": [
+        1280,
+        720
+      ],
+      "heap": {
+        "used": 465132142,
+        "total": 525434902
+      },
+      "hardware": {
+        "graphicsClockMHz": 1176,
+        "machineDedicatedUsedMiB": 1904,
+        "largeAllocations": [
+          {
+            "pid": 46240,
+            "name": "chrome.exe",
+            "dedicatedBytes": 318795776,
+            "sharedBytes": 167018496
+          },
+          {
+            "pid": 37740,
+            "name": "AndroidEmulatorEn.exe",
+            "dedicatedBytes": 1333862400,
+            "sharedBytes": 344371200
+          },
+          {
+            "pid": 30268,
+            "name": "Code.exe",
+            "dedicatedBytes": 59551744,
+            "sharedBytes": 21811200
+          },
+          {
+            "pid": 15152,
+            "name": "explorer.exe",
+            "dedicatedBytes": 78184448,
+            "sharedBytes": 1556480
+          },
+          {
+            "pid": 15192,
+            "name": "dwm.exe",
+            "dedicatedBytes": 202878976,
+            "sharedBytes": 23449600
+          }
+        ],
+        "machineDedicatedTotalMiB": 2048,
+        "sampledAt": "2026-10-18T18:14:56.4254459Z",
+        "gpu": "NVIDIA GeForce GTX 750 Ti",
+        "scope": "Point-in-time GPU counters outside the timed frame sample; machine total includes desktop applications.",
+        "benchmarkBrowserMemory": [
+          {
+            "sharedBytes": 167018496,
+            "dedicatedBytes": 318795776
+          }
+        ],
+        "utilizationPercent": 98,
+        "memoryClockMHz": 2700
+      },
+      "passed": true,
+      "source": "performance-weapons-MEDIUM-final/results.json"
+    },
+    {
+      "scenario": "overlap",
+      "quality": "MEDIUM",
+      "errors": [],
+      "failure": "page.waitForFunction: Timeout 22000ms exceeded.\n    at C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\scripts\\phase9-destruction-performance.mjs:18:371",
+      "failureDiagnostics": {
+        "d": {
+          "colliders": 5239,
+          "environment": {
+            "worldSize": [
+              2048,
+              2048
+            ],
+            "district": "financial",
+            "buildings": 971,
+            "tiles": 16,
+            "pending": 0,
+            "maxTiles": 16,
+            "loads": 44,
+            "unloads": 12,
+            "generationMs": 0,
+            "maxGenerationMs": 1.7999999970197678,
+            "collisionResident": true,
+            "worldColliders": 3939,
+            "quality": "MEDIUM",
+            "assetBytes": 31763120,
+            "pendingAssetLoads": 0,
+            "assetQueue": {
+              "active": 0,
+              "queued": 0,
+              "concurrency": 2,
+              "preparing": 0,
+              "decodedKeys": 156,
+              "timings": {
+                "files": 34,
+                "fetchMaxMs": 127.69999998807907,
+                "decodeMaxMs": 123.6000000089407,
+                "prepareMaxMs": 82
+              }
+            },
+            "textureBytesEstimate": 167513813.33333334,
+            "street": {
+              "plannedPropSlots": 68352,
+              "activeProps": 696
+            },
+            "destruction": {
+              "collapsePresentation": {
+                "ruins": 2,
+                "fallingMasses": 0,
+                "active": 0,
+                "ruinColliders": 6
+              },
+              "barrageRejection": null,
+              "adaptiveDestruction": false,
+              "destructionQuality": "MEDIUM",
+              "scheduler": {
+                "pending": 0,
+                "maxMs": 16.900000005960464
+              },
+              "breaches": 0,
+              "effects": {
+                "scars": 0,
+                "fires": 0,
+                "particles": 0,
+                "particleCap": 112,
+                "explosions": {
+                  "emitters": 0,
+                  "lobes": 0,
+                  "cap": 30
+                },
+                "batches": 5,
+                "wind": 9
+              },
+              "coldStates": 0,
+              "collapseShowcases": 4,
+              "supportedBuildings": 971,
+              "damagedBuildings": 2,
+              "brokenComponents": 5580,
+              "activeDebris": 0,
+              "staticDebris": 16,
+              "debrisCap": 24,
+              "maxActivationMs": 6.399999991059303,
+              "states": [
+                {
+                  "id": 235,
+                  "family": "aer_glass",
+                  "broken": 5068,
+                  "stage": "collapsed",
+                  "collapsePending": false,
+                  "integrity": 0,
+                  "colliders": 0
+                },
+                {
+                  "id": 10236,
+                  "family": "city_modernoffice_5_b",
+                  "broken": 512,
+                  "stage": "collapsed",
+                  "collapsePending": false,
+                  "integrity": 0,
+                  "colliders": 0
+                }
+              ]
+            },
+            "props": {
+              "registered": 287,
+              "broken": 0
+            },
+            "weather": "heavy-rain",
+            "hour": 23,
+            "night": 1,
+            "wetness": 1,
+            "snowCover": 0,
+            "particles": 1200,
+            "lightningCount": 0,
+            "fogDensity": 0.0007651049157367201,
+            "gpu": {
+              "supported": true,
+              "samples": 240,
+              "meanMs": 15.255978266666668,
+              "p95Ms": 18.334784
+            }
+          },
+          "titan": {
+            "state": "ready",
+            "entries": 0,
+            "exits": 0,
+            "completed": 0,
+            "cooldown": 0,
+            "preparing": false,
+            "building": null,
+            "wave": -1,
+            "impacts": 0,
+            "playerDisplacement": 0,
+            "events": []
+          },
+          "timing": {
+            "samples": 900,
+            "p50Ms": 14,
+            "p95Ms": 20.899999618530273,
+            "p99Ms": 34.70000076293945,
+            "worstMs": 249.89999389648438,
+            "over50": 2,
+            "stages": {
+              "physics": {
+                "meanMs": 0.9886195565112419,
+                "maxMs": 23.600000008940697,
+                "lastMs": 0.7000000029802322,
+                "calls": 2434
+              },
+              "city": {
+                "meanMs": 1.2919474115921223,
+                "maxMs": 46.69999998807907,
+                "lastMs": 0.4000000059604645,
+                "calls": 2434
+              },
+              "render": {
+                "meanMs": 2.6412489727788415,
+                "maxMs": 60.099999994039536,
+                "lastMs": 3.5999999940395355,
+                "calls": 2434
+              }
+            },
+            "spikes": [
+              {
+                "stage": "render",
+                "ms": 60.099999994039536,
+                "at": 23167.19999998808
+              },
+              {
+                "stage": "render",
+                "ms": 37.099999994039536,
+                "at": 25904
+              },
+              {
+                "stage": "city",
+                "ms": 33,
+                "at": 26939.5
+              },
+              {
+                "stage": "render",
+                "ms": 32.29999999701977,
+                "at": 26971.89999999106
+              },
+              {
+                "stage": "city",
+                "ms": 46.69999998807907,
+                "at": 27036.69999998808
+              },
+              {
+                "stage": "physics",
+                "ms": 23.600000008940697,
+                "at": 27075.29999999702
+              },
+              {
+                "stage": "city",
+                "ms": 36.099999994039536,
+                "at": 27111.69999998808
+              },
+              {
+                "stage": "physics",
+                "ms": 21.799999997019768,
+                "at": 27137.69999998808
+              },
+              {
+                "stage": "city",
+                "ms": 20.19999998807907,
+                "at": 27158.19999998808
+              },
+              {
+                "stage": "city",
+                "ms": 28.899999991059303,
+                "at": 27205.19999998808
+              },
+              {
+                "stage": "city",
+                "ms": 28.700000002980232,
+                "at": 27305.79999999702
+              },
+              {
+                "stage": "city",
+                "ms": 35.599999994039536,
+                "at": 27363.19999998808
+              },
+              {
+                "stage": "physics",
+                "ms": 21.700000002980232,
+                "at": 27387.79999999702
+              },
+              {
+                "stage": "city",
+                "ms": 35.29999999701977,
+                "at": 27423.39999999106
+              },
+              {
+                "stage": "city",
+                "ms": 22.299999997019768,
+                "at": 27466.59999999404
+              },
+              {
+                "stage": "city",
+                "ms": 20.899999991059303,
+                "at": 27500.19999998808
+              },
+              {
+                "stage": "city",
+                "ms": 23.899999991059303,
+                "at": 27574.39999999106
+              },
+              {
+                "stage": "city",
+                "ms": 22,
+                "at": 27608.19999998808
+              },
+              {
+                "stage": "city",
+                "ms": 30.899999991059303,
+                "at": 27687.69999998808
+              },
+              {
+                "stage": "city",
+                "ms": 31.200000002980232,
+                "at": 27764.59999999404
+              },
+              {
+                "stage": "city",
+                "ms": 22.30000001192093,
+                "at": 32433.5
+              },
+              {
+                "stage": "render",
+                "ms": 33.900000005960464,
+                "at": 38524.5
+              }
+            ]
+          },
+          "shaderPrograms": 136,
+          "mode": "play",
+          "quality": "MEDIUM",
+          "frameMs": 20.80000000000291,
+          "meanMs": 16.70183333333333,
+          "p95Ms": 20.900000000001455,
+          "simulationMs": 0.7000000029802322,
+          "drawCalls": 205,
+          "triangles": 946076,
+          "bodies": 1,
+          "activeBodies": 0,
+          "particles": 0,
+          "debris": 0,
+          "broken": 0,
+          "geometries": 253,
+          "textures": 193,
+          "loadingMs": 14001.70000000298,
+          "assetLoadMs": 436.79999999701977,
+          "position": [
+            232,
+            17.999999237060546,
+            -200
+          ],
+          "state": "HOVER",
+          "health": 100,
+          "courseIndex": 0,
+          "stage": "course",
+          "crashes": 0,
+          "throws": 0,
+          "enemyHealth": [],
+          "missiles": 0
+        },
+        "t": {
+          "state": "ready",
+          "entries": 0,
+          "exits": 0,
+          "completed": 0,
+          "cooldown": 0,
+          "preparing": false,
+          "building": null,
+          "wave": -1,
+          "impacts": 0,
+          "playerDisplacement": 0,
+          "events": []
+        },
+        "message": "BREACH · CLEAR LAUNCHERS BEFORE BREACH",
+        "failure": null
+      },
+      "recorded": false,
+      "source": "performance-overlap-MEDIUM-final/results.json"
+    }
+  ],
+  "preserved": [
+    {
+      "file": "src/audio/AudioSystem.ts",
+      "sha256": "42184a1bb6e231bdb1f2edb9cebb3c88ae94cd8dd45f0fc969800344946e3301",
+      "unchanged": true
+    },
+    {
+      "file": "src/camera/CameraRig.ts",
+      "sha256": "ff044d80abf2cd427b78eb074c8069cb02bb41cd99ebe497cddd70dc7790d2d1",
+      "unchanged": true
+    },
+    {
+      "file": "src/input/InputController.ts",
+      "sha256": "261050eb8fbb7aab000dbf1634f039a3e4af698ac534452af6eaf035a34815ec",
+      "unchanged": true
+    },
+    {
+      "file": "src/physics/PhysicsWorld.ts",
+      "sha256": "c9c05c5a9b7f5143049eb25d010bbedcbce53e8be9c2fe2bcb6bee38e0adf3a2",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisIdentity.ts",
+      "sha256": "abae0c66f506c13201e3e2a002153ca7a362dd2a633dc14bf59a3e974cc5c36c",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisMarkII.ts",
+      "sha256": "a2c79ddb055e113a7830b6ef34a9c34afe5757c38f00757d45b94e9bbcac67ef",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/AegisSuit.ts",
+      "sha256": "bf7cf8c42dc7104e84a8114c1bad0611107c87241462e316e540a8b6aac85533",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/assemblyManifest.ts",
+      "sha256": "c19e30e1d0cca6bd487ec72a0af04f3ffea8bbba806547bb51e550b08396276d",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/FlightState.ts",
+      "sha256": "8f20d982b3c8272167794d9ef8af315ad26867693efb0c229bb2a034cfa2e6a4",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/PlayerController.ts",
+      "sha256": "6a31cd58e6b06e03e33555597103c0dc7850bd8bc77787c0f0e97cb3b0134b68",
+      "unchanged": true
+    },
+    {
+      "file": "src/player/SuitAssembly.ts",
+      "sha256": "4b219e42bce7bd1fad92f9b4c5f13c540909176379c935300d9566afc342678e",
+      "unchanged": true
+    },
+    {
+      "file": "src/ui/Hud.ts",
+      "sha256": "7c01cd27e0593aa32aa38b36b7f8dc875a9dde4c994740d3e22bb442f0416f0c",
+      "unchanged": true
+    }
+  ],
+  "assets": {
+    "source": "art/environment/phase9/demolition-and-living-block.blend",
+    "script": "art/environment/phase9/build_phase9.py",
+    "license": "public/assets/environment/metropolis/PHASE9-LICENSES.txt",
+    "raw": "public/assets/environment/metropolis/phase9-demolition-kit.glb",
+    "optimized": "public/assets/environment/metropolis/phase9-demolition-kit-optimized.glb",
+    "rawBytes": 2130044,
+    "optimizedBytes": 937932,
+    "savingsPercent": 55.966543414126654,
+    "sourceSha256": "187fe671695550e855df875e347e3e0983da60ae3de1221b775e8e7e4324ad1f",
+    "exportSha256": "31ec0ad3a738b3168a657d6516d2abd00e9c4bb02376a88d9697576ae80e66d3",
+    "modules": [
+      {
+        "key": "titan9_ruin_glass_0",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 9276,
+        "triangles": 4840,
+        "materials": [
+          "titan9_concrete",
+          "titan9_steel",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_ruin_glass_1",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 3636,
+        "triangles": 1924,
+        "materials": [
+          "titan9_concrete",
+          "titan9_steel",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_ruin_glass_2",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 984,
+        "triangles": 524,
+        "materials": [
+          "titan9_concrete",
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_ruin_gothic_0",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 9780,
+        "triangles": 5120,
+        "materials": [
+          "titan9_stone",
+          "titan9_steel",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_ruin_gothic_1",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 4140,
+        "triangles": 2204,
+        "materials": [
+          "titan9_stone",
+          "titan9_steel",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_ruin_gothic_2",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 1488,
+        "triangles": 804,
+        "materials": [
+          "titan9_steel",
+          "titan9_stone"
+        ]
+      },
+      {
+        "key": "titan9_ruin_industrial_0",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 9708,
+        "triangles": 5080,
+        "materials": [
+          "titan9_brick",
+          "titan9_steel",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_ruin_industrial_1",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 4068,
+        "triangles": 2164,
+        "materials": [
+          "titan9_brick",
+          "titan9_steel",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_ruin_industrial_2",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 1416,
+        "triangles": 764,
+        "materials": [
+          "titan9_brick",
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_breach_glass",
+        "meshes": 3,
+        "primitives": 3,
+        "vertices": 1080,
+        "triangles": 552,
+        "materials": [
+          "titan9_steel",
+          "titan9_concrete",
+          "titan9_glass"
+        ]
+      },
+      {
+        "key": "titan9_breach_stone",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 912,
+        "triangles": 468,
+        "materials": [
+          "titan9_stone",
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_breach_concrete",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 912,
+        "triangles": 468,
+        "materials": [
+          "titan9_concrete",
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_breach_floor",
+        "meshes": 1,
+        "primitives": 1,
+        "vertices": 72,
+        "triangles": 44,
+        "materials": [
+          "titan9_concrete"
+        ]
+      },
+      {
+        "key": "titan9_storefront",
+        "meshes": 4,
+        "primitives": 4,
+        "vertices": 1056,
+        "triangles": 532,
+        "materials": [
+          "titan9_steel",
+          "titan9_glass",
+          "titan9_paint",
+          "titan9_light"
+        ]
+      },
+      {
+        "key": "titan9_fire_escape",
+        "meshes": 1,
+        "primitives": 1,
+        "vertices": 3132,
+        "triangles": 1740,
+        "materials": [
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_service_bank",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 540,
+        "triangles": 288,
+        "materials": [
+          "titan9_paint",
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_railing",
+        "meshes": 1,
+        "primitives": 1,
+        "vertices": 720,
+        "triangles": 400,
+        "materials": [
+          "titan9_steel"
+        ]
+      },
+      {
+        "key": "titan9_sedan",
+        "meshes": 5,
+        "primitives": 5,
+        "vertices": 3624,
+        "triangles": 1910,
+        "materials": [
+          "titan9_glass",
+          "titan9_paint",
+          "titan9_concrete",
+          "titan9_steel",
+          "titan9_light"
+        ]
+      },
+      {
+        "key": "titan9_courtyard_span",
+        "meshes": 2,
+        "primitives": 2,
+        "vertices": 2688,
+        "triangles": 1436,
+        "materials": [
+          "titan9_stone",
+          "titan9_steel"
+        ]
+      }
+    ],
+    "materials": [
+      "titan9_concrete",
+      "titan9_steel",
+      "titan9_glass",
+      "titan9_stone",
+      "titan9_brick",
+      "titan9_paint",
+      "titan9_light"
+    ],
+    "primitives": 47,
+    "vertices": 59232,
+    "triangles": 31262,
+    "uvs": true,
+    "normals": true,
+    "finiteAttributes": true,
+    "validIndices": true
+  },
+  "knownLimitations": [
+    "Artistic grouped collapse with four kinematic source masses, not engineering-grade rigid-body structural simulation.",
+    "Near source-derived facade patches and three persistent convex ruin hulls approximate major remains. Smaller debris is capped, sleeps, and consolidates.",
+    "Intact city remains the saved 971-building, five-district plan with 25 authored architectural families. Broad avenues, repeating source families and simple interiors still need further art direction.",
+    "Smoke uses pooled animated density shaders and flames use analytic plume fields; no volumetric fluid simulation or ray-traced reflections.",
+    "Final timing runs share the GPU with an Android emulator using about 1.3 GB VRAM, as requested. Frame stalls above 100 ms remain in some shared-GPU heavy scenes; no zero-stutter or locked-60 claim is made.",
+    "MEDIUM is primary; HIGH and ULTRA use more internal pixels and are not guaranteed to reach 60 FPS on a GTX 750 Ti.",
+    "Preflight rejects obstructed roofs/adjacent exits; no collision bypass. Y has its own finite 8-round ability load paid with 48 reactor energy; ordinary missile magazine remains independent.",
+    "Third-party credits and license terms remain applicable. No new third-party assets downloaded in Phase 9."
+  ],
+  "failedHistory": [
+    {
+      "file": "acceptance/ground/result.json",
+      "name": "ground",
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+    },
+    {
+      "file": "acceptance/hover/result.json",
+      "name": "hover",
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+    },
+    {
+      "file": "acceptance-v2/roof/result.json",
+      "name": "roof",
+      "failure": "page.waitForFunction: Timeout 9000ms exceeded."
+    },
+    {
+      "file": "acceptance-final/roof/result.json",
+      "name": "roof",
+      "failure": "page.waitForFunction: Timeout 20000ms exceeded."
+    }
+  ]
+}

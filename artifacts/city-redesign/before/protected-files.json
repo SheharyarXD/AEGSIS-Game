@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\src\\player\\PlayerController.ts",
+        "Hash":  "6A31CD58E6B06E03E33555597103C0DC7850BD8BC77787C0F0E97CB3B0134B68"
+    },
+    {
+        "Path":  "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\src\\ui\\Hud.ts",
+        "Hash":  "7C01CD27E0593AA32AA38B36B7F8DC875A9DDE4C994740D3E22BB442F0416F0C"
+    },
+    {
+        "Path":  "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\src\\combat\\Encounter.ts",
+        "Hash":  "FE9275FB8F6F7A0795A284B1FE120CD4B9F10857F68EBFCC5E32B14EC701BDB1"
+    },
+    {
+        "Path":  "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\src\\combat\\Missiles.ts",
+        "Hash":  "A7DD839B13784954CC64AC1A7225DE72EC6DCDC740870FB44FDB3807085F0900"
+    },
+    {
+        "Path":  "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\src\\input\\InputController.ts",
+        "Hash":  "261050EB8FBB7AAB000DBF1634F039A3E4AF698AC534452AF6EAF035A34815EC"
+    }
+]

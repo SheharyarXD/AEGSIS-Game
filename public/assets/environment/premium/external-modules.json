@@ -1,0 +1,338 @@
+[
+  {
+    "key": "ph_apartment_door_centered_small_01_near",
+    "sourcePack": "modular_urban_apartments_facade",
+    "sourceMesh": "door_centered_small_01",
+    "dimensions": [
+      1.4800052642822266,
+      0.440000057220459,
+      2.809999704360962
+    ],
+    "faces": 952,
+    "lod": "near"
+  },
+  {
+    "key": "ph_apartment_door_centered_small_01_mid",
+    "sourcePack": "modular_urban_apartments_facade",
+    "sourceMesh": "door_centered_small_01",
+    "dimensions": [
+      1.4800052642822266,
+      0.440000057220459,
+      2.809999704360962
+    ],
+    "faces": 380,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_apartment_window_centered_small_01_near",
+    "sourcePack": "modular_urban_apartments_facade",
+    "sourceMesh": "window_centered_small_01",
+    "dimensions": [
+      1.1200189590454102,
+      0.39000749588012695,
+      2.299999475479126
+    ],
+    "faces": 592,
+    "lod": "near"
+  },
+  {
+    "key": "ph_apartment_window_centered_small_01_mid",
+    "sourcePack": "modular_urban_apartments_facade",
+    "sourceMesh": "window_centered_small_01",
+    "dimensions": [
+      1.1200189590454102,
+      0.39000749588012695,
+      2.299999475479126
+    ],
+    "faces": 237,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_factory_cornice02_standard_standard_01_near",
+    "sourcePack": "modular_factory_facade",
+    "sourceMesh": "cornice02_standard_standard_01",
+    "dimensions": [
+      3.0,
+      0.17312370240688324,
+      0.15999984741210938
+    ],
+    "faces": 19,
+    "lod": "near"
+  },
+  {
+    "key": "ph_factory_cornice02_standard_standard_01_mid",
+    "sourcePack": "modular_factory_facade",
+    "sourceMesh": "cornice02_standard_standard_01",
+    "dimensions": [
+      3.0,
+      0.17312370240688324,
+      0.15999984741210938
+    ],
+    "faces": 7,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_factory_door_centered_small_01_near",
+    "sourcePack": "modular_factory_facade",
+    "sourceMesh": "door_centered_small_01",
+    "dimensions": [
+      1.2599983215332031,
+      0.2350001037120819,
+      2.3299994468688965
+    ],
+    "faces": 495,
+    "lod": "near"
+  },
+  {
+    "key": "ph_factory_door_centered_small_01_mid",
+    "sourcePack": "modular_factory_facade",
+    "sourceMesh": "door_centered_small_01",
+    "dimensions": [
+      1.2599983215332031,
+      0.2350001037120819,
+      2.3299994468688965
+    ],
+    "faces": 198,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_factory_window_centered_medium_03_near",
+    "sourcePack": "modular_factory_facade",
+    "sourceMesh": "window_centered_medium_03",
+    "dimensions": [
+      1.5599966049194336,
+      0.21666666865348816,
+      1.014693260192871
+    ],
+    "faces": 345,
+    "lod": "near"
+  },
+  {
+    "key": "ph_factory_window_centered_medium_03_mid",
+    "sourcePack": "modular_factory_facade",
+    "sourceMesh": "window_centered_medium_03",
+    "dimensions": [
+      1.5599966049194336,
+      0.21666666865348816,
+      1.014693260192871
+    ],
+    "faces": 138,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_aircon_unit_near",
+    "sourcePack": "exterior_aircon_unit",
+    "sourceMesh": "exterior_aircon_unit",
+    "dimensions": [
+      0.799971342086792,
+      0.37415921688079834,
+      0.9278970956802368
+    ],
+    "faces": 1517,
+    "lod": "near"
+  },
+  {
+    "key": "ph_aircon_unit_mid",
+    "sourcePack": "exterior_aircon_unit",
+    "sourceMesh": "exterior_aircon_unit",
+    "dimensions": [
+      0.799971342086792,
+      0.37415921688079834,
+      0.9278970956802368
+    ],
+    "faces": 473,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_ladder_bottom_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_ladder_bottom",
+    "dimensions": [
+      0.7749729156494141,
+      0.06441384553909302,
+      6.465871334075928
+    ],
+    "faces": 442,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_ladder_bottom_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_ladder_bottom",
+    "dimensions": [
+      0.7749729156494141,
+      0.06441384553909302,
+      6.465871334075928
+    ],
+    "faces": 176,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_platform_bottom_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_platform_bottom",
+    "dimensions": [
+      4.793094158172607,
+      1.3644320964813232,
+      0.7724194526672363
+    ],
+    "faces": 669,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_platform_bottom_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_platform_bottom",
+    "dimensions": [
+      4.793094158172607,
+      1.3644320964813232,
+      0.7724194526672363
+    ],
+    "faces": 267,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_platform_middle_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_platform_middle",
+    "dimensions": [
+      4.793094158172607,
+      1.3644320964813232,
+      0.7724194526672363
+    ],
+    "faces": 870,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_platform_middle_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_platform_middle",
+    "dimensions": [
+      4.793094158172607,
+      1.3644320964813232,
+      0.7724194526672363
+    ],
+    "faces": 348,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_platform_railing_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_platform_railing",
+    "dimensions": [
+      2.2339792251586914,
+      0.7303793430328369,
+      0.985715389251709
+    ],
+    "faces": 498,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_platform_railing_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_platform_railing",
+    "dimensions": [
+      2.2339792251586914,
+      0.7303793430328369,
+      0.985715389251709
+    ],
+    "faces": 199,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_railing_bottom_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_railing_bottom",
+    "dimensions": [
+      4.711300849914551,
+      1.407742977142334,
+      0.9841318130493164
+    ],
+    "faces": 725,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_railing_bottom_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_railing_bottom",
+    "dimensions": [
+      4.711300849914551,
+      1.407742977142334,
+      0.9841318130493164
+    ],
+    "faces": 290,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_railing_middle_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_railing_middle",
+    "dimensions": [
+      4.711301326751709,
+      1.3866746425628662,
+      0.9841318130493164
+    ],
+    "faces": 652,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_railing_middle_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_railing_middle",
+    "dimensions": [
+      4.711301326751709,
+      1.3866746425628662,
+      0.9841318130493164
+    ],
+    "faces": 260,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_escape_stairs_near",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_stairs",
+    "dimensions": [
+      2.9946389198303223,
+      1.3715578317642212,
+      4.0055251121521
+    ],
+    "faces": 4067,
+    "lod": "near"
+  },
+  {
+    "key": "ph_escape_stairs_mid",
+    "sourcePack": "modular_fire_escape",
+    "sourceMesh": "modular_fire_escape_stairs",
+    "dimensions": [
+      2.9946389198303223,
+      1.3715578317642212,
+      4.0055251121521
+    ],
+    "faces": 1626,
+    "lod": "mid"
+  },
+  {
+    "key": "ph_lamp_bracket_near",
+    "sourcePack": "street_lamp_02",
+    "sourceMesh": "street_lamp_02",
+    "dimensions": [
+      0.38649314641952515,
+      0.8067892789840698,
+      1.675041913986206
+    ],
+    "faces": 3254,
+    "lod": "near"
+  },
+  {
+    "key": "ph_lamp_bracket_mid",
+    "sourcePack": "street_lamp_02",
+    "sourceMesh": "street_lamp_02",
+    "dimensions": [
+      0.38649314641952515,
+      0.8067892789840698,
+      1.675041913986206
+    ],
+    "faces": 1016,
+    "lod": "mid"
+  }
+]

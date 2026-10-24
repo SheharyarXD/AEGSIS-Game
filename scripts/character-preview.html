@@ -1,14 +1,261 @@
-<!doctype html><html><head><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width"><title>AEGIS character verification</title><style>body{margin:0;background:#10131c}canvas{display:block}</style></head><body><script type="module">
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,"><title>AEGIS / Character studio</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:#0b0e12;color:#d5e5f1;overflow:hidden}
+canvas{display:block;touch-action:none;cursor:grab}canvas:active{cursor:grabbing}
+.panel{position:fixed;top:14px;left:14px;width:min(318px,calc(100vw - 28px));padding:14px 16px;max-height:calc(100vh - 28px);overflow:auto;
+ border:1px solid #2b3d4f;border-radius:9px;background:#0d141ce8;box-shadow:0 10px 25px #0008}
+h1{margin:0 0 2px;font-size:16px;letter-spacing:.14em}h1 span{color:#4db8ff}
+h2{margin:12px 0 5px;font-size:10px;letter-spacing:.16em;color:#7f97aa;font-weight:600;text-transform:uppercase}
+.row{display:flex;flex-wrap:wrap;gap:5px}
+button,select{font:inherit;font-size:11px;border:1px solid #33485c;background:#152130;color:#e4eff7;border-radius:4px;padding:6px 9px;cursor:pointer}
+button:hover,button.active{border-color:#38a8ff;background:#123a57}button:focus-visible,select:focus-visible{outline:2px solid #68c8ff}
+#stats{margin-top:12px;font:10px/1.6 ui-monospace,Consolas,monospace;color:#8aa4b6;white-space:pre-wrap}
+body.clean .panel{display:none}
+@media(max-width:600px){.panel{padding:10px 12px;top:8px;left:8px}}
+</style></head><body>
+<div class="panel" role="region" aria-label="AEGIS character studio controls">
+  <h1>AEGIS <span>/ CHARACTER STUDIO</span></h1>
+  <h2>Full body</h2>
+  <div class="row" data-group="view">
+    <button data-view="threequarter" class="active">3/4</button><button data-view="front">Front</button>
+    <button data-view="side">Side</button><button data-view="back">Rear</button><button data-view="backquarter">Rear 3/4</button>
+  </div>
+  <h2>Close-ups</h2>
+  <div class="row" data-group="view">
+    <button data-view="helmet">Helmet</button><button data-view="helmetSide">Helmet side</button><button data-view="chest">Chest</button>
+    <button data-view="arms">Arms</button><button data-view="hands">Hands</button><button data-view="legs">Legs</button>
+    <button data-view="boots">Boots</button><button data-view="thrusters">Propulsion</button>
+  </div>
+  <h2>Motion</h2>
+  <div class="row" id="clips"></div>
+  <h2>Transformation</h2>
+  <div class="row">
+    <button id="suit-up">Suit up</button><button id="step-out">Step out</button><button id="form">Form: armour</button>
+  </div>
+  <h2>Lighting</h2>
+  <div class="row" data-group="light">
+    <button data-light="studio" class="active">Studio</button><button data-light="neutral">Neutral</button><button data-light="bright">Bright</button>
+  </div>
+  <h2>Options</h2>
+  <div class="row">
+    <button id="emission" class="active">Emission</button><button id="clay">Clay</button>
+    <button id="bloom">Bloom</button><button id="turntable">Turntable</button><button id="wire">Wireframe</button>
+  </div>
+  <h2>Thruster quality</h2>
+  <div class="row" id="quality"></div>
+  <div id="stats">loading…</div>
+</div>
+<script type="module">
 import * as T from 'three';
-import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { AegisSuit } from '../src/player/AegisSuit.ts';
+import { SuitAssembly } from '../src/player/SuitAssembly.ts';
+import { FlightState } from '../src/player/FlightState.ts';
+import { FlightVfx } from '../src/vfx/FlightVfx.ts';
+
+const params = new URLSearchParams(location.search);
+if (params.has('clean')) document.body.classList.add('clean');
+const QUALITIES = ['LOW', 'MEDIUM', 'HIGH', 'ULTRA'];
+const quality = QUALITIES.includes(params.get('quality')) ? params.get('quality') : 'HIGH';
+const renderer = new T.WebGLRenderer({ antialias: true, powerPreference: 'high-performance', preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = T.PCFShadowMap;
+renderer.toneMapping = T.ACESFilmicToneMapping; renderer.outputColorSpace = T.SRGBColorSpace;
+renderer.domElement.setAttribute('aria-label', 'AEGIS interactive character viewer'); document.body.append(renderer.domElement);
+
+const scene = new T.Scene(); scene.background = new T.Color('#0b0e12');
+const camera = new T.PerspectiveCamera(32, innerWidth / innerHeight, 0.05, 80);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.minDistance = 0.35; controls.maxDistance = 12;
+
+// Reflection environment: a dark studio with softboxes, so polished metal has
+// something bright and shaped to reflect (this is what stops metal reading as plastic).
+function studioEnvironment() {
+  const s = new T.Scene(); s.background = new T.Color('#1b2027');
+  const panel = (w, h, color, intensity, position) => {
+    const m = new T.Mesh(new T.PlaneGeometry(w, h), new T.MeshBasicMaterial({ color: new T.Color(color).multiplyScalar(intensity), side: T.DoubleSide }));
+    m.position.set(...position); m.lookAt(0, 1.1, 0); s.add(m);
+  };
+  panel(9, 8, '#fff3e2', 5.5, [6, 6, 6]);            // key softbox
+  panel(10, 7, '#bcd6ff', 1.9, [-8, 3, 4]);          // fill wall
+  panel(3, 9, '#8fc4ff', 7, [-6, 4, -6]);            // rim strip left
+  panel(3, 9, '#cfe4ff', 5.5, [6.5, 4, -6]);         // rim strip right
+  panel(12, 12, '#ffffff', 1.5, [0, 10, 0]);         // overhead
+  panel(8, 5, '#dfe8f2', 1.3, [0, 2.5, 9]);          // front card
+  panel(16, 16, '#242a33', 1, [0, -1.5, 0]);         // floor bounce
+  const pmrem = new T.PMREMGenerator(renderer); const texture = pmrem.fromScene(s, 0.035).texture;
+  pmrem.dispose(); return texture;
+}
+scene.environment = studioEnvironment();
+
+const hemi = new T.HemisphereLight('#c7daf0', '#1b1a1c', 0.5); scene.add(hemi);
+const key = new T.DirectionalLight('#fff1dc', 3.2); key.position.set(3.2, 5.5, 4.2); key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048); key.shadow.bias = -0.0002; key.shadow.normalBias = 0.012; key.shadow.radius = 5;
+Object.assign(key.shadow.camera, { left: -2.5, right: 2.5, top: 3.2, bottom: -0.6, near: 0.5, far: 16 }); scene.add(key);
+const fill = new T.DirectionalLight('#a9c8ee', 0.7); fill.position.set(-4, 2.2, 3); scene.add(fill);
+const rimL = new T.DirectionalLight('#7fb8ff', 2.4); rimL.position.set(-3.2, 3.4, -4); scene.add(rimL);
+const rimR = new T.DirectionalLight('#cfe1ff', 1.5); rimR.position.set(3.6, 3, -4); scene.add(rimR);
+const floor = new T.Mesh(new T.CircleGeometry(9, 72), new T.MeshStandardMaterial({ color: '#12161c', metalness: 0, roughness: 0.9, envMapIntensity: 0.25 }));
+floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; scene.add(floor);
+const LIGHTING = {
+  studio: { exposure: 1.0, env: 1.35, key: 2.6, fill: 0.7, rim: 2.0, hemi: 0.5, bg: '#0b0e12', floor: '#12161c' },
+  neutral: { exposure: 0.95, env: 1.0, key: 1.6, fill: 1.3, rim: 0.5, hemi: 1.0, bg: '#2a2d31', floor: '#34373b' },
+  bright: { exposure: 1.1, env: 1.7, key: 2.8, fill: 1.9, rim: 1.1, hemi: 1.6, bg: '#8f959c', floor: '#878c93' },
+};
+
+const composer = new EffectComposer(renderer);
+composer.setPixelRatio(renderer.getPixelRatio()); composer.setSize(innerWidth, innerHeight);
+composer.addPass(new RenderPass(scene, camera));
+// Off by default: at any useful threshold it catches metal highlights before the emitters.
+const bloom = new UnrealBloomPass(new T.Vector2(innerWidth, innerHeight), 0.14, 0.35, 0.9); bloom.enabled = false; composer.addPass(bloom);
+composer.addPass(new OutputPass());
+
 await AegisSuit.loadAssets();
-const renderer=new T.WebGLRenderer({antialias:true});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(1);renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;document.body.append(renderer.domElement);
-const scene=new T.Scene();scene.background=new T.Color('#171e29');const env=new T.PMREMGenerator(renderer);scene.environment=env.fromScene(new RoomEnvironment(),.04).texture;
-const camera=new T.PerspectiveCamera(35,innerWidth/innerHeight,.1,50);camera.position.set(3.9,2.4,6.6);camera.lookAt(0,1.05,0);
-scene.add(new T.HemisphereLight('#bed8ee','#302722',1));const key=new T.DirectionalLight('#fff1da',4);key.position.set(3,5,4);key.castShadow=true;key.shadow.mapSize.set(2048,2048);scene.add(key);const fill=new T.DirectionalLight('#76bfee',2);fill.position.set(-3,3,-2);scene.add(fill);
-const floor=new T.Mesh(new T.PlaneGeometry(30,30),new T.MeshStandardMaterial({color:'#27323b',metalness:.25,roughness:.5}));floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;scene.add(floor);
-const suit=new AegisSuit();scene.add(suit.group);window.suit=suit;window.renderer=renderer;window.scene=scene;window.camera=camera;window.T=T;
-const bones=[];suit.group.updateMatrixWorld(true);suit.model.traverse(o=>{if(o.isBone&&/^(hips|spine[12]|chest|head001|upper_arm[LR]|forearm[LR]|hand[LR]|thigh[LR]|knee[LR]|shin[LR]|foot[LR])$/.test(o.name))bones.push({name:o.name,parent:o.parent.name,position:o.getWorldPosition(new T.Vector3()).toArray(),quaternion:o.getWorldQuaternion(new T.Quaternion()).toArray()})});window.report={bones,scale:suit.model.scale.toArray(),offset:suit.model.position.toArray(),clipNames:suit.clipNames,loadMs:AegisSuit.assetLoadMilliseconds};
-window.renderStill=()=>{scene.updateMatrixWorld(true);renderer.render(scene,camera)};window.renderStill();window.ready=true;
+const suits = { armor: new AegisSuit() };
+if (AegisSuit.hasPilot) suits.pilot = new AegisSuit({ variant: 'pilot' });
+for (const s of Object.values(suits)) { scene.add(s.group); s.treadmill = true; }
+const assembly = new SuitAssembly(suits.armor, suits.pilot ?? null, scene);
+let form = 'armor', suit = suits.armor;
+assembly.snap('armor');
+const vfx = new FlightVfx(camera, suits.armor.thrusterMounts, 0, quality);
+
+// name -> flight state and ground speed fed to AegisSuit.animate()
+const POSES = {
+  idle: { state: FlightState.Ground, speed: 0 }, walk: { state: FlightState.Ground, speed: 'walk' },
+  run: { state: FlightState.Ground, speed: 'run' }, jump: { state: FlightState.Jump, speed: 0 },
+  takeoff: { state: FlightState.Takeoff, speed: 4 }, hover: { state: FlightState.Hover, speed: 2 },
+  flight: { state: FlightState.Cruise, speed: 26 }, boost: { state: FlightState.Boost, speed: 48 },
+  'bank left': { state: FlightState.Cruise, speed: 26, bank: 1 }, 'bank right': { state: FlightState.Cruise, speed: 26, bank: -1 },
+  brake: { state: FlightState.Brake, speed: 9 },
+  fall: { state: FlightState.Fall, speed: 10, vertical: -10 }, dive: { state: FlightState.Fall, speed: 42, vertical: -42 },
+  landing: { state: FlightState.Landing, speed: 14, vertical: -14 },
+  'land soft': { state: FlightState.Ground, speed: 0, action: 'land_soft' }, 'land medium': { state: FlightState.Ground, speed: 0, action: 'land_medium' },
+  'land heavy': { state: FlightState.Ground, speed: 0, action: 'land_heavy' }, punch: { state: FlightState.Ground, speed: 0, action: 'punch' },
+};
+let pose = 'idle', frozen = null;
+const clipRow = document.querySelector('#clips');
+for (const name of Object.keys(POSES)) {
+  const b = document.createElement('button'); b.textContent = name; b.dataset.pose = name; if (name === 'idle') b.classList.add('active');
+  b.onclick = () => setPose(name); clipRow.append(b);
+}
+const qualityRow = document.querySelector('#quality');
+for (const q of QUALITIES) {
+  const b = document.createElement('button'); b.textContent = q; if (q === quality) b.classList.add('active');
+  b.onclick = () => { params.set('quality', q); location.search = params.toString(); }; qualityRow.append(b);
+}
+function setPose(name) {
+  pose = name; frozen = null;
+  for (const b of clipRow.children) b.classList.toggle('active', b.dataset.pose === name);
+  if (POSES[name].action) suit.playAction(POSES[name].action);
+}
+const speedOf = (s, p) => (p.speed === 'walk' ? s.walkSpeed : p.speed === 'run' ? s.runSpeed * 1.2 : p.speed);
+
+const bone = (name) => suit.bones.get(name).getWorldPosition(new T.Vector3());
+// azimuth is measured from the character's front (+Z)
+const VIEWS = {
+  front: [0, 4, 5.0, () => new T.Vector3(0, 1.08, 0)], threequarter: [34, 7, 5.0, () => new T.Vector3(0, 1.08, 0)],
+  side: [90, 4, 5.0, () => new T.Vector3(0, 1.08, 0)], back: [180, 5, 5.0, () => new T.Vector3(0, 1.08, 0)],
+  backquarter: [214, 8, 5.0, () => new T.Vector3(0, 1.08, 0)],
+  helmet: [22, 4, 1.25, () => bone('head001').add(new T.Vector3(0, 0.1, 0))], helmetSide: [90, 2, 1.25, () => bone('head001').add(new T.Vector3(0, 0.1, 0))],
+  helmetBack: [180, 4, 1.25, () => bone('head001').add(new T.Vector3(0, 0.1, 0))],
+  chest: [14, 5, 2.0, () => bone('chest').add(new T.Vector3(0, 0.1, 0))], arms: [48, 8, 2.3, () => bone('forearmL')],
+  hands: [70, 18, 1.15, () => bone('palmL').add(new T.Vector3(0, -0.06, 0))], legs: [26, 5, 3.3, () => new T.Vector3(0, 0.58, 0)],
+  boots: [34, 9, 1.7, () => bone('footL').add(new T.Vector3(-0.1, -0.02, 0))], thrusters: [162, 9, 2.3, () => bone('chest').add(new T.Vector3(0, 0.08, 0))],
+  flight: [118, 10, 7.4, () => new T.Vector3(0, 1.5, 0)], flightRear: [200, 16, 6.2, () => new T.Vector3(0, 1.5, 0)],
+  assembly: [28, 9, 6.6, () => new T.Vector3(0, 1.1, 0)], assemblyWide: [34, 4, 15, () => new T.Vector3(0, 2.7, 0)], assemblyRear: [205, 12, 6.6, () => new T.Vector3(0, 1.1, 0)],
+  helmetSeal: [26, 6, 2.1, () => bone('head001').add(new T.Vector3(0, 0.06, 0))],
+  shouldersFront: [0, 6, 2.7, () => new T.Vector3(0, 1.62, 0)], shouldersBack: [180, 10, 2.7, () => new T.Vector3(0, 1.62, 0)],
+  shouldersQuarter: [146, 12, 2.7, () => new T.Vector3(0, 1.62, 0)],
+};
+function setView(name) {
+  const [az, el, dist, target] = VIEWS[name]; const t = target();
+  const a = T.MathUtils.degToRad(az), e = T.MathUtils.degToRad(el);
+  controls.target.copy(t);
+  camera.position.set(t.x + Math.sin(a) * Math.cos(e) * dist, t.y + Math.sin(e) * dist, t.z + Math.cos(a) * Math.cos(e) * dist);
+  controls.update();
+  for (const b of document.querySelectorAll('[data-view]')) b.classList.toggle('active', b.dataset.view === name);
+}
+function setLighting(name) {
+  const L = LIGHTING[name]; renderer.toneMappingExposure = L.exposure; scene.environmentIntensity = L.env;
+  key.intensity = L.key; fill.intensity = L.fill; rimL.intensity = L.rim; rimR.intensity = L.rim * 0.62; hemi.intensity = L.hemi;
+  scene.background.set(L.bg); floor.material.color.set(L.floor);
+  for (const b of document.querySelectorAll('[data-light]')) b.classList.toggle('active', b.dataset.light === name);
+}
+function setForm(name) {
+  if (!suits[name]) return; form = name; suit = suits[name]; assembly.snap(name);
+  document.querySelector('#form').textContent = `Form: ${name === 'armor' ? 'armour' : 'pilot'}`;
+}
+function startAssembly(direction) {
+  if (!suits.pilot || (assembly.active && frozen === null)) return;
+  setForm(direction === 'suit' ? 'pilot' : 'armor'); setPose('idle'); frozen = null; assembly.start(direction);
+}
+// Clay: every surface in one neutral matte material, so only the modelled form shows.
+const clayMaterial = new T.MeshStandardMaterial({ color: '#8d9197', roughness: 0.72, metalness: 0 });
+let emission = true, turntable = false, wire = false, clay = false;
+function setClay(on) { clay = on; scene.overrideMaterial = on ? clayMaterial : null; document.querySelector('#clay').classList.toggle('active', on); }
+const toggle = (id, fn) => { const b = document.querySelector(id); b.onclick = () => { b.classList.toggle('active', fn()); }; };
+toggle('#emission', () => (emission = !emission));
+toggle('#bloom', () => (bloom.enabled = !bloom.enabled));
+toggle('#turntable', () => (turntable = !turntable));
+toggle('#wire', () => { wire = !wire; for (const s of Object.values(suits)) s.model.traverse(o => { if (o.isMesh) o.material.wireframe = wire; }); return wire; });
+document.querySelector('#clay').onclick = () => setClay(!clay);
+document.querySelector('#form').onclick = () => setForm(form === 'armor' ? 'pilot' : 'armor');
+document.querySelector('#suit-up').onclick = () => startAssembly('suit');
+document.querySelector('#step-out').onclick = () => startAssembly('unsuit');
+for (const b of document.querySelectorAll('[data-view]')) b.onclick = () => setView(b.dataset.view);
+for (const b of document.querySelectorAll('[data-light]')) b.onclick = () => setLighting(b.dataset.light);
+addEventListener('keydown', (e) => { const k = { Digit1: 'front', Digit2: 'side', Digit3: 'back', Digit4: 'threequarter', KeyH: 'helmet', KeyC: 'chest', KeyB: 'thrusters' }[e.code]; if (k) setView(k); });
+addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); });
+
+const clock = new T.Clock(); let elapsed = 0; const velocity = new T.Vector3();
+function step(dt) {
+  elapsed += dt;
+  const p = POSES[pose]; const flying = ![FlightState.Ground, FlightState.Jump].includes(p.state);
+  const running = assembly.active;
+  if (frozen === null && assembly.update(dt) && running) setForm(running === 'suit' ? 'armor' : 'pilot');
+  for (const s of Object.values(suits)) {
+    const mine = s === suit && !assembly.active;
+    if (frozen === null) s.animate(dt, mine ? p.state : FlightState.Ground, 0, mine ? p.bank ?? 0 : 0, mine ? speedOf(s, p) : 0, mine ? { vertical: p.vertical ?? 0, boost: p.state === FlightState.Boost } : {});
+    s.group.position.y = mine && flying ? 0.9 : 0;
+    s.setPower(emission ? 1 : 0);
+  }
+  velocity.set(0, p.state === FlightState.Takeoff ? 6 : p.vertical ?? 0, flying ? speedOf(suit, p) : 0);
+  vfx.update(dt, form === 'armor' && !assembly.active ? p.state : FlightState.Ground, speedOf(suit, p), p.state === FlightState.Boost, { velocity, bank: p.bank ?? 0 });
+  if (turntable) for (const s of Object.values(suits)) s.group.rotation.y += dt * 0.5;
+  controls.update();
+  if (bloom.enabled) composer.render(); else renderer.render(scene, camera);
+}
+renderer.setAnimationLoop(() => step(Math.min(clock.getDelta(), 0.05)));
+
+let tris = 0; suit.model.traverse(o => { if (o.isMesh) tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3; });
+const report = { triangles: tris, clips: suit.clipNames, mounts: suit.thrusterMounts.map(m => m.name), bones: suit.bones.size, groups: suit.groups.length, pilot: AegisSuit.hasPilot, loadMs: Math.round(AegisSuit.assetLoadMilliseconds), quality };
+document.querySelector('#stats').textContent = `${tris.toLocaleString()} triangles · ${suit.clipNames.length} clips · ${suit.groups.length} armour groups\n${report.mounts.length} thruster mounts · loaded in ${report.loadMs} ms\ndrag = orbit · wheel = zoom · 1 2 3 4 H C B`;
+setLighting(params.get('light') || 'studio'); setView(params.get('view') || 'threequarter');
+
+// Automation hooks for scripts/hero-qa.mjs and scripts/hero-capture.mjs
+window.studio = {
+  report, setView, setLighting, setForm, setPose, setClay, startAssembly, assembly,
+  setEmission(on) { emission = on; }, setBloom(on) { bloom.enabled = on; }, setYaw(deg) { for (const s of Object.values(suits)) s.group.rotation.y = T.MathUtils.degToRad(deg); },
+  /** Advance deterministically without freezing (for frame-by-frame capture). */
+  advance(seconds) { frozen = null; for (let i = 0; i < Math.round(seconds * 60); i++) step(1 / 60); },
+  /** Advance the animation deterministically, then hold the pose. */
+  settle(seconds = 1.2) { this.advance(seconds); frozen = true; step(0); },
+  /** Play the sequence from its start up to `time` and hold it there (thruster smoke included). */
+  playAssemblyTo(direction, time) { startAssembly(direction); for (let i = 0; i < Math.round(time * 60); i++) step(1 / 60); frozen = true; step(0); },
+  /** Pose the suit-up sequence at an absolute time and hold it. */
+  seekAssembly(direction, time) { setPose('idle'); assembly.seek(direction, time); for (let i = 0; i < 40; i++) { for (const s of Object.values(suits)) s.animate(1 / 60, FlightState.Ground, 0, 0, 0); } assembly.seek(direction, time); frozen = true; step(0); },
+  /** Hold the current pose (and release it) without advancing, for multi-view stills of one instant. */
+  hold() { frozen = true; step(0); }, release() { frozen = null; },
+  V: T.Vector3, Q: T.Quaternion, E: T.Euler,
+  suit: () => suit, suits, renderer, scene, camera,
+};
+window.ready = true;
 </script></body></html>

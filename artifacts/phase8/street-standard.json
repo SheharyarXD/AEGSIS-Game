@@ -1,0 +1,378 @@
+{
+  "worldMeters": [
+    2048,
+    2048
+  ],
+  "buildings": 971,
+  "sourceFamilies": [
+    {
+      "id": "aer_glass",
+      "name": "Crown / London glass tower",
+      "source": "free_london_skyscraper.glb",
+      "placements": 2
+    },
+    {
+      "id": "aer_gothic",
+      "name": "Saint Vesper / Aria Gothic tower",
+      "source": "gothic_building_for_aria_pack_1.0.glb",
+      "placements": 2
+    },
+    {
+      "id": "city_artdeco_1",
+      "name": "Downtown ArtDeco 1",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 139
+    },
+    {
+      "id": "city_brownstoneoffice_1",
+      "name": "Downtown BrownstoneOffice 1",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 63
+    },
+    {
+      "id": "city_brownstoneoffice_2",
+      "name": "Downtown BrownstoneOffice 2",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 70
+    },
+    {
+      "id": "city_brutal_1",
+      "name": "Downtown Brutal 1",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 35
+    },
+    {
+      "id": "city_citadel",
+      "name": "Crown Art Deco Citadel",
+      "source": "art_deco_citadel.glb",
+      "placements": 12
+    },
+    {
+      "id": "city_classicoffice_1",
+      "name": "Downtown ClassicOffice 1",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 105
+    },
+    {
+      "id": "city_flatiron_1",
+      "name": "Downtown Flatiron 1",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 32
+    },
+    {
+      "id": "city_iron_duplex_1",
+      "name": "Industrial Duplex 1",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 9
+    },
+    {
+      "id": "city_iron_genericbuilding_4",
+      "name": "Industrial GenericBuilding 4",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 6
+    },
+    {
+      "id": "city_iron_hangar_2",
+      "name": "Industrial Hangar 2",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 5
+    },
+    {
+      "id": "city_iron_warehouse_1",
+      "name": "Industrial Warehouse 1",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 11
+    },
+    {
+      "id": "city_iron_warehouse_3",
+      "name": "Industrial Warehouse 3",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 15
+    },
+    {
+      "id": "city_iron_warehouse_4",
+      "name": "Industrial Warehouse 4",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 8
+    },
+    {
+      "id": "city_iron_warehouse_5",
+      "name": "Industrial Warehouse 5",
+      "source": "industrial_buildings_set_-_low_poly_models.glb",
+      "placements": 9
+    },
+    {
+      "id": "city_meridian_arcade",
+      "name": "AEGIS original Meridian Arcade / Quaternius CC0 modular composition",
+      "source": "../environment/city-redesign/meridian-arcade-source.glb",
+      "placements": 102
+    },
+    {
+      "id": "city_modernoffice_1_b",
+      "name": "Downtown ModernOffice 1 B",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 91
+    },
+    {
+      "id": "city_modernoffice_2",
+      "name": "Downtown ModernOffice 2",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 3
+    },
+    {
+      "id": "city_modernoffice_4",
+      "name": "Downtown ModernOffice 4",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 30
+    },
+    {
+      "id": "city_modernoffice_5_b",
+      "name": "Downtown ModernOffice 5 B",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 38
+    },
+    {
+      "id": "city_publicbuilding_1",
+      "name": "Downtown PublicBuilding 1",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 64
+    },
+    {
+      "id": "city_residential_2",
+      "name": "Downtown Residential 2",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 87
+    },
+    {
+      "id": "city_residential_4",
+      "name": "Downtown Residential 4",
+      "source": "downtown_buildings_set_-_low_poly_model.glb",
+      "placements": 32
+    },
+    {
+      "id": "city_singapore",
+      "name": "Crown Singapore Exchange",
+      "source": "singapore_office_skyscraper_free.glb",
+      "placements": 1
+    }
+  ],
+  "districts": [
+    {
+      "id": "financial",
+      "name": "Crown Exchange",
+      "buildings": 218,
+      "standards": {
+        "sidewalk": 6,
+        "lane": 3.2,
+        "parking": 2.4,
+        "lampSpacing": 31,
+        "lamp": "modern",
+        "cornerCut": 1.8,
+        "frontage": "corporate"
+      }
+    },
+    {
+      "id": "commercial",
+      "name": "Prism Midtown",
+      "buildings": 294,
+      "standards": {
+        "sidewalk": 4.8,
+        "lane": 3.2,
+        "parking": 2.4,
+        "lampSpacing": 28,
+        "lamp": "modern",
+        "cornerCut": 1.5,
+        "frontage": "shops"
+      }
+    },
+    {
+      "id": "residential",
+      "name": "Meridian Civic",
+      "buildings": 243,
+      "standards": {
+        "sidewalk": 5.2,
+        "lane": 3.1,
+        "parking": 2.3,
+        "lampSpacing": 30,
+        "lamp": "historic",
+        "cornerCut": 1.5,
+        "frontage": "historic"
+      }
+    },
+    {
+      "id": "gothic",
+      "name": "Saint Vesper Old City",
+      "buildings": 132,
+      "standards": {
+        "sidewalk": 4.6,
+        "lane": 3.1,
+        "parking": 2.3,
+        "lampSpacing": 28,
+        "lamp": "historic",
+        "cornerCut": 1.6,
+        "frontage": "historic"
+      }
+    },
+    {
+      "id": "industrial",
+      "name": "Ironwake Waterfront",
+      "buildings": 84,
+      "standards": {
+        "sidewalk": 3.6,
+        "lane": 3.6,
+        "parking": 2.6,
+        "lampSpacing": 34,
+        "lamp": "modern",
+        "cornerCut": 1.8,
+        "frontage": "service"
+      }
+    }
+  ],
+  "historicFrontageLinks": [
+    {
+      "begin": -530.41985,
+      "end": -521.24205,
+      "z": -406.71985
+    },
+    {
+      "begin": -558.75795,
+      "end": -549.58015,
+      "z": -406.71985
+    }
+  ],
+  "trafficLoops": 177,
+  "quality": {
+    "LOW": {
+      "range": 145,
+      "maxTiles": 9,
+      "particleScale": 0.28,
+      "ambientCars": 12,
+      "budgetMs": 2
+    },
+    "MEDIUM": {
+      "range": 205,
+      "maxTiles": 16,
+      "particleScale": 0.5,
+      "ambientCars": 20,
+      "budgetMs": 2.5
+    },
+    "HIGH": {
+      "range": 255,
+      "maxTiles": 22,
+      "particleScale": 0.75,
+      "ambientCars": 28,
+      "budgetMs": 3
+    },
+    "ULTRA": {
+      "range": 310,
+      "maxTiles": 28,
+      "particleScale": 1,
+      "ambientCars": 36,
+      "budgetMs": 3
+    }
+  },
+  "destruction": {
+    "missiles": {
+      "standard": {
+        "environment": 3,
+        "structure": 3,
+        "radius": 1,
+        "impulse": 1.25,
+        "vfx": 1,
+        "energy": 7,
+        "cooldown": 0.6
+      },
+      "demolition": {
+        "environment": 5,
+        "structure": 5,
+        "radius": 1.55,
+        "impulse": 2.1,
+        "vfx": 1.7,
+        "energy": 22,
+        "cooldown": 8
+      }
+    },
+    "breakthrough": {
+      "key": "KeyY",
+      "minSpeed": 18,
+      "speed": 70,
+      "energy": 32,
+      "cooldown": 12,
+      "range": 125,
+      "maxDepth": 110,
+      "radius": 1.65,
+      "halfHeight": 1.4,
+      "maxPitch": 0.22,
+      "timeout": 5
+    },
+    "budgets": {
+      "LOW": {
+        "debris": 16,
+        "workMs": 1.5,
+        "components": 12,
+        "collapsedFloors": 1
+      },
+      "MEDIUM": {
+        "debris": 24,
+        "workMs": 2,
+        "components": 20,
+        "collapsedFloors": 1
+      },
+      "HIGH": {
+        "debris": 32,
+        "workMs": 2.5,
+        "components": 28,
+        "collapsedFloors": 2
+      },
+      "ULTRA": {
+        "debris": 40,
+        "workMs": 3,
+        "components": 36,
+        "collapsedFloors": 2
+      }
+    }
+  },
+  "showcases": [
+    {
+      "id": 211,
+      "family": "aer_gothic",
+      "x": -540,
+      "z": -416,
+      "width": 19.1603,
+      "depth": 19.1603,
+      "height": 179.36,
+      "damageClass": "full"
+    },
+    {
+      "id": 235,
+      "family": "aer_glass",
+      "x": 172,
+      "z": -256,
+      "width": 38.1039,
+      "depth": 57.1168,
+      "height": 188.16,
+      "damageClass": "full"
+    },
+    {
+      "id": 287,
+      "family": "city_meridian_arcade",
+      "x": 172,
+      "z": -112,
+      "width": 29.2316,
+      "depth": 26.2717,
+      "height": 32.2,
+      "damageClass": "full"
+    },
+    {
+      "id": 9014,
+      "family": "city_iron_hangar_2",
+      "x": 652,
+      "z": 748,
+      "width": 61.8147,
+      "depth": 74.4457,
+      "height": 16,
+      "damageClass": "full"
+    }
+  ],
+  "note": "Configuration and saved-plan facts only. These budgets are not measured FPS or guaranteed frame times."
+}

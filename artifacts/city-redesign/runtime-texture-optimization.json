@@ -1,0 +1,255 @@
+{
+  "method": "Shared native BC3 DDS with equal-resolution WebP fallback; preserved glTF UV channels, sampler transforms and material slots. Original source Blender and external GLBs remain intact.",
+  "results": [
+    {
+      "path": "public/assets/environment/premium/provided/aer_glass-near-optimized.glb",
+      "before": 14750572,
+      "after": 8472492
+    },
+    {
+      "path": "public/assets/environment/premium/provided/aer_glass-mid-optimized.glb",
+      "before": 8028960,
+      "after": 1542720
+    },
+    {
+      "path": "public/assets/environment/premium/provided/aer_gothic-near-optimized.glb",
+      "before": 2375492,
+      "after": 2242168
+    },
+    {
+      "path": "public/assets/environment/premium/provided/aer_gothic-mid-optimized.glb",
+      "before": 1774248,
+      "after": 1603544
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_artdeco_1-near-optimized.glb",
+      "before": 734684,
+      "after": 187516
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_artdeco_1-mid-optimized.glb",
+      "before": 604256,
+      "after": 55492
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_brownstoneoffice_1-near-optimized.glb",
+      "before": 584508,
+      "after": 213256
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_brownstoneoffice_1-mid-optimized.glb",
+      "before": 434276,
+      "after": 60716
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_brownstoneoffice_2-near-optimized.glb",
+      "before": 1089292,
+      "after": 264808
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_brownstoneoffice_2-mid-optimized.glb",
+      "before": 909952,
+      "after": 84264
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_brutal_1-near-optimized.glb",
+      "before": 515496,
+      "after": 230880
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_brutal_1-mid-optimized.glb",
+      "before": 347804,
+      "after": 60932
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_citadel-near-optimized.glb",
+      "before": 1603768,
+      "after": 1118176
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_citadel-mid-optimized.glb",
+      "before": 735276,
+      "after": 234540
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_classicoffice_1-near-optimized.glb",
+      "before": 771768,
+      "after": 253868
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_classicoffice_1-mid-optimized.glb",
+      "before": 586816,
+      "after": 66904
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_flatiron_1-near-optimized.glb",
+      "before": 1382152,
+      "after": 1008136
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_flatiron_1-mid-optimized.glb",
+      "before": 655960,
+      "after": 266300
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_duplex_1-near-optimized.glb",
+      "before": 482360,
+      "after": 48840
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_duplex_1-mid-optimized.glb",
+      "before": 445640,
+      "after": 11824
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_genericbuilding_4-near-optimized.glb",
+      "before": 489252,
+      "after": 56128
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_genericbuilding_4-mid-optimized.glb",
+      "before": 451408,
+      "after": 17764
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_hangar_2-near-optimized.glb",
+      "before": 887936,
+      "after": 233540
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_hangar_2-mid-optimized.glb",
+      "before": 689540,
+      "after": 33300
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_1-near-optimized.glb",
+      "before": 480168,
+      "after": 46764
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_1-mid-optimized.glb",
+      "before": 445540,
+      "after": 11728
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_3-near-optimized.glb",
+      "before": 423984,
+      "after": 56244
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_3-mid-optimized.glb",
+      "before": 380152,
+      "after": 11972
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_4-near-optimized.glb",
+      "before": 299492,
+      "after": 65196
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_4-mid-optimized.glb",
+      "before": 245828,
+      "after": 10936
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_5-near-optimized.glb",
+      "before": 518540,
+      "after": 112140
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_iron_warehouse_5-mid-optimized.glb",
+      "before": 438672,
+      "after": 30644
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_meridian_arcade-near-optimized.glb",
+      "before": 2512352,
+      "after": 1591808
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_meridian_arcade-mid-optimized.glb",
+      "before": 1881464,
+      "after": 984536
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_1_b-near-optimized.glb",
+      "before": 656036,
+      "after": 205548
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_1_b-mid-optimized.glb",
+      "before": 484568,
+      "after": 32256
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_2-near-optimized.glb",
+      "before": 486180,
+      "after": 66908
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_2-mid-optimized.glb",
+      "before": 438996,
+      "after": 19104
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_4-near-optimized.glb",
+      "before": 892944,
+      "after": 332060
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_4-mid-optimized.glb",
+      "before": 612328,
+      "after": 47152
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_5_b-near-optimized.glb",
+      "before": 850220,
+      "after": 241884
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_modernoffice_5_b-mid-optimized.glb",
+      "before": 648728,
+      "after": 38620
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_publicbuilding_1-near-optimized.glb",
+      "before": 429388,
+      "after": 93344
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_publicbuilding_1-mid-optimized.glb",
+      "before": 356584,
+      "after": 19556
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_residential_2-near-optimized.glb",
+      "before": 513396,
+      "after": 130688
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_residential_2-mid-optimized.glb",
+      "before": 415156,
+      "after": 31304
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_residential_4-near-optimized.glb",
+      "before": 546628,
+      "after": 163616
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_residential_4-mid-optimized.glb",
+      "before": 424944,
+      "after": 40832
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_singapore-near-optimized.glb",
+      "before": 4813836,
+      "after": 1786264
+    },
+    {
+      "path": "public/assets/environment/premium/city/city_singapore-mid-optimized.glb",
+      "before": 3495824,
+      "after": 445336
+    }
+  ]
+}

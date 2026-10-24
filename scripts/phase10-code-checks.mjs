@@ -1,0 +1,7 @@
+import {spawn} from 'node:child_process';
+import {createWriteStream} from 'node:fs';
+import {readFile,writeFile} from 'node:fs/promises';
+const root='artifacts/phase10';
+async function run(file,args){const output=createWriteStream(`${root}/${file}.log`),child=spawn(process.execPath,args,{windowsHide:true,stdio:['ignore','pipe','pipe']});child.stdout.pipe(output,{end:false});child.stderr.pipe(output,{end:false});const code=await new Promise((resolve,reject)=>{child.once('error',reject);child.once('close',resolve);});await new Promise(r=>output.end(r));console.log(`${file}: ${code}`);return code;}
+const unitExit=await run('unit-tests',['--import','tsx','--test',...['physics','environment','world-recovery','world-realism','visibility-destruction','phase8','phase9','phase10','phase10-controller','phase10-camera'].map(n=>`tests/${n}.test.ts`)]),typeExit=await run('typecheck',['node_modules/typescript/bin/tsc','--noEmit']),buildExit=typeExit===0?await run('build',['node_modules/vite/bin/vite.js','build']):-1,auditExit=await run('preservation-audit',['scripts/phase10-audit.mjs']),unitLog=await readFile(root+'/unit-tests.log','utf8');
+const result={checkedAt:new Date().toISOString(),unit:{pass:Number(unitLog.match(/pass (\d+)/)?.[1]??0),fail:Number(unitLog.match(/fail (\d+)/)?.[1]??-1)},build:typeExit===0&&buildExit===0,steps:{unitExit,typeExit,buildExit,auditExit}};await writeFile(root+'/code-checks.json',JSON.stringify(result,null,2));if(Object.values(result.steps).some(c=>c!==0))process.exitCode=1;

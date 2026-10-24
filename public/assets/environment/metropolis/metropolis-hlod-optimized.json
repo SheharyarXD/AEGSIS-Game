@@ -1,0 +1,7 @@
+{
+  "input": "public/assets/environment/metropolis/metropolis-hlod.glb",
+  "output": "public/assets/environment/metropolis/metropolis-hlod-optimized.glb",
+  "sourceBytes": 36772,
+  "runtimeBytes": 23348,
+  "meshes": 25
+}

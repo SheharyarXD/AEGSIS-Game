@@ -1,0 +1,1 @@
+﻿import {CityLayout} from './src/world/CityLayout.ts';const a=new CityLayout().buildings;console.log(a.filter(b=>[211,10211,10212,9011,10073,10074].includes(b.id)).map(b=>({id:b.id,block:b.block,x:b.x,z:b.z,w:b.w,d:b.d})))

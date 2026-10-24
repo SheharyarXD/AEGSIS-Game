@@ -1,0 +1,58 @@
+[
+  {
+    "label": "armour walk",
+    "form": "armor",
+    "bodySpeed": 1.95,
+    "stances": 7,
+    "meanStanceSeconds": 0.41,
+    "meanDriftCm": 0.2,
+    "maxDriftCm": 0.5,
+    "slipPercentOfSpeed": 0.3,
+    "fps": 47,
+    "disturbedStances": 0,
+    "hitsTaken": 0,
+    "driftsCm": "0.3 0.1 0.1 0.3 0.1 0.5 0.2"
+  },
+  {
+    "label": "armour run",
+    "form": "armor",
+    "bodySpeed": 5.26,
+    "stances": 7,
+    "meanStanceSeconds": 0.12,
+    "meanDriftCm": 1.6,
+    "maxDriftCm": 4.7,
+    "slipPercentOfSpeed": 2.4,
+    "fps": 82,
+    "disturbedStances": 0,
+    "hitsTaken": 0,
+    "driftsCm": "4.7 3.8 1.4 0.7 0.1 0.1 0.1"
+  },
+  {
+    "label": "pilot walk",
+    "form": "pilot",
+    "bodySpeed": 1.67,
+    "stances": 10,
+    "meanStanceSeconds": 0.31,
+    "meanDriftCm": 0.3,
+    "maxDriftCm": 0.6,
+    "slipPercentOfSpeed": 0.6,
+    "fps": 101,
+    "disturbedStances": 0,
+    "hitsTaken": 0,
+    "driftsCm": "0.4 0.6 0.5 0.4 0.1 0.6 0.3 0.3 0.2 0.1"
+  },
+  {
+    "label": "pilot run",
+    "form": "pilot",
+    "bodySpeed": 4.7,
+    "stances": 10,
+    "meanStanceSeconds": 0.17,
+    "meanDriftCm": 1.6,
+    "maxDriftCm": 6.8,
+    "slipPercentOfSpeed": 2,
+    "fps": 104,
+    "disturbedStances": 0,
+    "hitsTaken": 0,
+    "driftsCm": "0.1 6.8 0.1 2.3 4.5 0.4 0.5 0.4 0.4 0.4"
+  }
+]

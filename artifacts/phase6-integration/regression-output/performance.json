@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-10",
+  "browser": "155.0.8059.40",
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x00001380) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "viewport": [
+    1440,
+    900
+  ],
+  "headless": true,
+  "scenario": "Ground encounter, three pursuing enforcers; camera stationary",
+  "samples": 359,
+  "meanMs": 27.043732590529235,
+  "medianMs": 27.699999999999818,
+  "p95Ms": 48.599999999998545,
+  "diagnostics": {
+    "colliders": 7171,
+    "environment": {
+      "worldSize": [
+        2048,
+        2048
+      ],
+      "district": "financial",
+      "buildings": 632,
+      "tiles": 20,
+      "pending": 0,
+      "maxTiles": 22,
+      "loads": 43,
+      "unloads": 4,
+      "generationMs": 0,
+      "maxGenerationMs": 1.1000000089406967,
+      "collisionResident": true,
+      "worldColliders": 6770,
+      "quality": "HIGH",
+      "assetBytes": 2935140,
+      "textureBytesEstimate": 8388607.999999999,
+      "weather": "partly-cloudy",
+      "hour": 17.299999999999997,
+      "night": 0.2132934235235543,
+      "wetness": 0,
+      "snowCover": 0,
+      "particles": 0,
+      "lightningCount": 0,
+      "fogDensity": 0.000248012312454481,
+      "gpu": {
+        "supported": true,
+        "samples": 240,
+        "meanMs": 23.34985573333334,
+        "p95Ms": 39.788639999999994
+      }
+    },
+    "mode": "play",
+    "quality": "HIGH",
+    "frameMs": 69.5,
+    "meanMs": 28.565301204819274,
+    "p95Ms": 48.5,
+    "simulationMs": 3.2000000029802322,
+    "drawCalls": 402,
+    "triangles": 1946985,
+    "bodies": 4,
+    "activeBodies": 4,
+    "particles": 0,
+    "debris": 0,
+    "broken": 0,
+    "geometries": 115,
+    "textures": 64,
+    "loadingMs": 806.6000000089407,
+    "assetLoadMs": 457.6000000089407,
+    "position": [
+      7.208118915557861,
+      0.02009017467498775,
+      -46.24580764770508
+    ],
+    "state": "GROUND",
+    "health": 4,
+    "courseIndex": 4,
+    "stage": "ground",
+    "crashes": 1,
+    "throws": 0,
+    "enemyHealth": [
+      95,
+      95,
+      95
+    ],
+    "missiles": 0
+  }
+}

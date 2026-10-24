@@ -1,0 +1,248 @@
+{
+  "source": "art/environment/phase9/demolition-and-living-block.blend",
+  "script": "art/environment/phase9/build_phase9.py",
+  "license": "public/assets/environment/metropolis/PHASE9-LICENSES.txt",
+  "raw": "public/assets/environment/metropolis/phase9-demolition-kit.glb",
+  "optimized": "public/assets/environment/metropolis/phase9-demolition-kit-optimized.glb",
+  "rawBytes": 2130044,
+  "optimizedBytes": 937932,
+  "savingsPercent": 55.966543414126654,
+  "sourceSha256": "187fe671695550e855df875e347e3e0983da60ae3de1221b775e8e7e4324ad1f",
+  "exportSha256": "31ec0ad3a738b3168a657d6516d2abd00e9c4bb02376a88d9697576ae80e66d3",
+  "modules": [
+    {
+      "key": "titan9_ruin_glass_0",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 9276,
+      "triangles": 4840,
+      "materials": [
+        "titan9_concrete",
+        "titan9_steel",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_ruin_glass_1",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 3636,
+      "triangles": 1924,
+      "materials": [
+        "titan9_concrete",
+        "titan9_steel",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_ruin_glass_2",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 984,
+      "triangles": 524,
+      "materials": [
+        "titan9_concrete",
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_ruin_gothic_0",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 9780,
+      "triangles": 5120,
+      "materials": [
+        "titan9_stone",
+        "titan9_steel",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_ruin_gothic_1",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 4140,
+      "triangles": 2204,
+      "materials": [
+        "titan9_stone",
+        "titan9_steel",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_ruin_gothic_2",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 1488,
+      "triangles": 804,
+      "materials": [
+        "titan9_steel",
+        "titan9_stone"
+      ]
+    },
+    {
+      "key": "titan9_ruin_industrial_0",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 9708,
+      "triangles": 5080,
+      "materials": [
+        "titan9_brick",
+        "titan9_steel",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_ruin_industrial_1",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 4068,
+      "triangles": 2164,
+      "materials": [
+        "titan9_brick",
+        "titan9_steel",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_ruin_industrial_2",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 1416,
+      "triangles": 764,
+      "materials": [
+        "titan9_brick",
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_breach_glass",
+      "meshes": 3,
+      "primitives": 3,
+      "vertices": 1080,
+      "triangles": 552,
+      "materials": [
+        "titan9_steel",
+        "titan9_concrete",
+        "titan9_glass"
+      ]
+    },
+    {
+      "key": "titan9_breach_stone",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 912,
+      "triangles": 468,
+      "materials": [
+        "titan9_stone",
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_breach_concrete",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 912,
+      "triangles": 468,
+      "materials": [
+        "titan9_concrete",
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_breach_floor",
+      "meshes": 1,
+      "primitives": 1,
+      "vertices": 72,
+      "triangles": 44,
+      "materials": [
+        "titan9_concrete"
+      ]
+    },
+    {
+      "key": "titan9_storefront",
+      "meshes": 4,
+      "primitives": 4,
+      "vertices": 1056,
+      "triangles": 532,
+      "materials": [
+        "titan9_steel",
+        "titan9_glass",
+        "titan9_paint",
+        "titan9_light"
+      ]
+    },
+    {
+      "key": "titan9_fire_escape",
+      "meshes": 1,
+      "primitives": 1,
+      "vertices": 3132,
+      "triangles": 1740,
+      "materials": [
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_service_bank",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 540,
+      "triangles": 288,
+      "materials": [
+        "titan9_paint",
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_railing",
+      "meshes": 1,
+      "primitives": 1,
+      "vertices": 720,
+      "triangles": 400,
+      "materials": [
+        "titan9_steel"
+      ]
+    },
+    {
+      "key": "titan9_sedan",
+      "meshes": 5,
+      "primitives": 5,
+      "vertices": 3624,
+      "triangles": 1910,
+      "materials": [
+        "titan9_glass",
+        "titan9_paint",
+        "titan9_concrete",
+        "titan9_steel",
+        "titan9_light"
+      ]
+    },
+    {
+      "key": "titan9_courtyard_span",
+      "meshes": 2,
+      "primitives": 2,
+      "vertices": 2688,
+      "triangles": 1436,
+      "materials": [
+        "titan9_stone",
+        "titan9_steel"
+      ]
+    }
+  ],
+  "materials": [
+    "titan9_concrete",
+    "titan9_steel",
+    "titan9_glass",
+    "titan9_stone",
+    "titan9_brick",
+    "titan9_paint",
+    "titan9_light"
+  ],
+  "primitives": 47,
+  "vertices": 59232,
+  "triangles": 31262,
+  "uvs": true,
+  "normals": true,
+  "finiteAttributes": true,
+  "validIndices": true
+}

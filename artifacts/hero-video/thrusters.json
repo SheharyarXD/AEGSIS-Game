@@ -1,0 +1,38 @@
+[
+  {
+    "quality": "LOW",
+    "offMedianMs": 6.9,
+    "boostMedianMs": 6.9,
+    "offP95Ms": 7,
+    "boostP95Ms": 7,
+    "extraDrawCalls": 1,
+    "extraTriangles": 24
+  },
+  {
+    "quality": "MEDIUM",
+    "offMedianMs": 6.9,
+    "boostMedianMs": 6.9,
+    "offP95Ms": 7,
+    "boostP95Ms": 7,
+    "extraDrawCalls": 1,
+    "extraTriangles": 24
+  },
+  {
+    "quality": "HIGH",
+    "offMedianMs": 6.9,
+    "boostMedianMs": 6.9,
+    "offP95Ms": 7,
+    "boostP95Ms": 7,
+    "extraDrawCalls": 1,
+    "extraTriangles": 24
+  },
+  {
+    "quality": "ULTRA",
+    "offMedianMs": 6.9,
+    "boostMedianMs": 6.9,
+    "offP95Ms": 7,
+    "boostP95Ms": 7,
+    "extraDrawCalls": 1,
+    "extraTriangles": 24
+  }
+]

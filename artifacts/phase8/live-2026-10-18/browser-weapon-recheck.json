@@ -1,0 +1,265 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.phase8.config.mjs",
+      "--grep",
+      "intact source buildings|Phase 8 real L|Phase 8 real O",
+      "--max-failures=3"
+    ],
+    "configFile": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\playwright.phase8.config.mjs",
+    "rootDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 3,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/artifacts/phase8/live-2026-10-18/test-results-weapon-recheck",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/XD GAMING/Downloads/Work/Agesis Game/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs",
+          "architecture.browser.spec.mjs",
+          "city-redesign.browser.spec.mjs",
+          "visibility-destruction.browser.spec.mjs",
+          "world-realism.browser.spec.mjs",
+          "phase8.browser.spec.mjs"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase8\\live-2026-10-18\\test-results-weapon-recheck",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\tests",
+        "snapshotDir": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\tests",
+        "testIgnore": [],
+        "testMatch": [
+          "browser.spec.mjs",
+          "environment.browser.spec.mjs",
+          "integration.browser.spec.mjs",
+          "architecture.browser.spec.mjs",
+          "city-redesign.browser.spec.mjs",
+          "visibility-destruction.browser.spec.mjs",
+          "world-realism.browser.spec.mjs",
+          "phase8.browser.spec.mjs"
+        ],
+        "timeout": 180000,
+        "use": {
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "baseURL": "http://127.0.0.1:5192",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/phase8/live-2026-10-18/browser-weapon-recheck.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "integration.browser.spec.mjs",
+      "file": "integration.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "intact source buildings occlude targeting; sustained weapons open persistent holes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14451,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T04:35:30.288Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "weapon-impact-coordinates",
+                      "contentType": "application/json",
+                      "body": "eyJzZXR1cCI6eyJ3YWxsIjoxNTcuNjMwNDMwMjIxNTU3NjJ9LCJyZXN1bHQiOnsiaGVhbHRoIjowLCJoaXRzIjowLCJzaG90cyI6NCwiYmVhbSI6MS4xMTY2NjY2NjY2NjY2Njc2LCJlbmQiOlsxODEuMDIxMDcwODk5NjQ1ODUsOC4xMDAwMDAyMTYxNTY1OSwtMjU1LjY5OTk5OTk5MDIyNjEzXSwiaW1wYWN0cyI6W1sxNTguMTA4MzM2NTg0MjM1NzYsOC4zMjQyODAyMjMyNTc1ODUsLTI1NC4yNzk1NTk3MzY4NTQ0NV0sWzE2Mi43OTYwMTU4MzA2Nzg3NSw4LjQzMjg5NzUwMjc0NDU5OCwtMjU0LjMxNDE1OTI1NzI3MjIyXSxbMTYwLjU2NDMyNTE4Nzk2NDc4LDcuMDExNzc3MzI3ODY3MjI4LC0yNTUuOTk0MzM3NjU2MjcxNDhdLFsxNTcuNzU2ODA2MTE1MzY3MjgsNy4xMjE3Njk0NTIzNjAwMTMsLTI1Ni4wMjg0NDIyMzk4ODY4M10sWzE2MC42MDk0NTY0MDg3NTgwNiw3LjAxMzA5NjY5Nzk4NzcxNiwtMjU1Ljk5NzA1ODc5MjI5Mjg4XSxbMTU3Ljc1NzAwNjA1NzIxMzksNy4xMjMzMTQ4ODk3NTEyMjUsLTI1Ni4wMjc1NjcxNTAyOTc4NF1dLCJmYWNhZGVDaGVja3MiOlt7InBvaW50IjpbMTU4LjEwODMzNjU4NDIzNTc2LDguMzI0MjgwMjIzMjU3NTg1LC0yNTQuMjc5NTU5NzM2ODU0NDVdLCJzdXJmYWNlRXJyb3IiOjAuMDAwMDAzODE0Njk3MjY1NjI1fV0sImJyb2tlbiI6MTR9fQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cf3aaa11c9e7356b7eb6-8a3084a63b5df89c9ccc",
+          "file": "integration.browser.spec.mjs",
+          "line": 35,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "phase8.browser.spec.mjs",
+      "file": "phase8.browser.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Phase 8 real L input heats and cuts source geometry, then cools without losing saved damage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17016,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T04:35:44.905Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "thermal-state",
+                      "contentType": "application/json",
+                      "body": "eyJob3QiOnsiYmVhbSI6MC41MzMzMzMzMzMzMzMzMzMzLCJzY2FycyI6W3siaWQiOjIzNSwicCI6WzE4MC4zNDkxOTg4ODU5NTc5MiwyMC4yMDc0NjM4MTI5Njg1MDYsLTIzNS44MDU2NjU2NDAwOTM0OF0sIm4iOlswLjg5MjE3MzU4ODI3NTkwOTQsLTAuMDMyOTE4MjQ4MzI1NTg2MzIsMC40NTA0OTE1NzczODY4NTYxXSwicmFkaXVzIjowLjk2NDcxNDk1MTE0MTIzNjMsImhpdHMiOjMzLCJtYXRlcmlhbCI6ImNvbXBvc2l0ZSIsImVuZXJneSI6MS40NjA0Mjg4MTI4MzM1MTh9XSwiYnJva2VuIjoxfSwiY29sZCI6eyJ2ZXJzaW9uIjoyLCJzY2FycyI6W3siaWQiOjIzNSwicCI6WzE4MC4zNDkxOTg4ODU5NTc5MiwyMC4yMDc0NjM4MTI5Njg1MDYsLTIzNS44MDU2NjU2NDAwOTM0OF0sIm4iOlswLjg5MjE3MzU4ODI3NTkwOTQsLTAuMDMyOTE4MjQ4MzI1NTg2MzIsMC40NTA0OTE1NzczODY4NTYxXSwicmFkaXVzIjowLjk2NDcxNDk1MTE0MTIzNjMsImhpdHMiOjMzLCJtYXRlcmlhbCI6ImNvbXBvc2l0ZSIsImVuZXJneSI6MC4wMDk3MzY1MzU3MjE3MjE2ODN9XSwiYnJlYWNoZXMiOltdLCJydWJibGUiOltdLCJidWlsZGluZ3MiOlt7ImlkIjoyMzUsImJyb2tlbiI6WzQ4Ml0sImhwIjpbWzQ4MiwtNy4yMDAwMDAwMDAwMDAwNThdXSwic3RhZ2UiOiJsb2NhbCIsImNvbGxhcHNlIjpudWxsfV19fQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a020473468d8c68cd2d6-3e9a31a32456896f3e86",
+          "file": "phase8.browser.spec.mjs",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "Phase 8 real O/F inputs latch demolition, increase building damage and respect cooldown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8752,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-18T04:36:01.929Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "missile-state",
+                      "contentType": "application/json",
+                      "body": "eyJzdGFuZGFyZCI6eyJsYXVuY2hlcyI6MiwiYnJva2VuIjozLCJlZmZlY3RzIjp7InNjYXJzIjoxLCJmaXJlcyI6MSwicGFydGljbGVzIjo0MCwicGFydGljbGVDYXAiOjY0LCJleHBsb3Npb25zIjp7ImVtaXR0ZXJzIjoxLCJsb2JlcyI6NiwiY2FwIjoxOH0sImJhdGNoZXMiOjUsIndpbmQiOjF9fSwiaGVhdnkiOnsibGF1bmNoZXMiOjQsInJlbWFpbmluZyI6Ni44MDAwMDAwMDAwMDAwMDQsImJyb2tlbiI6MTksImVuZXJneSI6NjAuMzE2NjY2NjY2NjY2NjF9fQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a020473468d8c68cd2d6-31182bc5406026e83f3b",
+          "file": "phase8.browser.spec.mjs",
+          "line": 47,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-18T04:35:29.736Z",
+    "duration": 41113.94,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "sourceBlender": "art/environment/world-realism/urban-details.blend",
+  "sourceScript": "art/environment/world-realism/build_street_details.py",
+  "runtime": "public/assets/environment/metropolis/street-details-optimized.glb",
+  "bytes": 148320,
+  "triangles": 7376,
+  "modules": [
+    "realism_canopy",
+    "realism_dumpster",
+    "realism_fence",
+    "realism_lamp_lens",
+    "realism_newspaper",
+    "realism_pedestrian_signal",
+    "realism_planter",
+    "realism_signpost",
+    "realism_tree",
+    "realism_vent"
+  ],
+  "materials": [
+    "realism_service_green",
+    "realism_iron",
+    "realism_paper",
+    "realism_awning",
+    "realism_soil",
+    "realism_foliage",
+    "realism_signal_white",
+    "realism_signal_red",
+    "realism_bark",
+    "realism_lamp_lens"
+  ],
+  "maps": [
+    {
+      "file": "concrete-color.webp",
+      "bytes": 85114,
+      "size": [
+        512,
+        512
+      ],
+      "author": "Original deterministic AEGIS aggregate synthesis; no external image inputs"
+    },
+    {
+      "file": "concrete-normal.webp",
+      "bytes": 64244,
+      "size": [
+        512,
+        512
+      ],
+      "author": "Original deterministic AEGIS aggregate synthesis; no external image inputs"
+    },
+    {
+      "file": "concrete-rough.webp",
+      "bytes": 56064,
+      "size": [
+        512,
+        512
+      ],
+      "author": "Original deterministic AEGIS aggregate synthesis; no external image inputs"
+    }
+  ],
+  "license": "public/assets/environment/metropolis/WORLD-REALISM-LICENSES.txt",
+  "buildingSourcesUnchanged": true,
+  "errors": []
+}

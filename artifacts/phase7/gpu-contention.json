@@ -1,0 +1,56 @@
+﻿{
+    "sampledAt":  "2026-10-11T21:06:09.8380784Z",
+    "nvidiaSmi":  [
+                      "name, utilization.gpu [%], memory.used [MiB], memory.total [MiB], clocks.current.graphics [MHz], clocks.current.memory [MHz]",
+                      "NVIDIA GeForce GTX 750 Ti, 51 %, 1730 MiB, 2048 MiB, 1176 MHz, 2700 MHz"
+                  ],
+    "note":  "Point-in-time machine-wide counters during a benchmark. Other applications were left untouched; this is not an uncontended GPU test.",
+    "activeEngines":  [
+                          {
+                              "Name":  "pid_79524_luid_0x00000000_0x00013B1E_phys_0_eng_1_engtype_Compute_0",
+                              "UtilizationPercentage":  9
+                          },
+                          {
+                              "Name":  "pid_91516_luid_0x00000000_0x00013B1E_phys_0_eng_0_engtype_3D",
+                              "UtilizationPercentage":  52
+                          }
+                      ],
+    "identifiedConcurrentApplication":  "AndroidEmulatorEn.exe",
+    "processMemory":  [
+                          {
+                              "Name":  "pid_18540_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  231432192,
+                              "SharedUsage":  340344832
+                          },
+                          {
+                              "Name":  "pid_106100_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  97734656,
+                              "SharedUsage":  15114240
+                          },
+                          {
+                              "Name":  "pid_91516_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  994172928,
+                              "SharedUsage":  197554176
+                          },
+                          {
+                              "Name":  "pid_43264_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  160935936,
+                              "SharedUsage":  11653120
+                          },
+                          {
+                              "Name":  "pid_60536_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  104873984,
+                              "SharedUsage":  2363392
+                          },
+                          {
+                              "Name":  "pid_78876_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  75767808,
+                              "SharedUsage":  16637952
+                          },
+                          {
+                              "Name":  "pid_79524_luid_0x00000000_0x00013B1E_phys_0",
+                              "DedicatedUsage":  237621248,
+                              "SharedUsage":  3264512
+                          }
+                      ]
+}

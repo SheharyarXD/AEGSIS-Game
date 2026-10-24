@@ -1,0 +1,1058 @@
+# AEGIS: RISE OF THE TITAN
+# PHASE 10 — CINEMATIC TITAN BREACH, AAA-INSPIRED GRAPHICS & LIVING CITY REFINEMENT
+
+## MISSION
+
+You are the Lead AAA Gameplay Animator, Cinematic Director, Principal Three.js Graphics Engineer, Technical Art Director, Destruction/VFX Engineer, Urban Environment Designer and Performance Optimization Engineer for AEGIS: Rise of the Titan.
+
+You are continuing the EXISTING AEGIS game, not creating a prototype.
+
+Working project:
+
+`C:\Users\XD GAMING\Downloads\Work\Agesis Game`
+
+Read the existing Phase 7, Phase 8 and Phase 9 handoff documents, source code, Blender assets, performance reports, live demonstrations and implementation logs before making changes.
+
+**This phase has two primary objectives:**
+
+1. Transform the Y building-breach ability into a spectacular, fully controlled cinematic in which missiles destroy a path, AEGIS automatically flies through the building, and an explosive high-speed exit completes the sequence.
+2. Raise the environmental presentation toward the cinematic visual quality associated with premium action games, especially the material richness and dramatic atmosphere of Arkham Knight, while preserving playable MEDIUM performance on older GPUs and low-end laptops.
+
+Do not use or copy proprietary game assets, shaders or copyrighted environment designs.
+
+The goal is a uniquely recognizable AEGIS world with convincing physical detail and excellent technical optimization.
+
+Do not sacrifice performance simply to add more geometry or particles.
+
+---
+
+# PART A — REBUILD Y AS A FULL CINEMATIC ABILITY
+
+## A1. Fundamental behavior change
+
+The current Phase 9 implementation fires a stationary 3/3/2 missile barrage, creates a traversable corridor and then leaves traversal to the player.
+
+That behavior must now be upgraded.
+
+### New ability: TITAN BREACH — CINEMATIC ASSAULT
+
+The intended sequence:
+
+**Press Y → Target Lock → Armor Deployment → Missile Barrage → Entry Destruction → AEGIS Automatically Accelerates → Cinematic Building Traversal → High-Speed Exit Explosion → Return Player Control.**
+
+This is one uninterrupted, choreographed attack.
+
+The player should NOT have to manually press W, Shift or other movement controls to travel through the building.
+
+The player should NOT have to reach a minimum speed beforehand.
+
+Y must work when AEGIS is:
+
+- Standing on the street.
+- Standing on a rooftop.
+- Hovering motionless.
+- Flying slowly.
+- Already flying toward a target.
+
+The character may automatically transition into powered flight as part of the ability.
+
+While the cinematic is running, regular movement and weapon input should be temporarily disabled or appropriately buffered.
+
+Normal gameplay must resume after the sequence finishes.
+
+Preserve the separate O/F whole-building demolition system.
+
+## A2. Before starting the animation
+
+The ability must verify:
+
+- Armored mode is active.
+- A valid destructible building is targeted.
+- Sufficient energy is available.
+- Launchers are ready.
+- Entrance and exit points are feasible.
+- The building can produce a player-sized traversable passage.
+- Collision and damage geometry can be prepared.
+- The intended exit does not intersect an invalid world boundary or another solid building.
+
+Use actual building geometry, collision information and prepared destructible sections.
+
+Do not begin the cinematic and then discover that the player cannot pass through the building.
+
+If the path is invalid, reject activation with a clear HUD notification.
+
+Existing energy requirements and cooldowns should be preserved or deliberately rebalanced.
+
+---
+
+# PART B — CINEMATIC ANIMATION STORYBOARD
+
+The following timing is an initial creative target. Adjust after reviewing actual gameplay.
+
+Total target duration: approximately 5–7 seconds.
+
+The sequence must feel cinematic without leaving the player waiting unnecessarily.
+
+## Shot 1 — Target Acquisition
+
+Approximate duration: 0.4 seconds.
+
+Camera:
+
+- Smoothly shift toward an over-the-shoulder composition.
+- Frame AEGIS and the target building together.
+- Slightly narrow field of view.
+- Display a precise tactical targeting overlay over the intended breach area.
+
+Animation:
+
+- AEGIS turns toward the structure.
+- Upper torso and helmet align.
+- Shoulders stabilize.
+- Chest reactor and weapon channels brighten subtly.
+- Missile targeting markers acquire multiple structural points.
+
+Audio:
+
+- Low mechanical servo movement.
+- Tactical targeting confirmation.
+- Short digital lock tone.
+- Subtle reactor power increase.
+
+Do not completely obscure the screen with excessive HUD effects.
+
+## Shot 2 — Missile System Deployment
+
+Approximate duration: 0.5 seconds.
+
+Create convincing mechanical deployment:
+
+- Shoulder armor panels separate.
+- Missile launch assemblies extend.
+- Small mechanical locks release.
+- Launch rails rotate toward the target.
+- Armor-mounted lights activate.
+- Character adopts a powerful firing posture.
+
+Use the existing rig, preserving AEGIS's original armored silhouette.
+
+Where necessary, create properly authored animations rather than simple instant transforms.
+
+Use layered animation blending and smooth pose transitions.
+
+## Shot 3 — Coordinated Missile Barrage
+
+Approximate duration: 1.2–1.8 seconds.
+
+Preserve the existing eight-missile capability as the initial default.
+
+Missiles should fire in multiple coordinated waves, not all materialize at once.
+
+Recommended starting choreography:
+
+- Wave 1: three missiles attack the outer facade.
+- Wave 2: three missiles penetrate the building's prepared internal breach corridor.
+- Wave 3: two missiles clear the far-side exit.
+
+Each missile must:
+
+- Launch from a visible weapon socket.
+- Have convincing acceleration and exhaust.
+- Follow a physically coherent trajectory.
+- Avoid visibly passing through intact surfaces.
+- Produce an impact at its actual collision point.
+- Damage real building sections.
+
+Use subtle timing variation to avoid robotic synchronisation.
+
+Camera should follow the barrage through a controlled blend of close and wider views.
+
+Avoid excessive rapid cuts.
+
+## Shot 4 — Entrance Destruction
+
+Approximate duration: 0.5 seconds, overlapping with the barrage.
+
+The entrance facade must break convincingly.
+
+Required effects:
+
+- Irregular fractured wall sections.
+- Glass shattering.
+- Large outward fragments.
+- Concrete chips.
+- Dust.
+- Sparks.
+- Directional smoke.
+- Localized fire where plausible.
+- Structural frames visible beneath the facade.
+
+Create a player-sized opening matching the actual path.
+
+The opening must not resemble a clean rectangular cutout.
+
+Use source-derived damage geometry and prefractured sections with believable material edges.
+
+## Shot 5 — AEGIS Acceleration and Automatic Entry
+
+Approximate duration: 0.6 seconds.
+
+After the entry is confirmed clear, AEGIS launches toward the opening automatically.
+
+Animation:
+
+- Character shifts into an aggressive forward flight pose.
+- Back thrusters flare.
+- Palm and boot thrusters activate appropriately.
+- Energy channels intensify.
+- Body aligns with the prepared trajectory.
+- Character rapidly accelerates toward the entry.
+
+Camera:
+
+- Begin with a dramatic rear three-quarter angle.
+- Blend into a close chase perspective.
+- Briefly emphasize acceleration using field-of-view changes and restrained motion blur where available.
+
+The character must physically move through the existing world.
+
+Do not teleport between entrance and exit.
+
+## Shot 6 — Interior Destruction Traversal
+
+Approximate duration: 1–1.5 seconds.
+
+This is the most important new cinematic section.
+
+AEGIS must visibly travel through the building.
+
+Create or reveal prepared interior damage geometry appropriate to the building type.
+
+Examples:
+
+### Modern office skyscraper
+- Broken glass partitions.
+- Suspended ceiling fragments.
+- Steel framing.
+- Office floor plates.
+- Interior columns.
+- Hanging cable trays.
+- Shattered cladding.
+- Dust illuminated by exterior light.
+
+### Gothic architecture
+- Broken stone vaulting.
+- Fragmented pillars.
+- Heavy masonry.
+- Stone dust.
+- Damaged arches.
+- Structural timber or appropriate internal supports.
+
+### Industrial building
+- Broken piping.
+- Steel beams.
+- Service platforms.
+- Mechanical fixtures.
+- Concrete fragments.
+- Industrial dust and sparks.
+
+The player should experience a sequence of interior structural impacts rather than a dark, empty corridor.
+
+Important:
+
+- Use optimized prepared interior geometry.
+- Do not require complete furnished interiors for every building.
+- Reveal additional detail only along the active breach corridor.
+- Keep surrounding undamaged building geometry intact where appropriate.
+
+During traversal, use a cinematic flight animation with small impacts, armor stabilization, directional debris, and appropriate camera shake.
+
+## Shot 7 — High-Speed Exit Explosion
+
+Approximate duration: 0.6–0.9 seconds.
+
+This is the climax of the ability.
+
+As AEGIS reaches the opposite facade:
+
+1. The far wall fractures.
+2. AEGIS strikes the final weakened surface.
+3. A massive directional burst of glass, concrete and steel erupts outward.
+4. A bright impact flash appears.
+5. Dust and smoke expand from the new opening.
+6. AEGIS emerges at very high speed.
+7. Thruster exhaust intensifies.
+8. The camera swings into a dramatic exterior reveal.
+9. The character clears the building and transitions into normal flight.
+
+The exit should feel significantly more powerful than the entrance.
+
+Create a visible shockwave and a brief directional explosion synchronized to the superhero's emergence.
+
+The blast must not be represented by a flat flame icon.
+
+Use an original multi-layered particle and shader effect.
+
+Consider a brief, subtle time-ramp as AEGIS bursts out, but never make controls feel unresponsive.
+
+## Shot 8 — Cinematic Recovery
+
+Approximate duration: 0.4 seconds.
+
+The camera returns smoothly to the gameplay camera.
+
+Restore full controls.
+
+Preserve the player's momentum, but provide a controllable safe initial velocity so the character does not immediately collide with another building.
+
+The HUD returns to the normal flight layout.
+
+The building continues releasing smoke and falling debris behind the player.
+
+Do not snap the camera or character orientation abruptly.
+
+---
+
+# PART C — BUILD A PROPER CINEMATIC CONTROLLER
+
+Create a dedicated ability state machine compatible with the existing game architecture.
+
+Suggested states:
+
+- IDLE
+- ACQUIRING
+- DEPLOYING
+- BARRAGE
+- ENTRY_CONFIRMED
+- ACCELERATING
+- INTERIOR_TRAVERSAL
+- EXIT_IMPACT
+- RECOVERY
+- COMPLETE
+- ABORTED
+
+The cinematic controller should coordinate:
+
+- Character animation.
+- Camera.
+- Flight trajectory.
+- Missile launches.
+- Damage events.
+- Sound.
+- HUD.
+- VFX.
+- Collision.
+- World streaming.
+- Ability energy and cooldown.
+
+Use event-driven animation markers for major gameplay events.
+
+Do not rely on fragile arbitrary timeouts that assume missiles always hit at exactly the same moment.
+
+### Movement implementation
+
+Use a carefully controlled trajectory or spline-based cinematic movement through the prevalidated corridor, while retaining collision safety.
+
+The trajectory should be responsive to:
+
+- Actual building dimensions.
+- Entry and exit positions.
+- Vertical clearance.
+- Interior obstacles.
+- Nearby buildings.
+- Existing player collider dimensions.
+
+The cinematic controller may temporarily own movement, but it must not silently disable collision or move the player through intact geometry.
+
+The passage should remain physically traversable after the cinematic.
+
+### Camera system
+
+Implement cinematic camera states with:
+
+- Smooth interpolation.
+- Collision avoidance.
+- Dynamic framing.
+- Controlled field of view.
+- Configurable shake.
+- Consistent transitions.
+- Motion-sickness-conscious camera behavior.
+
+Offer a reduced-camera-motion accessibility setting if practical.
+
+Never allow the camera to clip through an intact wall or expose unloaded world sectors.
+
+### Fail-safe behavior
+
+If the breach fails, an asset is missing, or the world unloads unexpectedly:
+
+- Prevent the character from becoming trapped inside geometry.
+- Stop or safely resolve the cinematic.
+- Restore input and camera ownership.
+- Keep damage state consistent.
+- Do not grant a fake completed traversal.
+- Do not strand the character in an unloaded interior.
+
+Include tests for interruption, death, pause, focus loss, restart and repeated activation.
+
+---
+
+# PART D — GRAPHICS REBUILD: CINEMATIC AAA-INSPIRED MATERIAL QUALITY
+
+The next visual upgrade must focus on realism, not simply more objects.
+
+The target is the architectural richness, material depth, wet urban atmosphere and cinematic lighting associated with premium action games such as Batman: Arkham Knight.
+
+Achieve this using original assets and optimized techniques appropriate to a browser renderer.
+
+Do not copy proprietary shaders or textures.
+
+## D1. Professional PBR material overhaul
+
+Inspect every major material family:
+
+- Asphalt.
+- Concrete.
+- Stone.
+- Brick.
+- Glass.
+- Steel.
+- Painted metal.
+- Wet pavement.
+- Sidewalk slabs.
+- Building rooftops.
+- Interior exposed concrete.
+- Damaged masonry.
+- Scorched materials.
+
+Each should have appropriately authored:
+
+- Base color.
+- Roughness.
+- Metallic response where applicable.
+- Normal detail.
+- Ambient occlusion.
+- Surface dirt.
+- Scale-correct texture mapping.
+- Material-specific damage variation.
+
+Use high-quality, appropriately licensed PBR textures from existing project sources, Poly Haven, ambientCG or other verified sources where they materially improve the result.
+
+Record attribution and usage terms.
+
+Build source materials at useful quality, then generate optimized runtime variants.
+
+### Important texture rules
+
+High source texture resolution does not automatically produce high game quality.
+
+The runtime should use:
+
+- Texture atlases.
+- KTX2/Basis compression where appropriate.
+- Reused tiling textures.
+- Detail-normal maps.
+- Macro material variation.
+- Efficient roughness/metallic packing.
+- Sensible texture resolution by screen-space importance.
+- Reduced texture duplication.
+
+Avoid loading a separate 4K texture set for every ordinary building.
+
+## D2. Real architectural depth
+
+Many existing facades still feel flat.
+
+Improve the perceived depth of the city by introducing:
+
+- Window recesses.
+- Frame depth.
+- Mullions.
+- Balcony structures.
+- Cornices.
+- Stone trim.
+- Canopies.
+- Entrance recesses.
+- Rooftop parapets.
+- Mechanical roof detail.
+- Drainpipes.
+- Fire escapes.
+- Storefront structure.
+
+Use geometry where close to the player and shader-based relief or simplified meshes at distance.
+
+Introduce believable parallax interiors in selected windows and lobbies, especially during nighttime scenes.
+
+Do not build full interiors where they are not needed.
+
+## D3. Dramatic urban lighting
+
+Improve lighting for:
+
+- Midday.
+- Overcast afternoon.
+- Sunset.
+- Night.
+- Rainy night.
+- Storm.
+- Fog.
+
+The city should maintain consistent material realism across lighting conditions.
+
+### Night lighting
+
+Develop a sophisticated warm/cool light composition:
+
+- Cool ambient urban tones.
+- Warm streetlights.
+- Carefully selected bright storefronts.
+- Varied interior window illumination.
+- Traffic lights.
+- Occasional illuminated signage.
+- Distant skyline illumination.
+
+Do not use hundreds of independent shadow-casting dynamic lights.
+
+Use emissive surfaces, baked lighting contributions, selected local lights, and approximated light pools.
+
+### Shadow quality
+
+Improve:
+
+- Contact grounding.
+- Shadow softness where affordable.
+- Building-to-street shadows.
+- Character grounding.
+- Appropriate shadow distance.
+- Shadow stability during flight.
+
+Avoid expensive settings that cause crawling, flickering or large FPS losses.
+
+## D4. Wet roads and believable reflections
+
+This is one of the most important cinematic improvements.
+
+Rainy night streets should produce the impression of convincing wet asphalt, reflective puddles and illuminated surfaces.
+
+Use an optimized hybrid approach:
+
+- Material-dependent wetness.
+- Reduced roughness in wet regions.
+- Road-normal variation.
+- Puddle masks.
+- Selected low-cost planar or local reflections where justified.
+- Reflection probes or environment maps.
+- Approximate light reflection streaks.
+- Selective high-quality effects only on capable tiers.
+
+Do not enable full-screen expensive reflections indiscriminately on MEDIUM or LOW.
+
+The pavement should not resemble polished chrome.
+
+Wetness must respond to material type and road shape.
+
+## D5. Atmospheric depth
+
+Improve:
+
+- Aerial perspective.
+- Skyline layering.
+- Distant atmospheric haze.
+- Weather transitions.
+- Dust in selected urban spaces.
+- Rain depth and intensity.
+- Cloud contrast.
+- Sunset tone.
+- Urban nighttime visibility.
+
+Avoid excessive fog hiding weak geometry.
+
+---
+
+# PART E — CITY REALISM: THINK LIKE AN URBAN DESIGNER
+
+The world should feel like a functioning metropolis rather than an exhibition of separate 3D buildings.
+
+Keep the current five-district layout as the foundation, but refine its architectural composition.
+
+## E1. Block-level realism
+
+Give each block a coherent identity.
+
+Nearby buildings should share plausible:
+
+- Street alignment.
+- Frontage.
+- Setbacks.
+- Architectural periods.
+- Building heights.
+- Ground-floor relationships.
+- Window scale.
+- Sidewalk connections.
+- Service access.
+
+Avoid isolated towers randomly placed on open ground.
+
+## E2. New York-inspired sidewalks
+
+Implement properly authored street modules with:
+
+- Raised concrete curbs.
+- Consistent sidewalk slabs.
+- Expansion joints.
+- Corner curb ramps.
+- Crosswalk connections.
+- Manhole covers.
+- Storm drains.
+- Tree pits.
+- Ventilation grates.
+- Hydrants.
+- Utility access.
+- Stained concrete variation.
+- Realistic entrance transitions.
+
+Every important intersection must look believable at pedestrian height.
+
+## E3. Road details
+
+Add or improve:
+
+- Correct lane alignment.
+- Painted road markings.
+- Crosswalks.
+- Stop lines.
+- Direction arrows.
+- Asphalt patches.
+- Cracks.
+- Drainage grates.
+- Parking markings.
+- Loading zones.
+- Road junction wear.
+- Local dirt and staining.
+- Proper curb-to-road transitions.
+
+## E4. Street furniture and infrastructure
+
+Create coherent placement rules for:
+
+- Traffic lights.
+- Pedestrian signals.
+- Streetlights.
+- Guardrails.
+- Metal fences.
+- Construction fences.
+- Bollards.
+- Fire hydrants.
+- Street signs.
+- Benches.
+- Dumpsters.
+- Trash bins.
+- Parking meters.
+- Utility boxes.
+- Bus stops.
+- Bike racks.
+- Trees and planters.
+- Street advertisements.
+- Service entrances.
+
+Each object must have a credible physical scale and placement.
+
+Do not randomly scatter props for the sake of increasing object count.
+
+## E5. Inhabited-world illusion
+
+Introduce affordable signs of urban life:
+
+- Parked vehicles.
+- Sparse but convincing traffic.
+- Selected pedestrian groups.
+- Animated crossing signals.
+- Shopfront illumination.
+- Occasional ventilation steam.
+- Distant traffic sounds.
+- Wind movement in small plants.
+- Building service lights.
+- Localized industrial activity.
+
+Use simplified simulation for remote objects.
+
+Prioritize visual plausibility over population count.
+
+## E6. Greater architectural diversity
+
+Use the original supplied architectural assets and their source families.
+
+Improve composition through:
+
+- Different building heights.
+- Corner-building variations.
+- Facade combinations.
+- Roofline diversity.
+- Different entrance styles.
+- Materials appropriate to each district.
+- Distinct civic landmarks.
+- Dense mixed-use streets.
+- Carefully selected Gothic focal points.
+- Industrial infrastructure.
+
+Do not replace the premium sourced models with generic generated blocks.
+
+---
+
+# PART F — DESTRUCTION AND VFX VISUAL UPGRADE
+
+Preserve the improved Phase 9 destruction mechanics.
+
+Upgrade visual presentation significantly.
+
+## F1. Missile impact
+
+Replace simplistic explosions with a layered effect:
+
+1. Fast impact flash.
+2. Expanding irregular fireball.
+3. Pressure shockwave.
+4. Flying material fragments.
+5. Dust and glass.
+6. Dense initial smoke.
+7. Localized burning.
+8. Falling debris.
+9. Persistent soot and structural damage.
+
+Synchronize effects to the actual contact surface and building material.
+
+## F2. Interior breakthrough impacts
+
+The cinematic should create damage progressively.
+
+As AEGIS travels through the interior:
+
+- Dust blooms around structural contact points.
+- Sparks burst from damaged metal.
+- Fragments fall from ceilings.
+- Broken panels rotate and drop.
+- Glass scatters.
+- Some surfaces glow briefly from friction or impact energy.
+- Light filters through new openings.
+
+Use spatial audio to enhance the sensation of moving through an enclosed structure.
+
+## F3. Exit explosion
+
+Create a unique, visually memorable effect for the final exit.
+
+It should include:
+
+- A directional wall fracture.
+- Expanding debris shell.
+- Glass and masonry.
+- Bright but brief shock flash.
+- Heavy dust blast.
+- Localized fire.
+- Thruster exhaust.
+- Strong acceleration cues.
+- Short cinematic camera shake.
+
+The exit explosion must look different from ordinary missile impacts.
+
+## F4. Laser thermal damage
+
+Ensure the laser continues to produce:
+
+- White-hot impact center.
+- Orange/red heated material.
+- Cooling glow.
+- Smoke and sparks.
+- Persistent dark scorch.
+- Material weakening.
+- Penetration where appropriate.
+
+The glow must remain attached to the actual facade rather than floating in front of it.
+
+## F5. Full building demolition
+
+Keep O/F capable of bringing down complete buildings through actual player-controlled attacks.
+
+Improve falling structures, dust, facade breakage and persistent ruins where possible.
+
+Do not regress total building demolition while rebuilding Y.
+
+---
+
+# PART G — PERFORMANCE: PREMIUM LOOK WITHOUT HEAVY RENDER COST
+
+This is a browser game intended for platforms such as Poki and CrazyGames.
+
+The game must provide attractive visuals on modest hardware.
+
+The developer's current GTX 750 Ti has 2 GB VRAM.
+
+MEDIUM is the primary quality reference.
+
+### Targets
+
+Aim for:
+
+- Approximately 60 FPS during normal MEDIUM gameplay at 720p where feasible.
+- Playable 30+ FPS on appropriately configured lower-end systems.
+- Consistently responsive camera and input.
+- No multi-second world-streaming freezes.
+- No major main-thread stalls during cinematic activation.
+- Stable destruction with bounded debris and VFX.
+- Reasonable GPU memory headroom.
+
+These are aspirational targets. Measure actual results and disclose failures.
+
+### Required techniques
+
+Use:
+
+- Predictive asset streaming.
+- Shader prewarming.
+- GLB preprocessing.
+- GPU-compressed textures.
+- Shared materials.
+- Instancing.
+- Batched meshes.
+- Block-level HLOD.
+- Distance-based geometry and material detail.
+- Simplified collision hulls.
+- Baked environmental lighting where appropriate.
+- Limited dynamic lights.
+- Selective shadow updates.
+- Pooled fire and smoke.
+- Limited transparent overdraw.
+- Precomputed fracture meshes.
+- Preloaded cinematic breach interiors.
+- Time-budgeted scene graph updates.
+- Dynamic resolution when necessary.
+- Strict memory cleanup.
+- Controlled debris activation.
+
+Do not calculate arbitrary mesh fractures during gameplay.
+
+Do not let the new cinematic force the engine to load large interior meshes synchronously after Y is pressed.
+
+Preflight and preload the necessary corridor assets before committing to the animation.
+
+### Quality tiers
+
+LOW:
+- Retain complete street layout and essential architectural details.
+- Simplify particle counts, reflections, shadow resolution and distant props.
+- Maintain a coherent attractive image.
+
+MEDIUM:
+- Primary visual target.
+- Strong PBR materials, realistic streets, good environmental richness and convincing destruction.
+
+HIGH:
+- Improved lighting, reflections, vegetation detail and effects where feasible.
+
+ULTRA:
+- Optional visual enhancements for stronger hardware.
+- Do not assume all devices can use it.
+
+---
+
+# PART H — ACTUAL IMPLEMENTATION ORDER
+
+Follow this sequence:
+
+## Stage 1 — Audit Phase 9
+
+Inspect Y, missile choreography, camera controller, collision sweeps, input ownership, destruction states, source assets, character animation and current performance.
+
+Identify the exact systems to modify.
+
+## Stage 2 — Build the complete cinematic
+
+Implement the full Y state machine and automatic movement.
+
+First test on one mid-rise office building.
+
+Verify the player reaches the opposite side without teleports or collision bypass.
+
+## Stage 3 — Character and camera polish
+
+Improve armor poses, shoulder deployment, thrusters, cinematic camera movement, entry/exit timing, and recovery.
+
+## Stage 4 — Breach visual overhaul
+
+Upgrade facade fracture, interior traversal, smoke, dust, debris and the final explosive exit.
+
+## Stage 5 — Graphics/material pass
+
+Improve PBR materials, reflections, lighting, surface detail and atmospheric response.
+
+First complete one exemplary rainy-night downtown block.
+
+## Stage 6 — Living city detail
+
+Improve road realism, sidewalks, street furniture, building entrances, signage, fences, traffic and architectural variation.
+
+## Stage 7 — Citywide rollout
+
+Extend the successful material and environment standards across the existing districts.
+
+## Stage 8 — Performance optimization
+
+Profile all improvements and address CPU/GPU spikes.
+
+## Stage 9 — Final verification
+
+Run live browser tests, gameplay recordings, visual reviews and regression checks.
+
+Do not claim completion unless the implemented result is actually demonstrated.
+
+---
+
+# PART I — REQUIRED DEMONSTRATIONS
+
+Produce real browser footage and screenshots for:
+
+### 1. Ground-based Y cinematic
+
+AEGIS stands still on a street.
+
+Player presses Y once.
+
+Missiles fire automatically.
+
+The entrance opens.
+
+AEGIS automatically accelerates and enters.
+
+Camera follows through the building.
+
+AEGIS smashes out the opposite side at high speed.
+
+Normal controls return.
+
+### 2. Hover-based Y cinematic
+
+AEGIS hovers motionless.
+
+Player presses Y once.
+
+The full attack plays without movement input.
+
+### 3. Glass skyscraper sequence
+
+Show broken glass, facade damage, realistic interior structures, and a high-speed exit blast.
+
+### 4. Gothic building sequence
+
+Show distinct stone fracture and masonry dust.
+
+### 5. Nighttime cinematic
+
+Show the missile trails, weapon lights, explosions, armor thrusters and night lighting.
+
+### 6. Realistic street comparison
+
+Before/after MEDIUM screenshots of roads, sidewalks, intersections, building entrances and street detail.
+
+### 7. Rainy-night graphics comparison
+
+Show convincing wetness, lighting, reflections and PBR material response.
+
+### 8. Total demolition regression
+
+Prove O/F still collapses an entire building through actual missile gameplay.
+
+### 9. Streaming and performance test
+
+Measure the full Y cinematic in a dense city sector.
+
+Use actual keyboard input, not fabricated state changes.
+
+Report p50, p95, p99, worst-frame time, FPS, GPU memory usage, draw calls and active physics-body counts.
+
+### 10. Final gameplay compatibility
+
+Verify the existing player, pilot, transformation, HUD, flight, combat, targeting, weather and building destruction systems remain functional.
+
+---
+
+# PART J — STRICT QUALITY RULES
+
+The implementation fails acceptance if:
+
+- Y only opens the path and waits for the player to move.
+- The player must fly at high speed before pressing Y.
+- The cinematic teleports the player.
+- The character visibly clips through intact structures.
+- The camera passes through solid geometry.
+- Missile impacts do not produce corresponding damage.
+- The far-side exit remains blocked.
+- The player is left inside the building after completion.
+- Camera or controls are not restored correctly.
+- The exit lacks a powerful visual climax.
+- Interior traversal looks like movement through an empty dark box.
+- Explosions resemble flat flame emojis.
+- The city still lacks proper footpaths, roads and street-level detail.
+- Materials are flat despite increased texture memory.
+- MEDIUM becomes severely stuttery.
+- Existing whole-building demolition or HUD functionality regresses.
+
+---
+
+# PART K — PRESERVATION AND DELIVERABLES
+
+Before implementation:
+
+- Read the existing handoff documents.
+- Inspect Git status.
+- Preserve all uncommitted user changes.
+- Verify current character/HUD/physics sources.
+- Identify current source asset licenses.
+- Establish a performance baseline.
+
+At completion, provide:
+
+1. Exact files modified.
+2. Updated cinematic state machine.
+3. Player animation clips and rig modifications.
+4. Camera implementation.
+5. Missile barrage integration.
+6. Path and collision verification.
+7. Interior damage system.
+8. Exit explosion VFX.
+9. PBR material improvements.
+10. Road/sidewalk/street-detail improvements.
+11. Environmental lighting improvements.
+12. MEDIUM performance before and after.
+13. Actual gameplay recordings.
+14. Actual comparison screenshots.
+15. Automated and live test results.
+16. Remaining limitations.
+17. Updated handoff documentation for Claude.
+
+Preserve existing character, combat, HUD, audio, input, art and world systems wherever possible.
+
+Do not commit, push, deploy, or publish without authorization.
+
+**START BY INSPECTING THE EXISTING PHASE 9 IMPLEMENTATION. THEN IMPLEMENT THE FULL CINEMATIC Y ABILITY FIRST, FOLLOWED BY THE GRAPHICS AND CITY REALISM PASS. DO NOT STOP AFTER PRODUCING A PLAN.**
+
+# FINAL EXPERIENCE TARGET
+
+The player presses Y once.
+
+AEGIS locks onto a skyscraper.
+
+Armor panels deploy and missiles launch.
+
+The building facade erupts.
+
+The hero rockets into the newly opened passage.
+
+The camera follows him through smoke, falling debris and shattered architecture.
+
+The opposite wall explodes outward as AEGIS emerges at incredible speed.
+
+The camera smoothly returns to gameplay.
+
+Behind the hero remains a real, permanently damaged skyscraper.
+
+**That is the standard this feature must reach.**

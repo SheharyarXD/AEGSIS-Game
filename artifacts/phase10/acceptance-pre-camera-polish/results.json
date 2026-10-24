@@ -1,0 +1,106 @@
+[
+  {
+    "name": "ground",
+    "passed": true,
+    "performance": {
+      "meanMs": 11.526550079491257,
+      "fps": 86.75622741441614,
+      "p50Ms": 13.799999999999272,
+      "p95Ms": 14,
+      "p99Ms": 27.799999999999272,
+      "worstMs": 34.70000000000073
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\ground\\videos\\page@4d30e7df0d868b7a1079bcdab607393a.webm"
+  },
+  {
+    "name": "hover",
+    "passed": true,
+    "performance": {
+      "meanMs": 13.03924731182796,
+      "fps": 76.69154331422915,
+      "p50Ms": 13.899999999997817,
+      "p95Ms": 20.700000000000728,
+      "p99Ms": 34.69999999999709,
+      "worstMs": 41.79999999999927
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\hover\\videos\\page@1ac887bb57eacd18642f87b6ead863c9.webm"
+  },
+  {
+    "name": "roof",
+    "passed": true,
+    "performance": {
+      "meanMs": 14.31022128555433,
+      "fps": 69.88012135140532,
+      "p50Ms": 13.900000000001455,
+      "p95Ms": 20.80000000000291,
+      "p99Ms": 27.799999999999272,
+      "worstMs": 250.20000000000437
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\roof\\videos\\page@b9c61f4f31e92849c1da3ce0869de80d.webm"
+  },
+  {
+    "name": "glass",
+    "passed": true,
+    "performance": {
+      "meanMs": 15.097316636856847,
+      "fps": 66.23693627506728,
+      "p50Ms": 13.900000000001455,
+      "p95Ms": 20.900000000001455,
+      "p99Ms": 41.5,
+      "worstMs": 208.5
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\glass\\videos\\page@8eb3d09bea19b8c70909c8ecc99a9236.webm"
+  },
+  {
+    "name": "gothic",
+    "passed": true,
+    "performance": {
+      "meanMs": 13.056968641114985,
+      "fps": 76.58745513496203,
+      "p50Ms": 13.899999999997817,
+      "p95Ms": 20.799999999999272,
+      "p99Ms": 34.70000000000073,
+      "worstMs": 62.5
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\gothic\\videos\\page@0ac29afc15f868214b63465e8a012f5e.webm"
+  },
+  {
+    "name": "night",
+    "passed": true,
+    "performance": {
+      "meanMs": 14.383921568621608,
+      "fps": 69.52206984926077,
+      "p50Ms": 13.899999999997817,
+      "p95Ms": 20.899999999997817,
+      "p99Ms": 41.60000000000218,
+      "worstMs": 138.90000000000146
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\night\\videos\\page@22362223698201ee3f1714f0525234d1.webm"
+  },
+  {
+    "name": "slow",
+    "passed": true,
+    "performance": {
+      "meanMs": 13.9020295202952,
+      "fps": 71.93194335691251,
+      "p50Ms": 13.899999999997817,
+      "p95Ms": 20.900000000001455,
+      "p99Ms": 41.69999999999709,
+      "worstMs": 138.90000000000146
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\slow\\videos\\page@d785379608ded165f19902b46bd27ec9.webm"
+  },
+  {
+    "name": "fast",
+    "passed": true,
+    "performance": {
+      "meanMs": 21.121750663145782,
+      "fps": 47.34456039881423,
+      "p50Ms": 20.799999999999272,
+      "p95Ms": 27.900000000001455,
+      "p99Ms": 76.40000000000146,
+      "worstMs": 312.5
+    },
+    "video": "C:\\Users\\XD GAMING\\Downloads\\Work\\Agesis Game\\artifacts\\phase10\\acceptance\\fast\\videos\\page@6c8cf0739984347dbdfe643a7d138814.webm"
+  }
+]

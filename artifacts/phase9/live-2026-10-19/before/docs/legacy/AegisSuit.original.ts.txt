@@ -1,0 +1,293 @@
+import {
+  BufferGeometry,
+  CapsuleGeometry,
+  Color,
+  CylinderGeometry,
+  DataTexture,
+  Group,
+  Mesh,
+  MeshPhysicalMaterial,
+  MeshStandardMaterial,
+  Object3D,
+  RGBAFormat,
+  RepeatWrapping,
+  SphereGeometry,
+  TorusGeometry,
+} from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { FlightState } from './FlightState';
+
+type SuitMaterial = MeshStandardMaterial | MeshPhysicalMaterial;
+
+interface ArmRig {
+  root: Group;
+  upper: Group;
+  forearm: Group;
+}
+
+interface LegRig {
+  root: Group;
+  upper: Group;
+  lower: Group;
+  foot: Group;
+}
+
+/**
+ * Original AER-7 armor platform. The detail is deliberately built from small,
+ * layered mechanical assemblies instead of borrowing any recognisable costume.
+ */
+export class AegisSuit {
+  public readonly group = new Group();
+  public readonly visual = new Group();
+  public readonly thrusterMounts: Object3D[] = [];
+
+  private readonly wearMap = AegisSuit.createWearMap();
+  private readonly shell = new MeshPhysicalMaterial({
+    color: new Color('#07131f'), metalness: 0.92, roughness: 0.29, roughnessMap: this.wearMap,
+    clearcoat: 0.32, clearcoatRoughness: 0.23, envMapIntensity: 1.8,
+  });
+  private readonly armor = new MeshPhysicalMaterial({
+    color: new Color('#29435a'), metalness: 0.83, roughness: 0.23, roughnessMap: this.wearMap,
+    clearcoat: 0.22, clearcoatRoughness: 0.18, envMapIntensity: 1.55,
+  });
+  private readonly ceramic = new MeshStandardMaterial({
+    color: new Color('#101d2a'), metalness: 0.54, roughness: 0.48, roughnessMap: this.wearMap, envMapIntensity: 1.1,
+  });
+  private readonly actuator = new MeshStandardMaterial({
+    color: new Color('#90adc0'), metalness: 0.96, roughness: 0.16, envMapIntensity: 1.8,
+  });
+  private readonly emitter = new MeshPhysicalMaterial({
+    color: new Color('#8af4ff'), emissive: new Color('#08aee8'), emissiveIntensity: 5.5,
+    metalness: 0.32, roughness: 0.12, clearcoat: 0.7, envMapIntensity: 1.3,
+  });
+  private readonly hotEmitter = new MeshPhysicalMaterial({
+    color: new Color('#c9fbff'), emissive: new Color('#68eaff'), emissiveIntensity: 3.2,
+    metalness: 0.25, roughness: 0.14, clearcoat: 0.6,
+  });
+
+  private readonly spine = new Group();
+  private readonly head = new Group();
+  private readonly leftArm: ArmRig;
+  private readonly rightArm: ArmRig;
+  private readonly leftLeg: LegRig;
+  private readonly rightLeg: LegRig;
+  private readonly stabilizers: Group[] = [];
+  private core!: Mesh<BufferGeometry, SuitMaterial>;
+  private visor!: Mesh<BufferGeometry, SuitMaterial>;
+  private phase = 0;
+
+  constructor() {
+    this.group.name = 'AEGIS // AER-7 EXOSUIT';
+    this.group.add(this.visual);
+    this.visual.position.y = 1.76;
+    this.visual.add(this.spine);
+    this.buildTorso();
+    this.buildHead();
+    this.leftArm = this.buildArm(-1);
+    this.rightArm = this.buildArm(1);
+    this.leftLeg = this.buildLeg(-1);
+    this.rightLeg = this.buildLeg(1);
+    this.visual.add(this.leftArm.root, this.rightArm.root, this.leftLeg.root, this.rightLeg.root);
+    this.buildBackpack();
+
+    this.group.traverse((child) => {
+      if (child instanceof Mesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+      }
+    });
+  }
+
+  public animate(delta: number, state: FlightState, movementAmount: number, bank: number, speed: number): void {
+    const flying = state !== FlightState.Ground && state !== FlightState.Jump;
+    const sprintAmount = Math.min(1, movementAmount);
+    this.phase += delta * (flying ? 4.5 + speed * 0.035 : 6 + sprintAmount * 7);
+    const gait = Math.sin(this.phase) * sprintAmount;
+    const counterGait = Math.sin(this.phase + Math.PI) * sprintAmount;
+    const flightPose = flying ? 1 : 0;
+    const strideScale = flying ? 0.08 : 0.72;
+
+    this.leftLeg.upper.rotation.x = blend(counterGait * strideScale - 0.34 * flightPose, delta, this.leftLeg.upper.rotation.x);
+    this.rightLeg.upper.rotation.x = blend(gait * strideScale - 0.34 * flightPose, delta, this.rightLeg.upper.rotation.x);
+    this.leftLeg.lower.rotation.x = blend(Math.max(0, -counterGait) * 0.58 + 0.42 * flightPose, delta, this.leftLeg.lower.rotation.x);
+    this.rightLeg.lower.rotation.x = blend(Math.max(0, -gait) * 0.58 + 0.42 * flightPose, delta, this.rightLeg.lower.rotation.x);
+    this.leftLeg.foot.rotation.x = blend(-0.12 * flightPose, delta, this.leftLeg.foot.rotation.x);
+    this.rightLeg.foot.rotation.x = blend(-0.12 * flightPose, delta, this.rightLeg.foot.rotation.x);
+
+    this.leftArm.upper.rotation.x = blend(gait * strideScale - 0.46 * flightPose, delta, this.leftArm.upper.rotation.x);
+    this.rightArm.upper.rotation.x = blend(counterGait * strideScale - 0.46 * flightPose, delta, this.rightArm.upper.rotation.x);
+    this.leftArm.forearm.rotation.x = blend(0.22 * flightPose + Math.max(0, -gait) * 0.22, delta, this.leftArm.forearm.rotation.x);
+    this.rightArm.forearm.rotation.x = blend(0.22 * flightPose + Math.max(0, -counterGait) * 0.22, delta, this.rightArm.forearm.rotation.x);
+    this.leftArm.upper.rotation.z = blend(-0.18 * flightPose - bank * 0.06, delta, this.leftArm.upper.rotation.z);
+    this.rightArm.upper.rotation.z = blend(0.18 * flightPose - bank * 0.06, delta, this.rightArm.upper.rotation.z);
+
+    const targetPitch = flying ? 0.34 + Math.min(0.13, speed / 520) : 0;
+    this.visual.rotation.x = blend(targetPitch, delta, this.visual.rotation.x);
+    this.visual.rotation.z = blend(bank * 0.23, delta, this.visual.rotation.z);
+    this.spine.rotation.y = blend(-bank * 0.12, delta, this.spine.rotation.y);
+    this.head.rotation.y = blend(-bank * 0.18, delta, this.head.rotation.y);
+    this.visual.position.y = 1.76 + (flying ? Math.sin(this.phase * 1.7) * 0.025 : Math.abs(Math.sin(this.phase)) * sprintAmount * 0.045);
+
+    const deployment = flightPose * (0.45 + Math.min(0.55, speed / 70));
+    this.stabilizers[0].rotation.y = blend(-deployment, delta, this.stabilizers[0].rotation.y);
+    this.stabilizers[1].rotation.y = blend(deployment, delta, this.stabilizers[1].rotation.y);
+    const pulse = 1 + Math.sin(this.phase * 2.1) * 0.045 + (state === FlightState.Boost ? 0.08 : 0);
+    this.core.scale.setScalar(pulse);
+    this.emitter.emissiveIntensity = 4.9 + pulse * (state === FlightState.Boost ? 2.6 : 1.15);
+    this.hotEmitter.emissiveIntensity = 2.8 + pulse * (state === FlightState.Boost ? 1.5 : 0.65);
+    this.visor.scale.x = 1 + Math.sin(this.phase * 1.4) * 0.012;
+  }
+
+  private buildTorso(): void {
+    const pelvis = new Group();
+    pelvis.position.y = -0.66;
+    this.spine.add(pelvis);
+    this.part(pelvis, new RoundedBoxGeometry(1.06, 0.46, 0.63, 4, 0.09), this.shell, 0, 0, 0);
+    this.part(pelvis, new RoundedBoxGeometry(1.28, 0.2, 0.58, 3, 0.05), this.armor, 0, -0.14, 0.08);
+    for (const x of [-0.35, 0.35]) {
+      this.part(pelvis, new CylinderGeometry(0.12, 0.12, 0.1, 12), this.actuator, x, -0.02, 0.37).rotation.x = Math.PI / 2;
+    }
+
+    const chest = new Group();
+    chest.position.y = 0.08;
+    this.spine.add(chest);
+    this.part(chest, new RoundedBoxGeometry(1.28, 1.28, 0.62, 6, 0.12), this.shell, 0, 0, 0);
+    this.part(chest, new RoundedBoxGeometry(1.42, 0.44, 0.71, 5, 0.08), this.armor, 0, 0.48, 0.02);
+    this.part(chest, new RoundedBoxGeometry(0.44, 1.0, 0.16, 4, 0.04), this.ceramic, -0.37, -0.05, 0.34);
+    this.part(chest, new RoundedBoxGeometry(0.44, 1.0, 0.16, 4, 0.04), this.ceramic, 0.37, -0.05, 0.34);
+    this.core = this.part(chest, new CylinderGeometry(0.2, 0.3, 0.11, 6), this.emitter, 0, -0.08, 0.42);
+    this.core.rotation.x = Math.PI / 2;
+    const coreRing = this.part(chest, new TorusGeometry(0.36, 0.055, 8, 24), this.actuator, 0, -0.08, 0.39);
+    coreRing.rotation.x = Math.PI / 2;
+    for (const x of [-0.59, 0.59]) {
+      this.part(chest, new RoundedBoxGeometry(0.14, 0.76, 0.11, 3, 0.03), this.actuator, x, -0.05, 0.37).rotation.z = x * -0.15;
+    }
+    const collar = this.part(chest, new TorusGeometry(0.38, 0.1, 8, 18, Math.PI), this.armor, 0, 0.61, 0.09);
+    collar.rotation.x = Math.PI;
+  }
+
+  private buildHead(): void {
+    this.head.position.set(0, 1.34, 0.02);
+    this.spine.add(this.head);
+    this.part(this.head, new CylinderGeometry(0.31, 0.35, 0.24, 10), this.ceramic, 0, -0.23, -0.02);
+    this.part(this.head, new RoundedBoxGeometry(0.74, 0.73, 0.65, 5, 0.12), this.shell, 0, 0.12, 0.02);
+    this.part(this.head, new RoundedBoxGeometry(0.8, 0.19, 0.12, 3, 0.04), this.armor, 0, 0.35, 0.33).rotation.z = -0.12;
+    this.visor = this.part(this.head, new RoundedBoxGeometry(0.55, 0.16, 0.055, 3, 0.025), this.emitter, 0.02, 0.1, 0.375);
+    this.visor.rotation.z = -0.13;
+    this.part(this.head, new RoundedBoxGeometry(0.18, 0.5, 0.68, 3, 0.04), this.armor, -0.42, 0.06, 0);
+    this.part(this.head, new RoundedBoxGeometry(0.14, 0.56, 0.68, 3, 0.04), this.armor, 0.42, 0.04, 0);
+    for (const x of [-0.36, 0.36]) {
+      this.part(this.head, new CylinderGeometry(0.07, 0.07, 0.14, 10), this.hotEmitter, x, 0.12, 0.37).rotation.x = Math.PI / 2;
+    }
+  }
+
+  private buildArm(side: number): ArmRig {
+    const root = new Group();
+    root.position.set(side * 0.92, 0.55, 0);
+    const shoulder = this.part(root, new SphereGeometry(0.32, 16, 10), this.armor, side * 0.04, 0.02, 0);
+    shoulder.scale.set(1.28, 0.76, 1.12);
+    this.part(root, new RoundedBoxGeometry(0.4, 0.26, 0.64, 3, 0.06), this.shell, side * 0.04, 0.12, 0);
+
+    const upper = new Group();
+    upper.position.set(side * 0.04, -0.22, 0);
+    root.add(upper);
+    this.part(upper, new CapsuleGeometry(0.2, 0.48, 5, 10), this.ceramic, 0, -0.42, 0);
+    this.part(upper, new RoundedBoxGeometry(0.42, 0.7, 0.44, 4, 0.09), this.shell, side * 0.02, -0.42, 0.02);
+    this.part(upper, new RoundedBoxGeometry(0.12, 0.49, 0.1, 3, 0.03), this.actuator, side * 0.21, -0.42, 0.18);
+
+    const forearm = new Group();
+    forearm.position.set(0, -0.86, 0);
+    upper.add(forearm);
+    this.part(forearm, new SphereGeometry(0.19, 12, 8), this.actuator, 0, 0, 0.04);
+    this.part(forearm, new RoundedBoxGeometry(0.48, 0.67, 0.47, 4, 0.1), this.armor, side * 0.02, -0.36, 0.02);
+    this.part(forearm, new RoundedBoxGeometry(0.15, 0.48, 0.09, 3, 0.025), this.emitter, side * 0.2, -0.36, 0.24);
+
+    const hand = new Group();
+    hand.position.set(0, -0.77, 0.04);
+    forearm.add(hand);
+    this.part(hand, new RoundedBoxGeometry(0.35, 0.32, 0.35, 4, 0.08), this.shell, 0, -0.12, 0.08);
+    const palm = this.part(hand, new CylinderGeometry(0.1, 0.13, 0.06, 12), this.hotEmitter, 0, -0.1, 0.27);
+    palm.rotation.x = Math.PI / 2;
+    return { root, upper, forearm };
+  }
+
+  private buildLeg(side: number): LegRig {
+    const root = new Group();
+    root.position.set(side * 0.34, -0.72, 0);
+    const upper = new Group();
+    root.add(upper);
+    this.part(upper, new CapsuleGeometry(0.25, 0.46, 5, 10), this.ceramic, 0, -0.37, 0);
+    this.part(upper, new RoundedBoxGeometry(0.5, 0.83, 0.54, 4, 0.1), this.shell, 0, -0.38, 0);
+    this.part(upper, new RoundedBoxGeometry(0.18, 0.54, 0.11, 3, 0.03), this.armor, side * 0.22, -0.35, 0.2);
+
+    const lower = new Group();
+    lower.position.set(0, -0.96, 0.03);
+    upper.add(lower);
+    this.part(lower, new SphereGeometry(0.24, 12, 8), this.actuator, 0, 0, 0.12);
+    this.part(lower, new CapsuleGeometry(0.19, 0.44, 5, 10), this.ceramic, 0, -0.42, 0);
+    this.part(lower, new RoundedBoxGeometry(0.49, 0.76, 0.52, 4, 0.09), this.armor, 0, -0.42, -0.01);
+    this.part(lower, new RoundedBoxGeometry(0.15, 0.48, 0.1, 3, 0.025), this.emitter, side * 0.2, -0.43, 0.2);
+
+    const foot = new Group();
+    foot.position.set(0, -0.94, 0.08);
+    lower.add(foot);
+    this.part(foot, new RoundedBoxGeometry(0.56, 0.28, 0.92, 4, 0.09), this.shell, 0, -0.1, 0.17);
+    this.part(foot, new RoundedBoxGeometry(0.4, 0.12, 0.74, 3, 0.03), this.armor, 0, -0.25, 0.2);
+    return { root, upper, lower, foot };
+  }
+
+  private buildBackpack(): void {
+    const pack = new Group();
+    pack.position.set(0, 0.08, -0.42);
+    this.spine.add(pack);
+    this.part(pack, new RoundedBoxGeometry(0.98, 0.82, 0.38, 4, 0.08), this.ceramic, 0, 0.02, 0);
+    this.part(pack, new RoundedBoxGeometry(0.68, 0.58, 0.15, 3, 0.04), this.shell, 0, 0.02, -0.22);
+    for (const side of [-1, 1]) {
+      const nacelle = new Group();
+      nacelle.position.set(side * 0.35, -0.05, -0.4);
+      pack.add(nacelle);
+      this.part(nacelle, new CylinderGeometry(0.18, 0.25, 0.34, 12), this.actuator, 0, 0, 0).rotation.x = Math.PI / 2;
+      this.part(nacelle, new CylinderGeometry(0.11, 0.18, 0.08, 12), this.emitter, 0, 0, -0.2).rotation.x = Math.PI / 2;
+      const mount = new Object3D();
+      mount.position.set(0, 0, -0.33);
+      nacelle.add(mount);
+      this.thrusterMounts.push(mount);
+
+      const stabilizer = new Group();
+      stabilizer.position.set(side * 0.28, 0.16, -0.08);
+      pack.add(stabilizer);
+      this.part(stabilizer, new RoundedBoxGeometry(0.55, 0.08, 0.25, 3, 0.025), this.armor, side * 0.28, 0, 0);
+      this.stabilizers.push(stabilizer);
+    }
+  }
+
+  private part(parent: Object3D, geometry: BufferGeometry, material: SuitMaterial, x: number, y: number, z: number): Mesh<BufferGeometry, SuitMaterial> {
+    const mesh = new Mesh(geometry, material);
+    mesh.position.set(x, y, z);
+    parent.add(mesh);
+    return mesh;
+  }
+
+  private static createWearMap(): DataTexture {
+    const size = 32;
+    const data = new Uint8Array(size * size * 4);
+    for (let index = 0; index < size * size; index += 1) {
+      const grain = 116 + ((index * 37 + Math.floor(index / size) * 19) % 78);
+      const offset = index * 4;
+      data[offset] = grain;
+      data[offset + 1] = grain;
+      data[offset + 2] = grain;
+      data[offset + 3] = 255;
+    }
+    const texture = new DataTexture(data, size, size, RGBAFormat);
+    texture.wrapS = RepeatWrapping;
+    texture.wrapT = RepeatWrapping;
+    texture.repeat.set(3, 3);
+    texture.needsUpdate = true;
+    return texture;
+  }
+}
+
+function blend(target: number, delta: number, current: number): number {
+  return current + (target - current) * Math.min(1, delta * 10);
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "name": "code-final",
+    "started": "2026-10-19T04:21:01.415Z",
+    "finished": "2026-10-19T04:21:15.112Z",
+    "exitCode": 0,
+    "previousAttempt": {
+      "name": "code-final",
+      "started": "2026-10-19T01:03:03.615Z",
+      "finished": "2026-10-19T01:03:16.978Z",
+      "exitCode": 0
+    }
+  },
+  {
+    "name": "browser-final",
+    "started": "2026-10-19T01:03:16.979Z",
+    "finished": "2026-10-19T01:13:04.352Z",
+    "exitCode": 0
+  },
+  {
+    "name": "production-final",
+    "started": "2026-10-19T04:21:15.113Z",
+    "finished": "2026-10-19T04:23:13.564Z",
+    "exitCode": 0,
+    "previousAttempt": {
+      "name": "production-final",
+      "started": "2026-10-19T01:13:04.352Z",
+      "finished": "2026-10-19T01:15:03.699Z",
+      "exitCode": 0
+    }
+  },
+  {
+    "name": "demolition-footage",
+    "started": "2026-10-19T01:15:03.699Z",
+    "finished": "2026-10-19T01:15:52.804Z",
+    "exitCode": 0
+  },
+  {
+    "name": "presentation-after",
+    "started": "2026-10-19T01:15:52.804Z",
+    "finished": "2026-10-19T01:16:45.962Z",
+    "exitCode": 0
+  },
+  {
+    "name": "cinematic-LOW",
+    "started": "2026-10-19T01:16:45.963Z",
+    "finished": "2026-10-19T01:17:14.080Z",
+    "exitCode": 0
+  },
+  {
+    "name": "cinematic-MEDIUM",
+    "started": "2026-10-19T01:17:14.081Z",
+    "finished": "2026-10-19T01:18:32.338Z",
+    "exitCode": 0
+  },
+  {
+    "name": "cinematic-HIGH",
+    "started": "2026-10-19T01:18:32.338Z",
+    "finished": "2026-10-19T01:19:06.847Z",
+    "exitCode": 0
+  },
+  {
+    "name": "cinematic-ULTRA",
+    "started": "2026-10-19T01:19:06.847Z",
+    "finished": "2026-10-19T01:19:40.537Z",
+    "exitCode": 0
+  },
+  {
+    "name": "streaming-medium",
+    "started": "2026-10-19T01:19:40.538Z",
+    "finished": "2026-10-19T01:21:22.899Z",
+    "exitCode": 0
+  },
+  {
+    "name": "weapons-medium",
+    "started": "2026-10-19T04:20:23.137Z",
+    "finished": "2026-10-19T04:20:23.138Z",
+    "exitCode": 0,
+    "previousAttempt": {
+      "name": "weapons-medium",
+      "started": "2026-10-19T01:21:22.899Z",
+      "finished": "2026-10-19T01:23:01.877Z",
+      "exitCode": 1
+    },
+    "results": "weapons-MEDIUM/results.json",
+    "note": "Demolition passed originally; corrected overlap fixture passed in a separate serialized browser run. Original failed attempt retained."
+  }
+]

@@ -1,0 +1,3 @@
+import {defineConfig} from '@playwright/test';
+process.env.AEGIS_GAMEPLAY_ARTIFACTS='artifacts/phase10/gameplay-regression';
+export default defineConfig({testDir:'tests',testMatch:['browser.spec.mjs','environment.browser.spec.mjs','integration.browser.spec.mjs','architecture.browser.spec.mjs','city-redesign.browser.spec.mjs','visibility-destruction.browser.spec.mjs','world-realism.browser.spec.mjs','phase8.browser.spec.mjs','phase10.browser.spec.mjs'],workers:1,timeout:180000,expect:{timeout:20000},outputDir:'artifacts/phase10/test-results',use:{channel:'chrome',headless:true,viewport:{width:1280,height:720},baseURL:'http://127.0.0.1:5192',screenshot:'only-on-failure'},reporter:[['list'],['json',{outputFile:'artifacts/phase10/browser-results.json'}]]});

@@ -4,3 +4,7 @@ test-results/
 playwright-report/
 assets-source/
 artifacts/baseline-src/
+tools/
+art/aegis-hero/renders/
+art/aegis-hero/export/
+*.blend1

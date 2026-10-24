@@ -1,0 +1,45 @@
+{
+  "baselineFiles": 241,
+  "changed": [
+    {
+      "file": "scripts/phase9-destruction-performance.mjs",
+      "before": "6f012ddb282dafdd670cb63a8050aaa96eca92f48675b86415cebd0c78741804",
+      "after": "5f4d1b10e84992276ac59f97c2eb65f75929fd376e968f5aaeb544de263081ac"
+    },
+    {
+      "file": "scripts/phase9-live-acceptance.mjs",
+      "before": "48c9b8486b59d65438828a041bdea1797ad4a7a95c04a8df9da5768dd5e2d32a",
+      "after": "101f4e0aedf12882e747deda0efeb57dae296b0d906d0781b39e40a1ae1c42be"
+    },
+    {
+      "file": "scripts/phase9-report.mjs",
+      "before": "2fe952dff8356d7a700f3a69c01b14e2aa0946dd6933cb8dde1538124f58fe30",
+      "after": "1bbb45c8d76ad7eb5f86a2488ca8f00389e813ae754048e48cb19f1a3e62e055"
+    },
+    {
+      "file": "scripts/phase9-review-check.mjs",
+      "before": "2ca93092ab3920f8eca9874764561f8cee2384bf1913da121438a1d44b1fed85",
+      "after": "027b5d53e0fb5abf85aa8e612ff8d495a163634a162449d07a11eb410edd5b1d"
+    },
+    {
+      "file": "docs/PHASE9-CODEX-TO-CLAUDE-HANDOFF.md",
+      "before": "17deee21f78d1313182db0ba1f249cfe4a88f1501509d5e5f64724ed24c03821",
+      "after": "93f18294f8586a1012f69dbab6e9fafabd07a6fceb5ef376787d9a826b315fff"
+    },
+    {
+      "file": "package.json",
+      "before": "301de81de6b65d5b719bdcd31a29b88d118f55f80da1a3dcc86fd078aec058bb",
+      "after": "a0381f9a4e3f55e41d0749adda0d994cd920be201a5d8c782ec056ab336ef053"
+    }
+  ],
+  "runtimeSourceChanged": [],
+  "addedTools": [
+    "scripts/phase9-live-code-checks.mjs",
+    "scripts/phase9-live-matrix.mjs",
+    "scripts/phase9-live-report.mjs",
+    "scripts/phase9-production-smoke.mjs",
+    "scripts/phase9-review-browser.mjs",
+    "scripts/phase9-roof-view-probe.mjs",
+    "docs/PHASE9-LIVE-VERIFICATION.md"
+  ]
+}

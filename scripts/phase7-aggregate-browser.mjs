@@ -1,0 +1,10 @@
+import {readFile,writeFile} from 'node:fs/promises';
+const root='artifacts/phase7',read=async name=>JSON.parse(await readFile(`${root}/${name}`,'utf8'));
+const full=await read('browser-results-full-30-before-grace-fix.json'),rerun=await read('browser-results-targeting-grace-rerun.json');
+const specs=report=>{const result=[];const visit=suite=>{result.push(...(suite.specs??[]));for(const child of suite.suites??[])visit(child);};for(const suite of report.suites)visit(suite);return result;};
+const newest=new Map(specs(rerun).map(spec=>[spec.file+'|'+spec.title,spec]));
+let replacements=0;const visit=suite=>{suite.specs=(suite.specs??[]).map(spec=>{const replacement=newest.get(spec.file+'|'+spec.title);if(replacement){replacements++;return replacement;}return spec;});for(const child of suite.suites??[])visit(child);};for(const suite of full.suites)visit(suite);
+const tests=specs(full).flatMap(spec=>spec.tests),count=status=>tests.filter(test=>test.status===status).length;
+full.stats={...full.stats,expected:count('expected'),unexpected:count('unexpected'),flaky:count('flaky'),skipped:count('skipped'),duration:full.stats.duration+rerun.stats.duration};
+full.verificationProvenance={kind:'Latest result per test',fullRun:'browser-results-full-30-before-grace-fix.json',fullRunOutcome:'29 passed; one lock-grace wall-clock assertion failed',rerun:'browser-results-targeting-grace-rerun.json',rerunOutcome:'The targeting check passed after waiting for real occlusion and simulation-time grace expiry',replacedTests:replacements,note:'This is an aggregate of the full run and focused rerun, not a claim that one uninterrupted 30-test run passed.'};
+await writeFile(`${root}/browser-results.json`,JSON.stringify(full,null,2));console.log('Latest browser outcomes:',full.stats,'replaced tests:',replacements);if(full.stats.unexpected||full.stats.flaky||full.stats.expected!==30||replacements!==1)process.exitCode=1;

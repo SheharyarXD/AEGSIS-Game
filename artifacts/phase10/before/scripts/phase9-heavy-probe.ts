@@ -1,0 +1,5 @@
+import {Vector3} from 'three';
+import {architectureFixture} from '../tests/helpers/architecture-fixture';
+import {RAPIER} from '../src/physics/PhysicsWorld';
+const f=await architectureFixture(235),b=f.building,origin=new Vector3(b.x,3.5,b.z+b.d/2+30),direction=new Vector3(0,0,-1);f.architecture.setQuality('MEDIUM');
+try{for(let i=0;i<9;i++){f.physics.world.step();const hit=f.physics.world.castRayAndGetNormal(new RAPIER.Ray(origin,direction),160,true,RAPIER.QueryFilterFlags.ONLY_FIXED,undefined,undefined,undefined,c=>f.physics.surfaces.get(c.handle)?.kind!=='debris');if(!hit)break;const p=origin.clone().addScaledVector(direction,hit.timeOfImpact);f.architecture.blast(p,3,70,direction,{kind:'missile',mode:'demolition'});for(let j=0;j<30;j++){f.physics.world.step();f.architecture.update(1/60,origin,true);}const s=f.architecture.states.get(b.id)!;console.log(JSON.stringify({shot:i+1,p:p.toArray(),stage:s.stage,supports:f.catalog.components.filter((c:any)=>c.family===b.family&&c.structural&&c.floor<=1).map((c:any)=>({id:c.id,floor:c.floor,hp:s.hp.get(c.id)??c.hp,broken:s.broken.has(c.id)}))}));if(s.stage==='collapsed')break;}}finally{f.dispose();}

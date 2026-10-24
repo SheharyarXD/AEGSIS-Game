@@ -1,0 +1,146 @@
+[
+  {
+    "name": "glass",
+    "id": 235,
+    "eye": [
+      182.33403205871582,
+      20,
+      -346.5
+    ],
+    "point": [
+      177.33403205871582,
+      18,
+      -372.5
+    ],
+    "player": [
+      177.33403205871582,
+      16,
+      -352.5
+    ],
+    "before": {
+      "supportedBuildings": 3,
+      "damagedBuildings": 0,
+      "brokenComponents": 0,
+      "activeDebris": 0,
+      "staticDebris": 0,
+      "debrisCap": 24,
+      "maxActivationMs": 0,
+      "states": []
+    },
+    "after": {
+      "supportedBuildings": 3,
+      "damagedBuildings": 1,
+      "brokenComponents": 36,
+      "activeDebris": 24,
+      "staticDebris": 0,
+      "debrisCap": 24,
+      "maxActivationMs": 18.5,
+      "states": [
+        {
+          "id": 235,
+          "family": "aer_glass",
+          "broken": 36,
+          "stage": "local",
+          "colliders": 293
+        }
+      ]
+    },
+    "weapons": {
+      "architecture": {
+        "supportedBuildings": 3,
+        "damagedBuildings": 1,
+        "brokenComponents": 24,
+        "activeDebris": 5,
+        "staticDebris": 22,
+        "debrisCap": 24,
+        "maxActivationMs": 18.5,
+        "states": [
+          {
+            "id": 235,
+            "family": "aer_glass",
+            "broken": 24,
+            "stage": "local",
+            "colliders": 305
+          }
+        ]
+      },
+      "beamSeconds": 3.016666666666661,
+      "launches": 2,
+      "mode": "play",
+      "form": "armor"
+    },
+    "errors": []
+  },
+  {
+    "name": "gothic",
+    "id": 211,
+    "eye": [
+      -532.4013977050781,
+      15.910091876983643,
+      -357.7350435256958
+    ],
+    "point": [
+      -537.4013977050781,
+      13.910091876983643,
+      -383.7350435256958
+    ],
+    "player": [
+      -537.4013977050781,
+      11.910091876983643,
+      -363.7350435256958
+    ],
+    "before": {
+      "supportedBuildings": 3,
+      "damagedBuildings": 0,
+      "brokenComponents": 0,
+      "activeDebris": 0,
+      "staticDebris": 0,
+      "debrisCap": 24,
+      "maxActivationMs": 0,
+      "states": []
+    },
+    "after": {
+      "supportedBuildings": 3,
+      "damagedBuildings": 1,
+      "brokenComponents": 33,
+      "activeDebris": 20,
+      "staticDebris": 4,
+      "debrisCap": 24,
+      "maxActivationMs": 11.899999991059303,
+      "states": [
+        {
+          "id": 211,
+          "family": "aer_gothic",
+          "broken": 33,
+          "stage": "local",
+          "colliders": 133
+        }
+      ]
+    },
+    "weapons": {
+      "architecture": {
+        "supportedBuildings": 3,
+        "damagedBuildings": 1,
+        "brokenComponents": 4,
+        "activeDebris": 0,
+        "staticDebris": 9,
+        "debrisCap": 24,
+        "maxActivationMs": 11.899999991059303,
+        "states": [
+          {
+            "id": 211,
+            "family": "aer_gothic",
+            "broken": 4,
+            "stage": "local",
+            "colliders": 91
+          }
+        ]
+      },
+      "beamSeconds": 3.0333333333333274,
+      "launches": 2,
+      "mode": "play",
+      "form": "armor"
+    },
+    "errors": []
+  }
+]

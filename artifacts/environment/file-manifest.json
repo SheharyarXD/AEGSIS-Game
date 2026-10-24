@@ -1,0 +1,614 @@
+{
+  "date": "2026-10-11",
+  "branch": "feature/aegis-cinematic-open-world",
+  "base": "784838c",
+  "originalCheckoutEdited": false,
+  "files": [
+    {
+      "path": "art/environment/README.md",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 3248
+    },
+    {
+      "path": "art/environment/aegis-environment.blend",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2970340
+    },
+    {
+      "path": "art/environment/aegis-environment.blend1",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 2970340
+    },
+    {
+      "path": "art/environment/build.py",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 19260
+    },
+    {
+      "path": "art/environment/textures/atlas-color.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 346703
+    },
+    {
+      "path": "art/environment/textures/atlas-normal.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 431426
+    },
+    {
+      "path": "art/environment/textures/atlas-orm.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 69809
+    },
+    {
+      "path": "artifacts/environment/asset-validation.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 602
+    },
+    {
+      "path": "artifacts/environment/baseline-low.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 899997
+    },
+    {
+      "path": "artifacts/environment/baseline.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1005
+    },
+    {
+      "path": "artifacts/environment/blender-build.log",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 24882
+    },
+    {
+      "path": "artifacts/environment/browser-results.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 16188
+    },
+    {
+      "path": "artifacts/environment/build.log",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2396
+    },
+    {
+      "path": "artifacts/environment/capture-manifest.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 33479
+    },
+    {
+      "path": "artifacts/environment/file-manifest.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 16803
+    },
+    {
+      "path": "artifacts/environment/performance.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 13398
+    },
+    {
+      "path": "artifacts/environment/scenes/01-downtown-day.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 800524
+    },
+    {
+      "path": "artifacts/environment/scenes/02-downtown-night.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 716711
+    },
+    {
+      "path": "artifacts/environment/scenes/03-gothic-night.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 620772
+    },
+    {
+      "path": "artifacts/environment/scenes/04-waterfront-sunset.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 466026
+    },
+    {
+      "path": "artifacts/environment/scenes/05-commercial-heavy-rain.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 547814
+    },
+    {
+      "path": "artifacts/environment/scenes/06-residential-day.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 705046
+    },
+    {
+      "path": "artifacts/environment/scenes/07-rooftop-city.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 533116
+    },
+    {
+      "path": "artifacts/environment/scenes/08-high-altitude.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1156469
+    },
+    {
+      "path": "artifacts/environment/scenes/09-sunrise.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 804750
+    },
+    {
+      "path": "artifacts/environment/scenes/10-sunset.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 503266
+    },
+    {
+      "path": "artifacts/environment/scenes/11-clear-night.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 377552
+    },
+    {
+      "path": "artifacts/environment/scenes/12-thunderstorm.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 680849
+    },
+    {
+      "path": "artifacts/environment/scenes/13-dense-fog.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 796637
+    },
+    {
+      "path": "artifacts/environment/scenes/14-light-snow.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 698668
+    },
+    {
+      "path": "artifacts/environment/scenes/15-heavy-snow.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 823573
+    },
+    {
+      "path": "artifacts/environment/scenes/16-wet-road.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 621268
+    },
+    {
+      "path": "artifacts/environment/scenes/17-high-speed-flight.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 912471
+    },
+    {
+      "path": "artifacts/environment/scenes/18-rooftop-landing.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 827093
+    },
+    {
+      "path": "artifacts/environment/scenes/19-district-traversal.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 904687
+    },
+    {
+      "path": "artifacts/environment/scenes/20-low-weather-gameplay.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 655379
+    },
+    {
+      "path": "artifacts/environment/unit-tests.log",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2882
+    },
+    {
+      "path": "artifacts/environment/vertical-slice/gothic-altitude.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1198194
+    },
+    {
+      "path": "artifacts/environment/vertical-slice/gothic-rooftop.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 726136
+    },
+    {
+      "path": "artifacts/environment/vertical-slice/gothic-street.png",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 620606
+    },
+    {
+      "path": "artifacts/environment/vertical-slice/result.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1475
+    },
+    {
+      "path": "artifacts/environment/videos/flight-districts-rooftop-weather.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 8230288
+    },
+    {
+      "path": "artifacts/environment/videos/page@16374bf6e206e652a64c3f2014082f9d.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 8153291
+    },
+    {
+      "path": "artifacts/environment/videos/page@240a1bde2831fda60a02556b86cd11dc.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 8110192
+    },
+    {
+      "path": "artifacts/environment/videos/page@3c3b25b6b9873a32f177b587a85ce86a.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 8230288
+    },
+    {
+      "path": "artifacts/environment/videos/page@3c43c3c5d4f4672db3c889ff38547b77.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 8281748
+    },
+    {
+      "path": "artifacts/environment/videos/page@a5093d936d8558b8e7f397ebd2d6672d.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 8027787
+    },
+    {
+      "path": "artifacts/environment/videos/page@c930ae1f2b898a6c17503557cd07ff50.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 8181747
+    },
+    {
+      "path": "artifacts/environment/videos/page@f98af2e6c1895fbbe21e149984aa9503.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 7529708
+    },
+    {
+      "path": "artifacts/environment/videos/page@fe9f453bce98de678e236405aa7672fd.webm",
+      "status": "created",
+      "includedInEnvironmentFeature": false,
+      "bytes": 4194304
+    },
+    {
+      "path": "artifacts/performance.json",
+      "status": "modified",
+      "includedInEnvironmentFeature": false,
+      "bytes": 1139
+    },
+    {
+      "path": "artifacts/qa-boss.png",
+      "status": "modified",
+      "includedInEnvironmentFeature": false,
+      "bytes": 1003076
+    },
+    {
+      "path": "artifacts/qa-destruction.png",
+      "status": "modified",
+      "includedInEnvironmentFeature": false,
+      "bytes": 953512
+    },
+    {
+      "path": "artifacts/qa-flight.png",
+      "status": "modified",
+      "includedInEnvironmentFeature": false,
+      "bytes": 965944
+    },
+    {
+      "path": "artifacts/qa-ragdoll-wall.png",
+      "status": "modified",
+      "includedInEnvironmentFeature": false,
+      "bytes": 702377
+    },
+    {
+      "path": "docs/ENVIRONMENT-AUDIT.md",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2187
+    },
+    {
+      "path": "docs/ENVIRONMENT-BOOTSTRAP.patch",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 4977
+    },
+    {
+      "path": "docs/ENVIRONMENT-INTEGRATION.md",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 4197
+    },
+    {
+      "path": "docs/ENVIRONMENT-REPORT.md",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 12663
+    },
+    {
+      "path": "package.json",
+      "status": "modified",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1020
+    },
+    {
+      "path": "playwright.environment.config.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 608
+    },
+    {
+      "path": "public/assets/environment/LICENSE-PolyHaven.txt",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 332
+    },
+    {
+      "path": "public/assets/environment/aegis-city-kit.glb",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2935140
+    },
+    {
+      "path": "public/assets/environment/aegis-landmarks.glb",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1464668
+    },
+    {
+      "path": "public/assets/environment/aegis-skyline-lod.glb",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 934884
+    },
+    {
+      "path": "public/assets/environment/asphalt-diff.webp",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 99302
+    },
+    {
+      "path": "public/assets/environment/asphalt-normal.webp",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 83514
+    },
+    {
+      "path": "public/assets/environment/asphalt-rough.webp",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 89244
+    },
+    {
+      "path": "public/assets/environment/atlas-color.webp",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 104054
+    },
+    {
+      "path": "public/assets/environment/atlas-manifest.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 404
+    },
+    {
+      "path": "public/assets/environment/atlas-normal.webp",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 333736
+    },
+    {
+      "path": "public/assets/environment/atlas-orm.webp",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 43368
+    },
+    {
+      "path": "public/assets/environment/authored-manifest.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 16640
+    },
+    {
+      "path": "public/assets/environment/external-manifest.json",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2395
+    },
+    {
+      "path": "scripts/acquire-environment.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1895
+    },
+    {
+      "path": "scripts/environment-baseline.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1738
+    },
+    {
+      "path": "scripts/environment-capture.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 6179
+    },
+    {
+      "path": "scripts/environment-performance.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2835
+    },
+    {
+      "path": "scripts/environment-report.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 14638
+    },
+    {
+      "path": "scripts/environment-slice.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 1727
+    },
+    {
+      "path": "scripts/prepare-environment-materials.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2617
+    },
+    {
+      "path": "scripts/validate-environment-assets.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2037
+    },
+    {
+      "path": "src/main.ts",
+      "status": "modified",
+      "includedInEnvironmentFeature": true,
+      "bytes": 14661
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 38
+    },
+    {
+      "path": "src/world/City.ts",
+      "status": "modified",
+      "includedInEnvironmentFeature": true,
+      "bytes": 9487
+    },
+    {
+      "path": "src/world/CityLayout.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 5863
+    },
+    {
+      "path": "src/world/DeploymentBay.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 14944
+    },
+    {
+      "path": "src/world/WorldCollision.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 3185
+    },
+    {
+      "path": "src/world/WorldStreaming.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 6820
+    },
+    {
+      "path": "src/world/environment/AssetLibrary.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2141
+    },
+    {
+      "path": "src/world/environment/Atmosphere.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 6163
+    },
+    {
+      "path": "src/world/environment/CityInfrastructure.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 12246
+    },
+    {
+      "path": "src/world/environment/EnvironmentAudio.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 3020
+    },
+    {
+      "path": "src/world/environment/EnvironmentDebug.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 4810
+    },
+    {
+      "path": "src/world/environment/EnvironmentMaterials.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 7886
+    },
+    {
+      "path": "src/world/environment/GpuProfiler.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2465
+    },
+    {
+      "path": "src/world/environment/Precipitation.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 5775
+    },
+    {
+      "path": "src/world/environment/UrbanAmbience.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2619
+    },
+    {
+      "path": "src/world/environment/WeatherState.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 2708
+    },
+    {
+      "path": "tests/environment.browser.spec.mjs",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 7275
+    },
+    {
+      "path": "tests/environment.test.ts",
+      "status": "created",
+      "includedInEnvironmentFeature": true,
+      "bytes": 6830
+    }
+  ]
+}
